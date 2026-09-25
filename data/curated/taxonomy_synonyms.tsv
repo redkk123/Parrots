@@ -1,3 +1,26 @@
-name_in_source	tree_species_burgio2019	source	note
-Strigops habroptilus	Strigops habroptila	GenomeArk	spelling variant (gender agreement)
-Psittacula echo	Psittacula eques	GenomeArk	echo parakeet treated as P. eques in the supertree taxonomy
+name_in_source	tree_species_burgio2019	map_type	source	note
+Strigops habroptilus	Strigops habroptila	spelling	GenomeArk	gender agreement
+Psittacula echo	Psittacula eques	same_taxon	GenomeArk; SRA	echo parakeet treated as P. eques in the supertree taxonomy
+Charminetta wilhelminae	Charmosyna wilhelminae	genus_change	SRA	Charmosyna split (Smith et al. 2020 lories revision)
+Parvipsitta porphyrocephala	Glossopsitta porphyrocephala	genus_change	SRA
+Parvipsitta pusilla	Glossopsitta pusilla	genus_change	SRA
+Pseudeos cardinalis	Chalcopsitta cardinalis	genus_change	SRA
+Saudareos flavoviridis	Trichoglossus flavoviridis	genus_change	SRA
+Saudareos iris	Psitteuteles iris	genus_change	SRA
+Saudareos meyeri	Trichoglossus meyeri	genus_change	SRA
+Saudareos ornata	Trichoglossus ornatus	genus_change	SRA	gender agreement
+Thectocercus acuticaudatus	Psittacara acuticaudatus	genus_change	SRA
+Lophochroa leadbeateri	Cacatua leadbeateri	genus_change	SRA	also in Burgio synonyms
+Amazona tresmariae	Amazona oratrix	split_lumped_in_tree	SRA	Tres Marias amazon; treated within A. oratrix by the tree
+Barnardius barnardi	Barnardius zonarius	split_lumped_in_tree	SRA
+Cacatua citrinocristata	Cacatua sulphurea	split_lumped_in_tree	SRA
+Cyanoramphus cookii	Cyanoramphus novaezelandiae	split_lumped_in_tree	SRA	Norfolk parakeet
+Cyanoramphus hochstetteri	Cyanoramphus novaezelandiae	split_lumped_in_tree	SRA	Reischek's parakeet
+Cyanoramphus saisseti	Cyanoramphus novaezelandiae	split_lumped_in_tree	SRA	New Caledonian parakeet
+Forpus crassirostris	Forpus xanthopterygius	split_lumped_in_tree	SRA
+Northiella narethae	Northiella haematogaster	split_lumped_in_tree	SRA
+Pezoporus flaviventris	Pezoporus wallicus	split_lumped_in_tree	SRA
+Poicephalus fuscicollis	Poicephalus robustus	split_lumped_in_tree	SRA
+Psittacara brevipes	Psittacara holochlorus	split_lumped_in_tree	SRA
+Pyrrhura berlepschi	Pyrrhura melanura	split_lumped_in_tree	SRA	formerly a subspecies of P. melanura
+Pyrrhura chapmani	Pyrrhura melanura	split_lumped_in_tree	SRA	formerly a subspecies of P. melanura

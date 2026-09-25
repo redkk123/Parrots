@@ -1,0 +1,11 @@
+{"shift_value_phyloem": -0.34875, "n_tips_in_fit": 101, "n_tips_mrca_full_tree": 186, "genera": ["Agapornis", "Alisterus", "Aprosmictus", "Barnardius", "Bolbopsittacus", "Chalcopsitta", "Charmosyna", "Cyanoramphus", "Cyclopsitta", "Eclectus", "Eos", "Eunymphicus", "Geoffroyus", "Glossopsitta", "Lathamus", "Lophopsittacus", "Loriculus", "Lorius", "Melopsittacus", "Micropsitta", "Necropsittacus", "Neophema", "Neopsephotus", "Neopsittacus", "Northiella", "Oreopsittacus", "Pezoporus", "Phigys", "Platycercus", "Polytelis", "Prioniturus", "Prosopeia", "Psephotellus", "Psephotus", "Pseudeos", "Psittacula", "Psittaculirostris", "Psitteuteles", "Psittinus", "Purpureicephalus", "Tanygnathus", "Trichoglossus", "Vini"]}
+                    outcome                   dropped   n  n_in_clade   lambda  effect_log       se  pct_effect        p
+    rel_log_life_expectancy                      none 218         101 0.398576   -0.365356 0.120105  -30.605011 0.002642
+      rel_log_max_longevity                      none 171          75 0.408544   -0.256867 0.123126  -22.652856 0.038462
+rel_log_max_longevity_ssadj                      none 152          65 0.191074   -0.196295 0.089400  -17.823036 0.029650
+    rel_log_life_expectancy                   Loriini 175          58 0.249764   -0.389070 0.102560  -32.231292 0.000205
+    rel_log_life_expectancy Platycercini + Pezoporini 195          78 0.315937   -0.329565 0.119187  -28.076347 0.006243
+    rel_log_life_expectancy              Psittaculini 198          81 0.660841   -0.394726 0.159951  -32.613516 0.014452
+    rel_log_life_expectancy     Agapornis + Loriculus 208          91 0.406678   -0.424038 0.126432  -34.560130 0.000948
+    rel_log_life_expectancy             Cyclopsittini 214          97 0.100495   -0.336769 0.069014  -28.592597 0.000002
+    rel_log_life_expectancy             Melopsittacus 217         100 0.396915   -0.363930 0.120049  -30.505987 0.002732

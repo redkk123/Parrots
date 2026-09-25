@@ -72,3 +72,10 @@ Piloto (7–9 genomas VGP, ~100 genes): CPU, ≤ 12 GB RAM. Medir tempo e memór
 ## Histórico
 
 - 2026-09-25: v1.0.
+- 2026-09-25 (Fase 0b, antes de qualquer análise molecular):
+  - Amostra genômica: camadas A–C (105 spp. com expectativa de vida) em [`../phase0b/species_data_matrix.tsv`](../phase0b/species_data_matrix.tsv). Camada D (5–20×) só em sensibilidade.
+  - A convergência (H3) **não** será testada com os rótulos do §7: a análise de regimes não sustenta aumentos independentes (ver `phase0b_report.md` §7).
+  - Adicionado teste dirigido no ramo-tronco de Psittaculidae (aBSREL/RELAX), com a ressalva de evento único.
+  - Adicionadas análises contínuas dentro de Psittaculidae e dentro do restante.
+  - Critério de robustez: mesma direção com a longevidade máxima ajustada pelo tamanho amostral (AnAge). Espécies com `qc_outcomes_inconsistent` só em sensibilidade.
+  - Contrastes irmãos: usar [`../phase0b/sister_pair_contrasts.tsv`](../phase0b/sister_pair_contrasts.tsv). Pares em que os desfechos discordam são marcados como ambíguos.

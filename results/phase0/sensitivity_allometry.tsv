@@ -1,19 +1,19 @@
 analysis	n	lambda	slope	slope_se
-all species	218	0.6534	0.3491	0.03205
-exclude log-SE > 0.2	214	0.4502	0.3775	0.02788
-drop family Psittacidae	16	0.3978	0.3388	0.1218
-drop family Cacatuidae	204	0.6838	0.3392	0.03372
-drop genus Psittacara	210	0.6184	0.355	0.03181
-drop genus Ara	213	0.6607	0.3399	0.03458
-drop genus Pyrrhura	206	0.6656	0.3541	0.03386
-drop genus Poicephalus	211	0.6567	0.3513	0.03247
-drop genus Cacatua	209	0.6502	0.3482	0.03248
-drop genus Amazona	197	0.6442	0.3358	0.03285
-drop genus Psittacula	209	0.7253	0.3627	0.03098
-drop genus Brotogeris	213	0.697	0.3458	0.03267
-drop genus Agapornis	211	0.662	0.3482	0.03267
-drop genus Trichoglossus	206	0.5494	0.3599	0.03199
-drop genus Pionus	213	0.6582	0.3456	0.03171
-drop genus Eos	213	0.6612	0.3519	0.03237
-drop genus Charmosyna	213	0.6822	0.3428	0.03219
-drop genus Neophema	213	0.6282	0.3474	0.03196
+all species	218	0.6534	0.3491	0.0322
+exclude log-SE > 0.2	214	0.4502	0.3775	0.02801
+drop family Psittacidae	16	0.3978	0.3388	0.1302
+drop family Cacatuidae	204	0.6838	0.3392	0.03388
+drop genus Psittacara	210	0.6184	0.355	0.03196
+drop genus Ara	213	0.6607	0.3399	0.03474
+drop genus Pyrrhura	206	0.6656	0.3541	0.03403
+drop genus Poicephalus	211	0.6567	0.3513	0.03263
+drop genus Cacatua	209	0.6502	0.3482	0.03263
+drop genus Amazona	197	0.6442	0.3358	0.03302
+drop genus Psittacula	209	0.7253	0.3627	0.03113
+drop genus Brotogeris	213	0.697	0.3458	0.03283
+drop genus Agapornis	211	0.662	0.3482	0.03283
+drop genus Trichoglossus	206	0.5494	0.3599	0.03215
+drop genus Pionus	213	0.6582	0.3456	0.03186
+drop genus Eos	213	0.6612	0.3519	0.03253
+drop genus Charmosyna	213	0.6822	0.3428	0.03235
+drop genus Neophema	213	0.6282	0.3474	0.03211

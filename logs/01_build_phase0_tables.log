@@ -1,0 +1,13 @@
+/home/user/Parrots/.venv/lib/python3.11/site-packages/rdata/conversion/_conversion.py:918: UserWarning: Missing constructor for R class "phylo". The underlying R object is returned instead.
+  warnings.warn(
+supertree: 413 tips, ultrametric=True, height=46.80 Myr
+AFR file columns: ['Unnamed: 0', 'species', 'afr_5th_percentile']
+phenotype rows: 368; with life expectancy: 218; with LE+mass in tree: 218; LE species not in tree: []
+genome_best_tier          has_life_expectancy
+chromosome_scale          False                    2
+                          True                     7
+draft_or_in_progress      False                    2
+                          True                     7
+none_found_in_this_audit  False                  191
+                          True                   201
+reported_level_unknown    True                     3

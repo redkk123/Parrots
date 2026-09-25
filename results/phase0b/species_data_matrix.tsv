@@ -1,0 +1,414 @@
+species	tree_tip	family	genus	phase0_genome_tier	life_expectancy_years	log_life_expectancy	log_life_expectancy_se	body_mass_g	log_body_mass	max_longevity_years	max_longevity_source	max_longevity_origin	max_longevity_sample_size	max_longevity_quality	best_short_cov_x	best_long_cov_x	best_short_cov_incl_split_taxa_x	n_wgs_biosamples	wgs_bioprojects	in_hains2022_iridian	sra_names	genome_tier	usable_for_gene_level
+Charmosyna multistriata	Charmosyna_multistriata	Psittacidae	Charmosyna	none_found_in_this_audit				40.04	3.69						0	0	0	0		False		none	False
+Charmosyna papou	Charmosyna_papou	Psittacidae	Charmosyna	none_found_in_this_audit	6.779	1.914	0.08424	85.34	4.447	11.3	AnAge	captivity	medium	acceptable	0	0	0	0		False		none	False
+Charmosyna meeki	Charmosyna_meeki	Psittacidae	Charmosyna	none_found_in_this_audit				23.87	3.173						0	0	0	0		False		none	False
+Vini australis	Vini_australis	Psittacidae	Vini	none_found_in_this_audit	8.194	2.103	0.05513	51.22	3.936	13.6	AnAge	captivity	medium	acceptable	0	0	0	0		False		none	False
+Vini peruviana	Vini_peruviana	Psittacidae	Vini	none_found_in_this_audit	3.647	1.294	0.1633	32.89	3.493	18.4	AnAge	captivity	tiny	acceptable	0	0	0	0		False		none	False
+Vini ultramarina	Vini_ultramarina	Psittacidae	Vini	none_found_in_this_audit				35.11	3.559						0	0	0	0		False		none	False
+Vini stepheni	Vini_stepheni	Psittacidae	Vini	none_found_in_this_audit				49.16	3.895						0	0	0	0		False		none	False
+Vini kuhlii	Vini_kuhlii	Psittacidae	Vini	none_found_in_this_audit				55.02	4.008						0	0	0	0		False		none	False
+Phigys solitarius	Phigys_solitarius	Psittacidae	Phigys	none_found_in_this_audit	10.55	2.356	0.06848	93.2	4.535						0	0	0	0		False		none	False
+Charmosyna pulchella	Charmosyna_pulchella	Psittacidae	Charmosyna	none_found_in_this_audit	3.018	1.105	0.1409	34.82	3.55						0	0	0	0		False		none	False
+Charmosyna placentis	Charmosyna_placentis	Psittacidae	Charmosyna	none_found_in_this_audit	5.331	1.674	0.07218	35.81	3.578						0	0	0	0		False		none	False
+Charmosyna josefinae	Charmosyna_josefinae	Psittacidae	Charmosyna	none_found_in_this_audit	5.777	1.754	0.1213	67.13	4.207						0	0	0	0		False		none	False
+Charmosyna wilhelminae	Charmosyna_wilhelminae	Psittacidae	Charmosyna	none_found_in_this_audit				20.04	2.998						0	0	0	0		False		none	False
+Charmosyna rubrigularis	Charmosyna_rubrigularis	Psittacidae	Charmosyna	none_found_in_this_audit				37.01	3.611						0	0	0	0		False		none	False
+Charmosyna stellae	Charmosyna_stellae	Psittacidae	Charmosyna	none_found_in_this_audit	4.161	1.426	0.06611	91.54	4.517						0	0	0	0		False		none	False
+Charmosyna rubronotata	Charmosyna_rubronotata	Psittacidae	Charmosyna	none_found_in_this_audit				26.09	3.262						0	0	0	0		False		none	False
+Charmosyna margarethae	Charmosyna_margarethae	Psittacidae	Charmosyna	none_found_in_this_audit				49.98	3.912						0	0	0	0		False		none	False
+Charmosyna palmarum	Charmosyna_palmarum	Psittacidae	Charmosyna	none_found_in_this_audit				35.11	3.559						0	0	0	0		False		none	False
+Charmosyna diadema	Charmosyna_diadema	Psittacidae	Charmosyna	none_found_in_this_audit				41.14	3.717						0	0	0	0		False		none	False
+Charmosyna amabilis	Charmosyna_amabilis	Psittacidae	Charmosyna	none_found_in_this_audit				38.38	3.648						0	0	0	0		False		none	False
+Charmosyna toxopei	Charmosyna_toxopei	Psittacidae	Charmosyna	none_found_in_this_audit				32.67	3.486						0	0	0	0		False		none	False
+Lorius hypoinochrous	Lorius_hypoinochrous	Psittacidae	Lorius	none_found_in_this_audit				196.8	5.282						29.56	0	29.56	1	PRJNA703800	True	Lorius hypoinochrous	C_short_read_ge20x	True
+Lorius lory	Lorius_lory	Psittacidae	Lorius	none_found_in_this_audit	11.82	2.47	0.05322	199.5	5.296	18.5	AnAge	captivity	medium	acceptable	34.49	0	34.49	1	PRJNA703801	True	Lorius lory	C_short_read_ge20x	True
+Lorius garrulus	Lorius_garrulus	Psittacidae	Lorius	none_found_in_this_audit	8.906	2.187	0.04867	198.6	5.291	26.6	AnAge	captivity	medium	acceptable	32.24	0	32.24	1	PRJNA479580	True	Lorius garrulus	C_short_read_ge20x	True
+Lorius domicella	Lorius_domicella	Psittacidae	Lorius	none_found_in_this_audit	10.54	2.355	0.07262	196.4	5.28	26	AnAge	captivity	medium	acceptable	0	0	0	0		False		none	False
+Lorius albidinucha	Lorius_albidinucha	Psittacidae	Lorius	none_found_in_this_audit				158.4	5.065						0	0	0	0		False		none	False
+Lorius chlorocercus	Lorius_chlorocercus	Psittacidae	Lorius	none_found_in_this_audit	12.28	2.508	0.09292	153.4	5.033						21.16	0	21.16	1	PRJNA703799	True	Lorius chlorocercus	C_short_read_ge20x	True
+Glossopsitta porphyrocephala	Glossopsitta_porphyrocephala	Psittacidae	Glossopsitta	none_found_in_this_audit	4.02	1.391	0.05653	43.75	3.779	12	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Glossopsitta pusilla	Glossopsitta_pusilla	Psittacidae	Glossopsitta	none_found_in_this_audit	5.755	1.75	0.06323	36.79	3.605						0	0	0	0		False		none	False
+Glossopsitta concinna	Glossopsitta_concinna	Psittacidae	Glossopsitta	none_found_in_this_audit	8.145	2.097	0.05416	79.86	4.38	11.5	AnAge	captivity	medium	acceptable	82.51	0	82.51	1	PRJNA703788	True	Glossopsitta concinna	C_short_read_ge20x	True
+Eos cyanogenia	Eos_cyanogenia	Psittacidae	Eos	none_found_in_this_audit	5.544	1.713	0.139	141.3	4.951	18.1	AnAge	captivity	tiny	acceptable	29.48	0	29.48	1	PRJNA703652	True	Eos cyanogenia	C_short_read_ge20x	True
+Eos histrio	Eos_histrio	Psittacidae	Eos	none_found_in_this_audit	9.305	2.231	0.09565	167.5	5.121	15.2	AnAge	captivity	small	acceptable	115.6	0.5192	115.6	1	PRJNA640343	True	Eos histrio	C_short_read_ge20x	True
+Eos bornea	Eos_bornea	Psittacidae	Eos	none_found_in_this_audit	10.23	2.325	0.04359	166.6	5.115	24.7	AnAge	captivity	medium	acceptable	0	0	0	0		False		none	False
+Eos reticulata	Eos_reticulata	Psittacidae	Eos	none_found_in_this_audit	9.312	2.231	0.06986	154.4	5.039	16.6	AnAge	captivity	medium	acceptable	0	0	0	0		False		none	False
+Eos squamata	Eos_squamata	Psittacidae	Eos	none_found_in_this_audit	6.036	1.798	0.09758	106.2	4.665	16.5	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Eos semilarvata	Eos_semilarvata	Psittacidae	Eos	none_found_in_this_audit				99.47	4.6						19.44	0	19.44	1	PRJNA640354	True	Eos semilarvata	D_short_read_5_20x	False
+Trichoglossus haematodus	Trichoglossus_haematodus	Psittacidae	Trichoglossus	none_found_in_this_audit	7.402	2.002	0.01818	137.3	4.922	16.1	AnAge	captivity	large	questionable	21.93	0	21.93	1	PRJNA703645	True	Trichoglossus haematodus	C_short_read_ge20x	True
+Trichoglossus rubritorquis	Trichoglossus_rubritorquis	Psittacidae	Trichoglossus	none_found_in_this_audit	7.782	2.052	0.07405	122.6	4.809	16.1	Amniote LHD (Myhrvold et al. 2015)				0	0	0	0		False		none	False
+Trichoglossus chlorolepidotus	Trichoglossus_chlorolepidotus	Psittacidae	Trichoglossus	none_found_in_this_audit	7.676	2.038	0.06777	93.14	4.534						32.34	0	32.34	1	PRJNA703641	True	Trichoglossus chlorolepidotus	C_short_read_ge20x	True
+Psitteuteles iris	Psitteuteles_iris	Psittacidae	Psitteuteles	none_found_in_this_audit	9.631	2.265	0.08619	63.42	4.15	24.1	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Trichoglossus flavoviridis	Trichoglossus_flavoviridis	Psittacidae	Trichoglossus	none_found_in_this_audit	6.043	1.799	0.1563	46.74	3.845						0	0	0	0		False		none	False
+Trichoglossus ornatus	Trichoglossus_ornatus	Psittacidae	Trichoglossus	none_found_in_this_audit	7.724	2.044	0.09582	96.22	4.567	19.4	AnAge	captivity	medium	acceptable	0	0	0	0		False		none	False
+Trichoglossus rubiginosus	Trichoglossus_rubiginosus	Psittacidae	Trichoglossus	none_found_in_this_audit				125.3	4.83						76.83	0	76.83	1	PRJNA480485	True	Trichoglossus rubiginosus	C_short_read_ge20x	True
+Trichoglossus meyeri	Trichoglossus_meyeri	Psittacidae	Trichoglossus	none_found_in_this_audit											0	0	0	0		False		none	False
+Trichoglossus forsteni	Trichoglossus_forsteni	Psittacidae	Trichoglossus	none_found_in_this_audit	8.055	2.086	0.04681	98.98	4.595	16.1	Amniote LHD (Myhrvold et al. 2015)				0	0	0	0		False		none	False
+Trichoglossus johnstoniae	Trichoglossus_johnstoniae	Psittacidae	Trichoglossus	none_found_in_this_audit	7.241	1.98	0.05326	49.81	3.908	17.8	AnAge	captivity	small	acceptable	13.92	0	13.92	1	PRJNA703647	True	Trichoglossus johnstoniae	D_short_read_5_20x	False
+Trichoglossus rosenbergii	Trichoglossus_rosenbergii	Psittacidae	Trichoglossus	none_found_in_this_audit	8.968	2.194	0.1679	108	4.682	16.1	Amniote LHD (Myhrvold et al. 2015)				0	0	0	0		False		none	False
+Trichoglossus weberi	Trichoglossus_weberi	Psittacidae	Trichoglossus	none_found_in_this_audit	8.73	2.167	0.1516	92.6	4.528	16.1	Amniote LHD (Myhrvold et al. 2015)				0	0	0	0		False		none	False
+Trichoglossus moluccanus	Trichoglossus_moluccanus	Psittacidae	Trichoglossus	none_found_in_this_audit	8.801	2.175	0.01595	139.1	4.935	16.1	Amniote LHD (Myhrvold et al. 2015)				17.44	0	17.44	1	PRJNA703648	True	Trichoglossus moluccanus	D_short_read_5_20x	False
+Trichoglossus euteles	Trichoglossus_euteles	Psittacidae	Trichoglossus	none_found_in_this_audit	7.128	1.964	0.07655	77.22	4.347	16	AnAge	captivity	small	acceptable	21.6	0	21.6	1	PRJNA703642	True	Trichoglossus euteles	C_short_read_ge20x	True
+Trichoglossus capistratus	Trichoglossus_capistratus	Psittacidae	Trichoglossus	none_found_in_this_audit	9.725	2.275	0.06485	118.2	4.773	16.1	Amniote LHD (Myhrvold et al. 2015)				0	0	0	0		False		none	False
+Psitteuteles goldiei	Psitteuteles_goldiei	Psittacidae	Psitteuteles	draft_or_in_progress	5.765	1.752	0.04566	50.94	3.931						17.3	0	17.3	1	PRJNA497076	True	Psitteuteles goldiei	D_short_read_5_20x	False
+Chalcopsitta cardinalis	Chalcopsitta_cardinalis	Psittacidae	Chalcopsitta	none_found_in_this_audit	12.59	2.533	0.1299	196.5	5.281						0	0	0	0		False		none	False
+Chalcopsitta atra	Chalcopsitta_atra	Psittacidae	Chalcopsitta	none_found_in_this_audit	10.2	2.322	0.09703	220.6	5.396	17.5	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Chalcopsitta scintillata	Chalcopsitta_scintillata	Psittacidae	Chalcopsitta	none_found_in_this_audit	13.74	2.62	0.06499	200.1	5.299	19.7	AnAge	captivity	medium	acceptable	0	0	0	0		False		none	False
+Chalcopsitta duivenbodei	Chalcopsitta_duivenbodei	Psittacidae	Chalcopsitta	none_found_in_this_audit	9.885	2.291	0.07008	209.2	5.343						16.35	0	16.35	1	PRJNA703566	True	Chalcopsitta duivenbodei	D_short_read_5_20x	False
+Psitteuteles versicolor	Psitteuteles_versicolor	Psittacidae	Psitteuteles	none_found_in_this_audit	4.911	1.592	0.0813	56.37	4.032						0	0	0	0		False		none	False
+Neopsittacus musschenbroekii	Neopsittacus_musschenbroekii	Psittacidae	Neopsittacus	none_found_in_this_audit	6.21	1.826	0.2077	43.89	3.782						0	0	0	0		False		none	False
+Neopsittacus pullicauda	Neopsittacus_pullicauda	Psittacidae	Neopsittacus	none_found_in_this_audit	6.975	1.942	0.1472	35.38	3.566						0	0	0	0		False		none	False
+Oreopsittacus arfaki	Oreopsittacus_arfaki	Psittacidae	Oreopsittacus	none_found_in_this_audit	6.868	1.927	0.09375	17.99	2.89						0	0	0	0		False		none	False
+Pseudeos fuscata	Pseudeos_fuscata	Psittacidae	Pseudeos	none_found_in_this_audit	9.257	2.225	0.051	152.6	5.027	13.4	AnAge	captivity	medium	acceptable	36.38	16.71	36.38	57	PRJNA986688	False	Pseudeos fuscata	B_long_read_ge15x	True
+Melopsittacus undulatus	Melopsittacus_undulatus	Psittacidae	Melopsittacus	chromosome_scale	4.567	1.519	0.009825	37.82	3.633	21	AnAge	captivity	large	high	337.8	62.79	337.8	3	PRJEB1588;PRJNA1008102;PRJNA703802	True	Melopsittacus undulatus	A_chromosome_scale	True
+Psittaculirostris edwardsii	Psittaculirostris_edwardsii	Psittacidae	Psittaculirostris	none_found_in_this_audit	5.131	1.635	0.1053	100.6	4.611	12	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Psittaculirostris desmarestii	Psittaculirostris_desmarestii	Psittacidae	Psittaculirostris	none_found_in_this_audit	1.977	0.6814	0.2006	89.86	4.498	14.9	AnAge	captivity	tiny	acceptable	0	0	0	0		False		none	False
+Psittaculirostris godmani	Psittaculirostris_godmani	Psittacidae	Psittaculirostris	none_found_in_this_audit											0	0	0	0		False		none	False
+Psittaculirostris cervicalis	Psittaculirostris_cervicalis	Psittacidae	Psittaculirostris	none_found_in_this_audit											0	0	0	0		False		none	False
+Psittaculirostris salvadorii	Psittaculirostris_salvadorii	Psittacidae	Psittaculirostris	none_found_in_this_audit	6.9	1.931	0.1632	113.9	4.735	12	AnAge	captivity	tiny	acceptable	0	0	0	0		False		none	False
+Cyclopsitta diophthalma	Cyclopsitta_diophthalma	Psittacidae	Cyclopsitta	none_found_in_this_audit	5.308	1.669	0.0524	39.71	3.682						84.42	0	84.42	1	PRJNA1307197	False	Cyclopsitta diophthalma	C_short_read_ge20x	True
+Cyclopsitta gulielmitertii	Cyclopsitta_gulielmitertii	Psittacidae	Cyclopsitta	none_found_in_this_audit				48.02	3.872						0	0	0	0		False		none	False
+Cyclopsitta nigrifrons	Cyclopsitta_nigrifrons	Psittacidae	Cyclopsitta	none_found_in_this_audit											0	0	0	0		False		none	False
+Cyclopsitta amabilis	Cyclopsitta_amabilis	Psittacidae	Cyclopsitta	none_found_in_this_audit											0	0	0	0		False		none	False
+Cyclopsitta melanogenia	Cyclopsitta_melanogenia	Psittacidae	Cyclopsitta	none_found_in_this_audit											0	0	0	0		False		none	False
+Cyclopsitta coxeni	Cyclopsitta_coxeni	Psittacidae	Cyclopsitta	none_found_in_this_audit											0	0	0	0		False		none	False
+Agapornis swindernianus	Agapornis_swindernianus	Psittacidae	Agapornis	none_found_in_this_audit				40.03	3.69						17.78	0	17.78	3	PRJNA703484;PRJNA971241	True	Agapornis swindernianus	D_short_read_5_20x	False
+Agapornis taranta	Agapornis_taranta	Psittacidae	Agapornis	none_found_in_this_audit	6.479	1.869	0.057	49.05	3.893	14.6	AnAge	captivity	tiny	acceptable	19.4	57.48	19.4	5	PRJNA1191657;PRJNA703485;PRJNA971241	True	Agapornis taranta	B_long_read_ge15x	True
+Agapornis pullarius	Agapornis_pullarius	Psittacidae	Agapornis	none_found_in_this_audit				36.73	3.604	18	AnAge	captivity	small	acceptable	30.46	0	30.46	4	PRJNA703483;PRJNA971241	True	Agapornis pullarius	C_short_read_ge20x	True
+Agapornis nigrigenis	Agapornis_nigrigenis	Psittacidae	Agapornis	none_found_in_this_audit	5.366	1.68	0.03942	41.48	3.725						31.77	77	31.77	32	PRJEB123072;PRJNA1191657;PRJNA1439591;PRJNA703481;PRJNA971241	True	Agapornis nigrigenis	B_long_read_ge15x	True
+Agapornis lilianae	Agapornis_lilianae	Psittacidae	Agapornis	none_found_in_this_audit	5.787	1.756	0.062	37.67	3.629	19.2	AnAge	captivity	medium	acceptable	20.26	72.03	20.26	29	PRJNA1191657;PRJNA1439591;PRJNA667968;PRJNA971241	True	Agapornis lilianae	B_long_read_ge15x	True
+Agapornis personatus	Agapornis_personatus	Psittacidae	Agapornis	none_found_in_this_audit	5.384	1.683	0.03946	46.69	3.844						35.84	53.89	35.84	61	PRJNA1048627;PRJNA1191657;PRJNA1439591;PRJNA703482;PRJNA971241	True	Agapornis personatus	B_long_read_ge15x	True
+Agapornis fischeri	Agapornis_fischeri	Psittacidae	Agapornis	none_found_in_this_audit	6.918	1.934	0.03603	47.18	3.854	12.6	AnAge	captivity	large	questionable	117.2	49.98	117.2	145	PRJNA1048627;PRJNA1172365;PRJNA1439591;PRJNA667967;PRJNA971241	True	Agapornis fischeri	B_long_read_ge15x	True
+Agapornis roseicollis	Agapornis_roseicollis	Psittacidae	Agapornis	draft_or_in_progress	8.203	2.105	0.04034	50.97	3.931						111.9	41.02	111.9	17	PRJNA1172365;PRJNA355979;PRJNA676153;PRJNA971241	True	Agapornis roseicollis	B_long_read_ge15x	True
+Agapornis canus	Agapornis_canus	Psittacidae	Agapornis	none_found_in_this_audit	5.369	1.681	0.05696	30.23	3.409						45.73	0	45.73	4	PRJNA667966;PRJNA971241	True	Agapornis canus;Agapornis canus ablectaneus	C_short_read_ge20x	True
+Loriculus beryllinus	Loriculus_beryllinus	Psittacidae	Loriculus	none_found_in_this_audit				30.34	3.412						25.05	0	25.05	1	PRJNA703627	True	Loriculus beryllinus	C_short_read_ge20x	True
+Loriculus stigmatus	Loriculus_stigmatus	Psittacidae	Loriculus	none_found_in_this_audit				31.55	3.452						0	0	0	0		False		none	False
+Loriculus pusillus	Loriculus_pusillus	Psittacidae	Loriculus	none_found_in_this_audit				27.59	3.317						24.39	0	24.39	1	PRJNA703631	True	Loriculus pusillus	C_short_read_ge20x	True
+Loriculus galgulus	Loriculus_galgulus	Psittacidae	Loriculus	none_found_in_this_audit	4.732	1.554	0.03008	29.96	3.4	14.3	AnAge	captivity	medium	acceptable	29.46	0	29.46	2	PRJNA703629;PRJNA971241	True	Loriculus galgulus	C_short_read_ge20x	True
+Loriculus vernalis	Loriculus_vernalis	Psittacidae	Loriculus	none_found_in_this_audit	7.684	2.039	0.09917	31.11	3.438	10.1	AnAge	captivity	small	acceptable	25.84	0	25.84	1	PRJNA703633	True	Loriculus vernalis	C_short_read_ge20x	True
+Loriculus catamene	Loriculus_catamene	Psittacidae	Loriculus	none_found_in_this_audit											0	0	0	0		False		none	False
+Loriculus flosculus	Loriculus_flosculus	Psittacidae	Loriculus	none_found_in_this_audit				25.13	3.224						0	0	0	0		False		none	False
+Loriculus aurantiifrons	Loriculus_aurantiifrons	Psittacidae	Loriculus	none_found_in_this_audit				15.52	2.742						0	0	0	0		False		none	False
+Loriculus amabilis	Loriculus_amabilis	Psittacidae	Loriculus	none_found_in_this_audit				20.02	2.997						0	0	0	0		False		none	False
+Loriculus philippensis	Loriculus_philippensis	Psittacidae	Loriculus	none_found_in_this_audit	7.233	1.979	0.1343	35.53	3.57	10.1	AnAge	captivity	tiny	acceptable	36.87	0	36.87	1	PRJNA703630	True	Loriculus philippensis	C_short_read_ge20x	True
+Loriculus sclateri	Loriculus_sclateri	Psittacidae	Loriculus	none_found_in_this_audit											0	0	0	0		False		none	False
+Loriculus tener	Loriculus_tener	Psittacidae	Loriculus	none_found_in_this_audit											0	0	0	0		False		none	False
+Loriculus exilis	Loriculus_exilis	Psittacidae	Loriculus	none_found_in_this_audit				19.86	2.989						0	0	0	0		False		none	False
+Bolbopsittacus lunulatus	Bolbopsittacus_lunulatus	Psittacidae	Bolbopsittacus	none_found_in_this_audit				67.14	4.207						4.14	0	4.14	1	PRJNA971241	False	Bolbopsittacus lunulatus	E_low_pass_lt5x	False
+Eunymphicus cornutus	Eunymphicus_cornutus	Psittacidae	Eunymphicus	none_found_in_this_audit	8.96	2.193	0.09418	119.1	4.78	19.7	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Eunymphicus uvaeensis	Eunymphicus_uvaeensis	Psittacidae	Eunymphicus	none_found_in_this_audit				129.9	4.866	19.7	Amniote LHD (Myhrvold et al. 2015)				0	0	0	0		False		none	False
+Cyanoramphus auriceps	Cyanoramphus_auriceps	Psittacidae	Cyanoramphus	none_found_in_this_audit	5.868	1.77	0.07609	55.89	4.023	9.3	AnAge	captivity	medium	acceptable	0	0	0	0		False		none	False
+Cyanoramphus malherbi	Cyanoramphus_malherbi	Psittacidae	Cyanoramphus	none_found_in_this_audit	4.006	1.388	0.2053	39.92	3.687						0	0	0	0		False		none	False
+Cyanoramphus novaezelandiae	Cyanoramphus_novaezelandiae	Psittacidae	Cyanoramphus	none_found_in_this_audit	5.42	1.69	0.0531	69.8	4.246	12.4	AnAge	captivity	medium	acceptable	35.85	0	35.85	2	PRJNA703598;PRJNA703599	True	Cyanoramphus novaezelandiae;Cyanoramphus saisseti	C_short_read_ge20x	True
+Cyanoramphus unicolor	Cyanoramphus_unicolor	Psittacidae	Cyanoramphus	none_found_in_this_audit	5.101	1.629	0.06608	135.8	4.911						0	0	0	0		False		none	False
+Cyanoramphus ulietanus	Cyanoramphus_ulietanus	Psittacidae	Cyanoramphus	none_found_in_this_audit											0	0	0	0		False		none	False
+Cyanoramphus forbesi	Cyanoramphus_forbesi	Psittacidae	Cyanoramphus	none_found_in_this_audit						9.3	Amniote LHD (Myhrvold et al. 2015)				0	0	0	0		False		none	False
+Cyanoramphus zealandicus	Cyanoramphus_zealandicus	Psittacidae	Cyanoramphus	none_found_in_this_audit											0	0	0	0		False		none	False
+Prosopeia tabuensis	Prosopeia_tabuensis	Psittacidae	Prosopeia	none_found_in_this_audit				280.4	5.636						0	0	0	0		False		none	False
+Prosopeia splendens	Prosopeia_splendens	Psittacidae	Prosopeia	none_found_in_this_audit				237	5.468	20.1	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Prosopeia personata	Prosopeia_personata	Psittacidae	Prosopeia	none_found_in_this_audit				321.5	5.773	11.8	AnAge	captivity	small	acceptable	67.46	0	67.46	1	PRJNA1307197	False	Prosopeia personata	C_short_read_ge20x	True
+Lathamus discolor	Lathamus_discolor	Psittacidae	Lathamus	chromosome_scale	3.747	1.321	0.04803	68	4.22						0	110.1	0	2	PRJNA1021263;PRJNA1141622	False	Lathamus discolor	A_chromosome_scale	True
+Platycercus icterotis	Platycercus_icterotis	Psittacidae	Platycercus	none_found_in_this_audit	5.922	1.779	0.07474	61.24	4.115	13.2	AnAge	captivity	small	questionable	0	0	0	0		False		none	False
+Platycercus eximius	Platycercus_eximius	Psittacidae	Platycercus	none_found_in_this_audit	6.672	1.898	0.0449	103	4.634	27.4	AnAge	captivity	medium	acceptable	0	0	0	0		False		none	False
+Platycercus venustus	Platycercus_venustus	Psittacidae	Platycercus	none_found_in_this_audit	7.85	2.061	0.0918	90.22	4.502	19.1	AnAge	captivity	tiny	acceptable	0	0	0	0		False		none	False
+Platycercus adscitus	Platycercus_adscitus	Psittacidae	Platycercus	none_found_in_this_audit	7.465	2.01	0.08169	103	4.635						33.67	0	33.67	1	PRJNA703705	True	Platycercus adscitus	C_short_read_ge20x	True
+Platycercus elegans	Platycercus_elegans	Psittacidae	Platycercus	draft_or_in_progress				130.8	4.874	26.8	AnAge	captivity	medium	acceptable	55.38	0	55.38	1	PRJNA1214397	False	Platycercus elegans elegans	C_short_read_ge20x	True
+Platycercus caledonicus	Platycercus_caledonicus	Psittacidae	Platycercus	none_found_in_this_audit				118.7	4.777						0	0	0	0		False		none	False
+Barnardius zonarius	Barnardius_zonarius	Psittacidae	Barnardius	none_found_in_this_audit	8.847	2.18	0.0615	133.5	4.894	17.9	AnAge	captivity	small	acceptable	19.75	0	19.75	1	PRJNA703529	True	Barnardius zonarius	D_short_read_5_20x	False
+Psephotellus varius	Psephotellus_varius	Psittacidae	Psephotellus	none_found_in_this_audit	5.318	1.671	0.1052	54.94	4.006	11.8	AnAge	captivity	small	acceptable	3.684	0	3.684	22	PRJNA415089	False	Psephotellus varius	E_low_pass_lt5x	False
+Psephotellus dissimilis	Psephotellus_dissimilis	Psittacidae	Psephotellus	none_found_in_this_audit	6.736	1.907	0.04893	49.66	3.905	18	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Psephotellus chrysopterygius	Psephotellus_chrysopterygius	Psittacidae	Psephotellus	none_found_in_this_audit	7.005	1.947	0.04779	44.38	3.793						0	0	0	0		False		none	False
+Psephotellus pulcherrimus	Psephotellus_pulcherrimus	Psittacidae	Psephotellus	none_found_in_this_audit											79.39	0	79.39	2	PRJNA312568;PRJNA530123	False	Psephotellus pulcherrimus	C_short_read_ge20x	True
+Purpureicephalus spurius	Purpureicephalus_spurius	Psittacidae	Purpureicephalus	none_found_in_this_audit	5.7	1.74	0.09346	105	4.654	15.3	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Northiella haematogaster	Northiella_haematogaster	Psittacidae	Northiella	none_found_in_this_audit	6.435	1.862	0.09202	71.23	4.266	15.3	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Psephotus haematonotus	Psephotus_haematonotus	Psittacidae	Psephotus	none_found_in_this_audit	6.243	1.832	0.0377	63.09	4.144	12.2	AnAge	captivity	medium	acceptable	20.1	0	20.1	1	PRJNA704064	True	Psephotus haematonotus	C_short_read_ge20x	True
+Neophema chrysogaster	Neophema_chrysogaster	Psittacidae	Neophema	none_found_in_this_audit	5.139	1.637	0.02357	44.24	3.79						92.7	40.67	92.7	38	PRJEB86853;PRJNA1140271	False	Neophema chrysogaster	B_long_read_ge15x	True
+Neophema pulchella	Neophema_pulchella	Psittacidae	Neophema	none_found_in_this_audit	4.238	1.444	0.03903	38.45	3.649	21	AnAge	captivity	medium	acceptable	0	0	0	0		False		none	False
+Neophema splendida	Neophema_splendida	Psittacidae	Neophema	none_found_in_this_audit	3.234	1.174	0.0323	39.55	3.678	14	AnAge	captivity	medium	acceptable	0	0	0	0		False		none	False
+Neophema chrysostoma	Neophema_chrysostoma	Psittacidae	Neophema	none_found_in_this_audit	4.125	1.417	0.08157	44.05	3.785	21	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Neophema elegans	Neophema_elegans	Psittacidae	Neophema	none_found_in_this_audit	4.87	1.583	0.06027	44.88	3.804						0	0	0	0		False		none	False
+Neophema petrophila	Neophema_petrophila	Psittacidae	Neophema	none_found_in_this_audit				47.56	3.862						0	0	0	0		False		none	False
+Neopsephotus bourkii	Neopsephotus_bourkii	Psittacidae	Neopsephotus	none_found_in_this_audit	5.886	1.773	0.04458	43.12	3.764	12.6	AnAge	captivity	small	acceptable	58.34	0	58.34	1	PRJNA1022850	False	Neopsephotus bourkii	C_short_read_ge20x	True
+Pezoporus wallicus	Pezoporus_wallicus	Psittacidae	Pezoporus	none_found_in_this_audit				71.24	4.266						32.74	0	32.74	2	PRJNA1036367;PRJNA912258	False	Pezoporus flaviventris;Pezoporus wallicus	C_short_read_ge20x	True
+Pezoporus occidentalis	Pezoporus_occidentalis	Psittacidae	Pezoporus	none_found_in_this_audit				56.61	4.036						750	0	750	12	PRJNA1044171	False	Pezoporus occidentalis	C_short_read_ge20x	True
+Tanygnathus lucionensis	Tanygnathus_lucionensis	Psittacidae	Tanygnathus	none_found_in_this_audit	5.878	1.771	0.1055	212.4	5.359						0	0	0	0		False		none	False
+Tanygnathus sumatranus	Tanygnathus_sumatranus	Psittacidae	Tanygnathus	none_found_in_this_audit	8.098	2.092	0.1316	255.2	5.542	14.4	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Tanygnathus gramineus	Tanygnathus_gramineus	Psittacidae	Tanygnathus	none_found_in_this_audit				254	5.537						0	0	0	0		False		none	False
+Tanygnathus megalorynchos	Tanygnathus_megalorynchos	Psittacidae	Tanygnathus	none_found_in_this_audit	3.741	1.319	0.2529	381.6	5.944	23	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Psittacula krameri	Psittacula_krameri	Psittacidae	Psittacula	chromosome_scale	12.15	2.497	0.02682	124.4	4.824	34	AnAge	captivity	large	acceptable	0	0	0	1	PRJEB121289	False	Psittacula krameri	A_chromosome_scale	True
+Psittacula eques	Psittacula_eques	Psittacidae	Psittacula	chromosome_scale				172.1	5.148	34	Amniote LHD (Myhrvold et al. 2015)				54.55	79.58	54.55	9	PRJEB64767;PRJNA994424	False	Psittacula echo	A_chromosome_scale	True
+Psittacula alexandri	Psittacula_alexandri	Psittacidae	Psittacula	none_found_in_this_audit	11.72	2.461	0.05179	122.3	4.806	23.3	AnAge	captivity	medium	acceptable	0	0	0	0		False		none	False
+Psittacula derbiana	Psittacula_derbiana	Psittacidae	Psittacula	none_found_in_this_audit	9.654	2.267	0.05025	256.1	5.546						49.4	0	49.4	1	PRJNA703617	True	Psittacula derbiana	C_short_read_ge20x	True
+Psittacula longicauda	Psittacula_longicauda	Psittacidae	Psittacula	none_found_in_this_audit	4.021	1.391	0.1628	110.8	4.708						20.68	0	20.68	1	PRJNA703624	True	Psittacula longicauda	C_short_read_ge20x	True
+Psittacula columboides	Psittacula_columboides	Psittacidae	Psittacula	none_found_in_this_audit	10.71	2.371	0.1056	86.59	4.461						24.2	0	24.2	1	PRJNA703615	True	Psittacula columboides	C_short_read_ge20x	True
+Psittacula calthrapae	Psittacula_calthrapae	Psittacidae	Psittacula	none_found_in_this_audit				139.9	4.941	14	AnAge	captivity	small	questionable	0	0	0	0		False		none	False
+Psittinus cyanurus	Psittinus_cyanurus	Psittacidae	Psittinus	none_found_in_this_audit	5.42	1.69	0.1722	78.95	4.369	10.2	AnAge	captivity	small	questionable	0	0	0	0		False		none	False
+Psittinus abbotti	Psittinus_abbotti	Psittacidae	Psittinus	none_found_in_this_audit											0	0	0	0		False		none	False
+Psittacula finschii	Psittacula_finschii	Psittacidae	Psittacula	none_found_in_this_audit				101	4.616						0	0	0	0		False		none	False
+Psittacula himalayana	Psittacula_himalayana	Psittacidae	Psittacula	none_found_in_this_audit	11.42	2.435	0.1269	112.3	4.722						14.56	0	14.56	1	PRJNA703622	True	Psittacula himalayana	D_short_read_5_20x	False
+Psittacula cyanocephala	Psittacula_cyanocephala	Psittacidae	Psittacula	none_found_in_this_audit	9.911	2.294	0.04391	70.36	4.254	18.8	AnAge	captivity	medium	questionable	34.07	0	34.07	1	PRJNA703616	True	Psittacula cyanocephala	C_short_read_ge20x	True
+Psittacula eupatria	Psittacula_eupatria	Psittacidae	Psittacula	none_found_in_this_audit	17.83	2.881	0.03689	223.6	5.41	30	AnAge	captivity	medium	acceptable	29.96	0	29.96	1	PRJNA703620	True	Psittacula eupatria	C_short_read_ge20x	True
+Psittacula roseata	Psittacula_roseata	Psittacidae	Psittacula	none_found_in_this_audit	16.67	2.814	0.1439	87.58	4.473	18.8	Amniote LHD (Myhrvold et al. 2015)				14.67	0	14.67	1	PRJNA703625	True	Psittacula roseata	D_short_read_5_20x	False
+Psittacula caniceps	Psittacula_caniceps	Psittacidae	Psittacula	none_found_in_this_audit				268.6	5.593						0	0	0	0		False		none	False
+Psittacula exsul	Psittacula_exsul	Psittacidae	Psittacula	none_found_in_this_audit											0	0	0	0		False		none	False
+Psittacula wardi	Psittacula_wardi	Psittacidae	Psittacula	none_found_in_this_audit				238.7	5.475	30	Amniote LHD (Myhrvold et al. 2015)				0	0	0	0		False		none	False
+Geoffroyus heteroclitus	Geoffroyus_heteroclitus	Psittacidae	Geoffroyus	none_found_in_this_audit				170	5.136						0	0	0	0		False		none	False
+Geoffroyus simplex	Geoffroyus_simplex	Psittacidae	Geoffroyus	none_found_in_this_audit				194.8	5.272						0	0	0	0		False		none	False
+Geoffroyus geoffroyi	Geoffroyus_geoffroyi	Psittacidae	Geoffroyus	none_found_in_this_audit				163.9	5.099						0	0	0	0		False		none	False
+Eclectus roratus	Eclectus_roratus	Psittacidae	Eclectus	none_found_in_this_audit	14.08	2.645	0.02163	405.2	6.004	28.5	AnAge	captivity	large	acceptable	18.93	0	18.93	1	PRJNA528951	True	Eclectus roratus	D_short_read_5_20x	False
+Eclectus infectus	Eclectus_infectus	Psittacidae	Eclectus	none_found_in_this_audit											0	0	0	0		False		none	False
+Geoffroyus hyacinthinus	Geoffroyus_hyacinthinus	Psittacidae	Geoffroyus	none_found_in_this_audit											0	0	0	0		False		none	False
+Prioniturus montanus	Prioniturus_montanus	Psittacidae	Prioniturus	none_found_in_this_audit				118.8	4.778						0	0	0	0		False		none	False
+Prioniturus platenae	Prioniturus_platenae	Psittacidae	Prioniturus	none_found_in_this_audit											0	0	0	0		False		none	False
+Prioniturus mindorensis	Prioniturus_mindorensis	Psittacidae	Prioniturus	none_found_in_this_audit											0	0	0	0		False		none	False
+Prioniturus waterstradti	Prioniturus_waterstradti	Psittacidae	Prioniturus	none_found_in_this_audit											0	0	0	0		False		none	False
+Prioniturus luconensis	Prioniturus_luconensis	Psittacidae	Prioniturus	none_found_in_this_audit				108.1	4.683						0	0	0	0		False		none	False
+Prioniturus discurus	Prioniturus_discurus	Psittacidae	Prioniturus	none_found_in_this_audit				152.1	5.025						0	0	0	0		False		none	False
+Prioniturus flavicans	Prioniturus_flavicans	Psittacidae	Prioniturus	none_found_in_this_audit				219.3	5.39						0	0	0	0		False		none	False
+Prioniturus verticalis	Prioniturus_verticalis	Psittacidae	Prioniturus	none_found_in_this_audit											0	0	0	0		False		none	False
+Prioniturus platurus	Prioniturus_platurus	Psittacidae	Prioniturus	none_found_in_this_audit				66.3	4.194						0	0	0	0		False		none	False
+Prioniturus mada	Prioniturus_mada	Psittacidae	Prioniturus	none_found_in_this_audit				197.7	5.287						0	0	0	0		False		none	False
+Aprosmictus erythropterus	Aprosmictus_erythropterus	Psittacidae	Aprosmictus	none_found_in_this_audit	9.378	2.238	0.06012	148.5	5.001	24.4	AnAge	captivity	medium	acceptable	3.96	0	3.96	3	PRJNA1157411	False	Aprosmictus erythropterus	E_low_pass_lt5x	False
+Polytelis alexandrae	Polytelis_alexandrae	Psittacidae	Polytelis	none_found_in_this_audit	7.809	2.055	0.04845	110.4	4.704	23.9	AnAge	captivity	medium	acceptable	8.917	0	8.917	3	PRJNA1157411	False	Polytelis alexandrae	D_short_read_5_20x	False
+Alisterus amboinensis	Alisterus_amboinensis	Psittacidae	Alisterus	none_found_in_this_audit	7.362	1.996	0.1123	187.6	5.234						0	0	0	0		False		none	False
+Alisterus scapularis	Alisterus_scapularis	Psittacidae	Alisterus	none_found_in_this_audit				200.8	5.302	26.6	AnAge	captivity	medium	acceptable	6.624	0	6.624	3	PRJNA1157411	False	Alisterus scapularis	D_short_read_5_20x	False
+Alisterus chloropterus	Alisterus_chloropterus	Psittacidae	Alisterus	none_found_in_this_audit	8.505	2.141	0.09654	144.3	4.972						0	0	0	0		False		none	False
+Aprosmictus jonquillaceus	Aprosmictus_jonquillaceus	Psittacidae	Aprosmictus	none_found_in_this_audit				143.6	4.967						0	0	0	0		False		none	False
+Polytelis anthopeplus	Polytelis_anthopeplus	Psittacidae	Polytelis	none_found_in_this_audit	7.847	2.06	0.06097	171.2	5.143	13.8	AnAge	captivity	medium	acceptable	4.259	0	4.259	3	PRJNA1157411	False	Polytelis anthopeplus	E_low_pass_lt5x	False
+Polytelis swainsonii	Polytelis_swainsonii	Psittacidae	Polytelis	none_found_in_this_audit	7.213	1.976	0.04887	137.8	4.926	15.1	AnAge	captivity	medium	acceptable	9.279	0	9.279	3	PRJNA1157411	False	Polytelis swainsonii	D_short_read_5_20x	False
+Micropsitta finschii	Micropsitta_finschii	Psittacidae	Micropsitta	none_found_in_this_audit				14.82	2.696						110.6	0	110.6	2	PRJNA1307197;PRJNA703713	True	Micropsitta finschii	C_short_read_ge20x	True
+Micropsitta bruijnii	Micropsitta_bruijnii	Psittacidae	Micropsitta	none_found_in_this_audit				14.05	2.642						15.18	0	15.18	1	PRJNA703712	True	Micropsitta bruijnii	D_short_read_5_20x	False
+Micropsitta keiensis	Micropsitta_keiensis	Psittacidae	Micropsitta	none_found_in_this_audit				12.13	2.495						16	0	16	1	PRJNA703714	True	Micropsitta keiensis	D_short_read_5_20x	False
+Micropsitta geelvinkiana	Micropsitta_geelvinkiana	Psittacidae	Micropsitta	none_found_in_this_audit				12.22	2.503						18.43	0	18.43	1	PRJNA485635	True	Micropsitta geelvinkiana	D_short_read_5_20x	False
+Micropsitta pusio	Micropsitta_pusio	Psittacidae	Micropsitta	none_found_in_this_audit				14.55	2.678						17.83	0	17.83	1	PRJNA703715	True	Micropsitta pusio	D_short_read_5_20x	False
+Micropsitta meeki	Micropsitta_meeki	Psittacidae	Micropsitta	none_found_in_this_audit				13.8	2.624						0	0	0	0		False		none	False
+Lophopsittacus mauritianus	Lophopsittacus_mauritianus	Psittacidae	Lophopsittacus	none_found_in_this_audit											0	0	0	0		False		none	False
+Lophopsittacus bensoni	Lophopsittacus_bensoni	Psittacidae	Lophopsittacus	none_found_in_this_audit											0	0	0	0		False		none	False
+Necropsittacus rodricanus	Necropsittacus_rodricanus	Psittacidae	Necropsittacus	none_found_in_this_audit											0	0	0	0		False		none	False
+Coracopsis sibilans	Coracopsis_sibilans	Psittacidae	Coracopsis	none_found_in_this_audit											0	0	0	0		False		none	False
+Coracopsis nigra	Coracopsis_nigra	Psittacidae	Coracopsis	none_found_in_this_audit	17.57	2.866	0.06552	253.8	5.537	34.1	AnAge	captivity	medium	acceptable	23.38	0	23.38	1	PRJNA479488	True	Coracopsis nigra	C_short_read_ge20x	True
+Mascarinus mascarin	Mascarinus_mascarin	Psittacidae	Mascarinus	none_found_in_this_audit											0	0	0	0		False		none	False
+Coracopsis barklyi	Coracopsis_barklyi	Psittacidae	Coracopsis	none_found_in_this_audit											0	0	0	0		False		none	False
+Coracopsis vasa	Coracopsis_vasa	Psittacidae	Coracopsis	none_found_in_this_audit	21.41	3.064	0.0445	450.5	6.11	53.9	AnAge	captivity	medium	acceptable	18.3	0	18.3	1	PRJNA479489	True	Coracopsis vasa	D_short_read_5_20x	False
+Psittrichas fulgidus	Psittrichas_fulgidus	Psittacidae	Psittrichas	none_found_in_this_audit	10.82	2.381	0.07176	705.5	6.559	25	AnAge	captivity	medium	acceptable	99.48	0	99.48	3	PRJDB41857;PRJEB102986;PRJNA1307197	False	Psittrichas fulgidus	C_short_read_ge20x	True
+Pionus senilis	Pionus_senilis	Psittacidae	Pionus	none_found_in_this_audit	12.26	2.506	0.09102	214.8	5.37						17.26	0	17.26	1	PRJNA481561	True	Pionus senilis	D_short_read_5_20x	False
+Pionus chalcopterus	Pionus_chalcopterus	Psittacidae	Pionus	none_found_in_this_audit				220.9	5.398						0	0	0	0		False		none	False
+Pionus tumultuosus	Pionus_tumultuosus	Psittacidae	Pionus	none_found_in_this_audit				188.2	5.237						22.02	0	22.02	1	PRJNA703808	True	Pionus tumultuosus	C_short_read_ge20x	True
+Pionus seniloides	Pionus_seniloides	Psittacidae	Pionus	none_found_in_this_audit	8.3	2.116	0.1013	244.5	5.499						12.85	0	12.85	1	PRJNA718754	True	Pionus seniloides	D_short_read_5_20x	False
+Pionus menstruus	Pionus_menstruus	Psittacidae	Pionus	none_found_in_this_audit	12.69	2.541	0.06327	236.1	5.464	20.6	AnAge	captivity	medium	acceptable	0	0	0	0		False		none	False
+Pionus fuscus	Pionus_fuscus	Psittacidae	Pionus	none_found_in_this_audit	6.746	1.909	0.1262	200.1	5.299						12.5	0	12.5	1	PRJNA703804	True	Pionus fuscus	D_short_read_5_20x	False
+Pionus maximiliani	Pionus_maximiliani	Psittacidae	Pionus	none_found_in_this_audit	14.93	2.703	0.1002	243.6	5.496	16.2	AnAge	captivity	medium	acceptable	15.36	0	15.36	1	PRJNA703805	True	Pionus maximiliani	D_short_read_5_20x	False
+Pionus sordidus	Pionus_sordidus	Psittacidae	Pionus	none_found_in_this_audit				447.2	6.103						0	0	0	0		False		none	False
+Pionus reichenowi	Pionus_reichenowi	Psittacidae	Pionus	none_found_in_this_audit											0	0	0	0		False		none	False
+Amazona oratrix	Amazona_oratrix	Psittacidae	Amazona	none_found_in_this_audit				482	6.178	56	Amniote LHD (Myhrvold et al. 2015)				19.82	45.47	19.82	2	PRJEB120753;PRJNA703511	True	Amazona oratrix	B_long_read_ge15x	True
+Amazona auropalliata	Amazona_auropalliata	Psittacidae	Amazona	none_found_in_this_audit				504.2	6.223	49	AnAge	captivity	medium	acceptable	17.34	0	17.34	1	PRJNA703495	True	Amazona auropalliata	D_short_read_5_20x	False
+Amazona aestiva	Amazona_aestiva	Psittacidae	Amazona	draft_or_in_progress	21.5	3.068	0.03007	401.1	5.994	49	AnAge	captivity	large	acceptable	28.08	0	28.08	1	PRJNA703490	True	Amazona aestiva	C_short_read_ge20x	True
+Amazona barbadensis	Amazona_barbadensis	Psittacidae	Amazona	none_found_in_this_audit	16.58	2.808	0.05085	296.1	5.691						0	0	0	0		False		none	False
+Amazona versicolor	Amazona_versicolor	Psittacidae	Amazona	none_found_in_this_audit				480.4	6.175						22.43	0	22.43	1	PRJNA703516	True	Amazona versicolor	C_short_read_ge20x	True
+Amazona arausiaca	Amazona_arausiaca	Psittacidae	Amazona	none_found_in_this_audit				619.4	6.429						0	0	0	0		False		none	False
+Amazona tucumana	Amazona_tucumana	Psittacidae	Amazona	none_found_in_this_audit	14.22	2.654	0.07203	276.2	5.621						0	0	0	0		False		none	False
+Amazona pretrei	Amazona_pretrei	Psittacidae	Amazona	none_found_in_this_audit	11.85	2.472	0.0777	284.7	5.652						0	0	0	0		False		none	False
+Amazona festiva	Amazona_festiva	Psittacidae	Amazona	none_found_in_this_audit				442.2	6.092	24.5	AnAge	captivity	medium	acceptable	17.19	0	17.19	1	PRJNA703502	True	Amazona festiva	D_short_read_5_20x	False
+Amazona dufresniana	Amazona_dufresniana	Psittacidae	Amazona	none_found_in_this_audit	20.07	2.999	0.105	518.6	6.251						0	0	0	0		False		none	False
+Amazona rhodocorytha	Amazona_rhodocorytha	Psittacidae	Amazona	none_found_in_this_audit	14.24	2.656	0.0697	472.2	6.157	44	AnAge	captivity	medium	acceptable	13.84	0	13.84	1	PRJNA703513	True	Amazona rhodocorytha	D_short_read_5_20x	False
+Amazona autumnalis	Amazona_autumnalis	Psittacidae	Amazona	none_found_in_this_audit	22.89	3.13	0.04456	426	6.054	27	AnAge	captivity	medium	acceptable	17.17	0	17.17	1	PRJNA703496	True	Amazona autumnalis	D_short_read_5_20x	False
+Amazona viridigenalis	Amazona_viridigenalis	Psittacidae	Amazona	none_found_in_this_audit				344.5	5.842						0	0	0	0		False		none	False
+Amazona finschi	Amazona_finschi	Psittacidae	Amazona	none_found_in_this_audit	25.02	3.22	0.05694	321	5.771	25.8	AnAge	captivity	medium	acceptable	23.56	0	23.56	1	PRJNA703503	True	Amazona finschi	C_short_read_ge20x	True
+Amazona guatemalae	Amazona_guatemalae	Psittacidae	Amazona	none_found_in_this_audit											0	0	0	0		False		none	False
+Amazona farinosa	Amazona_farinosa	Psittacidae	Amazona	none_found_in_this_audit				654.9	6.484						18.93	0	18.93	1	PRJNA703501	True	Amazona farinosa	D_short_read_5_20x	False
+Amazona kawalli	Amazona_kawalli	Psittacidae	Amazona	none_found_in_this_audit											25.19	0	25.19	1	PRJNA703508	True	Amazona kawalli	C_short_read_ge20x	True
+Amazona brasiliensis	Amazona_brasiliensis	Psittacidae	Amazona	none_found_in_this_audit	19.86	2.989	0.05372	466.1	6.144						0	0	0	0		False		none	False
+Amazona amazonica	Amazona_amazonica	Psittacidae	Amazona	none_found_in_this_audit	19.92	2.992	0.03995	386.3	5.957	30	AnAge	captivity	medium	acceptable	15.47	0	15.47	1	PRJNA703493	True	Amazona amazonica	D_short_read_5_20x	False
+Amazona guildingii	Amazona_guildingii	Psittacidae	Amazona	none_found_in_this_audit	23.95	3.176	0.09804	730.6	6.594	28	AnAge	captivity	small	acceptable	39.59	0	39.59	2	PRJNA545868;PRJNA703506	True	Amazona guildingii	C_short_read_ge20x	True
+Amazona imperialis	Amazona_imperialis	Psittacidae	Amazona	none_found_in_this_audit				899.4	6.802						0	0	0	0		False		none	False
+Amazona bodini	Amazona_bodini	Psittacidae	Amazona	none_found_in_this_audit											0	0	0	0		False		none	False
+Amazona agilis	Amazona_agilis	Psittacidae	Amazona	none_found_in_this_audit	7.427	2.005	0.1169	208.6	5.34						0	0	0	0		False		none	False
+Amazona vittata	Amazona_vittata	Psittacidae	Amazona	draft_or_in_progress	22.33	3.106	0.06366	263.9	5.575						20.28	66.5	20.28	2	PRJEB72706;PRJNA171587	False	Amazona vittata	B_long_read_ge15x	True
+Amazona lilacina	Amazona_lilacina	Psittacidae	Amazona	none_found_in_this_audit	16.89	2.827	0.05406	334.7	5.813						0	0	0	0		False		none	False
+Amazona albifrons	Amazona_albifrons	Psittacidae	Amazona	none_found_in_this_audit	18.27	2.905	0.04887	207.4	5.335	25.3	AnAge	captivity	medium	acceptable	0	0	0	0		False		none	False
+Amazona xantholora	Amazona_xantholora	Psittacidae	Amazona	none_found_in_this_audit	15.66	2.751	0.1682	191.4	5.254						13.6	0	13.6	1	PRJNA703520	True	Amazona xantholora	D_short_read_5_20x	False
+Amazona mercenarius	Amazona_mercenarius	Psittacidae	Amazona	none_found_in_this_audit				424.9	6.052						24.35	0	24.35	1	PRJNA479484	True	Amazona mercenarius	C_short_read_ge20x	True
+Amazona martinicana	Amazona_martinicana	Psittacidae	Amazona	none_found_in_this_audit											0	0	0	0		False		none	False
+Amazona ventralis	Amazona_ventralis	Psittacidae	Amazona	none_found_in_this_audit	17.93	2.886	0.05444	265.8	5.583						34.02	0	34.02	2	PRJNA496322;PRJNA703515	True	Amazona ventralis	C_short_read_ge20x	True
+Amazona diadema	Amazona_diadema	Psittacidae	Amazona	none_found_in_this_audit						27	Amniote LHD (Myhrvold et al. 2015)				0	0	0	0		False		none	False
+Amazona vinacea	Amazona_vinacea	Psittacidae	Amazona	none_found_in_this_audit	13.02	2.566	0.06158	356.6	5.877						27.94	0	27.94	1	PRJNA703517	True	Amazona vinacea	C_short_read_ge20x	True
+Amazona collaria	Amazona_collaria	Psittacidae	Amazona	none_found_in_this_audit	12.74	2.545	0.05115	225.8	5.42						0	0	0	0		False		none	False
+Amazona leucocephala	Amazona_leucocephala	Psittacidae	Amazona	none_found_in_this_audit	18	2.891	0.03543	259.8	5.56						26.62	0	26.62	2	PRJNA496322;PRJNA703509	True	Amazona leucocephala	C_short_read_ge20x	True
+Amazona ochrocephala	Amazona_ochrocephala	Psittacidae	Amazona	chromosome_scale	24.23	3.187	0.03997	443.9	6.096	56	AnAge	captivity	medium	acceptable	14.96	413.9	14.96	2	PRJNA1139356;PRJNA703510	True	Amazona ochrocephala	A_chromosome_scale	True
+Amazona violacea	Amazona_violacea	Psittacidae	Amazona	none_found_in_this_audit											0	0	0	0		False		none	False
+Alipiopsitta xanthops	Alipiopsitta_xanthops	Psittacidae	Alipiopsitta	none_found_in_this_audit	21.72	3.078	0.0674	269.2	5.596						12.39	0	12.39	1	PRJNA703486	True	Alipiopsitta xanthops	D_short_read_5_20x	False
+Graydidascalus brachyurus	Graydidascalus_brachyurus	Psittacidae	Graydidascalus	none_found_in_this_audit				174.5	5.162	13.2	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Pyrilia barrabandi	Pyrilia_barrabandi	Psittacidae	Pyrilia	none_found_in_this_audit				140	4.942						0	0	0	0		False		none	False
+Triclaria malachitacea	Triclaria_malachitacea	Psittacidae	Triclaria	none_found_in_this_audit	7.676	2.038	0.07628	136.1	4.913	11.9	AnAge	captivity	tiny	acceptable	27.74	0	27.74	1	PRJNA703634	True	Triclaria malachitacea	C_short_read_ge20x	True
+Pyrilia pyrilia	Pyrilia_pyrilia	Psittacidae	Pyrilia	none_found_in_this_audit				103	4.635						0	0	0	0		False		none	False
+Pyrilia vulturina	Pyrilia_vulturina	Psittacidae	Pyrilia	none_found_in_this_audit				151.7	5.022						0	0	0	0		False		none	False
+Pyrilia aurantiocephala	Pyrilia_aurantiocephala	Psittacidae	Pyrilia	none_found_in_this_audit											0	0	0	0		False		none	False
+Pyrilia caica	Pyrilia_caica	Psittacidae	Pyrilia	none_found_in_this_audit				136	4.913						0	0	0	0		False		none	False
+Pyrilia pulchra	Pyrilia_pulchra	Psittacidae	Pyrilia	none_found_in_this_audit				149.9	5.01						0	0	0	0		False		none	False
+Pyrilia haematotis	Pyrilia_haematotis	Psittacidae	Pyrilia	none_found_in_this_audit				149	5.004						0	0	0	0		False		none	False
+Hapalopsittaca fuertesi	Hapalopsittaca_fuertesi	Psittacidae	Hapalopsittaca	none_found_in_this_audit											0	0	0	0		False		none	False
+Hapalopsittaca amazonina	Hapalopsittaca_amazonina	Psittacidae	Hapalopsittaca	none_found_in_this_audit				96.88	4.573						0	0	0	0		False		none	False
+Hapalopsittaca pyrrhops	Hapalopsittaca_pyrrhops	Psittacidae	Hapalopsittaca	none_found_in_this_audit											0	0	0	0		False		none	False
+Hapalopsittaca melanotis	Hapalopsittaca_melanotis	Psittacidae	Hapalopsittaca	none_found_in_this_audit				101.4	4.619						0	0	0	0		False		none	False
+Brotogeris jugularis	Brotogeris_jugularis	Psittacidae	Brotogeris	none_found_in_this_audit				60.89	4.109						0	0	0	0		False		none	False
+Brotogeris pyrrhoptera	Brotogeris_pyrrhoptera	Psittacidae	Brotogeris	none_found_in_this_audit	5.593	1.722	0.133	57.29	4.048	11.3	AnAge	captivity	small	acceptable	33.72	0	33.72	1	PRJNA479485	True	Brotogeris pyrrhoptera	C_short_read_ge20x	True
+Brotogeris chrysoptera	Brotogeris_chrysoptera	Psittacidae	Brotogeris	none_found_in_this_audit	13.02	2.566	0.1182	59.91	4.093						19.25	0	19.25	1	PRJNA703533	True	Brotogeris chrysoptera	D_short_read_5_20x	False
+Brotogeris cyanoptera	Brotogeris_cyanoptera	Psittacidae	Brotogeris	none_found_in_this_audit	7.402	2.002	0.07553	62.33	4.132						30.5	0	30.5	1	PRJNA703534	True	Brotogeris cyanoptera	C_short_read_ge20x	True
+Brotogeris tirica	Brotogeris_tirica	Psittacidae	Brotogeris	none_found_in_this_audit	7.508	2.016	0.1143	66.62	4.199	11	AnAge	captivity	small	acceptable	26.95	0	26.95	1	PRJNA703538	True	Brotogeris tirica	C_short_read_ge20x	True
+Brotogeris versicolurus	Brotogeris_versicolurus	Psittacidae	Brotogeris	none_found_in_this_audit	9.177	2.217	0.08375	62.86	4.141	10.3	AnAge	captivity	small	acceptable	20.94	0	20.94	1	PRJNA703539	True	Brotogeris versicolurus	C_short_read_ge20x	True
+Brotogeris chiriri	Brotogeris_chiriri	Psittacidae	Brotogeris	none_found_in_this_audit				61.49	4.119	19	AnAge	captivity	small	acceptable	28.46	0	28.46	1	PRJNA703532	True	Brotogeris chiriri	C_short_read_ge20x	True
+Brotogeris sanctithomae	Brotogeris_sanctithomae	Psittacidae	Brotogeris	none_found_in_this_audit				65.18	4.177	13.2	AnAge	captivity	small	acceptable	30.82	0	30.82	1	PRJNA703536	True	Brotogeris sanctithomae	C_short_read_ge20x	True
+Myiopsitta monachus	Myiopsitta_monachus	Psittacidae	Myiopsitta	none_found_in_this_audit	7.117	1.962	0.04366	108.2	4.684	22.1	AnAge	captivity	large	acceptable	48.73	66.84	48.73	3	PRJNA528952;PRJNA679636	True	Myiopsitta monachus	B_long_read_ge15x	True
+Myiopsitta luchsi	Myiopsitta_luchsi	Psittacidae	Myiopsitta	none_found_in_this_audit											19.48	0	19.48	1	PRJNA718315	True	Myiopsitta luchsi	D_short_read_5_20x	False
+Eupsittula aurea	Eupsittula_aurea	Psittacidae	Eupsittula	none_found_in_this_audit				78.45	4.363						19.09	0	19.09	1	PRJNA703694	True	Eupsittula aurea	D_short_read_5_20x	False
+Eupsittula astec	Eupsittula_astec	Psittacidae	Eupsittula	none_found_in_this_audit											20.31	0	20.31	1	PRJNA718318	True	Eupsittula astec	C_short_read_ge20x	True
+Eupsittula nana	Eupsittula_nana	Psittacidae	Eupsittula	none_found_in_this_audit	12.12	2.495	0.1106	84.33	4.435						32.43	0	32.43	1	PRJNA703696	True	Eupsittula nana	C_short_read_ge20x	True
+Eupsittula canicularis	Eupsittula_canicularis	Psittacidae	Eupsittula	none_found_in_this_audit	9.102	2.208	0.1108	73.84	4.302	16.2	AnAge	captivity	small	acceptable	19.69	0	19.69	1	PRJNA676128	True	Eupsittula canicularis	D_short_read_5_20x	False
+Eupsittula pertinax	Eupsittula_pertinax	Psittacidae	Eupsittula	none_found_in_this_audit	11.68	2.458	0.07129	86.44	4.459						40.91	0	40.91	1	PRJNA596746	True	Eupsittula pertinax	C_short_read_ge20x	True
+Eupsittula cactorum	Eupsittula_cactorum	Psittacidae	Eupsittula	none_found_in_this_audit				76.17	4.333						18.34	0	18.34	1	PRJNA703695	True	Eupsittula cactorum	D_short_read_5_20x	False
+Psittacara chloropterus	Psittacara_chloropterus	Psittacidae	Psittacara	none_found_in_this_audit				160	5.075						16.29	0	16.29	1	PRJNA703663	True	Psittacara chloropterus	D_short_read_5_20x	False
+Psittacara euops	Psittacara_euops	Psittacidae	Psittacara	none_found_in_this_audit				90.22	4.502						0	0	0	0		False		none	False
+Psittacara holochlorus	Psittacara_holochlorus	Psittacidae	Psittacara	none_found_in_this_audit	15.01	2.709	0.07765	157.2	5.058	22.5	Amniote LHD (Myhrvold et al. 2015)				36.45	0	36.45	1	PRJNA703666	True	Psittacara holochlorus	C_short_read_ge20x	True
+Psittacara rubritorquis	Psittacara_rubritorquis	Psittacidae	Psittacara	none_found_in_this_audit	19.86	2.989	0.09795	133.9	4.897	22.5	Amniote LHD (Myhrvold et al. 2015)				14.47	0	14.47	1	PRJNA703670	True	Psittacara rubritorquis	D_short_read_5_20x	False
+Psittacara mitratus	Psittacara_mitratus	Psittacidae	Psittacara	none_found_in_this_audit	16.3	2.791	0.1171	216.2	5.376						16.95	0	16.95	1	PRJNA703668	True	Psittacara mitratus	D_short_read_5_20x	False
+Psittacara wagleri	Psittacara_wagleri	Psittacidae	Psittacara	none_found_in_this_audit	16.43	2.799	0.1005	232.8	5.45						23.64	0	23.64	1	PRJNA703671	True	Psittacara wagleri	C_short_read_ge20x	True
+Psittacara leucophthalmus	Psittacara_leucophthalmus	Psittacidae	Psittacara	none_found_in_this_audit	17	2.833	0.1293	157.5	5.059						20.76	0	20.76	1	PRJNA703667	True	Psittacara leucophthalmus	C_short_read_ge20x	True
+Ara chloropterus	Ara_chloropterus	Psittacidae	Ara	none_found_in_this_audit	29.8	3.395	0.02876	1167	7.062	50.1	AnAge	captivity	small	acceptable	40.22	0	40.22	3	PRJNA528950;PRJNA679636;PRJNA997712	True	Ara chloropterus	C_short_read_ge20x	True
+Ara macao	Ara_macao	Psittacidae	Ara	draft_or_in_progress	35.47	3.569	0.03761	1002	6.909	33	AnAge	captivity	large	acceptable	34.84	0	34.84	7	PRJNA703524;PRJNA997712	True	Ara macao	C_short_read_ge20x	True
+Ara severus	Ara_severus	Psittacidae	Ara	none_found_in_this_audit				357.4	5.879	28.5	AnAge	captivity	small	acceptable	19.92	0	19.92	1	PRJNA703526	True	Ara severus	D_short_read_5_20x	False
+Ara glaucogularis	Ara_glaucogularis	Psittacidae	Ara	none_found_in_this_audit				741.1	6.608	22	AnAge	captivity	medium	acceptable	213.7	78.83	213.7	6	PRJEB47550;PRJNA497077;PRJNA642113;PRJNA767781	True	Ara glaucogularis	B_long_read_ge15x	True
+Ara ararauna	Ara_ararauna	Psittacidae	Ara	chromosome_scale	24.26	3.189	0.01449	1025	6.933	43	AnAge	captivity	large	acceptable	43.87	216	43.87	5	PRJEB111643;PRJNA1345577;PRJNA1401920;PRJNA497082	True	Ara ararauna	A_chromosome_scale	True
+Ara tricolor	Ara_tricolor	Psittacidae	Ara	none_found_in_this_audit											57.46	0	57.46	2	PRJNA415927	False	Ara tricolor	C_short_read_ge20x	True
+Ara militaris	Ara_militaris	Psittacidae	Ara	none_found_in_this_audit				849.8	6.745	46	AnAge	captivity	large	acceptable	19.75	0	19.75	2	PRJEB123066;PRJNA528956	True	Ara militaris	D_short_read_5_20x	False
+Ara rubrogenys	Ara_rubrogenys	Psittacidae	Ara	none_found_in_this_audit	21.34	3.06	0.0328	470.9	6.155	23	AnAge	captivity	medium	acceptable	18.51	86.38	18.51	2	PRJEB47551;PRJNA703525	True	Ara rubrogenys	B_long_read_ge15x	True
+Ara ambiguus	Ara_ambiguus	Psittacidae	Ara	none_found_in_this_audit	25.63	3.244	0.04805	1125	7.025	29	AnAge	captivity	small	acceptable	24.84	0	24.84	3	PRJEB63985;PRJNA640359	True	Ara ambiguus	C_short_read_ge20x	True
+Primolius auricollis	Primolius_auricollis	Psittacidae	Primolius	none_found_in_this_audit	17.66	2.871	0.05561	246.4	5.507						45.46	0	45.46	1	PRJNA704053	True	Primolius auricollis	C_short_read_ge20x	True
+Primolius couloni	Primolius_couloni	Psittacidae	Primolius	none_found_in_this_audit	15.29	2.728	0.04513	278.8	5.631						22.36	0	22.36	1	PRJNA733807	True	Primolius couloni	C_short_read_ge20x	True
+Primolius maracana	Primolius_maracana	Psittacidae	Primolius	none_found_in_this_audit	17.93	2.886	0.04306	242.8	5.492	31	AnAge	captivity	small	acceptable	73.63	0	73.63	1	PRJNA704055	True	Primolius maracana	C_short_read_ge20x	True
+Orthopsittaca manilatus	Orthopsittaca_manilatus	Psittacidae	Orthopsittaca	none_found_in_this_audit	7.298	1.988	0.1254	331.8	5.804						15.14	0	15.14	1	PRJNA479491	True	Orthopsittaca manilatus	D_short_read_5_20x	False
+Cyanopsitta spixii	Cyanopsitta_spixii	Psittacidae	Cyanopsitta	draft_or_in_progress				300	5.704	27	AnAge	captivity	small	acceptable	99.73	0	99.73	1	PRJNA703592	True	Cyanopsitta spixii	C_short_read_ge20x	True
+Aratinga weddellii	Aratinga_weddellii	Psittacidae	Aratinga	none_found_in_this_audit				101.1	4.616						16.26	0	16.26	1	PRJNA481535	True	Aratinga weddellii	D_short_read_5_20x	False
+Aratinga jandaya	Aratinga_jandaya	Psittacidae	Aratinga	none_found_in_this_audit	11.88	2.474	0.05431	114.9	4.744						37.56	0	37.56	1	PRJNA676138	True	Aratinga jandaya	C_short_read_ge20x	True
+Aratinga auricapillus	Aratinga_auricapillus	Psittacidae	Aratinga	none_found_in_this_audit	13.6	2.61	0.08225	129.2	4.862	20.9	AnAge	captivity	small	acceptable	22.31	0	22.31	1	PRJNA703527	True	Aratinga auricapillus	C_short_read_ge20x	True
+Aratinga nenday	Aratinga_nenday	Psittacidae	Aratinga	none_found_in_this_audit	15.21	2.722	0.04645	140	4.942	18.7	AnAge	captivity	medium	acceptable	19.21	0	19.21	1	PRJNA479483	True	Aratinga nenday	D_short_read_5_20x	False
+Aratinga maculata	Aratinga_maculata	Psittacidae	Aratinga	none_found_in_this_audit											25.55	0	25.55	1	PRJNA703528	True	Aratinga maculata	C_short_read_ge20x	True
+Aratinga solstitialis	Aratinga_solstitialis	Psittacidae	Aratinga	none_found_in_this_audit	9.798	2.282	0.02488	109.2	4.693						231.5	0	231.5	3	PRJEB36582;PRJNA358718	True	Aratinga solstitialis	C_short_read_ge20x	True
+Psittacara acuticaudatus	Psittacara_acuticaudatus	Psittacidae	Psittacara	none_found_in_this_audit	16.81	2.822	0.06739	166	5.112	31	AnAge	captivity	medium	acceptable	22.95	0	22.95	1	PRJNA479498	True	Thectocercus acuticaudatus	C_short_read_ge20x	True
+Diopsittaca nobilis	Diopsittaca_nobilis	Psittacidae	Diopsittaca	none_found_in_this_audit	14	2.639	0.04257	153.6	5.035	22.9	AnAge	captivity	small	acceptable	35.34	0	35.34	1	PRJNA675142	True	Diopsittaca nobilis	C_short_read_ge20x	True
+Diopsittaca cumanensis	Diopsittaca_cumanensis	Psittacidae	Diopsittaca	none_found_in_this_audit	12.13	2.496	0.1736	176.3	5.172						0	0	0	0		False		none	False
+Guaruba guarouba	Guaruba_guarouba	Psittacidae	Guaruba	chromosome_scale	14.42	2.668	0.03581	243.6	5.496	23.2	AnAge	captivity	small	acceptable	19.23	119.7	19.23	2	PRJNA1292825;PRJNA551769	True	Guaruba guarouba	A_chromosome_scale	True
+Leptosittaca branickii	Leptosittaca_branickii	Psittacidae	Leptosittaca	none_found_in_this_audit				158.3	5.065						0	0	0	0		False		none	False
+Psittacara frontatus	Psittacara_frontatus	Psittacidae	Psittacara	none_found_in_this_audit				201.1	5.304						0	0	0	0		False		none	False
+Psittacara finschi	Psittacara_finschi	Psittacidae	Psittacara	none_found_in_this_audit	20.24	3.008	0.08722	153.3	5.032						89.61	0	89.61	2	PRJEB102986;PRJNA703665	True	Psittacara finschi	C_short_read_ge20x	True
+Psittacara labati	Psittacara_labati	Psittacidae	Psittacara	none_found_in_this_audit											0	0	0	0		False		none	False
+Psittacara erythrogenys	Psittacara_erythrogenys	Psittacidae	Psittacara	none_found_in_this_audit	15.66	2.751	0.09174	178.3	5.184	26.2	AnAge	captivity	small	acceptable	116.3	0	116.3	2	PRJEB102986;PRJNA703664	True	Psittacara erythrogenys	C_short_read_ge20x	True
+Anodorhynchus leari	Anodorhynchus_leari	Psittacidae	Anodorhynchus	none_found_in_this_audit	30.81	3.428	0.08793	797.4	6.681	38.3	AnAge	captivity	small	acceptable	29.61	0	29.61	1	PRJNA703521	True	Anodorhynchus leari	C_short_read_ge20x	True
+Anodorhynchus hyacinthinus	Anodorhynchus_hyacinthinus	Psittacidae	Anodorhynchus	draft_or_in_progress	23.2	3.144	0.02531	1311	7.179	38.8	AnAge	captivity	tiny	acceptable	15.7	0	15.7	61	PRJEB43906;PRJNA1181145;PRJNA481562	True	Anodorhynchus hyacinthinus	D_short_read_5_20x	False
+Anodorhynchus glaucus	Anodorhynchus_glaucus	Psittacidae	Anodorhynchus	none_found_in_this_audit				871.7	6.77						31.66	0	31.66	1	PRJNA1086008	True	Anodorhynchus glaucus	C_short_read_ge20x	True
+Cyanoliseus patagonus	Cyanoliseus_patagonus	Psittacidae	Cyanoliseus	none_found_in_this_audit	15.27	2.726	0.03315	255.8	5.545	19.5	AnAge	captivity	large	acceptable	143.5	0	143.5	2	PRJNA1307197;PRJNA703591	True	Cyanoliseus patagonus	C_short_read_ge20x	True
+Enicognathus leptorhynchus	Enicognathus_leptorhynchus	Psittacidae	Enicognathus	none_found_in_this_audit	9.922	2.295	0.08601	228.7	5.432	15.3	AnAge	captivity	small	acceptable	27.34	0	27.34	1	PRJNA703677	True	Enicognathus leptorhynchus	C_short_read_ge20x	True
+Enicognathus ferrugineus	Enicognathus_ferrugineus	Psittacidae	Enicognathus	none_found_in_this_audit				141.1	4.949						15.19	0	15.19	1	PRJNA555786	True	Enicognathus ferrugineus	D_short_read_5_20x	False
+Rhynchopsitta pachyrhyncha	Rhynchopsitta_pachyrhyncha	Psittacidae	Rhynchopsitta	none_found_in_this_audit	11.36	2.43	0.04195	325.2	5.784	33	AnAge	captivity	medium	acceptable	24.57	81.88	24.57	2	PRJEB120750;PRJNA640357	True	Rhynchopsitta pachyrhyncha	B_long_read_ge15x	True
+Rhynchopsitta terrisi	Rhynchopsitta_terrisi	Psittacidae	Rhynchopsitta	none_found_in_this_audit				437	6.08						0	0	0	0		False		none	False
+Pyrrhura leucotis	Pyrrhura_leucotis	Psittacidae	Pyrrhura	none_found_in_this_audit	11.9	2.477	0.1186	46.2	3.833	18.5	AnAge	captivity	small	acceptable	27.21	0	27.21	2	PRJNA703580	True	Pyrrhura leucotis	C_short_read_ge20x	True
+Pyrrhura griseipectus	Pyrrhura_griseipectus	Psittacidae	Pyrrhura	none_found_in_this_audit	8.311	2.118	0.0827	54.5	3.998	18.5	Amniote LHD (Myhrvold et al. 2015)				22.46	0	22.46	1	PRJNA598107	True	Pyrrhura griseipectus	C_short_read_ge20x	True
+Pyrrhura eisenmanni	Pyrrhura_eisenmanni	Psittacidae	Pyrrhura	none_found_in_this_audit											18.82	0	18.82	1	PRJNA719564	True	Pyrrhura eisenmanni	D_short_read_5_20x	False
+Pyrrhura snethlageae	Pyrrhura_snethlageae	Psittacidae	Pyrrhura	none_found_in_this_audit											0	0	0	0		False		none	False
+Pyrrhura amazonum	Pyrrhura_amazonum	Psittacidae	Pyrrhura	none_found_in_this_audit				62.17	4.13						19.94	0	19.94	1	PRJNA703576	True	Pyrrhura amazonum	D_short_read_5_20x	False
+Pyrrhura peruviana	Pyrrhura_peruviana	Psittacidae	Pyrrhura	none_found_in_this_audit											0	0	0	0		False		none	False
+Pyrrhura rupicola	Pyrrhura_rupicola	Psittacidae	Pyrrhura	none_found_in_this_audit	10.55	2.356	0.07232	67.39	4.211						0	0	0	0		False		none	False
+Pyrrhura albipectus	Pyrrhura_albipectus	Psittacidae	Pyrrhura	none_found_in_this_audit				96.59	4.57						18.8	0	18.8	1	PRJNA703575	True	Pyrrhura albipectus	D_short_read_5_20x	False
+Pyrrhura melanura	Pyrrhura_melanura	Psittacidae	Pyrrhura	none_found_in_this_audit	8.23	2.108	0.1321	73.22	4.294						19.32	0	33.36	3	PRJNA491351;PRJNA703582;PRJNA807740	True	Pyrrhura berlepschi;Pyrrhura chapmani;Pyrrhura melanura	D_short_read_5_20x	False
+Pyrrhura rhodocephala	Pyrrhura_rhodocephala	Psittacidae	Pyrrhura	none_found_in_this_audit	8.88	2.184	0.1094	74.94	4.317						12.99	0	12.99	1	PRJNA703586	True	Pyrrhura rhodocephala	D_short_read_5_20x	False
+Pyrrhura orcesi	Pyrrhura_orcesi	Psittacidae	Pyrrhura	none_found_in_this_audit				70.08	4.25						160.9	0	160.9	3	PRJEB102986;PRJEB105196;PRJNA703583	True	Pyrrhura orcesi	C_short_read_ge20x	True
+Pyrrhura lepida	Pyrrhura_lepida	Psittacidae	Pyrrhura	none_found_in_this_audit				63.59	4.153	14.3	Amniote LHD (Myhrvold et al. 2015)				48.49	0	48.49	2	PRJNA481549	True	Pyrrhura lepida	C_short_read_ge20x	True
+Pyrrhura perlata	Pyrrhura_perlata	Psittacidae	Pyrrhura	none_found_in_this_audit	11.81	2.469	0.04626	74.23	4.307	14.3	AnAge	captivity	small	acceptable	17.64	0	17.64	1	PRJNA481550	True	Pyrrhura perlata	D_short_read_5_20x	False
+Pyrrhura molinae	Pyrrhura_molinae		Pyrrhura	none_found_in_this_audit				65.62	4.184						17.75	0	17.75	1	PRJNA481548	True	Pyrrhura molinae	D_short_read_5_20x	False
+Pyrrhura roseifrons	Pyrrhura_roseifrons	Psittacidae	Pyrrhura	none_found_in_this_audit											23.45	0	23.45	1	PRJNA703587	True	Pyrrhura roseifrons	C_short_read_ge20x	True
+Pyrrhura cruentata	Pyrrhura_cruentata	Psittacidae	Pyrrhura	none_found_in_this_audit	13.57	2.608	0.04794	93.22	4.535						17.65	0	17.65	1	PRJNA481551	True	Pyrrhura cruentata	D_short_read_5_20x	False
+Pyrrhura picta	Pyrrhura_picta	Psittacidae	Pyrrhura	none_found_in_this_audit	9.423	2.243	0.05748	69.09	4.235						17.73	0	17.73	1	PRJNA703585	True	Pyrrhura picta	D_short_read_5_20x	False
+Pyrrhura lucianii	Pyrrhura_lucianii	Psittacidae	Pyrrhura	none_found_in_this_audit											30.9	0	30.9	1	PRJNA845982	True	Pyrrhura lucianii	C_short_read_ge20x	True
+Pyrrhura subandina	Pyrrhura_subandina	Psittacidae	Pyrrhura	none_found_in_this_audit											13.49	0	13.49	1	PRJNA491348	True	Pyrrhura subandina	D_short_read_5_20x	False
+Pyrrhura pacifica	Pyrrhura_pacifica	Psittacidae	Pyrrhura	none_found_in_this_audit	13.26	2.585	0.09065	67.4	4.211						0	0	0	0		False		none	False
+Pyrrhura parvifrons	Pyrrhura_parvifrons	Psittacidae	Pyrrhura	none_found_in_this_audit											0	0	0	0		False		none	False
+Pyrrhura calliptera	Pyrrhura_calliptera	Psittacidae	Pyrrhura	none_found_in_this_audit				62.19	4.13						0	0	0	0		False		none	False
+Pyrrhura devillei	Pyrrhura_devillei	Psittacidae	Pyrrhura	none_found_in_this_audit				70.2	4.251						18.81	0	18.81	1	PRJNA491342	True	Pyrrhura devillei	D_short_read_5_20x	False
+Pyrrhura hoffmanni	Pyrrhura_hoffmanni	Psittacidae	Pyrrhura	none_found_in_this_audit	12.94	2.561	0.08862	86.01	4.454						17.55	0	17.55	1	PRJNA703579	True	Pyrrhura hoffmanni	D_short_read_5_20x	False
+Pyrrhura pfrimeri	Pyrrhura_pfrimeri	Psittacidae	Pyrrhura	none_found_in_this_audit				51.67	3.945	18.5	Amniote LHD (Myhrvold et al. 2015)				13.06	0	13.06	1	PRJNA703584	True	Pyrrhura pfrimeri	D_short_read_5_20x	False
+Pyrrhura emma	Pyrrhura_emma	Psittacidae	Pyrrhura	none_found_in_this_audit	7.012	1.948	0.1305	54.35	3.995	18.5	Amniote LHD (Myhrvold et al. 2015)				13.11	0	13.11	1	PRJNA718316	True	Pyrrhura emma	D_short_read_5_20x	False
+Pyrrhura egregia	Pyrrhura_egregia	Psittacidae	Pyrrhura	none_found_in_this_audit				63.61	4.153						19.86	0	19.86	1	PRJNA703578	True	Pyrrhura egregia	D_short_read_5_20x	False
+Pyrrhura viridicata	Pyrrhura_viridicata	Psittacidae	Pyrrhura	none_found_in_this_audit				68.62	4.229						10.98	0	10.98	1	PRJNA491343	True	Pyrrhura viridicata	D_short_read_5_20x	False
+Pyrrhura frontalis	Pyrrhura_frontalis	Psittacidae	Pyrrhura	none_found_in_this_audit	9.269	2.227	0.1107	75.43	4.323						0.9275	0	0.9275	1	PRJNA481541	True	Pyrrhura frontalis	E_low_pass_lt5x	False
+Pyrrhura hoematotis	Pyrrhura_hoematotis	Psittacidae	Pyrrhura	none_found_in_this_audit				68.82	4.231						31.76	0	31.76	1	PRJNA491344	True	Pyrrhura hoematotis	C_short_read_ge20x	True
+Pyrrhura caeruleiceps	Pyrrhura_caeruleiceps	Psittacidae	Pyrrhura	none_found_in_this_audit											0	0	0	0		False		none	False
+Pionites melanocephalus	Pionites_melanocephalus	Psittacidae	Pionites	none_found_in_this_audit	14.35	2.664	0.06554	156.4	5.052	22.6	AnAge	captivity	small	acceptable	65.45	0	65.45	1	PRJNA704046	True	Pionites melanocephalus	C_short_read_ge20x	True
+Pionites leucogaster	Pionites_leucogaster	Psittacidae	Pionites	none_found_in_this_audit	13.71	2.618	0.05213	158.2	5.064	26	AnAge	captivity	medium	acceptable	29.47	0	29.47	1	PRJNA704045	True	Pionites leucogaster	C_short_read_ge20x	True
+Pionites xanthurus	Pionites_xanthurus	Psittacidae	Pionites	none_found_in_this_audit											0	0	0	0		False		none	False
+Pionites xanthomerius	Pionites_xanthomerius	Psittacidae	Pionites	none_found_in_this_audit											0	0	0	0		False		none	False
+Deroptyus accipitrinus	Deroptyus_accipitrinus	Psittacidae	Deroptyus	none_found_in_this_audit	14.66	2.685	0.0439	252.7	5.532	21.8	AnAge	captivity	medium	acceptable	30.41	0	30.41	1	PRJNA703673	True	Deroptyus accipitrinus	C_short_read_ge20x	True
+Forpus xanthopterygius	Forpus_xanthopterygius	Psittacidae	Forpus	none_found_in_this_audit				26.25	3.268	11.6	Amniote LHD (Myhrvold et al. 2015)				21.36	0	21.36	2	PRJNA703704;PRJNA718755	True	Forpus crassirostris;Forpus xanthopterygius	C_short_read_ge20x	True
+Forpus xanthops	Forpus_xanthops	Psittacidae	Forpus	none_found_in_this_audit				35.15	3.56	10.5	AnAge	captivity	small	acceptable	18.12	0	18.12	1	PRJNA703703	True	Forpus xanthops	D_short_read_5_20x	False
+Forpus coelestis	Forpus_coelestis	Psittacidae	Forpus	none_found_in_this_audit	3.926	1.368	0.07104	29.85	3.396	10.4	AnAge	captivity	medium	acceptable	20.16	0	20.16	1	PRJNA703697	True	Forpus coelestis	C_short_read_ge20x	True
+Forpus conspicillatus	Forpus_conspicillatus	Psittacidae	Forpus	none_found_in_this_audit				27.04	3.297						19.96	0	19.96	1	PRJNA703699	True	Forpus conspicillatus	D_short_read_5_20x	False
+Forpus passerinus	Forpus_passerinus	Psittacidae	Forpus	none_found_in_this_audit	4.144	1.422	0.08535	22.54	3.115	11.6	AnAge	captivity	small	acceptable	179.1	0	179.1	2	PRJEB102986;PRJNA703702	True	Forpus passerinus	C_short_read_ge20x	True
+Forpus cyanopygius	Forpus_cyanopygius	Psittacidae	Forpus	none_found_in_this_audit	6.206	1.825	0.09195	33.74	3.519	10.5	AnAge	captivity	small	acceptable	20.75	0	20.75	1	PRJNA703700	True	Forpus cyanopygius	C_short_read_ge20x	True
+Forpus modestus	Forpus_modestus	Psittacidae	Forpus	none_found_in_this_audit				27.26	3.305						16.7	0	16.7	1	PRJNA703701	True	Forpus modestus	D_short_read_5_20x	False
+Forpus spengeli	Forpus_spengeli	Psittacidae	Forpus	none_found_in_this_audit	7.514	2.017	0.09439	22.87	3.13						22.34	0	22.34	1	PRJNA718766	True	Forpus spengeli	C_short_read_ge20x	True
+Psilopsiagon aymara	Psilopsiagon_aymara	Psittacidae	Psilopsiagon	none_found_in_this_audit	4.081	1.406	0.1095	31.36	3.446	8.5	AnAge	captivity	small	acceptable	24.64	0	24.64	1	PRJNA704001	True	Psilopsiagon aymara	C_short_read_ge20x	True
+Psilopsiagon aurifrons	Psilopsiagon_aurifrons	Psittacidae	Psilopsiagon	none_found_in_this_audit	4.976	1.605	0.09609	33.9	3.523						31.57	0	31.57	1	PRJNA704000	True	Psilopsiagon aurifrons	C_short_read_ge20x	True
+Nannopsittaca panychlora	Nannopsittaca_panychlora	Psittacidae	Nannopsittaca	none_found_in_this_audit				38.88	3.66						0	0	0	0		False		none	False
+Nannopsittaca dachilleae	Nannopsittaca_dachilleae	Psittacidae	Nannopsittaca	none_found_in_this_audit				41.52	3.726						0	0	0	0		False		none	False
+Bolborhynchus lineola	Bolborhynchus_lineola	Psittacidae	Bolborhynchus	none_found_in_this_audit	6.929	1.936	0.1085	50.89	3.93						29.32	0	29.32	1	PRJNA703531	True	Bolborhynchus lineola	C_short_read_ge20x	True
+Bolborhynchus orbygnesius	Bolborhynchus_orbygnesius	Psittacidae	Bolborhynchus	none_found_in_this_audit				44.12	3.787	9.2	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Bolborhynchus ferrugineifrons	Bolborhynchus_ferrugineifrons	Psittacidae	Bolborhynchus	none_found_in_this_audit				61.47	4.119						0	0	0	0		False		none	False
+Touit purpuratus	Touit_purpuratus	Psittacidae	Touit	none_found_in_this_audit				68.33	4.224						27.4	0	27.4	1	PRJNA703687	True	Touit purpuratus	C_short_read_ge20x	True
+Touit batavicus	Touit_batavicus	Psittacidae	Touit	none_found_in_this_audit				65.18	4.177						22.62	0	22.62	1	PRJNA703686	True	Touit batavicus	C_short_read_ge20x	True
+Touit costaricensis	Touit_costaricensis	Psittacidae	Touit	none_found_in_this_audit											20.86	0	20.86	1	PRJNA491352	True	Touit costaricensis	C_short_read_ge20x	True
+Touit surdus	Touit_surdus	Psittacidae	Touit	none_found_in_this_audit				61.15	4.113						0	0	0	0		False		none	False
+Touit stictopterus	Touit_stictopterus	Psittacidae	Touit	none_found_in_this_audit				77.62	4.352						0	0	0	0		False		none	False
+Touit dilectissimus	Touit_dilectissimus	Psittacidae	Touit	none_found_in_this_audit				63.17	4.146						0	0	0	0		False		none	False
+Touit huetii	Touit_huetii	Psittacidae	Touit	none_found_in_this_audit				60.28	4.099						23.82	0	23.82	1	PRJNA556186	True	Touit huetii	C_short_read_ge20x	True
+Touit melanonotus	Touit_melanonotus	Psittacidae	Touit	none_found_in_this_audit				58.14	4.063						0	0	0	0		False		none	False
+Ognorhynchus icterotis	Ognorhynchus_icterotis	Psittacidae	Ognorhynchus	none_found_in_this_audit				284.9	5.652						0	0	0	0		False		none	False
+Conuropsis carolinensis	Conuropsis_carolinensis	Psittacidae	Conuropsis	none_found_in_this_audit				145.2	4.978	30	AnAge	captivity	small	acceptable	160.4	0	160.4	2	PRJEB33130;PRJNA802724	True	Conuropsis carolinensis	C_short_read_ge20x	True
+Pionopsitta pileata	Pionopsitta_pileata	Psittacidae	Pionopsitta	none_found_in_this_audit	11.8	2.468	0.08204	105.7	4.66	16.8	AnAge	captivity	tiny	acceptable	0	0	0	0		False		none	False
+Poicephalus gulielmi	Poicephalus_gulielmi	Psittacidae	Poicephalus	none_found_in_this_audit	14.29	2.659	0.06132	234.7	5.458	21	AnAge	captivity	medium	acceptable	140.7	0	140.7	2	PRJEB102986;PRJNA675295	True	Poicephalus gulielmi	C_short_read_ge20x	True
+Poicephalus robustus	Poicephalus_robustus	Psittacidae	Poicephalus	none_found_in_this_audit	13.42	2.597	0.04998	298.8	5.7	29.7	AnAge	captivity	medium	acceptable	17.74	0	17.74	1	PRJNA703657	True	Poicephalus robustus	D_short_read_5_20x	False
+Poicephalus meyeri	Poicephalus_meyeri	Psittacidae	Poicephalus	none_found_in_this_audit	15.76	2.757	0.06499	116.8	4.761	34.2	AnAge	captivity	medium	acceptable	12.71	0	12.71	1	PRJNA676038	True	Poicephalus meyeri	D_short_read_5_20x	False
+Poicephalus senegalus	Poicephalus_senegalus	Psittacidae	Poicephalus	none_found_in_this_audit	16.41	2.798	0.0352	140.6	4.946	40	AnAge	captivity	large	acceptable	26.07	0	26.07	1	PRJNA703660	True	Poicephalus senegalus	C_short_read_ge20x	True
+Poicephalus rufiventris	Poicephalus_rufiventris	Psittacidae	Poicephalus	none_found_in_this_audit	14.2	2.653	0.06215	129.7	4.865	33.4	AnAge	captivity	medium	acceptable	17.67	0	17.67	1	PRJNA703659	True	Poicephalus rufiventris	D_short_read_5_20x	False
+Poicephalus rueppellii	Poicephalus_rueppellii	Psittacidae	Poicephalus	none_found_in_this_audit	10.2	2.323	0.1277	117.6	4.768	34.3	AnAge	captivity	small	acceptable	115.3	0	115.3	2	PRJEB102986;PRJNA703658	True	Poicephalus rueppellii	C_short_read_ge20x	True
+Poicephalus crassus	Poicephalus_crassus	Psittacidae	Poicephalus	none_found_in_this_audit				176.1	5.171	32.1	Amniote LHD (Myhrvold et al. 2015)				0	0	0	0		False		none	False
+Poicephalus flavifrons	Poicephalus_flavifrons	Psittacidae	Poicephalus	none_found_in_this_audit				174	5.159						16.64	0	16.64	1	PRJNA509066	True	Poicephalus flavifrons	D_short_read_5_20x	False
+Poicephalus cryptoxanthus	Poicephalus_cryptoxanthus	Psittacidae	Poicephalus	none_found_in_this_audit	11.72	2.461	0.1124	130.1	4.869	32.1	AnAge	captivity	medium	acceptable	21.96	0	21.96	1	PRJNA703655	True	Poicephalus cryptoxanthus	C_short_read_ge20x	True
+Psittacus erithacus	Psittacus_erithacus	Psittacidae	Psittacus	none_found_in_this_audit	18.6	2.923	0.01944	460.9	6.133	49.7	AnAge	captivity	large	acceptable	22.31	0	22.31	1	PRJNA551771	True	Psittacus erithacus	C_short_read_ge20x	True
+Psittacus timneh	Psittacus_timneh	Psittacidae	Psittacus	none_found_in_this_audit	14.26	2.657	0.0499	303.2	5.714						47.83	99.23	47.83	2	PRJEB120752;PRJNA547942	True	Psittacus timneh	B_long_read_ge15x	True
+Psittacella modesta	Psittacella_modesta	Psittacidae	Psittacella	none_found_in_this_audit				42.01	3.738						0	0	0	0		False		none	False
+Psittacella brehmii	Psittacella_brehmii	Psittacidae	Psittacella	none_found_in_this_audit				107.4	4.677						0	0	0	0		False		none	False
+Psittacella lorentzi	Psittacella_lorentzi	Psittacidae	Psittacella	none_found_in_this_audit											0	0	0	0		False		none	False
+Psittacella picta	Psittacella_picta	Psittacidae	Psittacella	none_found_in_this_audit				58.04	4.061						0	0	0	0		False		none	False
+Psittacella madaraszi	Psittacella_madaraszi	Psittacidae	Psittacella	none_found_in_this_audit				39.01	3.664						0	0	0	0		False		none	False
+Cacatua ducorpsii	Cacatua_ducorpsii	Cacatuidae	Cacatua	reported_level_unknown	14.08	2.645	0.07711	310.6	5.739	30.5	AnAge	captivity	small	acceptable	47.77	0	47.77	1	PRJNA703548	True	Cacatua ducorpsii	C_short_read_ge20x	True
+Cacatua tenuirostris	Cacatua_tenuirostris	Cacatuidae	Cacatua	reported_level_unknown	22.07	3.094	0.05722	536.4	6.285	43	AnAge	captivity	medium	acceptable	12.74	0	12.74	1	PRJNA553061	True	Cacatua tenuirostris	D_short_read_5_20x	False
+Cacatua pastinator	Cacatua_pastinator	Cacatuidae	Cacatua	none_found_in_this_audit				616.2	6.424	26.3	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Cacatua sanguinea	Cacatua_sanguinea	Cacatuidae	Cacatua	reported_level_unknown	28.59	3.353	0.0668	340.6	5.831	46.9	AnAge	captivity	medium	acceptable	21.95	0	21.95	1	PRJNA703558	True	Cacatua sanguinea	C_short_read_ge20x	True
+Cacatua goffiniana	Cacatua_goffiniana	Cacatuidae	Cacatua	none_found_in_this_audit				278.2	5.628	26	AnAge	captivity	small	questionable	0	0	0	0		False		none	False
+Cacatua haematuropygia	Cacatua_haematuropygia	Cacatuidae	Cacatua	none_found_in_this_audit	12.68	2.54	0.07458	299.3	5.701	17.3	AnAge	captivity	medium	questionable	29.43	0	29.43	2	PRJEB60513;PRJNA703554	True	Cacatua haematuropygia	C_short_read_ge20x	True
+Cacatua moluccensis	Cacatua_moluccensis	Cacatuidae	Cacatua	none_found_in_this_audit	18.17	2.9	0.02833	800.7	6.686	65.8	AnAge	captivity	large	acceptable	33.75	0	33.75	1	PRJNA703555	True	Cacatua moluccensis	C_short_read_ge20x	True
+Cacatua alba	Cacatua_alba	Cacatuidae	Cacatua	none_found_in_this_audit	21.6	3.073	0.03647	557.7	6.324	26.9	AnAge	captivity	medium	acceptable	20.48	0	20.48	2	PRJEB104190;PRJNA703547	True	Cacatua alba	C_short_read_ge20x	True
+Cacatua ophthalmica	Cacatua_ophthalmica	Cacatuidae	Cacatua	none_found_in_this_audit	19.88	2.99	0.0666	607.3	6.409	31.9	AnAge	captivity	medium	acceptable	12.45	0	12.45	1	PRJNA703556	True	Cacatua ophthalmica	D_short_read_5_20x	False
+Cacatua sulphurea	Cacatua_sulphurea	Cacatuidae	Cacatua	none_found_in_this_audit	19.79	2.985	0.03851	362	5.892	49.7	AnAge	captivity	medium	acceptable	27.63	0	27.63	2	PRJEB64890;PRJNA703559	True	Cacatua citrinocristata;Cacatua sulphurea	C_short_read_ge20x	True
+Cacatua galerita	Cacatua_galerita	Cacatuidae	Cacatua	chromosome_scale	25.17	3.226	0.03335	607.4	6.409	57	AnAge	captivity	large	acceptable	21.86	0	21.86	1	PRJNA703552	True	Cacatua galerita	C_short_read_ge20x	True
+Cacatua leadbeateri	Cacatua_leadbeateri	Cacatuidae	Cacatua	none_found_in_this_audit				372.8	5.921	83	AnAge	captivity	medium	acceptable	21.55	0	21.55	1	PRJNA528955	True	Lophochroa leadbeateri	C_short_read_ge20x	True
+Eolophus roseicapilla	Eolophus_roseicapilla	Cacatuidae	Eolophus	none_found_in_this_audit	16.01	2.773	0.02896	322.6	5.776	40	AnAge	captivity	large	acceptable	46.42	0	46.42	2	PRJNA545868;PRJNA703678	True	Eolophus roseicapilla	C_short_read_ge20x	True
+Callocephalon fimbriatum	Callocephalon_fimbriatum	Cacatuidae	Callocephalon	none_found_in_this_audit				269.4	5.596	27.5	AnAge	captivity	medium	acceptable	19.87	0	19.87	1	PRJNA640361	True	Callocephalon fimbriatum	D_short_read_5_20x	False
+Probosciger aterrimus	Probosciger_aterrimus	Cacatuidae	Probosciger	none_found_in_this_audit	16.64	2.812	0.04882	631.3	6.448	56.3	AnAge	captivity	medium	acceptable	90.2	0	90.2	53	PRJNA1074783;PRJNA545868;PRJNA675140	True	Probosciger aterrimus;Probosciger aterrimus aterrimus;Probosciger aterrimus goliath	C_short_read_ge20x	True
+Calyptorhynchus lathami	Calyptorhynchus_lathami	Cacatuidae	Calyptorhynchus	none_found_in_this_audit	22.88	3.13	0.13	374.8	5.926						0	0	0	0		False		none	False
+Calyptorhynchus banksii	Calyptorhynchus_banksii	Cacatuidae	Calyptorhynchus	none_found_in_this_audit				595.9	6.39	45.4	AnAge	captivity	medium	acceptable	0	0	0	0		False		none	False
+Zanda baudinii	Zanda_baudinii	Cacatuidae	Zanda	none_found_in_this_audit				682.9	6.526	47	AnAge	captivity	small	acceptable	0	0	0	0		False		none	False
+Zanda latirostris	Zanda_latirostris	Cacatuidae	Zanda	none_found_in_this_audit				612.6	6.418						0	0	0	0		False		none	False
+Zanda funerea	Zanda_funerea	Cacatuidae	Zanda	none_found_in_this_audit	21.46	3.066	0.06818	600	6.397	41	AnAge	captivity	medium	acceptable	25.45	0	25.45	1	PRJNA718285	True	Zanda funerea	C_short_read_ge20x	True
+Nymphicus hollandicus	Nymphicus_hollandicus	Cacatuidae	Nymphicus	none_found_in_this_audit	8.268	2.112	0.02195	90.9	4.51	35	AnAge	captivity	large	acceptable	35.53	820.3	35.53	3	PRJNA479577;PRJNA679636;PRJNA819251	True	Nymphicus hollandicus	B_long_read_ge15x	True
+Nestor notabilis	Nestor_notabilis	Strigopidae	Nestor	draft_or_in_progress	13.68	2.616	0.03648	792.6	6.675	47	AnAge	captivity	medium	acceptable	43.99	0	43.99	1	PRJNA212900	False	Nestor notabilis	C_short_read_ge20x	True
+Nestor meridionalis	Nestor_meridionalis	Strigopidae	Nestor	none_found_in_this_audit	12.39	2.517	0.09016	438.2	6.083						0	0	0	0		False		none	False
+Strigops habroptila	Strigops_habroptila	Strigopidae	Strigops	chromosome_scale				1750	7.467	60	AnAge	captivity	small	acceptable	77.03	82.93	77.03	131	PRJEB25924;PRJEB35522;PRJNA1005977	False	Strigops habroptila	A_chromosome_scale	True

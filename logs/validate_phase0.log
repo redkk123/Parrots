@@ -1,0 +1,33 @@
+{
+  "r_version": "R version 4.4.3 (2025-02-28)",
+  "packages": ["5.8.1", "3.1.170", "2.6.5", "2.5.2"],
+  "pgls": [
+    {
+      "implementation": "python lib/phylo.py",
+      "lambda": 0.65335,
+      "slope": 0.34914,
+      "slope_se": 0.0322
+    },
+    {
+      "implementation": "nlme::gls corPagel (ML)",
+      "lambda": 0.65336,
+      "slope": 0.34914,
+      "slope_se": 0.0322
+    },
+    {
+      "implementation": "phylolm lambda",
+      "lambda": 0.65336,
+      "slope": 0.34914,
+      "slope_se": 0.0322
+    }
+  ],
+  "phylolm_aic": [172.02345, 102.0962, 116.98218],
+  "phylolm_ou_alpha_per_tree_height": 5.41439,
+  "ancestral": {
+    "n_nodes_matched": 191,
+    "n_nodes": 191,
+    "max_abs_diff_estimate": 0.00008,
+    "cor_estimate": 1,
+    "cor_se": 1
+  }
+} 

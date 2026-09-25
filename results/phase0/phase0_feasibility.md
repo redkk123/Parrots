@@ -3,6 +3,8 @@
 **Data:** 25 set. 2026. **Reproduzir:** `bash scripts/00_fetch_external.sh && python scripts/01_build_phase0_tables.py && python scripts/02_phase0_analysis.py` (ver README).
 **Status:** exploratório. Nenhuma análise molecular foi feita. Todos os contrastes abaixo derivam só do fenótipo e da árvore.
 
+> **Atualização (Fase 0b, mesma data):** três conclusões deste relatório foram revistas em [`../phase0b/phase0b_report.md`](../phase0b/phase0b_report.md). (1) A sobreposição genoma × fenótipo não é 17 espécies: são **105 com dados utilizáveis** (§5–6 abaixo ficam superados). (2) “O kea não é longevo” **depende do desfecho**: pela longevidade máxima ajustada, fica +13 % acima do esperado. (3) A história mais sustentada é um **ancestral longevo com redução em Psittaculidae**, não vários aumentos independentes.
+
 ## 1. Cobertura fenotípica
 
 | Item | Valor |

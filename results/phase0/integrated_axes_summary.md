@@ -8,6 +8,8 @@ Evidência → explicações concorrentes → perguntas testáveis. Fontes em `d
 
 **O que a Fase 0 acrescenta.** Na árvore, os parentes mais próximos do periquito são os **Loriini** (~9,75 Ma), não a calopsita (Cacatuidae, 40,8 Ma) nem os *Agapornis* (32 Ma). Nenhuma série com denominador para lóris foi localizada. O periquito também é **menos longevo que o esperado pela massa** (−25 %), de modo que “baixa longevidade” e “alta carga tumoral” podem compartilhar causas (seleção artificial, reprodução intensa, manejo).
 
+**Atualização (Fase 0b).** O periquito pertence a Psittaculidae, o clado com **redução de longevidade relativa** na análise de regimes (−31 %; `../phase0b/phase0b_report.md` §7). Os lóris estão no mesmo regime. Por isso a comparação periquito × Loriini controla o efeito do clado, e a comparação periquito × calopsita ou × *Amazona* **não** controla. Pela longevidade máxima ajustada, o periquito fica +16 % acima do esperado: o rótulo “pouco longevo” depende do desfecho.
+
 **Explicações concorrentes.** Estrutura etária e acesso a diagnóstico (animal de estimação muito comum); endogamia e seleção de linhagens de exposição; infecção (*Macrorhabdus*); reprodução intensa (postura grande — coerente com C2); dieta e obesidade (lipomas/xantomas, C3); manutenção somática intrínseca.
 
 **Perguntas testáveis.**

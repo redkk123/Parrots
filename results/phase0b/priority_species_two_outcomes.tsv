@@ -1,0 +1,10 @@
+species	body_mass_g	life_expectancy_years	max_longevity_years	max_longevity_sample_size	pct_rel_LE	rank_rel_LE	pct_rel_maxL	rank_rel_maxL	pct_rel_maxL_ssadj	rank_rel_maxL_ssadj	genome_tier
+Nymphicus hollandicus	90.9	8.27	35	large	-0.109	127	70.2	2	46.1	9	B_long_read_ge15x
+Cacatua moluccensis	801	18.2	65.8	large	2.75	116	58.1	6	38	16	C_short_read_ge20x
+Cacatua galerita	607	25.2	57	large	56.8	25	49.8	11	30.5	21	C_short_read_ge20x
+Amazona aestiva	401	21.5	49	large	54.8	26	47.3	14	27.9	24	C_short_read_ge20x
+Psittacus erithacus	461	18.6	49.7	large	27.5	73	42.8	17	24.1	27	C_short_read_ge20x
+Melopsittacus undulatus	37.8	4.57	21	large	-25	188	35.7	20	15.7	41	A_chromosome_scale
+Nestor notabilis	793	13.7	47	medium	-22.4	179	13.3	39	12.5	44	C_short_read_ge20x
+Anodorhynchus hyacinthinus	1.31e+03	23.2	38.8	tiny	10.4	103	-20.6	100	2.46	56	D_short_read_5_20x
+Ara macao	1e+03	35.5	33	large	85.6	7	-26.3	117	-35.5	129	C_short_read_ge20x

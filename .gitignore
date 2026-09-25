@@ -2,3 +2,7 @@ data/external/
 __pycache__/
 .venv/
 *.pyc
+.micromamba/
+.renv/
+.renv45/
+data/processed/*.rds

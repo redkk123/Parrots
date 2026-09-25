@@ -1,0 +1,179 @@
+{
+  "PhylogeneticEM": "1.8.1",
+  "rel_LE": {
+    "n_species": 218,
+    "minutes": 1.1487,
+    "selection": {
+      "BGHuni": {
+        "K": 3,
+        "alpha_per_tree_height": [
+          [25.57217]
+        ],
+        "half_life_myr": [
+          [1.26861]
+        ],
+        "root_optimum": 0.22382,
+        "shifts": [
+          {
+            "edge": 4,
+            "shift_value": -0.34875,
+            "n_tips": 101,
+            "genera": "Agapornis;Alisterus;Aprosmictus;Barnardius;Chalcopsitta;Charmosyna;...",
+            "tips": "Agapornis_canus;Agapornis_fischeri;Agapornis_lilianae;Agapornis_nigrigenis;Agapornis_personatus;Agapornis_roseicollis;Agapornis_taranta;Alisterus_amboinensis;Alisterus_chloropterus;Aprosmictus_erythropterus;Barnardius_zonarius;Chalcopsitta_atra;Chalcopsitta_cardinalis;Chalcopsitta_duivenbodei;Chalcopsitta_scintillata;Charmosyna_josefinae;Charmosyna_papou;Charmosyna_placentis;Charmosyna_pulchella;Charmosyna_stellae;Cyanoramphus_auriceps;Cyanoramphus_malherbi;Cyanoramphus_novaezelandiae;Cyanoramphus_unicolor;Cyclopsitta_diophthalma;Eclectus_roratus;Eos_bornea;Eos_cyanogenia;Eos_histrio;Eos_reticulata;Eos_squamata;Eunymphicus_cornutus;Glossopsitta_concinna;Glossopsitta_porphyrocephala;Glossopsitta_pusilla;Lathamus_discolor;Loriculus_galgulus;Loriculus_philippensis;Loriculus_vernalis;Lorius_chlorocercus;Lorius_domicella;Lorius_garrulus;Lorius_lory;Melopsittacus_undulatus;Neophema_chrysogaster;Neophema_chrysostoma;Neophema_elegans;Neophema_pulchella;Neophema_splendida;Neopsephotus_bourkii;Neopsittacus_musschenbroekii;Neopsittacus_pullicauda;Northiella_haematogaster;Oreopsittacus_arfaki;Phigys_solitarius;Platycercus_adscitus;Platycercus_eximius;Platycercus_icterotis;Platycercus_venustus;Polytelis_alexandrae;Polytelis_anthopeplus;Polytelis_swainsonii;Psephotellus_chrysopterygius;Psephotellus_dissimilis;Psephotellus_varius;Psephotus_haematonotus;Pseudeos_fuscata;Psittacula_alexandri;Psittacula_columboides;Psittacula_cyanocephala;Psittacula_derbiana;Psittacula_eupatria;Psittacula_himalayana;Psittacula_krameri;Psittacula_longicauda;Psittacula_roseata;Psittaculirostris_desmarestii;Psittaculirostris_edwardsii;Psittaculirostris_salvadorii;Psitteuteles_goldiei;Psitteuteles_iris;Psitteuteles_versicolor;Psittinus_cyanurus;Purpureicephalus_spurius;Tanygnathus_lucionensis;Tanygnathus_megalorynchos;Tanygnathus_sumatranus;Trichoglossus_capistratus;Trichoglossus_chlorolepidotus;Trichoglossus_euteles;Trichoglossus_flavoviridis;Trichoglossus_forsteni;Trichoglossus_haematodus;Trichoglossus_johnstoniae;Trichoglossus_moluccanus;Trichoglossus_ornatus;Trichoglossus_rosenbergii;Trichoglossus_rubritorquis;Trichoglossus_weberi;Vini_australis;Vini_peruviana"
+          },
+          {
+            "edge": 100,
+            "shift_value": -1.30257,
+            "n_tips": 1,
+            "genera": "Psittaculirostris",
+            "tips": "Psittaculirostris_desmarestii"
+          },
+          {
+            "edge": 178,
+            "shift_value": -1.36362,
+            "n_tips": 1,
+            "genera": "Tanygnathus",
+            "tips": "Tanygnathus_megalorynchos"
+          }
+        ]
+      },
+      "DDSE_BM1": {
+        "error": "criterion not available"
+      },
+      "Djump_BM1": {
+        "error": "criterion not available"
+      }
+    },
+    "loglik_by_K": [
+      {
+        "K": 0,
+        "loglik": -55.53173
+      },
+      {
+        "K": 1,
+        "loglik": -41.15658
+      },
+      {
+        "K": 2,
+        "loglik": -32.09739
+      },
+      {
+        "K": 3,
+        "loglik": -24.58386
+      },
+      {
+        "K": 4,
+        "loglik": -20.28491
+      },
+      {
+        "K": 5,
+        "loglik": -15.63703
+      },
+      {
+        "K": 6,
+        "loglik": -10.66719
+      },
+      {
+        "K": 7,
+        "loglik": -6.11436
+      },
+      {
+        "K": 8,
+        "loglik": -2.32256
+      },
+      {
+        "K": 9,
+        "loglik": 1.39941
+      },
+      {
+        "K": 10,
+        "loglik": 4.65985
+      },
+      {
+        "K": 11,
+        "loglik": 8.67231
+      },
+      {
+        "K": 12,
+        "loglik": 12.29791
+      }
+    ]
+  },
+  "rel_maxL_ssadj": {
+    "n_species": 152,
+    "minutes": 0.77494,
+    "selection": {
+      "BGHuni": {
+        "K": 0,
+        "alpha_per_tree_height": [
+          [28.19179]
+        ],
+        "half_life_myr": [
+          [1.15073]
+        ],
+        "root_optimum": -0.08906,
+        "shifts": []
+      },
+      "DDSE_BM1": {
+        "error": "criterion not available"
+      },
+      "Djump_BM1": {
+        "error": "criterion not available"
+      }
+    },
+    "loglik_by_K": [
+      {
+        "K": 0,
+        "loglik": -39.94562
+      },
+      {
+        "K": 1,
+        "loglik": -33.78194
+      },
+      {
+        "K": 2,
+        "loglik": -27.39399
+      },
+      {
+        "K": 3,
+        "loglik": -23.48086
+      },
+      {
+        "K": 4,
+        "loglik": -19.48274
+      },
+      {
+        "K": 5,
+        "loglik": -16.22809
+      },
+      {
+        "K": 6,
+        "loglik": -12.88868
+      },
+      {
+        "K": 7,
+        "loglik": -9.99131
+      },
+      {
+        "K": 8,
+        "loglik": -6.9518
+      },
+      {
+        "K": 9,
+        "loglik": -4.03858
+      },
+      {
+        "K": 10,
+        "loglik": -0.98684
+      },
+      {
+        "K": 11,
+        "loglik": 2.08552
+      },
+      {
+        "K": 12,
+        "loglik": 5.03617
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+/home/user/Parrots/.venv/lib/python3.11/site-packages/rdata/conversion/_conversion.py:918: UserWarning: Missing constructor for R class "person". The underlying R object is returned instead.
+  warnings.warn(
+/home/user/Parrots/.venv/lib/python3.11/site-packages/rdata/conversion/_conversion.py:918: UserWarning: Missing constructor for R class "bibentry". The underlying R object is returned instead.
+  warnings.warn(
+/home/user/Parrots/.venv/lib/python3.11/site-packages/rdata/conversion/_conversion.py:918: UserWarning: Missing constructor for R class "person". The underlying R object is returned instead.
+  warnings.warn(
+/home/user/Parrots/.venv/lib/python3.11/site-packages/rdata/conversion/_conversion.py:918: UserWarning: Missing constructor for R class "bibentry". The underlying R object is returned instead.
+  warnings.warn(
+max longevity: 173 tree species (138 also with life expectancy)
+log_life_expectancy  no_LE  with_LE
+genome_tier                        
+A_chromosome_scale       2        6
+B_long_read_ge15x        2       14
+C_short_read_ge20x      34       85
+D_short_read_5_20x      32       39
+E_low_pass_lt5x          1        4
+F_literature_only        0        0
+none                   124       70
+usable (tiers A-C) with LE: 105; with max longevity: 88

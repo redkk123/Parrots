@@ -1,0 +1,71 @@
+starting worker pid=4153 on localhost:11551 at 19:30:52.437
+starting worker pid=4152 on localhost:11551 at 19:30:52.444
+starting worker pid=4155 on localhost:11551 at 19:30:52.451
+starting worker pid=4154 on localhost:11551 at 19:30:52.454
+Loading required package: PhylogeneticEM
+Loading required package: ape
+Loading required package: PhylogeneticEM
+Loading required package: ape
+Loading required package: PhylogeneticEM
+Loading required package: ape
+Loading required package: PhylogeneticEM
+Loading required package: ape
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: Matrix
+loaded PhylogeneticEM and set parent environment
+loaded PhylogeneticEM and set parent environment
+loaded PhylogeneticEM and set parent environment
+loaded PhylogeneticEM and set parent environment
+Warning message:
+Warning message:
+Warning message:
+In .resolve_control(control = control, nvars = nvars, deprecated = list(thresh = if (!missing(thresh)) thresh,  :
+  Passing 'dfmax' to glmnet() is deprecated. Use control = list(dfmax = ...) instead.
+In .resolve_control(control = control, nvars = nvars, deprecated = list(thresh = if (!missing(thresh)) thresh,  :
+  Passing 'dfmax' to glmnet() is deprecated. Use control = list(dfmax = ...) instead.
+In .resolve_control(control = control, nvars = nvars, deprecated = list(thresh = if (!missing(thresh)) thresh,  :
+  Passing 'dfmax' to glmnet() is deprecated. Use control = list(dfmax = ...) instead.
+Warning message:
+In .resolve_control(control = control, nvars = nvars, deprecated = list(thresh = if (!missing(thresh)) thresh,  :
+  Passing 'dfmax' to glmnet() is deprecated. Use control = list(dfmax = ...) instead.
+rel_LE : K(BGHuni) = 3  K(DDSE) =  minutes = 1.1 
+starting worker pid=4246 on localhost:11551 at 19:32:02.000
+starting worker pid=4243 on localhost:11551 at 19:32:02.024
+starting worker pid=4245 on localhost:11551 at 19:32:02.044
+starting worker pid=4244 on localhost:11551 at 19:32:02.053
+Loading required package: PhylogeneticEM
+Loading required package: ape
+Loading required package: PhylogeneticEM
+Loading required package: PhylogeneticEM
+Loading required package: ape
+Loading required package: ape
+Loading required package: PhylogeneticEM
+Loading required package: ape
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: Matrix
+loaded PhylogeneticEM and set parent environment
+loaded PhylogeneticEM and set parent environment
+loaded PhylogeneticEM and set parent environment
+loaded PhylogeneticEM and set parent environment
+Warning message:
+Warning message:
+In .resolve_control(control = control, nvars = nvars, deprecated = list(thresh = if (!missing(thresh)) thresh,  :
+  Passing 'dfmax' to glmnet() is deprecated. Use control = list(dfmax = ...) instead.
+Warning message:
+In .resolve_control(control = control, nvars = nvars, deprecated = list(thresh = if (!missing(thresh)) thresh,  :
+  Passing 'dfmax' to glmnet() is deprecated. Use control = list(dfmax = ...) instead.
+In .resolve_control(control = control, nvars = nvars, deprecated = list(thresh = if (!missing(thresh)) thresh,  :
+  Passing 'dfmax' to glmnet() is deprecated. Use control = list(dfmax = ...) instead.
+Warning message:
+In .resolve_control(control = control, nvars = nvars, deprecated = list(thresh = if (!missing(thresh)) thresh,  :
+  Passing 'dfmax' to glmnet() is deprecated. Use control = list(dfmax = ...) instead.
+rel_maxL_ssadj : K(BGHuni) = 0  K(DDSE) =  minutes = 0.8 
+Warning messages:
+1: In compute_ancestral_traits(x, params, method.selection, what, ...) :
+  For K = 3, the log_likelihood of the transformed parameters on the er-scaled tree is different from the log_likelihood of the parameters on the original tree, with a tolerance of 0.000740095979741405.
+2: In compute_ancestral_traits(x, params, method.selection, what, ...) :
+  For K = 0, the log_likelihood of the transformed parameters on the er-scaled tree is different from the log_likelihood of the parameters on the original tree, with a tolerance of 0.000740095979741405.

@@ -198,7 +198,8 @@ def gls_loglik(y, X, V, reml=False):
     ll = -0.5 * (df * math.log(2 * math.pi * s2) + logdet + df)
     if reml:
         ll -= 0.5 * np.linalg.slogdet(Xs.T @ Xs)[1]
-    cov_beta = s2 * np.linalg.inv(Xs.T @ Xs)
+    # coefficient covariance uses the unbiased residual variance (as nlme/phylolm do)
+    cov_beta = float(r @ r) / (n - k) * np.linalg.inv(Xs.T @ Xs)
     return ll, beta, cov_beta, s2
 
 

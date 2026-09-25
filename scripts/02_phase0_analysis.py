@@ -83,6 +83,7 @@ def main():
         genera = sorted({c.split("_")[0] for c in clade})
         anc_rows.append({
             "node": n, "is_tip": tree.is_tip(n), "label": tree.label[n] or f"node{n}",
+            "clade_key": f"{len(clade)}|{min(clade)}|{max(clade)}",
             "age_myr": H - depths[n], "n_desc_tips": len(clade),
             "genera": ";".join(genera) if len(genera) <= 6 else f"{len(genera)} genera",
             "est_rel_logLE": est[n], "se": se[n],

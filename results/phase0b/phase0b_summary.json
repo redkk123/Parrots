@@ -1,0 +1,66 @@
+{
+  "max_longevity_allometry": {
+    "n": 171,
+    "lambda": 0.5004712273073597,
+    "slope": 0.3240076995700375,
+    "slope_se": 0.03204588908656941
+  },
+  "max_longevity_sample_size_effect": {
+    "n": 152,
+    "coef_per_size_class": 0.12890349642974278,
+    "se": 0.033078295288001686
+  },
+  "agreement_rel_LE_vs_rel_maxL": {
+    "n": 138,
+    "pgls_slope": 0.3221217737592662,
+    "pgls_slope_se": 0.07844395270696511,
+    "spearman_rho": 0.39469256077207415,
+    "spearman_p": 1.6648064292790879e-06,
+    "n_ssadj": 127,
+    "spearman_rho_ssadj": 0.35165916760404947
+  },
+  "n_ranked": {
+    "rel_LE": 218,
+    "rel_maxL": 171,
+    "rel_maxL_ssadj": 152
+  },
+  "usable_with_LE": 105,
+  "usable_with_LE_by_family": {
+    "Psittacidae": 93,
+    "Cacatuidae": 11,
+    "Strigopidae": 1
+  },
+  "usable_with_LE_by_tier": {
+    "C_short_read_ge20x": 85,
+    "B_long_read_ge15x": 14,
+    "A_chromosome_scale": 6
+  },
+  "usable_with_maxL": 88,
+  "rel_LE_spread": {
+    "all_218_sd": 0.35167068779796373,
+    "usable_sd": 0.3077452200574019
+  },
+  "sister_pairs": {
+    "n": 29,
+    "n_delta_ge_0.3": 8,
+    "n_with_maxL_both": 15,
+    "n_maxL_agrees": 7
+  },
+  "qc_outcomes_inconsistent": [
+    "Psittacula roseata",
+    "Pionus maximiliani",
+    "Amazona autumnalis",
+    "Amazona finschi",
+    "Amazona guildingii",
+    "Brotogeris versicolurus",
+    "Psittacara rubritorquis",
+    "Ara macao",
+    "Ara rubrogenys",
+    "Ara ambiguus",
+    "Aratinga nenday",
+    "Anodorhynchus leari",
+    "Cyanoliseus patagonus",
+    "Pyrrhura perlata",
+    "Cacatua alba"
+  ]
+}

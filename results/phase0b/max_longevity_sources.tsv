@@ -1,0 +1,519 @@
+name	max_longevity_years	origin	sample_size	data_quality	source	tree_species	map_type
+Agapornis fischeri	12.6	captivity	large	questionable	AnAge	Agapornis fischeri	exact
+Agapornis lilianae	19.2	captivity	medium	acceptable	AnAge	Agapornis lilianae	exact
+Agapornis pullarius	18.0	captivity	small	acceptable	AnAge	Agapornis pullarius	exact
+Agapornis roseicollis		unknown	medium	low	AnAge	Agapornis roseicollis	exact
+Agapornis taranta	14.6	captivity	tiny	acceptable	AnAge	Agapornis taranta	exact
+Alisterus scapularis	26.6	captivity	medium	acceptable	AnAge	Alisterus scapularis	exact
+Amazona aestiva	49.0	captivity	large	acceptable	AnAge	Amazona aestiva	exact
+Amazona albifrons	25.3	captivity	medium	acceptable	AnAge	Amazona albifrons	exact
+Amazona amazonica	30.0	captivity	medium	acceptable	AnAge	Amazona amazonica	exact
+Amazona auropalliata	49.0	captivity	medium	acceptable	AnAge	Amazona auropalliata	exact
+Amazona autumnalis	27.0	captivity	medium	acceptable	AnAge	Amazona autumnalis	exact
+Amazona barbadensis		unknown	medium	low	AnAge	Amazona barbadensis	exact
+Amazona farinosa		unknown	medium	low	AnAge	Amazona farinosa	exact
+Amazona festiva	24.5	captivity	medium	acceptable	AnAge	Amazona festiva	exact
+Amazona finschi	25.8	captivity	medium	acceptable	AnAge	Amazona finschi	exact
+Amazona guildingii	28.0	captivity	small	acceptable	AnAge	Amazona guildingii	exact
+Amazona leucocephala		unknown	medium	low	AnAge	Amazona leucocephala	exact
+Amazona ochrocephala	56.0	captivity	medium	acceptable	AnAge	Amazona ochrocephala	exact
+Amazona oratrix		unknown	medium	low	AnAge	Amazona oratrix	exact
+Amazona rhodocorytha	44.0	captivity	medium	acceptable	AnAge	Amazona rhodocorytha	exact
+Amazona versicolor		unknown	medium	low	AnAge	Amazona versicolor	exact
+Amazona viridigenalis		unknown	medium	low	AnAge	Amazona viridigenalis	exact
+Amazona vittata		unknown	small	low	AnAge	Amazona vittata	exact
+Anodorhynchus glaucus		unknown	small	low	AnAge	Anodorhynchus glaucus	exact
+Anodorhynchus hyacinthinus	38.8	captivity	tiny	acceptable	AnAge	Anodorhynchus hyacinthinus	exact
+Anodorhynchus leari	38.3	captivity	small	acceptable	AnAge	Anodorhynchus leari	exact
+Aprosmictus erythropterus	24.4	captivity	medium	acceptable	AnAge	Aprosmictus erythropterus	exact
+Ara ambiguus	29.0	captivity	small	acceptable	AnAge	Ara ambiguus	exact
+Ara ararauna	43.0	captivity	large	acceptable	AnAge	Ara ararauna	exact
+Ara chloropterus	50.1	captivity	small	acceptable	AnAge	Ara chloropterus	exact
+Ara glaucogularis	22.0	captivity	medium	acceptable	AnAge	Ara glaucogularis	exact
+Ara macao	33.0	captivity	large	acceptable	AnAge	Ara macao	exact
+Ara militaris	46.0	captivity	large	acceptable	AnAge	Ara militaris	exact
+Ara rubrogenys	23.0	captivity	medium	acceptable	AnAge	Ara rubrogenys	exact
+Ara severus	28.5	captivity	small	acceptable	AnAge	Ara severus	exact
+Aratinga acuticaudata	31.0	captivity	medium	acceptable	AnAge	Psittacara acuticaudatus	burgio_synonym
+Aratinga auricapillus	20.9	captivity	small	acceptable	AnAge	Aratinga auricapillus	exact
+Aratinga canicularis	16.2	captivity	small	acceptable	AnAge	Eupsittula canicularis	burgio_synonym
+Aratinga chloroptera		unknown	medium	low	AnAge	Psittacara chloropterus	burgio_synonym
+Aratinga erythrogenys	26.2	captivity	small	acceptable	AnAge	Psittacara erythrogenys	burgio_synonym
+Aratinga holochlora	21.8	captivity	medium	acceptable	AnAge		unresolved
+Barnardius zonarius	17.9	captivity	small	acceptable	AnAge	Barnardius zonarius	exact
+Bolborhynchus orbygnesius	9.2	captivity	small	acceptable	AnAge	Bolborhynchus orbygnesius	exact
+Brotogeris chiriri	19.0	captivity	small	acceptable	AnAge	Brotogeris chiriri	exact
+Brotogeris pyrrhoptera	11.3	captivity	small	acceptable	AnAge	Brotogeris pyrrhoptera	exact
+Brotogeris sanctithomae	13.2	captivity	small	acceptable	AnAge	Brotogeris sanctithomae	exact
+Brotogeris tirica	11.0	captivity	small	acceptable	AnAge	Brotogeris tirica	exact
+Brotogeris versicolurus	10.3	captivity	small	acceptable	AnAge	Brotogeris versicolurus	exact
+Cacatua alba	26.9	captivity	medium	acceptable	AnAge	Cacatua alba	exact
+Cacatua ducorpsii	30.5	captivity	small	acceptable	AnAge	Cacatua ducorpsii	exact
+Cacatua galerita	57.0	captivity	large	acceptable	AnAge	Cacatua galerita	exact
+Cacatua goffiniana	26.0	captivity	small	questionable	AnAge	Cacatua goffiniana	exact
+Cacatua haematuropygia	17.3	captivity	medium	questionable	AnAge	Cacatua haematuropygia	exact
+Cacatua leadbeateri	83.0	captivity	medium	acceptable	AnAge	Cacatua leadbeateri	exact
+Cacatua moluccensis	65.8	captivity	large	acceptable	AnAge	Cacatua moluccensis	exact
+Cacatua ophthalmica	31.9	captivity	medium	acceptable	AnAge	Cacatua ophthalmica	exact
+Cacatua pastinator	26.3	captivity	small	acceptable	AnAge	Cacatua pastinator	exact
+Cacatua sanguinea	46.9	captivity	medium	acceptable	AnAge	Cacatua sanguinea	exact
+Cacatua sulphurea	49.7	captivity	medium	acceptable	AnAge	Cacatua sulphurea	exact
+Cacatua tenuirostris	43.0	captivity	medium	acceptable	AnAge	Cacatua tenuirostris	exact
+Callocephalon fimbriatum	27.5	captivity	medium	acceptable	AnAge	Callocephalon fimbriatum	exact
+Calyptorhynchus banksii	45.4	captivity	medium	acceptable	AnAge	Calyptorhynchus banksii	exact
+Calyptorhynchus baudinii	47.0	captivity	small	acceptable	AnAge	Zanda baudinii	burgio_synonym
+Calyptorhynchus funereus	41.0	captivity	medium	acceptable	AnAge	Zanda funerea	burgio_synonym
+Calyptorhynchus lathami		unknown	medium	low	AnAge	Calyptorhynchus lathami	exact
+Chalcopsitta atra	17.5	captivity	small	acceptable	AnAge	Chalcopsitta atra	exact
+Chalcopsitta sintillata	19.7	captivity	medium	acceptable	AnAge	Chalcopsitta scintillata	burgio_synonym
+Charmosyna papou	11.3	captivity	medium	acceptable	AnAge	Charmosyna papou	exact
+Conuropsis carolinensis	30.0	captivity	small	acceptable	AnAge	Conuropsis carolinensis	exact
+Coracopsis nigra	34.1	captivity	medium	acceptable	AnAge	Coracopsis nigra	exact
+Coracopsis vasa	53.9	captivity	medium	acceptable	AnAge	Coracopsis vasa	exact
+Cyanoliseus patagonus	19.5	captivity	large	acceptable	AnAge	Cyanoliseus patagonus	exact
+Cyanopsitta spixii	27.0	captivity	small	acceptable	AnAge	Cyanopsitta spixii	exact
+Cyanoramphus auriceps	9.3	captivity	medium	acceptable	AnAge	Cyanoramphus auriceps	exact
+Cyanoramphus novaezelandiae	12.4	captivity	medium	acceptable	AnAge	Cyanoramphus novaezelandiae	exact
+Deroptyus accipitrinus	21.8	captivity	medium	acceptable	AnAge	Deroptyus accipitrinus	exact
+Diopsittaca nobilis	22.9	captivity	small	acceptable	AnAge	Diopsittaca nobilis	exact
+Eclectus roratus	28.5	captivity	large	acceptable	AnAge	Eclectus roratus	exact
+Enicognathus leptorhynchus	15.3	captivity	small	acceptable	AnAge	Enicognathus leptorhynchus	exact
+Eolophus roseicapilla	40.0	captivity	large	acceptable	AnAge	Eolophus roseicapilla	exact
+Eos bornea	24.7	captivity	medium	acceptable	AnAge	Eos bornea	exact
+Eos cyanogenia	18.1	captivity	tiny	acceptable	AnAge	Eos cyanogenia	exact
+Eos histrio	15.2	captivity	small	acceptable	AnAge	Eos histrio	exact
+Eos reticulata	16.6	captivity	medium	acceptable	AnAge	Eos reticulata	exact
+Eos squamata	16.5	captivity	small	acceptable	AnAge	Eos squamata	exact
+Eunymphicus cornutus	19.7	captivity	small	acceptable	AnAge	Eunymphicus cornutus	exact
+Forpus coelestis	10.4	captivity	medium	acceptable	AnAge	Forpus coelestis	exact
+Forpus cyanopygius	10.5	captivity	small	acceptable	AnAge	Forpus cyanopygius	exact
+Forpus passerinus	11.6	captivity	small	acceptable	AnAge	Forpus passerinus	exact
+Forpus xanthops	10.5	captivity	small	acceptable	AnAge	Forpus xanthops	exact
+Glossopsitta concinna	11.5	captivity	medium	acceptable	AnAge	Glossopsitta concinna	exact
+Glossopsitta porphyrocephala	12.0	captivity	small	acceptable	AnAge	Glossopsitta porphyrocephala	exact
+Graydidascalus brachyurus	13.2	captivity	small	acceptable	AnAge	Graydidascalus brachyurus	exact
+Guaruba guarouba	23.2	captivity	small	acceptable	AnAge	Guaruba guarouba	exact
+Loriculus galgulus	14.3	captivity	medium	acceptable	AnAge	Loriculus galgulus	exact
+Loriculus philippensis	10.1	captivity	tiny	acceptable	AnAge	Loriculus philippensis	exact
+Loriculus vernalis	10.1	captivity	small	acceptable	AnAge	Loriculus vernalis	exact
+Lorius domicella	26.0	captivity	medium	acceptable	AnAge	Lorius domicella	exact
+Lorius garrulus	26.6	captivity	medium	acceptable	AnAge	Lorius garrulus	exact
+Lorius lory	18.5	captivity	medium	acceptable	AnAge	Lorius lory	exact
+Melopsittacus undulatus	21.0	captivity	large	high	AnAge	Melopsittacus undulatus	exact
+Myiopsitta monachus	22.1	captivity	large	acceptable	AnAge	Myiopsitta monachus	exact
+Nandayus nenday	18.7	captivity	medium	acceptable	AnAge	Aratinga nenday	burgio_synonym
+Neophema chrysostoma	21.0	captivity	small	acceptable	AnAge	Neophema chrysostoma	exact
+Neophema pulchella	21.0	captivity	medium	acceptable	AnAge	Neophema pulchella	exact
+Neophema splendida	14.0	captivity	medium	acceptable	AnAge	Neophema splendida	exact
+Neopsephotus bourkii	12.6	captivity	small	acceptable	AnAge	Neopsephotus bourkii	exact
+Nestor meridionalis		unknown	small	low	AnAge	Nestor meridionalis	exact
+Nestor notabilis	47.0	captivity	medium	acceptable	AnAge	Nestor notabilis	exact
+Northiella haematogaster	15.3	captivity	small	acceptable	AnAge	Northiella haematogaster	exact
+Nymphicus hollandicus	35.0	captivity	large	acceptable	AnAge	Nymphicus hollandicus	exact
+Phigys solitarius		unknown	small	low	AnAge	Phigys solitarius	exact
+Pionites leucogaster	26.0	captivity	medium	acceptable	AnAge	Pionites leucogaster	exact
+Pionites melanocephalus	22.6	captivity	small	acceptable	AnAge	Pionites melanocephalus	exact
+Pionopsitta pileata	16.8	captivity	tiny	acceptable	AnAge	Pionopsitta pileata	exact
+Pionus maximiliani	16.2	captivity	medium	acceptable	AnAge	Pionus maximiliani	exact
+Pionus menstruus	20.6	captivity	medium	acceptable	AnAge	Pionus menstruus	exact
+Platycercus elegans	26.8	captivity	medium	acceptable	AnAge	Platycercus elegans	exact
+Platycercus eximius	27.4	captivity	medium	acceptable	AnAge	Platycercus eximius	exact
+Platycercus icterotis	13.2	captivity	small	questionable	AnAge	Platycercus icterotis	exact
+Platycercus venustus	19.1	captivity	tiny	acceptable	AnAge	Platycercus venustus	exact
+Poicephalus cryptoxanthus	32.1	captivity	medium	acceptable	AnAge	Poicephalus cryptoxanthus	exact
+Poicephalus gulielmi	21.0	captivity	medium	acceptable	AnAge	Poicephalus gulielmi	exact
+Poicephalus meyeri	34.2	captivity	medium	acceptable	AnAge	Poicephalus meyeri	exact
+Poicephalus robustus	29.7	captivity	medium	acceptable	AnAge	Poicephalus robustus	exact
+Poicephalus rueppellii	34.3	captivity	small	acceptable	AnAge	Poicephalus rueppellii	exact
+Poicephalus rufiventris	33.4	captivity	medium	acceptable	AnAge	Poicephalus rufiventris	exact
+Poicephalus senegalus	40.0	captivity	large	acceptable	AnAge	Poicephalus senegalus	exact
+Polytelis alexandrae	23.9	captivity	medium	acceptable	AnAge	Polytelis alexandrae	exact
+Polytelis anthopeplus	13.8	captivity	medium	acceptable	AnAge	Polytelis anthopeplus	exact
+Polytelis swainsonii	15.1	captivity	medium	acceptable	AnAge	Polytelis swainsonii	exact
+Primolius maracana	31.0	captivity	small	acceptable	AnAge	Primolius maracana	exact
+Probosciger aterrimus	56.3	captivity	medium	acceptable	AnAge	Probosciger aterrimus	exact
+Prosopeia personata	11.8	captivity	small	acceptable	AnAge	Prosopeia personata	exact
+Prosopeia splendens	20.1	captivity	small	acceptable	AnAge	Prosopeia splendens	exact
+Prosopeia tabuensis		unknown	tiny	low	AnAge	Prosopeia tabuensis	exact
+Psephotus dissimilis	18.0	captivity	small	acceptable	AnAge	Psephotellus dissimilis	burgio_synonym
+Psephotus haematonotus	12.2	captivity	medium	acceptable	AnAge	Psephotus haematonotus	exact
+Psephotus varius	11.8	captivity	small	acceptable	AnAge	Psephotellus varius	burgio_synonym
+Pseudeos fuscata	13.4	captivity	medium	acceptable	AnAge	Pseudeos fuscata	exact
+Psilopsiagon aymara	8.5	captivity	small	acceptable	AnAge	Psilopsiagon aymara	exact
+Psittacula alexandri	23.3	captivity	medium	acceptable	AnAge	Psittacula alexandri	exact
+Psittacula calthropae	14.0	captivity	small	questionable	AnAge	Psittacula calthrapae	burgio_synonym
+Psittacula columboides		unknown	small	low	AnAge	Psittacula columboides	exact
+Psittacula cyanocephala	18.8	captivity	medium	questionable	AnAge	Psittacula cyanocephala	exact
+Psittacula eupatria	30.0	captivity	medium	acceptable	AnAge	Psittacula eupatria	exact
+Psittacula krameri	34.0	captivity	large	acceptable	AnAge	Psittacula krameri	exact
+Psittaculirostris desmarestii	14.9	captivity	tiny	acceptable	AnAge	Psittaculirostris desmarestii	exact
+Psittaculirostris edwardsii	12.0	captivity	small	acceptable	AnAge	Psittaculirostris edwardsii	exact
+Psittaculirostris salvadorii	12.0	captivity	tiny	acceptable	AnAge	Psittaculirostris salvadorii	exact
+Psittacus erithacus	49.7	captivity	large	acceptable	AnAge	Psittacus erithacus	exact
+Psitteuteles goldiei		unknown	small	low	AnAge	Psitteuteles goldiei	exact
+Psitteuteles iris	24.1	captivity	small	acceptable	AnAge	Psitteuteles iris	exact
+Psittinus cyanurus	10.2	captivity	small	questionable	AnAge	Psittinus cyanurus	exact
+Psittrichas fulgidus	25.0	captivity	medium	acceptable	AnAge	Psittrichas fulgidus	exact
+Purpureicephalus spurius	15.3	captivity	small	acceptable	AnAge	Purpureicephalus spurius	exact
+Pyrrhura leucotis	18.5	captivity	small	acceptable	AnAge	Pyrrhura leucotis	exact
+Pyrrhura perlata	14.3	captivity	small	acceptable	AnAge	Pyrrhura perlata	exact
+Rhynchopsitta pachyrhyncha	33.0	captivity	medium	acceptable	AnAge	Rhynchopsitta pachyrhyncha	exact
+Strigops habroptila	60.0	captivity	small	acceptable	AnAge	Strigops habroptila	exact
+Tanygnathus megalorynchos	23.0	captivity	small	acceptable	AnAge	Tanygnathus megalorynchos	exact
+Tanygnathus sumatranus	14.4	captivity	small	acceptable	AnAge	Tanygnathus sumatranus	exact
+Trichoglossus euteles	16.0	captivity	small	acceptable	AnAge	Trichoglossus euteles	exact
+Trichoglossus haematodus	16.1	captivity	large	questionable	AnAge	Trichoglossus haematodus	exact
+Trichoglossus johnstoniae	17.8	captivity	small	acceptable	AnAge	Trichoglossus johnstoniae	exact
+Trichoglossus ornatus	19.4	captivity	medium	acceptable	AnAge	Trichoglossus ornatus	exact
+Triclaria malachitacea	11.9	captivity	tiny	acceptable	AnAge	Triclaria malachitacea	exact
+Vini australis	13.6	captivity	medium	acceptable	AnAge	Vini australis	exact
+Vini peruviana	18.4	captivity	tiny	acceptable	AnAge	Vini peruviana	exact
+Cacatua alba	40.0				Amniote LHD (Myhrvold et al. 2015)	Cacatua alba	exact
+Cacatua ducorpsii	30.5				Amniote LHD (Myhrvold et al. 2015)	Cacatua ducorpsii	exact
+Cacatua galerita	120.0				Amniote LHD (Myhrvold et al. 2015)	Cacatua galerita	exact
+Cacatua goffiniana					Amniote LHD (Myhrvold et al. 2015)	Cacatua goffiniana	exact
+Cacatua haematuropygia					Amniote LHD (Myhrvold et al. 2015)	Cacatua haematuropygia	exact
+Cacatua moluccensis	69.0				Amniote LHD (Myhrvold et al. 2015)	Cacatua moluccensis	exact
+Cacatua ophthalmica	31.9				Amniote LHD (Myhrvold et al. 2015)	Cacatua ophthalmica	exact
+Cacatua pastinator	26.3				Amniote LHD (Myhrvold et al. 2015)	Cacatua pastinator	exact
+Cacatua roseicapilla	26.3				Amniote LHD (Myhrvold et al. 2015)	Eolophus roseicapilla	burgio_synonym
+Cacatua sanguinea	46.9				Amniote LHD (Myhrvold et al. 2015)	Cacatua sanguinea	exact
+Cacatua sulphurea	49.7				Amniote LHD (Myhrvold et al. 2015)	Cacatua sulphurea	exact
+Cacatua tenuirostris	43.0				Amniote LHD (Myhrvold et al. 2015)	Cacatua tenuirostris	exact
+Callocephalon fimbriatum	27.5				Amniote LHD (Myhrvold et al. 2015)	Callocephalon fimbriatum	exact
+Calyptorhynchus banksii	45.4				Amniote LHD (Myhrvold et al. 2015)	Calyptorhynchus banksii	exact
+Calyptorhynchus baudinii	47.0				Amniote LHD (Myhrvold et al. 2015)	Zanda baudinii	burgio_synonym
+Calyptorhynchus funereus	41.0				Amniote LHD (Myhrvold et al. 2015)	Zanda funerea	burgio_synonym
+Calyptorhynchus lathami					Amniote LHD (Myhrvold et al. 2015)	Calyptorhynchus lathami	exact
+Calyptorhynchus latirostris					Amniote LHD (Myhrvold et al. 2015)	Zanda latirostris	burgio_synonym
+Eolophus roseicapilla	72.8				Amniote LHD (Myhrvold et al. 2015)	Eolophus roseicapilla	exact
+Lophochroa leadbeateri	63.6				Amniote LHD (Myhrvold et al. 2015)	Cacatua leadbeateri	genus_change
+Nymphicus hollandicus	36.0				Amniote LHD (Myhrvold et al. 2015)	Nymphicus hollandicus	exact
+Probosciger aterrimus	100.0				Amniote LHD (Myhrvold et al. 2015)	Probosciger aterrimus	exact
+Agapornis canus					Amniote LHD (Myhrvold et al. 2015)	Agapornis canus	exact
+Agapornis fischeri	12.6				Amniote LHD (Myhrvold et al. 2015)	Agapornis fischeri	exact
+Agapornis lilianae	19.2				Amniote LHD (Myhrvold et al. 2015)	Agapornis lilianae	exact
+Agapornis nigrigenis					Amniote LHD (Myhrvold et al. 2015)	Agapornis nigrigenis	exact
+Agapornis personatus					Amniote LHD (Myhrvold et al. 2015)	Agapornis personatus	exact
+Agapornis pullarius	18.0				Amniote LHD (Myhrvold et al. 2015)	Agapornis pullarius	exact
+Agapornis roseicollis					Amniote LHD (Myhrvold et al. 2015)	Agapornis roseicollis	exact
+Agapornis swindernianus					Amniote LHD (Myhrvold et al. 2015)	Agapornis swindernianus	exact
+Agapornis taranta	14.6				Amniote LHD (Myhrvold et al. 2015)	Agapornis taranta	exact
+Alipiopsitta xanthops					Amniote LHD (Myhrvold et al. 2015)	Alipiopsitta xanthops	exact
+Alisterus amboinensis					Amniote LHD (Myhrvold et al. 2015)	Alisterus amboinensis	exact
+Alisterus chloropterus					Amniote LHD (Myhrvold et al. 2015)	Alisterus chloropterus	exact
+Alisterus scapularis	26.6				Amniote LHD (Myhrvold et al. 2015)	Alisterus scapularis	exact
+Amazona aestiva	49.0				Amniote LHD (Myhrvold et al. 2015)	Amazona aestiva	exact
+Amazona agilis					Amniote LHD (Myhrvold et al. 2015)	Amazona agilis	exact
+Amazona albifrons	25.3				Amniote LHD (Myhrvold et al. 2015)	Amazona albifrons	exact
+Amazona amazonica	30.0				Amniote LHD (Myhrvold et al. 2015)	Amazona amazonica	exact
+Amazona auropalliata	56.0				Amniote LHD (Myhrvold et al. 2015)	Amazona auropalliata	exact
+Amazona autumnalis	27.0				Amniote LHD (Myhrvold et al. 2015)	Amazona autumnalis	exact
+Amazona barbadensis					Amniote LHD (Myhrvold et al. 2015)	Amazona barbadensis	exact
+Amazona brasiliensis					Amniote LHD (Myhrvold et al. 2015)	Amazona brasiliensis	exact
+Amazona collaria					Amniote LHD (Myhrvold et al. 2015)	Amazona collaria	exact
+Amazona diadema	27.0				Amniote LHD (Myhrvold et al. 2015)	Amazona diadema	exact
+Amazona dufresniana					Amniote LHD (Myhrvold et al. 2015)	Amazona dufresniana	exact
+Amazona farinosa					Amniote LHD (Myhrvold et al. 2015)	Amazona farinosa	exact
+Amazona festiva	24.5				Amniote LHD (Myhrvold et al. 2015)	Amazona festiva	exact
+Amazona finschi	25.8				Amniote LHD (Myhrvold et al. 2015)	Amazona finschi	exact
+Amazona guildingii	28.0				Amniote LHD (Myhrvold et al. 2015)	Amazona guildingii	exact
+Amazona imperialis					Amniote LHD (Myhrvold et al. 2015)	Amazona imperialis	exact
+Amazona leucocephala					Amniote LHD (Myhrvold et al. 2015)	Amazona leucocephala	exact
+Amazona mercenarius					Amniote LHD (Myhrvold et al. 2015)	Amazona mercenarius	exact
+Amazona ochrocephala	56.0				Amniote LHD (Myhrvold et al. 2015)	Amazona ochrocephala	exact
+Amazona oratrix	56.0				Amniote LHD (Myhrvold et al. 2015)	Amazona oratrix	exact
+Amazona pretrei					Amniote LHD (Myhrvold et al. 2015)	Amazona pretrei	exact
+Amazona rhodocorytha	44.0				Amniote LHD (Myhrvold et al. 2015)	Amazona rhodocorytha	exact
+Amazona tresmariae	56.0				Amniote LHD (Myhrvold et al. 2015)	Amazona oratrix	split_lumped_in_tree
+Amazona tucumana					Amniote LHD (Myhrvold et al. 2015)	Amazona tucumana	exact
+Amazona ventralis					Amniote LHD (Myhrvold et al. 2015)	Amazona ventralis	exact
+Amazona versicolor					Amniote LHD (Myhrvold et al. 2015)	Amazona versicolor	exact
+Amazona vinacea					Amniote LHD (Myhrvold et al. 2015)	Amazona vinacea	exact
+Amazona viridigenalis					Amniote LHD (Myhrvold et al. 2015)	Amazona viridigenalis	exact
+Amazona vittata					Amniote LHD (Myhrvold et al. 2015)	Amazona vittata	exact
+Amazona xantholora					Amniote LHD (Myhrvold et al. 2015)	Amazona xantholora	exact
+Anodorhynchus hyacinthinus	38.8				Amniote LHD (Myhrvold et al. 2015)	Anodorhynchus hyacinthinus	exact
+Anodorhynchus leari	38.3				Amniote LHD (Myhrvold et al. 2015)	Anodorhynchus leari	exact
+Aprosmictus erythropterus	24.4				Amniote LHD (Myhrvold et al. 2015)	Aprosmictus erythropterus	exact
+Aprosmictus jonquillaceus					Amniote LHD (Myhrvold et al. 2015)	Aprosmictus jonquillaceus	exact
+Ara ambiguus	29.0				Amniote LHD (Myhrvold et al. 2015)	Ara ambiguus	exact
+Ara ararauna	43.0				Amniote LHD (Myhrvold et al. 2015)	Ara ararauna	exact
+Ara chloropterus	50.1				Amniote LHD (Myhrvold et al. 2015)	Ara chloropterus	exact
+Ara glaucogularis	22.0				Amniote LHD (Myhrvold et al. 2015)	Ara glaucogularis	exact
+Ara macao	64.0				Amniote LHD (Myhrvold et al. 2015)	Ara macao	exact
+Ara militaris	46.0				Amniote LHD (Myhrvold et al. 2015)	Ara militaris	exact
+Ara rubrogenys	23.0				Amniote LHD (Myhrvold et al. 2015)	Ara rubrogenys	exact
+Ara severus	28.5				Amniote LHD (Myhrvold et al. 2015)	Ara severus	exact
+Aratinga auricapillus	20.9				Amniote LHD (Myhrvold et al. 2015)	Aratinga auricapillus	exact
+Aratinga guarouba					Amniote LHD (Myhrvold et al. 2015)	Guaruba guarouba	burgio_synonym
+Aratinga jandaya					Amniote LHD (Myhrvold et al. 2015)	Aratinga jandaya	exact
+Aratinga nenday	18.7				Amniote LHD (Myhrvold et al. 2015)	Aratinga nenday	exact
+Aratinga solstitialis					Amniote LHD (Myhrvold et al. 2015)	Aratinga solstitialis	exact
+Aratinga weddellii					Amniote LHD (Myhrvold et al. 2015)	Aratinga weddellii	exact
+Barnardius zonarius	17.9				Amniote LHD (Myhrvold et al. 2015)	Barnardius zonarius	exact
+Bolbopsittacus lunulatus					Amniote LHD (Myhrvold et al. 2015)	Bolbopsittacus lunulatus	exact
+Bolborhynchus aurifrons					Amniote LHD (Myhrvold et al. 2015)	Psilopsiagon aurifrons	burgio_synonym
+Bolborhynchus lineola					Amniote LHD (Myhrvold et al. 2015)	Bolborhynchus lineola	exact
+Bolborhynchus orbygnesius	9.2				Amniote LHD (Myhrvold et al. 2015)	Bolborhynchus orbygnesius	exact
+Brotogeris chiriri	37.0				Amniote LHD (Myhrvold et al. 2015)	Brotogeris chiriri	exact
+Brotogeris chrysoptera					Amniote LHD (Myhrvold et al. 2015)	Brotogeris chrysoptera	exact
+Brotogeris cyanoptera					Amniote LHD (Myhrvold et al. 2015)	Brotogeris cyanoptera	exact
+Brotogeris jugularis					Amniote LHD (Myhrvold et al. 2015)	Brotogeris jugularis	exact
+Brotogeris pyrrhoptera	11.3				Amniote LHD (Myhrvold et al. 2015)	Brotogeris pyrrhoptera	exact
+Brotogeris sanctithomae	13.2				Amniote LHD (Myhrvold et al. 2015)	Brotogeris sanctithomae	exact
+Brotogeris tirica	11.0				Amniote LHD (Myhrvold et al. 2015)	Brotogeris tirica	exact
+Brotogeris versicolurus	37.0				Amniote LHD (Myhrvold et al. 2015)	Brotogeris versicolurus	exact
+Chalcopsitta atra	17.5				Amniote LHD (Myhrvold et al. 2015)	Chalcopsitta atra	exact
+Chalcopsitta cardinalis					Amniote LHD (Myhrvold et al. 2015)	Chalcopsitta cardinalis	exact
+Chalcopsitta scintillata	19.7				Amniote LHD (Myhrvold et al. 2015)	Chalcopsitta scintillata	exact
+Charmosyna josefinae					Amniote LHD (Myhrvold et al. 2015)	Charmosyna josefinae	exact
+Charmosyna margarethae					Amniote LHD (Myhrvold et al. 2015)	Charmosyna margarethae	exact
+Charmosyna meeki					Amniote LHD (Myhrvold et al. 2015)	Charmosyna meeki	exact
+Charmosyna papou	11.3				Amniote LHD (Myhrvold et al. 2015)	Charmosyna papou	exact
+Charmosyna placentis					Amniote LHD (Myhrvold et al. 2015)	Charmosyna placentis	exact
+Charmosyna pulchella					Amniote LHD (Myhrvold et al. 2015)	Charmosyna pulchella	exact
+Charmosyna rubrigularis					Amniote LHD (Myhrvold et al. 2015)	Charmosyna rubrigularis	exact
+Conuropsis carolinensis	30.0				Amniote LHD (Myhrvold et al. 2015)	Conuropsis carolinensis	exact
+Coracopsis nigra	34.1				Amniote LHD (Myhrvold et al. 2015)	Coracopsis nigra	exact
+Coracopsis vasa	53.9				Amniote LHD (Myhrvold et al. 2015)	Coracopsis vasa	exact
+Cyanoliseus patagonus	19.5				Amniote LHD (Myhrvold et al. 2015)	Cyanoliseus patagonus	exact
+Cyanopsitta spixii	27.0				Amniote LHD (Myhrvold et al. 2015)	Cyanopsitta spixii	exact
+Cyanoramphus auriceps	9.3				Amniote LHD (Myhrvold et al. 2015)	Cyanoramphus auriceps	exact
+Cyanoramphus cookii	12.4				Amniote LHD (Myhrvold et al. 2015)	Cyanoramphus novaezelandiae	split_lumped_in_tree
+Cyanoramphus erythrotis	12.4				Amniote LHD (Myhrvold et al. 2015)		unresolved
+Cyanoramphus forbesi	9.3				Amniote LHD (Myhrvold et al. 2015)	Cyanoramphus forbesi	exact
+Cyanoramphus hochstetteri	12.4				Amniote LHD (Myhrvold et al. 2015)	Cyanoramphus novaezelandiae	split_lumped_in_tree
+Cyanoramphus malherbi					Amniote LHD (Myhrvold et al. 2015)	Cyanoramphus malherbi	exact
+Cyanoramphus novaezelandiae	12.4				Amniote LHD (Myhrvold et al. 2015)	Cyanoramphus novaezelandiae	exact
+Cyanoramphus saisseti	12.4				Amniote LHD (Myhrvold et al. 2015)	Cyanoramphus novaezelandiae	split_lumped_in_tree
+Cyanoramphus subflavescens	12.4				Amniote LHD (Myhrvold et al. 2015)		unresolved
+Cyanoramphus unicolor					Amniote LHD (Myhrvold et al. 2015)	Cyanoramphus unicolor	exact
+Cyclopsitta diophthalma					Amniote LHD (Myhrvold et al. 2015)	Cyclopsitta diophthalma	exact
+Cyclopsitta gulielmitertii					Amniote LHD (Myhrvold et al. 2015)	Cyclopsitta gulielmitertii	exact
+Deroptyus accipitrinus	21.8				Amniote LHD (Myhrvold et al. 2015)	Deroptyus accipitrinus	exact
+Diopsittaca nobilis	22.9				Amniote LHD (Myhrvold et al. 2015)	Diopsittaca nobilis	exact
+Eclectus roratus	28.5				Amniote LHD (Myhrvold et al. 2015)	Eclectus roratus	exact
+Enicognathus ferrugineus					Amniote LHD (Myhrvold et al. 2015)	Enicognathus ferrugineus	exact
+Enicognathus leptorhynchus	19.5				Amniote LHD (Myhrvold et al. 2015)	Enicognathus leptorhynchus	exact
+Eos bornea	24.7				Amniote LHD (Myhrvold et al. 2015)	Eos bornea	exact
+Eos cyanogenia	18.1				Amniote LHD (Myhrvold et al. 2015)	Eos cyanogenia	exact
+Eos histrio	15.2				Amniote LHD (Myhrvold et al. 2015)	Eos histrio	exact
+Eos reticulata	16.6				Amniote LHD (Myhrvold et al. 2015)	Eos reticulata	exact
+Eos semilarvata					Amniote LHD (Myhrvold et al. 2015)	Eos semilarvata	exact
+Eos squamata	16.5				Amniote LHD (Myhrvold et al. 2015)	Eos squamata	exact
+Eunymphicus cornutus	19.7				Amniote LHD (Myhrvold et al. 2015)	Eunymphicus cornutus	exact
+Eunymphicus uvaeensis	19.7				Amniote LHD (Myhrvold et al. 2015)	Eunymphicus uvaeensis	exact
+Eupsittula aurea					Amniote LHD (Myhrvold et al. 2015)	Eupsittula aurea	exact
+Eupsittula cactorum					Amniote LHD (Myhrvold et al. 2015)	Eupsittula cactorum	exact
+Eupsittula canicularis	28.6				Amniote LHD (Myhrvold et al. 2015)	Eupsittula canicularis	exact
+Eupsittula nana					Amniote LHD (Myhrvold et al. 2015)	Eupsittula nana	exact
+Eupsittula pertinax					Amniote LHD (Myhrvold et al. 2015)	Eupsittula pertinax	exact
+Forpus coelestis	10.4				Amniote LHD (Myhrvold et al. 2015)	Forpus coelestis	exact
+Forpus conspicillatus					Amniote LHD (Myhrvold et al. 2015)	Forpus conspicillatus	exact
+Forpus cyanopygius	10.5				Amniote LHD (Myhrvold et al. 2015)	Forpus cyanopygius	exact
+Forpus modestus					Amniote LHD (Myhrvold et al. 2015)	Forpus modestus	exact
+Forpus passerinus	11.6				Amniote LHD (Myhrvold et al. 2015)	Forpus passerinus	exact
+Forpus xanthops	10.5				Amniote LHD (Myhrvold et al. 2015)	Forpus xanthops	exact
+Forpus xanthopterygius	11.6				Amniote LHD (Myhrvold et al. 2015)	Forpus xanthopterygius	exact
+Geoffroyus geoffroyi					Amniote LHD (Myhrvold et al. 2015)	Geoffroyus geoffroyi	exact
+Geoffroyus heteroclitus					Amniote LHD (Myhrvold et al. 2015)	Geoffroyus heteroclitus	exact
+Geoffroyus simplex					Amniote LHD (Myhrvold et al. 2015)	Geoffroyus simplex	exact
+Glossopsitta concinna	11.5				Amniote LHD (Myhrvold et al. 2015)	Glossopsitta concinna	exact
+Glossopsitta porphyrocephala	12.0				Amniote LHD (Myhrvold et al. 2015)	Glossopsitta porphyrocephala	exact
+Glossopsitta pusilla					Amniote LHD (Myhrvold et al. 2015)	Glossopsitta pusilla	exact
+Graydidascalus brachyurus	13.2				Amniote LHD (Myhrvold et al. 2015)	Graydidascalus brachyurus	exact
+Guaruba guarouba	23.2				Amniote LHD (Myhrvold et al. 2015)	Guaruba guarouba	exact
+Hapalopsittaca amazonina					Amniote LHD (Myhrvold et al. 2015)	Hapalopsittaca amazonina	exact
+Hapalopsittaca melanotis					Amniote LHD (Myhrvold et al. 2015)	Hapalopsittaca melanotis	exact
+Hapalopsittaca pyrrhops					Amniote LHD (Myhrvold et al. 2015)	Hapalopsittaca pyrrhops	exact
+Lathamus discolor					Amniote LHD (Myhrvold et al. 2015)	Lathamus discolor	exact
+Loriculus aurantiifrons					Amniote LHD (Myhrvold et al. 2015)	Loriculus aurantiifrons	exact
+Loriculus beryllinus					Amniote LHD (Myhrvold et al. 2015)	Loriculus beryllinus	exact
+Loriculus camiguinensis	10.1				Amniote LHD (Myhrvold et al. 2015)		unresolved
+Loriculus galgulus	14.3				Amniote LHD (Myhrvold et al. 2015)	Loriculus galgulus	exact
+Loriculus philippensis	10.1				Amniote LHD (Myhrvold et al. 2015)	Loriculus philippensis	exact
+Loriculus pusillus					Amniote LHD (Myhrvold et al. 2015)	Loriculus pusillus	exact
+Loriculus tener					Amniote LHD (Myhrvold et al. 2015)	Loriculus tener	exact
+Loriculus vernalis	10.1				Amniote LHD (Myhrvold et al. 2015)	Loriculus vernalis	exact
+Lorius albidinucha					Amniote LHD (Myhrvold et al. 2015)	Lorius albidinucha	exact
+Lorius chlorocercus					Amniote LHD (Myhrvold et al. 2015)	Lorius chlorocercus	exact
+Lorius domicella	26.0				Amniote LHD (Myhrvold et al. 2015)	Lorius domicella	exact
+Lorius garrulus	26.6				Amniote LHD (Myhrvold et al. 2015)	Lorius garrulus	exact
+Lorius hypoinochrous					Amniote LHD (Myhrvold et al. 2015)	Lorius hypoinochrous	exact
+Lorius lory	18.5				Amniote LHD (Myhrvold et al. 2015)	Lorius lory	exact
+Melopsittacus undulatus	21.0				Amniote LHD (Myhrvold et al. 2015)	Melopsittacus undulatus	exact
+Micropsitta bruijnii					Amniote LHD (Myhrvold et al. 2015)	Micropsitta bruijnii	exact
+Micropsitta finschii					Amniote LHD (Myhrvold et al. 2015)	Micropsitta finschii	exact
+Micropsitta geelvinkiana					Amniote LHD (Myhrvold et al. 2015)	Micropsitta geelvinkiana	exact
+Micropsitta keiensis					Amniote LHD (Myhrvold et al. 2015)	Micropsitta keiensis	exact
+Micropsitta pusio					Amniote LHD (Myhrvold et al. 2015)	Micropsitta pusio	exact
+Myiopsitta monachus	22.1				Amniote LHD (Myhrvold et al. 2015)	Myiopsitta monachus	exact
+Nannopsittaca dachilleae					Amniote LHD (Myhrvold et al. 2015)	Nannopsittaca dachilleae	exact
+Nannopsittaca panychlora					Amniote LHD (Myhrvold et al. 2015)	Nannopsittaca panychlora	exact
+Neophema bourkii					Amniote LHD (Myhrvold et al. 2015)		unresolved
+Neophema chrysogaster					Amniote LHD (Myhrvold et al. 2015)	Neophema chrysogaster	exact
+Neophema chrysostoma	21.0				Amniote LHD (Myhrvold et al. 2015)	Neophema chrysostoma	exact
+Neophema elegans					Amniote LHD (Myhrvold et al. 2015)	Neophema elegans	exact
+Neophema petrophila					Amniote LHD (Myhrvold et al. 2015)	Neophema petrophila	exact
+Neophema pulchella	21.0				Amniote LHD (Myhrvold et al. 2015)	Neophema pulchella	exact
+Neophema splendida	14.0				Amniote LHD (Myhrvold et al. 2015)	Neophema splendida	exact
+Neopsephotus bourkii	12.6				Amniote LHD (Myhrvold et al. 2015)	Neopsephotus bourkii	exact
+Neopsittacus musschenbroekii					Amniote LHD (Myhrvold et al. 2015)	Neopsittacus musschenbroekii	exact
+Neopsittacus pullicauda					Amniote LHD (Myhrvold et al. 2015)	Neopsittacus pullicauda	exact
+Northiella haematogaster	15.3				Amniote LHD (Myhrvold et al. 2015)	Northiella haematogaster	exact
+Ognorhynchus icterotis					Amniote LHD (Myhrvold et al. 2015)	Ognorhynchus icterotis	exact
+Oreopsittacus arfaki					Amniote LHD (Myhrvold et al. 2015)	Oreopsittacus arfaki	exact
+Orthopsittaca manilatus					Amniote LHD (Myhrvold et al. 2015)	Orthopsittaca manilatus	exact
+Pezoporus flaviventris					Amniote LHD (Myhrvold et al. 2015)	Pezoporus wallicus	split_lumped_in_tree
+Pezoporus occidentalis					Amniote LHD (Myhrvold et al. 2015)	Pezoporus occidentalis	exact
+Pezoporus wallicus					Amniote LHD (Myhrvold et al. 2015)	Pezoporus wallicus	exact
+Phigys solitarius					Amniote LHD (Myhrvold et al. 2015)	Phigys solitarius	exact
+Pionites leucogaster	26.0				Amniote LHD (Myhrvold et al. 2015)	Pionites leucogaster	exact
+Pionites melanocephalus	22.6				Amniote LHD (Myhrvold et al. 2015)	Pionites melanocephalus	exact
+Pionopsitta pileata	16.8				Amniote LHD (Myhrvold et al. 2015)	Pionopsitta pileata	exact
+Pionus chalcopterus					Amniote LHD (Myhrvold et al. 2015)	Pionus chalcopterus	exact
+Pionus fuscus					Amniote LHD (Myhrvold et al. 2015)	Pionus fuscus	exact
+Pionus maximiliani	16.2				Amniote LHD (Myhrvold et al. 2015)	Pionus maximiliani	exact
+Pionus menstruus	20.6				Amniote LHD (Myhrvold et al. 2015)	Pionus menstruus	exact
+Pionus senilis					Amniote LHD (Myhrvold et al. 2015)	Pionus senilis	exact
+Pionus seniloides					Amniote LHD (Myhrvold et al. 2015)	Pionus seniloides	exact
+Pionus sordidus					Amniote LHD (Myhrvold et al. 2015)	Pionus sordidus	exact
+Pionus tumultuosus					Amniote LHD (Myhrvold et al. 2015)	Pionus tumultuosus	exact
+Platycercus adscitus					Amniote LHD (Myhrvold et al. 2015)	Platycercus adscitus	exact
+Platycercus caledonicus					Amniote LHD (Myhrvold et al. 2015)	Platycercus caledonicus	exact
+Platycercus elegans	26.8				Amniote LHD (Myhrvold et al. 2015)	Platycercus elegans	exact
+Platycercus eximius	27.4				Amniote LHD (Myhrvold et al. 2015)	Platycercus eximius	exact
+Platycercus icterotis	31.6				Amniote LHD (Myhrvold et al. 2015)	Platycercus icterotis	exact
+Platycercus venustus	19.1				Amniote LHD (Myhrvold et al. 2015)	Platycercus venustus	exact
+Platycercus zonarius					Amniote LHD (Myhrvold et al. 2015)		unresolved
+Poicephalus crassus	32.1				Amniote LHD (Myhrvold et al. 2015)	Poicephalus crassus	exact
+Poicephalus cryptoxanthus	32.1				Amniote LHD (Myhrvold et al. 2015)	Poicephalus cryptoxanthus	exact
+Poicephalus flavifrons					Amniote LHD (Myhrvold et al. 2015)	Poicephalus flavifrons	exact
+Poicephalus fuscicollis	29.7				Amniote LHD (Myhrvold et al. 2015)	Poicephalus robustus	split_lumped_in_tree
+Poicephalus gulielmi	21.0				Amniote LHD (Myhrvold et al. 2015)	Poicephalus gulielmi	exact
+Poicephalus meyeri	34.2				Amniote LHD (Myhrvold et al. 2015)	Poicephalus meyeri	exact
+Poicephalus robustus	29.7				Amniote LHD (Myhrvold et al. 2015)	Poicephalus robustus	exact
+Poicephalus rueppellii	34.3				Amniote LHD (Myhrvold et al. 2015)	Poicephalus rueppellii	exact
+Poicephalus rufiventris	33.4				Amniote LHD (Myhrvold et al. 2015)	Poicephalus rufiventris	exact
+Poicephalus senegalus	40.0				Amniote LHD (Myhrvold et al. 2015)	Poicephalus senegalus	exact
+Polytelis alexandrae	23.9				Amniote LHD (Myhrvold et al. 2015)	Polytelis alexandrae	exact
+Polytelis anthopeplus	27.5				Amniote LHD (Myhrvold et al. 2015)	Polytelis anthopeplus	exact
+Polytelis swainsonii	24.2				Amniote LHD (Myhrvold et al. 2015)	Polytelis swainsonii	exact
+Primolius auricollis					Amniote LHD (Myhrvold et al. 2015)	Primolius auricollis	exact
+Primolius couloni					Amniote LHD (Myhrvold et al. 2015)	Primolius couloni	exact
+Primolius maracana	31.0				Amniote LHD (Myhrvold et al. 2015)	Primolius maracana	exact
+Prioniturus discurus					Amniote LHD (Myhrvold et al. 2015)	Prioniturus discurus	exact
+Prioniturus luconensis					Amniote LHD (Myhrvold et al. 2015)	Prioniturus luconensis	exact
+Prioniturus mindorensis					Amniote LHD (Myhrvold et al. 2015)	Prioniturus mindorensis	exact
+Prioniturus montanus					Amniote LHD (Myhrvold et al. 2015)	Prioniturus montanus	exact
+Prioniturus platenae					Amniote LHD (Myhrvold et al. 2015)	Prioniturus platenae	exact
+Prioniturus platurus					Amniote LHD (Myhrvold et al. 2015)	Prioniturus platurus	exact
+Prioniturus waterstradti					Amniote LHD (Myhrvold et al. 2015)	Prioniturus waterstradti	exact
+Prosopeia personata	11.8				Amniote LHD (Myhrvold et al. 2015)	Prosopeia personata	exact
+Prosopeia splendens	20.1				Amniote LHD (Myhrvold et al. 2015)	Prosopeia splendens	exact
+Prosopeia tabuensis					Amniote LHD (Myhrvold et al. 2015)	Prosopeia tabuensis	exact
+Psephotus chrysopterygius					Amniote LHD (Myhrvold et al. 2015)	Psephotellus chrysopterygius	burgio_synonym
+Psephotus dissimilis	18.0				Amniote LHD (Myhrvold et al. 2015)	Psephotellus dissimilis	burgio_synonym
+Psephotus haematogaster					Amniote LHD (Myhrvold et al. 2015)		unresolved
+Psephotus haematonotus	12.2				Amniote LHD (Myhrvold et al. 2015)	Psephotus haematonotus	exact
+Psephotus pulcherrimus					Amniote LHD (Myhrvold et al. 2015)	Psephotellus pulcherrimus	burgio_synonym
+Psephotus varius	11.8				Amniote LHD (Myhrvold et al. 2015)	Psephotellus varius	burgio_synonym
+Pseudeos fuscata	13.4				Amniote LHD (Myhrvold et al. 2015)	Pseudeos fuscata	exact
+Psilopsiagon aurifrons					Amniote LHD (Myhrvold et al. 2015)	Psilopsiagon aurifrons	exact
+Psilopsiagon aymara	8.5				Amniote LHD (Myhrvold et al. 2015)	Psilopsiagon aymara	exact
+Psittacara brevipes	22.5				Amniote LHD (Myhrvold et al. 2015)	Psittacara holochlorus	split_lumped_in_tree
+Psittacara chloropterus					Amniote LHD (Myhrvold et al. 2015)	Psittacara chloropterus	exact
+Psittacara erythrogenys	26.2				Amniote LHD (Myhrvold et al. 2015)	Psittacara erythrogenys	exact
+Psittacara euops					Amniote LHD (Myhrvold et al. 2015)	Psittacara euops	exact
+Psittacara finschi					Amniote LHD (Myhrvold et al. 2015)	Psittacara finschi	exact
+Psittacara holochlorus	22.5				Amniote LHD (Myhrvold et al. 2015)	Psittacara holochlorus	exact
+Psittacara leucophthalmus					Amniote LHD (Myhrvold et al. 2015)	Psittacara leucophthalmus	exact
+Psittacara mitratus					Amniote LHD (Myhrvold et al. 2015)	Psittacara mitratus	exact
+Psittacara rubritorquis	22.5				Amniote LHD (Myhrvold et al. 2015)	Psittacara rubritorquis	exact
+Psittacara strenuus	22.5				Amniote LHD (Myhrvold et al. 2015)		unresolved
+Psittacara wagleri					Amniote LHD (Myhrvold et al. 2015)	Psittacara wagleri	exact
+Psittacella brehmii					Amniote LHD (Myhrvold et al. 2015)	Psittacella brehmii	exact
+Psittacella madaraszi					Amniote LHD (Myhrvold et al. 2015)	Psittacella madaraszi	exact
+Psittacella modesta					Amniote LHD (Myhrvold et al. 2015)	Psittacella modesta	exact
+Psittacella picta					Amniote LHD (Myhrvold et al. 2015)	Psittacella picta	exact
+Psittacula alexandri	23.3				Amniote LHD (Myhrvold et al. 2015)	Psittacula alexandri	exact
+Psittacula calthrapae					Amniote LHD (Myhrvold et al. 2015)	Psittacula calthrapae	exact
+Psittacula columboides					Amniote LHD (Myhrvold et al. 2015)	Psittacula columboides	exact
+Psittacula cyanocephala	18.8				Amniote LHD (Myhrvold et al. 2015)	Psittacula cyanocephala	exact
+Psittacula derbiana					Amniote LHD (Myhrvold et al. 2015)	Psittacula derbiana	exact
+Psittacula eques	34.0				Amniote LHD (Myhrvold et al. 2015)	Psittacula eques	exact
+Psittacula eupatria	30.0				Amniote LHD (Myhrvold et al. 2015)	Psittacula eupatria	exact
+Psittacula finschii					Amniote LHD (Myhrvold et al. 2015)	Psittacula finschii	exact
+Psittacula himalayana					Amniote LHD (Myhrvold et al. 2015)	Psittacula himalayana	exact
+Psittacula krameri	34.0				Amniote LHD (Myhrvold et al. 2015)	Psittacula krameri	exact
+Psittacula longicauda					Amniote LHD (Myhrvold et al. 2015)	Psittacula longicauda	exact
+Psittacula roseata	18.8				Amniote LHD (Myhrvold et al. 2015)	Psittacula roseata	exact
+Psittacula wardi	30.0				Amniote LHD (Myhrvold et al. 2015)	Psittacula wardi	exact
+Psittaculirostris desmarestii	14.9				Amniote LHD (Myhrvold et al. 2015)	Psittaculirostris desmarestii	exact
+Psittaculirostris edwardsii	12.0				Amniote LHD (Myhrvold et al. 2015)	Psittaculirostris edwardsii	exact
+Psittaculirostris salvadorii	12.0				Amniote LHD (Myhrvold et al. 2015)	Psittaculirostris salvadorii	exact
+Psittacus erithacus	73.0				Amniote LHD (Myhrvold et al. 2015)	Psittacus erithacus	exact
+Psitteuteles goldiei					Amniote LHD (Myhrvold et al. 2015)	Psitteuteles goldiei	exact
+Psitteuteles iris	24.1				Amniote LHD (Myhrvold et al. 2015)	Psitteuteles iris	exact
+Psitteuteles versicolor					Amniote LHD (Myhrvold et al. 2015)	Psitteuteles versicolor	exact
+Psittinus cyanurus					Amniote LHD (Myhrvold et al. 2015)	Psittinus cyanurus	exact
+Psittrichas fulgidus	25.0				Amniote LHD (Myhrvold et al. 2015)	Psittrichas fulgidus	exact
+Purpureicephalus spurius	15.3				Amniote LHD (Myhrvold et al. 2015)	Purpureicephalus spurius	exact
+Pyrilia barrabandi					Amniote LHD (Myhrvold et al. 2015)	Pyrilia barrabandi	exact
+Pyrilia caica					Amniote LHD (Myhrvold et al. 2015)	Pyrilia caica	exact
+Pyrilia haematotis					Amniote LHD (Myhrvold et al. 2015)	Pyrilia haematotis	exact
+Pyrilia pulchra					Amniote LHD (Myhrvold et al. 2015)	Pyrilia pulchra	exact
+Pyrrhura albipectus					Amniote LHD (Myhrvold et al. 2015)	Pyrrhura albipectus	exact
+Pyrrhura amazonum					Amniote LHD (Myhrvold et al. 2015)	Pyrrhura amazonum	exact
+Pyrrhura cruentata					Amniote LHD (Myhrvold et al. 2015)	Pyrrhura cruentata	exact
+Pyrrhura egregia					Amniote LHD (Myhrvold et al. 2015)	Pyrrhura egregia	exact
+Pyrrhura emma	18.5				Amniote LHD (Myhrvold et al. 2015)	Pyrrhura emma	exact
+Pyrrhura frontalis					Amniote LHD (Myhrvold et al. 2015)	Pyrrhura frontalis	exact
+Pyrrhura griseipectus	18.5				Amniote LHD (Myhrvold et al. 2015)	Pyrrhura griseipectus	exact
+Pyrrhura hoematotis					Amniote LHD (Myhrvold et al. 2015)	Pyrrhura hoematotis	exact
+Pyrrhura hoffmanni					Amniote LHD (Myhrvold et al. 2015)	Pyrrhura hoffmanni	exact
+Pyrrhura lepida	14.3				Amniote LHD (Myhrvold et al. 2015)	Pyrrhura lepida	exact
+Pyrrhura leucotis	18.5				Amniote LHD (Myhrvold et al. 2015)	Pyrrhura leucotis	exact
+Pyrrhura lucianii					Amniote LHD (Myhrvold et al. 2015)	Pyrrhura lucianii	exact
+Pyrrhura melanura					Amniote LHD (Myhrvold et al. 2015)	Pyrrhura melanura	exact
+Pyrrhura molinae					Amniote LHD (Myhrvold et al. 2015)	Pyrrhura molinae	exact
+Pyrrhura orcesi					Amniote LHD (Myhrvold et al. 2015)	Pyrrhura orcesi	exact
+Pyrrhura perlata	14.3				Amniote LHD (Myhrvold et al. 2015)	Pyrrhura perlata	exact
+Pyrrhura pfrimeri	18.5				Amniote LHD (Myhrvold et al. 2015)	Pyrrhura pfrimeri	exact
+Pyrrhura picta					Amniote LHD (Myhrvold et al. 2015)	Pyrrhura picta	exact
+Pyrrhura roseifrons					Amniote LHD (Myhrvold et al. 2015)	Pyrrhura roseifrons	exact
+Pyrrhura rupicola					Amniote LHD (Myhrvold et al. 2015)	Pyrrhura rupicola	exact
+Rhynchopsitta pachyrhyncha	33.0				Amniote LHD (Myhrvold et al. 2015)	Rhynchopsitta pachyrhyncha	exact
+Rhynchopsitta terrisi					Amniote LHD (Myhrvold et al. 2015)	Rhynchopsitta terrisi	exact
+Tanygnathus lucionensis					Amniote LHD (Myhrvold et al. 2015)	Tanygnathus lucionensis	exact
+Tanygnathus megalorynchos	23.0				Amniote LHD (Myhrvold et al. 2015)	Tanygnathus megalorynchos	exact
+Tanygnathus sumatranus	14.4				Amniote LHD (Myhrvold et al. 2015)	Tanygnathus sumatranus	exact
+Thectocercus acuticaudatus	31.0				Amniote LHD (Myhrvold et al. 2015)	Psittacara acuticaudatus	genus_change
+Touit batavicus					Amniote LHD (Myhrvold et al. 2015)	Touit batavicus	exact
+Touit costaricensis					Amniote LHD (Myhrvold et al. 2015)	Touit costaricensis	exact
+Touit dilectissimus					Amniote LHD (Myhrvold et al. 2015)	Touit dilectissimus	exact
+Touit huetii					Amniote LHD (Myhrvold et al. 2015)	Touit huetii	exact
+Touit purpuratus					Amniote LHD (Myhrvold et al. 2015)	Touit purpuratus	exact
+Touit stictopterus					Amniote LHD (Myhrvold et al. 2015)	Touit stictopterus	exact
+Trichoglossus capistratus	16.1				Amniote LHD (Myhrvold et al. 2015)	Trichoglossus capistratus	exact
+Trichoglossus chlorolepidotus					Amniote LHD (Myhrvold et al. 2015)	Trichoglossus chlorolepidotus	exact
+Trichoglossus euteles	16.0				Amniote LHD (Myhrvold et al. 2015)	Trichoglossus euteles	exact
+Trichoglossus flavoviridis					Amniote LHD (Myhrvold et al. 2015)	Trichoglossus flavoviridis	exact
+Trichoglossus forsteni	16.1				Amniote LHD (Myhrvold et al. 2015)	Trichoglossus forsteni	exact
+Trichoglossus haematodus	16.1				Amniote LHD (Myhrvold et al. 2015)	Trichoglossus haematodus	exact
+Trichoglossus johnstoniae	17.8				Amniote LHD (Myhrvold et al. 2015)	Trichoglossus johnstoniae	exact
+Trichoglossus moluccanus	16.1				Amniote LHD (Myhrvold et al. 2015)	Trichoglossus moluccanus	exact
+Trichoglossus ornatus	19.4				Amniote LHD (Myhrvold et al. 2015)	Trichoglossus ornatus	exact
+Trichoglossus rosenbergii	16.1				Amniote LHD (Myhrvold et al. 2015)	Trichoglossus rosenbergii	exact
+Trichoglossus rubiginosus					Amniote LHD (Myhrvold et al. 2015)	Trichoglossus rubiginosus	exact
+Trichoglossus rubritorquis	16.1				Amniote LHD (Myhrvold et al. 2015)	Trichoglossus rubritorquis	exact
+Trichoglossus weberi	16.1				Amniote LHD (Myhrvold et al. 2015)	Trichoglossus weberi	exact
+Triclaria malachitacea	11.9				Amniote LHD (Myhrvold et al. 2015)	Triclaria malachitacea	exact
+Vini australis	13.6				Amniote LHD (Myhrvold et al. 2015)	Vini australis	exact
+Vini peruviana	18.4				Amniote LHD (Myhrvold et al. 2015)	Vini peruviana	exact
+Vini stepheni					Amniote LHD (Myhrvold et al. 2015)	Vini stepheni	exact
+Vini ultramarina					Amniote LHD (Myhrvold et al. 2015)	Vini ultramarina	exact
+Nestor meridionalis					Amniote LHD (Myhrvold et al. 2015)	Nestor meridionalis	exact
+Nestor notabilis	47.0				Amniote LHD (Myhrvold et al. 2015)	Nestor notabilis	exact
+Strigops habroptila	60.0				Amniote LHD (Myhrvold et al. 2015)	Strigops habroptila	exact
