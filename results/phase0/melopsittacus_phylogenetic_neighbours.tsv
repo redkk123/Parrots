@@ -1,0 +1,413 @@
+species	divergence_from_Melopsittacus_myr	has_life_expectancy	life_expectancy_years	genome_best_tier
+Chalcopsitta atra	9.75	True	10.2	none_found_in_this_audit
+Chalcopsitta cardinalis	9.75	True	12.6	none_found_in_this_audit
+Chalcopsitta duivenbodei	9.75	True	9.88	none_found_in_this_audit
+Chalcopsitta scintillata	9.75	True	13.7	none_found_in_this_audit
+Charmosyna amabilis	9.75	False		none_found_in_this_audit
+Charmosyna diadema	9.75	False		none_found_in_this_audit
+Charmosyna josefinae	9.75	True	5.78	none_found_in_this_audit
+Charmosyna margarethae	9.75	False		none_found_in_this_audit
+Charmosyna meeki	9.75	False		none_found_in_this_audit
+Charmosyna multistriata	9.75	False		none_found_in_this_audit
+Charmosyna palmarum	9.75	False		none_found_in_this_audit
+Charmosyna papou	9.75	True	6.78	none_found_in_this_audit
+Charmosyna placentis	9.75	True	5.33	none_found_in_this_audit
+Charmosyna pulchella	9.75	True	3.02	none_found_in_this_audit
+Charmosyna rubrigularis	9.75	False		none_found_in_this_audit
+Charmosyna rubronotata	9.75	False		none_found_in_this_audit
+Charmosyna stellae	9.75	True	4.16	none_found_in_this_audit
+Charmosyna toxopei	9.75	False		none_found_in_this_audit
+Charmosyna wilhelminae	9.75	False		none_found_in_this_audit
+Eos bornea	9.75	True	10.2	none_found_in_this_audit
+Eos cyanogenia	9.75	True	5.54	none_found_in_this_audit
+Eos histrio	9.75	True	9.3	none_found_in_this_audit
+Eos reticulata	9.75	True	9.31	none_found_in_this_audit
+Eos semilarvata	9.75	False		none_found_in_this_audit
+Eos squamata	9.75	True	6.04	none_found_in_this_audit
+Glossopsitta concinna	9.75	True	8.14	none_found_in_this_audit
+Glossopsitta porphyrocephala	9.75	True	4.02	none_found_in_this_audit
+Glossopsitta pusilla	9.75	True	5.75	none_found_in_this_audit
+Lorius albidinucha	9.75	False		none_found_in_this_audit
+Lorius chlorocercus	9.75	True	12.3	none_found_in_this_audit
+Lorius domicella	9.75	True	10.5	none_found_in_this_audit
+Lorius garrulus	9.75	True	8.91	none_found_in_this_audit
+Lorius hypoinochrous	9.75	False		none_found_in_this_audit
+Lorius lory	9.75	True	11.8	none_found_in_this_audit
+Neopsittacus musschenbroekii	9.75	True	6.21	none_found_in_this_audit
+Neopsittacus pullicauda	9.75	True	6.97	none_found_in_this_audit
+Oreopsittacus arfaki	9.75	True	6.87	none_found_in_this_audit
+Phigys solitarius	9.75	True	10.5	none_found_in_this_audit
+Pseudeos fuscata	9.75	True	9.26	none_found_in_this_audit
+Psitteuteles goldiei	9.75	True	5.76	draft_or_in_progress
+Psitteuteles iris	9.75	True	9.63	none_found_in_this_audit
+Psitteuteles versicolor	9.75	True	4.91	none_found_in_this_audit
+Trichoglossus capistratus	9.75	True	9.72	none_found_in_this_audit
+Trichoglossus chlorolepidotus	9.75	True	7.68	none_found_in_this_audit
+Trichoglossus euteles	9.75	True	7.13	none_found_in_this_audit
+Trichoglossus flavoviridis	9.75	True	6.04	none_found_in_this_audit
+Trichoglossus forsteni	9.75	True	8.05	none_found_in_this_audit
+Trichoglossus haematodus	9.75	True	7.4	none_found_in_this_audit
+Trichoglossus johnstoniae	9.75	True	7.24	none_found_in_this_audit
+Trichoglossus meyeri	9.75	False		none_found_in_this_audit
+Trichoglossus moluccanus	9.75	True	8.8	none_found_in_this_audit
+Trichoglossus ornatus	9.75	True	7.72	none_found_in_this_audit
+Trichoglossus rosenbergii	9.75	True	8.97	none_found_in_this_audit
+Trichoglossus rubiginosus	9.75	False		none_found_in_this_audit
+Trichoglossus rubritorquis	9.75	True	7.78	none_found_in_this_audit
+Trichoglossus weberi	9.75	True	8.73	none_found_in_this_audit
+Vini australis	9.75	True	8.19	none_found_in_this_audit
+Vini kuhlii	9.75	False		none_found_in_this_audit
+Vini peruviana	9.75	True	3.65	none_found_in_this_audit
+Vini stepheni	9.75	False		none_found_in_this_audit
+Vini ultramarina	9.75	False		none_found_in_this_audit
+Cyclopsitta amabilis	30.9	False		none_found_in_this_audit
+Cyclopsitta coxeni	30.9	False		none_found_in_this_audit
+Cyclopsitta diophthalma	30.9	True	5.31	none_found_in_this_audit
+Cyclopsitta gulielmitertii	30.9	False		none_found_in_this_audit
+Cyclopsitta melanogenia	30.9	False		none_found_in_this_audit
+Cyclopsitta nigrifrons	30.9	False		none_found_in_this_audit
+Psittaculirostris cervicalis	30.9	False		none_found_in_this_audit
+Psittaculirostris desmarestii	30.9	True	1.98	none_found_in_this_audit
+Psittaculirostris edwardsii	30.9	True	5.13	none_found_in_this_audit
+Psittaculirostris godmani	30.9	False		none_found_in_this_audit
+Psittaculirostris salvadorii	30.9	True	6.9	none_found_in_this_audit
+Agapornis canus	32	True	5.37	none_found_in_this_audit
+Agapornis fischeri	32	True	6.92	none_found_in_this_audit
+Agapornis lilianae	32	True	5.79	none_found_in_this_audit
+Agapornis nigrigenis	32	True	5.37	none_found_in_this_audit
+Agapornis personatus	32	True	5.38	none_found_in_this_audit
+Agapornis pullarius	32	False		none_found_in_this_audit
+Agapornis roseicollis	32	True	8.2	draft_or_in_progress
+Agapornis swindernianus	32	False		none_found_in_this_audit
+Agapornis taranta	32	True	6.48	none_found_in_this_audit
+Bolbopsittacus lunulatus	32	False		none_found_in_this_audit
+Loriculus amabilis	32	False		none_found_in_this_audit
+Loriculus aurantiifrons	32	False		none_found_in_this_audit
+Loriculus beryllinus	32	False		none_found_in_this_audit
+Loriculus catamene	32	False		none_found_in_this_audit
+Loriculus exilis	32	False		none_found_in_this_audit
+Loriculus flosculus	32	False		none_found_in_this_audit
+Loriculus galgulus	32	True	4.73	none_found_in_this_audit
+Loriculus philippensis	32	True	7.23	none_found_in_this_audit
+Loriculus pusillus	32	False		none_found_in_this_audit
+Loriculus sclateri	32	False		none_found_in_this_audit
+Loriculus stigmatus	32	False		none_found_in_this_audit
+Loriculus tener	32	False		none_found_in_this_audit
+Loriculus vernalis	32	True	7.68	none_found_in_this_audit
+Barnardius zonarius	35.4	True	8.85	none_found_in_this_audit
+Cyanoramphus auriceps	35.4	True	5.87	none_found_in_this_audit
+Cyanoramphus forbesi	35.4	False		none_found_in_this_audit
+Cyanoramphus malherbi	35.4	True	4.01	none_found_in_this_audit
+Cyanoramphus novaezelandiae	35.4	True	5.42	none_found_in_this_audit
+Cyanoramphus ulietanus	35.4	False		none_found_in_this_audit
+Cyanoramphus unicolor	35.4	True	5.1	none_found_in_this_audit
+Cyanoramphus zealandicus	35.4	False		none_found_in_this_audit
+Eunymphicus cornutus	35.4	True	8.96	none_found_in_this_audit
+Eunymphicus uvaeensis	35.4	False		none_found_in_this_audit
+Lathamus discolor	35.4	True	3.75	chromosome_scale
+Neophema chrysogaster	35.4	True	5.14	none_found_in_this_audit
+Neophema chrysostoma	35.4	True	4.12	none_found_in_this_audit
+Neophema elegans	35.4	True	4.87	none_found_in_this_audit
+Neophema petrophila	35.4	False		none_found_in_this_audit
+Neophema pulchella	35.4	True	4.24	none_found_in_this_audit
+Neophema splendida	35.4	True	3.23	none_found_in_this_audit
+Neopsephotus bourkii	35.4	True	5.89	none_found_in_this_audit
+Northiella haematogaster	35.4	True	6.43	none_found_in_this_audit
+Pezoporus occidentalis	35.4	False		none_found_in_this_audit
+Pezoporus wallicus	35.4	False		none_found_in_this_audit
+Platycercus adscitus	35.4	True	7.46	none_found_in_this_audit
+Platycercus caledonicus	35.4	False		none_found_in_this_audit
+Platycercus elegans	35.4	False		draft_or_in_progress
+Platycercus eximius	35.4	True	6.67	none_found_in_this_audit
+Platycercus icterotis	35.4	True	5.92	none_found_in_this_audit
+Platycercus venustus	35.4	True	7.85	none_found_in_this_audit
+Prosopeia personata	35.4	False		none_found_in_this_audit
+Prosopeia splendens	35.4	False		none_found_in_this_audit
+Prosopeia tabuensis	35.4	False		none_found_in_this_audit
+Psephotellus chrysopterygius	35.4	True	7	none_found_in_this_audit
+Psephotellus dissimilis	35.4	True	6.74	none_found_in_this_audit
+Psephotellus pulcherrimus	35.4	False		none_found_in_this_audit
+Psephotellus varius	35.4	True	5.32	none_found_in_this_audit
+Psephotus haematonotus	35.4	True	6.24	none_found_in_this_audit
+Purpureicephalus spurius	35.4	True	5.7	none_found_in_this_audit
+Alisterus amboinensis	36.1	True	7.36	none_found_in_this_audit
+Alisterus chloropterus	36.1	True	8.51	none_found_in_this_audit
+Alisterus scapularis	36.1	False		none_found_in_this_audit
+Aprosmictus erythropterus	36.1	True	9.38	none_found_in_this_audit
+Aprosmictus jonquillaceus	36.1	False		none_found_in_this_audit
+Eclectus infectus	36.1	False		none_found_in_this_audit
+Eclectus roratus	36.1	True	14.1	none_found_in_this_audit
+Geoffroyus geoffroyi	36.1	False		none_found_in_this_audit
+Geoffroyus heteroclitus	36.1	False		none_found_in_this_audit
+Geoffroyus hyacinthinus	36.1	False		none_found_in_this_audit
+Geoffroyus simplex	36.1	False		none_found_in_this_audit
+Lophopsittacus bensoni	36.1	False		none_found_in_this_audit
+Lophopsittacus mauritianus	36.1	False		none_found_in_this_audit
+Micropsitta bruijnii	36.1	False		none_found_in_this_audit
+Micropsitta finschii	36.1	False		none_found_in_this_audit
+Micropsitta geelvinkiana	36.1	False		none_found_in_this_audit
+Micropsitta keiensis	36.1	False		none_found_in_this_audit
+Micropsitta meeki	36.1	False		none_found_in_this_audit
+Micropsitta pusio	36.1	False		none_found_in_this_audit
+Necropsittacus rodricanus	36.1	False		none_found_in_this_audit
+Polytelis alexandrae	36.1	True	7.81	none_found_in_this_audit
+Polytelis anthopeplus	36.1	True	7.85	none_found_in_this_audit
+Polytelis swainsonii	36.1	True	7.21	none_found_in_this_audit
+Prioniturus discurus	36.1	False		none_found_in_this_audit
+Prioniturus flavicans	36.1	False		none_found_in_this_audit
+Prioniturus luconensis	36.1	False		none_found_in_this_audit
+Prioniturus mada	36.1	False		none_found_in_this_audit
+Prioniturus mindorensis	36.1	False		none_found_in_this_audit
+Prioniturus montanus	36.1	False		none_found_in_this_audit
+Prioniturus platenae	36.1	False		none_found_in_this_audit
+Prioniturus platurus	36.1	False		none_found_in_this_audit
+Prioniturus verticalis	36.1	False		none_found_in_this_audit
+Prioniturus waterstradti	36.1	False		none_found_in_this_audit
+Psittacula alexandri	36.1	True	11.7	none_found_in_this_audit
+Psittacula calthrapae	36.1	False		none_found_in_this_audit
+Psittacula caniceps	36.1	False		none_found_in_this_audit
+Psittacula columboides	36.1	True	10.7	none_found_in_this_audit
+Psittacula cyanocephala	36.1	True	9.91	none_found_in_this_audit
+Psittacula derbiana	36.1	True	9.65	none_found_in_this_audit
+Psittacula eques	36.1	False		chromosome_scale
+Psittacula eupatria	36.1	True	17.8	none_found_in_this_audit
+Psittacula exsul	36.1	False		none_found_in_this_audit
+Psittacula finschii	36.1	False		none_found_in_this_audit
+Psittacula himalayana	36.1	True	11.4	none_found_in_this_audit
+Psittacula krameri	36.1	True	12.1	chromosome_scale
+Psittacula longicauda	36.1	True	4.02	none_found_in_this_audit
+Psittacula roseata	36.1	True	16.7	none_found_in_this_audit
+Psittacula wardi	36.1	False		none_found_in_this_audit
+Psittinus abbotti	36.1	False		none_found_in_this_audit
+Psittinus cyanurus	36.1	True	5.42	none_found_in_this_audit
+Tanygnathus gramineus	36.1	False		none_found_in_this_audit
+Tanygnathus lucionensis	36.1	True	5.88	none_found_in_this_audit
+Tanygnathus megalorynchos	36.1	True	3.74	none_found_in_this_audit
+Tanygnathus sumatranus	36.1	True	8.1	none_found_in_this_audit
+Coracopsis barklyi	37.5	False		none_found_in_this_audit
+Coracopsis nigra	37.5	True	17.6	none_found_in_this_audit
+Coracopsis sibilans	37.5	False		none_found_in_this_audit
+Coracopsis vasa	37.5	True	21.4	none_found_in_this_audit
+Mascarinus mascarin	37.5	False		none_found_in_this_audit
+Psittrichas fulgidus	37.5	True	10.8	none_found_in_this_audit
+Alipiopsitta xanthops	38.8	True	21.7	none_found_in_this_audit
+Amazona aestiva	38.8	True	21.5	draft_or_in_progress
+Amazona agilis	38.8	True	7.43	none_found_in_this_audit
+Amazona albifrons	38.8	True	18.3	none_found_in_this_audit
+Amazona amazonica	38.8	True	19.9	none_found_in_this_audit
+Amazona arausiaca	38.8	False		none_found_in_this_audit
+Amazona auropalliata	38.8	False		none_found_in_this_audit
+Amazona autumnalis	38.8	True	22.9	none_found_in_this_audit
+Amazona barbadensis	38.8	True	16.6	none_found_in_this_audit
+Amazona bodini	38.8	False		none_found_in_this_audit
+Amazona brasiliensis	38.8	True	19.9	none_found_in_this_audit
+Amazona collaria	38.8	True	12.7	none_found_in_this_audit
+Amazona diadema	38.8	False		none_found_in_this_audit
+Amazona dufresniana	38.8	True	20.1	none_found_in_this_audit
+Amazona farinosa	38.8	False		none_found_in_this_audit
+Amazona festiva	38.8	False		none_found_in_this_audit
+Amazona finschi	38.8	True	25	none_found_in_this_audit
+Amazona guatemalae	38.8	False		none_found_in_this_audit
+Amazona guildingii	38.8	True	24	none_found_in_this_audit
+Amazona imperialis	38.8	False		none_found_in_this_audit
+Amazona kawalli	38.8	False		none_found_in_this_audit
+Amazona leucocephala	38.8	True	18	none_found_in_this_audit
+Amazona lilacina	38.8	True	16.9	none_found_in_this_audit
+Amazona martinicana	38.8	False		none_found_in_this_audit
+Amazona mercenarius	38.8	False		none_found_in_this_audit
+Amazona ochrocephala	38.8	True	24.2	chromosome_scale
+Amazona oratrix	38.8	False		none_found_in_this_audit
+Amazona pretrei	38.8	True	11.9	none_found_in_this_audit
+Amazona rhodocorytha	38.8	True	14.2	none_found_in_this_audit
+Amazona tucumana	38.8	True	14.2	none_found_in_this_audit
+Amazona ventralis	38.8	True	17.9	none_found_in_this_audit
+Amazona versicolor	38.8	False		none_found_in_this_audit
+Amazona vinacea	38.8	True	13	none_found_in_this_audit
+Amazona violacea	38.8	False		none_found_in_this_audit
+Amazona viridigenalis	38.8	False		none_found_in_this_audit
+Amazona vittata	38.8	True	22.3	draft_or_in_progress
+Amazona xantholora	38.8	True	15.7	none_found_in_this_audit
+Anodorhynchus glaucus	38.8	False		none_found_in_this_audit
+Anodorhynchus hyacinthinus	38.8	True	23.2	draft_or_in_progress
+Anodorhynchus leari	38.8	True	30.8	none_found_in_this_audit
+Ara ambiguus	38.8	True	25.6	none_found_in_this_audit
+Ara ararauna	38.8	True	24.3	chromosome_scale
+Ara chloropterus	38.8	True	29.8	none_found_in_this_audit
+Ara glaucogularis	38.8	False		none_found_in_this_audit
+Ara macao	38.8	True	35.5	draft_or_in_progress
+Ara militaris	38.8	False		none_found_in_this_audit
+Ara rubrogenys	38.8	True	21.3	none_found_in_this_audit
+Ara severus	38.8	False		none_found_in_this_audit
+Ara tricolor	38.8	False		none_found_in_this_audit
+Aratinga auricapillus	38.8	True	13.6	none_found_in_this_audit
+Aratinga jandaya	38.8	True	11.9	none_found_in_this_audit
+Aratinga maculata	38.8	False		none_found_in_this_audit
+Aratinga nenday	38.8	True	15.2	none_found_in_this_audit
+Aratinga solstitialis	38.8	True	9.8	none_found_in_this_audit
+Aratinga weddellii	38.8	False		none_found_in_this_audit
+Bolborhynchus ferrugineifrons	38.8	False		none_found_in_this_audit
+Bolborhynchus lineola	38.8	True	6.93	none_found_in_this_audit
+Bolborhynchus orbygnesius	38.8	False		none_found_in_this_audit
+Brotogeris chiriri	38.8	False		none_found_in_this_audit
+Brotogeris chrysoptera	38.8	True	13	none_found_in_this_audit
+Brotogeris cyanoptera	38.8	True	7.4	none_found_in_this_audit
+Brotogeris jugularis	38.8	False		none_found_in_this_audit
+Brotogeris pyrrhoptera	38.8	True	5.59	none_found_in_this_audit
+Brotogeris sanctithomae	38.8	False		none_found_in_this_audit
+Brotogeris tirica	38.8	True	7.51	none_found_in_this_audit
+Brotogeris versicolurus	38.8	True	9.18	none_found_in_this_audit
+Conuropsis carolinensis	38.8	False		none_found_in_this_audit
+Cyanoliseus patagonus	38.8	True	15.3	none_found_in_this_audit
+Cyanopsitta spixii	38.8	False		draft_or_in_progress
+Deroptyus accipitrinus	38.8	True	14.7	none_found_in_this_audit
+Diopsittaca cumanensis	38.8	True	12.1	none_found_in_this_audit
+Diopsittaca nobilis	38.8	True	14	none_found_in_this_audit
+Enicognathus ferrugineus	38.8	False		none_found_in_this_audit
+Enicognathus leptorhynchus	38.8	True	9.92	none_found_in_this_audit
+Eupsittula astec	38.8	False		none_found_in_this_audit
+Eupsittula aurea	38.8	False		none_found_in_this_audit
+Eupsittula cactorum	38.8	False		none_found_in_this_audit
+Eupsittula canicularis	38.8	True	9.1	none_found_in_this_audit
+Eupsittula nana	38.8	True	12.1	none_found_in_this_audit
+Eupsittula pertinax	38.8	True	11.7	none_found_in_this_audit
+Forpus coelestis	38.8	True	3.93	none_found_in_this_audit
+Forpus conspicillatus	38.8	False		none_found_in_this_audit
+Forpus cyanopygius	38.8	True	6.21	none_found_in_this_audit
+Forpus modestus	38.8	False		none_found_in_this_audit
+Forpus passerinus	38.8	True	4.14	none_found_in_this_audit
+Forpus spengeli	38.8	True	7.51	none_found_in_this_audit
+Forpus xanthops	38.8	False		none_found_in_this_audit
+Forpus xanthopterygius	38.8	False		none_found_in_this_audit
+Graydidascalus brachyurus	38.8	False		none_found_in_this_audit
+Guaruba guarouba	38.8	True	14.4	chromosome_scale
+Hapalopsittaca amazonina	38.8	False		none_found_in_this_audit
+Hapalopsittaca fuertesi	38.8	False		none_found_in_this_audit
+Hapalopsittaca melanotis	38.8	False		none_found_in_this_audit
+Hapalopsittaca pyrrhops	38.8	False		none_found_in_this_audit
+Leptosittaca branickii	38.8	False		none_found_in_this_audit
+Myiopsitta luchsi	38.8	False		none_found_in_this_audit
+Myiopsitta monachus	38.8	True	7.12	none_found_in_this_audit
+Nannopsittaca dachilleae	38.8	False		none_found_in_this_audit
+Nannopsittaca panychlora	38.8	False		none_found_in_this_audit
+Ognorhynchus icterotis	38.8	False		none_found_in_this_audit
+Orthopsittaca manilatus	38.8	True	7.3	none_found_in_this_audit
+Pionites leucogaster	38.8	True	13.7	none_found_in_this_audit
+Pionites melanocephalus	38.8	True	14.4	none_found_in_this_audit
+Pionites xanthomerius	38.8	False		none_found_in_this_audit
+Pionites xanthurus	38.8	False		none_found_in_this_audit
+Pionopsitta pileata	38.8	True	11.8	none_found_in_this_audit
+Pionus chalcopterus	38.8	False		none_found_in_this_audit
+Pionus fuscus	38.8	True	6.75	none_found_in_this_audit
+Pionus maximiliani	38.8	True	14.9	none_found_in_this_audit
+Pionus menstruus	38.8	True	12.7	none_found_in_this_audit
+Pionus reichenowi	38.8	False		none_found_in_this_audit
+Pionus senilis	38.8	True	12.3	none_found_in_this_audit
+Pionus seniloides	38.8	True	8.3	none_found_in_this_audit
+Pionus sordidus	38.8	False		none_found_in_this_audit
+Pionus tumultuosus	38.8	False		none_found_in_this_audit
+Poicephalus crassus	38.8	False		none_found_in_this_audit
+Poicephalus cryptoxanthus	38.8	True	11.7	none_found_in_this_audit
+Poicephalus flavifrons	38.8	False		none_found_in_this_audit
+Poicephalus gulielmi	38.8	True	14.3	none_found_in_this_audit
+Poicephalus meyeri	38.8	True	15.8	none_found_in_this_audit
+Poicephalus robustus	38.8	True	13.4	none_found_in_this_audit
+Poicephalus rueppellii	38.8	True	10.2	none_found_in_this_audit
+Poicephalus rufiventris	38.8	True	14.2	none_found_in_this_audit
+Poicephalus senegalus	38.8	True	16.4	none_found_in_this_audit
+Primolius auricollis	38.8	True	17.7	none_found_in_this_audit
+Primolius couloni	38.8	True	15.3	none_found_in_this_audit
+Primolius maracana	38.8	True	17.9	none_found_in_this_audit
+Psilopsiagon aurifrons	38.8	True	4.98	none_found_in_this_audit
+Psilopsiagon aymara	38.8	True	4.08	none_found_in_this_audit
+Psittacara acuticaudatus	38.8	True	16.8	none_found_in_this_audit
+Psittacara chloropterus	38.8	False		none_found_in_this_audit
+Psittacara erythrogenys	38.8	True	15.7	none_found_in_this_audit
+Psittacara euops	38.8	False		none_found_in_this_audit
+Psittacara finschi	38.8	True	20.2	none_found_in_this_audit
+Psittacara frontatus	38.8	False		none_found_in_this_audit
+Psittacara holochlorus	38.8	True	15	none_found_in_this_audit
+Psittacara labati	38.8	False		none_found_in_this_audit
+Psittacara leucophthalmus	38.8	True	17	none_found_in_this_audit
+Psittacara mitratus	38.8	True	16.3	none_found_in_this_audit
+Psittacara rubritorquis	38.8	True	19.9	none_found_in_this_audit
+Psittacara wagleri	38.8	True	16.4	none_found_in_this_audit
+Psittacus erithacus	38.8	True	18.6	none_found_in_this_audit
+Psittacus timneh	38.8	True	14.3	none_found_in_this_audit
+Pyrilia aurantiocephala	38.8	False		none_found_in_this_audit
+Pyrilia barrabandi	38.8	False		none_found_in_this_audit
+Pyrilia caica	38.8	False		none_found_in_this_audit
+Pyrilia haematotis	38.8	False		none_found_in_this_audit
+Pyrilia pulchra	38.8	False		none_found_in_this_audit
+Pyrilia pyrilia	38.8	False		none_found_in_this_audit
+Pyrilia vulturina	38.8	False		none_found_in_this_audit
+Pyrrhura albipectus	38.8	False		none_found_in_this_audit
+Pyrrhura amazonum	38.8	False		none_found_in_this_audit
+Pyrrhura caeruleiceps	38.8	False		none_found_in_this_audit
+Pyrrhura calliptera	38.8	False		none_found_in_this_audit
+Pyrrhura cruentata	38.8	True	13.6	none_found_in_this_audit
+Pyrrhura devillei	38.8	False		none_found_in_this_audit
+Pyrrhura egregia	38.8	False		none_found_in_this_audit
+Pyrrhura eisenmanni	38.8	False		none_found_in_this_audit
+Pyrrhura emma	38.8	True	7.01	none_found_in_this_audit
+Pyrrhura frontalis	38.8	True	9.27	none_found_in_this_audit
+Pyrrhura griseipectus	38.8	True	8.31	none_found_in_this_audit
+Pyrrhura hoematotis	38.8	False		none_found_in_this_audit
+Pyrrhura hoffmanni	38.8	True	12.9	none_found_in_this_audit
+Pyrrhura lepida	38.8	False		none_found_in_this_audit
+Pyrrhura leucotis	38.8	True	11.9	none_found_in_this_audit
+Pyrrhura lucianii	38.8	False		none_found_in_this_audit
+Pyrrhura melanura	38.8	True	8.23	none_found_in_this_audit
+Pyrrhura molinae	38.8	False		none_found_in_this_audit
+Pyrrhura orcesi	38.8	False		none_found_in_this_audit
+Pyrrhura pacifica	38.8	True	13.3	none_found_in_this_audit
+Pyrrhura parvifrons	38.8	False		none_found_in_this_audit
+Pyrrhura perlata	38.8	True	11.8	none_found_in_this_audit
+Pyrrhura peruviana	38.8	False		none_found_in_this_audit
+Pyrrhura pfrimeri	38.8	False		none_found_in_this_audit
+Pyrrhura picta	38.8	True	9.42	none_found_in_this_audit
+Pyrrhura rhodocephala	38.8	True	8.88	none_found_in_this_audit
+Pyrrhura roseifrons	38.8	False		none_found_in_this_audit
+Pyrrhura rupicola	38.8	True	10.5	none_found_in_this_audit
+Pyrrhura snethlageae	38.8	False		none_found_in_this_audit
+Pyrrhura subandina	38.8	False		none_found_in_this_audit
+Pyrrhura viridicata	38.8	False		none_found_in_this_audit
+Rhynchopsitta pachyrhyncha	38.8	True	11.4	none_found_in_this_audit
+Rhynchopsitta terrisi	38.8	False		none_found_in_this_audit
+Touit batavicus	38.8	False		none_found_in_this_audit
+Touit costaricensis	38.8	False		none_found_in_this_audit
+Touit dilectissimus	38.8	False		none_found_in_this_audit
+Touit huetii	38.8	False		none_found_in_this_audit
+Touit melanonotus	38.8	False		none_found_in_this_audit
+Touit purpuratus	38.8	False		none_found_in_this_audit
+Touit stictopterus	38.8	False		none_found_in_this_audit
+Touit surdus	38.8	False		none_found_in_this_audit
+Triclaria malachitacea	38.8	True	7.68	none_found_in_this_audit
+Psittacella brehmii	39.8	False		none_found_in_this_audit
+Psittacella lorentzi	39.8	False		none_found_in_this_audit
+Psittacella madaraszi	39.8	False		none_found_in_this_audit
+Psittacella modesta	39.8	False		none_found_in_this_audit
+Psittacella picta	39.8	False		none_found_in_this_audit
+Cacatua alba	40.8	True	21.6	none_found_in_this_audit
+Cacatua ducorpsii	40.8	True	14.1	reported_level_unknown
+Cacatua galerita	40.8	True	25.2	chromosome_scale
+Cacatua goffiniana	40.8	False		none_found_in_this_audit
+Cacatua haematuropygia	40.8	True	12.7	none_found_in_this_audit
+Cacatua leadbeateri	40.8	False		none_found_in_this_audit
+Cacatua moluccensis	40.8	True	18.2	none_found_in_this_audit
+Cacatua ophthalmica	40.8	True	19.9	none_found_in_this_audit
+Cacatua pastinator	40.8	False		none_found_in_this_audit
+Cacatua sanguinea	40.8	True	28.6	reported_level_unknown
+Cacatua sulphurea	40.8	True	19.8	none_found_in_this_audit
+Cacatua tenuirostris	40.8	True	22.1	reported_level_unknown
+Callocephalon fimbriatum	40.8	False		none_found_in_this_audit
+Calyptorhynchus banksii	40.8	False		none_found_in_this_audit
+Calyptorhynchus lathami	40.8	True	22.9	none_found_in_this_audit
+Eolophus roseicapilla	40.8	True	16	none_found_in_this_audit
+Nymphicus hollandicus	40.8	True	8.27	none_found_in_this_audit
+Probosciger aterrimus	40.8	True	16.6	none_found_in_this_audit
+Zanda baudinii	40.8	False		none_found_in_this_audit
+Zanda funerea	40.8	True	21.5	none_found_in_this_audit
+Zanda latirostris	40.8	False		none_found_in_this_audit
+Nestor meridionalis	46.8	True	12.4	none_found_in_this_audit
+Nestor notabilis	46.8	True	13.7	draft_or_in_progress
+Strigops habroptila	46.8	False		chromosome_scale

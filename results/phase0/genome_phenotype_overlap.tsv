@@ -1,0 +1,18 @@
+species	family	genome_best_tier	life_expectancy_years	rel_log_life_expectancy
+Lathamus discolor	Psittacidae	chromosome_scale	3.747	-0.6909
+Melopsittacus undulatus	Psittacidae	chromosome_scale	4.567	-0.2882
+Nestor notabilis	Strigopidae	draft_or_in_progress	13.68	-0.2531
+Psitteuteles goldiei	Psittacidae	draft_or_in_progress	5.765	-0.159
+Anodorhynchus hyacinthinus	Psittacidae	draft_or_in_progress	23.2	0.0992
+Cacatua ducorpsii	Cacatuidae	reported_level_unknown	14.08	0.1025
+Agapornis roseicollis	Psittacidae	draft_or_in_progress	8.203	0.1935
+Guaruba guarouba	Psittacidae	chromosome_scale	14.42	0.2111
+Ara ararauna	Psittacidae	chromosome_scale	24.26	0.2299
+Psittacula krameri	Psittacidae	chromosome_scale	12.15	0.2743
+Cacatua tenuirostris	Cacatuidae	reported_level_unknown	22.07	0.3615
+Amazona aestiva	Psittacidae	draft_or_in_progress	21.5	0.4368
+Cacatua galerita	Cacatuidae	chromosome_scale	25.17	0.4495
+Amazona ochrocephala	Psittacidae	chromosome_scale	24.23	0.5207
+Ara macao	Psittacidae	draft_or_in_progress	35.47	0.6179
+Amazona vittata	Psittacidae	draft_or_in_progress	22.33	0.6209
+Cacatua sanguinea	Cacatuidae	reported_level_unknown	28.59	0.7789

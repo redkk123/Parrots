@@ -1,0 +1,26 @@
+{
+  "n_species": 218,
+  "tree_height_myr": 46.80260299999998,
+  "allometry": {
+    "lambda": 0.653353027007734,
+    "slope": 0.34913693041518257,
+    "slope_se": 0.03204811546093108,
+    "best_model_by_aic": "lambda"
+  },
+  "signal_relative_LE": {
+    "lambda": 0.6533546253319512,
+    "LR_vs_lambda0": 67.91426120377925,
+    "p_value": 8.53808110907656e-17
+  },
+  "signal_log_LE": {
+    "lambda": 0.923294788627341
+  },
+  "ancestral_root_rel_logLE": {
+    "estimate": -0.0067436239865937535,
+    "se": 0.342231692447574
+  },
+  "n_imprecise_LE": 4,
+  "overlap_LE_and_any_genome": 17,
+  "overlap_LE_and_chromosome_scale": 7,
+  "melopsittacus_neighbours_within_20myr": 61
+}
