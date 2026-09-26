@@ -106,6 +106,33 @@ A longevidade pode envolver combinações de controle da produção de espécies
 
 **Teste:** relacionar cada medida à etapa que ela avalia e à função preservada. Metabolismo aeróbico elevado, produção de ROS, dano acumulado e perda de função devem ser registrados como variáveis distintas.
 
+### H8 — Travas moleculares modulares, com retenção parcial em Psittaculidae
+
+*Proposta pelo autor do projeto em 26 set. 2026, registrada antes de qualquer análise molecular.*
+
+Papagaios longevos teriam um conjunto de **travas moleculares** (enzimas e proteínas de checkpoint, reparo, controle proliferativo, apoptose/senescência e resposta induzida ao estresse) que impedem que o dano, inclusive o oxidativo, se converta em transformação celular ou disfunção. A proteção viria dessas travas, não de menor produção de radicais livres nem de maior estoque antioxidante. As travas seriam **modulares**: uma linhagem pode reter parte delas e perder outras.
+
+*Melopsittacus* teria **parte** do conjunto. Os módulos retidos explicariam a resistência celular ao estresse oxidativo [R1]; os módulos ausentes ou afrouxados explicariam a maior carga tumoral [C0, C1]. Pela Fase 0b, o estado ancestral dos papagaios é relativamente longevo e houve redução em Psittaculidae. H8 interpreta isso como perda parcial de um conjunto ancestral nessa linhagem.
+
+**Previsões:**
+
+1. **Perda parcial, não total:** em *Melopsittacus* e Loriini, alguns módulos mostram relaxamento da seleção, aceleração ou perda de genes, enquanto outros permanecem conservados como nas linhagens longevas.
+2. **Quais módulos:** os módulos **induzíveis** de resposta ao estresse (NRF2/KEAP1, choque térmico/proteostase induzida) estão entre os retidos, pois a resistência de R1 depende de síntese proteica ativa. As perdas se concentram em checkpoints, controle proliferativo e apoptose/senescência.
+3. **Localização:** as perdas se concentram no ramo-tronco de Psittaculidae ou dentro desse clado, não espalhadas ao acaso pela árvore.
+4. **Relação com tumores:** entre espécies com necropsias e denominadores, o número de módulos intactos se associa negativamente à prevalência relativa de neoplasias, controlando massa e filogenia.
+5. **Especificidade tecidual:** os módulos afrouxados incluem vias relevantes para os tumores típicos do periquito (renais, pituitários, proventriculares, lipomatosos).
+
+**Critérios de refutação:**
+
+- *Melopsittacus* e Loriini não diferem das linhagens longevas em nenhum módulo (após controle de qualidade e reanotação) → o excesso tumoral não é explicado por travas ausentes.
+- Todos os módulos estão igualmente afrouxados em Psittaculidae → a versão “retenção parcial” cai (sobra redução geral).
+- Os módulos alterados não incluem controle proliferativo/checkpoint/apoptose, ou os alterados não se associam à carga tumoral.
+- O excesso tumoral do periquito desaparece na comparação com Loriini do mesmo protocolo diagnóstico → a explicação passa a ser de manejo, infecção ou diagnóstico, não de linhagem.
+
+**Explicações concorrentes a manter:** seleção artificial e endogamia em linhagens domésticas; *Macrorhabdus ornithogaster*; reprodução intensa (postura grande); dieta e obesidade; viés de diagnóstico e popularidade como animal de estimação; sinal compartilhado por ser um único evento evolutivo (Maddison & FitzJohn 2015).
+
+**Cuidados:** ausência ou truncamento de gene em genomas short-read não conta como perda sem reanotação independente e checagem de cobertura; *Melopsittacus* tem montagem cromossômica e é a referência para isso. Sinal no ramo-tronco de Psittaculidae não é atribuível a longevidade isoladamente. Sequência não demonstra função; a validação exige ensaios celulares separados de proteção oxidativa e de controle proliferativo.
+
 ## Fase 0 — Auditoria de novidade, fenótipos e viabilidade
 
 Esta fase deve ocorrer **antes da seleção definitiva dos genomas e das análises moleculares em escala**.
