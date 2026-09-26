@@ -106,32 +106,63 @@ A longevidade pode envolver combinações de controle da produção de espécies
 
 **Teste:** relacionar cada medida à etapa que ela avalia e à função preservada. Metabolismo aeróbico elevado, produção de ROS, dano acumulado e perda de função devem ser registrados como variáveis distintas.
 
-### H8 — Travas moleculares modulares, com retenção parcial em Psittaculidae
+### H8 — Travas moleculares modulares: mecanismo (H8a/H8b) e história (H8c)
 
-*Proposta pelo autor do projeto em 26 set. 2026, registrada antes de qualquer análise molecular.*
+*Proposta pelo autor do projeto em 26 set. 2026 e revisada no mesmo dia após revisão crítica, antes de qualquer análise molecular. A hipótese separa **mecanismo** de **história evolutiva**. Cada parte tem testes próprios, e o resultado de uma não decide a outra.*
 
-Papagaios longevos teriam um conjunto de **travas moleculares** (enzimas e proteínas de checkpoint, reparo, controle proliferativo, apoptose/senescência e resposta induzida ao estresse) que impedem que o dano, inclusive o oxidativo, se converta em transformação celular ou disfunção. A proteção viria dessas travas, não de menor produção de radicais livres nem de maior estoque antioxidante. As travas seriam **modulares**: uma linhagem pode reter parte delas e perder outras.
+**Ideia geral.** Papagaios longevos teriam um conjunto de **travas moleculares** (enzimas e proteínas de checkpoint, reparo, controle proliferativo, apoptose/senescência e resposta induzida ao estresse) que impedem que o dano, inclusive o oxidativo, se converta em transformação celular ou disfunção. A proteção viria dessas travas, e não necessariamente de menor produção de radicais livres ou de maior estoque antioxidante. As travas seriam **modulares**: uma linhagem pode manter a eficácia de algumas e não de outras.
 
-*Melopsittacus* teria **parte** do conjunto. Os módulos retidos explicariam a resistência celular ao estresse oxidativo [R1]; os módulos ausentes ou afrouxados explicariam a maior carga tumoral [C0, C1]. Pela Fase 0b, o estado ancestral dos papagaios é relativamente longevo e houve redução em Psittaculidae. H8 interpreta isso como perda parcial de um conjunto ancestral nessa linhagem.
+**O que R1 (Ogburn et al. 2001) permite e não permite concluir.** O estudo mediu **sobrevivência celular** após desafio oxidativo em células embrionárias. A vantagem do periquito desaparece com inibição da síntese proteica, o que indica **participação de processos ativos**. Segundo a leitura do texto feita na revisão (a confirmar no texto completo), os autores consideraram duas explicações sem identificar qual vale: (i) evitar ou reparar melhor o dano; (ii) maior resistência à apoptose induzida pelo dano. NRF2, choque térmico e reparo são **candidatos**, não mecanismos demonstrados.
 
-**Previsões:**
+#### H8a — Proteção modular (versão original)
 
-1. **Perda parcial, não total:** em *Melopsittacus* e Loriini, alguns módulos mostram relaxamento da seleção, aceleração ou perda de genes, enquanto outros permanecem conservados como nas linhagens longevas.
-2. **Quais módulos:** os módulos **induzíveis** de resposta ao estresse (NRF2/KEAP1, choque térmico/proteostase induzida) estão entre os retidos, pois a resistência de R1 depende de síntese proteica ativa. As perdas se concentram em checkpoints, controle proliferativo e apoptose/senescência.
-3. **Localização:** as perdas se concentram no ramo-tronco de Psittaculidae ou dentro desse clado, não espalhadas ao acaso pela árvore.
-4. **Relação com tumores:** entre espécies com necropsias e denominadores, o número de módulos intactos se associa negativamente à prevalência relativa de neoplasias, controlando massa e filogenia.
-5. **Especificidade tecidual:** os módulos afrouxados incluem vias relevantes para os tumores típicos do periquito (renais, pituitários, proventriculares, lipomatosos).
+*Melopsittacus* conservaria defesas eficazes contra o dano oxidativo (prevenção, reparo ou resposta induzida), mas teria **menor eficácia** em certos módulos de controle tumoral (checkpoints, controle proliferativo, eliminação de células danificadas).
 
-**Critérios de refutação:**
+- **Previsão celular:** após um desafio oxidativo comparável, células de periquito têm **menos dano residual** (8-oxo-dG, quebras, γH2AX) **e** sobrevivem mais; os módulos deficientes aparecem em outro teste, em que células com dano ou sinais oncogênicos continuam proliferando.
 
-- *Melopsittacus* e Loriini não diferem das linhagens longevas em nenhum módulo (após controle de qualidade e reanotação) → o excesso tumoral não é explicado por travas ausentes.
-- Todos os módulos estão igualmente afrouxados em Psittaculidae → a versão “retenção parcial” cai (sobra redução geral).
-- Os módulos alterados não incluem controle proliferativo/checkpoint/apoptose, ou os alterados não se associam à carga tumoral.
-- O excesso tumoral do periquito desaparece na comparação com Loriini do mesmo protocolo diagnóstico → a explicação passa a ser de manejo, infecção ou diagnóstico, não de linhagem.
+#### H8b — Efeito duplo (explicação concorrente)
 
-**Explicações concorrentes a manter:** seleção artificial e endogamia em linhagens domésticas; *Macrorhabdus ornithogaster*; reprodução intensa (postura grande); dieta e obesidade; viés de diagnóstico e popularidade como animal de estimação; sinal compartilhado por ser um único evento evolutivo (Maddison & FitzJohn 2015).
+Parte da resistência observada em R1 viria de **células danificadas sobreviverem mais** (limiar mais alto para apoptose/senescência). O mesmo traço que protege a célula poderia favorecer a vulnerabilidade tumoral do organismo. É uma possibilidade mecanística, **não demonstrada** no periquito.
 
-**Cuidados:** ausência ou truncamento de gene em genomas short-read não conta como perda sem reanotação independente e checagem de cobertura; *Melopsittacus* tem montagem cromossômica e é a referência para isso. Sinal no ramo-tronco de Psittaculidae não é atribuível a longevidade isoladamente. Sequência não demonstra função; a validação exige ensaios celulares separados de proteção oxidativa e de controle proliferativo.
+- **Previsão celular:** após o mesmo desafio, células de periquito sobrevivem mais **com dano residual igual ou maior** e mantêm proliferação ou potencial clonogênico apesar do dano (menos parada de ciclo, menos senescência e apoptose).
+
+**Experimento que distingue H8a de H8b** (fibroblastos primários de periquito, 1–2 Loriini, 1 espécie longeva fora de Psittaculidae, codorna como referência; doses equivalentes em sobrevivência e em dano inicial):
+
+| Medida | Momento | H8a prevê | H8b prevê |
+| --- | --- | --- | --- |
+| Sobrevivência / clonogenicidade | 24–72 h, 10–14 dias | maior no periquito | maior no periquito |
+| Dano inicial (8-oxo-dG, cometa, γH2AX) | 0–1 h | igual ou menor | igual |
+| **Dano residual** | 24 h | **menor** (reparo eficaz) | **igual ou maior** |
+| Parada do ciclo em células com dano (EdU + γH2AX) | 24–48 h | preservada | **reduzida** |
+| Senescência (SA-β-gal, p21) e apoptose (caspase-3) | 48–96 h | proporcionais ao dano | **reduzidas** para o mesmo dano |
+| Destino das sobreviventes (instabilidade cromossômica, crescimento independente de ancoragem) | semanas | baixo | **elevado** |
+
+O resultado mais informativo é **como** a célula sobrevive e **o que acontece com ela depois**, não apenas se sobrevive. As duas hipóteses podem ser parcialmente verdadeiras em módulos diferentes.
+
+#### H8c — História evolutiva (sub-hipótese específica)
+
+As diferenças de eficácia entre módulos teriam surgido **no tronco de Psittaculidae ou dentro desse clado**, depois de um ancestral com longevidade relativa alta.
+
+- A Fase 0b reconstrói o **fenótipo** (longevidade relativa alta na raiz, redução em Psittaculidae). Isso **não** demonstra que o ancestral tinha o “conjunto completo” de travas. A localização e a natureza das mudanças moleculares continuam abertas. H8a/H8b podem ser verdadeiras com uma história diferente (por exemplo, mudanças apenas em linhagens terminais ou em *Melopsittacus* sob seleção artificial).
+- Sinal molecular no tronco de Psittaculidae é **um único evento** e está confundido com tudo o que mudou nesse ramo (Maddison & FitzJohn 2015).
+
+#### Níveis de evidência, fixados agora
+
+| Tipo de resultado | O que afeta |
+| --- | --- |
+| Perda, pseudogenização ou truncamento confirmado (reanotação independente + cobertura) | apoia a versão **perda gênica** de H8a/H8b |
+| Genes presentes e sem relaxamento da seleção | **enfraquece a versão perda gênica**; **não** refuta H8a/H8b funcional, porque expressão, atividade, localização e limiar de ativação podem diferir |
+| Relaxamento/intensificação da seleção (RELAX, RERconverge) | sugere mudança de restrição funcional; não indica direção de eficácia |
+| Diferenças regulatórias (expressão basal e induzida, elementos conservados, splicing) | testa a versão **menor eficácia regulatória** |
+| Ensaios celulares da tabela acima | único nível que distingue **H8a de H8b** e demonstra eficácia |
+
+**Refutação da versão funcional (H8a e H8b juntas):** células de periquito e de Loriini com o mesmo protocolo não diferem das espécies longevas em nenhuma das medidas da tabela (dano residual, parada de ciclo, senescência/apoptose, destino das sobreviventes), com poder adequado.
+
+**Tumores por tecido não servem como evidência de trava ausente.** O adenocarcinoma proventricular já tem associação com *Macrorhabdus ornithogaster* [C1]; pituitários e lipomatosos podem refletir hormônios, dieta e obesidade. A distribuição por tecido serve para **gerar** candidatos, não para confirmá-los.
+
+**Explicações concorrentes a manter:** seleção artificial e endogamia em linhagens domésticas; infecção (*Macrorhabdus*); reprodução intensa (postura grande); dieta e obesidade; viés de diagnóstico e popularidade como animal de estimação.
+
+**Cuidados:** ausência ou truncamento de gene em genomas short-read só conta como perda após reanotação independente e checagem de cobertura; *Melopsittacus* tem montagem cromossômica e serve de referência. Sequência não demonstra função. Proteção oxidativa e controle proliferativo devem ser medidos separadamente, e um efeito que aumente a sobrevivência celular não pode ser classificado automaticamente como antitumoral.
 
 ## Fase 0 — Auditoria de novidade, fenótipos e viabilidade
 
