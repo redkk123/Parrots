@@ -22,7 +22,7 @@ Rascunhos para o pesquisador revisar e enviar da própria conta. Endereços conf
 > Aggregated or de-identified data would be perfectly fine. I will cite the dataset and the article, and I am happy to share the analysis before any submission.
 >
 > With best regards,
-> [nome, instituição]
+> Angelo
 
 ---
 
@@ -44,4 +44,4 @@ Rascunhos para o pesquisador revisar e enviar da própria conta. Endereços conf
 > Genera of particular interest: *Melopsittacus*, *Nymphicus*, *Agapornis*, *Amazona*, *Psittacus*, *Ara*, *Cacatua*, *Eolophus*, lorikeets (*Trichoglossus*, *Eos*, *Lorius*) and *Neophema*. Aggregated counts are sufficient. I would cite the database and the article, and would welcome collaboration on any resulting analysis.
 >
 > With best regards,
-> [nome, instituição]
+> Angelo
