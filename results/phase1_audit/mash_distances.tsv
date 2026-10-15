@@ -49,6 +49,7 @@ GCA_000238935.1	GCA_025448075.1	0.0077587	Melopsittacus undulatus	Melopsittacus 
 GCA_000238935.1	GCA_025448095.1	0.077149	Melopsittacus undulatus	Poicephalus senegalus	77.635
 GCA_000238935.1	GCA_025448155.1	0.075805	Melopsittacus undulatus	Cacatua ducorpsii	81.521
 GCA_000238935.1	GCA_025629865.1	0.075265	Melopsittacus undulatus	Cyanoliseus patagonus	77.635
+GCA_000238935.1	GCA_025629885.1	0.037598	Melopsittacus undulatus	Lorius chlorocercus	19.5
 GCA_000238935.1	GCA_025629905.1	0.039183	Melopsittacus undulatus	Lorius lory	19.5
 GCA_000238935.1	GCA_025629925.1	0.062585	Melopsittacus undulatus	Platycercus adscitus	70.802
 GCA_000238935.1	GCA_025629965.1	0.064287	Melopsittacus undulatus	Cyanoramphus novaezelandiae	70.802
@@ -56,6 +57,7 @@ GCA_000238935.1	GCA_026283615.1	0.077282	Melopsittacus undulatus	Amazona vinacea
 GCA_000238935.1	GCA_026283635.1	0.085182	Melopsittacus undulatus	Ara macao	77.635
 GCA_000238935.1	GCA_026283665.1	0.07838	Melopsittacus undulatus	Amazona leucocephala	77.635
 GCA_000238935.1	GCA_026283685.1	0.078932	Melopsittacus undulatus	Amazona aestiva	77.635
+GCA_000238935.1	GCA_026283705.1	0.075986	Melopsittacus undulatus	Psittacara chloropterus	77.635
 GCA_000238935.1	GCA_026283725.1	0.076184	Melopsittacus undulatus	Ara rubrogenys	77.635
 GCA_000238935.1	GCA_026283745.1	0.076698	Melopsittacus undulatus	Eupsittula aurea	77.635
 GCA_000238935.1	GCA_026283765.1	0.063598	Melopsittacus undulatus	Psephotus haematonotus	70.802
@@ -124,6 +126,7 @@ GCA_000238935.1	GCA_035222285.1	0.07066	Melopsittacus undulatus	Agapornis lilian
 GCA_000238935.1	GCA_035583095.1	0.075722	Melopsittacus undulatus	Cacatua galerita	81.521
 GCA_000238935.1	GCA_036873685.1	0.071724	Melopsittacus undulatus	Agapornis canus	64.053
 GCA_000238935.1	GCA_037157495.1	0.063822	Melopsittacus undulatus	Lathamus discolor	70.802
+GCA_000238935.1	GCA_037157625.1	0.065268	Melopsittacus undulatus	Lathamus discolor	70.802
 GCA_000238935.1	GCA_038381815.1	0.080517	Melopsittacus undulatus	Anodorhynchus leari	77.635
 GCA_000238935.1	GCA_038406155.1	0.081135	Melopsittacus undulatus	Pyrrhura leucotis	77.635
 GCA_000238935.1	GCA_039720425.1	0.078695	Melopsittacus undulatus	Amazona ochrocephala	77.635
@@ -220,6 +223,7 @@ GCA_000332375.2	GCA_025448075.1	0.078655	Amazona vittata	Melopsittacus undulatus
 GCA_000332375.2	GCA_025448095.1	0.069057	Amazona vittata	Poicephalus senegalus	64.077
 GCA_000332375.2	GCA_025448155.1	0.074222	Amazona vittata	Cacatua ducorpsii	81.521
 GCA_000332375.2	GCA_025629865.1	0.053179	Amazona vittata	Cyanoliseus patagonus	50.04
+GCA_000332375.2	GCA_025629885.1	0.073362	Amazona vittata	Lorius chlorocercus	77.635
 GCA_000332375.2	GCA_025629905.1	0.074924	Amazona vittata	Lorius lory	77.635
 GCA_000332375.2	GCA_025629925.1	0.072666	Amazona vittata	Platycercus adscitus	77.635
 GCA_000332375.2	GCA_025629965.1	0.073983	Amazona vittata	Cyanoramphus novaezelandiae	77.635
@@ -227,6 +231,7 @@ GCA_000332375.2	GCA_026283615.1	0.014159	Amazona vittata	Amazona vinacea	20.474
 GCA_000332375.2	GCA_026283635.1	0.063619	Amazona vittata	Ara macao	50.04
 GCA_000332375.2	GCA_026283665.1	0.01521	Amazona vittata	Amazona leucocephala	20.474
 GCA_000332375.2	GCA_026283685.1	0.015952	Amazona vittata	Amazona aestiva	20.474
+GCA_000332375.2	GCA_026283705.1	0.053965	Amazona vittata	Psittacara chloropterus	50.04
 GCA_000332375.2	GCA_026283725.1	0.053289	Amazona vittata	Ara rubrogenys	50.04
 GCA_000332375.2	GCA_026283745.1	0.054233	Amazona vittata	Eupsittula aurea	50.04
 GCA_000332375.2	GCA_026283765.1	0.073561	Amazona vittata	Psephotus haematonotus	77.635
@@ -295,6 +300,7 @@ GCA_000332375.2	GCA_035222285.1	0.08117	Amazona vittata	Agapornis lilianae	77.63
 GCA_000332375.2	GCA_035583095.1	0.074316	Amazona vittata	Cacatua galerita	81.521
 GCA_000332375.2	GCA_036873685.1	0.082669	Amazona vittata	Agapornis canus	77.635
 GCA_000332375.2	GCA_037157495.1	0.073789	Amazona vittata	Lathamus discolor	77.635
+GCA_000332375.2	GCA_037157625.1	0.074345	Amazona vittata	Lathamus discolor	77.635
 GCA_000332375.2	GCA_038381815.1	0.057247	Amazona vittata	Anodorhynchus leari	50.04
 GCA_000332375.2	GCA_038406155.1	0.059291	Amazona vittata	Pyrrhura leucotis	50.04
 GCA_000332375.2	GCA_039720425.1	0.015003	Amazona vittata	Amazona ochrocephala	20.474
@@ -390,6 +396,7 @@ GCA_000400545.1	GCA_025448075.1	0.076245	Ara macao	Melopsittacus undulatus	77.63
 GCA_000400545.1	GCA_025448095.1	0.066744	Ara macao	Poicephalus senegalus	64.077
 GCA_000400545.1	GCA_025448155.1	0.070614	Ara macao	Cacatua ducorpsii	81.521
 GCA_000400545.1	GCA_025629865.1	0.015794	Ara macao	Cyanoliseus patagonus	20.61
+GCA_000400545.1	GCA_025629885.1	0.069973	Ara macao	Lorius chlorocercus	77.635
 GCA_000400545.1	GCA_025629905.1	0.071259	Ara macao	Lorius lory	77.635
 GCA_000400545.1	GCA_025629925.1	0.070482	Ara macao	Platycercus adscitus	77.635
 GCA_000400545.1	GCA_025629965.1	0.072389	Ara macao	Cyanoramphus novaezelandiae	77.635
@@ -397,6 +404,7 @@ GCA_000400545.1	GCA_026283615.1	0.052085	Ara macao	Amazona vinacea	50.04
 GCA_000400545.1	GCA_026283635.1	0.015534	Ara macao	Ara macao	0
 GCA_000400545.1	GCA_026283665.1	0.053289	Ara macao	Amazona leucocephala	50.04
 GCA_000400545.1	GCA_026283685.1	0.052847	Ara macao	Amazona aestiva	50.04
+GCA_000400545.1	GCA_026283705.1	0.014433	Ara macao	Psittacara chloropterus	19.601
 GCA_000400545.1	GCA_026283725.1	0.0091505	Ara macao	Ara rubrogenys	13.39
 GCA_000400545.1	GCA_026283745.1	0.014392	Ara macao	Eupsittula aurea	19.601
 GCA_000400545.1	GCA_026283765.1	0.071326	Ara macao	Psephotus haematonotus	77.635
@@ -465,6 +473,7 @@ GCA_000400545.1	GCA_035222285.1	0.079038	Ara macao	Agapornis lilianae	77.635
 GCA_000400545.1	GCA_035583095.1	0.071346	Ara macao	Cacatua galerita	81.521
 GCA_000400545.1	GCA_036873685.1	0.080551	Ara macao	Agapornis canus	77.635
 GCA_000400545.1	GCA_037157495.1	0.071765	Ara macao	Lathamus discolor	77.635
+GCA_000400545.1	GCA_037157625.1	0.073128	Ara macao	Lathamus discolor	77.635
 GCA_000400545.1	GCA_038381815.1	0.018579	Ara macao	Anodorhynchus leari	20.274
 GCA_000400545.1	GCA_038406155.1	0.024967	Ara macao	Pyrrhura leucotis	26.18
 GCA_000400545.1	GCA_039720425.1	0.05351	Ara macao	Amazona ochrocephala	50.04
@@ -559,6 +568,7 @@ GCA_000400695.1	GCA_025448075.1	0.077313	Ara macao	Melopsittacus undulatus	77.63
 GCA_000400695.1	GCA_025448095.1	0.068181	Ara macao	Poicephalus senegalus	64.077
 GCA_000400695.1	GCA_025448155.1	0.072113	Ara macao	Cacatua ducorpsii	81.521
 GCA_000400695.1	GCA_025629865.1	0.017101	Ara macao	Cyanoliseus patagonus	20.61
+GCA_000400695.1	GCA_025629885.1	0.070898	Ara macao	Lorius chlorocercus	77.635
 GCA_000400695.1	GCA_025629905.1	0.072347	Ara macao	Lorius lory	77.635
 GCA_000400695.1	GCA_025629925.1	0.071745	Ara macao	Platycercus adscitus	77.635
 GCA_000400695.1	GCA_025629965.1	0.073404	Ara macao	Cyanoramphus novaezelandiae	77.635
@@ -566,6 +576,7 @@ GCA_000400695.1	GCA_026283615.1	0.053334	Ara macao	Amazona vinacea	50.04
 GCA_000400695.1	GCA_026283635.1	0.01669	Ara macao	Ara macao	0
 GCA_000400695.1	GCA_026283665.1	0.054553	Ara macao	Amazona leucocephala	50.04
 GCA_000400695.1	GCA_026283685.1	0.054229	Ara macao	Amazona aestiva	50.04
+GCA_000400695.1	GCA_026283705.1	0.01587	Ara macao	Psittacara chloropterus	19.601
 GCA_000400695.1	GCA_026283725.1	0.010705	Ara macao	Ara rubrogenys	13.39
 GCA_000400695.1	GCA_026283745.1	0.015766	Ara macao	Eupsittula aurea	19.601
 GCA_000400695.1	GCA_026283765.1	0.072548	Ara macao	Psephotus haematonotus	77.635
@@ -634,6 +645,7 @@ GCA_000400695.1	GCA_035222285.1	0.080475	Ara macao	Agapornis lilianae	77.635
 GCA_000400695.1	GCA_035583095.1	0.072715	Ara macao	Cacatua galerita	81.521
 GCA_000400695.1	GCA_036873685.1	0.081684	Ara macao	Agapornis canus	77.635
 GCA_000400695.1	GCA_037157495.1	0.07289	Ara macao	Lathamus discolor	77.635
+GCA_000400695.1	GCA_037157625.1	0.074048	Ara macao	Lathamus discolor	77.635
 GCA_000400695.1	GCA_038381815.1	0.019788	Ara macao	Anodorhynchus leari	20.274
 GCA_000400695.1	GCA_038406155.1	0.026368	Ara macao	Pyrrhura leucotis	26.18
 GCA_000400695.1	GCA_039720425.1	0.054625	Ara macao	Amazona ochrocephala	50.04
@@ -727,6 +739,7 @@ GCA_000696875.1	GCA_025448075.1	0.09363	Nestor notabilis	Melopsittacus undulatus
 GCA_000696875.1	GCA_025448095.1	0.092607	Nestor notabilis	Poicephalus senegalus	93.605
 GCA_000696875.1	GCA_025448155.1	0.0815	Nestor notabilis	Cacatua ducorpsii	93.605
 GCA_000696875.1	GCA_025629865.1	0.090503	Nestor notabilis	Cyanoliseus patagonus	93.605
+GCA_000696875.1	GCA_025629885.1	0.089586	Nestor notabilis	Lorius chlorocercus	93.605
 GCA_000696875.1	GCA_025629905.1	0.09103	Nestor notabilis	Lorius lory	93.605
 GCA_000696875.1	GCA_025629925.1	0.089704	Nestor notabilis	Platycercus adscitus	93.605
 GCA_000696875.1	GCA_025629965.1	0.090351	Nestor notabilis	Cyanoramphus novaezelandiae	93.605
@@ -734,6 +747,7 @@ GCA_000696875.1	GCA_026283615.1	0.092321	Nestor notabilis	Amazona vinacea	93.605
 GCA_000696875.1	GCA_026283635.1	0.097902	Nestor notabilis	Ara macao	93.605
 GCA_000696875.1	GCA_026283665.1	0.09308	Nestor notabilis	Amazona leucocephala	93.605
 GCA_000696875.1	GCA_026283685.1	0.093759	Nestor notabilis	Amazona aestiva	93.605
+GCA_000696875.1	GCA_026283705.1	0.091374	Nestor notabilis	Psittacara chloropterus	93.605
 GCA_000696875.1	GCA_026283725.1	0.091341	Nestor notabilis	Ara rubrogenys	93.605
 GCA_000696875.1	GCA_026283745.1	0.091676	Nestor notabilis	Eupsittula aurea	93.605
 GCA_000696875.1	GCA_026283765.1	0.090274	Nestor notabilis	Psephotus haematonotus	93.605
@@ -802,6 +816,7 @@ GCA_000696875.1	GCA_035222285.1	0.097114	Nestor notabilis	Agapornis lilianae	93.
 GCA_000696875.1	GCA_035583095.1	0.081483	Nestor notabilis	Cacatua galerita	93.605
 GCA_000696875.1	GCA_036873685.1	0.09759	Nestor notabilis	Agapornis canus	93.605
 GCA_000696875.1	GCA_037157495.1	0.08994	Nestor notabilis	Lathamus discolor	93.605
+GCA_000696875.1	GCA_037157625.1	0.091207	Nestor notabilis	Lathamus discolor	93.605
 GCA_000696875.1	GCA_038381815.1	0.095274	Nestor notabilis	Anodorhynchus leari	93.605
 GCA_000696875.1	GCA_038406155.1	0.096053	Nestor notabilis	Pyrrhura leucotis	93.605
 GCA_000696875.1	GCA_039720425.1	0.093477	Nestor notabilis	Amazona ochrocephala	93.605
@@ -894,6 +909,7 @@ GCA_001420675.1	GCA_025448075.1	0.077684	Amazona aestiva	Melopsittacus undulatus
 GCA_001420675.1	GCA_025448095.1	0.067953	Amazona aestiva	Poicephalus senegalus	64.077
 GCA_001420675.1	GCA_025448155.1	0.072939	Amazona aestiva	Cacatua ducorpsii	81.521
 GCA_001420675.1	GCA_025629865.1	0.051967	Amazona aestiva	Cyanoliseus patagonus	50.04
+GCA_001420675.1	GCA_025629885.1	0.071548	Amazona aestiva	Lorius chlorocercus	77.635
 GCA_001420675.1	GCA_025629905.1	0.072869	Amazona aestiva	Lorius lory	77.635
 GCA_001420675.1	GCA_025629925.1	0.071508	Amazona aestiva	Platycercus adscitus	77.635
 GCA_001420675.1	GCA_025629965.1	0.072701	Amazona aestiva	Cyanoramphus novaezelandiae	77.635
@@ -901,6 +917,7 @@ GCA_001420675.1	GCA_026283615.1	0.0095845	Amazona aestiva	Amazona vinacea	20.474
 GCA_001420675.1	GCA_026283635.1	0.062532	Amazona aestiva	Ara macao	50.04
 GCA_001420675.1	GCA_026283665.1	0.0080629	Amazona aestiva	Amazona leucocephala	20.474
 GCA_001420675.1	GCA_026283685.1	0.0087977	Amazona aestiva	Amazona aestiva	0
+GCA_001420675.1	GCA_026283705.1	0.052819	Amazona aestiva	Psittacara chloropterus	50.04
 GCA_001420675.1	GCA_026283725.1	0.05194	Amazona aestiva	Ara rubrogenys	50.04
 GCA_001420675.1	GCA_026283745.1	0.052944	Amazona aestiva	Eupsittula aurea	50.04
 GCA_001420675.1	GCA_026283765.1	0.072368	Amazona aestiva	Psephotus haematonotus	77.635
@@ -969,6 +986,7 @@ GCA_001420675.1	GCA_035222285.1	0.080086	Amazona aestiva	Agapornis lilianae	77.6
 GCA_001420675.1	GCA_035583095.1	0.073157	Amazona aestiva	Cacatua galerita	81.521
 GCA_001420675.1	GCA_036873685.1	0.081196	Amazona aestiva	Agapornis canus	77.635
 GCA_001420675.1	GCA_037157495.1	0.072416	Amazona aestiva	Lathamus discolor	77.635
+GCA_001420675.1	GCA_037157625.1	0.073933	Amazona aestiva	Lathamus discolor	77.635
 GCA_001420675.1	GCA_038381815.1	0.056496	Amazona aestiva	Anodorhynchus leari	50.04
 GCA_001420675.1	GCA_038406155.1	0.058086	Amazona aestiva	Pyrrhura leucotis	50.04
 GCA_001420675.1	GCA_039720425.1	0.0087539	Amazona aestiva	Amazona ochrocephala	20.474
@@ -1060,6 +1078,7 @@ GCA_002631895.1	GCA_025448075.1	0.070918	Agapornis roseicollis	Melopsittacus und
 GCA_002631895.1	GCA_025448095.1	0.079767	Agapornis roseicollis	Poicephalus senegalus	77.635
 GCA_002631895.1	GCA_025448155.1	0.078826	Agapornis roseicollis	Cacatua ducorpsii	81.521
 GCA_002631895.1	GCA_025629865.1	0.07846	Agapornis roseicollis	Cyanoliseus patagonus	77.635
+GCA_002631895.1	GCA_025629885.1	0.064203	Agapornis roseicollis	Lorius chlorocercus	64.053
 GCA_002631895.1	GCA_025629905.1	0.065728	Agapornis roseicollis	Lorius lory	64.053
 GCA_002631895.1	GCA_025629925.1	0.065154	Agapornis roseicollis	Platycercus adscitus	70.802
 GCA_002631895.1	GCA_025629965.1	0.067319	Agapornis roseicollis	Cyanoramphus novaezelandiae	70.802
@@ -1067,6 +1086,7 @@ GCA_002631895.1	GCA_026283615.1	0.079161	Agapornis roseicollis	Amazona vinacea	7
 GCA_002631895.1	GCA_026283635.1	0.088264	Agapornis roseicollis	Ara macao	77.635
 GCA_002631895.1	GCA_026283665.1	0.080356	Agapornis roseicollis	Amazona leucocephala	77.635
 GCA_002631895.1	GCA_026283685.1	0.08068	Agapornis roseicollis	Amazona aestiva	77.635
+GCA_002631895.1	GCA_026283705.1	0.078557	Agapornis roseicollis	Psittacara chloropterus	77.635
 GCA_002631895.1	GCA_026283725.1	0.078712	Agapornis roseicollis	Ara rubrogenys	77.635
 GCA_002631895.1	GCA_026283745.1	0.079227	Agapornis roseicollis	Eupsittula aurea	77.635
 GCA_002631895.1	GCA_026283765.1	0.066153	Agapornis roseicollis	Psephotus haematonotus	70.802
@@ -1135,6 +1155,7 @@ GCA_002631895.1	GCA_035222285.1	0.0070932	Agapornis roseicollis	Agapornis lilian
 GCA_002631895.1	GCA_035583095.1	0.078785	Agapornis roseicollis	Cacatua galerita	81.521
 GCA_002631895.1	GCA_036873685.1	0.034904	Agapornis roseicollis	Agapornis canus	24.069
 GCA_002631895.1	GCA_037157495.1	0.066347	Agapornis roseicollis	Lathamus discolor	70.802
+GCA_002631895.1	GCA_037157625.1	0.067696	Agapornis roseicollis	Lathamus discolor	70.802
 GCA_002631895.1	GCA_038381815.1	0.082723	Agapornis roseicollis	Anodorhynchus leari	77.635
 GCA_002631895.1	GCA_038406155.1	0.083167	Agapornis roseicollis	Pyrrhura leucotis	77.635
 GCA_002631895.1	GCA_039720425.1	0.080825	Agapornis roseicollis	Amazona ochrocephala	77.635
@@ -1225,6 +1246,7 @@ GCA_002870145.1	GCA_025448075.1	0.065217	Psittacula krameri	Melopsittacus undula
 GCA_002870145.1	GCA_025448095.1	0.069152	Psittacula krameri	Poicephalus senegalus	77.635
 GCA_002870145.1	GCA_025448155.1	0.068206	Psittacula krameri	Cacatua ducorpsii	81.521
 GCA_002870145.1	GCA_025629865.1	0.067036	Psittacula krameri	Cyanoliseus patagonus	77.635
+GCA_002870145.1	GCA_025629885.1	0.058681	Psittacula krameri	Lorius chlorocercus	72.273
 GCA_002870145.1	GCA_025629905.1	0.060605	Psittacula krameri	Lorius lory	72.273
 GCA_002870145.1	GCA_025629925.1	0.05905	Psittacula krameri	Platycercus adscitus	72.273
 GCA_002870145.1	GCA_025629965.1	0.060021	Psittacula krameri	Cyanoramphus novaezelandiae	72.273
@@ -1232,6 +1254,7 @@ GCA_002870145.1	GCA_026283615.1	0.069145	Psittacula krameri	Amazona vinacea	77.6
 GCA_002870145.1	GCA_026283635.1	0.077345	Psittacula krameri	Ara macao	77.635
 GCA_002870145.1	GCA_026283665.1	0.070364	Psittacula krameri	Amazona leucocephala	77.635
 GCA_002870145.1	GCA_026283685.1	0.070719	Psittacula krameri	Amazona aestiva	77.635
+GCA_002870145.1	GCA_026283705.1	0.067629	Psittacula krameri	Psittacara chloropterus	77.635
 GCA_002870145.1	GCA_026283725.1	0.067507	Psittacula krameri	Ara rubrogenys	77.635
 GCA_002870145.1	GCA_026283745.1	0.067769	Psittacula krameri	Eupsittula aurea	77.635
 GCA_002870145.1	GCA_026283765.1	0.059603	Psittacula krameri	Psephotus haematonotus	72.273
@@ -1300,6 +1323,7 @@ GCA_002870145.1	GCA_035222285.1	0.068317	Psittacula krameri	Agapornis lilianae	7
 GCA_002870145.1	GCA_035583095.1	0.067392	Psittacula krameri	Cacatua galerita	81.521
 GCA_002870145.1	GCA_036873685.1	0.069856	Psittacula krameri	Agapornis canus	72.273
 GCA_002870145.1	GCA_037157495.1	0.059423	Psittacula krameri	Lathamus discolor	72.273
+GCA_002870145.1	GCA_037157625.1	0.060999	Psittacula krameri	Lathamus discolor	72.273
 GCA_002870145.1	GCA_038381815.1	0.071353	Psittacula krameri	Anodorhynchus leari	77.635
 GCA_002870145.1	GCA_038406155.1	0.072486	Psittacula krameri	Pyrrhura leucotis	77.635
 GCA_002870145.1	GCA_039720425.1	0.071051	Psittacula krameri	Amazona ochrocephala	77.635
@@ -1389,6 +1413,7 @@ GCA_009823435.2	GCA_025448075.1	0.078058	Nymphicus hollandicus	Melopsittacus und
 GCA_009823435.2	GCA_025448095.1	0.075235	Nymphicus hollandicus	Poicephalus senegalus	81.521
 GCA_009823435.2	GCA_025448155.1	0.038983	Nymphicus hollandicus	Cacatua ducorpsii	73.201
 GCA_009823435.2	GCA_025629865.1	0.074055	Nymphicus hollandicus	Cyanoliseus patagonus	81.521
+GCA_009823435.2	GCA_025629885.1	0.071874	Nymphicus hollandicus	Lorius chlorocercus	81.521
 GCA_009823435.2	GCA_025629905.1	0.07361	Nymphicus hollandicus	Lorius lory	81.521
 GCA_009823435.2	GCA_025629925.1	0.071833	Nymphicus hollandicus	Platycercus adscitus	81.521
 GCA_009823435.2	GCA_025629965.1	0.072841	Nymphicus hollandicus	Cyanoramphus novaezelandiae	81.521
@@ -1396,6 +1421,7 @@ GCA_009823435.2	GCA_026283615.1	0.075146	Nymphicus hollandicus	Amazona vinacea	8
 GCA_009823435.2	GCA_026283635.1	0.083441	Nymphicus hollandicus	Ara macao	81.521
 GCA_009823435.2	GCA_026283665.1	0.076529	Nymphicus hollandicus	Amazona leucocephala	81.521
 GCA_009823435.2	GCA_026283685.1	0.076768	Nymphicus hollandicus	Amazona aestiva	81.521
+GCA_009823435.2	GCA_026283705.1	0.074251	Nymphicus hollandicus	Psittacara chloropterus	81.521
 GCA_009823435.2	GCA_026283725.1	0.07436	Nymphicus hollandicus	Ara rubrogenys	81.521
 GCA_009823435.2	GCA_026283745.1	0.074732	Nymphicus hollandicus	Eupsittula aurea	81.521
 GCA_009823435.2	GCA_026283765.1	0.072995	Nymphicus hollandicus	Psephotus haematonotus	81.521
@@ -1464,6 +1490,7 @@ GCA_009823435.2	GCA_035222285.1	0.081378	Nymphicus hollandicus	Agapornis liliana
 GCA_009823435.2	GCA_035583095.1	0.038277	Nymphicus hollandicus	Cacatua galerita	73.201
 GCA_009823435.2	GCA_036873685.1	0.083058	Nymphicus hollandicus	Agapornis canus	81.521
 GCA_009823435.2	GCA_037157495.1	0.072272	Nymphicus hollandicus	Lathamus discolor	81.521
+GCA_009823435.2	GCA_037157625.1	0.074034	Nymphicus hollandicus	Lathamus discolor	81.521
 GCA_009823435.2	GCA_038381815.1	0.078074	Nymphicus hollandicus	Anodorhynchus leari	81.521
 GCA_009823435.2	GCA_038406155.1	0.07903	Nymphicus hollandicus	Pyrrhura leucotis	81.521
 GCA_009823435.2	GCA_039720425.1	0.07704	Nymphicus hollandicus	Amazona ochrocephala	81.521
@@ -1552,6 +1579,7 @@ GCA_009867195.2	GCA_025448075.1	0.076876	Aratinga solstitialis	Melopsittacus und
 GCA_009867195.2	GCA_025448095.1	0.066785	Aratinga solstitialis	Poicephalus senegalus	64.077
 GCA_009867195.2	GCA_025448155.1	0.071125	Aratinga solstitialis	Cacatua ducorpsii	81.521
 GCA_009867195.2	GCA_025629865.1	0.01678	Aratinga solstitialis	Cyanoliseus patagonus	20.61
+GCA_009867195.2	GCA_025629885.1	0.070051	Aratinga solstitialis	Lorius chlorocercus	77.635
 GCA_009867195.2	GCA_025629905.1	0.071427	Aratinga solstitialis	Lorius lory	77.635
 GCA_009867195.2	GCA_025629925.1	0.070403	Aratinga solstitialis	Platycercus adscitus	77.635
 GCA_009867195.2	GCA_025629965.1	0.072555	Aratinga solstitialis	Cyanoramphus novaezelandiae	77.635
@@ -1559,6 +1587,7 @@ GCA_009867195.2	GCA_026283615.1	0.052494	Aratinga solstitialis	Amazona vinacea	5
 GCA_009867195.2	GCA_026283635.1	0.025461	Aratinga solstitialis	Ara macao	19.265
 GCA_009867195.2	GCA_026283665.1	0.053683	Aratinga solstitialis	Amazona leucocephala	50.04
 GCA_009867195.2	GCA_026283685.1	0.05333	Aratinga solstitialis	Amazona aestiva	50.04
+GCA_009867195.2	GCA_026283705.1	0.01548	Aratinga solstitialis	Psittacara chloropterus	19.601
 GCA_009867195.2	GCA_026283725.1	0.014039	Aratinga solstitialis	Ara rubrogenys	19.265
 GCA_009867195.2	GCA_026283745.1	0.015654	Aratinga solstitialis	Eupsittula aurea	19.601
 GCA_009867195.2	GCA_026283765.1	0.071393	Aratinga solstitialis	Psephotus haematonotus	77.635
@@ -1627,6 +1656,7 @@ GCA_009867195.2	GCA_035222285.1	0.079335	Aratinga solstitialis	Agapornis liliana
 GCA_009867195.2	GCA_035583095.1	0.072182	Aratinga solstitialis	Cacatua galerita	81.521
 GCA_009867195.2	GCA_036873685.1	0.080731	Aratinga solstitialis	Agapornis canus	77.635
 GCA_009867195.2	GCA_037157495.1	0.071976	Aratinga solstitialis	Lathamus discolor	77.635
+GCA_009867195.2	GCA_037157625.1	0.073582	Aratinga solstitialis	Lathamus discolor	77.635
 GCA_009867195.2	GCA_038381815.1	0.019964	Aratinga solstitialis	Anodorhynchus leari	20.274
 GCA_009867195.2	GCA_038406155.1	0.026053	Aratinga solstitialis	Pyrrhura leucotis	26.18
 GCA_009867195.2	GCA_039720425.1	0.054304	Aratinga solstitialis	Amazona ochrocephala	50.04
@@ -1714,6 +1744,7 @@ GCA_009867235.2	GCA_025448075.1	0.077125	Psittacus erithacus	Melopsittacus undul
 GCA_009867235.2	GCA_025448095.1	0.019092	Psittacus erithacus	Poicephalus senegalus	48.225
 GCA_009867235.2	GCA_025448155.1	0.072162	Psittacus erithacus	Cacatua ducorpsii	81.521
 GCA_009867235.2	GCA_025629865.1	0.066019	Psittacus erithacus	Cyanoliseus patagonus	64.077
+GCA_009867235.2	GCA_025629885.1	0.071575	Psittacus erithacus	Lorius chlorocercus	77.635
 GCA_009867235.2	GCA_025629905.1	0.072967	Psittacus erithacus	Lorius lory	77.635
 GCA_009867235.2	GCA_025629925.1	0.070746	Psittacus erithacus	Platycercus adscitus	77.635
 GCA_009867235.2	GCA_025629965.1	0.072396	Psittacus erithacus	Cyanoramphus novaezelandiae	77.635
@@ -1721,6 +1752,7 @@ GCA_009867235.2	GCA_026283615.1	0.067531	Psittacus erithacus	Amazona vinacea	64.
 GCA_009867235.2	GCA_026283635.1	0.076567	Psittacus erithacus	Ara macao	64.077
 GCA_009867235.2	GCA_026283665.1	0.068974	Psittacus erithacus	Amazona leucocephala	64.077
 GCA_009867235.2	GCA_026283685.1	0.069528	Psittacus erithacus	Amazona aestiva	64.077
+GCA_009867235.2	GCA_026283705.1	0.06656	Psittacus erithacus	Psittacara chloropterus	64.077
 GCA_009867235.2	GCA_026283725.1	0.066495	Psittacus erithacus	Ara rubrogenys	64.077
 GCA_009867235.2	GCA_026283745.1	0.066785	Psittacus erithacus	Eupsittula aurea	64.077
 GCA_009867235.2	GCA_026283765.1	0.071339	Psittacus erithacus	Psephotus haematonotus	77.635
@@ -1789,6 +1821,7 @@ GCA_009867235.2	GCA_035222285.1	0.080432	Psittacus erithacus	Agapornis lilianae	
 GCA_009867235.2	GCA_035583095.1	0.072086	Psittacus erithacus	Cacatua galerita	81.521
 GCA_009867235.2	GCA_036873685.1	0.080774	Psittacus erithacus	Agapornis canus	77.635
 GCA_009867235.2	GCA_037157495.1	0.07146	Psittacus erithacus	Lathamus discolor	77.635
+GCA_009867235.2	GCA_037157625.1	0.072876	Psittacus erithacus	Lathamus discolor	77.635
 GCA_009867235.2	GCA_038381815.1	0.070792	Psittacus erithacus	Anodorhynchus leari	64.077
 GCA_009867235.2	GCA_038406155.1	0.071487	Psittacus erithacus	Pyrrhura leucotis	64.077
 GCA_009867235.2	GCA_039720425.1	0.069063	Psittacus erithacus	Amazona ochrocephala	64.077
@@ -1875,6 +1908,7 @@ GCA_009867315.2	GCA_025448075.1	0.076993	Psittacus timneh	Melopsittacus undulatu
 GCA_009867315.2	GCA_025448095.1	0.019044	Psittacus timneh	Poicephalus senegalus	48.225
 GCA_009867315.2	GCA_025448155.1	0.072155	Psittacus timneh	Cacatua ducorpsii	81.521
 GCA_009867315.2	GCA_025629865.1	0.065885	Psittacus timneh	Cyanoliseus patagonus	64.077
+GCA_009867315.2	GCA_025629885.1	0.071299	Psittacus timneh	Lorius chlorocercus	77.635
 GCA_009867315.2	GCA_025629905.1	0.072673	Psittacus timneh	Lorius lory	77.635
 GCA_009867315.2	GCA_025629925.1	0.070594	Psittacus timneh	Platycercus adscitus	77.635
 GCA_009867315.2	GCA_025629965.1	0.072223	Psittacus timneh	Cyanoramphus novaezelandiae	77.635
@@ -1882,6 +1916,7 @@ GCA_009867315.2	GCA_026283615.1	0.067362	Psittacus timneh	Amazona vinacea	64.077
 GCA_009867315.2	GCA_026283635.1	0.076276	Psittacus timneh	Ara macao	64.077
 GCA_009867315.2	GCA_026283665.1	0.068867	Psittacus timneh	Amazona leucocephala	64.077
 GCA_009867315.2	GCA_026283685.1	0.069432	Psittacus timneh	Amazona aestiva	64.077
+GCA_009867315.2	GCA_026283705.1	0.066483	Psittacus timneh	Psittacara chloropterus	64.077
 GCA_009867315.2	GCA_026283725.1	0.066371	Psittacus timneh	Ara rubrogenys	64.077
 GCA_009867315.2	GCA_026283745.1	0.06656	Psittacus timneh	Eupsittula aurea	64.077
 GCA_009867315.2	GCA_026283765.1	0.071198	Psittacus timneh	Psephotus haematonotus	77.635
@@ -1950,6 +1985,7 @@ GCA_009867315.2	GCA_035222285.1	0.080187	Psittacus timneh	Agapornis lilianae	77.
 GCA_009867315.2	GCA_035583095.1	0.072059	Psittacus timneh	Cacatua galerita	81.521
 GCA_009867315.2	GCA_036873685.1	0.080611	Psittacus timneh	Agapornis canus	77.635
 GCA_009867315.2	GCA_037157495.1	0.071313	Psittacus timneh	Lathamus discolor	77.635
+GCA_009867315.2	GCA_037157625.1	0.072729	Psittacus timneh	Lathamus discolor	77.635
 GCA_009867315.2	GCA_038381815.1	0.070594	Psittacus timneh	Anodorhynchus leari	64.077
 GCA_009867315.2	GCA_038406155.1	0.071306	Psittacus timneh	Pyrrhura leucotis	64.077
 GCA_009867315.2	GCA_039720425.1	0.069012	Psittacus timneh	Amazona ochrocephala	64.077
@@ -2035,6 +2071,7 @@ GCA_010014725.2	GCA_025448075.1	0.078679	Ara chloropterus	Melopsittacus undulatu
 GCA_010014725.2	GCA_025448095.1	0.069496	Ara chloropterus	Poicephalus senegalus	64.077
 GCA_010014725.2	GCA_025448155.1	0.073114	Ara chloropterus	Cacatua ducorpsii	81.521
 GCA_010014725.2	GCA_025629865.1	0.018422	Ara chloropterus	Cyanoliseus patagonus	20.61
+GCA_010014725.2	GCA_025629885.1	0.07241	Ara chloropterus	Lorius chlorocercus	77.635
 GCA_010014725.2	GCA_025629905.1	0.07394	Ara chloropterus	Lorius lory	77.635
 GCA_010014725.2	GCA_025629925.1	0.072848	Ara chloropterus	Platycercus adscitus	77.635
 GCA_010014725.2	GCA_025629965.1	0.074542	Ara chloropterus	Cyanoramphus novaezelandiae	77.635
@@ -2042,6 +2079,7 @@ GCA_010014725.2	GCA_026283615.1	0.054494	Ara chloropterus	Amazona vinacea	50.04
 GCA_010014725.2	GCA_026283635.1	0.018737	Ara chloropterus	Ara macao	9.2927
 GCA_010014725.2	GCA_026283665.1	0.055721	Ara chloropterus	Amazona leucocephala	50.04
 GCA_010014725.2	GCA_026283685.1	0.05552	Ara chloropterus	Amazona aestiva	50.04
+GCA_010014725.2	GCA_026283705.1	0.017208	Ara chloropterus	Psittacara chloropterus	19.601
 GCA_010014725.2	GCA_026283725.1	0.011859	Ara chloropterus	Ara rubrogenys	13.39
 GCA_010014725.2	GCA_026283745.1	0.017143	Ara chloropterus	Eupsittula aurea	19.601
 GCA_010014725.2	GCA_026283765.1	0.07361	Ara chloropterus	Psephotus haematonotus	77.635
@@ -2110,6 +2148,7 @@ GCA_010014725.2	GCA_035222285.1	0.081395	Ara chloropterus	Agapornis lilianae	77.
 GCA_010014725.2	GCA_035583095.1	0.073818	Ara chloropterus	Cacatua galerita	81.521
 GCA_010014725.2	GCA_036873685.1	0.083085	Ara chloropterus	Agapornis canus	77.635
 GCA_010014725.2	GCA_037157495.1	0.074041	Ara chloropterus	Lathamus discolor	77.635
+GCA_010014725.2	GCA_037157625.1	0.074666	Ara chloropterus	Lathamus discolor	77.635
 GCA_010014725.2	GCA_038381815.1	0.020949	Ara chloropterus	Anodorhynchus leari	20.274
 GCA_010014725.2	GCA_038406155.1	0.027831	Ara chloropterus	Pyrrhura leucotis	26.18
 GCA_010014725.2	GCA_039720425.1	0.055199	Ara chloropterus	Amazona ochrocephala	50.04
@@ -2194,6 +2233,7 @@ GCA_010014805.2	GCA_025448075.1	0.076314	Ara ararauna	Melopsittacus undulatus	77
 GCA_010014805.2	GCA_025448095.1	0.066643	Ara ararauna	Poicephalus senegalus	64.077
 GCA_010014805.2	GCA_025448155.1	0.070653	Ara ararauna	Cacatua ducorpsii	81.521
 GCA_010014805.2	GCA_025629865.1	0.015158	Ara ararauna	Cyanoliseus patagonus	20.61
+GCA_010014805.2	GCA_025629885.1	0.069643	Ara ararauna	Lorius chlorocercus	77.635
 GCA_010014805.2	GCA_025629905.1	0.071065	Ara ararauna	Lorius lory	77.635
 GCA_010014805.2	GCA_025629925.1	0.069999	Ara ararauna	Platycercus adscitus	77.635
 GCA_010014805.2	GCA_025629965.1	0.071833	Ara ararauna	Cyanoramphus novaezelandiae	77.635
@@ -2201,6 +2241,7 @@ GCA_010014805.2	GCA_026283615.1	0.051631	Ara ararauna	Amazona vinacea	50.04
 GCA_010014805.2	GCA_026283635.1	0.020122	Ara ararauna	Ara macao	10.004
 GCA_010014805.2	GCA_026283665.1	0.052911	Ara ararauna	Amazona leucocephala	50.04
 GCA_010014805.2	GCA_026283685.1	0.052598	Ara ararauna	Amazona aestiva	50.04
+GCA_010014805.2	GCA_026283705.1	0.014066	Ara ararauna	Psittacara chloropterus	19.601
 GCA_010014805.2	GCA_026283725.1	0.0083177	Ara ararauna	Ara rubrogenys	13.39
 GCA_010014805.2	GCA_026283745.1	0.014095	Ara ararauna	Eupsittula aurea	19.601
 GCA_010014805.2	GCA_026283765.1	0.070892	Ara ararauna	Psephotus haematonotus	77.635
@@ -2269,6 +2310,7 @@ GCA_010014805.2	GCA_035222285.1	0.078728	Ara ararauna	Agapornis lilianae	77.635
 GCA_010014805.2	GCA_035583095.1	0.071724	Ara ararauna	Cacatua galerita	81.521
 GCA_010014805.2	GCA_036873685.1	0.080271	Ara ararauna	Agapornis canus	77.635
 GCA_010014805.2	GCA_037157495.1	0.071185	Ara ararauna	Lathamus discolor	77.635
+GCA_010014805.2	GCA_037157625.1	0.072841	Ara ararauna	Lathamus discolor	77.635
 GCA_010014805.2	GCA_038381815.1	0.018477	Ara ararauna	Anodorhynchus leari	20.274
 GCA_010014805.2	GCA_038406155.1	0.024628	Ara ararauna	Pyrrhura leucotis	26.18
 GCA_010014805.2	GCA_039720425.1	0.053436	Ara ararauna	Amazona ochrocephala	50.04
@@ -2352,6 +2394,7 @@ GCA_010014925.2	GCA_025448075.1	0.038025	Lorius garrulus	Melopsittacus undulatus
 GCA_010014925.2	GCA_025448095.1	0.071514	Lorius garrulus	Poicephalus senegalus	77.635
 GCA_010014925.2	GCA_025448155.1	0.070109	Lorius garrulus	Cacatua ducorpsii	81.521
 GCA_010014925.2	GCA_025629865.1	0.069515	Lorius garrulus	Cyanoliseus patagonus	77.635
+GCA_010014925.2	GCA_025629885.1	0.0063138	Lorius garrulus	Lorius chlorocercus	9.0064
 GCA_010014925.2	GCA_025629905.1	0.01141	Lorius garrulus	Lorius lory	7.8782
 GCA_010014925.2	GCA_025629925.1	0.056362	Lorius garrulus	Platycercus adscitus	70.802
 GCA_010014925.2	GCA_025629965.1	0.058429	Lorius garrulus	Cyanoramphus novaezelandiae	70.802
@@ -2359,6 +2402,7 @@ GCA_010014925.2	GCA_026283615.1	0.071265	Lorius garrulus	Amazona vinacea	77.635
 GCA_010014925.2	GCA_026283635.1	0.079717	Lorius garrulus	Ara macao	77.635
 GCA_010014925.2	GCA_026283665.1	0.072652	Lorius garrulus	Amazona leucocephala	77.635
 GCA_010014925.2	GCA_026283685.1	0.07322	Lorius garrulus	Amazona aestiva	77.635
+GCA_010014925.2	GCA_026283705.1	0.070298	Lorius garrulus	Psittacara chloropterus	77.635
 GCA_010014925.2	GCA_026283725.1	0.070122	Lorius garrulus	Ara rubrogenys	77.635
 GCA_010014925.2	GCA_026283745.1	0.070587	Lorius garrulus	Eupsittula aurea	77.635
 GCA_010014925.2	GCA_026283765.1	0.057422	Lorius garrulus	Psephotus haematonotus	70.802
@@ -2427,6 +2471,7 @@ GCA_010014925.2	GCA_035222285.1	0.064544	Lorius garrulus	Agapornis lilianae	64.0
 GCA_010014925.2	GCA_035583095.1	0.069927	Lorius garrulus	Cacatua galerita	81.521
 GCA_010014925.2	GCA_036873685.1	0.066083	Lorius garrulus	Agapornis canus	64.053
 GCA_010014925.2	GCA_037157495.1	0.057699	Lorius garrulus	Lathamus discolor	70.802
+GCA_010014925.2	GCA_037157625.1	0.059369	Lorius garrulus	Lathamus discolor	70.802
 GCA_010014925.2	GCA_038381815.1	0.073947	Lorius garrulus	Anodorhynchus leari	77.635
 GCA_010014925.2	GCA_038406155.1	0.075324	Lorius garrulus	Pyrrhura leucotis	77.635
 GCA_010014925.2	GCA_039720425.1	0.07322	Lorius garrulus	Amazona ochrocephala	77.635
@@ -2509,6 +2554,7 @@ GCA_010014965.2	GCA_025448075.1	0.078533	Pyrrhura griseipectus	Melopsittacus und
 GCA_010014965.2	GCA_025448095.1	0.069	Pyrrhura griseipectus	Poicephalus senegalus	64.077
 GCA_010014965.2	GCA_025448155.1	0.073142	Pyrrhura griseipectus	Cacatua ducorpsii	81.521
 GCA_010014965.2	GCA_025629865.1	0.021928	Pyrrhura griseipectus	Cyanoliseus patagonus	26.18
+GCA_010014965.2	GCA_025629885.1	0.072292	Pyrrhura griseipectus	Lorius chlorocercus	77.635
 GCA_010014965.2	GCA_025629905.1	0.073789	Pyrrhura griseipectus	Lorius lory	77.635
 GCA_010014965.2	GCA_025629925.1	0.072251	Pyrrhura griseipectus	Platycercus adscitus	77.635
 GCA_010014965.2	GCA_025629965.1	0.074164	Pyrrhura griseipectus	Cyanoramphus novaezelandiae	77.635
@@ -2516,6 +2562,7 @@ GCA_010014965.2	GCA_026283615.1	0.054642	Pyrrhura griseipectus	Amazona vinacea	5
 GCA_010014965.2	GCA_026283635.1	0.033451	Pyrrhura griseipectus	Ara macao	26.18
 GCA_010014965.2	GCA_026283665.1	0.055502	Pyrrhura griseipectus	Amazona leucocephala	50.04
 GCA_010014965.2	GCA_026283685.1	0.055372	Pyrrhura griseipectus	Amazona aestiva	50.04
+GCA_010014965.2	GCA_026283705.1	0.022358	Pyrrhura griseipectus	Psittacara chloropterus	26.18
 GCA_010014965.2	GCA_026283725.1	0.021875	Pyrrhura griseipectus	Ara rubrogenys	26.18
 GCA_010014965.2	GCA_026283745.1	0.022654	Pyrrhura griseipectus	Eupsittula aurea	26.18
 GCA_010014965.2	GCA_026283765.1	0.072841	Pyrrhura griseipectus	Psephotus haematonotus	77.635
@@ -2584,6 +2631,7 @@ GCA_010014965.2	GCA_035222285.1	0.080902	Pyrrhura griseipectus	Agapornis liliana
 GCA_010014965.2	GCA_035583095.1	0.073696	Pyrrhura griseipectus	Cacatua galerita	81.521
 GCA_010014965.2	GCA_036873685.1	0.082633	Pyrrhura griseipectus	Agapornis canus	77.635
 GCA_010014965.2	GCA_037157495.1	0.073347	Pyrrhura griseipectus	Lathamus discolor	77.635
+GCA_010014965.2	GCA_037157625.1	0.074902	Pyrrhura griseipectus	Lathamus discolor	77.635
 GCA_010014965.2	GCA_038381815.1	0.026364	Pyrrhura griseipectus	Anodorhynchus leari	26.18
 GCA_010014965.2	GCA_038406155.1	0.0064352	Pyrrhura griseipectus	Pyrrhura leucotis	0.93463
 GCA_010014965.2	GCA_039720425.1	0.056051	Pyrrhura griseipectus	Amazona ochrocephala	50.04
@@ -2665,6 +2713,7 @@ GCA_010015045.2	GCA_025448075.1	0.077471	Cacatua leadbeateri	Melopsittacus undul
 GCA_010015045.2	GCA_025448095.1	0.073883	Cacatua leadbeateri	Poicephalus senegalus	81.521
 GCA_010015045.2	GCA_025448155.1	0.014628	Cacatua leadbeateri	Cacatua ducorpsii	39.92
 GCA_010015045.2	GCA_025629865.1	0.072729	Cacatua leadbeateri	Cyanoliseus patagonus	81.521
+GCA_010015045.2	GCA_025629885.1	0.071528	Cacatua leadbeateri	Lorius chlorocercus	81.521
 GCA_010015045.2	GCA_025629905.1	0.07252	Cacatua leadbeateri	Lorius lory	81.521
 GCA_010015045.2	GCA_025629925.1	0.070845	Cacatua leadbeateri	Platycercus adscitus	81.521
 GCA_010015045.2	GCA_025629965.1	0.072368	Cacatua leadbeateri	Cyanoramphus novaezelandiae	81.521
@@ -2672,6 +2721,7 @@ GCA_010015045.2	GCA_026283615.1	0.074258	Cacatua leadbeateri	Amazona vinacea	81.
 GCA_010015045.2	GCA_026283635.1	0.081457	Cacatua leadbeateri	Ara macao	81.521
 GCA_010015045.2	GCA_026283665.1	0.075146	Cacatua leadbeateri	Amazona leucocephala	81.521
 GCA_010015045.2	GCA_026283685.1	0.075933	Cacatua leadbeateri	Amazona aestiva	81.521
+GCA_010015045.2	GCA_026283705.1	0.073418	Cacatua leadbeateri	Psittacara chloropterus	81.521
 GCA_010015045.2	GCA_026283725.1	0.073596	Cacatua leadbeateri	Ara rubrogenys	81.521
 GCA_010015045.2	GCA_026283745.1	0.074048	Cacatua leadbeateri	Eupsittula aurea	81.521
 GCA_010015045.2	GCA_026283765.1	0.072562	Cacatua leadbeateri	Psephotus haematonotus	81.521
@@ -2740,6 +2790,7 @@ GCA_010015045.2	GCA_035222285.1	0.080263	Cacatua leadbeateri	Agapornis lilianae	
 GCA_010015045.2	GCA_035583095.1	0.014182	Cacatua leadbeateri	Cacatua galerita	39.92
 GCA_010015045.2	GCA_036873685.1	0.08193	Cacatua leadbeateri	Agapornis canus	81.521
 GCA_010015045.2	GCA_037157495.1	0.072175	Cacatua leadbeateri	Lathamus discolor	81.521
+GCA_010015045.2	GCA_037157625.1	0.073582	Cacatua leadbeateri	Lathamus discolor	81.521
 GCA_010015045.2	GCA_038381815.1	0.07718	Cacatua leadbeateri	Anodorhynchus leari	81.521
 GCA_010015045.2	GCA_038406155.1	0.07813	Cacatua leadbeateri	Pyrrhura leucotis	81.521
 GCA_010015045.2	GCA_039720425.1	0.075911	Cacatua leadbeateri	Amazona ochrocephala	81.521
@@ -2820,6 +2871,7 @@ GCA_010015965.3	GCA_025448075.1	0.077851	Ara militaris	Melopsittacus undulatus	7
 GCA_010015965.3	GCA_025448095.1	0.068243	Ara militaris	Poicephalus senegalus	64.077
 GCA_010015965.3	GCA_025448155.1	0.072134	Ara militaris	Cacatua ducorpsii	81.521
 GCA_010015965.3	GCA_025629865.1	0.017415	Ara militaris	Cyanoliseus patagonus	20.61
+GCA_010015965.3	GCA_025629885.1	0.071299	Ara militaris	Lorius chlorocercus	77.635
 GCA_010015965.3	GCA_025629905.1	0.072687	Ara militaris	Lorius lory	77.635
 GCA_010015965.3	GCA_025629925.1	0.071895	Ara militaris	Platycercus adscitus	77.635
 GCA_010015965.3	GCA_025629965.1	0.07361	Ara militaris	Cyanoramphus novaezelandiae	77.635
@@ -2827,6 +2879,7 @@ GCA_010015965.3	GCA_026283615.1	0.053766	Ara militaris	Amazona vinacea	50.04
 GCA_010015965.3	GCA_026283635.1	0.017781	Ara militaris	Ara macao	13.39
 GCA_010015965.3	GCA_026283665.1	0.054877	Ara militaris	Amazona leucocephala	50.04
 GCA_010015965.3	GCA_026283685.1	0.054409	Ara militaris	Amazona aestiva	50.04
+GCA_010015965.3	GCA_026283705.1	0.016	Ara militaris	Psittacara chloropterus	19.601
 GCA_010015965.3	GCA_026283725.1	0.010656	Ara militaris	Ara rubrogenys	13.39
 GCA_010015965.3	GCA_026283745.1	0.016027	Ara militaris	Eupsittula aurea	19.601
 GCA_010015965.3	GCA_026283765.1	0.07296	Ara militaris	Psephotus haematonotus	77.635
@@ -2895,6 +2948,7 @@ GCA_010015965.3	GCA_035222285.1	0.08056	Ara militaris	Agapornis lilianae	77.635
 GCA_010015965.3	GCA_035583095.1	0.072862	Ara militaris	Cacatua galerita	81.521
 GCA_010015965.3	GCA_036873685.1	0.081868	Ara militaris	Agapornis canus	77.635
 GCA_010015965.3	GCA_037157495.1	0.073093	Ara militaris	Lathamus discolor	77.635
+GCA_010015965.3	GCA_037157625.1	0.073904	Ara militaris	Lathamus discolor	77.635
 GCA_010015965.3	GCA_038381815.1	0.019817	Ara militaris	Anodorhynchus leari	20.274
 GCA_010015965.3	GCA_038406155.1	0.026535	Ara militaris	Pyrrhura leucotis	26.18
 GCA_010015965.3	GCA_039720425.1	0.054613	Ara militaris	Amazona ochrocephala	50.04
@@ -2974,6 +3028,7 @@ GCA_011317185.2	GCA_025448075.1	0.077071	Eupsittula pertinax	Melopsittacus undul
 GCA_011317185.2	GCA_025448095.1	0.067471	Eupsittula pertinax	Poicephalus senegalus	64.077
 GCA_011317185.2	GCA_025448155.1	0.071792	Eupsittula pertinax	Cacatua ducorpsii	81.521
 GCA_011317185.2	GCA_025629865.1	0.016918	Eupsittula pertinax	Cyanoliseus patagonus	20.61
+GCA_011317185.2	GCA_025629885.1	0.070752	Eupsittula pertinax	Lorius chlorocercus	77.635
 GCA_011317185.2	GCA_025629905.1	0.072052	Eupsittula pertinax	Lorius lory	77.635
 GCA_011317185.2	GCA_025629925.1	0.070568	Eupsittula pertinax	Platycercus adscitus	77.635
 GCA_011317185.2	GCA_025629965.1	0.072479	Eupsittula pertinax	Cyanoramphus novaezelandiae	77.635
@@ -2981,6 +3036,7 @@ GCA_011317185.2	GCA_026283615.1	0.053053	Eupsittula pertinax	Amazona vinacea	50.
 GCA_011317185.2	GCA_026283635.1	0.026272	Eupsittula pertinax	Ara macao	19.601
 GCA_011317185.2	GCA_026283665.1	0.054216	Eupsittula pertinax	Amazona leucocephala	50.04
 GCA_011317185.2	GCA_026283685.1	0.053961	Eupsittula pertinax	Amazona aestiva	50.04
+GCA_011317185.2	GCA_026283705.1	0.015862	Eupsittula pertinax	Psittacara chloropterus	11.156
 GCA_011317185.2	GCA_026283725.1	0.015272	Eupsittula pertinax	Ara rubrogenys	19.601
 GCA_011317185.2	GCA_026283745.1	0.0080087	Eupsittula pertinax	Eupsittula aurea	9.5556
 GCA_011317185.2	GCA_026283765.1	0.071596	Eupsittula pertinax	Psephotus haematonotus	77.635
@@ -3049,6 +3105,7 @@ GCA_011317185.2	GCA_035222285.1	0.079708	Eupsittula pertinax	Agapornis lilianae	
 GCA_011317185.2	GCA_035583095.1	0.072869	Eupsittula pertinax	Cacatua galerita	81.521
 GCA_011317185.2	GCA_036873685.1	0.08104	Eupsittula pertinax	Agapornis canus	77.635
 GCA_011317185.2	GCA_037157495.1	0.07186	Eupsittula pertinax	Lathamus discolor	77.635
+GCA_011317185.2	GCA_037157625.1	0.073532	Eupsittula pertinax	Lathamus discolor	77.635
 GCA_011317185.2	GCA_038381815.1	0.02021	Eupsittula pertinax	Anodorhynchus leari	20.274
 GCA_011317185.2	GCA_038406155.1	0.026315	Eupsittula pertinax	Pyrrhura leucotis	26.18
 GCA_011317185.2	GCA_039720425.1	0.054967	Eupsittula pertinax	Amazona ochrocephala	50.04
@@ -3127,6 +3184,7 @@ GCA_011800095.2	GCA_025448075.1	0.076567	Guaruba guarouba	Melopsittacus undulatu
 GCA_011800095.2	GCA_025448095.1	0.066982	Guaruba guarouba	Poicephalus senegalus	64.077
 GCA_011800095.2	GCA_025448155.1	0.071145	Guaruba guarouba	Cacatua ducorpsii	81.521
 GCA_011800095.2	GCA_025629865.1	0.016318	Guaruba guarouba	Cyanoliseus patagonus	20.61
+GCA_011800095.2	GCA_025629885.1	0.070129	Guaruba guarouba	Lorius chlorocercus	77.635
 GCA_011800095.2	GCA_025629905.1	0.07165	Guaruba guarouba	Lorius lory	77.635
 GCA_011800095.2	GCA_025629925.1	0.070554	Guaruba guarouba	Platycercus adscitus	77.635
 GCA_011800095.2	GCA_025629965.1	0.072458	Guaruba guarouba	Cyanoramphus novaezelandiae	77.635
@@ -3134,6 +3192,7 @@ GCA_011800095.2	GCA_026283615.1	0.052786	Guaruba guarouba	Amazona vinacea	50.04
 GCA_011800095.2	GCA_026283635.1	0.026085	Guaruba guarouba	Ara macao	19.937
 GCA_011800095.2	GCA_026283665.1	0.053679	Guaruba guarouba	Amazona leucocephala	50.04
 GCA_011800095.2	GCA_026283685.1	0.052964	Guaruba guarouba	Amazona aestiva	50.04
+GCA_011800095.2	GCA_026283705.1	0.013628	Guaruba guarouba	Psittacara chloropterus	19.937
 GCA_011800095.2	GCA_026283725.1	0.014336	Guaruba guarouba	Ara rubrogenys	19.937
 GCA_011800095.2	GCA_026283745.1	0.015004	Guaruba guarouba	Eupsittula aurea	19.937
 GCA_011800095.2	GCA_026283765.1	0.071286	Guaruba guarouba	Psephotus haematonotus	77.635
@@ -3202,6 +3261,7 @@ GCA_011800095.2	GCA_035222285.1	0.079161	Guaruba guarouba	Agapornis lilianae	77.
 GCA_011800095.2	GCA_035583095.1	0.071799	Guaruba guarouba	Cacatua galerita	81.521
 GCA_011800095.2	GCA_036873685.1	0.080808	Guaruba guarouba	Agapornis canus	77.635
 GCA_011800095.2	GCA_037157495.1	0.071528	Guaruba guarouba	Lathamus discolor	77.635
+GCA_011800095.2	GCA_037157625.1	0.07322	Guaruba guarouba	Lathamus discolor	77.635
 GCA_011800095.2	GCA_038381815.1	0.019503	Guaruba guarouba	Anodorhynchus leari	20.274
 GCA_011800095.2	GCA_038406155.1	0.025372	Guaruba guarouba	Pyrrhura leucotis	26.18
 GCA_011800095.2	GCA_039720425.1	0.054275	Guaruba guarouba	Amazona ochrocephala	50.04
@@ -3279,6 +3339,7 @@ GCA_012275265.1	GCA_025448075.1	0.0095683	Melopsittacus undulatus	Melopsittacus 
 GCA_012275265.1	GCA_025448095.1	0.078582	Melopsittacus undulatus	Poicephalus senegalus	77.635
 GCA_012275265.1	GCA_025448155.1	0.077558	Melopsittacus undulatus	Cacatua ducorpsii	81.521
 GCA_012275265.1	GCA_025629865.1	0.076907	Melopsittacus undulatus	Cyanoliseus patagonus	77.635
+GCA_012275265.1	GCA_025629885.1	0.039472	Melopsittacus undulatus	Lorius chlorocercus	19.5
 GCA_012275265.1	GCA_025629905.1	0.040944	Melopsittacus undulatus	Lorius lory	19.5
 GCA_012275265.1	GCA_025629925.1	0.064098	Melopsittacus undulatus	Platycercus adscitus	70.802
 GCA_012275265.1	GCA_025629965.1	0.065429	Melopsittacus undulatus	Cyanoramphus novaezelandiae	70.802
@@ -3286,6 +3347,7 @@ GCA_012275265.1	GCA_026283615.1	0.078899	Melopsittacus undulatus	Amazona vinacea
 GCA_012275265.1	GCA_026283635.1	0.086873	Melopsittacus undulatus	Ara macao	77.635
 GCA_012275265.1	GCA_026283665.1	0.079625	Melopsittacus undulatus	Amazona leucocephala	77.635
 GCA_012275265.1	GCA_026283685.1	0.08017	Melopsittacus undulatus	Amazona aestiva	77.635
+GCA_012275265.1	GCA_026283705.1	0.077376	Melopsittacus undulatus	Psittacara chloropterus	77.635
 GCA_012275265.1	GCA_026283725.1	0.077597	Melopsittacus undulatus	Ara rubrogenys	77.635
 GCA_012275265.1	GCA_026283745.1	0.077684	Melopsittacus undulatus	Eupsittula aurea	77.635
 GCA_012275265.1	GCA_026283765.1	0.064763	Melopsittacus undulatus	Psephotus haematonotus	70.802
@@ -3354,6 +3416,7 @@ GCA_012275265.1	GCA_035222285.1	0.072011	Melopsittacus undulatus	Agapornis lilia
 GCA_012275265.1	GCA_035583095.1	0.07711	Melopsittacus undulatus	Cacatua galerita	81.521
 GCA_012275265.1	GCA_036873685.1	0.073475	Melopsittacus undulatus	Agapornis canus	64.053
 GCA_012275265.1	GCA_037157495.1	0.064904	Melopsittacus undulatus	Lathamus discolor	70.802
+GCA_012275265.1	GCA_037157625.1	0.064004	Melopsittacus undulatus	Lathamus discolor	70.802
 GCA_012275265.1	GCA_038381815.1	0.080945	Melopsittacus undulatus	Anodorhynchus leari	77.635
 GCA_012275265.1	GCA_038406155.1	0.082285	Melopsittacus undulatus	Pyrrhura leucotis	77.635
 GCA_012275265.1	GCA_039720425.1	0.077408	Melopsittacus undulatus	Amazona ochrocephala	77.635
@@ -3430,6 +3493,7 @@ GCA_012275275.1	GCA_025448075.1	0.0081407	Melopsittacus undulatus	Melopsittacus 
 GCA_012275275.1	GCA_025448095.1	0.077668	Melopsittacus undulatus	Poicephalus senegalus	77.635
 GCA_012275275.1	GCA_025448155.1	0.076176	Melopsittacus undulatus	Cacatua ducorpsii	81.521
 GCA_012275275.1	GCA_025629865.1	0.075926	Melopsittacus undulatus	Cyanoliseus patagonus	77.635
+GCA_012275275.1	GCA_025629885.1	0.038096	Melopsittacus undulatus	Lorius chlorocercus	19.5
 GCA_012275275.1	GCA_025629905.1	0.03967	Melopsittacus undulatus	Lorius lory	19.5
 GCA_012275275.1	GCA_025629925.1	0.062675	Melopsittacus undulatus	Platycercus adscitus	70.802
 GCA_012275275.1	GCA_025629965.1	0.064544	Melopsittacus undulatus	Cyanoramphus novaezelandiae	70.802
@@ -3437,6 +3501,7 @@ GCA_012275275.1	GCA_026283615.1	0.077835	Melopsittacus undulatus	Amazona vinacea
 GCA_012275275.1	GCA_026283635.1	0.085471	Melopsittacus undulatus	Ara macao	77.635
 GCA_012275275.1	GCA_026283665.1	0.07876	Melopsittacus undulatus	Amazona leucocephala	77.635
 GCA_012275275.1	GCA_026283685.1	0.07912	Melopsittacus undulatus	Amazona aestiva	77.635
+GCA_012275275.1	GCA_026283705.1	0.076352	Melopsittacus undulatus	Psittacara chloropterus	77.635
 GCA_012275275.1	GCA_026283725.1	0.076552	Melopsittacus undulatus	Ara rubrogenys	77.635
 GCA_012275275.1	GCA_026283745.1	0.076985	Melopsittacus undulatus	Eupsittula aurea	77.635
 GCA_012275275.1	GCA_026283765.1	0.063784	Melopsittacus undulatus	Psephotus haematonotus	70.802
@@ -3505,6 +3570,7 @@ GCA_012275275.1	GCA_035222285.1	0.071205	Melopsittacus undulatus	Agapornis lilia
 GCA_012275275.1	GCA_035583095.1	0.075918	Melopsittacus undulatus	Cacatua galerita	81.521
 GCA_012275275.1	GCA_036873685.1	0.072251	Melopsittacus undulatus	Agapornis canus	64.053
 GCA_012275275.1	GCA_037157495.1	0.06385	Melopsittacus undulatus	Lathamus discolor	70.802
+GCA_012275275.1	GCA_037157625.1	0.065211	Melopsittacus undulatus	Lathamus discolor	70.802
 GCA_012275275.1	GCA_038381815.1	0.080586	Melopsittacus undulatus	Anodorhynchus leari	77.635
 GCA_012275275.1	GCA_038406155.1	0.081395	Melopsittacus undulatus	Pyrrhura leucotis	77.635
 GCA_012275275.1	GCA_039720425.1	0.079006	Melopsittacus undulatus	Amazona ochrocephala	77.635
@@ -3580,6 +3646,7 @@ GCA_012275295.1	GCA_025448075.1	0.0077742	Melopsittacus undulatus	Melopsittacus 
 GCA_012275295.1	GCA_025448095.1	0.077455	Melopsittacus undulatus	Poicephalus senegalus	77.635
 GCA_012275295.1	GCA_025448155.1	0.076337	Melopsittacus undulatus	Cacatua ducorpsii	81.521
 GCA_012275295.1	GCA_025629865.1	0.075481	Melopsittacus undulatus	Cyanoliseus patagonus	77.635
+GCA_012275295.1	GCA_025629885.1	0.037953	Melopsittacus undulatus	Lorius chlorocercus	19.5
 GCA_012275295.1	GCA_025629905.1	0.039488	Melopsittacus undulatus	Lorius lory	19.5
 GCA_012275295.1	GCA_025629925.1	0.062819	Melopsittacus undulatus	Platycercus adscitus	70.802
 GCA_012275295.1	GCA_025629965.1	0.064309	Melopsittacus undulatus	Cyanoramphus novaezelandiae	70.802
@@ -3587,6 +3654,7 @@ GCA_012275295.1	GCA_026283615.1	0.07766	Melopsittacus undulatus	Amazona vinacea	
 GCA_012275295.1	GCA_026283635.1	0.085509	Melopsittacus undulatus	Ara macao	77.635
 GCA_012275295.1	GCA_026283665.1	0.078533	Melopsittacus undulatus	Amazona leucocephala	77.635
 GCA_012275295.1	GCA_026283685.1	0.078989	Melopsittacus undulatus	Amazona aestiva	77.635
+GCA_012275295.1	GCA_026283705.1	0.075986	Melopsittacus undulatus	Psittacara chloropterus	77.635
 GCA_012275295.1	GCA_026283725.1	0.07623	Melopsittacus undulatus	Ara rubrogenys	77.635
 GCA_012275295.1	GCA_026283745.1	0.07649	Melopsittacus undulatus	Eupsittula aurea	77.635
 GCA_012275295.1	GCA_026283765.1	0.063565	Melopsittacus undulatus	Psephotus haematonotus	70.802
@@ -3655,6 +3723,7 @@ GCA_012275295.1	GCA_035222285.1	0.070905	Melopsittacus undulatus	Agapornis lilia
 GCA_012275295.1	GCA_035583095.1	0.075941	Melopsittacus undulatus	Cacatua galerita	81.521
 GCA_012275295.1	GCA_036873685.1	0.072072	Melopsittacus undulatus	Agapornis canus	64.053
 GCA_012275295.1	GCA_037157495.1	0.063729	Melopsittacus undulatus	Lathamus discolor	70.802
+GCA_012275295.1	GCA_037157625.1	0.065366	Melopsittacus undulatus	Lathamus discolor	70.802
 GCA_012275295.1	GCA_038381815.1	0.080458	Melopsittacus undulatus	Anodorhynchus leari	77.635
 GCA_012275295.1	GCA_038406155.1	0.08098	Melopsittacus undulatus	Pyrrhura leucotis	77.635
 GCA_012275295.1	GCA_039720425.1	0.078915	Melopsittacus undulatus	Amazona ochrocephala	77.635
@@ -3729,6 +3798,7 @@ GCA_013036005.2	GCA_025448075.1	0.078194	Myiopsitta monachus	Melopsittacus undul
 GCA_013036005.2	GCA_025448095.1	0.068785	Myiopsitta monachus	Poicephalus senegalus	64.077
 GCA_013036005.2	GCA_025448155.1	0.074294	Myiopsitta monachus	Cacatua ducorpsii	81.521
 GCA_013036005.2	GCA_025629865.1	0.053244	Myiopsitta monachus	Cyanoliseus patagonus	50.04
+GCA_013036005.2	GCA_025629885.1	0.072715	Myiopsitta monachus	Lorius chlorocercus	77.635
 GCA_013036005.2	GCA_025629905.1	0.074323	Myiopsitta monachus	Lorius lory	77.635
 GCA_013036005.2	GCA_025629925.1	0.072327	Myiopsitta monachus	Platycercus adscitus	77.635
 GCA_013036005.2	GCA_025629965.1	0.073947	Myiopsitta monachus	Cyanoramphus novaezelandiae	77.635
@@ -3736,6 +3806,7 @@ GCA_013036005.2	GCA_026283615.1	0.054553	Myiopsitta monachus	Amazona vinacea	49.
 GCA_013036005.2	GCA_026283635.1	0.064303	Myiopsitta monachus	Ara macao	50.04
 GCA_013036005.2	GCA_026283665.1	0.055659	Myiopsitta monachus	Amazona leucocephala	49.56
 GCA_013036005.2	GCA_026283685.1	0.056015	Myiopsitta monachus	Amazona aestiva	49.56
+GCA_013036005.2	GCA_026283705.1	0.054187	Myiopsitta monachus	Psittacara chloropterus	50.04
 GCA_013036005.2	GCA_026283725.1	0.053857	Myiopsitta monachus	Ara rubrogenys	50.04
 GCA_013036005.2	GCA_026283745.1	0.05446	Myiopsitta monachus	Eupsittula aurea	50.04
 GCA_013036005.2	GCA_026283765.1	0.073065	Myiopsitta monachus	Psephotus haematonotus	77.635
@@ -3804,6 +3875,7 @@ GCA_013036005.2	GCA_035222285.1	0.080859	Myiopsitta monachus	Agapornis lilianae	
 GCA_013036005.2	GCA_035583095.1	0.073818	Myiopsitta monachus	Cacatua galerita	81.521
 GCA_013036005.2	GCA_036873685.1	0.082535	Myiopsitta monachus	Agapornis canus	77.635
 GCA_013036005.2	GCA_037157495.1	0.073157	Myiopsitta monachus	Lathamus discolor	77.635
+GCA_013036005.2	GCA_037157625.1	0.074571	Myiopsitta monachus	Lathamus discolor	77.635
 GCA_013036005.2	GCA_038381815.1	0.057945	Myiopsitta monachus	Anodorhynchus leari	50.04
 GCA_013036005.2	GCA_038406155.1	0.059525	Myiopsitta monachus	Pyrrhura leucotis	50.04
 GCA_013036005.2	GCA_039720425.1	0.056033	Myiopsitta monachus	Amazona ochrocephala	49.56
@@ -3877,6 +3949,7 @@ GCA_013397615.1	GCA_025448075.1	0.077001	Eolophus roseicapilla	Melopsittacus und
 GCA_013397615.1	GCA_025448095.1	0.073525	Eolophus roseicapilla	Poicephalus senegalus	81.521
 GCA_013397615.1	GCA_025448155.1	0.019199	Eolophus roseicapilla	Cacatua ducorpsii	48.24
 GCA_013397615.1	GCA_025629865.1	0.072011	Eolophus roseicapilla	Cyanoliseus patagonus	81.521
+GCA_013397615.1	GCA_025629885.1	0.071098	Eolophus roseicapilla	Lorius chlorocercus	81.521
 GCA_013397615.1	GCA_025629905.1	0.072327	Eolophus roseicapilla	Lorius lory	81.521
 GCA_013397615.1	GCA_025629925.1	0.070912	Eolophus roseicapilla	Platycercus adscitus	81.521
 GCA_013397615.1	GCA_025629965.1	0.071983	Eolophus roseicapilla	Cyanoramphus novaezelandiae	81.521
@@ -3884,6 +3957,7 @@ GCA_013397615.1	GCA_026283615.1	0.07389	Eolophus roseicapilla	Amazona vinacea	81
 GCA_013397615.1	GCA_026283635.1	0.081474	Eolophus roseicapilla	Ara macao	81.521
 GCA_013397615.1	GCA_026283665.1	0.074732	Eolophus roseicapilla	Amazona leucocephala	81.521
 GCA_013397615.1	GCA_026283685.1	0.075481	Eolophus roseicapilla	Amazona aestiva	81.521
+GCA_013397615.1	GCA_026283705.1	0.07275	Eolophus roseicapilla	Psittacara chloropterus	81.521
 GCA_013397615.1	GCA_026283725.1	0.072666	Eolophus roseicapilla	Ara rubrogenys	81.521
 GCA_013397615.1	GCA_026283745.1	0.073023	Eolophus roseicapilla	Eupsittula aurea	81.521
 GCA_013397615.1	GCA_026283765.1	0.072093	Eolophus roseicapilla	Psephotus haematonotus	81.521
@@ -3952,6 +4026,7 @@ GCA_013397615.1	GCA_035222285.1	0.080356	Eolophus roseicapilla	Agapornis liliana
 GCA_013397615.1	GCA_035583095.1	0.018424	Eolophus roseicapilla	Cacatua galerita	48.24
 GCA_013397615.1	GCA_036873685.1	0.081675	Eolophus roseicapilla	Agapornis canus	81.521
 GCA_013397615.1	GCA_037157495.1	0.071447	Eolophus roseicapilla	Lathamus discolor	81.521
+GCA_013397615.1	GCA_037157625.1	0.071643	Eolophus roseicapilla	Lathamus discolor	81.521
 GCA_013397615.1	GCA_038381815.1	0.076024	Eolophus roseicapilla	Anodorhynchus leari	81.521
 GCA_013397615.1	GCA_038406155.1	0.077376	Eolophus roseicapilla	Pyrrhura leucotis	81.521
 GCA_013397615.1	GCA_039720425.1	0.074352	Eolophus roseicapilla	Amazona ochrocephala	81.521
@@ -4024,6 +4099,7 @@ GCA_013397665.1	GCA_025448075.1	0.077613	Probosciger aterrimus	Melopsittacus und
 GCA_013397665.1	GCA_025448095.1	0.07361	Probosciger aterrimus	Poicephalus senegalus	81.521
 GCA_013397665.1	GCA_025448155.1	0.033716	Probosciger aterrimus	Cacatua ducorpsii	64.881
 GCA_013397665.1	GCA_025629865.1	0.072458	Probosciger aterrimus	Cyanoliseus patagonus	81.521
+GCA_013397665.1	GCA_025629885.1	0.071212	Probosciger aterrimus	Lorius chlorocercus	81.521
 GCA_013397665.1	GCA_025629905.1	0.072632	Probosciger aterrimus	Lorius lory	81.521
 GCA_013397665.1	GCA_025629925.1	0.070521	Probosciger aterrimus	Platycercus adscitus	81.521
 GCA_013397665.1	GCA_025629965.1	0.072162	Probosciger aterrimus	Cyanoramphus novaezelandiae	81.521
@@ -4031,6 +4107,7 @@ GCA_013397665.1	GCA_026283615.1	0.074432	Probosciger aterrimus	Amazona vinacea	8
 GCA_013397665.1	GCA_026283635.1	0.082063	Probosciger aterrimus	Ara macao	81.521
 GCA_013397665.1	GCA_026283665.1	0.075504	Probosciger aterrimus	Amazona leucocephala	81.521
 GCA_013397665.1	GCA_026283685.1	0.076459	Probosciger aterrimus	Amazona aestiva	81.521
+GCA_013397665.1	GCA_026283705.1	0.073333	Probosciger aterrimus	Psittacara chloropterus	81.521
 GCA_013397665.1	GCA_026283725.1	0.073051	Probosciger aterrimus	Ara rubrogenys	81.521
 GCA_013397665.1	GCA_026283745.1	0.073675	Probosciger aterrimus	Eupsittula aurea	81.521
 GCA_013397665.1	GCA_026283765.1	0.071718	Probosciger aterrimus	Psephotus haematonotus	81.521
@@ -4099,6 +4176,7 @@ GCA_013397665.1	GCA_035222285.1	0.079633	Probosciger aterrimus	Agapornis liliana
 GCA_013397665.1	GCA_035583095.1	0.033321	Probosciger aterrimus	Cacatua galerita	64.881
 GCA_013397665.1	GCA_036873685.1	0.081763	Probosciger aterrimus	Agapornis canus	81.521
 GCA_013397665.1	GCA_037157495.1	0.071535	Probosciger aterrimus	Lathamus discolor	81.521
+GCA_013397665.1	GCA_037157625.1	0.072771	Probosciger aterrimus	Lathamus discolor	81.521
 GCA_013397665.1	GCA_038381815.1	0.076737	Probosciger aterrimus	Anodorhynchus leari	81.521
 GCA_013397665.1	GCA_038406155.1	0.078259	Probosciger aterrimus	Pyrrhura leucotis	81.521
 GCA_013397665.1	GCA_039720425.1	0.075857	Probosciger aterrimus	Amazona ochrocephala	81.521
@@ -4170,6 +4248,7 @@ GCA_013399615.1	GCA_025448075.1	0.077851	Amazona guildingii	Melopsittacus undula
 GCA_013399615.1	GCA_025448095.1	0.068076	Amazona guildingii	Poicephalus senegalus	64.077
 GCA_013399615.1	GCA_025448155.1	0.073333	Amazona guildingii	Cacatua ducorpsii	81.521
 GCA_013399615.1	GCA_025629865.1	0.051995	Amazona guildingii	Cyanoliseus patagonus	50.04
+GCA_013399615.1	GCA_025629885.1	0.071528	Amazona guildingii	Lorius chlorocercus	77.635
 GCA_013399615.1	GCA_025629905.1	0.073582	Amazona guildingii	Lorius lory	77.635
 GCA_013399615.1	GCA_025629925.1	0.071602	Amazona guildingii	Platycercus adscitus	77.635
 GCA_013399615.1	GCA_025629965.1	0.072694	Amazona guildingii	Cyanoramphus novaezelandiae	77.635
@@ -4177,6 +4256,7 @@ GCA_013399615.1	GCA_026283615.1	0.011994	Amazona guildingii	Amazona vinacea	20.4
 GCA_013399615.1	GCA_026283635.1	0.063002	Amazona guildingii	Ara macao	50.04
 GCA_013399615.1	GCA_026283665.1	0.013112	Amazona guildingii	Amazona leucocephala	20.474
 GCA_013399615.1	GCA_026283685.1	0.013652	Amazona guildingii	Amazona aestiva	19.339
+GCA_013399615.1	GCA_026283705.1	0.052566	Amazona guildingii	Psittacara chloropterus	50.04
 GCA_013399615.1	GCA_026283725.1	0.051881	Amazona guildingii	Ara rubrogenys	50.04
 GCA_013399615.1	GCA_026283745.1	0.05302	Amazona guildingii	Eupsittula aurea	50.04
 GCA_013399615.1	GCA_026283765.1	0.0721	Amazona guildingii	Psephotus haematonotus	77.635
@@ -4245,6 +4325,7 @@ GCA_013399615.1	GCA_035222285.1	0.080052	Amazona guildingii	Agapornis lilianae	7
 GCA_013399615.1	GCA_035583095.1	0.073362	Amazona guildingii	Cacatua galerita	81.521
 GCA_013399615.1	GCA_036873685.1	0.08143	Amazona guildingii	Agapornis canus	77.635
 GCA_013399615.1	GCA_037157495.1	0.072347	Amazona guildingii	Lathamus discolor	77.635
+GCA_013399615.1	GCA_037157625.1	0.073947	Amazona guildingii	Lathamus discolor	77.635
 GCA_013399615.1	GCA_038381815.1	0.056523	Amazona guildingii	Anodorhynchus leari	50.04
 GCA_013399615.1	GCA_038406155.1	0.057917	Amazona guildingii	Pyrrhura leucotis	50.04
 GCA_013399615.1	GCA_039720425.1	0.013979	Amazona guildingii	Amazona ochrocephala	20.474
@@ -4315,6 +4396,7 @@ GCA_015163975.2	GCA_025448075.1	0.078875	Pyrrhura lepida	Melopsittacus undulatus
 GCA_015163975.2	GCA_025448095.1	0.069477	Pyrrhura lepida	Poicephalus senegalus	64.077
 GCA_015163975.2	GCA_025448155.1	0.07339	Pyrrhura lepida	Cacatua ducorpsii	81.521
 GCA_015163975.2	GCA_025629865.1	0.022346	Pyrrhura lepida	Cyanoliseus patagonus	26.18
+GCA_015163975.2	GCA_025629885.1	0.072666	Pyrrhura lepida	Lorius chlorocercus	77.635
 GCA_015163975.2	GCA_025629905.1	0.074099	Pyrrhura lepida	Lorius lory	77.635
 GCA_015163975.2	GCA_025629925.1	0.072666	Pyrrhura lepida	Platycercus adscitus	77.635
 GCA_015163975.2	GCA_025629965.1	0.074542	Pyrrhura lepida	Cyanoramphus novaezelandiae	77.635
@@ -4322,6 +4404,7 @@ GCA_015163975.2	GCA_026283615.1	0.054962	Pyrrhura lepida	Amazona vinacea	50.04
 GCA_015163975.2	GCA_026283635.1	0.033823	Pyrrhura lepida	Ara macao	26.18
 GCA_015163975.2	GCA_026283665.1	0.055962	Pyrrhura lepida	Amazona leucocephala	50.04
 GCA_015163975.2	GCA_026283685.1	0.055778	Pyrrhura lepida	Amazona aestiva	50.04
+GCA_015163975.2	GCA_026283705.1	0.022832	Pyrrhura lepida	Psittacara chloropterus	26.18
 GCA_015163975.2	GCA_026283725.1	0.022322	Pyrrhura lepida	Ara rubrogenys	26.18
 GCA_015163975.2	GCA_026283745.1	0.02309	Pyrrhura lepida	Eupsittula aurea	26.18
 GCA_015163975.2	GCA_026283765.1	0.073418	Pyrrhura lepida	Psephotus haematonotus	77.635
@@ -4390,6 +4473,7 @@ GCA_015163975.2	GCA_035222285.1	0.081101	Pyrrhura lepida	Agapornis lilianae	77.6
 GCA_015163975.2	GCA_035583095.1	0.074048	Pyrrhura lepida	Cacatua galerita	81.521
 GCA_015163975.2	GCA_036873685.1	0.083012	Pyrrhura lepida	Agapornis canus	77.635
 GCA_015163975.2	GCA_037157495.1	0.073883	Pyrrhura lepida	Lathamus discolor	77.635
+GCA_015163975.2	GCA_037157625.1	0.075138	Pyrrhura lepida	Lathamus discolor	77.635
 GCA_015163975.2	GCA_038381815.1	0.026824	Pyrrhura lepida	Anodorhynchus leari	26.18
 GCA_015163975.2	GCA_038406155.1	0.011539	Pyrrhura lepida	Pyrrhura leucotis	24.66
 GCA_015163975.2	GCA_039720425.1	0.05633	Pyrrhura lepida	Amazona ochrocephala	50.04
@@ -4459,6 +4543,7 @@ GCA_017639245.1	GCA_025448075.1	0.078235	Myiopsitta monachus	Melopsittacus undul
 GCA_017639245.1	GCA_025448095.1	0.069057	Myiopsitta monachus	Poicephalus senegalus	64.077
 GCA_017639245.1	GCA_025448155.1	0.074571	Myiopsitta monachus	Cacatua ducorpsii	81.521
 GCA_017639245.1	GCA_025629865.1	0.053518	Myiopsitta monachus	Cyanoliseus patagonus	50.04
+GCA_017639245.1	GCA_025629885.1	0.072911	Myiopsitta monachus	Lorius chlorocercus	77.635
 GCA_017639245.1	GCA_025629905.1	0.074476	Myiopsitta monachus	Lorius lory	77.635
 GCA_017639245.1	GCA_025629925.1	0.072694	Myiopsitta monachus	Platycercus adscitus	77.635
 GCA_017639245.1	GCA_025629965.1	0.073976	Myiopsitta monachus	Cyanoramphus novaezelandiae	77.635
@@ -4466,6 +4551,7 @@ GCA_017639245.1	GCA_026283615.1	0.054676	Myiopsitta monachus	Amazona vinacea	49.
 GCA_017639245.1	GCA_026283635.1	0.064656	Myiopsitta monachus	Ara macao	50.04
 GCA_017639245.1	GCA_026283665.1	0.055594	Myiopsitta monachus	Amazona leucocephala	49.56
 GCA_017639245.1	GCA_026283685.1	0.055865	Myiopsitta monachus	Amazona aestiva	49.56
+GCA_017639245.1	GCA_026283705.1	0.054115	Myiopsitta monachus	Psittacara chloropterus	50.04
 GCA_017639245.1	GCA_026283725.1	0.053836	Myiopsitta monachus	Ara rubrogenys	50.04
 GCA_017639245.1	GCA_026283745.1	0.054414	Myiopsitta monachus	Eupsittula aurea	50.04
 GCA_017639245.1	GCA_026283765.1	0.073192	Myiopsitta monachus	Psephotus haematonotus	77.635
@@ -4534,6 +4620,7 @@ GCA_017639245.1	GCA_035222285.1	0.080842	Myiopsitta monachus	Agapornis lilianae	
 GCA_017639245.1	GCA_035583095.1	0.073962	Myiopsitta monachus	Cacatua galerita	81.521
 GCA_017639245.1	GCA_036873685.1	0.082633	Myiopsitta monachus	Agapornis canus	77.635
 GCA_017639245.1	GCA_037157495.1	0.073206	Myiopsitta monachus	Lathamus discolor	77.635
+GCA_017639245.1	GCA_037157625.1	0.074924	Myiopsitta monachus	Lathamus discolor	77.635
 GCA_017639245.1	GCA_038381815.1	0.058114	Myiopsitta monachus	Anodorhynchus leari	50.04
 GCA_017639245.1	GCA_038406155.1	0.059423	Myiopsitta monachus	Pyrrhura leucotis	50.04
 GCA_017639245.1	GCA_039720425.1	0.056015	Myiopsitta monachus	Amazona ochrocephala	49.56
@@ -4602,6 +4689,7 @@ GCA_017639355.1	GCA_025448075.1	0.077684	Amazona aestiva	Melopsittacus undulatus
 GCA_017639355.1	GCA_025448095.1	0.067953	Amazona aestiva	Poicephalus senegalus	64.077
 GCA_017639355.1	GCA_025448155.1	0.072939	Amazona aestiva	Cacatua ducorpsii	81.521
 GCA_017639355.1	GCA_025629865.1	0.051967	Amazona aestiva	Cyanoliseus patagonus	50.04
+GCA_017639355.1	GCA_025629885.1	0.071548	Amazona aestiva	Lorius chlorocercus	77.635
 GCA_017639355.1	GCA_025629905.1	0.072869	Amazona aestiva	Lorius lory	77.635
 GCA_017639355.1	GCA_025629925.1	0.071508	Amazona aestiva	Platycercus adscitus	77.635
 GCA_017639355.1	GCA_025629965.1	0.072701	Amazona aestiva	Cyanoramphus novaezelandiae	77.635
@@ -4609,6 +4697,7 @@ GCA_017639355.1	GCA_026283615.1	0.0095853	Amazona aestiva	Amazona vinacea	20.474
 GCA_017639355.1	GCA_026283635.1	0.062532	Amazona aestiva	Ara macao	50.04
 GCA_017639355.1	GCA_026283665.1	0.0080622	Amazona aestiva	Amazona leucocephala	20.474
 GCA_017639355.1	GCA_026283685.1	0.0087969	Amazona aestiva	Amazona aestiva	0
+GCA_017639355.1	GCA_026283705.1	0.052819	Amazona aestiva	Psittacara chloropterus	50.04
 GCA_017639355.1	GCA_026283725.1	0.05194	Amazona aestiva	Ara rubrogenys	50.04
 GCA_017639355.1	GCA_026283745.1	0.052944	Amazona aestiva	Eupsittula aurea	50.04
 GCA_017639355.1	GCA_026283765.1	0.072368	Amazona aestiva	Psephotus haematonotus	77.635
@@ -4677,6 +4766,7 @@ GCA_017639355.1	GCA_035222285.1	0.080086	Amazona aestiva	Agapornis lilianae	77.6
 GCA_017639355.1	GCA_035583095.1	0.073157	Amazona aestiva	Cacatua galerita	81.521
 GCA_017639355.1	GCA_036873685.1	0.081196	Amazona aestiva	Agapornis canus	77.635
 GCA_017639355.1	GCA_037157495.1	0.072416	Amazona aestiva	Lathamus discolor	77.635
+GCA_017639355.1	GCA_037157625.1	0.073933	Amazona aestiva	Lathamus discolor	77.635
 GCA_017639355.1	GCA_038381815.1	0.056496	Amazona aestiva	Anodorhynchus leari	50.04
 GCA_017639355.1	GCA_038406155.1	0.058086	Amazona aestiva	Pyrrhura leucotis	50.04
 GCA_017639355.1	GCA_039720425.1	0.0087547	Amazona aestiva	Amazona ochrocephala	20.474
@@ -4744,6 +4834,7 @@ GCA_024320895.1	GCA_025448075.1	0.076861	Psittacara holochlorus	Melopsittacus un
 GCA_024320895.1	GCA_025448095.1	0.066726	Psittacara holochlorus	Poicephalus senegalus	64.077
 GCA_024320895.1	GCA_025448155.1	0.071132	Psittacara holochlorus	Cacatua ducorpsii	81.521
 GCA_024320895.1	GCA_025629865.1	0.016378	Psittacara holochlorus	Cyanoliseus patagonus	20.61
+GCA_024320895.1	GCA_025629885.1	0.070259	Psittacara holochlorus	Lorius chlorocercus	77.635
 GCA_024320895.1	GCA_025629905.1	0.071562	Psittacara holochlorus	Lorius lory	77.635
 GCA_024320895.1	GCA_025629925.1	0.070377	Psittacara holochlorus	Platycercus adscitus	77.635
 GCA_024320895.1	GCA_025629965.1	0.072011	Psittacara holochlorus	Cyanoramphus novaezelandiae	77.635
@@ -4751,6 +4842,7 @@ GCA_024320895.1	GCA_026283615.1	0.05245	Psittacara holochlorus	Amazona vinacea	5
 GCA_024320895.1	GCA_026283635.1	0.026003	Psittacara holochlorus	Ara macao	19.601
 GCA_024320895.1	GCA_026283665.1	0.053584	Psittacara holochlorus	Amazona leucocephala	50.04
 GCA_024320895.1	GCA_026283685.1	0.05313	Psittacara holochlorus	Amazona aestiva	50.04
+GCA_024320895.1	GCA_026283705.1	0.0048591	Psittacara holochlorus	Psittacara chloropterus	2.2717
 GCA_024320895.1	GCA_026283725.1	0.014792	Psittacara holochlorus	Ara rubrogenys	19.601
 GCA_024320895.1	GCA_026283745.1	0.015463	Psittacara holochlorus	Eupsittula aurea	11.156
 GCA_024320895.1	GCA_026283765.1	0.070965	Psittacara holochlorus	Psephotus haematonotus	77.635
@@ -4819,6 +4911,7 @@ GCA_024320895.1	GCA_035222285.1	0.078907	Psittacara holochlorus	Agapornis lilian
 GCA_024320895.1	GCA_035583095.1	0.07197	Psittacara holochlorus	Cacatua galerita	81.521
 GCA_024320895.1	GCA_036873685.1	0.080543	Psittacara holochlorus	Agapornis canus	77.635
 GCA_024320895.1	GCA_037157495.1	0.071299	Psittacara holochlorus	Lathamus discolor	77.635
+GCA_024320895.1	GCA_037157625.1	0.072946	Psittacara holochlorus	Lathamus discolor	77.635
 GCA_024320895.1	GCA_038381815.1	0.019613	Psittacara holochlorus	Anodorhynchus leari	20.274
 GCA_024320895.1	GCA_038406155.1	0.025647	Psittacara holochlorus	Pyrrhura leucotis	26.18
 GCA_024320895.1	GCA_039720425.1	0.054245	Psittacara holochlorus	Amazona ochrocephala	50.04
@@ -4885,6 +4978,7 @@ GCA_024331605.1	GCA_025448075.1	0.076245	Primolius couloni	Melopsittacus undulat
 GCA_024331605.1	GCA_025448095.1	0.066655	Primolius couloni	Poicephalus senegalus	64.077
 GCA_024331605.1	GCA_025448155.1	0.070528	Primolius couloni	Cacatua ducorpsii	81.521
 GCA_024331605.1	GCA_025629865.1	0.015578	Primolius couloni	Cyanoliseus patagonus	20.61
+GCA_024331605.1	GCA_025629885.1	0.069598	Primolius couloni	Lorius chlorocercus	77.635
 GCA_024331605.1	GCA_025629905.1	0.070918	Primolius couloni	Lorius lory	77.635
 GCA_024331605.1	GCA_025629925.1	0.070064	Primolius couloni	Platycercus adscitus	77.635
 GCA_024331605.1	GCA_025629965.1	0.071881	Primolius couloni	Cyanoramphus novaezelandiae	77.635
@@ -4892,6 +4986,7 @@ GCA_024331605.1	GCA_026283615.1	0.051768	Primolius couloni	Amazona vinacea	50.04
 GCA_024331605.1	GCA_026283635.1	0.021327	Primolius couloni	Ara macao	16.777
 GCA_024331605.1	GCA_026283665.1	0.052972	Primolius couloni	Amazona leucocephala	50.04
 GCA_024331605.1	GCA_026283685.1	0.052546	Primolius couloni	Amazona aestiva	50.04
+GCA_024331605.1	GCA_026283705.1	0.014312	Primolius couloni	Psittacara chloropterus	19.601
 GCA_024331605.1	GCA_026283725.1	0.0097119	Primolius couloni	Ara rubrogenys	16.777
 GCA_024331605.1	GCA_026283745.1	0.014387	Primolius couloni	Eupsittula aurea	19.601
 GCA_024331605.1	GCA_026283765.1	0.070865	Primolius couloni	Psephotus haematonotus	77.635
@@ -4960,6 +5055,7 @@ GCA_024331605.1	GCA_035222285.1	0.078817	Primolius couloni	Agapornis lilianae	77
 GCA_024331605.1	GCA_035583095.1	0.071434	Primolius couloni	Cacatua galerita	81.521
 GCA_024331605.1	GCA_036873685.1	0.080263	Primolius couloni	Agapornis canus	77.635
 GCA_024331605.1	GCA_037157495.1	0.070991	Primolius couloni	Lathamus discolor	77.635
+GCA_024331605.1	GCA_037157625.1	0.072513	Primolius couloni	Lathamus discolor	77.635
 GCA_024331605.1	GCA_038381815.1	0.018626	Primolius couloni	Anodorhynchus leari	20.274
 GCA_024331605.1	GCA_038406155.1	0.024922	Primolius couloni	Pyrrhura leucotis	26.18
 GCA_024331605.1	GCA_039720425.1	0.053318	Primolius couloni	Amazona ochrocephala	50.04
@@ -5025,6 +5121,7 @@ GCA_024331625.1	GCA_025448075.1	0.07697	Psittacara leucophthalmus	Melopsittacus 
 GCA_024331625.1	GCA_025448095.1	0.066952	Psittacara leucophthalmus	Poicephalus senegalus	64.077
 GCA_024331625.1	GCA_025448155.1	0.071299	Psittacara leucophthalmus	Cacatua ducorpsii	81.521
 GCA_024331625.1	GCA_025629865.1	0.016599	Psittacara leucophthalmus	Cyanoliseus patagonus	20.61
+GCA_024331625.1	GCA_025629885.1	0.070377	Psittacara leucophthalmus	Lorius chlorocercus	77.635
 GCA_024331625.1	GCA_025629905.1	0.071738	Psittacara leucophthalmus	Lorius lory	77.635
 GCA_024331625.1	GCA_025629925.1	0.070502	Psittacara leucophthalmus	Platycercus adscitus	77.635
 GCA_024331625.1	GCA_025629965.1	0.072196	Psittacara leucophthalmus	Cyanoramphus novaezelandiae	77.635
@@ -5032,6 +5129,7 @@ GCA_024331625.1	GCA_026283615.1	0.052694	Psittacara leucophthalmus	Amazona vinac
 GCA_024331625.1	GCA_026283635.1	0.02608	Psittacara leucophthalmus	Ara macao	19.601
 GCA_024331625.1	GCA_026283665.1	0.053799	Psittacara leucophthalmus	Amazona leucocephala	50.04
 GCA_024331625.1	GCA_026283685.1	0.053436	Psittacara leucophthalmus	Amazona aestiva	50.04
+GCA_024331625.1	GCA_026283705.1	0.0052518	Psittacara leucophthalmus	Psittacara chloropterus	5.8106
 GCA_024331625.1	GCA_026283725.1	0.015063	Psittacara leucophthalmus	Ara rubrogenys	19.601
 GCA_024331625.1	GCA_026283745.1	0.015676	Psittacara leucophthalmus	Eupsittula aurea	11.156
 GCA_024331625.1	GCA_026283765.1	0.071165	Psittacara leucophthalmus	Psephotus haematonotus	77.635
@@ -5100,6 +5198,7 @@ GCA_024331625.1	GCA_035222285.1	0.079161	Psittacara leucophthalmus	Agapornis lil
 GCA_024331625.1	GCA_035583095.1	0.07212	Psittacara leucophthalmus	Cacatua galerita	81.521
 GCA_024331625.1	GCA_036873685.1	0.080756	Psittacara leucophthalmus	Agapornis canus	77.635
 GCA_024331625.1	GCA_037157495.1	0.071454	Psittacara leucophthalmus	Lathamus discolor	77.635
+GCA_024331625.1	GCA_037157625.1	0.073136	Psittacara leucophthalmus	Lathamus discolor	77.635
 GCA_024331625.1	GCA_038381815.1	0.019897	Psittacara leucophthalmus	Anodorhynchus leari	20.274
 GCA_024331625.1	GCA_038406155.1	0.025864	Psittacara leucophthalmus	Pyrrhura leucotis	26.18
 GCA_024331625.1	GCA_039720425.1	0.054448	Psittacara leucophthalmus	Amazona ochrocephala	50.04
@@ -5164,6 +5263,7 @@ GCA_024331645.1	GCA_025448075.1	0.078396	Poicephalus robustus	Melopsittacus undu
 GCA_024331645.1	GCA_025448095.1	0.011232	Poicephalus robustus	Poicephalus senegalus	43.635
 GCA_024331645.1	GCA_025448155.1	0.073511	Poicephalus robustus	Cacatua ducorpsii	81.521
 GCA_024331645.1	GCA_025629865.1	0.067477	Poicephalus robustus	Cyanoliseus patagonus	64.077
+GCA_024331645.1	GCA_025629885.1	0.072946	Poicephalus robustus	Lorius chlorocercus	77.635
 GCA_024331645.1	GCA_025629905.1	0.074026	Poicephalus robustus	Lorius lory	77.635
 GCA_024331645.1	GCA_025629925.1	0.072548	Poicephalus robustus	Platycercus adscitus	77.635
 GCA_024331645.1	GCA_025629965.1	0.073426	Poicephalus robustus	Cyanoramphus novaezelandiae	77.635
@@ -5171,6 +5271,7 @@ GCA_024331645.1	GCA_026283615.1	0.068704	Poicephalus robustus	Amazona vinacea	64
 GCA_024331645.1	GCA_026283635.1	0.078082	Poicephalus robustus	Ara macao	64.077
 GCA_024331645.1	GCA_026283665.1	0.06994	Poicephalus robustus	Amazona leucocephala	64.077
 GCA_024331645.1	GCA_026283685.1	0.070568	Poicephalus robustus	Amazona aestiva	64.077
+GCA_024331645.1	GCA_026283705.1	0.067708	Poicephalus robustus	Psittacara chloropterus	64.077
 GCA_024331645.1	GCA_026283725.1	0.067824	Poicephalus robustus	Ara rubrogenys	64.077
 GCA_024331645.1	GCA_026283745.1	0.067647	Poicephalus robustus	Eupsittula aurea	64.077
 GCA_024331645.1	GCA_026283765.1	0.072974	Poicephalus robustus	Psephotus haematonotus	77.635
@@ -5239,6 +5340,7 @@ GCA_024331645.1	GCA_035222285.1	0.081101	Poicephalus robustus	Agapornis lilianae
 GCA_024331645.1	GCA_035583095.1	0.07315	Poicephalus robustus	Cacatua galerita	81.521
 GCA_024331645.1	GCA_036873685.1	0.082027	Poicephalus robustus	Agapornis canus	77.635
 GCA_024331645.1	GCA_037157495.1	0.072785	Poicephalus robustus	Lathamus discolor	77.635
+GCA_024331645.1	GCA_037157625.1	0.07399	Poicephalus robustus	Lathamus discolor	77.635
 GCA_024331645.1	GCA_038381815.1	0.071901	Poicephalus robustus	Anodorhynchus leari	64.077
 GCA_024331645.1	GCA_038406155.1	0.072848	Poicephalus robustus	Pyrrhura leucotis	64.077
 GCA_024331645.1	GCA_039720425.1	0.069908	Poicephalus robustus	Amazona ochrocephala	64.077
@@ -5302,6 +5404,7 @@ GCA_024337085.1	GCA_025448075.1	0.076138	Diopsittaca nobilis	Melopsittacus undul
 GCA_024337085.1	GCA_025448095.1	0.066453	Diopsittaca nobilis	Poicephalus senegalus	64.077
 GCA_024337085.1	GCA_025448155.1	0.070792	Diopsittaca nobilis	Cacatua ducorpsii	81.521
 GCA_024337085.1	GCA_025629865.1	0.015834	Diopsittaca nobilis	Cyanoliseus patagonus	20.61
+GCA_024337085.1	GCA_025629885.1	0.069817	Diopsittaca nobilis	Lorius chlorocercus	77.635
 GCA_024337085.1	GCA_025629905.1	0.071091	Diopsittaca nobilis	Lorius lory	77.635
 GCA_024337085.1	GCA_025629925.1	0.069966	Diopsittaca nobilis	Platycercus adscitus	77.635
 GCA_024337085.1	GCA_025629965.1	0.071908	Diopsittaca nobilis	Cyanoramphus novaezelandiae	77.635
@@ -5309,6 +5412,7 @@ GCA_024337085.1	GCA_026283615.1	0.05241	Diopsittaca nobilis	Amazona vinacea	50.0
 GCA_024337085.1	GCA_026283635.1	0.025557	Diopsittaca nobilis	Ara macao	19.937
 GCA_024337085.1	GCA_026283665.1	0.053506	Diopsittaca nobilis	Amazona leucocephala	50.04
 GCA_024337085.1	GCA_026283685.1	0.052806	Diopsittaca nobilis	Amazona aestiva	50.04
+GCA_024337085.1	GCA_026283705.1	0.013518	Diopsittaca nobilis	Psittacara chloropterus	19.937
 GCA_024337085.1	GCA_026283725.1	0.014196	Diopsittaca nobilis	Ara rubrogenys	19.937
 GCA_024337085.1	GCA_026283745.1	0.014956	Diopsittaca nobilis	Eupsittula aurea	19.937
 GCA_024337085.1	GCA_026283765.1	0.070951	Diopsittaca nobilis	Psephotus haematonotus	77.635
@@ -5377,6 +5481,7 @@ GCA_024337085.1	GCA_035222285.1	0.079186	Diopsittaca nobilis	Agapornis lilianae	
 GCA_024337085.1	GCA_035583095.1	0.071427	Diopsittaca nobilis	Cacatua galerita	81.521
 GCA_024337085.1	GCA_036873685.1	0.080628	Diopsittaca nobilis	Agapornis canus	77.635
 GCA_024337085.1	GCA_037157495.1	0.071132	Diopsittaca nobilis	Lathamus discolor	77.635
+GCA_024337085.1	GCA_037157625.1	0.072729	Diopsittaca nobilis	Lathamus discolor	77.635
 GCA_024337085.1	GCA_038381815.1	0.019181	Diopsittaca nobilis	Anodorhynchus leari	20.274
 GCA_024337085.1	GCA_038406155.1	0.025349	Diopsittaca nobilis	Pyrrhura leucotis	26.18
 GCA_024337085.1	GCA_039720425.1	0.053928	Diopsittaca nobilis	Amazona ochrocephala	50.04
@@ -5439,6 +5544,7 @@ GCA_024337125.1	GCA_025448075.1	0.07221	Agapornis roseicollis	Melopsittacus undu
 GCA_024337125.1	GCA_025448095.1	0.081118	Agapornis roseicollis	Poicephalus senegalus	77.635
 GCA_024337125.1	GCA_025448155.1	0.079901	Agapornis roseicollis	Cacatua ducorpsii	81.521
 GCA_024337125.1	GCA_025629865.1	0.079717	Agapornis roseicollis	Cyanoliseus patagonus	77.635
+GCA_024337125.1	GCA_025629885.1	0.065723	Agapornis roseicollis	Lorius chlorocercus	64.053
 GCA_024337125.1	GCA_025629905.1	0.066887	Agapornis roseicollis	Lorius lory	64.053
 GCA_024337125.1	GCA_025629925.1	0.066548	Agapornis roseicollis	Platycercus adscitus	70.802
 GCA_024337125.1	GCA_025629965.1	0.06866	Agapornis roseicollis	Cyanoramphus novaezelandiae	70.802
@@ -5446,6 +5552,7 @@ GCA_024337125.1	GCA_026283615.1	0.080765	Agapornis roseicollis	Amazona vinacea	7
 GCA_024337125.1	GCA_026283635.1	0.08871	Agapornis roseicollis	Ara macao	77.635
 GCA_024337125.1	GCA_026283665.1	0.081737	Agapornis roseicollis	Amazona leucocephala	77.635
 GCA_024337125.1	GCA_026283685.1	0.082258	Agapornis roseicollis	Amazona aestiva	77.635
+GCA_024337125.1	GCA_026283705.1	0.080119	Agapornis roseicollis	Psittacara chloropterus	77.635
 GCA_024337125.1	GCA_026283725.1	0.080263	Agapornis roseicollis	Ara rubrogenys	77.635
 GCA_024337125.1	GCA_026283745.1	0.08062	Agapornis roseicollis	Eupsittula aurea	77.635
 GCA_024337125.1	GCA_026283765.1	0.067592	Agapornis roseicollis	Psephotus haematonotus	70.802
@@ -5514,6 +5621,7 @@ GCA_024337125.1	GCA_035222285.1	0.0089201	Agapornis roseicollis	Agapornis lilian
 GCA_024337125.1	GCA_035583095.1	0.080052	Agapornis roseicollis	Cacatua galerita	81.521
 GCA_024337125.1	GCA_036873685.1	0.036428	Agapornis roseicollis	Agapornis canus	24.069
 GCA_024337125.1	GCA_037157495.1	0.067708	Agapornis roseicollis	Lathamus discolor	70.802
+GCA_024337125.1	GCA_037157625.1	0.069343	Agapornis roseicollis	Lathamus discolor	70.802
 GCA_024337125.1	GCA_038381815.1	0.084321	Agapornis roseicollis	Anodorhynchus leari	77.635
 GCA_024337125.1	GCA_038406155.1	0.084697	Agapornis roseicollis	Pyrrhura leucotis	77.635
 GCA_024337125.1	GCA_039720425.1	0.082732	Agapornis roseicollis	Amazona ochrocephala	77.635
@@ -5575,6 +5683,7 @@ GCA_024361745.1	GCA_025448075.1	0.077779	Cacatua alba	Melopsittacus undulatus	81
 GCA_024361745.1	GCA_025448095.1	0.073789	Cacatua alba	Poicephalus senegalus	81.521
 GCA_024361745.1	GCA_025448155.1	0.013051	Cacatua alba	Cacatua ducorpsii	39.92
 GCA_024361745.1	GCA_025629865.1	0.072806	Cacatua alba	Cyanoliseus patagonus	81.521
+GCA_024361745.1	GCA_025629885.1	0.071745	Cacatua alba	Lorius chlorocercus	81.521
 GCA_024361745.1	GCA_025629905.1	0.072652	Cacatua alba	Lorius lory	81.521
 GCA_024361745.1	GCA_025629925.1	0.070819	Cacatua alba	Platycercus adscitus	81.521
 GCA_024361745.1	GCA_025629965.1	0.071867	Cacatua alba	Cyanoramphus novaezelandiae	81.521
@@ -5582,6 +5691,7 @@ GCA_024361745.1	GCA_026283615.1	0.07407	Cacatua alba	Amazona vinacea	81.521
 GCA_024361745.1	GCA_026283635.1	0.081422	Cacatua alba	Ara macao	81.521
 GCA_024361745.1	GCA_026283665.1	0.074294	Cacatua alba	Amazona leucocephala	81.521
 GCA_024361745.1	GCA_026283685.1	0.075198	Cacatua alba	Amazona aestiva	81.521
+GCA_024361745.1	GCA_026283705.1	0.073241	Cacatua alba	Psittacara chloropterus	81.521
 GCA_024361745.1	GCA_026283725.1	0.073241	Cacatua alba	Ara rubrogenys	81.521
 GCA_024361745.1	GCA_026283745.1	0.074396	Cacatua alba	Eupsittula aurea	81.521
 GCA_024361745.1	GCA_026283765.1	0.071799	Cacatua alba	Psephotus haematonotus	81.521
@@ -5650,6 +5760,7 @@ GCA_024361745.1	GCA_035222285.1	0.080297	Cacatua alba	Agapornis lilianae	81.521
 GCA_024361745.1	GCA_035583095.1	0.0083865	Cacatua alba	Cacatua galerita	4.98
 GCA_024361745.1	GCA_036873685.1	0.082054	Cacatua alba	Agapornis canus	81.521
 GCA_024361745.1	GCA_037157495.1	0.071718	Cacatua alba	Lathamus discolor	81.521
+GCA_024361745.1	GCA_037157625.1	0.073511	Cacatua alba	Lathamus discolor	81.521
 GCA_024361745.1	GCA_038381815.1	0.07704	Cacatua alba	Anodorhynchus leari	81.521
 GCA_024361745.1	GCA_038406155.1	0.078074	Cacatua alba	Pyrrhura leucotis	81.521
 GCA_024361745.1	GCA_039720425.1	0.075933	Cacatua alba	Amazona ochrocephala	81.521
@@ -5710,6 +5821,7 @@ GCA_024361765.2	GCA_025448075.1	0.078541	Psittacara wagleri	Melopsittacus undula
 GCA_024361765.2	GCA_025448095.1	0.06893	Psittacara wagleri	Poicephalus senegalus	64.077
 GCA_024361765.2	GCA_025448155.1	0.072687	Psittacara wagleri	Cacatua ducorpsii	81.521
 GCA_024361765.2	GCA_025629865.1	0.018484	Psittacara wagleri	Cyanoliseus patagonus	20.61
+GCA_024361765.2	GCA_025629885.1	0.072237	Psittacara wagleri	Lorius chlorocercus	77.635
 GCA_024361765.2	GCA_025629905.1	0.073568	Psittacara wagleri	Lorius lory	77.635
 GCA_024361765.2	GCA_025629925.1	0.072182	Psittacara wagleri	Platycercus adscitus	77.635
 GCA_024361765.2	GCA_025629965.1	0.073732	Psittacara wagleri	Cyanoramphus novaezelandiae	77.635
@@ -5717,6 +5829,7 @@ GCA_024361765.2	GCA_026283615.1	0.054507	Psittacara wagleri	Amazona vinacea	50.0
 GCA_024361765.2	GCA_026283635.1	0.028236	Psittacara wagleri	Ara macao	19.601
 GCA_024361765.2	GCA_026283665.1	0.055559	Psittacara wagleri	Amazona leucocephala	50.04
 GCA_024361765.2	GCA_026283685.1	0.054962	Psittacara wagleri	Amazona aestiva	50.04
+GCA_024361765.2	GCA_026283705.1	0.0073928	Psittacara wagleri	Psittacara chloropterus	4.3719
 GCA_024361765.2	GCA_026283725.1	0.016434	Psittacara wagleri	Ara rubrogenys	19.601
 GCA_024361765.2	GCA_026283745.1	0.017232	Psittacara wagleri	Eupsittula aurea	11.156
 GCA_024361765.2	GCA_026283765.1	0.072465	Psittacara wagleri	Psephotus haematonotus	77.635
@@ -5785,6 +5898,7 @@ GCA_024361765.2	GCA_035222285.1	0.080748	Psittacara wagleri	Agapornis lilianae	7
 GCA_024361765.2	GCA_035583095.1	0.073525	Psittacara wagleri	Cacatua galerita	81.521
 GCA_024361765.2	GCA_036873685.1	0.082383	Psittacara wagleri	Agapornis canus	77.635
 GCA_024361765.2	GCA_037157495.1	0.073107	Psittacara wagleri	Lathamus discolor	77.635
+GCA_024361765.2	GCA_037157625.1	0.075035	Psittacara wagleri	Lathamus discolor	77.635
 GCA_024361765.2	GCA_038381815.1	0.021618	Psittacara wagleri	Anodorhynchus leari	20.274
 GCA_024361765.2	GCA_038406155.1	0.027378	Psittacara wagleri	Pyrrhura leucotis	26.18
 GCA_024361765.2	GCA_039720425.1	0.056184	Psittacara wagleri	Amazona ochrocephala	50.04
@@ -5844,6 +5958,7 @@ GCA_024678265.1	GCA_025448075.1	0.083049	Probosciger aterrimus	Melopsittacus und
 GCA_024678265.1	GCA_025448095.1	0.07813	Probosciger aterrimus	Poicephalus senegalus	81.521
 GCA_024678265.1	GCA_025448155.1	0.039718	Probosciger aterrimus	Cacatua ducorpsii	64.881
 GCA_024678265.1	GCA_025629865.1	0.077883	Probosciger aterrimus	Cyanoliseus patagonus	81.521
+GCA_024678265.1	GCA_025629885.1	0.076452	Probosciger aterrimus	Lorius chlorocercus	81.521
 GCA_024678265.1	GCA_025629905.1	0.077859	Probosciger aterrimus	Lorius lory	81.521
 GCA_024678265.1	GCA_025629925.1	0.075895	Probosciger aterrimus	Platycercus adscitus	81.521
 GCA_024678265.1	GCA_025629965.1	0.077479	Probosciger aterrimus	Cyanoramphus novaezelandiae	81.521
@@ -5851,6 +5966,7 @@ GCA_024678265.1	GCA_026283615.1	0.079742	Probosciger aterrimus	Amazona vinacea	8
 GCA_024678265.1	GCA_026283635.1	0.086913	Probosciger aterrimus	Ara macao	81.521
 GCA_024678265.1	GCA_026283665.1	0.080765	Probosciger aterrimus	Amazona leucocephala	81.521
 GCA_024678265.1	GCA_026283685.1	0.081737	Probosciger aterrimus	Amazona aestiva	81.521
+GCA_024678265.1	GCA_026283705.1	0.078687	Probosciger aterrimus	Psittacara chloropterus	81.521
 GCA_024678265.1	GCA_026283725.1	0.078509	Probosciger aterrimus	Ara rubrogenys	81.521
 GCA_024678265.1	GCA_026283745.1	0.07876	Probosciger aterrimus	Eupsittula aurea	81.521
 GCA_024678265.1	GCA_026283765.1	0.076923	Probosciger aterrimus	Psephotus haematonotus	81.521
@@ -5919,6 +6035,7 @@ GCA_024678265.1	GCA_035222285.1	0.083772	Probosciger aterrimus	Agapornis liliana
 GCA_024678265.1	GCA_035583095.1	0.038758	Probosciger aterrimus	Cacatua galerita	64.881
 GCA_024678265.1	GCA_036873685.1	0.086407	Probosciger aterrimus	Agapornis canus	81.521
 GCA_024678265.1	GCA_037157495.1	0.076714	Probosciger aterrimus	Lathamus discolor	81.521
+GCA_024678265.1	GCA_037157625.1	0.07683	Probosciger aterrimus	Lathamus discolor	81.521
 GCA_024678265.1	GCA_038381815.1	0.081605	Probosciger aterrimus	Anodorhynchus leari	81.521
 GCA_024678265.1	GCA_038406155.1	0.083717	Probosciger aterrimus	Pyrrhura leucotis	81.521
 GCA_024678265.1	GCA_039720425.1	0.080263	Probosciger aterrimus	Amazona ochrocephala	81.521
@@ -5977,6 +6094,7 @@ GCA_024733675.1	GCA_025448075.1	0.083772	Psilopsiagon aymara	Melopsittacus undul
 GCA_024733675.1	GCA_025448095.1	0.075332	Psilopsiagon aymara	Poicephalus senegalus	64.077
 GCA_024733675.1	GCA_025448155.1	0.078948	Psilopsiagon aymara	Cacatua ducorpsii	81.521
 GCA_024733675.1	GCA_025629865.1	0.061568	Psilopsiagon aymara	Cyanoliseus patagonus	50.52
+GCA_024733675.1	GCA_025629885.1	0.077589	Psilopsiagon aymara	Lorius chlorocercus	77.635
 GCA_024733675.1	GCA_025629905.1	0.079063	Psilopsiagon aymara	Lorius lory	77.635
 GCA_024733675.1	GCA_025629925.1	0.078194	Psilopsiagon aymara	Platycercus adscitus	77.635
 GCA_024733675.1	GCA_025629965.1	0.079667	Psilopsiagon aymara	Cyanoramphus novaezelandiae	77.635
@@ -5984,6 +6102,7 @@ GCA_024733675.1	GCA_026283615.1	0.063423	Psilopsiagon aymara	Amazona vinacea	50.
 GCA_024733675.1	GCA_026283635.1	0.072855	Psilopsiagon aymara	Ara macao	50.52
 GCA_024733675.1	GCA_026283665.1	0.064605	Psilopsiagon aymara	Amazona leucocephala	50.52
 GCA_024733675.1	GCA_026283685.1	0.065069	Psilopsiagon aymara	Amazona aestiva	50.52
+GCA_024733675.1	GCA_026283705.1	0.062718	Psilopsiagon aymara	Psittacara chloropterus	50.52
 GCA_024733675.1	GCA_026283725.1	0.062489	Psilopsiagon aymara	Ara rubrogenys	50.52
 GCA_024733675.1	GCA_026283745.1	0.062948	Psilopsiagon aymara	Eupsittula aurea	50.52
 GCA_024733675.1	GCA_026283765.1	0.079096	Psilopsiagon aymara	Psephotus haematonotus	77.635
@@ -6052,6 +6171,7 @@ GCA_024733675.1	GCA_035222285.1	0.086053	Psilopsiagon aymara	Agapornis lilianae	
 GCA_024733675.1	GCA_035583095.1	0.079063	Psilopsiagon aymara	Cacatua galerita	81.521
 GCA_024733675.1	GCA_036873685.1	0.088089	Psilopsiagon aymara	Agapornis canus	77.635
 GCA_024733675.1	GCA_037157495.1	0.079219	Psilopsiagon aymara	Lathamus discolor	77.635
+GCA_024733675.1	GCA_037157625.1	0.080475	Psilopsiagon aymara	Lathamus discolor	77.635
 GCA_024733675.1	GCA_038381815.1	0.066371	Psilopsiagon aymara	Anodorhynchus leari	50.52
 GCA_024733675.1	GCA_038406155.1	0.067702	Psilopsiagon aymara	Pyrrhura leucotis	50.52
 GCA_024733675.1	GCA_039720425.1	0.064684	Psilopsiagon aymara	Amazona ochrocephala	50.52
@@ -6109,6 +6229,7 @@ GCA_024733695.1	GCA_025448075.1	0.076268	Ara severus	Melopsittacus undulatus	77.
 GCA_024733695.1	GCA_025448095.1	0.06653	Ara severus	Poicephalus senegalus	64.077
 GCA_024733695.1	GCA_025448155.1	0.070416	Ara severus	Cacatua ducorpsii	81.521
 GCA_024733695.1	GCA_025629865.1	0.015393	Ara severus	Cyanoliseus patagonus	20.61
+GCA_024733695.1	GCA_025629885.1	0.069554	Ara severus	Lorius chlorocercus	77.635
 GCA_024733695.1	GCA_025629905.1	0.070865	Ara severus	Lorius lory	77.635
 GCA_024733695.1	GCA_025629925.1	0.070018	Ara severus	Platycercus adscitus	77.635
 GCA_024733695.1	GCA_025629965.1	0.071881	Ara severus	Cyanoramphus novaezelandiae	77.635
@@ -6116,6 +6237,7 @@ GCA_024733695.1	GCA_026283615.1	0.05169	Ara severus	Amazona vinacea	50.04
 GCA_024733695.1	GCA_026283635.1	0.020451	Ara severus	Ara macao	9.6483
 GCA_024733695.1	GCA_026283665.1	0.053012	Ara severus	Amazona leucocephala	50.04
 GCA_024733695.1	GCA_026283685.1	0.052658	Ara severus	Amazona aestiva	50.04
+GCA_024733695.1	GCA_026283705.1	0.014394	Ara severus	Psittacara chloropterus	19.601
 GCA_024733695.1	GCA_026283725.1	0.0092575	Ara severus	Ara rubrogenys	13.39
 GCA_024733695.1	GCA_026283745.1	0.014424	Ara severus	Eupsittula aurea	19.601
 GCA_024733695.1	GCA_026283765.1	0.071038	Ara severus	Psephotus haematonotus	77.635
@@ -6184,6 +6306,7 @@ GCA_024733695.1	GCA_035222285.1	0.078484	Ara severus	Agapornis lilianae	77.635
 GCA_024733695.1	GCA_035583095.1	0.071393	Ara severus	Cacatua galerita	81.521
 GCA_024733695.1	GCA_036873685.1	0.080347	Ara severus	Agapornis canus	77.635
 GCA_024733695.1	GCA_037157495.1	0.071105	Ara severus	Lathamus discolor	77.635
+GCA_024733695.1	GCA_037157625.1	0.072778	Ara severus	Lathamus discolor	77.635
 GCA_024733695.1	GCA_038381815.1	0.018679	Ara severus	Anodorhynchus leari	20.274
 GCA_024733695.1	GCA_038406155.1	0.024954	Ara severus	Pyrrhura leucotis	26.18
 GCA_024733695.1	GCA_039720425.1	0.053481	Ara severus	Amazona ochrocephala	50.04
@@ -6240,6 +6363,7 @@ GCA_025447915.1	GCA_025448075.1	0.037663	Trichoglossus euteles	Melopsittacus und
 GCA_025447915.1	GCA_025448095.1	0.071535	Trichoglossus euteles	Poicephalus senegalus	77.635
 GCA_025447915.1	GCA_025448155.1	0.069973	Trichoglossus euteles	Cacatua ducorpsii	81.521
 GCA_025447915.1	GCA_025629865.1	0.06926	Trichoglossus euteles	Cyanoliseus patagonus	77.635
+GCA_025447915.1	GCA_025629885.1	0.0099617	Trichoglossus euteles	Lorius chlorocercus	11.839
 GCA_025447915.1	GCA_025629905.1	0.0058712	Trichoglossus euteles	Lorius lory	11.839
 GCA_025447915.1	GCA_025629925.1	0.056505	Trichoglossus euteles	Platycercus adscitus	70.802
 GCA_025447915.1	GCA_025629965.1	0.058109	Trichoglossus euteles	Cyanoramphus novaezelandiae	70.802
@@ -6247,6 +6371,7 @@ GCA_025447915.1	GCA_026283615.1	0.071582	Trichoglossus euteles	Amazona vinacea	7
 GCA_025447915.1	GCA_026283635.1	0.0795	Trichoglossus euteles	Ara macao	77.635
 GCA_025447915.1	GCA_026283665.1	0.072507	Trichoglossus euteles	Amazona leucocephala	77.635
 GCA_025447915.1	GCA_026283685.1	0.073171	Trichoglossus euteles	Amazona aestiva	77.635
+GCA_025447915.1	GCA_026283705.1	0.070051	Trichoglossus euteles	Psittacara chloropterus	77.635
 GCA_025447915.1	GCA_026283725.1	0.069966	Trichoglossus euteles	Ara rubrogenys	77.635
 GCA_025447915.1	GCA_026283745.1	0.070574	Trichoglossus euteles	Eupsittula aurea	77.635
 GCA_025447915.1	GCA_026283765.1	0.057357	Trichoglossus euteles	Psephotus haematonotus	70.802
@@ -6315,6 +6440,7 @@ GCA_025447915.1	GCA_035222285.1	0.064359	Trichoglossus euteles	Agapornis liliana
 GCA_025447915.1	GCA_035583095.1	0.069624	Trichoglossus euteles	Cacatua galerita	81.521
 GCA_025447915.1	GCA_036873685.1	0.065897	Trichoglossus euteles	Agapornis canus	64.053
 GCA_025447915.1	GCA_037157495.1	0.057592	Trichoglossus euteles	Lathamus discolor	70.802
+GCA_025447915.1	GCA_037157625.1	0.059579	Trichoglossus euteles	Lathamus discolor	70.802
 GCA_025447915.1	GCA_038381815.1	0.074012	Trichoglossus euteles	Anodorhynchus leari	77.635
 GCA_025447915.1	GCA_038406155.1	0.075176	Trichoglossus euteles	Pyrrhura leucotis	77.635
 GCA_025447915.1	GCA_039720425.1	0.073525	Trichoglossus euteles	Amazona ochrocephala	77.635
@@ -6370,6 +6496,7 @@ GCA_025447935.1	GCA_025448075.1	0.06369	Barnardius zonarius	Melopsittacus undula
 GCA_025447935.1	GCA_025448095.1	0.072127	Barnardius zonarius	Poicephalus senegalus	77.635
 GCA_025447935.1	GCA_025448155.1	0.071005	Barnardius zonarius	Cacatua ducorpsii	81.521
 GCA_025447935.1	GCA_025629865.1	0.070298	Barnardius zonarius	Cyanoliseus patagonus	77.635
+GCA_025447935.1	GCA_025629885.1	0.057211	Barnardius zonarius	Lorius chlorocercus	70.802
 GCA_025447935.1	GCA_025629905.1	0.058872	Barnardius zonarius	Lorius lory	70.802
 GCA_025447935.1	GCA_025629925.1	0.016315	Barnardius zonarius	Platycercus adscitus	11.922
 GCA_025447935.1	GCA_025629965.1	0.032733	Barnardius zonarius	Cyanoramphus novaezelandiae	28.032
@@ -6377,6 +6504,7 @@ GCA_025447935.1	GCA_026283615.1	0.071514	Barnardius zonarius	Amazona vinacea	77.
 GCA_025447935.1	GCA_026283635.1	0.080902	Barnardius zonarius	Ara macao	77.635
 GCA_025447935.1	GCA_026283665.1	0.073044	Barnardius zonarius	Amazona leucocephala	77.635
 GCA_025447935.1	GCA_026283685.1	0.073725	Barnardius zonarius	Amazona aestiva	77.635
+GCA_025447935.1	GCA_026283705.1	0.071138	Barnardius zonarius	Psittacara chloropterus	77.635
 GCA_025447935.1	GCA_026283725.1	0.071393	Barnardius zonarius	Ara rubrogenys	77.635
 GCA_025447935.1	GCA_026283745.1	0.071333	Barnardius zonarius	Eupsittula aurea	77.635
 GCA_025447935.1	GCA_026283765.1	0.02046	Barnardius zonarius	Psephotus haematonotus	23.818
@@ -6445,6 +6573,7 @@ GCA_025447935.1	GCA_035222285.1	0.066566	Barnardius zonarius	Agapornis lilianae	
 GCA_025447935.1	GCA_035583095.1	0.070858	Barnardius zonarius	Cacatua galerita	81.521
 GCA_025447935.1	GCA_036873685.1	0.068058	Barnardius zonarius	Agapornis canus	70.802
 GCA_025447935.1	GCA_037157495.1	0.031802	Barnardius zonarius	Lathamus discolor	28.032
+GCA_025447935.1	GCA_037157625.1	0.033228	Barnardius zonarius	Lathamus discolor	28.032
 GCA_025447935.1	GCA_038381815.1	0.075176	Barnardius zonarius	Anodorhynchus leari	77.635
 GCA_025447935.1	GCA_038406155.1	0.076039	Barnardius zonarius	Pyrrhura leucotis	77.635
 GCA_025447935.1	GCA_039720425.1	0.073319	Barnardius zonarius	Amazona ochrocephala	77.635
@@ -6499,6 +6628,7 @@ GCA_025447955.1	GCA_025448075.1	0.083514	Psilopsiagon aurifrons	Melopsittacus un
 GCA_025447955.1	GCA_025448095.1	0.074491	Psilopsiagon aurifrons	Poicephalus senegalus	64.077
 GCA_025447955.1	GCA_025448155.1	0.077589	Psilopsiagon aurifrons	Cacatua ducorpsii	81.521
 GCA_025447955.1	GCA_025629865.1	0.061173	Psilopsiagon aurifrons	Cyanoliseus patagonus	50.52
+GCA_025447955.1	GCA_025629885.1	0.076853	Psilopsiagon aurifrons	Lorius chlorocercus	77.635
 GCA_025447955.1	GCA_025629905.1	0.07838	Psilopsiagon aurifrons	Lorius lory	77.635
 GCA_025447955.1	GCA_025629925.1	0.077803	Psilopsiagon aurifrons	Platycercus adscitus	77.635
 GCA_025447955.1	GCA_025629965.1	0.078858	Psilopsiagon aurifrons	Cyanoramphus novaezelandiae	77.635
@@ -6506,6 +6636,7 @@ GCA_025447955.1	GCA_026283615.1	0.062548	Psilopsiagon aurifrons	Amazona vinacea	
 GCA_025447955.1	GCA_026283635.1	0.07232	Psilopsiagon aurifrons	Ara macao	50.52
 GCA_025447955.1	GCA_026283665.1	0.06374	Psilopsiagon aurifrons	Amazona leucocephala	50.52
 GCA_025447955.1	GCA_026283685.1	0.064148	Psilopsiagon aurifrons	Amazona aestiva	50.52
+GCA_025447955.1	GCA_026283705.1	0.062241	Psilopsiagon aurifrons	Psittacara chloropterus	50.52
 GCA_025447955.1	GCA_026283725.1	0.062036	Psilopsiagon aurifrons	Ara rubrogenys	50.52
 GCA_025447955.1	GCA_026283745.1	0.062394	Psilopsiagon aurifrons	Eupsittula aurea	50.52
 GCA_025447955.1	GCA_026283765.1	0.078347	Psilopsiagon aurifrons	Psephotus haematonotus	77.635
@@ -6574,6 +6705,7 @@ GCA_025447955.1	GCA_035222285.1	0.085761	Psilopsiagon aurifrons	Agapornis lilian
 GCA_025447955.1	GCA_035583095.1	0.078299	Psilopsiagon aurifrons	Cacatua galerita	81.521
 GCA_025447955.1	GCA_036873685.1	0.087304	Psilopsiagon aurifrons	Agapornis canus	77.635
 GCA_025447955.1	GCA_037157495.1	0.07859	Psilopsiagon aurifrons	Lathamus discolor	77.635
+GCA_025447955.1	GCA_037157625.1	0.079725	Psilopsiagon aurifrons	Lathamus discolor	77.635
 GCA_025447955.1	GCA_038381815.1	0.065798	Psilopsiagon aurifrons	Anodorhynchus leari	50.52
 GCA_025447955.1	GCA_038406155.1	0.067477	Psilopsiagon aurifrons	Pyrrhura leucotis	50.52
 GCA_025447955.1	GCA_039720425.1	0.063927	Psilopsiagon aurifrons	Amazona ochrocephala	50.52
@@ -6627,6 +6759,7 @@ GCA_025448015.1	GCA_025448075.1	0.08284	Bolborhynchus lineola	Melopsittacus undu
 GCA_025448015.1	GCA_025448095.1	0.074659	Bolborhynchus lineola	Poicephalus senegalus	64.077
 GCA_025448015.1	GCA_025448155.1	0.077157	Bolborhynchus lineola	Cacatua ducorpsii	81.521
 GCA_025448015.1	GCA_025629865.1	0.061373	Bolborhynchus lineola	Cyanoliseus patagonus	50.52
+GCA_025448015.1	GCA_025629885.1	0.076838	Bolborhynchus lineola	Lorius chlorocercus	77.635
 GCA_025448015.1	GCA_025629905.1	0.078622	Bolborhynchus lineola	Lorius lory	77.635
 GCA_025448015.1	GCA_025629925.1	0.077859	Bolborhynchus lineola	Platycercus adscitus	77.635
 GCA_025448015.1	GCA_025629965.1	0.078997	Bolborhynchus lineola	Cyanoramphus novaezelandiae	77.635
@@ -6634,6 +6767,7 @@ GCA_025448015.1	GCA_026283615.1	0.063066	Bolborhynchus lineola	Amazona vinacea	5
 GCA_025448015.1	GCA_026283635.1	0.072493	Bolborhynchus lineola	Ara macao	50.52
 GCA_025448015.1	GCA_026283665.1	0.06412	Bolborhynchus lineola	Amazona leucocephala	50.52
 GCA_025448015.1	GCA_026283685.1	0.064633	Bolborhynchus lineola	Amazona aestiva	50.52
+GCA_025448015.1	GCA_026283705.1	0.062532	Bolborhynchus lineola	Psittacara chloropterus	50.52
 GCA_025448015.1	GCA_026283725.1	0.062257	Bolborhynchus lineola	Ara rubrogenys	50.52
 GCA_025448015.1	GCA_026283745.1	0.062638	Bolborhynchus lineola	Eupsittula aurea	50.52
 GCA_025448015.1	GCA_026283765.1	0.078363	Bolborhynchus lineola	Psephotus haematonotus	77.635
@@ -6702,6 +6836,7 @@ GCA_025448015.1	GCA_035222285.1	0.085703	Bolborhynchus lineola	Agapornis liliana
 GCA_025448015.1	GCA_035583095.1	0.078396	Bolborhynchus lineola	Cacatua galerita	81.521
 GCA_025448015.1	GCA_036873685.1	0.086773	Bolborhynchus lineola	Agapornis canus	77.635
 GCA_025448015.1	GCA_037157495.1	0.078509	Bolborhynchus lineola	Lathamus discolor	77.635
+GCA_025448015.1	GCA_037157625.1	0.080018	Bolborhynchus lineola	Lathamus discolor	77.635
 GCA_025448015.1	GCA_038381815.1	0.066394	Bolborhynchus lineola	Anodorhynchus leari	50.52
 GCA_025448015.1	GCA_038406155.1	0.067537	Bolborhynchus lineola	Pyrrhura leucotis	50.52
 GCA_025448015.1	GCA_039720425.1	0.064153	Bolborhynchus lineola	Amazona ochrocephala	50.52
@@ -6754,6 +6889,7 @@ GCA_025448035.1	GCA_025448075.1	0.076513	Cacatua moluccensis	Melopsittacus undul
 GCA_025448035.1	GCA_025448095.1	0.073121	Cacatua moluccensis	Poicephalus senegalus	81.521
 GCA_025448035.1	GCA_025448155.1	0.012306	Cacatua moluccensis	Cacatua ducorpsii	39.92
 GCA_025448035.1	GCA_025629865.1	0.071942	Cacatua moluccensis	Cyanoliseus patagonus	81.521
+GCA_025448035.1	GCA_025629885.1	0.070456	Cacatua moluccensis	Lorius chlorocercus	81.521
 GCA_025448035.1	GCA_025629905.1	0.070925	Cacatua moluccensis	Lorius lory	81.521
 GCA_025448035.1	GCA_025629925.1	0.070305	Cacatua moluccensis	Platycercus adscitus	81.521
 GCA_025448035.1	GCA_025629965.1	0.071018	Cacatua moluccensis	Cyanoramphus novaezelandiae	81.521
@@ -6761,6 +6897,7 @@ GCA_025448035.1	GCA_026283615.1	0.073568	Cacatua moluccensis	Amazona vinacea	81.
 GCA_025448035.1	GCA_026283635.1	0.080945	Cacatua moluccensis	Ara macao	81.521
 GCA_025448035.1	GCA_026283665.1	0.074352	Cacatua moluccensis	Amazona leucocephala	81.521
 GCA_025448035.1	GCA_026283685.1	0.074902	Cacatua moluccensis	Amazona aestiva	81.521
+GCA_025448035.1	GCA_026283705.1	0.07259	Cacatua moluccensis	Psittacara chloropterus	81.521
 GCA_025448035.1	GCA_026283725.1	0.072513	Cacatua moluccensis	Ara rubrogenys	81.521
 GCA_025448035.1	GCA_026283745.1	0.073404	Cacatua moluccensis	Eupsittula aurea	81.521
 GCA_025448035.1	GCA_026283765.1	0.071548	Cacatua moluccensis	Psephotus haematonotus	81.521
@@ -6829,6 +6966,7 @@ GCA_025448035.1	GCA_035222285.1	0.079968	Cacatua moluccensis	Agapornis lilianae	
 GCA_025448035.1	GCA_035583095.1	0.0074687	Cacatua moluccensis	Cacatua galerita	4.98
 GCA_025448035.1	GCA_036873685.1	0.08143	Cacatua moluccensis	Agapornis canus	81.521
 GCA_025448035.1	GCA_037157495.1	0.071045	Cacatua moluccensis	Lathamus discolor	81.521
+GCA_025448035.1	GCA_037157625.1	0.072974	Cacatua moluccensis	Lathamus discolor	81.521
 GCA_025448035.1	GCA_038381815.1	0.076314	Cacatua moluccensis	Anodorhynchus leari	81.521
 GCA_025448035.1	GCA_038406155.1	0.077353	Cacatua moluccensis	Pyrrhura leucotis	81.521
 GCA_025448035.1	GCA_039720425.1	0.075414	Cacatua moluccensis	Amazona ochrocephala	81.521
@@ -6880,6 +7018,7 @@ GCA_025448055.1	GCA_025448075.1	0.0777	Pionites leucogaster	Melopsittacus undula
 GCA_025448055.1	GCA_025448095.1	0.068064	Pionites leucogaster	Poicephalus senegalus	64.077
 GCA_025448055.1	GCA_025448155.1	0.072493	Pionites leucogaster	Cacatua ducorpsii	81.521
 GCA_025448055.1	GCA_025629865.1	0.02275	Pionites leucogaster	Cyanoliseus patagonus	26.94
+GCA_025448055.1	GCA_025629885.1	0.071259	Pionites leucogaster	Lorius chlorocercus	77.635
 GCA_025448055.1	GCA_025629905.1	0.072562	Pionites leucogaster	Lorius lory	77.635
 GCA_025448055.1	GCA_025629925.1	0.071286	Pionites leucogaster	Platycercus adscitus	77.635
 GCA_025448055.1	GCA_025629965.1	0.073121	Pionites leucogaster	Cyanoramphus novaezelandiae	77.635
@@ -6887,6 +7026,7 @@ GCA_025448055.1	GCA_026283615.1	0.053924	Pionites leucogaster	Amazona vinacea	50
 GCA_025448055.1	GCA_026283635.1	0.034387	Pionites leucogaster	Ara macao	26.94
 GCA_025448055.1	GCA_026283665.1	0.05492	Pionites leucogaster	Amazona leucocephala	50.04
 GCA_025448055.1	GCA_026283685.1	0.054685	Pionites leucogaster	Amazona aestiva	50.04
+GCA_025448055.1	GCA_026283705.1	0.023638	Pionites leucogaster	Psittacara chloropterus	26.94
 GCA_025448055.1	GCA_026283725.1	0.023294	Pionites leucogaster	Ara rubrogenys	26.94
 GCA_025448055.1	GCA_026283745.1	0.023991	Pionites leucogaster	Eupsittula aurea	26.94
 GCA_025448055.1	GCA_026283765.1	0.072175	Pionites leucogaster	Psephotus haematonotus	77.635
@@ -6955,6 +7095,7 @@ GCA_025448055.1	GCA_035222285.1	0.080221	Pionites leucogaster	Agapornis lilianae
 GCA_025448055.1	GCA_035583095.1	0.073192	Pionites leucogaster	Cacatua galerita	81.521
 GCA_025448055.1	GCA_036873685.1	0.081666	Pionites leucogaster	Agapornis canus	77.635
 GCA_025448055.1	GCA_037157495.1	0.072347	Pionites leucogaster	Lathamus discolor	77.635
+GCA_025448055.1	GCA_037157625.1	0.073897	Pionites leucogaster	Lathamus discolor	77.635
 GCA_025448055.1	GCA_038381815.1	0.027516	Pionites leucogaster	Anodorhynchus leari	26.94
 GCA_025448055.1	GCA_038406155.1	0.029437	Pionites leucogaster	Pyrrhura leucotis	26.94
 GCA_025448055.1	GCA_039720425.1	0.055498	Pionites leucogaster	Amazona ochrocephala	50.04
@@ -7005,6 +7146,7 @@ GCA_025448055.1	GCA_988293565.1	0.079708	Pionites leucogaster	Agapornis nigrigen
 GCA_025448075.1	GCA_025448095.1	0.077368	Melopsittacus undulatus	Poicephalus senegalus	77.635
 GCA_025448075.1	GCA_025448155.1	0.076337	Melopsittacus undulatus	Cacatua ducorpsii	81.521
 GCA_025448075.1	GCA_025629865.1	0.075933	Melopsittacus undulatus	Cyanoliseus patagonus	77.635
+GCA_025448075.1	GCA_025629885.1	0.038055	Melopsittacus undulatus	Lorius chlorocercus	19.5
 GCA_025448075.1	GCA_025629905.1	0.039563	Melopsittacus undulatus	Lorius lory	19.5
 GCA_025448075.1	GCA_025629925.1	0.062857	Melopsittacus undulatus	Platycercus adscitus	70.802
 GCA_025448075.1	GCA_025629965.1	0.064381	Melopsittacus undulatus	Cyanoramphus novaezelandiae	70.802
@@ -7012,6 +7154,7 @@ GCA_025448075.1	GCA_026283615.1	0.077914	Melopsittacus undulatus	Amazona vinacea
 GCA_025448075.1	GCA_026283635.1	0.085557	Melopsittacus undulatus	Ara macao	77.635
 GCA_025448075.1	GCA_026283665.1	0.078557	Melopsittacus undulatus	Amazona leucocephala	77.635
 GCA_025448075.1	GCA_026283685.1	0.079112	Melopsittacus undulatus	Amazona aestiva	77.635
+GCA_025448075.1	GCA_026283705.1	0.076598	Melopsittacus undulatus	Psittacara chloropterus	77.635
 GCA_025448075.1	GCA_026283725.1	0.07676	Melopsittacus undulatus	Ara rubrogenys	77.635
 GCA_025448075.1	GCA_026283745.1	0.076985	Melopsittacus undulatus	Eupsittula aurea	77.635
 GCA_025448075.1	GCA_026283765.1	0.06385	Melopsittacus undulatus	Psephotus haematonotus	70.802
@@ -7080,6 +7223,7 @@ GCA_025448075.1	GCA_035222285.1	0.071138	Melopsittacus undulatus	Agapornis lilia
 GCA_025448075.1	GCA_035583095.1	0.075986	Melopsittacus undulatus	Cacatua galerita	81.521
 GCA_025448075.1	GCA_036873685.1	0.072424	Melopsittacus undulatus	Agapornis canus	64.053
 GCA_025448075.1	GCA_037157495.1	0.063998	Melopsittacus undulatus	Lathamus discolor	70.802
+GCA_025448075.1	GCA_037157625.1	0.065532	Melopsittacus undulatus	Lathamus discolor	70.802
 GCA_025448075.1	GCA_038381815.1	0.080937	Melopsittacus undulatus	Anodorhynchus leari	77.635
 GCA_025448075.1	GCA_038406155.1	0.081754	Melopsittacus undulatus	Pyrrhura leucotis	77.635
 GCA_025448075.1	GCA_039720425.1	0.07917	Melopsittacus undulatus	Amazona ochrocephala	77.635
@@ -7129,6 +7273,7 @@ GCA_025448075.1	GCA_988293145.1	0.070858	Melopsittacus undulatus	Agapornis nigri
 GCA_025448075.1	GCA_988293565.1	0.070858	Melopsittacus undulatus	Agapornis nigrigenis	64.053
 GCA_025448095.1	GCA_025448155.1	0.072722	Poicephalus senegalus	Cacatua ducorpsii	81.521
 GCA_025448095.1	GCA_025629865.1	0.06613	Poicephalus senegalus	Cyanoliseus patagonus	64.077
+GCA_025448095.1	GCA_025629885.1	0.071758	Poicephalus senegalus	Lorius chlorocercus	77.635
 GCA_025448095.1	GCA_025629905.1	0.072974	Poicephalus senegalus	Lorius lory	77.635
 GCA_025448095.1	GCA_025629925.1	0.071691	Poicephalus senegalus	Platycercus adscitus	77.635
 GCA_025448095.1	GCA_025629965.1	0.07282	Poicephalus senegalus	Cyanoramphus novaezelandiae	77.635
@@ -7136,6 +7281,7 @@ GCA_025448095.1	GCA_026283615.1	0.067629	Poicephalus senegalus	Amazona vinacea	6
 GCA_025448095.1	GCA_026283635.1	0.07666	Poicephalus senegalus	Ara macao	64.077
 GCA_025448095.1	GCA_026283665.1	0.069025	Poicephalus senegalus	Amazona leucocephala	64.077
 GCA_025448095.1	GCA_026283685.1	0.069689	Poicephalus senegalus	Amazona aestiva	64.077
+GCA_025448095.1	GCA_026283705.1	0.066929	Poicephalus senegalus	Psittacara chloropterus	64.077
 GCA_025448095.1	GCA_026283725.1	0.066941	Poicephalus senegalus	Ara rubrogenys	64.077
 GCA_025448095.1	GCA_026283745.1	0.066976	Poicephalus senegalus	Eupsittula aurea	64.077
 GCA_025448095.1	GCA_026283765.1	0.072182	Poicephalus senegalus	Psephotus haematonotus	77.635
@@ -7204,6 +7350,7 @@ GCA_025448095.1	GCA_035222285.1	0.080339	Poicephalus senegalus	Agapornis liliana
 GCA_025448095.1	GCA_035583095.1	0.072666	Poicephalus senegalus	Cacatua galerita	81.521
 GCA_025448095.1	GCA_036873685.1	0.081083	Poicephalus senegalus	Agapornis canus	77.635
 GCA_025448095.1	GCA_037157495.1	0.072251	Poicephalus senegalus	Lathamus discolor	77.635
+GCA_025448095.1	GCA_037157625.1	0.073582	Poicephalus senegalus	Lathamus discolor	77.635
 GCA_025448095.1	GCA_038381815.1	0.071319	Poicephalus senegalus	Anodorhynchus leari	64.077
 GCA_025448095.1	GCA_038406155.1	0.072265	Poicephalus senegalus	Pyrrhura leucotis	64.077
 GCA_025448095.1	GCA_039720425.1	0.069285	Poicephalus senegalus	Amazona ochrocephala	64.077
@@ -7252,6 +7399,7 @@ GCA_025448095.1	GCA_988280925.1	0.069228	Poicephalus senegalus	Psittacula kramer
 GCA_025448095.1	GCA_988293145.1	0.079825	Poicephalus senegalus	Agapornis nigrigenis	77.635
 GCA_025448095.1	GCA_988293565.1	0.079825	Poicephalus senegalus	Agapornis nigrigenis	77.635
 GCA_025448155.1	GCA_025629865.1	0.070122	Cacatua ducorpsii	Cyanoliseus patagonus	81.521
+GCA_025448155.1	GCA_025629885.1	0.069992	Cacatua ducorpsii	Lorius chlorocercus	81.521
 GCA_025448155.1	GCA_025629905.1	0.071629	Cacatua ducorpsii	Lorius lory	81.521
 GCA_025448155.1	GCA_025629925.1	0.069785	Cacatua ducorpsii	Platycercus adscitus	81.521
 GCA_025448155.1	GCA_025629965.1	0.070898	Cacatua ducorpsii	Cyanoramphus novaezelandiae	81.521
@@ -7259,6 +7407,7 @@ GCA_025448155.1	GCA_026283615.1	0.072694	Cacatua ducorpsii	Amazona vinacea	81.52
 GCA_025448155.1	GCA_026283635.1	0.079186	Cacatua ducorpsii	Ara macao	81.521
 GCA_025448155.1	GCA_026283665.1	0.073618	Cacatua ducorpsii	Amazona leucocephala	81.521
 GCA_025448155.1	GCA_026283685.1	0.074063	Cacatua ducorpsii	Amazona aestiva	81.521
+GCA_025448155.1	GCA_026283705.1	0.071292	Cacatua ducorpsii	Psittacara chloropterus	81.521
 GCA_025448155.1	GCA_026283725.1	0.071098	Cacatua ducorpsii	Ara rubrogenys	81.521
 GCA_025448155.1	GCA_026283745.1	0.072072	Cacatua ducorpsii	Eupsittula aurea	81.521
 GCA_025448155.1	GCA_026283765.1	0.071239	Cacatua ducorpsii	Psephotus haematonotus	81.521
@@ -7327,6 +7476,7 @@ GCA_025448155.1	GCA_035222285.1	0.079467	Cacatua ducorpsii	Agapornis lilianae	81
 GCA_025448155.1	GCA_035583095.1	0.011569	Cacatua ducorpsii	Cacatua galerita	39.92
 GCA_025448155.1	GCA_036873685.1	0.081006	Cacatua ducorpsii	Agapornis canus	81.521
 GCA_025448155.1	GCA_037157495.1	0.070985	Cacatua ducorpsii	Lathamus discolor	81.521
+GCA_025448155.1	GCA_037157625.1	0.07259	Cacatua ducorpsii	Lathamus discolor	81.521
 GCA_025448155.1	GCA_038381815.1	0.074828	Cacatua ducorpsii	Anodorhynchus leari	81.521
 GCA_025448155.1	GCA_038406155.1	0.07623	Cacatua ducorpsii	Pyrrhura leucotis	81.521
 GCA_025448155.1	GCA_039720425.1	0.074476	Cacatua ducorpsii	Amazona ochrocephala	81.521
@@ -7374,6 +7524,7 @@ GCA_025448155.1	GCA_988280915.1	0.06996	Cacatua ducorpsii	Psittacula krameri	81.
 GCA_025448155.1	GCA_988280925.1	0.068417	Cacatua ducorpsii	Psittacula krameri	81.521
 GCA_025448155.1	GCA_988293145.1	0.079071	Cacatua ducorpsii	Agapornis nigrigenis	81.521
 GCA_025448155.1	GCA_988293565.1	0.079071	Cacatua ducorpsii	Agapornis nigrigenis	81.521
+GCA_025629865.1	GCA_025629885.1	0.069451	Cyanoliseus patagonus	Lorius chlorocercus	77.635
 GCA_025629865.1	GCA_025629905.1	0.070607	Cyanoliseus patagonus	Lorius lory	77.635
 GCA_025629865.1	GCA_025629925.1	0.06996	Cyanoliseus patagonus	Platycercus adscitus	77.635
 GCA_025629865.1	GCA_025629965.1	0.071738	Cyanoliseus patagonus	Cyanoramphus novaezelandiae	77.635
@@ -7381,6 +7532,7 @@ GCA_025629865.1	GCA_026283615.1	0.051783	Cyanoliseus patagonus	Amazona vinacea	5
 GCA_025629865.1	GCA_026283635.1	0.027108	Cyanoliseus patagonus	Ara macao	20.61
 GCA_025629865.1	GCA_026283665.1	0.052871	Cyanoliseus patagonus	Amazona leucocephala	50.04
 GCA_025629865.1	GCA_026283685.1	0.05263	Cyanoliseus patagonus	Amazona aestiva	50.04
+GCA_025629865.1	GCA_026283705.1	0.016587	Cyanoliseus patagonus	Psittacara chloropterus	20.61
 GCA_025629865.1	GCA_026283725.1	0.016072	Cyanoliseus patagonus	Ara rubrogenys	20.61
 GCA_025629865.1	GCA_026283745.1	0.016819	Cyanoliseus patagonus	Eupsittula aurea	20.61
 GCA_025629865.1	GCA_026283765.1	0.070786	Cyanoliseus patagonus	Psephotus haematonotus	77.635
@@ -7449,6 +7601,7 @@ GCA_025629865.1	GCA_035222285.1	0.078817	Cyanoliseus patagonus	Agapornis liliana
 GCA_025629865.1	GCA_035583095.1	0.071346	Cyanoliseus patagonus	Cacatua galerita	81.521
 GCA_025629865.1	GCA_036873685.1	0.080322	Cyanoliseus patagonus	Agapornis canus	77.635
 GCA_025629865.1	GCA_037157495.1	0.070905	Cyanoliseus patagonus	Lathamus discolor	77.635
+GCA_025629865.1	GCA_037157625.1	0.072479	Cyanoliseus patagonus	Lathamus discolor	77.635
 GCA_025629865.1	GCA_038381815.1	0.020388	Cyanoliseus patagonus	Anodorhynchus leari	20.61
 GCA_025629865.1	GCA_038406155.1	0.025032	Cyanoliseus patagonus	Pyrrhura leucotis	26.18
 GCA_025629865.1	GCA_039720425.1	0.053547	Cyanoliseus patagonus	Amazona ochrocephala	50.04
@@ -7496,12 +7649,137 @@ GCA_025629865.1	GCA_988280915.1	0.069038	Cyanoliseus patagonus	Psittacula kramer
 GCA_025629865.1	GCA_988280925.1	0.067126	Cyanoliseus patagonus	Psittacula krameri	77.635
 GCA_025629865.1	GCA_988293145.1	0.07838	Cyanoliseus patagonus	Agapornis nigrigenis	77.635
 GCA_025629865.1	GCA_988293565.1	0.07838	Cyanoliseus patagonus	Agapornis nigrigenis	77.635
+GCA_025629885.1	GCA_025629905.1	0.011423	Lorius chlorocercus	Lorius lory	9.0064
+GCA_025629885.1	GCA_025629925.1	0.056784	Lorius chlorocercus	Platycercus adscitus	70.802
+GCA_025629885.1	GCA_025629965.1	0.058515	Lorius chlorocercus	Cyanoramphus novaezelandiae	70.802
+GCA_025629885.1	GCA_026283615.1	0.071299	Lorius chlorocercus	Amazona vinacea	77.635
+GCA_025629885.1	GCA_026283635.1	0.079517	Lorius chlorocercus	Ara macao	77.635
+GCA_025629885.1	GCA_026283665.1	0.072569	Lorius chlorocercus	Amazona leucocephala	77.635
+GCA_025629885.1	GCA_026283685.1	0.073142	Lorius chlorocercus	Amazona aestiva	77.635
+GCA_025629885.1	GCA_026283705.1	0.070429	Lorius chlorocercus	Psittacara chloropterus	77.635
+GCA_025629885.1	GCA_026283725.1	0.070253	Lorius chlorocercus	Ara rubrogenys	77.635
+GCA_025629885.1	GCA_026283745.1	0.070805	Lorius chlorocercus	Eupsittula aurea	77.635
+GCA_025629885.1	GCA_026283765.1	0.057768	Lorius chlorocercus	Psephotus haematonotus	70.802
+GCA_025629885.1	GCA_026283785.1	0.062099	Lorius chlorocercus	Coracopsis vasa	74.954
+GCA_025629885.1	GCA_026283805.1	0.070324	Lorius chlorocercus	Psittacara mitratus	77.635
+GCA_025629885.1	GCA_026283825.1	0.072079	Lorius chlorocercus	Poicephalus rufiventris	77.635
+GCA_025629885.1	GCA_026283845.1	0.069914	Lorius chlorocercus	Primolius maracana	77.635
+GCA_025629885.1	GCA_026283865.1	0.072827	Lorius chlorocercus	Poicephalus meyeri	77.635
+GCA_025629885.1	GCA_026283885.1	0.0725	Lorius chlorocercus	Poicephalus gulielmi	77.635
+GCA_025629885.1	GCA_026283905.1	0.059662	Lorius chlorocercus	Psittacula cyanocephala	72.273
+GCA_025629885.1	GCA_026284485.1	0.071582	Lorius chlorocercus	Aratinga jandaya	77.635
+GCA_025629885.1	GCA_026284505.1	0.071031	Lorius chlorocercus	Deroptyus accipitrinus	77.635
+GCA_025629885.1	GCA_026284545.1	0.072813	Lorius chlorocercus	Pyrrhura picta	77.635
+GCA_025629885.1	GCA_026284585.2	0.072708	Lorius chlorocercus	Pyrrhura albipectus	77.635
+GCA_025629885.1	GCA_026284605.1	0.072341	Lorius chlorocercus	Pyrrhura egregia	77.635
+GCA_025629885.1	GCA_026284625.1	0.069292	Lorius chlorocercus	Ara ambiguus	77.635
+GCA_025629885.1	GCA_026284685.1	0.069902	Lorius chlorocercus	Aratinga auricapillus	77.635
+GCA_025629885.1	GCA_026284725.1	0.070812	Lorius chlorocercus	Eupsittula canicularis	77.635
+GCA_025629885.1	GCA_026284745.2	0.07252	Lorius chlorocercus	Primolius auricollis	77.635
+GCA_025629885.1	GCA_026284765.1	0.069876	Lorius chlorocercus	Psittacara acuticaudatus	77.635
+GCA_025629885.1	GCA_026284785.1	0.070633	Lorius chlorocercus	Eupsittula nana	77.635
+GCA_025629885.1	GCA_026284805.1	0.069863	Lorius chlorocercus	Rhynchopsitta pachyrhyncha	77.635
+GCA_025629885.1	GCA_026284865.1	0.021153	Lorius chlorocercus	Eos histrio	11.839
+GCA_025629885.1	GCA_026413525.1	0.078138	Lorius chlorocercus	Poicephalus cryptoxanthus	77.635
+GCA_025629885.1	GCA_028858555.1	0.069298	Lorius chlorocercus	Ara ararauna	77.635
+GCA_025629885.1	GCA_028858755.1	0.069196	Lorius chlorocercus	Ara ararauna	77.635
+GCA_025629885.1	GCA_029814565.1	0.070845	Lorius chlorocercus	Pionites melanocephalus	77.635
+GCA_025629885.1	GCA_029814625.1	0.058529	Lorius chlorocercus	Psittacula derbiana	72.273
+GCA_025629885.1	GCA_030264335.1	0.074513	Lorius chlorocercus	Enicognathus leptorhynchus	77.635
+GCA_025629885.1	GCA_030265185.1	0.072072	Lorius chlorocercus	Pyrrhura eisenmanni	77.635
+GCA_025629885.1	GCA_030265285.1	0.069695	Lorius chlorocercus	Cacatua sanguinea	81.521
+GCA_025629885.1	GCA_030323915.1	0.072911	Lorius chlorocercus	Brotogeris chrysoptera	77.635
+GCA_025629885.1	GCA_031762335.1	0.10774	Lorius chlorocercus	Psittacula eupatria	72.273
+GCA_025629885.1	GCA_031762375.1	0.071555	Lorius chlorocercus	Poicephalus rueppellii	77.635
+GCA_025629885.1	GCA_031762475.1	0.069927	Lorius chlorocercus	Cacatua sulphurea	81.521
+GCA_025629885.1	GCA_031762955.1	0.059108	Lorius chlorocercus	Psittacula longicauda	72.273
+GCA_025629885.1	GCA_031763625.1	0.071272	Lorius chlorocercus	Amazona oratrix	77.635
+GCA_025629885.1	GCA_031763645.1	0.12599	Lorius chlorocercus	Pionus seniloides	77.635
+GCA_025629885.1	GCA_031763765.1	0.13081	Lorius chlorocercus	Psittacara erythrogenys	77.635
+GCA_025629885.1	GCA_031763935.1	0.071697	Lorius chlorocercus	Amazona finschi	77.635
+GCA_025629885.1	GCA_032274665.1	0.060265	Lorius chlorocercus	Psittacula columboides	72.273
+GCA_025629885.1	GCA_032353375.1	0.086953	Lorius chlorocercus	Forpus cyanopygius	77.635
+GCA_025629885.1	GCA_032357275.1	0.07505	Lorius chlorocercus	Micropsitta pusio	72.273
+GCA_025629885.1	GCA_032357765.1	0.12562	Lorius chlorocercus	Amazona auropalliata	77.635
+GCA_025629885.1	GCA_032360005.1	0.098652	Lorius chlorocercus	Amazona ochrocephala	77.635
+GCA_025629885.1	GCA_032360045.1	0.15325	Lorius chlorocercus	Amazona ventralis	77.635
+GCA_025629885.1	GCA_032361345.1	0.1309	Lorius chlorocercus	Trichoglossus haematodus	11.839
+GCA_025629885.1	GCA_032466295.1	0.090438	Lorius chlorocercus	Forpus passerinus	77.635
+GCA_025629885.1	GCA_032466415.1	0.087924	Lorius chlorocercus	Forpus xanthopterygius	77.635
+GCA_025629885.1	GCA_032466535.1	0.083864	Lorius chlorocercus	Forpus xanthops	77.635
+GCA_025629885.1	GCA_033783945.1	0.06126	Lorius chlorocercus	Neopsephotus bourkii	70.802
+GCA_025629885.1	GCA_034780615.1	0.0099228	Lorius chlorocercus	Trichoglossus moluccanus	11.839
+GCA_025629885.1	GCA_034781895.1	0.14106	Lorius chlorocercus	Psittacara finschi	77.635
+GCA_025629885.1	GCA_034782355.1	0.071366	Lorius chlorocercus	Amazona kawalli	77.635
+GCA_025629885.1	GCA_034782575.1	0.072911	Lorius chlorocercus	Brotogeris tirica	77.635
+GCA_025629885.1	GCA_034782755.1	0.1139	Lorius chlorocercus	Amazona guildingii	77.635
+GCA_025629885.1	GCA_034782895.1	0.06548	Lorius chlorocercus	Agapornis fischeri	64.053
+GCA_025629885.1	GCA_034782915.1	0.088181	Lorius chlorocercus	Forpus coelestis	77.635
+GCA_025629885.1	GCA_034783095.1	0.12917	Lorius chlorocercus	Forpus spengeli	77.635
+GCA_025629885.1	GCA_034783155.1	0.064331	Lorius chlorocercus	Agapornis personatus	64.053
+GCA_025629885.1	GCA_034783195.1	0.070528	Lorius chlorocercus	Agapornis taranta	64.053
+GCA_025629885.1	GCA_034783435.1	0.066785	Lorius chlorocercus	Agapornis swindernianus	64.053
+GCA_025629885.1	GCA_034783915.1	0.096795	Lorius chlorocercus	Agapornis pullarius	64.053
+GCA_025629885.1	GCA_035041115.1	0.16106	Lorius chlorocercus	Agapornis nigrigenis	64.053
+GCA_025629885.1	GCA_035222285.1	0.064493	Lorius chlorocercus	Agapornis lilianae	64.053
+GCA_025629885.1	GCA_035583095.1	0.070044	Lorius chlorocercus	Cacatua galerita	81.521
+GCA_025629885.1	GCA_036873685.1	0.0662	Lorius chlorocercus	Agapornis canus	64.053
+GCA_025629885.1	GCA_037157495.1	0.057806	Lorius chlorocercus	Lathamus discolor	70.802
+GCA_025629885.1	GCA_037157625.1	0.059476	Lorius chlorocercus	Lathamus discolor	70.802
+GCA_025629885.1	GCA_038381815.1	0.074055	Lorius chlorocercus	Anodorhynchus leari	77.635
+GCA_025629885.1	GCA_038406155.1	0.07531	Lorius chlorocercus	Pyrrhura leucotis	77.635
+GCA_025629885.1	GCA_039720425.1	0.073072	Lorius chlorocercus	Amazona ochrocephala	77.635
+GCA_025629885.1	GCA_039720435.1	0.071386	Lorius chlorocercus	Amazona ochrocephala	77.635
+GCA_025629885.1	GCA_039999165.1	0.057592	Lorius chlorocercus	Lathamus discolor	70.802
+GCA_025629885.1	GCA_040207695.1	0.10908	Lorius chlorocercus	Eolophus roseicapilla	81.521
+GCA_025629885.1	GCA_040966375.1	0.01259	Lorius chlorocercus	Lorius hypoinochrous	9.0064
+GCA_025629885.1	GCA_041108055.1	0.082535	Lorius chlorocercus	Brotogeris pyrrhoptera	77.635
+GCA_025629885.1	GCA_041108195.1	0.082249	Lorius chlorocercus	Brotogeris versicolurus	77.635
+GCA_025629885.1	GCA_041108455.1	0.16819	Lorius chlorocercus	Loriculus galgulus	64.053
+GCA_025629885.1	GCA_041108845.1	0.11965	Lorius chlorocercus	Brotogeris chiriri	77.635
+GCA_025629885.1	GCA_041731235.1	0.074791	Lorius chlorocercus	Brotogeris cyanoptera	77.635
+GCA_025629885.1	GCA_041731355.1	0.097448	Lorius chlorocercus	Loriculus pusillus	64.053
+GCA_025629885.1	GCA_042902855.1	0.067428	Lorius chlorocercus	Loriculus philippensis	64.053
+GCA_025629885.1	GCA_043109885.1	0.073107	Lorius chlorocercus	Zanda funerea	81.521
+GCA_025629885.1	GCA_043110175.1	0.12785	Lorius chlorocercus	Loriculus vernalis	64.053
+GCA_025629885.1	GCA_043110865.1	0.21536	Lorius chlorocercus	Coracopsis nigra	74.954
+GCA_025629885.1	GCA_045345405.1	0.069843	Lorius chlorocercus	Guaruba guarouba	77.635
+GCA_025629885.1	GCA_045519325.1	0.071319	Lorius chlorocercus	Guaruba guarouba	77.635
+GCA_025629885.1	GCA_046039615.1	0.14424	Lorius chlorocercus	Cacatua haematuropygia	81.521
+GCA_025629885.1	GCA_046245015.1	0.023447	Lorius chlorocercus	Eos cyanogenia	11.839
+GCA_025629885.1	GCA_046563285.1	0.06232	Lorius chlorocercus	Loriculus galgulus	64.053
+GCA_025629885.1	GCA_047054915.1	0.062157	Lorius chlorocercus	Neophema chrysogaster	70.802
+GCA_025629885.1	GCA_047446135.1	0.23895	Lorius chlorocercus	Glossopsitta concinna	10.135
+GCA_025629885.1	GCA_047535115.1	0.24876	Lorius chlorocercus	Triclaria malachitacea	77.635
+GCA_025629885.1	GCA_047711335.1	0.20267	Lorius chlorocercus	Chalcopsitta duivenbodei	11.839
+GCA_025629885.1	GCA_048591985.1	0.066277	Lorius chlorocercus	Trichoglossus chlorolepidotus	11.839
+GCA_025629885.1	GCA_051622115.1	0.064065	Lorius chlorocercus	Agapornis fischeri	64.053
+GCA_025629885.1	GCA_051622155.1	0.064376	Lorius chlorocercus	Agapornis roseicollis	64.053
+GCA_025629885.1	GCA_055772115.1	0.060394	Lorius chlorocercus	Psittrichas fulgidus	74.954
+GCA_025629885.1	GCA_055772155.1	0.069598	Lorius chlorocercus	Cyanoliseus patagonus	77.635
+GCA_025629885.1	GCA_056825165.1	0.070311	Lorius chlorocercus	Cyanoliseus patagonus	77.635
+GCA_025629885.1	GCA_056825465.1	0.03786	Lorius chlorocercus	Cyclopsitta diophthalma	61.72
+GCA_025629885.1	GCA_902168055.1	0.069869	Lorius chlorocercus	Aratinga solstitialis	77.635
+GCA_025629885.1	GCA_917880015.2	0.069656	Lorius chlorocercus	Ara rubrogenys	77.635
+GCA_025629885.1	GCA_977968565.1	0.060394	Lorius chlorocercus	Psittrichas fulgidus	74.954
+GCA_025629885.1	GCA_977969355.1	0.069598	Lorius chlorocercus	Cyanoliseus patagonus	77.635
+GCA_025629885.1	GCA_980694505.1	0.072541	Lorius chlorocercus	Amazona vittata	77.635
+GCA_025629885.1	GCA_981469625.1	0.08345	Lorius chlorocercus	Forpus passerinus	77.635
+GCA_025629885.1	GCA_982290525.1	0.070521	Lorius chlorocercus	Psittacara finschi	77.635
+GCA_025629885.1	GCA_982290535.1	0.071596	Lorius chlorocercus	Poicephalus gulielmi	77.635
+GCA_025629885.1	GCA_982290595.1	0.070318	Lorius chlorocercus	Psittacara erythrogenys	77.635
+GCA_025629885.1	GCA_982290605.1	0.071339	Lorius chlorocercus	Poicephalus rueppellii	77.635
+GCA_025629885.1	GCA_988280915.1	0.06031	Lorius chlorocercus	Psittacula krameri	72.273
+GCA_025629885.1	GCA_988280925.1	0.05881	Lorius chlorocercus	Psittacula krameri	72.273
+GCA_025629885.1	GCA_988293145.1	0.064048	Lorius chlorocercus	Agapornis nigrigenis	64.053
+GCA_025629885.1	GCA_988293565.1	0.064048	Lorius chlorocercus	Agapornis nigrigenis	64.053
 GCA_025629905.1	GCA_025629925.1	0.057773	Lorius lory	Platycercus adscitus	70.802
 GCA_025629905.1	GCA_025629965.1	0.05974	Lorius lory	Cyanoramphus novaezelandiae	70.802
 GCA_025629905.1	GCA_026283615.1	0.072988	Lorius lory	Amazona vinacea	77.635
 GCA_025629905.1	GCA_026283635.1	0.080731	Lorius lory	Ara macao	77.635
 GCA_025629905.1	GCA_026283665.1	0.074034	Lorius lory	Amazona leucocephala	77.635
 GCA_025629905.1	GCA_026283685.1	0.074762	Lorius lory	Amazona aestiva	77.635
+GCA_025629905.1	GCA_026283705.1	0.071663	Lorius lory	Psittacara chloropterus	77.635
 GCA_025629905.1	GCA_026283725.1	0.071609	Lorius lory	Ara rubrogenys	77.635
 GCA_025629905.1	GCA_026283745.1	0.072196	Lorius lory	Eupsittula aurea	77.635
 GCA_025629905.1	GCA_026283765.1	0.059016	Lorius lory	Psephotus haematonotus	70.802
@@ -7570,6 +7848,7 @@ GCA_025629905.1	GCA_035222285.1	0.065949	Lorius lory	Agapornis lilianae	64.053
 GCA_025629905.1	GCA_035583095.1	0.07136	Lorius lory	Cacatua galerita	81.521
 GCA_025629905.1	GCA_036873685.1	0.06741	Lorius lory	Agapornis canus	64.053
 GCA_025629905.1	GCA_037157495.1	0.059379	Lorius lory	Lathamus discolor	70.802
+GCA_025629905.1	GCA_037157625.1	0.061249	Lorius lory	Lathamus discolor	70.802
 GCA_025629905.1	GCA_038381815.1	0.075474	Lorius lory	Anodorhynchus leari	77.635
 GCA_025629905.1	GCA_038406155.1	0.076644	Lorius lory	Pyrrhura leucotis	77.635
 GCA_025629905.1	GCA_039720425.1	0.074872	Lorius lory	Amazona ochrocephala	77.635
@@ -7622,6 +7901,7 @@ GCA_025629925.1	GCA_026283615.1	0.071091	Platycercus adscitus	Amazona vinacea	77
 GCA_025629925.1	GCA_026283635.1	0.080246	Platycercus adscitus	Ara macao	77.635
 GCA_025629925.1	GCA_026283665.1	0.072375	Platycercus adscitus	Amazona leucocephala	77.635
 GCA_025629925.1	GCA_026283685.1	0.07282	Platycercus adscitus	Amazona aestiva	77.635
+GCA_025629925.1	GCA_026283705.1	0.070423	Platycercus adscitus	Psittacara chloropterus	77.635
 GCA_025629925.1	GCA_026283725.1	0.070416	Platycercus adscitus	Ara rubrogenys	77.635
 GCA_025629925.1	GCA_026283745.1	0.070686	Platycercus adscitus	Eupsittula aurea	77.635
 GCA_025629925.1	GCA_026283765.1	0.019665	Platycercus adscitus	Psephotus haematonotus	23.818
@@ -7690,6 +7970,7 @@ GCA_025629925.1	GCA_035222285.1	0.065676	Platycercus adscitus	Agapornis lilianae
 GCA_025629925.1	GCA_035583095.1	0.069566	Platycercus adscitus	Cacatua galerita	81.521
 GCA_025629925.1	GCA_036873685.1	0.06712	Platycercus adscitus	Agapornis canus	70.802
 GCA_025629925.1	GCA_037157495.1	0.030951	Platycercus adscitus	Lathamus discolor	28.032
+GCA_025629925.1	GCA_037157625.1	0.032583	Platycercus adscitus	Lathamus discolor	28.032
 GCA_025629925.1	GCA_038381815.1	0.074498	Platycercus adscitus	Anodorhynchus leari	77.635
 GCA_025629925.1	GCA_038406155.1	0.07499	Platycercus adscitus	Pyrrhura leucotis	77.635
 GCA_025629925.1	GCA_039720425.1	0.072981	Platycercus adscitus	Amazona ochrocephala	77.635
@@ -7741,6 +8022,7 @@ GCA_025629965.1	GCA_026283615.1	0.072722	Cyanoramphus novaezelandiae	Amazona vin
 GCA_025629965.1	GCA_026283635.1	0.08193	Cyanoramphus novaezelandiae	Ara macao	77.635
 GCA_025629965.1	GCA_026283665.1	0.073475	Cyanoramphus novaezelandiae	Amazona leucocephala	77.635
 GCA_025629965.1	GCA_026283685.1	0.074149	Cyanoramphus novaezelandiae	Amazona aestiva	77.635
+GCA_025629965.1	GCA_026283705.1	0.071922	Cyanoramphus novaezelandiae	Psittacara chloropterus	77.635
 GCA_025629965.1	GCA_026283725.1	0.072093	Cyanoramphus novaezelandiae	Ara rubrogenys	77.635
 GCA_025629965.1	GCA_026283745.1	0.072341	Cyanoramphus novaezelandiae	Eupsittula aurea	77.635
 GCA_025629965.1	GCA_026283765.1	0.033105	Cyanoramphus novaezelandiae	Psephotus haematonotus	28.032
@@ -7809,6 +8091,7 @@ GCA_025629965.1	GCA_035222285.1	0.067556	Cyanoramphus novaezelandiae	Agapornis l
 GCA_025629965.1	GCA_035583095.1	0.070534	Cyanoramphus novaezelandiae	Cacatua galerita	81.521
 GCA_025629965.1	GCA_036873685.1	0.068354	Cyanoramphus novaezelandiae	Agapornis canus	70.802
 GCA_025629965.1	GCA_037157495.1	0.019618	Cyanoramphus novaezelandiae	Lathamus discolor	20.879
+GCA_025629965.1	GCA_037157625.1	0.021885	Cyanoramphus novaezelandiae	Lathamus discolor	20.879
 GCA_025629965.1	GCA_038381815.1	0.075903	Cyanoramphus novaezelandiae	Anodorhynchus leari	77.635
 GCA_025629965.1	GCA_038406155.1	0.077079	Cyanoramphus novaezelandiae	Pyrrhura leucotis	77.635
 GCA_025629965.1	GCA_039720425.1	0.073962	Cyanoramphus novaezelandiae	Amazona ochrocephala	77.635
@@ -7859,6 +8142,7 @@ GCA_025629965.1	GCA_988293565.1	0.067283	Cyanoramphus novaezelandiae	Agapornis n
 GCA_026283615.1	GCA_026283635.1	0.062389	Amazona vinacea	Ara macao	50.04
 GCA_026283615.1	GCA_026283665.1	0.010635	Amazona vinacea	Amazona leucocephala	20.474
 GCA_026283615.1	GCA_026283685.1	0.011262	Amazona vinacea	Amazona aestiva	20.474
+GCA_026283615.1	GCA_026283705.1	0.052518	Amazona vinacea	Psittacara chloropterus	50.04
 GCA_026283615.1	GCA_026283725.1	0.051838	Amazona vinacea	Ara rubrogenys	50.04
 GCA_026283615.1	GCA_026283745.1	0.052863	Amazona vinacea	Eupsittula aurea	50.04
 GCA_026283615.1	GCA_026283765.1	0.071895	Amazona vinacea	Psephotus haematonotus	77.635
@@ -7927,6 +8211,7 @@ GCA_026283615.1	GCA_035222285.1	0.079834	Amazona vinacea	Agapornis lilianae	77.6
 GCA_026283615.1	GCA_035583095.1	0.072799	Amazona vinacea	Cacatua galerita	81.521
 GCA_026283615.1	GCA_036873685.1	0.081109	Amazona vinacea	Agapornis canus	77.635
 GCA_026283615.1	GCA_037157495.1	0.072313	Amazona vinacea	Lathamus discolor	77.635
+GCA_026283615.1	GCA_037157625.1	0.073618	Amazona vinacea	Lathamus discolor	77.635
 GCA_026283615.1	GCA_038381815.1	0.056241	Amazona vinacea	Anodorhynchus leari	50.04
 GCA_026283615.1	GCA_038406155.1	0.057903	Amazona vinacea	Pyrrhura leucotis	50.04
 GCA_026283615.1	GCA_039720425.1	0.011257	Amazona vinacea	Amazona ochrocephala	20.474
@@ -7976,6 +8261,7 @@ GCA_026283615.1	GCA_988293145.1	0.079335	Amazona vinacea	Agapornis nigrigenis	77
 GCA_026283615.1	GCA_988293565.1	0.079335	Amazona vinacea	Agapornis nigrigenis	77.635
 GCA_026283635.1	GCA_026283665.1	0.063614	Ara macao	Amazona leucocephala	50.04
 GCA_026283635.1	GCA_026283685.1	0.063325	Ara macao	Amazona aestiva	50.04
+GCA_026283635.1	GCA_026283705.1	0.026277	Ara macao	Psittacara chloropterus	19.601
 GCA_026283635.1	GCA_026283725.1	0.021268	Ara macao	Ara rubrogenys	13.39
 GCA_026283635.1	GCA_026283745.1	0.026464	Ara macao	Eupsittula aurea	19.601
 GCA_026283635.1	GCA_026283765.1	0.081196	Ara macao	Psephotus haematonotus	77.635
@@ -8044,6 +8330,7 @@ GCA_026283635.1	GCA_035222285.1	0.08871	Ara macao	Agapornis lilianae	77.635
 GCA_026283635.1	GCA_035583095.1	0.08068	Ara macao	Cacatua galerita	81.521
 GCA_026283635.1	GCA_036873685.1	0.08995	Ara macao	Agapornis canus	77.635
 GCA_026283635.1	GCA_037157495.1	0.081448	Ara macao	Lathamus discolor	77.635
+GCA_026283635.1	GCA_037157625.1	0.083067	Ara macao	Lathamus discolor	77.635
 GCA_026283635.1	GCA_038381815.1	0.029895	Ara macao	Anodorhynchus leari	20.274
 GCA_026283635.1	GCA_038406155.1	0.036522	Ara macao	Pyrrhura leucotis	26.18
 GCA_026283635.1	GCA_039720425.1	0.06437	Ara macao	Amazona ochrocephala	50.04
@@ -8092,6 +8379,7 @@ GCA_026283635.1	GCA_988280925.1	0.077368	Ara macao	Psittacula krameri	77.635
 GCA_026283635.1	GCA_988293145.1	0.088284	Ara macao	Agapornis nigrigenis	77.635
 GCA_026283635.1	GCA_988293565.1	0.088284	Ara macao	Agapornis nigrigenis	77.635
 GCA_026283665.1	GCA_026283685.1	0.0048566	Amazona leucocephala	Amazona aestiva	20.474
+GCA_026283665.1	GCA_026283705.1	0.053481	Amazona leucocephala	Psittacara chloropterus	50.04
 GCA_026283665.1	GCA_026283725.1	0.05259	Amazona leucocephala	Ara rubrogenys	50.04
 GCA_026283665.1	GCA_026283745.1	0.053754	Amazona leucocephala	Eupsittula aurea	50.04
 GCA_026283665.1	GCA_026283765.1	0.07303	Amazona leucocephala	Psephotus haematonotus	77.635
@@ -8160,6 +8448,7 @@ GCA_026283665.1	GCA_035222285.1	0.080963	Amazona leucocephala	Agapornis lilianae
 GCA_026283665.1	GCA_035583095.1	0.073753	Amazona leucocephala	Cacatua galerita	81.521
 GCA_026283665.1	GCA_036873685.1	0.082249	Amazona leucocephala	Agapornis canus	77.635
 GCA_026283665.1	GCA_037157495.1	0.073291	Amazona leucocephala	Lathamus discolor	77.635
+GCA_026283665.1	GCA_037157625.1	0.074535	Amazona leucocephala	Lathamus discolor	77.635
 GCA_026283665.1	GCA_038381815.1	0.057174	Amazona leucocephala	Anodorhynchus leari	50.04
 GCA_026283665.1	GCA_038406155.1	0.058586	Amazona leucocephala	Pyrrhura leucotis	50.04
 GCA_026283665.1	GCA_039720425.1	0.0077468	Amazona leucocephala	Amazona ochrocephala	20.474
@@ -8207,6 +8496,7 @@ GCA_026283665.1	GCA_988280915.1	0.071874	Amazona leucocephala	Psittacula krameri
 GCA_026283665.1	GCA_988280925.1	0.07041	Amazona leucocephala	Psittacula krameri	77.635
 GCA_026283665.1	GCA_988293145.1	0.08056	Amazona leucocephala	Agapornis nigrigenis	77.635
 GCA_026283665.1	GCA_988293565.1	0.08056	Amazona leucocephala	Agapornis nigrigenis	77.635
+GCA_026283685.1	GCA_026283705.1	0.053029	Amazona aestiva	Psittacara chloropterus	50.04
 GCA_026283685.1	GCA_026283725.1	0.052093	Amazona aestiva	Ara rubrogenys	50.04
 GCA_026283685.1	GCA_026283745.1	0.053424	Amazona aestiva	Eupsittula aurea	50.04
 GCA_026283685.1	GCA_026283765.1	0.073468	Amazona aestiva	Psephotus haematonotus	77.635
@@ -8275,6 +8565,7 @@ GCA_026283685.1	GCA_035222285.1	0.081483	Amazona aestiva	Agapornis lilianae	77.6
 GCA_026283685.1	GCA_035583095.1	0.074374	Amazona aestiva	Cacatua galerita	81.521
 GCA_026283685.1	GCA_036873685.1	0.083049	Amazona aestiva	Agapornis canus	77.635
 GCA_026283685.1	GCA_037157495.1	0.073825	Amazona aestiva	Lathamus discolor	77.635
+GCA_026283685.1	GCA_037157625.1	0.075541	Amazona aestiva	Lathamus discolor	77.635
 GCA_026283685.1	GCA_038381815.1	0.057056	Amazona aestiva	Anodorhynchus leari	50.04
 GCA_026283685.1	GCA_038406155.1	0.05842	Amazona aestiva	Pyrrhura leucotis	50.04
 GCA_026283685.1	GCA_039720425.1	0.0086046	Amazona aestiva	Amazona ochrocephala	20.474
@@ -8322,6 +8613,122 @@ GCA_026283685.1	GCA_988280915.1	0.072638	Amazona aestiva	Psittacula krameri	77.6
 GCA_026283685.1	GCA_988280925.1	0.070766	Amazona aestiva	Psittacula krameri	77.635
 GCA_026283685.1	GCA_988293145.1	0.08098	Amazona aestiva	Agapornis nigrigenis	77.635
 GCA_026283685.1	GCA_988293565.1	0.08098	Amazona aestiva	Agapornis nigrigenis	77.635
+GCA_026283705.1	GCA_026283725.1	0.014665	Psittacara chloropterus	Ara rubrogenys	19.601
+GCA_026283705.1	GCA_026283745.1	0.015368	Psittacara chloropterus	Eupsittula aurea	11.156
+GCA_026283705.1	GCA_026283765.1	0.070885	Psittacara chloropterus	Psephotus haematonotus	77.635
+GCA_026283705.1	GCA_026283785.1	0.066982	Psittacara chloropterus	Coracopsis vasa	77.635
+GCA_026283705.1	GCA_026283805.1	0.0052433	Psittacara chloropterus	Psittacara mitratus	3.1943
+GCA_026283705.1	GCA_026283825.1	0.066815	Psittacara chloropterus	Poicephalus rufiventris	64.077
+GCA_026283705.1	GCA_026283845.1	0.014845	Psittacara chloropterus	Primolius maracana	19.601
+GCA_026283705.1	GCA_026283865.1	0.067984	Psittacara chloropterus	Poicephalus meyeri	64.077
+GCA_026283705.1	GCA_026283885.1	0.06706	Psittacara chloropterus	Poicephalus gulielmi	64.077
+GCA_026283705.1	GCA_026283905.1	0.068629	Psittacara chloropterus	Psittacula cyanocephala	77.635
+GCA_026283705.1	GCA_026284485.1	0.066224	Psittacara chloropterus	Aratinga jandaya	19.601
+GCA_026283705.1	GCA_026284505.1	0.022985	Psittacara chloropterus	Deroptyus accipitrinus	26.94
+GCA_026283705.1	GCA_026284545.1	0.0232	Psittacara chloropterus	Pyrrhura picta	26.18
+GCA_026283705.1	GCA_026284585.2	0.02285	Psittacara chloropterus	Pyrrhura albipectus	26.18
+GCA_026283705.1	GCA_026284605.1	0.022422	Psittacara chloropterus	Pyrrhura egregia	26.18
+GCA_026283705.1	GCA_026284625.1	0.013851	Psittacara chloropterus	Ara ambiguus	19.601
+GCA_026283705.1	GCA_026284685.1	0.014891	Psittacara chloropterus	Aratinga auricapillus	19.601
+GCA_026283705.1	GCA_026284725.1	0.016072	Psittacara chloropterus	Eupsittula canicularis	11.156
+GCA_026283705.1	GCA_026284745.2	0.016936	Psittacara chloropterus	Primolius auricollis	19.601
+GCA_026283705.1	GCA_026284765.1	0.013439	Psittacara chloropterus	Psittacara acuticaudatus	19.937
+GCA_026283705.1	GCA_026284785.1	0.015673	Psittacara chloropterus	Eupsittula nana	11.156
+GCA_026283705.1	GCA_026284805.1	0.019685	Psittacara chloropterus	Rhynchopsitta pachyrhyncha	21.283
+GCA_026283705.1	GCA_026284865.1	0.079203	Psittacara chloropterus	Eos histrio	77.635
+GCA_026283705.1	GCA_026413525.1	0.070344	Psittacara chloropterus	Poicephalus cryptoxanthus	64.077
+GCA_026283705.1	GCA_028858555.1	0.013678	Psittacara chloropterus	Ara ararauna	19.601
+GCA_026283705.1	GCA_028858755.1	0.013694	Psittacara chloropterus	Ara ararauna	19.601
+GCA_026283705.1	GCA_029814565.1	0.023222	Psittacara chloropterus	Pionites melanocephalus	26.94
+GCA_026283705.1	GCA_029814625.1	0.067259	Psittacara chloropterus	Psittacula derbiana	77.635
+GCA_026283705.1	GCA_030264335.1	0.022214	Psittacara chloropterus	Enicognathus leptorhynchus	20.947
+GCA_026283705.1	GCA_030265185.1	0.022475	Psittacara chloropterus	Pyrrhura eisenmanni	26.18
+GCA_026283705.1	GCA_030265285.1	0.071535	Psittacara chloropterus	Cacatua sanguinea	81.521
+GCA_026283705.1	GCA_030323915.1	0.054617	Psittacara chloropterus	Brotogeris chrysoptera	50.04
+GCA_026283705.1	GCA_031762335.1	0.11574	Psittacara chloropterus	Psittacula eupatria	77.635
+GCA_026283705.1	GCA_031762375.1	0.066702	Psittacara chloropterus	Poicephalus rueppellii	64.077
+GCA_026283705.1	GCA_031762475.1	0.071745	Psittacara chloropterus	Cacatua sulphurea	81.521
+GCA_026283705.1	GCA_031762955.1	0.068249	Psittacara chloropterus	Psittacula longicauda	77.635
+GCA_026283705.1	GCA_031763625.1	0.052145	Psittacara chloropterus	Amazona oratrix	50.04
+GCA_026283705.1	GCA_031763645.1	0.11088	Psittacara chloropterus	Pionus seniloides	50.04
+GCA_026283705.1	GCA_031763765.1	0.067806	Psittacara chloropterus	Psittacara erythrogenys	20.106
+GCA_026283705.1	GCA_031763935.1	0.052678	Psittacara chloropterus	Amazona finschi	50.04
+GCA_026283705.1	GCA_032274665.1	0.069343	Psittacara chloropterus	Psittacula columboides	77.635
+GCA_026283705.1	GCA_032353375.1	0.071058	Psittacara chloropterus	Forpus cyanopygius	46.462
+GCA_026283705.1	GCA_032357275.1	0.08449	Psittacara chloropterus	Micropsitta pusio	77.635
+GCA_026283705.1	GCA_032357765.1	0.10931	Psittacara chloropterus	Amazona auropalliata	50.04
+GCA_026283705.1	GCA_032360005.1	0.081317	Psittacara chloropterus	Amazona ochrocephala	50.04
+GCA_026283705.1	GCA_032360045.1	0.13701	Psittacara chloropterus	Amazona ventralis	50.04
+GCA_026283705.1	GCA_032361345.1	0.15302	Psittacara chloropterus	Trichoglossus haematodus	77.635
+GCA_026283705.1	GCA_032466295.1	0.074931	Psittacara chloropterus	Forpus passerinus	46.462
+GCA_026283705.1	GCA_032466415.1	0.071353	Psittacara chloropterus	Forpus xanthopterygius	46.462
+GCA_026283705.1	GCA_032466535.1	0.067362	Psittacara chloropterus	Forpus xanthops	46.462
+GCA_026283705.1	GCA_033783945.1	0.074345	Psittacara chloropterus	Neopsephotus bourkii	77.635
+GCA_026283705.1	GCA_034780615.1	0.069618	Psittacara chloropterus	Trichoglossus moluccanus	77.635
+GCA_026283705.1	GCA_034781895.1	0.083049	Psittacara chloropterus	Psittacara finschi	20.106
+GCA_026283705.1	GCA_034782355.1	0.052454	Psittacara chloropterus	Amazona kawalli	50.04
+GCA_026283705.1	GCA_034782575.1	0.05454	Psittacara chloropterus	Brotogeris tirica	50.04
+GCA_026283705.1	GCA_034782755.1	0.095066	Psittacara chloropterus	Amazona guildingii	50.04
+GCA_026283705.1	GCA_034782895.1	0.079767	Psittacara chloropterus	Agapornis fischeri	77.635
+GCA_026283705.1	GCA_034782915.1	0.072251	Psittacara chloropterus	Forpus coelestis	46.462
+GCA_026283705.1	GCA_034783095.1	0.13171	Psittacara chloropterus	Forpus spengeli	46.462
+GCA_026283705.1	GCA_034783155.1	0.078752	Psittacara chloropterus	Agapornis personatus	77.635
+GCA_026283705.1	GCA_034783195.1	0.085096	Psittacara chloropterus	Agapornis taranta	77.635
+GCA_026283705.1	GCA_034783435.1	0.081789	Psittacara chloropterus	Agapornis swindernianus	77.635
+GCA_026283705.1	GCA_034783915.1	0.11019	Psittacara chloropterus	Agapornis pullarius	77.635
+GCA_026283705.1	GCA_035041115.1	0.16299	Psittacara chloropterus	Agapornis nigrigenis	77.635
+GCA_026283705.1	GCA_035222285.1	0.078924	Psittacara chloropterus	Agapornis lilianae	77.635
+GCA_026283705.1	GCA_035583095.1	0.071847	Psittacara chloropterus	Cacatua galerita	81.521
+GCA_026283705.1	GCA_036873685.1	0.080662	Psittacara chloropterus	Agapornis canus	77.635
+GCA_026283705.1	GCA_037157495.1	0.071245	Psittacara chloropterus	Lathamus discolor	77.635
+GCA_026283705.1	GCA_037157625.1	0.073037	Psittacara chloropterus	Lathamus discolor	77.635
+GCA_026283705.1	GCA_038381815.1	0.019658	Psittacara chloropterus	Anodorhynchus leari	20.274
+GCA_026283705.1	GCA_038406155.1	0.025574	Psittacara chloropterus	Pyrrhura leucotis	26.18
+GCA_026283705.1	GCA_039720425.1	0.054174	Psittacara chloropterus	Amazona ochrocephala	50.04
+GCA_026283705.1	GCA_039720435.1	0.052141	Psittacara chloropterus	Amazona ochrocephala	50.04
+GCA_026283705.1	GCA_039999165.1	0.071192	Psittacara chloropterus	Lathamus discolor	77.635
+GCA_026283705.1	GCA_040207695.1	0.11168	Psittacara chloropterus	Eolophus roseicapilla	81.521
+GCA_026283705.1	GCA_040966375.1	0.075835	Psittacara chloropterus	Lorius hypoinochrous	77.635
+GCA_026283705.1	GCA_041108055.1	0.064881	Psittacara chloropterus	Brotogeris pyrrhoptera	50.04
+GCA_026283705.1	GCA_041108195.1	0.064187	Psittacara chloropterus	Brotogeris versicolurus	50.04
+GCA_026283705.1	GCA_041108455.1	0.17243	Psittacara chloropterus	Loriculus galgulus	77.635
+GCA_026283705.1	GCA_041108845.1	0.10621	Psittacara chloropterus	Brotogeris chiriri	50.04
+GCA_026283705.1	GCA_041731235.1	0.056626	Psittacara chloropterus	Brotogeris cyanoptera	50.04
+GCA_026283705.1	GCA_041731355.1	0.11049	Psittacara chloropterus	Loriculus pusillus	77.635
+GCA_026283705.1	GCA_042902855.1	0.081395	Psittacara chloropterus	Loriculus philippensis	77.635
+GCA_026283705.1	GCA_043109885.1	0.075654	Psittacara chloropterus	Zanda funerea	81.521
+GCA_026283705.1	GCA_043110175.1	0.13381	Psittacara chloropterus	Loriculus vernalis	77.635
+GCA_026283705.1	GCA_043110865.1	0.21713	Psittacara chloropterus	Coracopsis nigra	77.635
+GCA_026283705.1	GCA_045345405.1	0.013142	Psittacara chloropterus	Guaruba guarouba	19.937
+GCA_026283705.1	GCA_045519325.1	0.015491	Psittacara chloropterus	Guaruba guarouba	19.937
+GCA_026283705.1	GCA_046039615.1	0.14663	Psittacara chloropterus	Cacatua haematuropygia	81.521
+GCA_026283705.1	GCA_046245015.1	0.082169	Psittacara chloropterus	Eos cyanogenia	77.635
+GCA_026283705.1	GCA_046563285.1	0.076838	Psittacara chloropterus	Loriculus galgulus	77.635
+GCA_026283705.1	GCA_047054915.1	0.074718	Psittacara chloropterus	Neophema chrysogaster	77.635
+GCA_026283705.1	GCA_047446135.1	0.24472	Psittacara chloropterus	Glossopsitta concinna	77.635
+GCA_026283705.1	GCA_047535115.1	0.28424	Psittacara chloropterus	Triclaria malachitacea	50.04
+GCA_026283705.1	GCA_047711335.1	0.26025	Psittacara chloropterus	Chalcopsitta duivenbodei	77.635
+GCA_026283705.1	GCA_048591985.1	0.12522	Psittacara chloropterus	Trichoglossus chlorolepidotus	77.635
+GCA_026283705.1	GCA_051622115.1	0.07846	Psittacara chloropterus	Agapornis fischeri	77.635
+GCA_026283705.1	GCA_051622155.1	0.078509	Psittacara chloropterus	Agapornis roseicollis	77.635
+GCA_026283705.1	GCA_055772115.1	0.065926	Psittacara chloropterus	Psittrichas fulgidus	77.635
+GCA_026283705.1	GCA_055772155.1	0.016216	Psittacara chloropterus	Cyanoliseus patagonus	20.61
+GCA_026283705.1	GCA_056825165.1	0.016931	Psittacara chloropterus	Cyanoliseus patagonus	20.61
+GCA_026283705.1	GCA_056825465.1	0.072389	Psittacara chloropterus	Cyclopsitta diophthalma	77.635
+GCA_026283705.1	GCA_902168055.1	0.014861	Psittacara chloropterus	Aratinga solstitialis	19.601
+GCA_026283705.1	GCA_917880015.2	0.013853	Psittacara chloropterus	Ara rubrogenys	19.601
+GCA_026283705.1	GCA_977968565.1	0.065926	Psittacara chloropterus	Psittrichas fulgidus	77.635
+GCA_026283705.1	GCA_977969355.1	0.016216	Psittacara chloropterus	Cyanoliseus patagonus	20.61
+GCA_026283705.1	GCA_980694505.1	0.053383	Psittacara chloropterus	Amazona vittata	50.04
+GCA_026283705.1	GCA_981469625.1	0.067543	Psittacara chloropterus	Forpus passerinus	46.462
+GCA_026283705.1	GCA_982290525.1	0.0047674	Psittacara chloropterus	Psittacara finschi	20.106
+GCA_026283705.1	GCA_982290535.1	0.066851	Psittacara chloropterus	Poicephalus gulielmi	64.077
+GCA_026283705.1	GCA_982290595.1	0.0047447	Psittacara chloropterus	Psittacara erythrogenys	20.106
+GCA_026283705.1	GCA_982290605.1	0.066619	Psittacara chloropterus	Poicephalus rueppellii	64.077
+GCA_026283705.1	GCA_988280915.1	0.069805	Psittacara chloropterus	Psittacula krameri	77.635
+GCA_026283705.1	GCA_988280925.1	0.067702	Psittacara chloropterus	Psittacula krameri	77.635
+GCA_026283705.1	GCA_988293145.1	0.078614	Psittacara chloropterus	Agapornis nigrigenis	77.635
+GCA_026283705.1	GCA_988293565.1	0.078614	Psittacara chloropterus	Agapornis nigrigenis	77.635
 GCA_026283725.1	GCA_026283745.1	0.01475	Ara rubrogenys	Eupsittula aurea	19.601
 GCA_026283725.1	GCA_026283765.1	0.071185	Ara rubrogenys	Psephotus haematonotus	77.635
 GCA_026283725.1	GCA_026283785.1	0.067211	Ara rubrogenys	Coracopsis vasa	77.635
@@ -8389,6 +8796,7 @@ GCA_026283725.1	GCA_035222285.1	0.079161	Ara rubrogenys	Agapornis lilianae	77.63
 GCA_026283725.1	GCA_035583095.1	0.071942	Ara rubrogenys	Cacatua galerita	81.521
 GCA_026283725.1	GCA_036873685.1	0.080937	Ara rubrogenys	Agapornis canus	77.635
 GCA_026283725.1	GCA_037157495.1	0.071386	Ara rubrogenys	Lathamus discolor	77.635
+GCA_026283725.1	GCA_037157625.1	0.073369	Ara rubrogenys	Lathamus discolor	77.635
 GCA_026283725.1	GCA_038381815.1	0.019065	Ara rubrogenys	Anodorhynchus leari	20.274
 GCA_026283725.1	GCA_038406155.1	0.025101	Ara rubrogenys	Pyrrhura leucotis	26.18
 GCA_026283725.1	GCA_039720425.1	0.053359	Ara rubrogenys	Amazona ochrocephala	50.04
@@ -8502,6 +8910,7 @@ GCA_026283745.1	GCA_035222285.1	0.079633	Eupsittula aurea	Agapornis lilianae	77.
 GCA_026283745.1	GCA_035583095.1	0.07259	Eupsittula aurea	Cacatua galerita	81.521
 GCA_026283745.1	GCA_036873685.1	0.081135	Eupsittula aurea	Agapornis canus	77.635
 GCA_026283745.1	GCA_037157495.1	0.071657	Eupsittula aurea	Lathamus discolor	77.635
+GCA_026283745.1	GCA_037157625.1	0.073199	Eupsittula aurea	Lathamus discolor	77.635
 GCA_026283745.1	GCA_038381815.1	0.019816	Eupsittula aurea	Anodorhynchus leari	20.274
 GCA_026283745.1	GCA_038406155.1	0.025934	Eupsittula aurea	Pyrrhura leucotis	26.18
 GCA_026283745.1	GCA_039720425.1	0.054359	Eupsittula aurea	Amazona ochrocephala	50.04
@@ -8614,6 +9023,7 @@ GCA_026283765.1	GCA_035222285.1	0.066465	Psephotus haematonotus	Agapornis lilian
 GCA_026283765.1	GCA_035583095.1	0.070587	Psephotus haematonotus	Cacatua galerita	81.521
 GCA_026283765.1	GCA_036873685.1	0.067916	Psephotus haematonotus	Agapornis canus	70.802
 GCA_026283765.1	GCA_037157495.1	0.031957	Psephotus haematonotus	Lathamus discolor	28.032
+GCA_026283765.1	GCA_037157625.1	0.033676	Psephotus haematonotus	Lathamus discolor	28.032
 GCA_026283765.1	GCA_038381815.1	0.074887	Psephotus haematonotus	Anodorhynchus leari	77.635
 GCA_026283765.1	GCA_038406155.1	0.075737	Psephotus haematonotus	Pyrrhura leucotis	77.635
 GCA_026283765.1	GCA_039720425.1	0.073489	Psephotus haematonotus	Amazona ochrocephala	77.635
@@ -8725,6 +9135,7 @@ GCA_026283785.1	GCA_035222285.1	0.071339	Coracopsis vasa	Agapornis lilianae	74.9
 GCA_026283785.1	GCA_035583095.1	0.066495	Coracopsis vasa	Cacatua galerita	81.521
 GCA_026283785.1	GCA_036873685.1	0.072659	Coracopsis vasa	Agapornis canus	74.954
 GCA_026283785.1	GCA_037157495.1	0.06276	Coracopsis vasa	Lathamus discolor	74.954
+GCA_026283785.1	GCA_037157625.1	0.064337	Coracopsis vasa	Lathamus discolor	74.954
 GCA_026283785.1	GCA_038381815.1	0.071005	Coracopsis vasa	Anodorhynchus leari	77.635
 GCA_026283785.1	GCA_038406155.1	0.071983	Coracopsis vasa	Pyrrhura leucotis	77.635
 GCA_026283785.1	GCA_039720425.1	0.070324	Coracopsis vasa	Amazona ochrocephala	77.635
@@ -8835,6 +9246,7 @@ GCA_026283805.1	GCA_035222285.1	0.079038	Psittacara mitratus	Agapornis lilianae	
 GCA_026283805.1	GCA_035583095.1	0.071956	Psittacara mitratus	Cacatua galerita	81.521
 GCA_026283805.1	GCA_036873685.1	0.080731	Psittacara mitratus	Agapornis canus	77.635
 GCA_026283805.1	GCA_037157495.1	0.07167	Psittacara mitratus	Lathamus discolor	77.635
+GCA_026283805.1	GCA_037157625.1	0.073362	Psittacara mitratus	Lathamus discolor	77.635
 GCA_026283805.1	GCA_038381815.1	0.019617	Psittacara mitratus	Anodorhynchus leari	20.274
 GCA_026283805.1	GCA_038406155.1	0.025611	Psittacara mitratus	Pyrrhura leucotis	26.18
 GCA_026283805.1	GCA_039720425.1	0.054405	Psittacara mitratus	Amazona ochrocephala	50.04
@@ -8944,6 +9356,7 @@ GCA_026283825.1	GCA_035222285.1	0.08068	Poicephalus rufiventris	Agapornis lilian
 GCA_026283825.1	GCA_035583095.1	0.072848	Poicephalus rufiventris	Cacatua galerita	81.521
 GCA_026283825.1	GCA_036873685.1	0.081448	Poicephalus rufiventris	Agapornis canus	77.635
 GCA_026283825.1	GCA_037157495.1	0.072382	Poicephalus rufiventris	Lathamus discolor	77.635
+GCA_026283825.1	GCA_037157625.1	0.073775	Poicephalus rufiventris	Lathamus discolor	77.635
 GCA_026283825.1	GCA_038381815.1	0.071313	Poicephalus rufiventris	Anodorhynchus leari	64.077
 GCA_026283825.1	GCA_038406155.1	0.072168	Poicephalus rufiventris	Pyrrhura leucotis	64.077
 GCA_026283825.1	GCA_039720425.1	0.069676	Poicephalus rufiventris	Amazona ochrocephala	64.077
@@ -9052,6 +9465,7 @@ GCA_026283845.1	GCA_035222285.1	0.07926	Primolius maracana	Agapornis lilianae	77
 GCA_026283845.1	GCA_035583095.1	0.071697	Primolius maracana	Cacatua galerita	81.521
 GCA_026283845.1	GCA_036873685.1	0.080954	Primolius maracana	Agapornis canus	77.635
 GCA_026283845.1	GCA_037157495.1	0.071346	Primolius maracana	Lathamus discolor	77.635
+GCA_026283845.1	GCA_037157625.1	0.072848	Primolius maracana	Lathamus discolor	77.635
 GCA_026283845.1	GCA_038381815.1	0.018979	Primolius maracana	Anodorhynchus leari	20.274
 GCA_026283845.1	GCA_038406155.1	0.025359	Primolius maracana	Pyrrhura leucotis	26.18
 GCA_026283845.1	GCA_039720425.1	0.053584	Primolius maracana	Amazona ochrocephala	50.04
@@ -9159,6 +9573,7 @@ GCA_026283865.1	GCA_035222285.1	0.081448	Poicephalus meyeri	Agapornis lilianae	7
 GCA_026283865.1	GCA_035583095.1	0.07361	Poicephalus meyeri	Cacatua galerita	81.521
 GCA_026283865.1	GCA_036873685.1	0.082418	Poicephalus meyeri	Agapornis canus	77.635
 GCA_026283865.1	GCA_037157495.1	0.072981	Poicephalus meyeri	Lathamus discolor	77.635
+GCA_026283865.1	GCA_037157625.1	0.073746	Poicephalus meyeri	Lathamus discolor	77.635
 GCA_026283865.1	GCA_038381815.1	0.072258	Poicephalus meyeri	Anodorhynchus leari	64.077
 GCA_026283865.1	GCA_038406155.1	0.07327	Poicephalus meyeri	Pyrrhura leucotis	64.077
 GCA_026283865.1	GCA_039720425.1	0.069947	Poicephalus meyeri	Amazona ochrocephala	64.077
@@ -9265,6 +9680,7 @@ GCA_026283885.1	GCA_035222285.1	0.081187	Poicephalus gulielmi	Agapornis lilianae
 GCA_026283885.1	GCA_035583095.1	0.073333	Poicephalus gulielmi	Cacatua galerita	81.521
 GCA_026283885.1	GCA_036873685.1	0.082294	Poicephalus gulielmi	Agapornis canus	77.635
 GCA_026283885.1	GCA_037157495.1	0.072883	Poicephalus gulielmi	Lathamus discolor	77.635
+GCA_026283885.1	GCA_037157625.1	0.074352	Poicephalus gulielmi	Lathamus discolor	77.635
 GCA_026283885.1	GCA_038381815.1	0.071111	Poicephalus gulielmi	Anodorhynchus leari	64.077
 GCA_026283885.1	GCA_038406155.1	0.072382	Poicephalus gulielmi	Pyrrhura leucotis	64.077
 GCA_026283885.1	GCA_039720425.1	0.070279	Poicephalus gulielmi	Amazona ochrocephala	64.077
@@ -9370,6 +9786,7 @@ GCA_026283905.1	GCA_035222285.1	0.068842	Psittacula cyanocephala	Agapornis lilia
 GCA_026283905.1	GCA_035583095.1	0.068095	Psittacula cyanocephala	Cacatua galerita	81.521
 GCA_026283905.1	GCA_036873685.1	0.070647	Psittacula cyanocephala	Agapornis canus	72.273
 GCA_026283905.1	GCA_037157495.1	0.059977	Psittacula cyanocephala	Lathamus discolor	72.273
+GCA_026283905.1	GCA_037157625.1	0.061198	Psittacula cyanocephala	Lathamus discolor	72.273
 GCA_026283905.1	GCA_038381815.1	0.072465	Psittacula cyanocephala	Anodorhynchus leari	77.635
 GCA_026283905.1	GCA_038406155.1	0.073482	Psittacula cyanocephala	Pyrrhura leucotis	77.635
 GCA_026283905.1	GCA_039720425.1	0.072004	Psittacula cyanocephala	Amazona ochrocephala	77.635
@@ -9474,6 +9891,7 @@ GCA_026284485.1	GCA_035222285.1	0.08033	Aratinga jandaya	Agapornis lilianae	77.6
 GCA_026284485.1	GCA_035583095.1	0.072334	Aratinga jandaya	Cacatua galerita	81.521
 GCA_026284485.1	GCA_036873685.1	0.081422	Aratinga jandaya	Agapornis canus	77.635
 GCA_026284485.1	GCA_037157495.1	0.071602	Aratinga jandaya	Lathamus discolor	77.635
+GCA_026284485.1	GCA_037157625.1	0.07327	Aratinga jandaya	Lathamus discolor	77.635
 GCA_026284485.1	GCA_038381815.1	0.070746	Aratinga jandaya	Anodorhynchus leari	20.274
 GCA_026284485.1	GCA_038406155.1	0.071616	Aratinga jandaya	Pyrrhura leucotis	26.18
 GCA_026284485.1	GCA_039720425.1	0.069279	Aratinga jandaya	Amazona ochrocephala	50.04
@@ -9577,6 +9995,7 @@ GCA_026284505.1	GCA_035222285.1	0.080543	Deroptyus accipitrinus	Agapornis lilian
 GCA_026284505.1	GCA_035583095.1	0.072792	Deroptyus accipitrinus	Cacatua galerita	81.521
 GCA_026284505.1	GCA_036873685.1	0.081992	Deroptyus accipitrinus	Agapornis canus	77.635
 GCA_026284505.1	GCA_037157495.1	0.072334	Deroptyus accipitrinus	Lathamus discolor	77.635
+GCA_026284505.1	GCA_037157625.1	0.074251	Deroptyus accipitrinus	Lathamus discolor	77.635
 GCA_026284505.1	GCA_038381815.1	0.027092	Deroptyus accipitrinus	Anodorhynchus leari	26.94
 GCA_026284505.1	GCA_038406155.1	0.028819	Deroptyus accipitrinus	Pyrrhura leucotis	26.94
 GCA_026284505.1	GCA_039720425.1	0.055031	Deroptyus accipitrinus	Amazona ochrocephala	50.04
@@ -9679,6 +10098,7 @@ GCA_026284545.1	GCA_035222285.1	0.081763	Pyrrhura picta	Agapornis lilianae	77.63
 GCA_026284545.1	GCA_035583095.1	0.074316	Pyrrhura picta	Cacatua galerita	81.521
 GCA_026284545.1	GCA_036873685.1	0.083212	Pyrrhura picta	Agapornis canus	77.635
 GCA_026284545.1	GCA_037157495.1	0.07407	Pyrrhura picta	Lathamus discolor	77.635
+GCA_026284545.1	GCA_037157625.1	0.075332	Pyrrhura picta	Lathamus discolor	77.635
 GCA_026284545.1	GCA_038381815.1	0.027079	Pyrrhura picta	Anodorhynchus leari	26.18
 GCA_026284545.1	GCA_038406155.1	0.0085419	Pyrrhura picta	Pyrrhura leucotis	25.8
 GCA_026284545.1	GCA_039720425.1	0.0565	Pyrrhura picta	Amazona ochrocephala	50.04
@@ -9780,6 +10200,7 @@ GCA_026284585.2	GCA_035222285.1	0.081256	Pyrrhura albipectus	Agapornis lilianae	
 GCA_026284585.2	GCA_035583095.1	0.074243	Pyrrhura albipectus	Cacatua galerita	81.521
 GCA_026284585.2	GCA_036873685.1	0.083012	Pyrrhura albipectus	Agapornis canus	77.635
 GCA_026284585.2	GCA_037157495.1	0.073753	Pyrrhura albipectus	Lathamus discolor	77.635
+GCA_026284585.2	GCA_037157625.1	0.075183	Pyrrhura albipectus	Lathamus discolor	77.635
 GCA_026284585.2	GCA_038381815.1	0.026788	Pyrrhura albipectus	Anodorhynchus leari	26.18
 GCA_026284585.2	GCA_038406155.1	0.011593	Pyrrhura albipectus	Pyrrhura leucotis	24.66
 GCA_026284585.2	GCA_039720425.1	0.056393	Pyrrhura albipectus	Amazona ochrocephala	50.04
@@ -9880,6 +10301,7 @@ GCA_026284605.1	GCA_035222285.1	0.080997	Pyrrhura egregia	Agapornis lilianae	77.
 GCA_026284605.1	GCA_035583095.1	0.073918	Pyrrhura egregia	Cacatua galerita	81.521
 GCA_026284605.1	GCA_036873685.1	0.082696	Pyrrhura egregia	Agapornis canus	77.635
 GCA_026284605.1	GCA_037157495.1	0.07339	Pyrrhura egregia	Lathamus discolor	77.635
+GCA_026284605.1	GCA_037157625.1	0.074998	Pyrrhura egregia	Lathamus discolor	77.635
 GCA_026284605.1	GCA_038381815.1	0.026363	Pyrrhura egregia	Anodorhynchus leari	26.18
 GCA_026284605.1	GCA_038406155.1	0.011151	Pyrrhura egregia	Pyrrhura leucotis	25.8
 GCA_026284605.1	GCA_039720425.1	0.056126	Pyrrhura egregia	Amazona ochrocephala	50.04
@@ -9979,6 +10401,7 @@ GCA_026284625.1	GCA_035222285.1	0.078501	Ara ambiguus	Agapornis lilianae	77.635
 GCA_026284625.1	GCA_035583095.1	0.070865	Ara ambiguus	Cacatua galerita	81.521
 GCA_026284625.1	GCA_036873685.1	0.080119	Ara ambiguus	Agapornis canus	77.635
 GCA_026284625.1	GCA_037157495.1	0.070971	Ara ambiguus	Lathamus discolor	77.635
+GCA_026284625.1	GCA_037157625.1	0.07259	Ara ambiguus	Lathamus discolor	77.635
 GCA_026284625.1	GCA_038381815.1	0.01822	Ara ambiguus	Anodorhynchus leari	20.274
 GCA_026284625.1	GCA_038406155.1	0.024459	Ara ambiguus	Pyrrhura leucotis	26.18
 GCA_026284625.1	GCA_039720425.1	0.053187	Ara ambiguus	Amazona ochrocephala	50.04
@@ -10077,6 +10500,7 @@ GCA_026284685.1	GCA_035222285.1	0.079104	Aratinga auricapillus	Agapornis liliana
 GCA_026284685.1	GCA_035583095.1	0.071718	Aratinga auricapillus	Cacatua galerita	81.521
 GCA_026284685.1	GCA_036873685.1	0.080637	Aratinga auricapillus	Agapornis canus	77.635
 GCA_026284685.1	GCA_037157495.1	0.071373	Aratinga auricapillus	Lathamus discolor	77.635
+GCA_026284685.1	GCA_037157625.1	0.073206	Aratinga auricapillus	Lathamus discolor	77.635
 GCA_026284685.1	GCA_038381815.1	0.019493	Aratinga auricapillus	Anodorhynchus leari	20.274
 GCA_026284685.1	GCA_038406155.1	0.025557	Aratinga auricapillus	Pyrrhura leucotis	26.18
 GCA_026284685.1	GCA_039720425.1	0.054011	Aratinga auricapillus	Amazona ochrocephala	50.04
@@ -10174,6 +10598,7 @@ GCA_026284725.1	GCA_035222285.1	0.079725	Eupsittula canicularis	Agapornis lilian
 GCA_026284725.1	GCA_035583095.1	0.073136	Eupsittula canicularis	Cacatua galerita	81.521
 GCA_026284725.1	GCA_036873685.1	0.081387	Eupsittula canicularis	Agapornis canus	77.635
 GCA_026284725.1	GCA_037157495.1	0.072444	Eupsittula canicularis	Lathamus discolor	77.635
+GCA_026284725.1	GCA_037157625.1	0.074019	Eupsittula canicularis	Lathamus discolor	77.635
 GCA_026284725.1	GCA_038381815.1	0.020554	Eupsittula canicularis	Anodorhynchus leari	20.274
 GCA_026284725.1	GCA_038406155.1	0.026643	Eupsittula canicularis	Pyrrhura leucotis	26.18
 GCA_026284725.1	GCA_039720425.1	0.055001	Eupsittula canicularis	Amazona ochrocephala	50.04
@@ -10270,6 +10695,7 @@ GCA_026284745.2	GCA_035222285.1	0.081291	Primolius auricollis	Agapornis lilianae
 GCA_026284745.2	GCA_035583095.1	0.073804	Primolius auricollis	Cacatua galerita	81.521
 GCA_026284745.2	GCA_036873685.1	0.082976	Primolius auricollis	Agapornis canus	77.635
 GCA_026284745.2	GCA_037157495.1	0.073511	Primolius auricollis	Lathamus discolor	77.635
+GCA_026284745.2	GCA_037157625.1	0.075407	Primolius auricollis	Lathamus discolor	77.635
 GCA_026284745.2	GCA_038381815.1	0.021542	Primolius auricollis	Anodorhynchus leari	20.274
 GCA_026284745.2	GCA_038406155.1	0.027366	Primolius auricollis	Pyrrhura leucotis	26.18
 GCA_026284745.2	GCA_039720425.1	0.056277	Primolius auricollis	Amazona ochrocephala	50.04
@@ -10365,6 +10791,7 @@ GCA_026284765.1	GCA_035222285.1	0.079006	Psittacara acuticaudatus	Agapornis lili
 GCA_026284765.1	GCA_035583095.1	0.071847	Psittacara acuticaudatus	Cacatua galerita	81.521
 GCA_026284765.1	GCA_036873685.1	0.080671	Psittacara acuticaudatus	Agapornis canus	77.635
 GCA_026284765.1	GCA_037157495.1	0.071279	Psittacara acuticaudatus	Lathamus discolor	77.635
+GCA_026284765.1	GCA_037157625.1	0.073142	Psittacara acuticaudatus	Lathamus discolor	77.635
 GCA_026284765.1	GCA_038381815.1	0.019328	Psittacara acuticaudatus	Anodorhynchus leari	20.274
 GCA_026284765.1	GCA_038406155.1	0.025252	Psittacara acuticaudatus	Pyrrhura leucotis	26.18
 GCA_026284765.1	GCA_039720425.1	0.05404	Psittacara acuticaudatus	Amazona ochrocephala	50.04
@@ -10459,6 +10886,7 @@ GCA_026284785.1	GCA_035222285.1	0.079467	Eupsittula nana	Agapornis lilianae	77.6
 GCA_026284785.1	GCA_035583095.1	0.072465	Eupsittula nana	Cacatua galerita	81.521
 GCA_026284785.1	GCA_036873685.1	0.081239	Eupsittula nana	Agapornis canus	77.635
 GCA_026284785.1	GCA_037157495.1	0.071997	Eupsittula nana	Lathamus discolor	77.635
+GCA_026284785.1	GCA_037157625.1	0.073825	Eupsittula nana	Lathamus discolor	77.635
 GCA_026284785.1	GCA_038381815.1	0.02028	Eupsittula nana	Anodorhynchus leari	20.274
 GCA_026284785.1	GCA_038406155.1	0.026068	Eupsittula nana	Pyrrhura leucotis	26.18
 GCA_026284785.1	GCA_039720425.1	0.054634	Eupsittula nana	Amazona ochrocephala	50.04
@@ -10552,6 +10980,7 @@ GCA_026284805.1	GCA_035222285.1	0.078809	Rhynchopsitta pachyrhyncha	Agapornis li
 GCA_026284805.1	GCA_035583095.1	0.071125	Rhynchopsitta pachyrhyncha	Cacatua galerita	81.521
 GCA_026284805.1	GCA_036873685.1	0.080705	Rhynchopsitta pachyrhyncha	Agapornis canus	77.635
 GCA_026284805.1	GCA_037157495.1	0.070918	Rhynchopsitta pachyrhyncha	Lathamus discolor	77.635
+GCA_026284805.1	GCA_037157625.1	0.07282	Rhynchopsitta pachyrhyncha	Lathamus discolor	77.635
 GCA_026284805.1	GCA_038381815.1	0.023873	Rhynchopsitta pachyrhyncha	Anodorhynchus leari	21.283
 GCA_026284805.1	GCA_038406155.1	0.025548	Rhynchopsitta pachyrhyncha	Pyrrhura leucotis	26.18
 GCA_026284805.1	GCA_039720425.1	0.053749	Rhynchopsitta pachyrhyncha	Amazona ochrocephala	50.04
@@ -10644,6 +11073,7 @@ GCA_026284865.1	GCA_035222285.1	0.074091	Eos histrio	Agapornis lilianae	64.053
 GCA_026284865.1	GCA_035583095.1	0.076161	Eos histrio	Cacatua galerita	81.521
 GCA_026284865.1	GCA_036873685.1	0.075654	Eos histrio	Agapornis canus	64.053
 GCA_026284865.1	GCA_037157495.1	0.067386	Eos histrio	Lathamus discolor	70.802
+GCA_026284865.1	GCA_037157625.1	0.069069	Eos histrio	Lathamus discolor	70.802
 GCA_026284865.1	GCA_038381815.1	0.082777	Eos histrio	Anodorhynchus leari	77.635
 GCA_026284865.1	GCA_038406155.1	0.084405	Eos histrio	Pyrrhura leucotis	77.635
 GCA_026284865.1	GCA_039720425.1	0.082427	Eos histrio	Amazona ochrocephala	77.635
@@ -10735,6 +11165,7 @@ GCA_026413525.1	GCA_035222285.1	0.087234	Poicephalus cryptoxanthus	Agapornis lil
 GCA_026413525.1	GCA_035583095.1	0.079417	Poicephalus cryptoxanthus	Cacatua galerita	81.521
 GCA_026413525.1	GCA_036873685.1	0.08844	Poicephalus cryptoxanthus	Agapornis canus	77.635
 GCA_026413525.1	GCA_037157495.1	0.078339	Poicephalus cryptoxanthus	Lathamus discolor	77.635
+GCA_026413525.1	GCA_037157625.1	0.078679	Poicephalus cryptoxanthus	Lathamus discolor	77.635
 GCA_026413525.1	GCA_038381815.1	0.073854	Poicephalus cryptoxanthus	Anodorhynchus leari	64.077
 GCA_026413525.1	GCA_038406155.1	0.076085	Poicephalus cryptoxanthus	Pyrrhura leucotis	64.077
 GCA_026413525.1	GCA_039720425.1	0.073969	Poicephalus cryptoxanthus	Amazona ochrocephala	64.077
@@ -10825,6 +11256,7 @@ GCA_028858555.1	GCA_035222285.1	0.078211	Ara ararauna	Agapornis lilianae	77.635
 GCA_028858555.1	GCA_035583095.1	0.070958	Ara ararauna	Cacatua galerita	81.521
 GCA_028858555.1	GCA_036873685.1	0.080144	Ara ararauna	Agapornis canus	77.635
 GCA_028858555.1	GCA_037157495.1	0.070627	Ara ararauna	Lathamus discolor	77.635
+GCA_028858555.1	GCA_037157625.1	0.07243	Ara ararauna	Lathamus discolor	77.635
 GCA_028858555.1	GCA_038381815.1	0.01806	Ara ararauna	Anodorhynchus leari	20.274
 GCA_028858555.1	GCA_038406155.1	0.024391	Ara ararauna	Pyrrhura leucotis	26.18
 GCA_028858555.1	GCA_039720425.1	0.053037	Ara ararauna	Amazona ochrocephala	50.04
@@ -10914,6 +11346,7 @@ GCA_028858755.1	GCA_035222285.1	0.078138	Ara ararauna	Agapornis lilianae	77.635
 GCA_028858755.1	GCA_035583095.1	0.070885	Ara ararauna	Cacatua galerita	81.521
 GCA_028858755.1	GCA_036873685.1	0.080043	Ara ararauna	Agapornis canus	77.635
 GCA_028858755.1	GCA_037157495.1	0.07062	Ara ararauna	Lathamus discolor	77.635
+GCA_028858755.1	GCA_037157625.1	0.072313	Ara ararauna	Lathamus discolor	77.635
 GCA_028858755.1	GCA_038381815.1	0.018078	Ara ararauna	Anodorhynchus leari	20.274
 GCA_028858755.1	GCA_038406155.1	0.024349	Ara ararauna	Pyrrhura leucotis	26.18
 GCA_028858755.1	GCA_039720425.1	0.052891	Ara ararauna	Amazona ochrocephala	50.04
@@ -11002,6 +11435,7 @@ GCA_029814565.1	GCA_035222285.1	0.079951	Pionites melanocephalus	Agapornis lilia
 GCA_029814565.1	GCA_035583095.1	0.072757	Pionites melanocephalus	Cacatua galerita	81.521
 GCA_029814565.1	GCA_036873685.1	0.081404	Pionites melanocephalus	Agapornis canus	77.635
 GCA_029814565.1	GCA_037157495.1	0.072072	Pionites melanocephalus	Lathamus discolor	77.635
+GCA_029814565.1	GCA_037157625.1	0.073696	Pionites melanocephalus	Lathamus discolor	77.635
 GCA_029814565.1	GCA_038381815.1	0.027226	Pionites melanocephalus	Anodorhynchus leari	26.94
 GCA_029814565.1	GCA_038406155.1	0.029131	Pionites melanocephalus	Pyrrhura leucotis	26.94
 GCA_029814565.1	GCA_039720425.1	0.055225	Pionites melanocephalus	Amazona ochrocephala	50.04
@@ -11089,6 +11523,7 @@ GCA_029814625.1	GCA_035222285.1	0.067916	Psittacula derbiana	Agapornis lilianae	
 GCA_029814625.1	GCA_035583095.1	0.067078	Psittacula derbiana	Cacatua galerita	81.521
 GCA_029814625.1	GCA_036873685.1	0.069381	Psittacula derbiana	Agapornis canus	72.273
 GCA_029814625.1	GCA_037157495.1	0.058944	Psittacula derbiana	Lathamus discolor	72.273
+GCA_029814625.1	GCA_037157625.1	0.060459	Psittacula derbiana	Lathamus discolor	72.273
 GCA_029814625.1	GCA_038381815.1	0.071025	Psittacula derbiana	Anodorhynchus leari	77.635
 GCA_029814625.1	GCA_038406155.1	0.07197	Psittacula derbiana	Pyrrhura leucotis	77.635
 GCA_029814625.1	GCA_039720425.1	0.070898	Psittacula derbiana	Amazona ochrocephala	77.635
@@ -11175,6 +11610,7 @@ GCA_030264335.1	GCA_035222285.1	0.083058	Enicognathus leptorhynchus	Agapornis li
 GCA_030264335.1	GCA_035583095.1	0.076055	Enicognathus leptorhynchus	Cacatua galerita	81.521
 GCA_030264335.1	GCA_036873685.1	0.084377	Enicognathus leptorhynchus	Agapornis canus	77.635
 GCA_030264335.1	GCA_037157495.1	0.075429	Enicognathus leptorhynchus	Lathamus discolor	77.635
+GCA_030264335.1	GCA_037157625.1	0.07582	Enicognathus leptorhynchus	Lathamus discolor	77.635
 GCA_030264335.1	GCA_038381815.1	0.024945	Enicognathus leptorhynchus	Anodorhynchus leari	20.947
 GCA_030264335.1	GCA_038406155.1	0.030254	Enicognathus leptorhynchus	Pyrrhura leucotis	26.18
 GCA_030264335.1	GCA_039720425.1	0.05659	Enicognathus leptorhynchus	Amazona ochrocephala	50.04
@@ -11260,6 +11696,7 @@ GCA_030265185.1	GCA_035222285.1	0.081023	Pyrrhura eisenmanni	Agapornis lilianae	
 GCA_030265185.1	GCA_035583095.1	0.073553	Pyrrhura eisenmanni	Cacatua galerita	81.521
 GCA_030265185.1	GCA_036873685.1	0.082508	Pyrrhura eisenmanni	Agapornis canus	77.635
 GCA_030265185.1	GCA_037157495.1	0.073234	Pyrrhura eisenmanni	Lathamus discolor	77.635
+GCA_030265185.1	GCA_037157625.1	0.074476	Pyrrhura eisenmanni	Lathamus discolor	77.635
 GCA_030265185.1	GCA_038381815.1	0.026352	Pyrrhura eisenmanni	Anodorhynchus leari	26.18
 GCA_030265185.1	GCA_038406155.1	0.0078426	Pyrrhura eisenmanni	Pyrrhura leucotis	6.1058
 GCA_030265185.1	GCA_039720425.1	0.055865	Pyrrhura eisenmanni	Amazona ochrocephala	50.04
@@ -11344,6 +11781,7 @@ GCA_030265285.1	GCA_035222285.1	0.078622	Cacatua sanguinea	Agapornis lilianae	81
 GCA_030265285.1	GCA_035583095.1	0.010226	Cacatua sanguinea	Cacatua galerita	31.6
 GCA_030265285.1	GCA_036873685.1	0.080517	Cacatua sanguinea	Agapornis canus	81.521
 GCA_030265285.1	GCA_037157495.1	0.070161	Cacatua sanguinea	Lathamus discolor	81.521
+GCA_030265285.1	GCA_037157625.1	0.071929	Cacatua sanguinea	Lathamus discolor	81.521
 GCA_030265285.1	GCA_038381815.1	0.075131	Cacatua sanguinea	Anodorhynchus leari	81.521
 GCA_030265285.1	GCA_038406155.1	0.076268	Cacatua sanguinea	Pyrrhura leucotis	81.521
 GCA_030265285.1	GCA_039720425.1	0.073911	Cacatua sanguinea	Amazona ochrocephala	81.521
@@ -11427,6 +11865,7 @@ GCA_030323915.1	GCA_035222285.1	0.082045	Brotogeris chrysoptera	Agapornis lilian
 GCA_030323915.1	GCA_035583095.1	0.074762	Brotogeris chrysoptera	Cacatua galerita	81.521
 GCA_030323915.1	GCA_036873685.1	0.082976	Brotogeris chrysoptera	Agapornis canus	77.635
 GCA_030323915.1	GCA_037157495.1	0.073199	Brotogeris chrysoptera	Lathamus discolor	77.635
+GCA_030323915.1	GCA_037157625.1	0.074542	Brotogeris chrysoptera	Lathamus discolor	77.635
 GCA_030323915.1	GCA_038381815.1	0.058619	Brotogeris chrysoptera	Anodorhynchus leari	50.04
 GCA_030323915.1	GCA_038406155.1	0.060165	Brotogeris chrysoptera	Pyrrhura leucotis	50.04
 GCA_030323915.1	GCA_039720425.1	0.056635	Brotogeris chrysoptera	Amazona ochrocephala	49.56
@@ -11509,6 +11948,7 @@ GCA_031762335.1	GCA_035222285.1	0.11517	Psittacula eupatria	Agapornis lilianae	7
 GCA_031762335.1	GCA_035583095.1	0.11511	Psittacula eupatria	Cacatua galerita	81.521
 GCA_031762335.1	GCA_036873685.1	0.11682	Psittacula eupatria	Agapornis canus	72.273
 GCA_031762335.1	GCA_037157495.1	0.10825	Psittacula eupatria	Lathamus discolor	72.273
+GCA_031762335.1	GCA_037157625.1	0.10575	Psittacula eupatria	Lathamus discolor	72.273
 GCA_031762335.1	GCA_038381815.1	0.1162	Psittacula eupatria	Anodorhynchus leari	77.635
 GCA_031762335.1	GCA_038406155.1	0.12079	Psittacula eupatria	Pyrrhura leucotis	77.635
 GCA_031762335.1	GCA_039720425.1	0.11386	Psittacula eupatria	Amazona ochrocephala	77.635
@@ -11590,6 +12030,7 @@ GCA_031762375.1	GCA_035222285.1	0.080246	Poicephalus rueppellii	Agapornis lilian
 GCA_031762375.1	GCA_035583095.1	0.072127	Poicephalus rueppellii	Cacatua galerita	81.521
 GCA_031762375.1	GCA_036873685.1	0.081032	Poicephalus rueppellii	Agapornis canus	77.635
 GCA_031762375.1	GCA_037157495.1	0.071501	Poicephalus rueppellii	Lathamus discolor	77.635
+GCA_031762375.1	GCA_037157625.1	0.072855	Poicephalus rueppellii	Lathamus discolor	77.635
 GCA_031762375.1	GCA_038381815.1	0.070945	Poicephalus rueppellii	Anodorhynchus leari	64.077
 GCA_031762375.1	GCA_038406155.1	0.071867	Poicephalus rueppellii	Pyrrhura leucotis	64.077
 GCA_031762375.1	GCA_039720425.1	0.069158	Poicephalus rueppellii	Amazona ochrocephala	64.077
@@ -11670,6 +12111,7 @@ GCA_031762475.1	GCA_035222285.1	0.078965	Cacatua sulphurea	Agapornis lilianae	81
 GCA_031762475.1	GCA_035583095.1	0.0033803	Cacatua sulphurea	Cacatua galerita	2.4901
 GCA_031762475.1	GCA_036873685.1	0.080415	Cacatua sulphurea	Agapornis canus	81.521
 GCA_031762475.1	GCA_037157495.1	0.070266	Cacatua sulphurea	Lathamus discolor	81.521
+GCA_031762475.1	GCA_037157625.1	0.072203	Cacatua sulphurea	Lathamus discolor	81.521
 GCA_031762475.1	GCA_038381815.1	0.075564	Cacatua sulphurea	Anodorhynchus leari	81.521
 GCA_031762475.1	GCA_038406155.1	0.076675	Cacatua sulphurea	Pyrrhura leucotis	81.521
 GCA_031762475.1	GCA_039720425.1	0.074732	Cacatua sulphurea	Amazona ochrocephala	81.521
@@ -11749,6 +12191,7 @@ GCA_031762955.1	GCA_035222285.1	0.068429	Psittacula longicauda	Agapornis liliana
 GCA_031762955.1	GCA_035583095.1	0.068138	Psittacula longicauda	Cacatua galerita	81.521
 GCA_031762955.1	GCA_036873685.1	0.070103	Psittacula longicauda	Agapornis canus	72.273
 GCA_031762955.1	GCA_037157495.1	0.059922	Psittacula longicauda	Lathamus discolor	72.273
+GCA_031762955.1	GCA_037157625.1	0.061137	Psittacula longicauda	Lathamus discolor	72.273
 GCA_031762955.1	GCA_038381815.1	0.071935	Psittacula longicauda	Anodorhynchus leari	77.635
 GCA_031762955.1	GCA_038406155.1	0.07322	Psittacula longicauda	Pyrrhura leucotis	77.635
 GCA_031762955.1	GCA_039720425.1	0.071623	Psittacula longicauda	Amazona ochrocephala	77.635
@@ -11827,6 +12270,7 @@ GCA_031763625.1	GCA_035222285.1	0.079792	Amazona oratrix	Agapornis lilianae	77.6
 GCA_031763625.1	GCA_035583095.1	0.072834	Amazona oratrix	Cacatua galerita	81.521
 GCA_031763625.1	GCA_036873685.1	0.080945	Amazona oratrix	Agapornis canus	77.635
 GCA_031763625.1	GCA_037157495.1	0.072175	Amazona oratrix	Lathamus discolor	77.635
+GCA_031763625.1	GCA_037157625.1	0.07344	Amazona oratrix	Lathamus discolor	77.635
 GCA_031763625.1	GCA_038381815.1	0.055989	Amazona oratrix	Anodorhynchus leari	50.04
 GCA_031763625.1	GCA_038406155.1	0.057312	Amazona oratrix	Pyrrhura leucotis	50.04
 GCA_031763625.1	GCA_039720425.1	0.0063654	Amazona oratrix	Amazona ochrocephala	20.474
@@ -11904,6 +12348,7 @@ GCA_031763645.1	GCA_035222285.1	0.13407	Pionus seniloides	Agapornis lilianae	77.
 GCA_031763645.1	GCA_035583095.1	0.13009	Pionus seniloides	Cacatua galerita	81.521
 GCA_031763645.1	GCA_036873685.1	0.13616	Pionus seniloides	Agapornis canus	77.635
 GCA_031763645.1	GCA_037157495.1	0.12936	Pionus seniloides	Lathamus discolor	77.635
+GCA_031763645.1	GCA_037157625.1	0.1277	Pionus seniloides	Lathamus discolor	77.635
 GCA_031763645.1	GCA_038381815.1	0.11065	Pionus seniloides	Anodorhynchus leari	50.04
 GCA_031763645.1	GCA_038406155.1	0.11604	Pionus seniloides	Pyrrhura leucotis	50.04
 GCA_031763645.1	GCA_039720425.1	0.076138	Pionus seniloides	Amazona ochrocephala	20.853
@@ -11980,6 +12425,7 @@ GCA_031763765.1	GCA_035222285.1	0.1392	Psittacara erythrogenys	Agapornis liliana
 GCA_031763765.1	GCA_035583095.1	0.13191	Psittacara erythrogenys	Cacatua galerita	81.521
 GCA_031763765.1	GCA_036873685.1	0.139	Psittacara erythrogenys	Agapornis canus	77.635
 GCA_031763765.1	GCA_037157495.1	0.13087	Psittacara erythrogenys	Lathamus discolor	77.635
+GCA_031763765.1	GCA_037157625.1	0.13183	Psittacara erythrogenys	Lathamus discolor	77.635
 GCA_031763765.1	GCA_038381815.1	0.080001	Psittacara erythrogenys	Anodorhynchus leari	20.274
 GCA_031763765.1	GCA_038406155.1	0.088972	Psittacara erythrogenys	Pyrrhura leucotis	26.18
 GCA_031763765.1	GCA_039720425.1	0.1132	Psittacara erythrogenys	Amazona ochrocephala	50.04
@@ -12055,6 +12501,7 @@ GCA_031763935.1	GCA_035222285.1	0.080246	Amazona finschi	Agapornis lilianae	77.6
 GCA_031763935.1	GCA_035583095.1	0.073086	Amazona finschi	Cacatua galerita	81.521
 GCA_031763935.1	GCA_036873685.1	0.081535	Amazona finschi	Agapornis canus	77.635
 GCA_031763935.1	GCA_037157495.1	0.072182	Amazona finschi	Lathamus discolor	77.635
+GCA_031763935.1	GCA_037157625.1	0.073761	Amazona finschi	Lathamus discolor	77.635
 GCA_031763935.1	GCA_038381815.1	0.056644	Amazona finschi	Anodorhynchus leari	50.04
 GCA_031763935.1	GCA_038406155.1	0.057913	Amazona finschi	Pyrrhura leucotis	50.04
 GCA_031763935.1	GCA_039720425.1	0.014255	Amazona finschi	Amazona ochrocephala	20.474
@@ -12129,6 +12576,7 @@ GCA_032274665.1	GCA_035222285.1	0.069586	Psittacula columboides	Agapornis lilian
 GCA_032274665.1	GCA_035583095.1	0.068943	Psittacula columboides	Cacatua galerita	81.521
 GCA_032274665.1	GCA_036873685.1	0.071373	Psittacula columboides	Agapornis canus	72.273
 GCA_032274665.1	GCA_037157495.1	0.060949	Psittacula columboides	Lathamus discolor	72.273
+GCA_032274665.1	GCA_037157625.1	0.061744	Psittacula columboides	Lathamus discolor	72.273
 GCA_032274665.1	GCA_038381815.1	0.072673	Psittacula columboides	Anodorhynchus leari	77.635
 GCA_032274665.1	GCA_038406155.1	0.073796	Psittacula columboides	Pyrrhura leucotis	77.635
 GCA_032274665.1	GCA_039720425.1	0.071548	Psittacula columboides	Amazona ochrocephala	77.635
@@ -12202,6 +12650,7 @@ GCA_032353375.1	GCA_035222285.1	0.094618	Forpus cyanopygius	Agapornis lilianae	7
 GCA_032353375.1	GCA_035583095.1	0.087822	Forpus cyanopygius	Cacatua galerita	81.521
 GCA_032353375.1	GCA_036873685.1	0.096378	Forpus cyanopygius	Agapornis canus	77.635
 GCA_032353375.1	GCA_037157495.1	0.087003	Forpus cyanopygius	Lathamus discolor	77.635
+GCA_032353375.1	GCA_037157625.1	0.086973	Forpus cyanopygius	Lathamus discolor	77.635
 GCA_032353375.1	GCA_038381815.1	0.073589	Forpus cyanopygius	Anodorhynchus leari	46.462
 GCA_032353375.1	GCA_038406155.1	0.075805	Forpus cyanopygius	Pyrrhura leucotis	46.462
 GCA_032353375.1	GCA_039720425.1	0.071132	Forpus cyanopygius	Amazona ochrocephala	50.04
@@ -12274,6 +12723,7 @@ GCA_032357275.1	GCA_035222285.1	0.084143	Micropsitta pusio	Agapornis lilianae	72
 GCA_032357275.1	GCA_035583095.1	0.083588	Micropsitta pusio	Cacatua galerita	81.521
 GCA_032357275.1	GCA_036873685.1	0.084944	Micropsitta pusio	Agapornis canus	72.273
 GCA_032357275.1	GCA_037157495.1	0.076398	Micropsitta pusio	Lathamus discolor	72.273
+GCA_032357275.1	GCA_037157625.1	0.074946	Micropsitta pusio	Lathamus discolor	72.273
 GCA_032357275.1	GCA_038381815.1	0.087133	Micropsitta pusio	Anodorhynchus leari	77.635
 GCA_032357275.1	GCA_038406155.1	0.08932	Micropsitta pusio	Pyrrhura leucotis	77.635
 GCA_032357275.1	GCA_039720425.1	0.084405	Micropsitta pusio	Amazona ochrocephala	77.635
@@ -12345,6 +12795,7 @@ GCA_032357765.1	GCA_035222285.1	0.1331	Amazona auropalliata	Agapornis lilianae	7
 GCA_032357765.1	GCA_035583095.1	0.12751	Amazona auropalliata	Cacatua galerita	81.521
 GCA_032357765.1	GCA_036873685.1	0.13312	Amazona auropalliata	Agapornis canus	77.635
 GCA_032357765.1	GCA_037157495.1	0.12669	Amazona auropalliata	Lathamus discolor	77.635
+GCA_032357765.1	GCA_037157625.1	0.12587	Amazona auropalliata	Lathamus discolor	77.635
 GCA_032357765.1	GCA_038381815.1	0.11223	Amazona auropalliata	Anodorhynchus leari	50.04
 GCA_032357765.1	GCA_038406155.1	0.11544	Amazona auropalliata	Pyrrhura leucotis	50.04
 GCA_032357765.1	GCA_039720425.1	0.09552	Amazona auropalliata	Amazona ochrocephala	20.474
@@ -12415,6 +12866,7 @@ GCA_032360005.1	GCA_035222285.1	0.10693	Amazona ochrocephala	Agapornis lilianae	
 GCA_032360005.1	GCA_035583095.1	0.10182	Amazona ochrocephala	Cacatua galerita	81.521
 GCA_032360005.1	GCA_036873685.1	0.10776	Amazona ochrocephala	Agapornis canus	77.635
 GCA_032360005.1	GCA_037157495.1	0.1	Amazona ochrocephala	Lathamus discolor	77.635
+GCA_032360005.1	GCA_037157625.1	0.098229	Amazona ochrocephala	Lathamus discolor	77.635
 GCA_032360005.1	GCA_038381815.1	0.082822	Amazona ochrocephala	Anodorhynchus leari	50.04
 GCA_032360005.1	GCA_038406155.1	0.087214	Amazona ochrocephala	Pyrrhura leucotis	50.04
 GCA_032360005.1	GCA_039720425.1	0.03376	Amazona ochrocephala	Amazona ochrocephala	0
@@ -12484,6 +12936,7 @@ GCA_032360045.1	GCA_035222285.1	0.16271	Amazona ventralis	Agapornis lilianae	77.
 GCA_032360045.1	GCA_035583095.1	0.15608	Amazona ventralis	Cacatua galerita	81.521
 GCA_032360045.1	GCA_036873685.1	0.16328	Amazona ventralis	Agapornis canus	77.635
 GCA_032360045.1	GCA_037157495.1	0.1533	Amazona ventralis	Lathamus discolor	77.635
+GCA_032360045.1	GCA_037157625.1	0.15212	Amazona ventralis	Lathamus discolor	77.635
 GCA_032360045.1	GCA_038381815.1	0.13765	Amazona ventralis	Anodorhynchus leari	50.04
 GCA_032360045.1	GCA_038406155.1	0.14151	Amazona ventralis	Pyrrhura leucotis	50.04
 GCA_032360045.1	GCA_039720425.1	0.098203	Amazona ventralis	Amazona ochrocephala	20.474
@@ -12552,6 +13005,7 @@ GCA_032361345.1	GCA_035222285.1	0.15298	Trichoglossus haematodus	Agapornis lilia
 GCA_032361345.1	GCA_035583095.1	0.1512	Trichoglossus haematodus	Cacatua galerita	81.521
 GCA_032361345.1	GCA_036873685.1	0.15385	Trichoglossus haematodus	Agapornis canus	64.053
 GCA_032361345.1	GCA_037157495.1	0.14957	Trichoglossus haematodus	Lathamus discolor	70.802
+GCA_032361345.1	GCA_037157625.1	0.1505	Trichoglossus haematodus	Lathamus discolor	70.802
 GCA_032361345.1	GCA_038381815.1	0.15647	Trichoglossus haematodus	Anodorhynchus leari	77.635
 GCA_032361345.1	GCA_038406155.1	0.15632	Trichoglossus haematodus	Pyrrhura leucotis	77.635
 GCA_032361345.1	GCA_039720425.1	0.15302	Trichoglossus haematodus	Amazona ochrocephala	77.635
@@ -12619,6 +13073,7 @@ GCA_032466295.1	GCA_035222285.1	0.097114	Forpus passerinus	Agapornis lilianae	77
 GCA_032466295.1	GCA_035583095.1	0.09103	Forpus passerinus	Cacatua galerita	81.521
 GCA_032466295.1	GCA_036873685.1	0.098785	Forpus passerinus	Agapornis canus	77.635
 GCA_032466295.1	GCA_037157495.1	0.090145	Forpus passerinus	Lathamus discolor	77.635
+GCA_032466295.1	GCA_037157625.1	0.089886	Forpus passerinus	Lathamus discolor	77.635
 GCA_032466295.1	GCA_038381815.1	0.076822	Forpus passerinus	Anodorhynchus leari	46.462
 GCA_032466295.1	GCA_038406155.1	0.079583	Forpus passerinus	Pyrrhura leucotis	46.462
 GCA_032466295.1	GCA_039720425.1	0.074476	Forpus passerinus	Amazona ochrocephala	50.04
@@ -12685,6 +13140,7 @@ GCA_032466415.1	GCA_035222285.1	0.094546	Forpus xanthopterygius	Agapornis lilian
 GCA_032466415.1	GCA_035583095.1	0.088773	Forpus xanthopterygius	Cacatua galerita	81.521
 GCA_032466415.1	GCA_036873685.1	0.095941	Forpus xanthopterygius	Agapornis canus	77.635
 GCA_032466415.1	GCA_037157495.1	0.087053	Forpus xanthopterygius	Lathamus discolor	77.635
+GCA_032466415.1	GCA_037157625.1	0.087073	Forpus xanthopterygius	Lathamus discolor	77.635
 GCA_032466415.1	GCA_038381815.1	0.073832	Forpus xanthopterygius	Anodorhynchus leari	46.462
 GCA_032466415.1	GCA_038406155.1	0.076291	Forpus xanthopterygius	Pyrrhura leucotis	46.462
 GCA_032466415.1	GCA_039720425.1	0.071724	Forpus xanthopterygius	Amazona ochrocephala	50.04
@@ -12750,6 +13206,7 @@ GCA_032466535.1	GCA_035222285.1	0.091085	Forpus xanthops	Agapornis lilianae	77.6
 GCA_032466535.1	GCA_035583095.1	0.084237	Forpus xanthops	Cacatua galerita	81.521
 GCA_032466535.1	GCA_036873685.1	0.092699	Forpus xanthops	Agapornis canus	77.635
 GCA_032466535.1	GCA_037157495.1	0.083652	Forpus xanthops	Lathamus discolor	77.635
+GCA_032466535.1	GCA_037157625.1	0.085039	Forpus xanthops	Lathamus discolor	77.635
 GCA_032466535.1	GCA_038381815.1	0.070799	Forpus xanthops	Anodorhynchus leari	46.462
 GCA_032466535.1	GCA_038406155.1	0.072045	Forpus xanthops	Pyrrhura leucotis	46.462
 GCA_032466535.1	GCA_039720425.1	0.069343	Forpus xanthops	Amazona ochrocephala	50.04
@@ -12814,6 +13271,7 @@ GCA_033783945.1	GCA_035222285.1	0.070594	Neopsephotus bourkii	Agapornis lilianae
 GCA_033783945.1	GCA_035583095.1	0.073312	Neopsephotus bourkii	Cacatua galerita	81.521
 GCA_033783945.1	GCA_036873685.1	0.072493	Neopsephotus bourkii	Agapornis canus	70.802
 GCA_033783945.1	GCA_037157495.1	0.06029	Neopsephotus bourkii	Lathamus discolor	69.33
+GCA_033783945.1	GCA_037157625.1	0.061465	Neopsephotus bourkii	Lathamus discolor	69.33
 GCA_033783945.1	GCA_038381815.1	0.078476	Neopsephotus bourkii	Anodorhynchus leari	77.635
 GCA_033783945.1	GCA_038406155.1	0.079475	Neopsephotus bourkii	Pyrrhura leucotis	77.635
 GCA_033783945.1	GCA_039720425.1	0.077376	Neopsephotus bourkii	Amazona ochrocephala	77.635
@@ -12877,6 +13335,7 @@ GCA_034780615.1	GCA_035222285.1	0.064159	Trichoglossus moluccanus	Agapornis lili
 GCA_034780615.1	GCA_035583095.1	0.06919	Trichoglossus moluccanus	Cacatua galerita	81.521
 GCA_034780615.1	GCA_036873685.1	0.065897	Trichoglossus moluccanus	Agapornis canus	64.053
 GCA_034780615.1	GCA_037157495.1	0.057371	Trichoglossus moluccanus	Lathamus discolor	70.802
+GCA_034780615.1	GCA_037157625.1	0.059287	Trichoglossus moluccanus	Lathamus discolor	70.802
 GCA_034780615.1	GCA_038381815.1	0.073447	Trichoglossus moluccanus	Anodorhynchus leari	77.635
 GCA_034780615.1	GCA_038406155.1	0.074754	Trichoglossus moluccanus	Pyrrhura leucotis	77.635
 GCA_034780615.1	GCA_039720425.1	0.073065	Trichoglossus moluccanus	Amazona ochrocephala	77.635
@@ -12939,6 +13398,7 @@ GCA_034781895.1	GCA_035222285.1	0.14824	Psittacara finschi	Agapornis lilianae	77
 GCA_034781895.1	GCA_035583095.1	0.14212	Psittacara finschi	Cacatua galerita	81.521
 GCA_034781895.1	GCA_036873685.1	0.14969	Psittacara finschi	Agapornis canus	77.635
 GCA_034781895.1	GCA_037157495.1	0.14291	Psittacara finschi	Lathamus discolor	77.635
+GCA_034781895.1	GCA_037157625.1	0.14258	Psittacara finschi	Lathamus discolor	77.635
 GCA_034781895.1	GCA_038381815.1	0.095816	Psittacara finschi	Anodorhynchus leari	20.274
 GCA_034781895.1	GCA_038406155.1	0.10205	Psittacara finschi	Pyrrhura leucotis	26.18
 GCA_034781895.1	GCA_039720425.1	0.12624	Psittacara finschi	Amazona ochrocephala	50.04
@@ -13000,6 +13460,7 @@ GCA_034782355.1	GCA_035222285.1	0.080052	Amazona kawalli	Agapornis lilianae	77.6
 GCA_034782355.1	GCA_035583095.1	0.073009	Amazona kawalli	Cacatua galerita	81.521
 GCA_034782355.1	GCA_036873685.1	0.081049	Amazona kawalli	Agapornis canus	77.635
 GCA_034782355.1	GCA_037157495.1	0.072155	Amazona kawalli	Lathamus discolor	77.635
+GCA_034782355.1	GCA_037157625.1	0.073553	Amazona kawalli	Lathamus discolor	77.635
 GCA_034782355.1	GCA_038381815.1	0.056295	Amazona kawalli	Anodorhynchus leari	50.04
 GCA_034782355.1	GCA_038406155.1	0.057815	Amazona kawalli	Pyrrhura leucotis	50.04
 GCA_034782355.1	GCA_039720425.1	0.011243	Amazona kawalli	Amazona ochrocephala	20.474
@@ -13060,6 +13521,7 @@ GCA_034782575.1	GCA_035222285.1	0.081623	Brotogeris tirica	Agapornis lilianae	77
 GCA_034782575.1	GCA_035583095.1	0.074578	Brotogeris tirica	Cacatua galerita	81.521
 GCA_034782575.1	GCA_036873685.1	0.082931	Brotogeris tirica	Agapornis canus	77.635
 GCA_034782575.1	GCA_037157495.1	0.073136	Brotogeris tirica	Lathamus discolor	77.635
+GCA_034782575.1	GCA_037157625.1	0.074578	Brotogeris tirica	Lathamus discolor	77.635
 GCA_034782575.1	GCA_038381815.1	0.058481	Brotogeris tirica	Anodorhynchus leari	50.04
 GCA_034782575.1	GCA_038406155.1	0.060026	Brotogeris tirica	Pyrrhura leucotis	50.04
 GCA_034782575.1	GCA_039720425.1	0.056438	Brotogeris tirica	Amazona ochrocephala	49.56
@@ -13119,6 +13581,7 @@ GCA_034782755.1	GCA_035222285.1	0.12358	Amazona guildingii	Agapornis lilianae	77
 GCA_034782755.1	GCA_035583095.1	0.11484	Amazona guildingii	Cacatua galerita	81.521
 GCA_034782755.1	GCA_036873685.1	0.12339	Amazona guildingii	Agapornis canus	77.635
 GCA_034782755.1	GCA_037157495.1	0.1149	Amazona guildingii	Lathamus discolor	77.635
+GCA_034782755.1	GCA_037157625.1	0.11592	Amazona guildingii	Lathamus discolor	77.635
 GCA_034782755.1	GCA_038381815.1	0.097889	Amazona guildingii	Anodorhynchus leari	50.04
 GCA_034782755.1	GCA_038406155.1	0.10013	Amazona guildingii	Pyrrhura leucotis	50.04
 GCA_034782755.1	GCA_039720425.1	0.057074	Amazona guildingii	Amazona ochrocephala	20.474
@@ -13177,6 +13640,7 @@ GCA_034782895.1	GCA_035222285.1	0.0044309	Agapornis fischeri	Agapornis lilianae	
 GCA_034782895.1	GCA_035583095.1	0.080136	Agapornis fischeri	Cacatua galerita	81.521
 GCA_034782895.1	GCA_036873685.1	0.036207	Agapornis fischeri	Agapornis canus	24.069
 GCA_034782895.1	GCA_037157495.1	0.067458	Agapornis fischeri	Lathamus discolor	70.802
+GCA_034782895.1	GCA_037157625.1	0.068131	Agapornis fischeri	Lathamus discolor	70.802
 GCA_034782895.1	GCA_038381815.1	0.083634	Agapornis fischeri	Anodorhynchus leari	77.635
 GCA_034782895.1	GCA_038406155.1	0.084358	Agapornis fischeri	Pyrrhura leucotis	77.635
 GCA_034782895.1	GCA_039720425.1	0.081657	Agapornis fischeri	Amazona ochrocephala	77.635
@@ -13234,6 +13698,7 @@ GCA_034782915.1	GCA_035222285.1	0.095042	Forpus coelestis	Agapornis lilianae	77.
 GCA_034782915.1	GCA_035583095.1	0.089162	Forpus coelestis	Cacatua galerita	81.521
 GCA_034782915.1	GCA_036873685.1	0.096605	Forpus coelestis	Agapornis canus	77.635
 GCA_034782915.1	GCA_037157495.1	0.087883	Forpus coelestis	Lathamus discolor	77.635
+GCA_034782915.1	GCA_037157625.1	0.08771	Forpus coelestis	Lathamus discolor	77.635
 GCA_034782915.1	GCA_038381815.1	0.074872	Forpus coelestis	Anodorhynchus leari	46.462
 GCA_034782915.1	GCA_038406155.1	0.076923	Forpus coelestis	Pyrrhura leucotis	46.462
 GCA_034782915.1	GCA_039720425.1	0.072967	Forpus coelestis	Amazona ochrocephala	50.04
@@ -13290,6 +13755,7 @@ GCA_034783095.1	GCA_035222285.1	0.13413	Forpus spengeli	Agapornis lilianae	77.63
 GCA_034783095.1	GCA_035583095.1	0.12351	Forpus spengeli	Cacatua galerita	81.521
 GCA_034783095.1	GCA_036873685.1	0.13594	Forpus spengeli	Agapornis canus	77.635
 GCA_034783095.1	GCA_037157495.1	0.13073	Forpus spengeli	Lathamus discolor	77.635
+GCA_034783095.1	GCA_037157625.1	0.13163	Forpus spengeli	Lathamus discolor	77.635
 GCA_034783095.1	GCA_038381815.1	0.13544	Forpus spengeli	Anodorhynchus leari	46.462
 GCA_034783095.1	GCA_038406155.1	0.13459	Forpus spengeli	Pyrrhura leucotis	46.462
 GCA_034783095.1	GCA_039720425.1	0.13413	Forpus spengeli	Amazona ochrocephala	50.04
@@ -13345,6 +13811,7 @@ GCA_034783155.1	GCA_035222285.1	0.0033767	Agapornis personatus	Agapornis liliana
 GCA_034783155.1	GCA_035583095.1	0.078834	Agapornis personatus	Cacatua galerita	81.521
 GCA_034783155.1	GCA_036873685.1	0.035039	Agapornis personatus	Agapornis canus	24.069
 GCA_034783155.1	GCA_037157495.1	0.066353	Agapornis personatus	Lathamus discolor	70.802
+GCA_034783155.1	GCA_037157625.1	0.067812	Agapornis personatus	Lathamus discolor	70.802
 GCA_034783155.1	GCA_038381815.1	0.082687	Agapornis personatus	Anodorhynchus leari	77.635
 GCA_034783155.1	GCA_038406155.1	0.083358	Agapornis personatus	Pyrrhura leucotis	77.635
 GCA_034783155.1	GCA_039720425.1	0.081153	Agapornis personatus	Amazona ochrocephala	77.635
@@ -13399,6 +13866,7 @@ GCA_034783195.1	GCA_035222285.1	0.033157	Agapornis taranta	Agapornis lilianae	49
 GCA_034783195.1	GCA_035583095.1	0.084896	Agapornis taranta	Cacatua galerita	81.521
 GCA_034783195.1	GCA_036873685.1	0.040782	Agapornis taranta	Agapornis canus	49.285
 GCA_034783195.1	GCA_037157495.1	0.072217	Agapornis taranta	Lathamus discolor	70.802
+GCA_034783195.1	GCA_037157625.1	0.07366	Agapornis taranta	Lathamus discolor	70.802
 GCA_034783195.1	GCA_038381815.1	0.088554	Agapornis taranta	Anodorhynchus leari	77.635
 GCA_034783195.1	GCA_038406155.1	0.089693	Agapornis taranta	Pyrrhura leucotis	77.635
 GCA_034783195.1	GCA_039720425.1	0.087003	Agapornis taranta	Amazona ochrocephala	77.635
@@ -13452,6 +13920,7 @@ GCA_034783435.1	GCA_035222285.1	0.031708	Agapornis swindernianus	Agapornis lilia
 GCA_034783435.1	GCA_035583095.1	0.080954	Agapornis swindernianus	Cacatua galerita	81.521
 GCA_034783435.1	GCA_036873685.1	0.03686	Agapornis swindernianus	Agapornis canus	51.227
 GCA_034783435.1	GCA_037157495.1	0.069019	Agapornis swindernianus	Lathamus discolor	70.802
+GCA_034783435.1	GCA_037157625.1	0.070096	Agapornis swindernianus	Lathamus discolor	70.802
 GCA_034783435.1	GCA_038381815.1	0.085154	Agapornis swindernianus	Anodorhynchus leari	77.635
 GCA_034783435.1	GCA_038406155.1	0.086397	Agapornis swindernianus	Pyrrhura leucotis	77.635
 GCA_034783435.1	GCA_039720425.1	0.08356	Agapornis swindernianus	Amazona ochrocephala	77.635
@@ -13504,6 +13973,7 @@ GCA_034783915.1	GCA_035222285.1	0.058236	Agapornis pullarius	Agapornis lilianae	
 GCA_034783915.1	GCA_035583095.1	0.10967	Agapornis pullarius	Cacatua galerita	81.521
 GCA_034783915.1	GCA_036873685.1	0.068261	Agapornis pullarius	Agapornis canus	49.285
 GCA_034783915.1	GCA_037157495.1	0.098626	Agapornis pullarius	Lathamus discolor	70.802
+GCA_034783915.1	GCA_037157625.1	0.10026	Agapornis pullarius	Lathamus discolor	70.802
 GCA_034783915.1	GCA_038381815.1	0.11428	Agapornis pullarius	Anodorhynchus leari	77.635
 GCA_034783915.1	GCA_038406155.1	0.11384	Agapornis pullarius	Pyrrhura leucotis	77.635
 GCA_034783915.1	GCA_039720425.1	0.11268	Agapornis pullarius	Amazona ochrocephala	77.635
@@ -13555,6 +14025,7 @@ GCA_035041115.1	GCA_035222285.1	0.16254	Agapornis nigrigenis	Agapornis lilianae	
 GCA_035041115.1	GCA_035583095.1	0.15782	Agapornis nigrigenis	Cacatua galerita	81.521
 GCA_035041115.1	GCA_036873685.1	0.16305	Agapornis nigrigenis	Agapornis canus	24.069
 GCA_035041115.1	GCA_037157495.1	0.16068	Agapornis nigrigenis	Lathamus discolor	70.802
+GCA_035041115.1	GCA_037157625.1	0.1616	Agapornis nigrigenis	Lathamus discolor	70.802
 GCA_035041115.1	GCA_038381815.1	0.16664	Agapornis nigrigenis	Anodorhynchus leari	77.635
 GCA_035041115.1	GCA_038406155.1	0.16537	Agapornis nigrigenis	Pyrrhura leucotis	77.635
 GCA_035041115.1	GCA_039720425.1	0.16328	Agapornis nigrigenis	Amazona ochrocephala	77.635
@@ -13605,6 +14076,7 @@ GCA_035041115.1	GCA_988293565.1	0.16188	Agapornis nigrigenis	Agapornis nigrigeni
 GCA_035222285.1	GCA_035583095.1	0.079145	Agapornis lilianae	Cacatua galerita	81.521
 GCA_035222285.1	GCA_036873685.1	0.035166	Agapornis lilianae	Agapornis canus	24.069
 GCA_035222285.1	GCA_037157495.1	0.06669	Agapornis lilianae	Lathamus discolor	70.802
+GCA_035222285.1	GCA_037157625.1	0.068107	Agapornis lilianae	Lathamus discolor	70.802
 GCA_035222285.1	GCA_038381815.1	0.082922	Agapornis lilianae	Anodorhynchus leari	77.635
 GCA_035222285.1	GCA_038406155.1	0.08368	Agapornis lilianae	Pyrrhura leucotis	77.635
 GCA_035222285.1	GCA_039720425.1	0.081579	Agapornis lilianae	Amazona ochrocephala	77.635
@@ -13654,6 +14126,7 @@ GCA_035222285.1	GCA_988293145.1	0.0020046	Agapornis lilianae	Agapornis nigrigeni
 GCA_035222285.1	GCA_988293565.1	0.0020046	Agapornis lilianae	Agapornis nigrigenis	0.2649
 GCA_035583095.1	GCA_036873685.1	0.080415	Cacatua galerita	Agapornis canus	81.521
 GCA_035583095.1	GCA_037157495.1	0.070397	Cacatua galerita	Lathamus discolor	81.521
+GCA_035583095.1	GCA_037157625.1	0.07223	Cacatua galerita	Lathamus discolor	81.521
 GCA_035583095.1	GCA_038381815.1	0.075639	Cacatua galerita	Anodorhynchus leari	81.521
 GCA_035583095.1	GCA_038406155.1	0.076652	Cacatua galerita	Pyrrhura leucotis	81.521
 GCA_035583095.1	GCA_039720425.1	0.074571	Cacatua galerita	Amazona ochrocephala	81.521
@@ -13702,6 +14175,7 @@ GCA_035583095.1	GCA_988280925.1	0.067568	Cacatua galerita	Psittacula krameri	81.
 GCA_035583095.1	GCA_988293145.1	0.078948	Cacatua galerita	Agapornis nigrigenis	81.521
 GCA_035583095.1	GCA_988293565.1	0.078948	Cacatua galerita	Agapornis nigrigenis	81.521
 GCA_036873685.1	GCA_037157495.1	0.067885	Agapornis canus	Lathamus discolor	70.802
+GCA_036873685.1	GCA_037157625.1	0.069631	Agapornis canus	Lathamus discolor	70.802
 GCA_036873685.1	GCA_038381815.1	0.084387	Agapornis canus	Anodorhynchus leari	77.635
 GCA_036873685.1	GCA_038406155.1	0.085654	Agapornis canus	Pyrrhura leucotis	77.635
 GCA_036873685.1	GCA_039720425.1	0.082741	Agapornis canus	Amazona ochrocephala	77.635
@@ -13749,6 +14223,7 @@ GCA_036873685.1	GCA_988280915.1	0.071407	Agapornis canus	Psittacula krameri	72.2
 GCA_036873685.1	GCA_988280925.1	0.069811	Agapornis canus	Psittacula krameri	72.273
 GCA_036873685.1	GCA_988293145.1	0.034849	Agapornis canus	Agapornis nigrigenis	24.069
 GCA_036873685.1	GCA_988293565.1	0.034849	Agapornis canus	Agapornis nigrigenis	24.069
+GCA_037157495.1	GCA_037157625.1	0.0061749	Lathamus discolor	Lathamus discolor	0
 GCA_037157495.1	GCA_038381815.1	0.075474	Lathamus discolor	Anodorhynchus leari	77.635
 GCA_037157495.1	GCA_038406155.1	0.076352	Lathamus discolor	Pyrrhura leucotis	77.635
 GCA_037157495.1	GCA_039720425.1	0.073804	Lathamus discolor	Amazona ochrocephala	77.635
@@ -13796,6 +14271,53 @@ GCA_037157495.1	GCA_988280915.1	0.061163	Lathamus discolor	Psittacula krameri	72
 GCA_037157495.1	GCA_988280925.1	0.059554	Lathamus discolor	Psittacula krameri	72.273
 GCA_037157495.1	GCA_988293145.1	0.066335	Lathamus discolor	Agapornis nigrigenis	70.802
 GCA_037157495.1	GCA_988293565.1	0.066335	Lathamus discolor	Agapornis nigrigenis	70.802
+GCA_037157625.1	GCA_038381815.1	0.075767	Lathamus discolor	Anodorhynchus leari	77.635
+GCA_037157625.1	GCA_038406155.1	0.077843	Lathamus discolor	Pyrrhura leucotis	77.635
+GCA_037157625.1	GCA_039720425.1	0.071333	Lathamus discolor	Amazona ochrocephala	77.635
+GCA_037157625.1	GCA_039720435.1	0.073561	Lathamus discolor	Amazona ochrocephala	77.635
+GCA_037157625.1	GCA_039999165.1	0.0060912	Lathamus discolor	Lathamus discolor	0
+GCA_037157625.1	GCA_040207695.1	0.11075	Lathamus discolor	Eolophus roseicapilla	81.521
+GCA_037157625.1	GCA_040966375.1	0.064337	Lathamus discolor	Lorius hypoinochrous	70.802
+GCA_037157625.1	GCA_041108055.1	0.083902	Lathamus discolor	Brotogeris pyrrhoptera	77.635
+GCA_037157625.1	GCA_041108195.1	0.082633	Lathamus discolor	Brotogeris versicolurus	77.635
+GCA_037157625.1	GCA_041108455.1	0.16775	Lathamus discolor	Loriculus galgulus	70.802
+GCA_037157625.1	GCA_041108845.1	0.11826	Lathamus discolor	Brotogeris chiriri	77.635
+GCA_037157625.1	GCA_041731235.1	0.076245	Lathamus discolor	Brotogeris cyanoptera	77.635
+GCA_037157625.1	GCA_041731355.1	0.097229	Lathamus discolor	Loriculus pusillus	70.802
+GCA_037157625.1	GCA_042902855.1	0.069921	Lathamus discolor	Loriculus philippensis	70.802
+GCA_037157625.1	GCA_043109885.1	0.075496	Lathamus discolor	Zanda funerea	81.521
+GCA_037157625.1	GCA_043110175.1	0.13342	Lathamus discolor	Loriculus vernalis	70.802
+GCA_037157625.1	GCA_043110865.1	0.21011	Lathamus discolor	Coracopsis nigra	74.954
+GCA_037157625.1	GCA_045345405.1	0.072834	Lathamus discolor	Guaruba guarouba	77.635
+GCA_037157625.1	GCA_045519325.1	0.070488	Lathamus discolor	Guaruba guarouba	77.635
+GCA_037157625.1	GCA_046039615.1	0.14565	Lathamus discolor	Cacatua haematuropygia	81.521
+GCA_037157625.1	GCA_046245015.1	0.0714	Lathamus discolor	Eos cyanogenia	70.802
+GCA_037157625.1	GCA_046563285.1	0.065143	Lathamus discolor	Loriculus galgulus	70.802
+GCA_037157625.1	GCA_047054915.1	0.06222	Lathamus discolor	Neophema chrysogaster	69.33
+GCA_037157625.1	GCA_047446135.1	0.24738	Lathamus discolor	Glossopsitta concinna	70.802
+GCA_037157625.1	GCA_047535115.1	0.28499	Lathamus discolor	Triclaria malachitacea	77.635
+GCA_037157625.1	GCA_047711335.1	0.2467	Lathamus discolor	Chalcopsitta duivenbodei	70.802
+GCA_037157625.1	GCA_048591985.1	0.11305	Lathamus discolor	Trichoglossus chlorolepidotus	70.802
+GCA_037157625.1	GCA_051622115.1	0.067787	Lathamus discolor	Agapornis fischeri	70.802
+GCA_037157625.1	GCA_051622155.1	0.067885	Lathamus discolor	Agapornis roseicollis	70.802
+GCA_037157625.1	GCA_055772115.1	0.063358	Lathamus discolor	Psittrichas fulgidus	74.954
+GCA_037157625.1	GCA_055772155.1	0.072541	Lathamus discolor	Cyanoliseus patagonus	77.635
+GCA_037157625.1	GCA_056825165.1	0.073114	Lathamus discolor	Cyanoliseus patagonus	77.635
+GCA_037157625.1	GCA_056825465.1	0.059839	Lathamus discolor	Cyclopsitta diophthalma	70.802
+GCA_037157625.1	GCA_902168055.1	0.073199	Lathamus discolor	Aratinga solstitialis	77.635
+GCA_037157625.1	GCA_917880015.2	0.07259	Lathamus discolor	Ara rubrogenys	77.635
+GCA_037157625.1	GCA_977968565.1	0.063358	Lathamus discolor	Psittrichas fulgidus	74.954
+GCA_037157625.1	GCA_977969355.1	0.072541	Lathamus discolor	Cyanoliseus patagonus	77.635
+GCA_037157625.1	GCA_980694505.1	0.074265	Lathamus discolor	Amazona vittata	77.635
+GCA_037157625.1	GCA_981469625.1	0.084697	Lathamus discolor	Forpus passerinus	77.635
+GCA_037157625.1	GCA_982290525.1	0.073128	Lathamus discolor	Psittacara finschi	77.635
+GCA_037157625.1	GCA_982290535.1	0.07315	Lathamus discolor	Poicephalus gulielmi	77.635
+GCA_037157625.1	GCA_982290595.1	0.073157	Lathamus discolor	Psittacara erythrogenys	77.635
+GCA_037157625.1	GCA_982290605.1	0.072946	Lathamus discolor	Poicephalus rueppellii	77.635
+GCA_037157625.1	GCA_988280915.1	0.058653	Lathamus discolor	Psittacula krameri	72.273
+GCA_037157625.1	GCA_988280925.1	0.061163	Lathamus discolor	Psittacula krameri	72.273
+GCA_037157625.1	GCA_988293145.1	0.067812	Lathamus discolor	Agapornis nigrigenis	70.802
+GCA_037157625.1	GCA_988293565.1	0.067812	Lathamus discolor	Agapornis nigrigenis	70.802
 GCA_038381815.1	GCA_038406155.1	0.029651	Anodorhynchus leari	Pyrrhura leucotis	26.18
 GCA_038381815.1	GCA_039720425.1	0.056626	Anodorhynchus leari	Amazona ochrocephala	50.04
 GCA_038381815.1	GCA_039720435.1	0.056175	Anodorhynchus leari	Amazona ochrocephala	50.04

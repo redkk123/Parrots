@@ -1,0 +1,5 @@
+species	accession	call	evidence	alternative_assembly
+Agapornis nigrigenis	GCA_035041115.1	wrong_organism	Mash >= 0.145 to every parrot (deepest within-order distance, Nestor vs others, is 0.10); 0.162 to the Sanger assembly of the same species; no mitogenome >= 95 % to any parrot; 13.7 kb mitochondrial contig JAWWLU010008796.1 closest to Garrulax (Leiothrichidae, Passeriformes) at 89.5 % over 13 kb (RefSeq avian mitogenomes)	GCA_988293565.1 (Wellcome Sanger, chromosome level)
+Cacatua haematuropygia	GCA_046039615.1	mixed_with_foreign_genome	1.77 Gb (expected ~1.1 Gb); Mash 0.116 to other Cacatua (within-genus median 0.011); nearest assembly is the passerine-like GCA_035041115.1 (0.083)	none in NCBI
+Trichoglossus haematodus	GCA_032361345.1	mixed_with_foreign_genome	Mash 0.128 to congeners; nearest assembly is the passerine-like GCA_035041115.1 (0.096); no mitogenome >= 95 % to any parrot	none in NCBI
+Aratinga jandaya	GCA_026284485.1	wrong_specimen	Mash 0.0039 to Poicephalus meyeri GCA_026283865.1 (same-species level) vs 0.066 to the nearest Aratinga; only Poicephalus mitogenomes found	none in NCBI

@@ -4,7 +4,8 @@ Pass criteria (protocol / TODO 1.1):
   BUSCO complete (S+D, aves_odb10) >= 85 % for the broad set (>= 95 % for the pilot panel)
   species identity 'confirmed' by mitochondrial COX1/CYTB/ND2 against independent GenBank sequences;
   a mitochondrial 'conflict' (foreign mitogenome, own not assembled) is not an exclusion by itself: it is
-  resolved by the nuclear Mash check (results/phase1_audit/mash_identity.tsv) when available
+  resolved by the nuclear Mash check (results/phase1_audit/mash_identity.tsv) when available; assemblies listed
+  in results/phase1_audit/nuclear_identity_review.tsv (wrong organism/specimen, mixed genomes) fail identity
 Contamination: a second (foreign) mitogenome in the assembly is flagged as cross-sample contamination;
 GC or total length outside the expected range is flagged as possible contamination/redundancy (no read-level screen yet).
 Runs on partial results; rows without BUSCO/mito are 'pending'.
@@ -78,6 +79,11 @@ def main():
     t["identity_pass"] = np.select(
         [t.mito_overall.isna(), t.mito_overall.isin(["confirmed", "confirmed_with_foreign_mito"]),
          t.mito_overall == "conflict"], ["pending", "pass", "check_nuclear"], "unresolved")
+    rev = A / "nuclear_identity_review.tsv"  # manual review of Mash anomalies (wrong organism/specimen, mixtures)
+    if rev.exists():
+        rv = pd.read_csv(rev, sep="\t").set_index("accession")
+        t["nuclear_review"] = t.accession.map(rv.call)
+        t.loc[t.nuclear_review.notna(), "identity_pass"] = "fail"
     t.loc[(t.identity_pass == "check_nuclear") & (t.nuclear_vs_donor == "nuclear_matches_claim"), "identity_pass"] = "pass"
     t.loc[(t.identity_pass == "check_nuclear") & (t.nuclear_vs_donor == "nuclear_closer_to_donor"), "identity_pass"] = "fail"
     t["flag_foreign_mito"] = t.mito_overall.isin(["confirmed_with_foreign_mito", "conflict"])

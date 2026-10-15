@@ -2,7 +2,7 @@
 
 Iniciado em 14 out. 2026, atualizado em 15 out. 2026. **Nenhuma análise de genes foi feita.** Item 1.1 do `TODO.md`.
 
-Estado: inventário NCBI ✅ · identidade mitocondrial 96/96 ✅ · checagem nuclear (Mash) ⏳ · BUSCO 3/96 ⏳ (≈ 1h20 por genoma nesta máquina; ~5 dias para o lote).
+Estado: inventário NCBI ✅ · identidade mitocondrial 96/96 ✅ · identidade nuclear (Mash) 96/96 ✅ · BUSCO 10/96 ⏳ (≈ 1 h por genoma; salvamento automático no GitHub de hora em hora, `scripts/autosave_audit.sh`).
 
 ## 1. O que é o "lote Hains"
 
@@ -32,17 +32,24 @@ O plano (§4) exige **BUSCO ≥ 85 % e N50 de contig ≥ 20 kb**. Pelo N50:
 | ≥ 5 kb | 82 | 24 / 58 |
 | sem corte | 105 | 34 / 71 |
 
-Com 20 kb, Psittaculidae cai de 34 para 12 espécies e os lóris ficam reduzidos a dois *Trichoglossus*. Isso esvazia as análises "dentro de Psittaculidae" e a comparação periquito × Loriini da H8. A condição de escala da Fase 0 (~60 espécies) não é atendida. **Decisão pendente (do pesquisador):** manter 20 kb ou registrar outro critério antes de olhar genes. O BUSCO, quando terminar, deve pesar nessa decisão.
+Com 20 kb, Psittaculidae cai de 34 para 12 espécies e os lóris ficam reduzidos a dois *Trichoglossus* (e um deles, *T. haematodus*, foi depois excluído por mistura de genomas; §4). Isso esvazia as análises "dentro de Psittaculidae" e a comparação periquito × Loriini da H8. A condição de escala da Fase 0 (~60 espécies) não é atendida. **Decisão pendente (do pesquisador):** manter 20 kb ou registrar outro critério antes de olhar genes. O BUSCO, quando terminar, deve pesar nessa decisão.
 
-## 3. BUSCO (compleasm, aves_odb10) — 3 de 96
+## 3. BUSCO (compleasm, aves_odb10) — 10 de 96 (amostra aleatória do lote)
 
 | Espécie | N50 de contig | Completo | Fragmentado | Ausente |
 | --- | --- | --- | --- | --- |
-| *Psittacus timneh* | 38,6 kb | 87,7 % | 8,8 % | 3,4 % |
+| *Psittacus timneh* | 38,6 kb | **87,7 %** | 8,8 % | 3,4 % |
 | *Psittacara leucophthalmus* | 19,2 kb | 76,1 % | 16,4 % | 7,2 % |
-| *Psittacara erythrogenys* | 0,76 kb | **2,0 %** | 8,4 % | 89,6 % |
+| *Pyrrhura leucotis* | 13,9 kb | 74,7 % | 17,1 % | 7,9 % |
+| *Agapornis personatus* | 15,9 kb | 73,9 % | 16,8 % | 9,1 % |
+| *Loriculus philippensis* | 1,8 kb | 51,1 % | 26,0 % | 22,5 % |
+| *Enicognathus leptorhynchus* | 3,4 kb | 43,5 % | 27,3 % | 28,7 % |
+| *Poicephalus cryptoxanthus* | 1,2 kb | 42,8 % | 25,0 % | 31,9 % |
+| *Eolophus roseicapilla* | 0,33 kb | 2,7 % | 13,5 % | 83,6 % |
+| *Psittacara erythrogenys* | 0,76 kb | 2,0 % | 8,4 % | 89,6 % |
+| *Coracopsis nigra* | 0,31 kb | 0,9 % | 3,7 % | 95,3 % |
 
-Mesmo uma montagem com N50 próximo de 20 kb fica abaixo de 85 %. Montagens com N50 < 1 kb são inutilizáveis para extrair genes.
+Só 1 de 10 passa no critério de 85 %. Montagens com N50 de 14–19 kb ficam em 74–76 %, com muitos genes **fragmentados** (16–17 %), não ausentes. O corte de BUSCO pré-registrado tende a ser **mais restritivo** que o de N50. Como a ordem do lote é aleatória, estes 10 são uma amostra sem viés do restante.
 
 ## 4. Identidade do espécime e contaminação (mitogenoma)
 
@@ -63,7 +70,25 @@ Como ler isso:
 - Um "conflito" pode ser troca de amostra ou só falha em montar o mitogenoma próprio. Casos entre famílias (*Cacatua alba* com *Amazona*, *Guaruba* com *Psittacus*, *Melopsittacus* com *Ara severus*) não são explicáveis por taxonomia. Casos dentro do gênero (*Forpus*, *Agapornis*, *Psittacara*) podem refletir referência mal identificada ou introgressão.
 - Limite: registros do GenBank feitos por terceiros a partir dos reads da Iridian não são excluídos pelo filtro de autores.
 
-**Próximo passo, já em execução:** distâncias Mash nucleares (`scripts/16_mash_batch.sh`, `scripts/17_mash_identity.py`) para as 96 montagens, 48 montagens independentes das mesmas espécies e 32 doadoras. Um "conflito" é resolvido como identidade correta se o genoma nuclear fica mais perto do gênero declarado que da doadora.
+### Identidade nuclear (Mash)
+
+Distâncias Mash (k = 21, 50 mil hashes) entre 176 montagens: as 96 Iridian, 48 montagens independentes das mesmas espécies e 32 da Iridian das espécies "doadoras" (`scripts/16_mash_batch.sh`, `scripts/17_mash_identity.py`; [`mash_identity.tsv`](mash_identity.tsv)).
+
+Calibração, com montagens de N50 ≥ 5 kb: mesma espécie 0,002–0,009; dentro do gênero, mediana 0,006 (*Agapornis*) e 0,011 (*Cacatua*); entre famílias (*Agapornis* × *Cacatua*) 0,08; a maior distância dentro da ordem (*Nestor* × demais) é 0,10. **Com N50 < 5 kb, a distância é inflada pela fragmentação** (0,01–0,08 para a mesma espécie) e não serve para identidade.
+
+- **Dos 22 "conflitos" mitocondriais**, 9 têm genoma nuclear do gênero declarado, mais perto dele que da doadora (*Guaruba*, *Myiopsitta*, *Melopsittacus*, *Cacatua alba*, *Lorius lory*, *Psittacula derbiana* etc.). Neles o mitogenoma estranho era contaminação, não troca de amostra. 10 não são testáveis por esse critério (doadora congênere ou montagem fragmentada), embora *Amazona aestiva* fique a 0,009 da montagem independente da mesma espécie. Em 2, a doadora não tem montagem. 1 falha (*Aratinga jandaya*, abaixo).
+- **Quatro montagens falham** ([`nuclear_identity_review.tsv`](nuclear_identity_review.tsv)):
+
+| Montagem | Diagnóstico | Evidência |
+| --- | --- | --- |
+| "*Agapornis nigrigenis*" GCA_035041115.1 | **não é papagaio** | ≥ 0,145 de qualquer papagaio (mais que *Nestor* × demais); 0,16 da montagem Sanger da mesma espécie; mitogenoma de 13,7 kb mais próximo de *Garrulax* (Leiothrichidae, Passeriformes), 89,5 % |
+| "*Cacatua haematuropygia*" GCA_046039615.1 | mistura com o mesmo genoma estranho | 1,77 Gb; 0,116 das outras *Cacatua* (esperado ~0,01); vizinho mais próximo é a montagem acima |
+| "*Trichoglossus haematodus*" GCA_032361345.1 | mistura com o mesmo genoma estranho | 0,128 dos congêneres; vizinho mais próximo é a montagem acima; sem mitogenoma de papagaio |
+| "*Aratinga jandaya*" GCA_026284485.1 | **espécime errado** | 0,0039 de *Poicephalus meyeri* (nível de mesma espécie) contra 0,066 do *Aratinga* mais próximo; só mitogenomas de *Poicephalus* |
+
+Para *A. nigrigenis* há montagem cromossômica independente (Sanger, GCA_988293565.1), que deve substituir a da Iridian. As outras três espécies ficam sem genoma utilizável.
+
+A mitocôndria estranha em 61 montagens e esses quatro casos indicam **controle de amostras falho no lote Iridian**. A identidade de cada montagem tem de ser checada antes do uso, como aqui; o metadado do NCBI não basta.
 
 ## 5. Qualidade × longevidade (TODO 1.1, item 4)
 

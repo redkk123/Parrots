@@ -14,9 +14,10 @@ Legenda: 🟢 dá para fazer aqui, com o acesso atual · 🔴 precisa liberar re
 São **96 das 105 espécies utilizáveis**. Na prática, "Hains" = todas as montagens da Iridian Genomes (235 no NCBI).
 
 - [x] Inventário NCBI de todas as montagens de papagaios (`scripts/09_ncbi_assembly_inventory.py`).
-- [ ] ⏳ **BUSCO** (compleasm, aves_odb10) nas 96: lote `scripts/12_audit_batch.sh` rodando (3/96; ~1h20 cada). Critério: ≥ 85 % completo no conjunto amplo, ≥ 95 % no painel piloto.
+- [ ] ⏳ **BUSCO** (compleasm, aves_odb10) nas 96: lote `scripts/12_audit_batch.sh` rodando (10/96; só 1 passa de 85 %). Salvamento automático de hora em hora.
 - [x] **Identidade pelo mitogenoma** (96/96): 61 montagens têm o mitogenoma de **outra** espécie; 22 só têm o de outra ("conflito").
-- [ ] ⏳ **Identidade nuclear (Mash)** para resolver os 22 conflitos e medir distância × filogenia (`scripts/16_mash_batch.sh` → `17_mash_identity.py`).
+- [x] **Identidade nuclear (Mash)**, 176 montagens: 9 conflitos mitocondriais resolvidos como contaminação; **4 montagens excluídas**: "*Agapornis nigrigenis*" não é papagaio (passeriforme), *Cacatua haematuropygia* e *Trichoglossus haematodus* misturadas com esse genoma, "*Aratinga jandaya*" é um *Poicephalus*. Ver `results/phase1_audit/nuclear_identity_review.tsv`.
+- [ ] Usar a montagem Sanger de *A. nigrigenis* (GCA_988293565.1) no lugar da Iridian; rodar BUSCO nela.
 - [ ] **Contaminação nuclear:** medir a fração de reads de outra espécie (ex.: mapear uma amostra de reads contra o mitogenoma próprio e o da doadora; ou k-mers). Saber se a contaminação cruzada vista no mitogenoma chega ao nuclear em nível que importe.
 - [x] Qualidade (N50, tamanho, GC) × longevidade relativa: **sem associação** (PGLS). Repetir com BUSCO.
 - [ ] **Decidir o critério de N50** (pré-registrado: ≥ 20 kb → só 47 espécies, 12 em Psittaculidae). Manter ou registrar outro **antes** de olhar genes.
