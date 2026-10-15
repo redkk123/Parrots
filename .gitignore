@@ -12,3 +12,4 @@ results/phase1_audit/busco/*/compleasm.log
 results/phase1_audit/busco/*/run/
 logs/*.log.detail
 *.rds
+logs/autosave_audit.log
