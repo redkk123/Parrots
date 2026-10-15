@@ -1,0 +1,96 @@
+species	accession	nearest	nearest_species	nearest_dist	nearest_same_genus	dist_independent_same_species	dist_nearest_congener	median_resid_vs_tree	mito_overall	mito_donors	dist_nearest_donor	nuclear_vs_donor
+Lorius lory	GCA_025629905.1	GCA_034780615.1	Trichoglossus moluccanus	0.005736	False		0.01141	-0.005739	conflict	Cacatua moluccensis;Psittacula derbiana	0.06033	nuclear_matches_claim
+Lorius garrulus	GCA_010014925.2	GCA_034780615.1	Trichoglossus moluccanus	0.00976	False		0.01141	-0.007188	confirmed			
+Glossopsitta concinna	GCA_047446135.1	GCA_035041115.1	Agapornis nigrigenis	0.1938	False			0.1663	confirmed			
+Eos cyanogenia	GCA_046245015.1	GCA_034780615.1	Trichoglossus moluccanus	0.0192	False		0.02857	0.002445	confirmed_with_foreign_mito	Cacatua haematuropygia	0.1398	untestable_fragmented_assembly
+Eos histrio	GCA_026284865.1	GCA_025447915.1	Trichoglossus euteles	0.01689	False		0.02857	-0.000615	confirmed			
+Trichoglossus haematodus	GCA_032361345.1	GCA_035041115.1	Agapornis nigrigenis	0.0964	False		0.1279	0.07305	no_reliable_mito			
+Trichoglossus chlorolepidotus	GCA_048591985.1	GCA_034780615.1	Trichoglossus moluccanus	0.06107	True		0.06107	0.0452	conflict	Chalcopsitta duivenbodei;Triclaria malachitacea	0.1613	untestable_fragmented_assembly
+Trichoglossus euteles	GCA_025447915.1	GCA_034780615.1	Trichoglossus moluccanus	0.004052	True		0.004052	-0.009405	confirmed			
+Melopsittacus undulatus	GCA_025448075.1	GCA_000238935.1	Melopsittacus undulatus	0.007759	True	0.007759		-0.001183	conflict	Ara severus	0.07627	nuclear_matches_claim
+Agapornis taranta	GCA_034783195.1	GCA_988293565.1	Agapornis nigrigenis	0.03279	True		0.03279	0.006564	conflict	Agapornis canus;Agapornis swindernianus		untestable_congeneric_donor
+Agapornis nigrigenis	GCA_035041115.1	GCA_046039615.1	Cacatua haematuropygia	0.0827	False	0.1619	0.1623	0.08474	no_reliable_mito			
+Agapornis lilianae	GCA_035222285.1	GCA_988293145.1	Agapornis nigrigenis	0.002005	True		0.002005	0.0006636	confirmed			
+Agapornis personatus	GCA_034783155.1	GCA_051622115.1	Agapornis fischeri	0.002895	True		0.002895	0.000417	confirmed_with_foreign_mito	Agapornis canus;Agapornis pullarius		untestable_congeneric_donor
+Agapornis fischeri	GCA_034782895.1	GCA_051622115.1	Agapornis fischeri	0.003635	True	0.003635	0.004101	0.001474	no_reliable_mito			
+Agapornis roseicollis	GCA_024337125.1	GCA_002631895.1	Agapornis roseicollis	0.003248	True	0.003248	0.008341	0.001703	conflict	Poicephalus meyeri;Probosciger aterrimus	0.08009	untestable_fragmented_assembly
+Agapornis canus	GCA_036873685.1	GCA_988293145.1	Agapornis nigrigenis	0.03485	True		0.03485	0.002518	confirmed			
+Loriculus galgulus	GCA_041108455.1	GCA_042902855.1	Loriculus philippensis	0.1415	True	0.1453	0.1415	0.09505	confirmed_with_foreign_mito	Brotogeris chrysoptera;Brotogeris cyanoptera;Brotogeris pyrrhoptera	0.1469	untestable_fragmented_assembly
+Loriculus vernalis	GCA_043110175.1	GCA_034783095.1	Forpus spengeli	0.1039	False		0.1321	0.05675	confirmed_with_foreign_mito	Eos cyanogenia;Zanda funerea	0.114	untestable_fragmented_assembly
+Loriculus philippensis	GCA_042902855.1	GCA_046563285.1	Loriculus galgulus	0.02209	True		0.02209	0.003351	confirmed_with_foreign_mito	Brotogeris cyanoptera;Brotogeris pyrrhoptera;Eos reticulata	0.0835	untestable_fragmented_assembly
+Cyanoramphus novaezelandiae	GCA_025629965.1	GCA_039999165.1	Lathamus discolor	0.01952	False			-0.001957	confirmed_with_foreign_mito	Pionites melanocephalus	0.07271	
+Platycercus adscitus	GCA_025629925.1	GCA_025447935.1	Barnardius zonarius	0.01632	False			-0.007164	confirmed_with_foreign_mito	Cyanoramphus auriceps;Pionites melanocephalus	0.07069	
+Psephotus haematonotus	GCA_026283765.1	GCA_025629925.1	Platycercus adscitus	0.01966	False			-0.006609	confirmed			
+Psittacula derbiana	GCA_029814625.1	GCA_031762955.1	Psittacula longicauda	0.01242	True		0.01242	-0.009178	conflict	Cyanoramphus auriceps;Cyanoramphus novaezelandiae;Pionites melanocephalus;Platycercus adscitus;Platycercus eximius	0.05852	nuclear_matches_claim
+Psittacula longicauda	GCA_031762955.1	GCA_029814625.1	Psittacula derbiana	0.01242	True		0.01242	-0.008197	confirmed			
+Psittacula columboides	GCA_032274665.1	GCA_002870145.1	Psittacula krameri	0.01738	True		0.01738	-0.007571	confirmed_with_foreign_mito	Amazona oratrix;Pyrrhura eisenmanni	0.07008	nuclear_matches_claim
+Psittacula cyanocephala	GCA_026283905.1	GCA_029814625.1	Psittacula derbiana	0.01917	True		0.01917	-0.007975	confirmed			
+Psittacula eupatria	GCA_031762335.1	GCA_988280915.1	Psittacula krameri	0.05887	True		0.05887	0.03903	confirmed_with_foreign_mito	Psittacara erythrogenys	0.1153	untestable_fragmented_assembly
+Coracopsis nigra	GCA_043110865.1	GCA_041108845.1	Brotogeris chiriri	0.1745	False		0.2027	0.1391	confirmed_with_foreign_mito	Loriculus pusillus	0.193	untestable_fragmented_assembly
+Amazona aestiva	GCA_026283685.1	GCA_031763625.1	Amazona oratrix	0.004183	True	0.008797	0.004183	-0.001228	conflict	Amazona ochrocephala		untestable_congeneric_donor
+Amazona finschi	GCA_031763935.1	GCA_013399615.1	Amazona guildingii	0.0113	True		0.0113	-0.002797	confirmed_with_foreign_mito	Pionus seniloides	0.07763	nuclear_matches_claim
+Amazona guildingii	GCA_034782755.1	GCA_013399615.1	Amazona guildingii	0.04677	True	0.04677	0.05476	0.03964	conflict	Amazona kawalli		untestable_congeneric_donor
+Amazona ventralis	GCA_032360045.1	GCA_980694505.1	Amazona vittata	0.0881	True		0.0881	0.08007	no_reliable_mito			
+Amazona vinacea	GCA_026283615.1	GCA_031763625.1	Amazona oratrix	0.00884	True		0.00884	-0.00324	ambiguous			
+Amazona leucocephala	GCA_026283665.1	GCA_031763625.1	Amazona oratrix	0.003622	True		0.004857	-0.002276	conflict	Amazona ochrocephala;Amazona oratrix;Coracopsis vasa	0.06919	nuclear_matches_claim
+Amazona ochrocephala	GCA_032360005.1	GCA_039720425.1	Amazona ochrocephala	0.03376	True	0.03376	0.03574	0.02519	confirmed			
+Triclaria malachitacea	GCA_047535115.1	GCA_047711335.1	Chalcopsitta duivenbodei	0.1296	False			0.2168	conflict	Agapornis canus;Chalcopsitta duivenbodei;Trichoglossus chlorolepidotus	0.1296	untestable_fragmented_assembly
+Brotogeris pyrrhoptera	GCA_041108055.1	GCA_030323915.1	Brotogeris chrysoptera	0.01871	True		0.01871	0.00926	confirmed_with_foreign_mito	Brotogeris cyanoptera;Forpus coelestis;Loriculus philippensis	0.08199	untestable_fragmented_assembly
+Brotogeris cyanoptera	GCA_041731235.1	GCA_030323915.1	Brotogeris chrysoptera	0.007478	True		0.007478	0.001581	confirmed_with_foreign_mito	Brotogeris jugularis;Loriculus philippensis;Trichoglossus forsteni	0.0835	nuclear_matches_claim
+Brotogeris tirica	GCA_034782575.1	GCA_030323915.1	Brotogeris chrysoptera	0.009339	True		0.009339	-0.0008419	confirmed_with_foreign_mito	Brotogeris jugularis;Psittacula cyanocephala	0.07155	nuclear_matches_claim
+Brotogeris versicolurus	GCA_041108195.1	GCA_034782575.1	Brotogeris tirica	0.01648	True		0.01648	0.008481	confirmed_with_foreign_mito	Brotogeris chiriri;Brotogeris cyanoptera;Coracopsis nigra;Purpureicephalus spurius	0.2	untestable_fragmented_assembly
+Myiopsitta monachus	GCA_013036005.2	GCA_017639245.1	Myiopsitta monachus	0.003731	True	0.003731		-0.00339	conflict	Cacatua leadbeateri	0.07535	nuclear_matches_claim
+Eupsittula nana	GCA_026284785.1	GCA_026284725.1	Eupsittula canicularis	0.006902	True		0.006902	-0.0004716	confirmed_with_foreign_mito	Pyrrhura albipectus;Pyrrhura egregia;Pyrrhura peruviana;Pyrrhura picta	0.0228	nuclear_matches_claim
+Eupsittula pertinax	GCA_011317185.2	GCA_026283745.1	Eupsittula aurea	0.008009	True		0.008009	-0.000567	confirmed			
+Psittacara holochlorus	GCA_024320895.1	GCA_982290525.1	Psittacara finschi	0.004863	True		0.004863	-0.001316	conflict	Eupsittula nana;Pyrrhura albipectus;Pyrrhura peruviana;Pyrrhura picta	0.01579	nuclear_matches_claim
+Psittacara wagleri	GCA_024361765.2	GCA_026283805.1	Psittacara mitratus	0.007302	True		0.007302	0.000518	confirmed			
+Psittacara leucophthalmus	GCA_024331625.1	GCA_982290525.1	Psittacara finschi	0.004967	True		0.004967	-0.001162	confirmed_with_foreign_mito	Poicephalus rufiventris	0.06686	nuclear_matches_claim
+Ara chloropterus	GCA_010014725.2	GCA_026284625.1	Ara ambiguus	0.006951	True		0.006951	0.00052	ambiguous			
+Ara macao	GCA_026283635.1	GCA_000400545.1	Ara macao	0.01553	True	0.01553	0.01614	0.008058	confirmed			
+Ara ararauna	GCA_010014805.2	GCA_028858755.1	Ara ararauna	0.005528	True	0.005528	0.0075	-0.002113	ambiguous			
+Ara rubrogenys	GCA_026283725.1	GCA_917880015.2	Ara rubrogenys	0.002252	True	0.002252	0.007966	-0.001659	confirmed_with_foreign_mito	Amazona auropalliata;Pyrrhura albipectus;Pyrrhura snethlageae	0.02238	nuclear_matches_claim
+Ara ambiguus	GCA_026284625.1	GCA_010015965.3	Ara militaris	0.004309	True		0.004406	-0.00241	conflict	Ara militaris		untestable_congeneric_donor
+Primolius auricollis	GCA_026284745.2	GCA_026283845.1	Primolius maracana	0.006653	True		0.007128	0.001021	confirmed_with_foreign_mito	Primolius maracana;Psittacara chloropterus		
+Primolius couloni	GCA_024331605.1	GCA_026283845.1	Primolius maracana	0.005072	True		0.005072	-0.001832	conflict	Psittacara chloropterus		
+Primolius maracana	GCA_026283845.1	GCA_024331605.1	Primolius couloni	0.005072	True		0.005072	-0.001808	confirmed			
+Aratinga jandaya	GCA_026284485.1	GCA_026283865.1	Poicephalus meyeri	0.003866	False		0.066	0.01192	conflict	Eupsittula canicularis;Poicephalus gulielmi;Poicephalus meyeri;Poicephalus robustus	0.003866	nuclear_closer_to_donor
+Aratinga auricapillus	GCA_026284685.1	GCA_902168055.1	Aratinga solstitialis	0.001084	True		0.001084	-0.001826	confirmed_with_foreign_mito	Psittacara mitratus;Psittacara wagleri	0.01484	nuclear_matches_claim
+Aratinga solstitialis	GCA_009867195.2	GCA_026284685.1	Aratinga auricapillus	0.00163	True	0.001642	0.00163	-0.001312	ambiguous			
+Psittacara acuticaudatus	GCA_026284765.1	GCA_045345405.1	Guaruba guarouba	0.006321	False		0.01351	-0.00149	conflict	Psittacara mitratus;Psittacara wagleri		untestable_congeneric_donor
+Diopsittaca nobilis	GCA_024337085.1	GCA_045345405.1	Guaruba guarouba	0.005287	False			-0.001691	conflict	Eupsittula canicularis;Poicephalus gulielmi;Poicephalus meyeri	0.01534	
+Guaruba guarouba	GCA_011800095.2	GCA_045345405.1	Guaruba guarouba	0.002634	True	0.002634		-0.001328	conflict	Psittacus erithacus	0.06601	nuclear_matches_claim
+Psittacara finschi	GCA_034781895.1	GCA_982290525.1	Psittacara finschi	0.08215	True	0.08215	0.08304	0.06904	no_reliable_mito			
+Psittacara erythrogenys	GCA_031763765.1	GCA_982290595.1	Psittacara erythrogenys	0.06554	True	0.06554	0.06756	0.05658	confirmed_with_foreign_mito	Psittacara holochlorus		untestable_congeneric_donor
+Anodorhynchus leari	GCA_038381815.1	GCA_028858555.1	Ara ararauna	0.01806	False			-0.0004274	confirmed_with_foreign_mito	Eolophus roseicapilla;Lorius hypoinochrous	0.07602	untestable_fragmented_assembly
+Cyanoliseus patagonus	GCA_025629865.1	GCA_977969355.1	Cyanoliseus patagonus	0.001922	True	0.001922		-0.00387	confirmed_with_foreign_mito	Barnardius zonarius;Bolborhynchus lineola;Cacatua ducorpsii;Lorius chlorocercus	0.06137	nuclear_matches_claim
+Enicognathus leptorhynchus	GCA_030264335.1	GCA_977969355.1	Cyanoliseus patagonus	0.02052	False			0.00187	confirmed			
+Rhynchopsitta pachyrhyncha	GCA_026284805.1	GCA_028858555.1	Ara ararauna	0.01835	False			-0.001608	no_reliable_mito			
+Pyrrhura leucotis	GCA_038406155.1	GCA_010014965.2	Pyrrhura griseipectus	0.006435	True		0.006435	0.002946	confirmed			
+Pyrrhura griseipectus	GCA_010014965.2	GCA_030265185.1	Pyrrhura eisenmanni	0.004605	True		0.004605	-2.375e-06	confirmed_with_foreign_mito	Pyrrhura lepida		untestable_congeneric_donor
+Pionites melanocephalus	GCA_029814565.1	GCA_025448055.1	Pionites leucogaster	0.002859	True		0.002859	-0.007601	confirmed_with_foreign_mito	Cyanoramphus auriceps;Platycercus adscitus;Platycercus eximius;Psittacula alexandri;Psittacula derbiana	0.06826	nuclear_matches_claim
+Pionites leucogaster	GCA_025448055.1	GCA_029814565.1	Pionites melanocephalus	0.002859	True			-0.00716	conflict	Cyanoramphus auriceps;Lorius chlorocercus;Pionites melanocephalus		
+Deroptyus accipitrinus	GCA_026284505.1	GCA_029814565.1	Pionites melanocephalus	0.01916	False			-0.007308	confirmed			
+Forpus coelestis	GCA_034782915.1	GCA_032466535.1	Forpus xanthops	0.01168	True		0.01168	0.009791	confirmed_with_foreign_mito	Agapornis canus;Micropsitta pusio	0.09661	untestable_fragmented_assembly
+Forpus passerinus	GCA_032466295.1	GCA_981469625.1	Forpus passerinus	0.01214	True	0.01214	0.01838	0.01162	confirmed			
+Forpus cyanopygius	GCA_032353375.1	GCA_032466535.1	Forpus xanthops	0.005323	True		0.0148	0.008197	conflict	Forpus xanthops;Forpus xanthopterygius		untestable_congeneric_donor
+Forpus spengeli	GCA_034783095.1	GCA_026283635.1	Ara macao	0.09755	False		0.1393	0.06427	no_reliable_mito			
+Psilopsiagon aymara	GCA_024733675.1	GCA_025447955.1	Psilopsiagon aurifrons	0.01729	True		0.01729	0.001209	confirmed_with_foreign_mito	Ara severus	0.06136	nuclear_matches_claim
+Psilopsiagon aurifrons	GCA_025447955.1	GCA_024733675.1	Psilopsiagon aymara	0.01729	True		0.01729	0.0007509	confirmed_with_foreign_mito	Bolborhynchus lineola;Lorius chlorocercus;Primolius maracana	0.04386	nuclear_matches_claim
+Bolborhynchus lineola	GCA_025448015.1	GCA_025447955.1	Psilopsiagon aurifrons	0.04386	False			0.0009304	confirmed_with_foreign_mito	Cacatua ducorpsii;Cyanoliseus patagonus;Psilopsiagon aurifrons	0.04386	
+Poicephalus gulielmi	GCA_026283885.1	GCA_982290535.1	Poicephalus gulielmi	0.003319	True	0.003319	0.01081	-0.001844	confirmed_with_foreign_mito	Diopsittaca nobilis;Eupsittula canicularis;Poicephalus meyeri;Poicephalus robustus;Poicephalus senegalus;Probosciger aterrimus	0.06584	nuclear_matches_claim
+Poicephalus senegalus	GCA_025448095.1	GCA_982290605.1	Poicephalus rueppellii	0.006365	True		0.006365	-0.002103	confirmed_with_foreign_mito	Poicephalus gulielmi;Poicephalus robustus		untestable_congeneric_donor
+Poicephalus rueppellii	GCA_031762375.1	GCA_982290605.1	Poicephalus rueppellii	0.00162	True	0.00162	0.006722	-0.002239	confirmed_with_foreign_mito	Poicephalus gulielmi		untestable_congeneric_donor
+Poicephalus cryptoxanthus	GCA_026413525.1	GCA_026284485.1	Aratinga jandaya	0.01515	False		0.01519	0.002296	confirmed_with_foreign_mito	Eupsittula aurea;Poicephalus rufiventris;Primolius auricollis;Psittacara acuticaudatus;Psittacara chloropterus	0.06932	untestable_fragmented_assembly
+Psittacus erithacus	GCA_009867235.2	GCA_009867315.2	Psittacus timneh	0.003496	True		0.003496	-0.001715	confirmed			
+Psittacus timneh	GCA_009867315.2	GCA_009867235.2	Psittacus erithacus	0.003496	True		0.003496	-0.001937	no_mito_found			
+Cacatua ducorpsii	GCA_025448155.1	GCA_030265285.1	Cacatua sanguinea	0.006916	True		0.006916	-0.003619	confirmed_with_foreign_mito	Ara severus;Cyanoliseus patagonus;Primolius maracana	0.07012	nuclear_matches_claim
+Cacatua sanguinea	GCA_030265285.1	GCA_025448155.1	Cacatua ducorpsii	0.006916	True		0.006916	-0.003376	confirmed			
+Cacatua haematuropygia	GCA_046039615.1	GCA_035041115.1	Agapornis nigrigenis	0.0827	False		0.1158	0.06933	confirmed_with_foreign_mito	Eos cyanogenia	0.1398	nuclear_matches_claim
+Cacatua moluccensis	GCA_025448035.1	GCA_031762475.1	Cacatua sulphurea	0.007259	True		0.007259	-0.002266	confirmed_with_foreign_mito	Trichoglossus haematodus;Trichoglossus moluccanus	0.06975	nuclear_matches_claim
+Cacatua alba	GCA_024361745.1	GCA_031762475.1	Cacatua sulphurea	0.008227	True		0.008227	-0.001553	conflict	Amazona ochrocephala;Amazona oratrix	0.07387	nuclear_matches_claim
+Cacatua sulphurea	GCA_031762475.1	GCA_035583095.1	Cacatua galerita	0.00338	True		0.00338	-0.00304	confirmed			
+Cacatua galerita	GCA_035583095.1	GCA_031762475.1	Cacatua sulphurea	0.00338	True		0.00338	-0.002975	confirmed_with_foreign_mito	Agapornis canus	0.08042	nuclear_matches_claim
+Eolophus roseicapilla	GCA_040207695.1	GCA_013397615.1	Eolophus roseicapilla	0.05013	True	0.05013		0.03633	conflict	Anodorhynchus leari;Lorius hypoinochrous	0.1098	untestable_fragmented_assembly
+Probosciger aterrimus	GCA_024678265.1	GCA_013397665.1	Probosciger aterrimus	0.01075	True	0.01075		0.003355	confirmed_with_foreign_mito	Poicephalus gulielmi	0.07767	untestable_fragmented_assembly
+Zanda funerea	GCA_043109885.1	GCA_030265285.1	Cacatua sanguinea	0.04102	False			0.0006817	confirmed			
+Nymphicus hollandicus	GCA_009823435.2	GCA_030265285.1	Cacatua sanguinea	0.03793	False			-0.0005981	no_reliable_mito			
