@@ -6,3 +6,9 @@ __pycache__/
 .renv/
 .renv45/
 data/processed/*.rds
+.bioenv/
+results/phase1_audit/busco/*/full_table.tsv
+results/phase1_audit/busco/*/compleasm.log
+results/phase1_audit/busco/*/run/
+logs/*.log.detail
+*.rds

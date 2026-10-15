@@ -1,0 +1,416 @@
+{
+ "accession": "GCA_041108055.1",
+ "claimed": "Brotogeris pyrrhoptera",
+ "own_reference_genes": [
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBFSXC010800377.1": {
+   "len": 36094,
+   "gc": 45.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Glossopsitta_pusilla",
+     "top_pid": 87.698,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_cyanocephala",
+     "top_pid": 85.861,
+     "claimed_pid": 81.802
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Prioniturus_platurus",
+     "top_pid": 76.21,
+     "claimed_pid": 75.956
+    }
+   }
+  },
+  "JBFSXC010302126.1": {
+   "len": 3722,
+   "gc": 46.3,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Brotogeris_jugularis",
+     "top_pid": 96.166,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Brotogeris_pyrrhoptera",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBFSXC010067017.1": {
+   "len": 26743,
+   "gc": 29.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_roseata",
+     "top_pid": 86.667,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBFSXC010858747.1": {
+   "len": 4164,
+   "gc": 48.4,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Eos_reticulata",
+     "top_pid": 97.544,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBFSXC010079149.1": {
+   "len": 5899,
+   "gc": 43.4,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Forpus_coelestis",
+     "top_pid": 99.824,
+     "claimed_pid": 87.719
+    }
+   }
+  },
+  "JBFSXC010787545.1": {
+   "len": 2732,
+   "gc": 50.7,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Loriculus_pusillus",
+     "top_pid": 89.857,
+     "claimed_pid": 86.491
+    }
+   }
+  },
+  "JBFSXC010564372.1": {
+   "len": 1626,
+   "gc": 45.4,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 95.255,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBFSXC010778886.1": {
+   "len": 8383,
+   "gc": 47.4,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Lorius_garrulus",
+     "top_pid": 83.565,
+     "claimed_pid": 81.019
+    }
+   }
+  },
+  "JBFSXC010975336.1": {
+   "len": 3924,
+   "gc": 47.9,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Loriculus_philippensis",
+     "top_pid": 100.0,
+     "claimed_pid": 80.157
+    }
+   }
+  },
+  "JBFSXC010777140.1": {
+   "len": 3123,
+   "gc": 48.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 84.742,
+     "claimed_pid": 81.842
+    }
+   }
+  },
+  "JBFSXC010787929.1": {
+   "len": 913,
+   "gc": 49.2,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Brotogeris_pyrrhoptera",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBFSXC010777667.1": {
+   "len": 1241,
+   "gc": 49.6,
+   "genes": {
+    "COX1": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Loriculus_philippensis",
+     "top_pid": 99.712,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBFSXC010779369.1": {
+   "len": 1157,
+   "gc": 49.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Melopsittacus_undulatus",
+     "top_pid": 85.965,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBFSXC010779500.1": {
+   "len": 1151,
+   "gc": 49.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_wallicus",
+     "top_pid": 86.166,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBFSXC010790758.1": {
+   "len": 862,
+   "gc": 45.9,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Eos_cyanogenia",
+     "top_pid": 96.616,
+     "claimed_pid": 85.089
+    }
+   }
+  },
+  "JBFSXC010568292.1": {
+   "len": 1623,
+   "gc": 42.6,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Brotogeris_cyanoptera",
+     "top_pid": 96.316,
+     "claimed_pid": 91.316
+    }
+   }
+  },
+  "JBFSXC010779235.1": {
+   "len": 1162,
+   "gc": 46.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Tanygnathus_megalorynchos",
+     "top_pid": 78.659,
+     "claimed_pid": 74.558
+    }
+   }
+  },
+  "JBFSXC010789838.1": {
+   "len": 878,
+   "gc": 49.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Melopsittacus_undulatus",
+     "top_pid": 85.965,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBFSXC010788703.1": {
+   "len": 898,
+   "gc": 44.2,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Brotogeris_pyrrhoptera",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBFSXC010779236.1": {
+   "len": 1162,
+   "gc": 46.3,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 78.947,
+     "claimed_pid": 73.663
+    }
+   }
+  },
+  "JBFSXC010867284.1": {
+   "len": 2174,
+   "gc": 49.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Poicephalus_cryptoxanthus",
+     "top_pid": 84.123,
+     "claimed_pid": 82.306
+    }
+   }
+  },
+  "JBFSXC010785606.1": {
+   "len": 963,
+   "gc": 47.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_finschii",
+     "top_pid": 82.944,
+     "claimed_pid": 79.618
+    }
+   }
+  },
+  "JBFSXC010807208.1": {
+   "len": 659,
+   "gc": 46.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Phigys_solitarius",
+     "top_pid": 88.51,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBFSXC010801243.1": {
+   "len": 714,
+   "gc": 45.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Brotogeris_versicolurus",
+     "top_pid": 90.347,
+     "claimed_pid": 89.768
+    }
+   }
+  },
+  "JBFSXC010105382.1": {
+   "len": 85220,
+   "gc": 31.5,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Brotogeris_cyanoptera",
+     "top_pid": 99.324,
+     "claimed_pid": 90.604
+    }
+   }
+  },
+  "JBFSXC010802274.1": {
+   "len": 704,
+   "gc": 48.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_wallicus",
+     "top_pid": 84.922,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBFSXC010811947.1": {
+   "len": 624,
+   "gc": 47.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Trichoglossus_haematodus",
+     "top_pid": 86.282,
+     "claimed_pid": 83.101
+    }
+   }
+  },
+  "JBFSXC010789235.1": {
+   "len": 889,
+   "gc": 45.9,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 95.056,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBFSXC010883623.1": {
+   "len": 406,
+   "gc": 44.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Brotogeris_cyanoptera",
+     "top_pid": 92.365,
+     "claimed_pid": 86.634
+    }
+   }
+  },
+  "JBFSXC010888900.1": {
+   "len": 399,
+   "gc": 49.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Amazona_albifrons",
+     "top_pid": 86.75,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBFSXC010823136.1": {
+   "len": 559,
+   "gc": 44.7,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 77.778,
+     "claimed_pid": 74.539
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Brotogeris_cyanoptera",
+  "Forpus_coelestis",
+  "Loriculus_philippensis"
+ ],
+ "foreign_contigs": [
+  "JBFSXC010079149.1",
+  "JBFSXC010105382.1",
+  "JBFSXC010975336.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

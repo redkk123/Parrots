@@ -1,0 +1,178 @@
+{
+ "accession": "GCA_026284685.1",
+ "claimed": "Aratinga auricapillus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANEXI010029986.1": {
+   "len": 36467,
+   "gc": 41.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 89.024,
+     "claimed_pid": 85.811
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 85.203,
+     "claimed_pid": 80.5
+    }
+   }
+  },
+  "JANEXI010157866.1": {
+   "len": 1565,
+   "gc": 48.1,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Psittacara_wagleri",
+     "top_pid": 99.123,
+     "claimed_pid": 89.261
+    }
+   }
+  },
+  "JANEXI010053923.1": {
+   "len": 6328,
+   "gc": 42.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 89.27,
+     "claimed_pid": 85.899
+    }
+   }
+  },
+  "JANEXI010157057.1": {
+   "len": 1988,
+   "gc": 45.1,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Psittacara_wagleri",
+     "top_pid": 99.752,
+     "claimed_pid": 87.593
+    }
+   }
+  },
+  "JANEXI010157056.1": {
+   "len": 1988,
+   "gc": 45.5,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Psittacara_mitratus",
+     "top_pid": 100.0,
+     "claimed_pid": 87.965
+    }
+   }
+  },
+  "JANEXI010049747.1": {
+   "len": 50179,
+   "gc": 42.7,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 94.858,
+     "claimed_pid": 90.647
+    }
+   }
+  },
+  "JANEXI010158381.1": {
+   "len": 1405,
+   "gc": 46.4,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Psittacara_wagleri",
+     "top_pid": 99.668,
+     "claimed_pid": 88.401
+    }
+   }
+  },
+  "JANEXI010035622.1": {
+   "len": 1405,
+   "gc": 47.0,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Psittacara_mitratus",
+     "top_pid": 100.0,
+     "claimed_pid": 87.873
+    }
+   }
+  },
+  "JANEXI010066919.1": {
+   "len": 8276,
+   "gc": 38.1,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Aratinga_solstitialis",
+     "top_pid": 99.853,
+     "claimed_pid": 99.264
+    }
+   }
+  },
+  "JANEXI010034255.1": {
+   "len": 21681,
+   "gc": 41.2,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_sordidus",
+     "top_pid": 88.78,
+     "claimed_pid": 84.615
+    }
+   }
+  },
+  "JANEXI010074811.1": {
+   "len": 575,
+   "gc": 48.9,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Psittacara_mitratus",
+     "top_pid": 100.0,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANEXI010029130.1": {
+   "len": 16718,
+   "gc": 40.6,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 95.833,
+     "claimed_pid": 83.005
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "ND2"
+ ],
+ "foreign_species": [
+  "Psittacara_mitratus",
+  "Psittacara_wagleri"
+ ],
+ "foreign_contigs": [
+  "JANEXI010035622.1",
+  "JANEXI010074811.1",
+  "JANEXI010157056.1",
+  "JANEXI010157057.1",
+  "JANEXI010157866.1",
+  "JANEXI010158381.1"
+ ],
+ "best_own_pid": 99.264,
+ "overall": "confirmed_with_foreign_mito"
+}

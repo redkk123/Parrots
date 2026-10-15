@@ -1,0 +1,78 @@
+{
+ "accession": "GCA_031762335.1",
+ "claimed": "Psittacula eupatria",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JARVGR010051018.1": {
+   "len": 33424,
+   "gc": 46.1,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Psittacula_eupatria",
+     "top_pid": 99.382,
+     "claimed_pid": 99.382
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Psittacula_eupatria",
+     "top_pid": 99.625,
+     "claimed_pid": 99.625
+    }
+   }
+  },
+  "JARVGR010152245.1": {
+   "len": 1913,
+   "gc": 44.3,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Psittacula_eupatria",
+     "top_pid": 99.424,
+     "claimed_pid": 99.424
+    }
+   }
+  },
+  "JARVGR010104965.1": {
+   "len": 799,
+   "gc": 48.1,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Psittacara_erythrogenys",
+     "top_pid": 99.696,
+     "claimed_pid": 87.962
+    }
+   }
+  },
+  "JARVGR010041419.1": {
+   "len": 32423,
+   "gc": 18.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 77.172,
+     "claimed_pid": 73.222
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Psittacara_erythrogenys"
+ ],
+ "foreign_contigs": [
+  "JARVGR010104965.1"
+ ],
+ "best_own_pid": 99.625,
+ "overall": "confirmed_with_foreign_mito"
+}

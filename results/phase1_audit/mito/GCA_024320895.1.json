@@ -1,0 +1,197 @@
+{
+ "accession": "GCA_024320895.1",
+ "claimed": "Psittacara holochlorus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANDAY010039018.1": {
+   "len": 16902,
+   "gc": 46.4,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Eupsittula_nana",
+     "top_pid": 98.596,
+     "claimed_pid": 90.375
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Pyrrhura_peruviana",
+     "top_pid": 99.91,
+     "claimed_pid": 89.825
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Eupsittula_nana",
+     "top_pid": 100.0,
+     "claimed_pid": 88.857
+    }
+   }
+  },
+  "JANDAY010142356.1": {
+   "len": 4081,
+   "gc": 47.7,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Pyrrhura_albipectus",
+     "top_pid": 98.772,
+     "claimed_pid": 90.39
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Pyrrhura_albipectus",
+     "top_pid": 98.175,
+     "claimed_pid": 88.055
+    }
+   }
+  },
+  "JANDAY010040338.1": {
+   "len": 32242,
+   "gc": 41.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 88.462,
+     "claimed_pid": 85.505
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 85.602,
+     "claimed_pid": 81.474
+    }
+   }
+  },
+  "JANDAY010142499.1": {
+   "len": 2920,
+   "gc": 47.1,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Pyrrhura_albipectus",
+     "top_pid": 99.123,
+     "claimed_pid": 88.509
+    }
+   }
+  },
+  "JANDAY010075246.1": {
+   "len": 1165,
+   "gc": 43.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Anodorhynchus_hyacinthinus",
+     "top_pid": 92.411,
+     "claimed_pid": 90.381
+    }
+   }
+  },
+  "JANDAY010058823.1": {
+   "len": 3753,
+   "gc": 41.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 88.525,
+     "claimed_pid": 85.382
+    }
+   }
+  },
+  "JANDAY010009988.1": {
+   "len": 26771,
+   "gc": 39.0,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 95.035,
+     "claimed_pid": 90.574
+    }
+   }
+  },
+  "JANDAY010080716.1": {
+   "len": 543,
+   "gc": 47.5,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 98.934,
+     "claimed_pid": 92.324
+    }
+   }
+  },
+  "JANDAY010142955.1": {
+   "len": 1720,
+   "gc": 48.4,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 99.085,
+     "claimed_pid": 87.872
+    }
+   }
+  },
+  "JANDAY010049701.1": {
+   "len": 45509,
+   "gc": 41.3,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_maximiliani",
+     "top_pid": 89.165,
+     "claimed_pid": 88.036
+    }
+   }
+  },
+  "JANDAY010083014.1": {
+   "len": 458,
+   "gc": 45.0,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 98.43,
+     "claimed_pid": 88.789
+    }
+   }
+  },
+  "JANDAY010083083.1": {
+   "len": 456,
+   "gc": 51.3,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 98.824,
+     "claimed_pid": 90.529
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Eupsittula_nana",
+  "Pyrrhura_albipectus",
+  "Pyrrhura_peruviana",
+  "Pyrrhura_picta"
+ ],
+ "foreign_contigs": [
+  "JANDAY010039018.1",
+  "JANDAY010080716.1",
+  "JANDAY010083014.1",
+  "JANDAY010083083.1",
+  "JANDAY010142356.1",
+  "JANDAY010142499.1",
+  "JANDAY010142955.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

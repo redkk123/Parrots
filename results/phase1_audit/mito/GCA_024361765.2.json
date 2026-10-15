@@ -1,0 +1,306 @@
+{
+ "accession": "GCA_024361765.2",
+ "claimed": "Psittacara wagleri",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANEMI020035734.1": {
+   "len": 17257,
+   "gc": 46.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_wallicus",
+     "top_pid": 87.346,
+     "claimed_pid": 84.629
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 84.577,
+     "claimed_pid": 77.659
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Melopsittacus_undulatus",
+     "top_pid": 76.394,
+     "claimed_pid": 71.371
+    }
+   }
+  },
+  "JANEMI020030055.1": {
+   "len": 42731,
+   "gc": 41.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 88.264,
+     "claimed_pid": 85.194
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 85.113,
+     "claimed_pid": 81.226
+    }
+   }
+  },
+  "JANEMI020468307.1": {
+   "len": 2194,
+   "gc": 46.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Cyclopsitta_melanogenia",
+     "top_pid": 85.781,
+     "claimed_pid": 82.65
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Cacatua_leadbeateri",
+     "top_pid": 77.183,
+     "claimed_pid": 73.209
+    }
+   }
+  },
+  "JANEMI020467723.1": {
+   "len": 2742,
+   "gc": 44.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aymara",
+     "top_pid": 86.667,
+     "claimed_pid": 83.123
+    }
+   }
+  },
+  "JANEMI020069140.1": {
+   "len": 1523,
+   "gc": 43.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Anodorhynchus_hyacinthinus",
+     "top_pid": 92.506,
+     "claimed_pid": 91.445
+    }
+   }
+  },
+  "JANEMI020070228.1": {
+   "len": 1282,
+   "gc": 45.3,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Psittacara_mitratus",
+     "top_pid": 98.777,
+     "claimed_pid": 98.471
+    }
+   }
+  },
+  "JANEMI020024895.1": {
+   "len": 22148,
+   "gc": 40.2,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Ara_tricolor",
+     "top_pid": 88.616,
+     "claimed_pid": 86.115
+    }
+   }
+  },
+  "JANEMI020049873.1": {
+   "len": 57758,
+   "gc": 41.8,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 95.213,
+     "claimed_pid": 90.864
+    }
+   }
+  },
+  "JANEMI020078914.1": {
+   "len": 661,
+   "gc": 46.7,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_mitratus",
+     "top_pid": 96.711,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANEMI020076380.1": {
+   "len": 753,
+   "gc": 41.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Brotogeris_cyanoptera",
+     "top_pid": 82.959,
+     "claimed_pid": 78.601
+    }
+   }
+  },
+  "JANEMI020084932.1": {
+   "len": 548,
+   "gc": 43.4,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Psittacara_wagleri",
+     "top_pid": 99.635,
+     "claimed_pid": 99.635
+    }
+   }
+  },
+  "JANEMI020034361.1": {
+   "len": 10539,
+   "gc": 41.0,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_maximiliani",
+     "top_pid": 89.165,
+     "claimed_pid": 86.23
+    }
+   }
+  },
+  "JANEMI020076591.1": {
+   "len": 743,
+   "gc": 41.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psephotellus_varius",
+     "top_pid": 85.287,
+     "claimed_pid": 82.793
+    }
+   }
+  },
+  "JANEMI020029194.1": {
+   "len": 30099,
+   "gc": 39.8,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 96.324,
+     "claimed_pid": 84.901
+    }
+   }
+  },
+  "JANEMI020084238.1": {
+   "len": 558,
+   "gc": 41.9,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Prioniturus_montanus",
+     "top_pid": 81.713,
+     "claimed_pid": 77.658
+    }
+   }
+  },
+  "JANEMI020094025.1": {
+   "len": 471,
+   "gc": 48.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Vini_australis",
+     "top_pid": 85.442,
+     "claimed_pid": 78.755
+    }
+   }
+  },
+  "JANEMI020071843.1": {
+   "len": 1063,
+   "gc": 40.8,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Prioniturus_discurus",
+     "top_pid": 75.85,
+     "claimed_pid": 71.529
+    }
+   }
+  },
+  "JANEMI020070645.1": {
+   "len": 1216,
+   "gc": 48.2,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 81.618,
+     "claimed_pid": 78.06
+    }
+   }
+  },
+  "JANEMI020103156.1": {
+   "len": 431,
+   "gc": 46.9,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_mitratus",
+     "top_pid": 96.752,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANEMI020092540.1": {
+   "len": 480,
+   "gc": 42.9,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psephotus_haematonotus",
+     "top_pid": 79.036,
+     "claimed_pid": 74.633
+    }
+   }
+  },
+  "JANEMI020062331.1": {
+   "len": 961,
+   "gc": 47.9,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 82.134,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANEMI020078177.1": {
+   "len": 685,
+   "gc": 50.7,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psephotellus_dissimilis",
+     "top_pid": 75.878,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 99.635,
+ "overall": "confirmed"
+}

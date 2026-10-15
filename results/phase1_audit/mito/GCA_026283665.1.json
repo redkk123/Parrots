@@ -1,0 +1,186 @@
+{
+ "accession": "GCA_026283665.1",
+ "claimed": "Amazona leucocephala",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANDEE010046485.1": {
+   "len": 19741,
+   "gc": 45.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 87.928,
+     "claimed_pid": 85.612
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Nymphicus_hollandicus",
+     "top_pid": 84.958,
+     "claimed_pid": 83.366
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Probosciger_aterrimus",
+     "top_pid": 79.011,
+     "claimed_pid": 75.12
+    }
+   }
+  },
+  "JANDEE010089065.1": {
+   "len": 17411,
+   "gc": 44.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_columboides",
+     "top_pid": 87.895,
+     "claimed_pid": 84.67
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 86.854,
+     "claimed_pid": 83.037
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Northiella_haematogaster",
+     "top_pid": 79.574,
+     "claimed_pid": 75.482
+    }
+   }
+  },
+  "JANDEE010090049.1": {
+   "len": 16825,
+   "gc": 46.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 88.696,
+     "claimed_pid": 83.852
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 84.826,
+     "claimed_pid": 80.198
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Poicephalus_senegalus",
+     "top_pid": 78.08,
+     "claimed_pid": 75.484
+    }
+   }
+  },
+  "JANDEE010309554.1": {
+   "len": 4475,
+   "gc": 46.6,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Amazona_oratrix",
+     "top_pid": 99.934,
+     "claimed_pid": 93.475
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Amazona_oratrix",
+     "top_pid": 100.0,
+     "claimed_pid": 93.269
+    }
+   }
+  },
+  "JANDEE010019330.1": {
+   "len": 28507,
+   "gc": 40.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pionus_chalcopterus",
+     "top_pid": 94.17,
+     "claimed_pid": 91.979
+    }
+   }
+  },
+  "JANDEE010309425.1": {
+   "len": 6642,
+   "gc": 44.2,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Coracopsis_vasa",
+     "top_pid": 100.0,
+     "claimed_pid": 88.538
+    }
+   }
+  },
+  "JANDEE010087853.1": {
+   "len": 2038,
+   "gc": 45.4,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 99.812,
+     "claimed_pid": 92.202
+    }
+   }
+  },
+  "JANDEE010039245.1": {
+   "len": 36263,
+   "gc": 41.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Prioniturus_platurus",
+     "top_pid": 85.376,
+     "claimed_pid": 81.154
+    }
+   }
+  },
+  "JANDEE010089634.1": {
+   "len": 1386,
+   "gc": 46.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_finschi",
+     "top_pid": 90.288,
+     "claimed_pid": 88.599
+    }
+   }
+  },
+  "JANDEE010047896.1": {
+   "len": 27582,
+   "gc": 41.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 90.385,
+     "claimed_pid": 89.438
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Amazona_ochrocephala",
+  "Amazona_oratrix",
+  "Coracopsis_vasa"
+ ],
+ "foreign_contigs": [
+  "JANDEE010087853.1",
+  "JANDEE010309425.1",
+  "JANDEE010309554.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

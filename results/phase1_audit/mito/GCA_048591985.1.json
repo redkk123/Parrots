@@ -1,0 +1,159 @@
+{
+ "accession": "GCA_048591985.1",
+ "claimed": "Trichoglossus chlorolepidotus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBLWNC011068266.1": {
+   "len": 16258,
+   "gc": 47.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Charmosyna_meeki",
+     "top_pid": 88.596,
+     "claimed_pid": 86.14
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.037,
+     "claimed_pid": 78.361
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 80.211,
+     "claimed_pid": 76.866
+    }
+   }
+  },
+  "JBLWNC010062252.1": {
+   "len": 19182,
+   "gc": 43.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Bolborhynchus_lineola",
+     "top_pid": 85.965,
+     "claimed_pid": 82.006
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 84.826,
+     "claimed_pid": 78.17
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Calyptorhynchus_banksii",
+     "top_pid": 77.163,
+     "claimed_pid": 70.766
+    }
+   }
+  },
+  "JBLWNC011360765.1": {
+   "len": 4435,
+   "gc": 46.0,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Triclaria_malachitacea",
+     "top_pid": 99.784,
+     "claimed_pid": 88.095
+    }
+   }
+  },
+  "JBLWNC011146864.1": {
+   "len": 1754,
+   "gc": 48.6,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Chalcopsitta_duivenbodei",
+     "top_pid": 100.0,
+     "claimed_pid": 96.178
+    }
+   }
+  },
+  "JBLWNC011003736.1": {
+   "len": 2241,
+   "gc": 47.3,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Chalcopsitta_duivenbodei",
+     "top_pid": 99.731,
+     "claimed_pid": 93.333
+    }
+   }
+  },
+  "JBLWNC011179966.1": {
+   "len": 5321,
+   "gc": 45.3,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Triclaria_malachitacea",
+     "top_pid": 99.912,
+     "claimed_pid": 84.567
+    }
+   }
+  },
+  "JBLWNC011065816.1": {
+   "len": 583,
+   "gc": 45.8,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Chalcopsitta_duivenbodei",
+     "top_pid": 99.657,
+     "claimed_pid": 86.449
+    }
+   }
+  },
+  "JBLWNC011044529.1": {
+   "len": 595,
+   "gc": 42.7,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Triclaria_malachitacea",
+     "top_pid": 99.664,
+     "claimed_pid": 78.451
+    }
+   }
+  },
+  "JBLWNC010927590.1": {
+   "len": 411,
+   "gc": 44.0,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Triclaria_malachitacea",
+     "top_pid": 99.5,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Chalcopsitta_duivenbodei",
+  "Triclaria_malachitacea"
+ ],
+ "foreign_contigs": [
+  "JBLWNC010927590.1",
+  "JBLWNC011003736.1",
+  "JBLWNC011044529.1",
+  "JBLWNC011065816.1",
+  "JBLWNC011146864.1",
+  "JBLWNC011179966.1",
+  "JBLWNC011360765.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

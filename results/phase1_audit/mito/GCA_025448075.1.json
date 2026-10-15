@@ -1,0 +1,146 @@
+{
+ "accession": "GCA_025448075.1",
+ "claimed": "Melopsittacus undulatus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAOEHZ010060679.1": {
+   "len": 5901,
+   "gc": 44.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_wallicus",
+     "top_pid": 88.049,
+     "claimed_pid": 85.439
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 79.162,
+     "claimed_pid": 78.425
+    }
+   }
+  },
+  "JAOEHZ010000218.1": {
+   "len": 1886,
+   "gc": 46.2,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Ara_severus",
+     "top_pid": 97.294,
+     "claimed_pid": 86.585
+    }
+   }
+  },
+  "JAOEHZ010006583.1": {
+   "len": 1083,
+   "gc": 46.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Ara_severus",
+     "top_pid": 92.922,
+     "claimed_pid": 85.895
+    }
+   }
+  },
+  "JAOEHZ010060998.1": {
+   "len": 4509,
+   "gc": 45.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Amazona_autumnalis",
+     "top_pid": 87.611,
+     "claimed_pid": 86.433
+    }
+   }
+  },
+  "JAOEHZ010024730.1": {
+   "len": 688,
+   "gc": 45.2,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Prosopeia_tabuensis",
+     "top_pid": 85.523,
+     "claimed_pid": 82.456
+    }
+   }
+  },
+  "JAOEHZ010045937.1": {
+   "len": 552,
+   "gc": 46.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Graydidascalus_brachyurus",
+     "top_pid": 89.252,
+     "claimed_pid": 88.889
+    }
+   }
+  },
+  "JAOEHZ010047876.1": {
+   "len": 544,
+   "gc": 50.2,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Ara_severus",
+     "top_pid": 100.0,
+     "claimed_pid": 86.713
+    }
+   }
+  },
+  "JAOEHZ010003327.1": {
+   "len": 1308,
+   "gc": 28.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Neopsephotus_bourkii",
+     "top_pid": 72.183,
+     "claimed_pid": 69.718
+    }
+   }
+  },
+  "JAOEHZ010001706.1": {
+   "len": 1525,
+   "gc": 28.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 72.038,
+     "claimed_pid": 68.027
+    }
+   }
+  },
+  "JAOEHZ010063018.1": {
+   "len": 1921,
+   "gc": 20.5,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 67.669,
+     "claimed_pid": 66.568
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Ara_severus"
+ ],
+ "foreign_contigs": [
+  "JAOEHZ010047876.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

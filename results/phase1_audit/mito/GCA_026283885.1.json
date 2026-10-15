@@ -1,0 +1,233 @@
+{
+ "accession": "GCA_026283885.1",
+ "claimed": "Poicephalus gulielmi",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANEXQ010034113.1": {
+   "len": 16318,
+   "gc": 46.9,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Eupsittula_canicularis",
+     "top_pid": 99.824,
+     "claimed_pid": 87.755
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Eupsittula_canicularis",
+     "top_pid": 100.0,
+     "claimed_pid": 85.088
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Eupsittula_canicularis",
+     "top_pid": 100.0,
+     "claimed_pid": 82.126
+    }
+   }
+  },
+  "JANEXQ010161868.1": {
+   "len": 16833,
+   "gc": 45.5,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Probosciger_aterrimus",
+     "top_pid": 100.0,
+     "claimed_pid": 88.641
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Probosciger_aterrimus",
+     "top_pid": 100.0,
+     "claimed_pid": 83.684
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Probosciger_aterrimus",
+     "top_pid": 100.0,
+     "claimed_pid": 83.877
+    }
+   }
+  },
+  "JANEXQ010155278.1": {
+   "len": 17461,
+   "gc": 46.0,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Diopsittaca_nobilis",
+     "top_pid": 99.847,
+     "claimed_pid": 88.592
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Diopsittaca_nobilis",
+     "top_pid": 100.0,
+     "claimed_pid": 83.86
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Diopsittaca_nobilis",
+     "top_pid": 100.0,
+     "claimed_pid": 82.802
+    }
+   }
+  },
+  "JANEXQ010309138.1": {
+   "len": 1941,
+   "gc": 47.0,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Poicephalus_senegalus",
+     "top_pid": 95.273,
+     "claimed_pid": 92.019
+    },
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Poicephalus_senegalus",
+     "top_pid": 98.02,
+     "claimed_pid": 95.792
+    }
+   }
+  },
+  "JANEXQ010307986.1": {
+   "len": 4359,
+   "gc": 47.3,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Poicephalus_robustus",
+     "top_pid": 98.89,
+     "claimed_pid": 93.879
+    }
+   }
+  },
+  "JANEXQ010307976.1": {
+   "len": 4456,
+   "gc": 47.8,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Poicephalus_meyeri",
+     "top_pid": 99.697,
+     "claimed_pid": 91.93
+    }
+   }
+  },
+  "JANEXQ010021829.1": {
+   "len": 6267,
+   "gc": 41.9,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.231,
+     "claimed_pid": 99.231
+    }
+   }
+  },
+  "JANEXQ010308064.1": {
+   "len": 3793,
+   "gc": 48.5,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Poicephalus_meyeri",
+     "top_pid": 98.348,
+     "claimed_pid": 95.592
+    }
+   }
+  },
+  "JANEXQ010309823.1": {
+   "len": 1617,
+   "gc": 48.4,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.342,
+     "claimed_pid": 99.342
+    }
+   }
+  },
+  "JANEXQ010002031.1": {
+   "len": 37080,
+   "gc": 40.5,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.822,
+     "claimed_pid": 99.822
+    }
+   }
+  },
+  "JANEXQ010321305.1": {
+   "len": 619,
+   "gc": 50.9,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.261,
+     "claimed_pid": 99.261
+    }
+   }
+  },
+  "JANEXQ010028697.1": {
+   "len": 1499,
+   "gc": 23.9,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.632,
+     "claimed_pid": 99.632
+    }
+   }
+  },
+  "JANEXQ010308349.1": {
+   "len": 2850,
+   "gc": 48.7,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.151,
+     "claimed_pid": 99.151
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Diopsittaca_nobilis",
+  "Eupsittula_canicularis",
+  "Poicephalus_meyeri",
+  "Poicephalus_robustus",
+  "Poicephalus_senegalus",
+  "Probosciger_aterrimus"
+ ],
+ "foreign_contigs": [
+  "JANEXQ010034113.1",
+  "JANEXQ010155278.1",
+  "JANEXQ010161868.1",
+  "JANEXQ010307976.1",
+  "JANEXQ010307986.1",
+  "JANEXQ010308064.1",
+  "JANEXQ010309138.1"
+ ],
+ "best_own_pid": 99.822,
+ "overall": "confirmed_with_foreign_mito"
+}

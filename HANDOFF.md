@@ -34,7 +34,7 @@ Regras fixadas **antes** de olhar genes: listas de genes (módulos M1–M8) e te
 | **105 espécies com genoma utilizável** (≥ 20× ou long-read) e fenótipo; 96 vêm do lote de Hains et al. 2022 | `results/phase0b/phase0b_report.md` |
 | A medida de longevidade importa: expectativa de vida × recorde máximo concordam pouco (ρ = 0,39) | idem |
 | 15 espécies com recorde menor que a média (erro em alguma fonte) | coluna `qc_outcomes_inconsistent` |
-| História: ancestral relativamente longevo e **redução em Psittaculidae** (−31 %); **não** há vários aumentos independentes | `phase0b_report.md` §7 |
+| História: ancestral relativamente longevo e **redução em Psittaculidae** (−31 %); **não** há vários aumentos independentes. *Sensível à árvore:* com a árvore de Smith 2024, −25 % e p = 0,05 | `phase0b_report.md` §7; `results/phase1_trees/tree_sensitivity_report.md` |
 | Python validado contra R (`nlme`, `phylolm`, `phytools`): resultados idênticos | `results/phase0b/validation_python_vs_R.json` |
 | Decisão: **cenário B** (associação contínua, sem afirmar múltiplas origens) | `results/phase0/phase0_feasibility.md` |
 

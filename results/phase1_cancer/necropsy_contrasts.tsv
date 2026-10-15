@@ -1,0 +1,15 @@
+outcome	comparator	n_species	necropsies	cases	prevalence	ci_low	ci_high	budgerigar_cases	budgerigar_necropsies	budgerigar_prevalence	fisher_odds_ratio	fisher_p	betabinom_mu	betabinom_rho	log10_p_budgerigar_from_group	note
+neoplasia	Loriini	6	399	6	0.01504	0.005538	0.03244	99	477	0.2075	17.15	1.374e-21	0.01389	0.001904	-26.34	
+neoplasia	Psittaculidae_other (no Loriini, no budgerigar)	3	169	7	0.04142	0.01681	0.08348	99	477	0.2075	6.061	5.259e-08	0.05429	0.0253	-2.557	
+neoplasia	non_Psittaculidae	5	165	12	0.07273	0.03814	0.1236	99	477	0.2075	3.339	3.979e-05	0.06392	0.0171	-2.904	
+neoplasia	all other parrots	14	733	25	0.03411	0.02219	0.04994	99	477	0.2075	7.417	3.659e-22	0.0362	0.03352	-2.671	
+neoplasia	Nymphicus (domesticated control)	1	70	8	0.1143	0.05065	0.2128	99	477	0.2075	2.03	0.07569				
+neoplasia	non-domesticated parrots	12	630	16	0.0254	0.01458	0.04092	99	477	0.2075	10.05	1.105e-23	0.02816	0.02548	-3.509	
+neoplasia	domesticated vs non-domesticated (no budgerigar)	2	103	9	0.08738	0.04074	0.1594	16	630	0.0254	3.674	0.004401				here the 'budgerigar_*' columns hold the non-domesticated group
+malignancy	Loriini	6	399	3	0.007519	0.001553	0.02181	83	477	0.174	27.81	6.876e-20	0.006541	0.002363	-21.72	
+malignancy	Psittaculidae_other (no Loriini, no budgerigar)	3	169	3	0.01775	0.003676	0.051	83	477	0.174	11.66	9.345e-09	0.0282	0.03426	-2.419	
+malignancy	non_Psittaculidae	5	165	8	0.04848	0.02116	0.0933	83	477	0.174	4.134	2.555e-05	0.03385	0.0402	-2.054	
+malignancy	all other parrots	14	733	14	0.0191	0.01048	0.03184	83	477	0.174	10.82	2.317e-22	0.01912	0.03905	-2.58	
+malignancy	Nymphicus (domesticated control)	1	70	7	0.1	0.04116	0.1952	83	477	0.174	1.896	0.1655				
+malignancy	non-domesticated parrots	12	630	6	0.009524	0.003503	0.02061	83	477	0.174	21.91	1.747e-25	0.009559	0.013	-6.148	
+malignancy	domesticated vs non-domesticated (no budgerigar)	2	103	8	0.07767	0.03413	0.1473	6	630	0.009524	8.758	0.0001709				here the 'budgerigar_*' columns hold the non-domesticated group

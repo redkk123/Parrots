@@ -1,0 +1,161 @@
+{
+ "accession": "GCA_024331625.1",
+ "claimed": "Psittacara leucophthalmus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANDJW010034380.1": {
+   "len": 21286,
+   "gc": 45.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 87.447,
+     "claimed_pid": 84.818
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Amazona_leucocephala",
+     "top_pid": 82.574,
+     "claimed_pid": 78.33
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 77.226,
+     "claimed_pid": 74.1
+    }
+   }
+  },
+  "JANDJW010035665.1": {
+   "len": 32241,
+   "gc": 41.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 88.702,
+     "claimed_pid": 85.298
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 85.602,
+     "claimed_pid": 81.635
+    }
+   }
+  },
+  "JANDJW010118479.1": {
+   "len": 2883,
+   "gc": 47.7,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Poicephalus_rufiventris",
+     "top_pid": 100.0,
+     "claimed_pid": 88.693
+    }
+   }
+  },
+  "JANDJW010118393.1": {
+   "len": 3411,
+   "gc": 48.7,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Poicephalus_rufiventris",
+     "top_pid": 99.737,
+     "claimed_pid": 84.763
+    }
+   }
+  },
+  "JANDJW010118606.1": {
+   "len": 2400,
+   "gc": 44.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Anodorhynchus_hyacinthinus",
+     "top_pid": 92.506,
+     "claimed_pid": 90.192
+    }
+   }
+  },
+  "JANDJW010023644.1": {
+   "len": 15458,
+   "gc": 40.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 88.674,
+     "claimed_pid": 86.028
+    }
+   }
+  },
+  "JANDJW010122222.1": {
+   "len": 688,
+   "gc": 45.9,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Poicephalus_senegalus",
+     "top_pid": 94.913,
+     "claimed_pid": 81.395
+    }
+   }
+  },
+  "JANDJW010008586.1": {
+   "len": 26825,
+   "gc": 39.0,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 95.213,
+     "claimed_pid": 95.213
+    }
+   }
+  },
+  "JANDJW010045300.1": {
+   "len": 58142,
+   "gc": 37.2,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JANDJW010032987.1": {
+   "len": 14839,
+   "gc": 40.8,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_maximiliani",
+     "top_pid": 89.616,
+     "claimed_pid": 87.81
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1"
+ ],
+ "foreign_species": [
+  "Poicephalus_rufiventris"
+ ],
+ "foreign_contigs": [
+  "JANDJW010118393.1",
+  "JANDJW010118479.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

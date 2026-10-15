@@ -1,0 +1,94 @@
+{
+ "accession": "GCA_009867195.2",
+ "claimed": "Aratinga solstitialis",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "WYDG02034654.1": {
+   "len": 32423,
+   "gc": 41.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 89.024,
+     "claimed_pid": 86.024
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 85.203,
+     "claimed_pid": 81.419
+    }
+   }
+  },
+  "WYDG02051529.1": {
+   "len": 6329,
+   "gc": 42.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 89.27,
+     "claimed_pid": 85.991
+    }
+   }
+  },
+  "WYDG02047523.1": {
+   "len": 50192,
+   "gc": 42.7,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 94.858,
+     "claimed_pid": 90.749
+    }
+   }
+  },
+  "WYDG02032063.1": {
+   "len": 21701,
+   "gc": 41.2,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_sordidus",
+     "top_pid": 89.109,
+     "claimed_pid": 84.988
+    }
+   }
+  },
+  "WYDG02027137.1": {
+   "len": 16714,
+   "gc": 40.6,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 95.833,
+     "claimed_pid": 83.831
+    }
+   }
+  },
+  "WYDG02068601.1": {
+   "len": 553,
+   "gc": 44.1,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Pionus_chalcopterus",
+     "top_pid": 71.262,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": null,
+ "overall": "ambiguous"
+}

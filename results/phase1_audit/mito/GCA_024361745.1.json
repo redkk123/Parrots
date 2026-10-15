@@ -1,0 +1,225 @@
+{
+ "accession": "GCA_024361745.1",
+ "claimed": "Cacatua alba",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANEMJ010219342.1": {
+   "len": 12970,
+   "gc": 46.3,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Amazona_oratrix",
+     "top_pid": 99.868,
+     "claimed_pid": 86.801
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Amazona_oratrix",
+     "top_pid": 100.0,
+     "claimed_pid": 83.047
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 99.748,
+     "claimed_pid": 85.714
+    }
+   }
+  },
+  "JANEMJ010180961.1": {
+   "len": 15060,
+   "gc": 46.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Graydidascalus_brachyurus",
+     "top_pid": 87.726,
+     "claimed_pid": 84.276
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 87.324,
+     "claimed_pid": 84.04
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Northiella_haematogaster",
+     "top_pid": 79.144,
+     "claimed_pid": 76.465
+    }
+   }
+  },
+  "JANEMJ010036183.1": {
+   "len": 20363,
+   "gc": 43.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_columboides",
+     "top_pid": 87.895,
+     "claimed_pid": 83.366
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 86.854,
+     "claimed_pid": 83.333
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Northiella_haematogaster",
+     "top_pid": 79.574,
+     "claimed_pid": 77.137
+    }
+   }
+  },
+  "JANEMJ010137497.1": {
+   "len": 18138,
+   "gc": 45.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 89.462,
+     "claimed_pid": 85.171
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.821,
+     "claimed_pid": 82.486
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 78.016,
+     "claimed_pid": 75.865
+    }
+   }
+  },
+  "JANEMJ010148442.1": {
+   "len": 17294,
+   "gc": 45.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacella_brehmii",
+     "top_pid": 87.544,
+     "claimed_pid": 83.841
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Poicephalus_robustus",
+     "top_pid": 85.047,
+     "claimed_pid": 82.628
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 78.51,
+     "claimed_pid": 75.0
+    }
+   }
+  },
+  "JANEMJ010423658.1": {
+   "len": 1129,
+   "gc": 48.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aymara",
+     "top_pid": 89.507,
+     "claimed_pid": 84.854
+    }
+   }
+  },
+  "JANEMJ010048443.1": {
+   "len": 22490,
+   "gc": 49.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Nymphicus_hollandicus",
+     "top_pid": 88.553,
+     "claimed_pid": 87.327
+    }
+   }
+  },
+  "JANEMJ010419578.1": {
+   "len": 2168,
+   "gc": 49.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Glossopsitta_pusilla",
+     "top_pid": 85.263,
+     "claimed_pid": 82.512
+    }
+   }
+  },
+  "JANEMJ010078011.1": {
+   "len": 609,
+   "gc": 48.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psephotellus_varius",
+     "top_pid": 87.329,
+     "claimed_pid": 84.868
+    }
+   }
+  },
+  "JANEMJ010418443.1": {
+   "len": 3410,
+   "gc": 37.3,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Eolophus_roseicapilla",
+     "top_pid": 83.16,
+     "claimed_pid": 80.82
+    }
+   }
+  },
+  "JANEMJ010078197.1": {
+   "len": 605,
+   "gc": 45.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_columboides",
+     "top_pid": 89.805,
+     "claimed_pid": 86.545
+    }
+   }
+  },
+  "JANEMJ010073944.1": {
+   "len": 717,
+   "gc": 43.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Eupsittula_canicularis",
+     "top_pid": 79.167,
+     "claimed_pid": 74.138
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Amazona_ochrocephala",
+  "Amazona_oratrix"
+ ],
+ "foreign_contigs": [
+  "JANEMJ010219342.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

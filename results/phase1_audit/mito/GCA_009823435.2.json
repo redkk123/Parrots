@@ -1,0 +1,40 @@
+{
+ "accession": "GCA_009823435.2",
+ "claimed": "Nymphicus hollandicus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "WTXV02036056.1": {
+   "len": 10192,
+   "gc": 13.0,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 86.6,
+     "claimed_pid": 83.649
+    }
+   }
+  },
+  "WTXV02038855.1": {
+   "len": 38039,
+   "gc": 44.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 88.975,
+     "claimed_pid": 86.654
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": null,
+ "overall": "no_reliable_mito"
+}

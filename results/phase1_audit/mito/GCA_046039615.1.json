@@ -1,0 +1,462 @@
+{
+ "accession": "GCA_046039615.1",
+ "claimed": "Cacatua haematuropygia",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBJJTC010044922.1": {
+   "len": 72671,
+   "gc": 46.1,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Eos_cyanogenia",
+     "top_pid": 100.0,
+     "claimed_pid": 87.92
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Eos_cyanogenia",
+     "top_pid": 100.0,
+     "claimed_pid": 86.14
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Eos_cyanogenia",
+     "top_pid": 100.0,
+     "claimed_pid": 83.449
+    }
+   }
+  },
+  "JBJJTC010225822.1": {
+   "len": 14903,
+   "gc": 46.5,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Cacatua_haematuropygia",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Cacatua_haematuropygia",
+     "top_pid": 99.819,
+     "claimed_pid": 99.819
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Cacatua_haematuropygia",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBJJTC010215861.1": {
+   "len": 16026,
+   "gc": 45.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Ara_macao",
+     "top_pid": 89.013,
+     "claimed_pid": 85.689
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 83.333,
+     "claimed_pid": 78.975
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 78.803,
+     "claimed_pid": 75.944
+    }
+   }
+  },
+  "JBJJTC010208203.1": {
+   "len": 16966,
+   "gc": 46.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Polytelis_alexandrae",
+     "top_pid": 88.174,
+     "claimed_pid": 83.688
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Coracopsis_vasa",
+     "top_pid": 82.673,
+     "claimed_pid": 79.289
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 79.551,
+     "claimed_pid": 76.424
+    }
+   }
+  },
+  "JBJJTC010203728.1": {
+   "len": 17483,
+   "gc": 45.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Nymphicus_hollandicus",
+     "top_pid": 86.158,
+     "claimed_pid": 83.688
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 84.289,
+     "claimed_pid": 78.716
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 76.179,
+     "claimed_pid": 72.421
+    }
+   }
+  },
+  "JBJJTC010287999.1": {
+   "len": 9832,
+   "gc": 44.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Ara_militaris",
+     "top_pid": 88.78,
+     "claimed_pid": 84.752
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittacula_krameri",
+     "top_pid": 78.878,
+     "claimed_pid": 75.93
+    }
+   }
+  },
+  "JBJJTC010349871.1": {
+   "len": 6839,
+   "gc": 45.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 86.994,
+     "claimed_pid": 85.413
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_maximiliani",
+     "top_pid": 75.791,
+     "claimed_pid": 74.451
+    }
+   }
+  },
+  "JBJJTC010513715.1": {
+   "len": 3294,
+   "gc": 46.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.644,
+     "claimed_pid": 83.316
+    }
+   }
+  },
+  "JBJJTC010794550.1": {
+   "len": 1560,
+   "gc": 47.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Charmosyna_meeki",
+     "top_pid": 87.279,
+     "claimed_pid": 84.806
+    }
+   }
+  },
+  "JBJJTC010700038.1": {
+   "len": 1881,
+   "gc": 45.8,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittacara_holochlorus",
+     "top_pid": 76.848,
+     "claimed_pid": 72.862
+    },
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_guildingii",
+     "top_pid": 87.348,
+     "claimed_pid": 81.951
+    }
+   }
+  },
+  "JBJJTC010351394.1": {
+   "len": 6784,
+   "gc": 47.7,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 83.214,
+     "claimed_pid": 78.664
+    }
+   }
+  },
+  "JBJJTC010160921.1": {
+   "len": 1025,
+   "gc": 45.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 88.323,
+     "claimed_pid": 84.574
+    }
+   }
+  },
+  "JBJJTC010175678.1": {
+   "len": 936,
+   "gc": 48.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_cyanocephala",
+     "top_pid": 86.703,
+     "claimed_pid": 83.511
+    }
+   }
+  },
+  "JBJJTC010958174.1": {
+   "len": 1253,
+   "gc": 46.8,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 76.86,
+     "claimed_pid": 73.425
+    }
+   }
+  },
+  "JBJJTC010178939.1": {
+   "len": 919,
+   "gc": 46.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Ara_macao",
+     "top_pid": 86.771,
+     "claimed_pid": 84.321
+    }
+   }
+  },
+  "JBJJTC010599389.1": {
+   "len": 2460,
+   "gc": 45.2,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Alisterus_amboinensis",
+     "top_pid": 77.195,
+     "claimed_pid": 75.282
+    }
+   }
+  },
+  "JBJJTC010161142.1": {
+   "len": 1024,
+   "gc": 49.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 87.051,
+     "claimed_pid": 85.638
+    }
+   }
+  },
+  "JBJJTC010213601.1": {
+   "len": 787,
+   "gc": 49.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_wallicus",
+     "top_pid": 86.401,
+     "claimed_pid": 84.043
+    }
+   }
+  },
+  "JBJJTC010171237.1": {
+   "len": 960,
+   "gc": 45.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Charmosyna_papou",
+     "top_pid": 82.909,
+     "claimed_pid": 77.762
+    }
+   }
+  },
+  "JBJJTC010697098.1": {
+   "len": 1894,
+   "gc": 47.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psitteuteles_versicolor",
+     "top_pid": 86.864,
+     "claimed_pid": 81.638
+    }
+   }
+  },
+  "JBJJTC010244535.1": {
+   "len": 709,
+   "gc": 48.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Cacatua_sulphurea",
+     "top_pid": 78.355,
+     "claimed_pid": 76.308
+    }
+   }
+  },
+  "JBJJTC010809027.1": {
+   "len": 1524,
+   "gc": 46.5,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Eos_bornea",
+     "top_pid": 87.207,
+     "claimed_pid": 83.156
+    }
+   }
+  },
+  "JBJJTC010467443.1": {
+   "len": 467,
+   "gc": 44.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 88.865,
+     "claimed_pid": 85.225
+    }
+   }
+  },
+  "JBJJTC010573447.1": {
+   "len": 414,
+   "gc": 45.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Poicephalus_senegalus",
+     "top_pid": 88.452,
+     "claimed_pid": 83.784
+    }
+   }
+  },
+  "JBJJTC010742205.1": {
+   "len": 1721,
+   "gc": 47.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_finschi",
+     "top_pid": 79.118,
+     "claimed_pid": 74.444
+    }
+   }
+  },
+  "JBJJTC010482432.1": {
+   "len": 459,
+   "gc": 49.0,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 79.0,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBJJTC010590640.1": {
+   "len": 407,
+   "gc": 46.4,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 81.618,
+     "claimed_pid": 79.805
+    }
+   }
+  },
+  "JBJJTC010262062.1": {
+   "len": 674,
+   "gc": 44.8,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_chalcopterus",
+     "top_pid": 78.795,
+     "claimed_pid": 77.045
+    }
+   }
+  },
+  "JBJJTC010582558.1": {
+   "len": 411,
+   "gc": 44.0,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Forpus_cyanopygius",
+     "top_pid": 76.675,
+     "claimed_pid": 72.208
+    }
+   }
+  },
+  "JBJJTC010586373.1": {
+   "len": 409,
+   "gc": 41.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 75.735,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Eos_cyanogenia"
+ ],
+ "foreign_contigs": [
+  "JBJJTC010044922.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

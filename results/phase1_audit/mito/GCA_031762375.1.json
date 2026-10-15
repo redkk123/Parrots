@@ -1,0 +1,141 @@
+{
+ "accession": "GCA_031762375.1",
+ "claimed": "Poicephalus rueppellii",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB"
+ ],
+ "contigs": {
+  "JARVGT010033902.1": {
+   "len": 43307,
+   "gc": 46.0,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Poicephalus_rueppellii",
+     "top_pid": 99.662,
+     "claimed_pid": 99.662
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Poicephalus_senegalus",
+     "top_pid": 94.615,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 74.433,
+     "claimed_pid": 68.96
+    }
+   }
+  },
+  "JARVGT010086752.1": {
+   "len": 2443,
+   "gc": 45.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 87.259,
+     "claimed_pid": 83.277
+    }
+   }
+  },
+  "JARVGT010089264.1": {
+   "len": 1451,
+   "gc": 42.8,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 87.781,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JARVGT010002215.1": {
+   "len": 33036,
+   "gc": 39.5,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 98.574,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JARVGT010089462.1": {
+   "len": 1412,
+   "gc": 48.2,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Poicephalus_cryptoxanthus",
+     "top_pid": 95.338,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JARVGT010073358.1": {
+   "len": 759,
+   "gc": 47.4,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 94.57,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JARVGT010068352.1": {
+   "len": 1001,
+   "gc": 44.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Bolborhynchus_lineola",
+     "top_pid": 84.146,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JARVGT010074262.1": {
+   "len": 728,
+   "gc": 41.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Amazona_farinosa",
+     "top_pid": 80.0,
+     "claimed_pid": 78.364
+    }
+   }
+  },
+  "JARVGT010073724.1": {
+   "len": 747,
+   "gc": 40.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Cacatua_moluccensis",
+     "top_pid": 78.554,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1"
+ ],
+ "foreign_species": [
+  "Poicephalus_gulielmi"
+ ],
+ "foreign_contigs": [
+  "JARVGT010002215.1"
+ ],
+ "best_own_pid": 99.662,
+ "overall": "confirmed_with_foreign_mito"
+}

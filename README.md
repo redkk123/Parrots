@@ -23,6 +23,8 @@ Protocolo completo: [`docs/protocol.md`](docs/protocol.md) (versão de 25 set. 2
 
 Resultados auxiliares em `results/phase0/`: ajustes alométricos (`model_fits.tsv`), sensibilidades, estados ancestrais, vizinhos filogenéticos de *Melopsittacus*, simulação de poder e figuras.
 
+Fase 1, auditoria das montagens (`results/phase1_audit/`, em andamento): inventário NCBI, BUSCO, identidade do espécime pelo mitogenoma e pelo genoma nuclear. Ver [`audit_report.md`](results/phase1_audit/audit_report.md).
+
 Fase 0b (`results/phase0b/`): matriz espécie × dados, poder com o conjunto real de espécies, comparação dos dois desfechos, pares irmãos com genoma, validação Python × R e mudanças de regime (PhylogeneticEM).
 
 ## Reproduzir

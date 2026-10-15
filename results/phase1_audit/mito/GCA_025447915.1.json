@@ -1,0 +1,107 @@
+{
+ "accession": "GCA_025447915.1",
+ "claimed": "Trichoglossus euteles",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB"
+ ],
+ "contigs": {
+  "JAOEHP010029056.1": {
+   "len": 34619,
+   "gc": 44.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 89.059,
+     "claimed_pid": 87.346
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 87.324,
+     "claimed_pid": 83.094
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Northiella_haematogaster",
+     "top_pid": 80.418,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAOEHP010055867.1": {
+   "len": 10163,
+   "gc": 47.5,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Trichoglossus_euteles",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Trichoglossus_forsteni",
+     "top_pid": 99.423,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAOEHP010065033.1": {
+   "len": 609,
+   "gc": 45.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_roseata",
+     "top_pid": 87.879,
+     "claimed_pid": 86.869
+    }
+   }
+  },
+  "JAOEHP010066473.1": {
+   "len": 548,
+   "gc": 49.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacus_erithacus",
+     "top_pid": 85.615,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAOEHP010063656.1": {
+   "len": 700,
+   "gc": 45.1,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Pyrilia_barrabandi",
+     "top_pid": 85.922,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAOEHP010065468.1": {
+   "len": 588,
+   "gc": 54.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_mercenarius",
+     "top_pid": 84.954,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}

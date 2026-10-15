@@ -1,0 +1,122 @@
+{
+ "accession": "GCA_011317185.2",
+ "claimed": "Eupsittula pertinax",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "WUQE02035943.1": {
+   "len": 19495,
+   "gc": 45.5,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Eupsittula_pertinax",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "COX1": {
+     "class": "own",
+     "top_species": "Eupsittula_pertinax",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Eupsittula_pertinax",
+     "top_pid": 99.592,
+     "claimed_pid": 99.592
+    }
+   }
+  },
+  "WUQE02030026.1": {
+   "len": 14184,
+   "gc": 42.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 87.281,
+     "claimed_pid": 83.649
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 85.602,
+     "claimed_pid": 82.004
+    }
+   }
+  },
+  "WUQE02024588.1": {
+   "len": 13020,
+   "gc": 40.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 88.972,
+     "claimed_pid": 87.063
+    }
+   }
+  },
+  "WUQE02050566.1": {
+   "len": 57220,
+   "gc": 41.8,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 95.018,
+     "claimed_pid": 90.455
+    }
+   }
+  },
+  "WUQE02034471.1": {
+   "len": 11157,
+   "gc": 38.3,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_sordidus",
+     "top_pid": 89.356,
+     "claimed_pid": 87.359
+    }
+   }
+  },
+  "WUQE02048687.1": {
+   "len": 63149,
+   "gc": 42.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 92.523,
+     "claimed_pid": 84.346
+    }
+   }
+  },
+  "WUQE02074443.1": {
+   "len": 951,
+   "gc": 42.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Enicognathus_leptorhynchus",
+     "top_pid": 69.064,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}

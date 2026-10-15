@@ -1,0 +1,162 @@
+{
+ "accession": "GCA_025448055.1",
+ "claimed": "Pionites leucogaster",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAOEIA010040414.1": {
+   "len": 28682,
+   "gc": 42.1,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Pionites_melanocephalus",
+     "top_pid": 100.0,
+     "claimed_pid": 98.496
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Cyanoramphus_auriceps",
+     "top_pid": 99.802,
+     "claimed_pid": 87.438
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Pionites_melanocephalus",
+     "top_pid": 100.0,
+     "claimed_pid": 97.461
+    }
+   }
+  },
+  "JAOEIA010033788.1": {
+   "len": 31470,
+   "gc": 42.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 89.398,
+     "claimed_pid": 85.529
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Hapalopsittaca_melanotis",
+     "top_pid": 85.323,
+     "claimed_pid": 80.952
+    }
+   }
+  },
+  "JAOEIA010079639.1": {
+   "len": 1406,
+   "gc": 46.8,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Pionites_leucogaster",
+     "top_pid": 95.608,
+     "claimed_pid": 95.608
+    }
+   }
+  },
+  "JAOEIA010078199.1": {
+   "len": 1981,
+   "gc": 45.8,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Cyanoramphus_auriceps",
+     "top_pid": 100.0,
+     "claimed_pid": 90.208
+    }
+   }
+  },
+  "JAOEIA010052393.1": {
+   "len": 21818,
+   "gc": 40.3,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Pionites_melanocephalus",
+     "top_pid": 100.0,
+     "claimed_pid": 98.227
+    }
+   }
+  },
+  "JAOEIA010070366.1": {
+   "len": 5463,
+   "gc": 39.9,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 94.671,
+     "claimed_pid": 90.751
+    }
+   }
+  },
+  "JAOEIA010088167.1": {
+   "len": 568,
+   "gc": 49.3,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Pionites_leucogaster",
+     "top_pid": 97.711,
+     "claimed_pid": 97.711
+    }
+   }
+  },
+  "JAOEIA010082791.1": {
+   "len": 951,
+   "gc": 47.8,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Pionites_leucogaster",
+     "top_pid": 97.08,
+     "claimed_pid": 97.08
+    }
+   }
+  },
+  "JAOEIA010088445.1": {
+   "len": 558,
+   "gc": 52.9,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Lorius_chlorocercus",
+     "top_pid": 99.307,
+     "claimed_pid": 89.087
+    }
+   }
+  },
+  "JAOEIA010038756.1": {
+   "len": 12480,
+   "gc": 40.0,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittinus_cyanurus",
+     "top_pid": 89.269,
+     "claimed_pid": 85.417
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Cyanoramphus_auriceps",
+  "Lorius_chlorocercus",
+  "Pionites_melanocephalus"
+ ],
+ "foreign_contigs": [
+  "JAOEIA010040414.1",
+  "JAOEIA010078199.1",
+  "JAOEIA010088445.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

@@ -1,0 +1,112 @@
+{
+ "accession": "GCA_034781895.1",
+ "claimed": "Psittacara finschi",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAVBXA010068801.1": {
+   "len": 16889,
+   "gc": 45.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Charmosyna_meeki",
+     "top_pid": 88.772,
+     "claimed_pid": 85.336
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 84.367,
+     "claimed_pid": 78.324
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Vini_peruviana",
+     "top_pid": 78.627,
+     "claimed_pid": 72.028
+    }
+   }
+  },
+  "JAVBXA012291326.1": {
+   "len": 11988,
+   "gc": 45.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Myiopsitta_monachus",
+     "top_pid": 88.21,
+     "claimed_pid": 84.806
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 84.406,
+     "claimed_pid": 78.817
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Cyanoramphus_novaezelandiae",
+     "top_pid": 78.846,
+     "claimed_pid": 73.401
+    }
+   }
+  },
+  "JAVBXA011322141.1": {
+   "len": 16716,
+   "gc": 44.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Geoffroyus_heteroclitus",
+     "top_pid": 86.292,
+     "claimed_pid": 83.922
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Coracopsis_vasa",
+     "top_pid": 82.266,
+     "claimed_pid": 76.126
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 76.25,
+     "claimed_pid": 72.864
+    }
+   }
+  },
+  "JAVBXA011326024.1": {
+   "len": 3462,
+   "gc": 67.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 85.319,
+     "claimed_pid": 82.488
+    }
+   }
+  },
+  "JAVBXA010956173.1": {
+   "len": 1931,
+   "gc": 35.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Cacatua_ducorpsii",
+     "top_pid": 72.902,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": null,
+ "overall": "no_reliable_mito"
+}

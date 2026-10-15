@@ -1,0 +1,57 @@
+{
+ "burgio2019": {
+  "n_species": 218,
+  "root_est": -0.006757434149662237,
+  "root_se": 0.3423472210098768,
+  "crown_psittaculidae_est": -0.07718911951934745,
+  "crown_psittaculidae_se": 0.19506907307467053,
+  "stem_parent_est": -0.03135333988993386,
+  "stem_change": -0.0458357796294136,
+  "stem_branch_myr": 1.34034,
+  "n_sister_pairs": 29,
+  "n_pairs_delta_ge_0.3": 8
+ },
+ "smith2024": {
+  "n_species": 215,
+  "root_est": -0.009853971520458082,
+  "root_se": 0.2909430040165021,
+  "crown_psittaculidae_est": -0.07416075659171521,
+  "crown_psittaculidae_se": 0.1747663611516968,
+  "stem_parent_est": -0.0436521771526477,
+  "stem_change": -0.030508579439067512,
+  "stem_branch_myr": 1.319697,
+  "n_sister_pairs": 33,
+  "n_pairs_delta_ge_0.3": 10
+ },
+ "sister_pairs_shared": 18,
+ "sister_pairs_only_burgio": [
+  "Aratinga auricapillus / Aratinga jandaya",
+  "Cacatua alba / Cacatua moluccensis",
+  "Cacatua haematuropygia / Cacatua sanguinea",
+  "Diopsittaca nobilis / Psittacara acuticaudatus",
+  "Forpus coelestis / Forpus passerinus",
+  "Lorius garrulus / Lorius lory",
+  "Nymphicus hollandicus / Zanda funerea",
+  "Poicephalus gulielmi / Poicephalus senegalus",
+  "Primolius auricollis / Primolius couloni",
+  "Psittacara holochlorus / Psittacara wagleri",
+  "Trichoglossus chlorolepidotus / Trichoglossus haematodus"
+ ],
+ "sister_pairs_only_smith": [
+  "Amazona aestiva / Amazona ochrocephala",
+  "Amazona ventralis / Amazona vittata",
+  "Ara ararauna / Ara rubrogenys",
+  "Aratinga jandaya / Aratinga solstitialis",
+  "Cacatua ducorpsii / Cacatua sanguinea",
+  "Diopsittaca nobilis / Guaruba guarouba",
+  "Forpus passerinus / Forpus spengeli",
+  "Loriculus galgulus / Loriculus vernalis",
+  "Lorius chlorocercus / Lorius lory",
+  "Poicephalus cryptoxanthus / Poicephalus rueppellii",
+  "Primolius auricollis / Primolius maracana",
+  "Psittacara erythrogenys / Psittacara leucophthalmus",
+  "Psittacara finschi / Psittacara wagleri",
+  "Psittacula eupatria / Psittacula krameri",
+  "Trichoglossus euteles / Trichoglossus haematodus"
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "accession": "GCA_026284485.1",
+ "claimed": "Aratinga jandaya",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANCMD010032031.1": {
+   "len": 17062,
+   "gc": 47.0,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Eupsittula_canicularis",
+     "top_pid": 99.824,
+     "claimed_pid": 83.051
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Eupsittula_canicularis",
+     "top_pid": 100.0,
+     "claimed_pid": 88.485
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Eupsittula_canicularis",
+     "top_pid": 100.0,
+     "claimed_pid": 87.128
+    }
+   }
+  },
+  "JANCMD010217996.1": {
+   "len": 3748,
+   "gc": 48.7,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.629,
+     "claimed_pid": 85.26
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.231,
+     "claimed_pid": 82.915
+    }
+   }
+  },
+  "JANCMD010220087.1": {
+   "len": 1738,
+   "gc": 48.3,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Poicephalus_meyeri",
+     "top_pid": 98.422,
+     "claimed_pid": 85.52
+    }
+   }
+  },
+  "JANCMD010217770.1": {
+   "len": 4753,
+   "gc": 45.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Cyclopsitta_diophthalma",
+     "top_pid": 87.193,
+     "claimed_pid": 79.852
+    }
+   }
+  },
+  "JANCMD010217722.1": {
+   "len": 5117,
+   "gc": 44.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 88.03,
+     "claimed_pid": 82.263
+    }
+   }
+  },
+  "JANCMD010218112.1": {
+   "len": 3440,
+   "gc": 44.5,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Poicephalus_robustus",
+     "top_pid": 98.197,
+     "claimed_pid": 82.549
+    }
+   }
+  },
+  "JANCMD010222373.1": {
+   "len": 1266,
+   "gc": 50.2,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.32,
+     "claimed_pid": 84.547
+    }
+   }
+  },
+  "JANCMD010222324.1": {
+   "len": 1272,
+   "gc": 48.0,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Poicephalus_meyeri",
+     "top_pid": 99.399,
+     "claimed_pid": 84.217
+    }
+   }
+  },
+  "JANCMD010001807.1": {
+   "len": 35703,
+   "gc": 41.3,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 98.93,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANCMD010026853.1": {
+   "len": 1378,
+   "gc": 41.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Poicephalus_senegalus",
+     "top_pid": 94.576,
+     "claimed_pid": 82.513
+    }
+   }
+  },
+  "JANCMD010049665.1": {
+   "len": 658,
+   "gc": 48.3,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Poicephalus_senegalus",
+     "top_pid": 96.015,
+     "claimed_pid": 82.184
+    }
+   }
+  },
+  "JANCMD010065020.1": {
+   "len": 467,
+   "gc": 49.3,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.143,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Eupsittula_canicularis",
+  "Poicephalus_gulielmi",
+  "Poicephalus_meyeri",
+  "Poicephalus_robustus"
+ ],
+ "foreign_contigs": [
+  "JANCMD010001807.1",
+  "JANCMD010032031.1",
+  "JANCMD010065020.1",
+  "JANCMD010217996.1",
+  "JANCMD010218112.1",
+  "JANCMD010220087.1",
+  "JANCMD010222324.1",
+  "JANCMD010222373.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

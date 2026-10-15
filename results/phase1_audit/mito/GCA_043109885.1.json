@@ -1,0 +1,253 @@
+{
+ "accession": "GCA_043109885.1",
+ "claimed": "Zanda funerea",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBHUPK010057873.1": {
+   "len": 29816,
+   "gc": 42.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 88.323,
+     "claimed_pid": 83.86
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.821,
+     "claimed_pid": 81.25
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 79.762,
+     "claimed_pid": 76.865
+    }
+   }
+  },
+  "JBHUPK010526781.1": {
+   "len": 16930,
+   "gc": 47.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 87.207,
+     "claimed_pid": 84.259
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Lorius_garrulus",
+     "top_pid": 85.0,
+     "claimed_pid": 83.482
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 78.659,
+     "claimed_pid": 76.052
+    }
+   }
+  },
+  "JBHUPK010902701.1": {
+   "len": 3710,
+   "gc": 44.7,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Zanda_funerea",
+     "top_pid": 99.723,
+     "claimed_pid": 99.723
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Zanda_funerea",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBHUPK010421868.1": {
+   "len": 11770,
+   "gc": 46.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 87.193,
+     "claimed_pid": 84.359
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 77.889,
+     "claimed_pid": 74.95
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Pionus_chalcopterus",
+     "top_pid": 84.448,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHUPK010671099.1": {
+   "len": 4473,
+   "gc": 46.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Myiopsitta_monachus",
+     "top_pid": 88.453,
+     "claimed_pid": 84.793
+    }
+   }
+  },
+  "JBHUPK010395199.1": {
+   "len": 1254,
+   "gc": 46.3,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Loriculus_vernalis",
+     "top_pid": 95.563,
+     "claimed_pid": 81.237
+    }
+   }
+  },
+  "JBHUPK010400231.1": {
+   "len": 983,
+   "gc": 46.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 88.96,
+     "claimed_pid": 84.816
+    }
+   }
+  },
+  "JBHUPK010396489.1": {
+   "len": 1165,
+   "gc": 47.3,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 78.033,
+     "claimed_pid": 75.077
+    }
+   }
+  },
+  "JBHUPK010398265.1": {
+   "len": 1064,
+   "gc": 48.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Lorius_garrulus",
+     "top_pid": 83.698,
+     "claimed_pid": 79.111
+    }
+   }
+  },
+  "JBHUPK010516662.1": {
+   "len": 5222,
+   "gc": 45.2,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 77.805,
+     "claimed_pid": 76.19
+    }
+   }
+  },
+  "JBHUPK010389644.1": {
+   "len": 2308,
+   "gc": 45.5,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Prioniturus_luconensis",
+     "top_pid": 86.222,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHUPK010420671.1": {
+   "len": 614,
+   "gc": 46.9,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Graydidascalus_brachyurus",
+     "top_pid": 80.603,
+     "claimed_pid": 78.03
+    }
+   }
+  },
+  "JBHUPK010418246.1": {
+   "len": 635,
+   "gc": 48.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 85.938,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHUPK010417154.1": {
+   "len": 645,
+   "gc": 48.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Lorius_chlorocercus",
+     "top_pid": 88.121,
+     "claimed_pid": 83.796
+    }
+   }
+  },
+  "JBHUPK010435293.1": {
+   "len": 529,
+   "gc": 49.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Aratinga_jandaya",
+     "top_pid": 87.856,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHUPK010392647.1": {
+   "len": 1526,
+   "gc": 45.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 85.615,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}

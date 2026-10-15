@@ -1,6 +1,8 @@
 # O que falta fazer
 
-Atualizado em 14 out. 2026. Estado: Fase 0 e Fase 0b concluídas; H8 registrada no protocolo. **Nenhuma análise molecular foi feita ainda.**
+Atualizado em 15 out. 2026. Estado: Fase 0 e 0b concluídas; **auditoria das montagens em andamento** (ver [`results/phase1_audit/audit_report.md`](results/phase1_audit/audit_report.md)). **Nenhuma análise de genes foi feita ainda.**
+
+No computador local a rede está liberada (NCBI, ENA, Dryad, Zenodo). Itens 🔴 abaixo passam a ser viáveis.
 
 Legenda: 🟢 dá para fazer aqui, com o acesso atual · 🔴 precisa liberar rede ou dados · 🧪 precisa de laboratório
 
@@ -8,26 +10,30 @@ Legenda: 🟢 dá para fazer aqui, com o acesso atual · 🔴 precisa liberar re
 
 ## 1. Próximo passo (começar por aqui)
 
-### 1.1 🟢/🔴 Auditar os genomas de Hains et al. 2022
-São **96 das 105 espécies utilizáveis**. Se o lote tiver problema, o projeto inteiro herda.
+### 1.1 🟢 Auditar os genomas de Hains et al. 2022 (em andamento)
+São **96 das 105 espécies utilizáveis**. Na prática, "Hains" = todas as montagens da Iridian Genomes (235 no NCBI).
 
-- [ ] Montar ou obter montagens e rodar **BUSCO** (aves_odb10). Critério: ≥ 85 % completo no conjunto amplo, ≥ 95 % no painel piloto.
-- [ ] **Confirmar a espécie** de cada indivíduo pelo mitogenoma/COI, comparando com a árvore.
-- [ ] Checar **contaminação** (humana, bacteriana, entre amostras).
-- [ ] Testar se qualidade (BUSCO, N50) se associa à longevidade relativa. Se sim, entra como covariável.
+- [x] Inventário NCBI de todas as montagens de papagaios (`scripts/09_ncbi_assembly_inventory.py`).
+- [ ] ⏳ **BUSCO** (compleasm, aves_odb10) nas 96: lote `scripts/12_audit_batch.sh` rodando (3/96; ~1h20 cada). Critério: ≥ 85 % completo no conjunto amplo, ≥ 95 % no painel piloto.
+- [x] **Identidade pelo mitogenoma** (96/96): 61 montagens têm o mitogenoma de **outra** espécie; 22 só têm o de outra ("conflito").
+- [ ] ⏳ **Identidade nuclear (Mash)** para resolver os 22 conflitos e medir distância × filogenia (`scripts/16_mash_batch.sh` → `17_mash_identity.py`).
+- [ ] **Contaminação nuclear:** medir a fração de reads de outra espécie (ex.: mapear uma amostra de reads contra o mitogenoma próprio e o da doadora; ou k-mers). Saber se a contaminação cruzada vista no mitogenoma chega ao nuclear em nível que importe.
+- [x] Qualidade (N50, tamanho, GC) × longevidade relativa: **sem associação** (PGLS). Repetir com BUSCO.
+- [ ] **Decidir o critério de N50** (pré-registrado: ≥ 20 kb → só 47 espécies, 12 em Psittaculidae). Manter ou registrar outro **antes** de olhar genes.
+- [ ] Rodar BUSCO também nas montagens não-Iridian escolhidas (VGP, B10K etc.) das espécies do conjunto.
 - [ ] Fixar a lista final de espécies antes de olhar qualquer gene.
-
-> 🔴 NCBI, ENA e Dryad estão bloqueados. Sem isso só dá para trabalhar com os reads do SRA (pesado) ou com as montagens do GenomeArk.
 
 ---
 
 ## 2. Dados e acesso que estão pendentes
 
-- [ ] 🔴 **Liberar rede** (Network access, nas configurações do ambiente): NCBI (Datasets, E-utilities, FTP), Dryad, Zenodo, Crossref, Europe PMC, bioRxiv. Isso destrava quase tudo abaixo.
-- [ ] 🔴 **Accessions e versões das montagens** no NCBI (hoje a tabela `assemblies.tsv` tem várias linhas `to_verify`).
-- [ ] 🔴 **Árvore de Smith et al. 2023/2024** (UCE, Dryad/Zenodo) e repetir a análise de regimes com ela.
+- [x] **Rede liberada** no computador local (NCBI, ENA, Dryad, Zenodo testados em 14 out.).
+- [x] **Accessions e versões das montagens**: `assemblies_literature.tsv` resolvida (falta só o lote F1000 de 22 spp.); inventário completo em `results/phase1_audit/assembly_inventory.tsv`.
+- [x] **Árvore de Smith et al. 2024** (Zenodo, espelho do Dryad) e regimes repetidos: direção mantida, evidência mais fraca (p = 0,05). Ver `results/phase1_trees/tree_sensitivity_report.md`.
+- [x] Estados ancestrais e pares irmãos com a árvore de Smith: ancestrais iguais; **só 18 de 29/33 pares irmãos coincidem**.
+- [ ] **Decidir** que pares irmãos usar nos testes moleculares (árvore de Smith ou os 18 comuns) e registrar no plano antes de olhar genes.
 - [ ] 🔴 **Texto completo** das referências (hoje a maioria foi lida só pelo resumo). Prioridade: Ogburn 2001, Wirthlin 2018, Martini 2025, Powers 2019, Kapsetaki 2024.
-- [ ] 🔴 **Dados por espécie de Kapsetaki 2024** (necropsias de 108 espécies, com denominadores). É a melhor fonte para o eixo do câncer.
+- [x] **Dados por espécie de Kapsetaki 2024** (Zenodo): 15 papagaios com denominadores. Ver `results/phase1_cancer/cancer_report.md`.
 - [ ] 🟢 **Revisar os recordes do AnAge** nas 15 espécies com recorde ≈ expectativa de vida (*Ara macao*: 33 anos de recorde contra 35,5 de média). Procurar fonte primária.
 
 ---
@@ -45,8 +51,9 @@ São **96 das 105 espécies utilizáveis**. Se o lote tiver problema, o projeto 
 
 ## 4. Análises ainda da Fase 0
 
-- [ ] 🟢 **Modelo de regimes com erro de medida** (`l1ou`, RevBayes). O `PhylogeneticEM` atual não usa o erro padrão de cada espécie.
-- [ ] 🟢 **Outras árvores** (assim que existirem): repetir PGLS, estados ancestrais e regimes.
+- [x] 🟢 **Erro de medida por espécie** no PGLS (validado contra R) e regimes sem as 5 % pontas mais ruidosas: as pontas isoladas do PhyloEM eram ruído; Psittaculidae continua o primeiro deslocamento nas duas árvores, com suporte forte na supertree e limítrofe na de Smith. Ver `results/phase1_trees/tree_sensitivity_report.md`.
+- [ ] Busca de regimes **com** erro por espécie no próprio modelo (RevBayes ou implementação própria do scOU + SE²), se a decisão sobre Psittaculidae precisar de mais que isso.
+- [x] 🟢 **Outra árvore** (Smith 2024): PGLS, regimes, ancestrais e pares irmãos refeitos.
 - [ ] 🟢 Testar **robustez do achado de Psittaculidae** removendo outros clados (Arini, Cacatuidae) e com outros critérios de seleção.
 - [ ] 🟢 **Cobertura estimada → medida:** hoje é bases ÷ 1,2 Gb. Mapear amostras de reads em uma referência para confirmar.
 
@@ -97,8 +104,9 @@ Os módulos de genes e os testes estão congelados em `results/phase0/analysis_p
 ## 7. Eixo do câncer
 
 - [ ] 🔴 Extrair de Filip & Scope 2002 (texto completo) o **número de animais** e separar benigno de maligno.
-- [ ] 🔴 Extrair de Kapsetaki 2024 os valores por espécie e denominadores.
-- [ ] 🔴 Comparar *Melopsittacus* com **Loriini** primeiro, depois Psittaculidae (~32 Ma), com *Nymphicus* como controle de manejo.
+- [x] Extrair de Kapsetaki 2024 os valores por espécie e denominadores (rows K24-* em `cancer_comparisons.tsv`).
+- [x] Comparar *Melopsittacus* com **Loriini**, Psittaculidae e *Nymphicus*: periquito 20,8 % de neoplasia × Loriini 1,5 %; **mas a calopsita (domesticada) tem 11,4 % e não difere do periquito**. Domesticação é explicação concorrente forte.
+- [ ] Separar **domesticação** de linhagem: periquitos não domésticos/selvagens, outra espécie doméstica de Psittaculidae, e **idade à morte** por espécie (pedir aos autores de Kapsetaki 2024).
 - [ ] Modelo binomial/beta-binomial hierárquico (espécie, fonte, idade) **só se houver denominadores**.
 - [ ] Separar **tecido e malignidade**; considerar *Macrorhabdus*, hormônios, dieta e linhagem doméstica como explicações concorrentes.
 
@@ -137,8 +145,8 @@ Os módulos de genes e os testes estão congelados em `results/phase0/analysis_p
 
 ## Resumo por prioridade
 
-1. **Auditar os genomas de Hains** (seção 1).
-2. **Liberar a rede** (seção 2), que destrava NCBI, Dryad e texto completo.
+1. **Terminar a auditoria** (seção 1.1) e **decidir o critério de N50**.
+2. **Separar domesticação no eixo do câncer** (seção 7): o excesso do periquito é grande, mas a calopsita doméstica também é alta. Depois, **texto completo** das referências (seção 2).
 3. **Piloto com 7–9 genomas VGP e ~100 genes** (seção 5.1), que dá para fazer já com o GenomeArk.
 4. **Eixo do câncer com dados de necropsia** (seção 7), que é a parte mais forte da H8.
 5. **Teste celular H8a × H8b** (seção 6), que exige laboratório e é o único que distingue as duas versões.

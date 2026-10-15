@@ -1,0 +1,410 @@
+{
+ "accession": "GCA_040207695.1",
+ "claimed": "Eolophus roseicapilla",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBCNYD011356186.1": {
+   "len": 25992,
+   "gc": 48.0,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Lorius_hypoinochrous",
+     "top_pid": 98.421,
+     "claimed_pid": 87.532
+    },
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Lorius_hypoinochrous",
+     "top_pid": 97.502,
+     "claimed_pid": 85.323
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 84.04,
+     "claimed_pid": 80.109
+    }
+   }
+  },
+  "JBCNYD010498883.1": {
+   "len": 25994,
+   "gc": 48.0,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Lorius_hypoinochrous",
+     "top_pid": 98.421,
+     "claimed_pid": 87.532
+    },
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Lorius_hypoinochrous",
+     "top_pid": 97.502,
+     "claimed_pid": 85.323
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 84.04,
+     "claimed_pid": 80.109
+    }
+   }
+  },
+  "JBCNYD010925141.1": {
+   "len": 27273,
+   "gc": 46.3,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Lorius_hypoinochrous",
+     "top_pid": 97.05,
+     "claimed_pid": 86.754
+    },
+    "COX1": {
+     "class": "numt",
+     "top_species": "Aratinga_jandaya",
+     "top_pid": 86.426,
+     "claimed_pid": 82.326
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 79.602,
+     "claimed_pid": 76.888
+    }
+   }
+  },
+  "JBCNYD010067487.1": {
+   "len": 27275,
+   "gc": 46.3,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Lorius_hypoinochrous",
+     "top_pid": 97.05,
+     "claimed_pid": 86.754
+    },
+    "COX1": {
+     "class": "numt",
+     "top_species": "Aratinga_jandaya",
+     "top_pid": 86.426,
+     "claimed_pid": 82.326
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 79.602,
+     "claimed_pid": 76.888
+    }
+   }
+  },
+  "JBCNYD011383124.1": {
+   "len": 2038,
+   "gc": 45.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 89.809,
+     "claimed_pid": 85.333
+    }
+   }
+  },
+  "JBCNYD010525825.1": {
+   "len": 2040,
+   "gc": 45.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 89.809,
+     "claimed_pid": 85.333
+    }
+   }
+  },
+  "JBCNYD011468041.1": {
+   "len": 1074,
+   "gc": 43.8,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Anodorhynchus_leari",
+     "top_pid": 98.557,
+     "claimed_pid": 85.036
+    }
+   }
+  },
+  "JBCNYD010610757.1": {
+   "len": 1076,
+   "gc": 43.7,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Anodorhynchus_leari",
+     "top_pid": 98.56,
+     "claimed_pid": 85.036
+    }
+   }
+  },
+  "JBCNYD011388640.1": {
+   "len": 6637,
+   "gc": 45.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.821,
+     "claimed_pid": 80.357
+    }
+   }
+  },
+  "JBCNYD010531338.1": {
+   "len": 6639,
+   "gc": 45.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.821,
+     "claimed_pid": 80.357
+    }
+   }
+  },
+  "JBCNYD011042396.1": {
+   "len": 1522,
+   "gc": 43.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 85.588,
+     "claimed_pid": 83.581
+    }
+   }
+  },
+  "JBCNYD010184784.1": {
+   "len": 1524,
+   "gc": 43.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 85.588,
+     "claimed_pid": 83.581
+    }
+   }
+  },
+  "JBCNYD010571157.1": {
+   "len": 1867,
+   "gc": 45.5,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Anodorhynchus_leari",
+     "top_pid": 100.0,
+     "claimed_pid": 85.455
+    }
+   }
+  },
+  "JBCNYD011428447.1": {
+   "len": 1865,
+   "gc": 45.5,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Anodorhynchus_leari",
+     "top_pid": 100.0,
+     "claimed_pid": 85.55
+    }
+   }
+  },
+  "JBCNYD011337011.1": {
+   "len": 2616,
+   "gc": 44.9,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 78.755,
+     "claimed_pid": 75.917
+    }
+   }
+  },
+  "JBCNYD010479706.1": {
+   "len": 2618,
+   "gc": 44.9,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 78.755,
+     "claimed_pid": 75.917
+    }
+   }
+  },
+  "JBCNYD010784923.1": {
+   "len": 593,
+   "gc": 47.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Trichoglossus_rubritorquis",
+     "top_pid": 86.441,
+     "claimed_pid": 81.619
+    }
+   }
+  },
+  "JBCNYD011642105.1": {
+   "len": 591,
+   "gc": 47.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Trichoglossus_rubritorquis",
+     "top_pid": 86.375,
+     "claimed_pid": 81.695
+    }
+   }
+  },
+  "JBCNYD011370858.1": {
+   "len": 751,
+   "gc": 47.0,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Prioniturus_luconensis",
+     "top_pid": 77.321,
+     "claimed_pid": 75.201
+    }
+   }
+  },
+  "JBCNYD010513561.1": {
+   "len": 753,
+   "gc": 47.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Prioniturus_luconensis",
+     "top_pid": 77.321,
+     "claimed_pid": 75.201
+    }
+   }
+  },
+  "JBCNYD011165889.1": {
+   "len": 537,
+   "gc": 42.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittacula_roseata",
+     "top_pid": 80.15,
+     "claimed_pid": 79.264
+    }
+   }
+  },
+  "JBCNYD010308320.1": {
+   "len": 539,
+   "gc": 42.7,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittacula_roseata",
+     "top_pid": 80.15,
+     "claimed_pid": 79.264
+    }
+   }
+  },
+  "JBCNYD011436420.1": {
+   "len": 678,
+   "gc": 45.1,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Amazona_ventralis",
+     "top_pid": 83.373,
+     "claimed_pid": 82.212
+    }
+   }
+  },
+  "JBCNYD010579132.1": {
+   "len": 680,
+   "gc": 45.1,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Amazona_ventralis",
+     "top_pid": 83.373,
+     "claimed_pid": 82.212
+    }
+   }
+  },
+  "JBCNYD010467787.1": {
+   "len": 475,
+   "gc": 45.5,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Anodorhynchus_hyacinthinus",
+     "top_pid": 97.257,
+     "claimed_pid": 88.211
+    }
+   }
+  },
+  "JBCNYD011325102.1": {
+   "len": 473,
+   "gc": 45.7,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Anodorhynchus_hyacinthinus",
+     "top_pid": 97.257,
+     "claimed_pid": 88.161
+    }
+   }
+  },
+  "JBCNYD011031515.1": {
+   "len": 563,
+   "gc": 41.7,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Vini_australis",
+     "top_pid": 80.247,
+     "claimed_pid": 74.76
+    }
+   }
+  },
+  "JBCNYD010173889.1": {
+   "len": 565,
+   "gc": 41.8,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Vini_australis",
+     "top_pid": 80.247,
+     "claimed_pid": 74.76
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Anodorhynchus_leari",
+  "Lorius_hypoinochrous"
+ ],
+ "foreign_contigs": [
+  "JBCNYD010498883.1",
+  "JBCNYD010571157.1",
+  "JBCNYD010610757.1",
+  "JBCNYD011356186.1",
+  "JBCNYD011428447.1",
+  "JBCNYD011468041.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

@@ -1,0 +1,82 @@
+{
+ "accession": "GCA_035041115.1",
+ "claimed": "Agapornis nigrigenis",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAWWLU010008796.1": {
+   "len": 13687,
+   "gc": 45.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Graydidascalus_brachyurus",
+     "top_pid": 89.588,
+     "claimed_pid": 85.022
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Lorius_chlorocercus",
+     "top_pid": 82.21,
+     "claimed_pid": 78.489
+    }
+   }
+  },
+  "JAWWLU010035891.1": {
+   "len": 967,
+   "gc": 46.7,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Glossopsitta_concinna",
+     "top_pid": 78.152,
+     "claimed_pid": 73.065
+    }
+   }
+  },
+  "JAWWLU010038830.1": {
+   "len": 788,
+   "gc": 46.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Nannopsittaca_dachilleae",
+     "top_pid": 78.81,
+     "claimed_pid": 74.585
+    }
+   }
+  },
+  "JAWWLU010040971.1": {
+   "len": 692,
+   "gc": 44.4,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittaculirostris_salvadorii",
+     "top_pid": 80.873,
+     "claimed_pid": 77.755
+    }
+   }
+  },
+  "JAWWLU010002245.1": {
+   "len": 80222,
+   "gc": 53.5,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Eunymphicus_cornutus",
+     "top_pid": 72.383,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": null,
+ "overall": "no_reliable_mito"
+}

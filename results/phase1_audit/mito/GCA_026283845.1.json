@@ -1,0 +1,103 @@
+{
+ "accession": "GCA_026283845.1",
+ "claimed": "Primolius maracana",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANEWZ010054999.1": {
+   "len": 15295,
+   "gc": 17.4,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Primolius_maracana",
+     "top_pid": 99.13,
+     "claimed_pid": 99.13
+    }
+   }
+  },
+  "JANEWZ010045924.1": {
+   "len": 20373,
+   "gc": 38.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 85.984,
+     "claimed_pid": 81.964
+    }
+   }
+  },
+  "JANEWZ010079629.1": {
+   "len": 4143,
+   "gc": 43.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 88.674,
+     "claimed_pid": 87.71
+    }
+   }
+  },
+  "JANEWZ010093326.1": {
+   "len": 868,
+   "gc": 45.4,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 95.309,
+     "claimed_pid": 89.979
+    }
+   }
+  },
+  "JANEWZ010052721.1": {
+   "len": 11302,
+   "gc": 38.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_sordidus",
+     "top_pid": 88.861,
+     "claimed_pid": 85.909
+    }
+   }
+  },
+  "JANEWZ010078072.1": {
+   "len": 85299,
+   "gc": 35.4,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 98.039,
+     "claimed_pid": 98.039
+    }
+   }
+  },
+  "JANEWZ010123285.1": {
+   "len": 480,
+   "gc": 46.7,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_holochlorus",
+     "top_pid": 97.708,
+     "claimed_pid": 89.375
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 99.13,
+ "overall": "confirmed"
+}

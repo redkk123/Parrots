@@ -1,0 +1,200 @@
+{
+ "accession": "GCA_024337085.1",
+ "claimed": "Diopsittaca nobilis",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANEXE010033309.1": {
+   "len": 16397,
+   "gc": 46.9,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Eupsittula_canicularis",
+     "top_pid": 99.824,
+     "claimed_pid": 90.669
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Eupsittula_canicularis",
+     "top_pid": 100.0,
+     "claimed_pid": 90.476
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Eupsittula_canicularis",
+     "top_pid": 100.0,
+     "claimed_pid": 87.512
+    }
+   }
+  },
+  "JANEXE010027865.1": {
+   "len": 32172,
+   "gc": 42.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Alisterus_amboinensis",
+     "top_pid": 88.647,
+     "claimed_pid": 85.42
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 85.602,
+     "claimed_pid": 81.551
+    }
+   }
+  },
+  "JANEXE010179828.1": {
+   "len": 3316,
+   "gc": 48.9,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Poicephalus_meyeri",
+     "top_pid": 98.411,
+     "claimed_pid": 89.046
+    }
+   }
+  },
+  "JANEXE010180733.1": {
+   "len": 1764,
+   "gc": 49.9,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.629,
+     "claimed_pid": 88.869
+    }
+   }
+  },
+  "JANEXE010180170.1": {
+   "len": 2389,
+   "gc": 49.9,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Poicephalus_meyeri",
+     "top_pid": 99.697,
+     "claimed_pid": 84.025
+    }
+   }
+  },
+  "JANEXE010179783.1": {
+   "len": 3534,
+   "gc": 44.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Anodorhynchus_hyacinthinus",
+     "top_pid": 92.469,
+     "claimed_pid": 91.014
+    }
+   }
+  },
+  "JANEXE010022894.1": {
+   "len": 26355,
+   "gc": 39.7,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 89.121,
+     "claimed_pid": 86.438
+    }
+   }
+  },
+  "JANEXE010183289.1": {
+   "len": 1000,
+   "gc": 46.5,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Poicephalus_senegalus",
+     "top_pid": 95.518,
+     "claimed_pid": 82.16
+    }
+   }
+  },
+  "JANEXE010051333.1": {
+   "len": 1885,
+   "gc": 48.1,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.02,
+     "claimed_pid": 83.797
+    }
+   }
+  },
+  "JANEXE010047360.1": {
+   "len": 47655,
+   "gc": 39.4,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 95.035,
+     "claimed_pid": 91.617
+    }
+   }
+  },
+  "JANEXE010043299.1": {
+   "len": 44722,
+   "gc": 41.3,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_sordidus",
+     "top_pid": 88.264,
+     "claimed_pid": 84.65
+    }
+   }
+  },
+  "JANEXE010186976.1": {
+   "len": 684,
+   "gc": 46.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Poicephalus_senegalus",
+     "top_pid": 94.293,
+     "claimed_pid": 82.134
+    }
+   }
+  },
+  "JANEXE010027032.1": {
+   "len": 16895,
+   "gc": 40.5,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 96.098,
+     "claimed_pid": 84.634
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Eupsittula_canicularis",
+  "Poicephalus_gulielmi",
+  "Poicephalus_meyeri"
+ ],
+ "foreign_contigs": [
+  "JANEXE010033309.1",
+  "JANEXE010051333.1",
+  "JANEXE010179828.1",
+  "JANEXE010180170.1",
+  "JANEXE010180733.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

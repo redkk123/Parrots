@@ -116,6 +116,8 @@ Retirar cada subclado (Loriini, Platycercini + Pezoporini, Psittaculini, *Agapor
 - É **um único evento**, o que traz dois limites. Qualquer outra coisa que tenha mudado no mesmo ramo (dispersão para a Australásia/Ásia, dieta nectarívora dos lóris, história reprodutiva) está confundida com ele. E um teste de convergência precisa de ≥ 3 eventos independentes, que não existem aqui (Maddison & FitzJohn 2015).
 - A conclusão depende de: árvore (*supertree*), ausência de erro de medida no modelo, um único critério de seleção e cativeiro como contexto. A mesma análise com a árvore de Smith et al. e com erro de medida é obrigatória antes de qualquer afirmação.
 
+> **Adendo de 15 out. 2026 (sensibilidade à árvore).** Com a árvore datada de UCEs de Smith et al. 2024, a direção e o tamanho da redução em Psittaculidae se mantêm (−25 % na expectativa de vida relativa), mas a evidência enfraquece: p = 0,052 (contra 0,003), e a longevidade máxima deixa de ser significativa. O PhyloEM só escolhe o clado com K ≥ 2. Ver [`../phase1_trees/tree_sensitivity_report.md`](../phase1_trees/tree_sensitivity_report.md).
+
 ## 8. Decisão atualizada
 
 > **Cenário B, reformulado.** O fenótipo contínuo é informativo e agora há **105 espécies com dados genômicos utilizáveis**. A história inferida não sustenta múltiplas origens independentes; sustenta uma **redução em Psittaculidae**.

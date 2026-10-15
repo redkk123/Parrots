@@ -1,0 +1,310 @@
+{
+ "accession": "GCA_025448015.1",
+ "claimed": "Bolborhynchus lineola",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAOEHX010099092.1": {
+   "len": 14897,
+   "gc": 46.2,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Cacatua_ducorpsii",
+     "top_pid": 100.0,
+     "claimed_pid": 87.368
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Cacatua_ducorpsii",
+     "top_pid": 100.0,
+     "claimed_pid": 86.149
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Cacatua_ducorpsii",
+     "top_pid": 100.0,
+     "claimed_pid": 81.735
+    }
+   }
+  },
+  "JAOEHX010099091.1": {
+   "len": 14900,
+   "gc": 46.3,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 100.0,
+     "claimed_pid": 93.684
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 100.0,
+     "claimed_pid": 85.591
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 100.0,
+     "claimed_pid": 90.241
+    }
+   }
+  },
+  "JAOEHX010039146.1": {
+   "len": 13907,
+   "gc": 45.5,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 100.0,
+     "claimed_pid": 87.018
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 100.0,
+     "claimed_pid": 85.473
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 100.0,
+     "claimed_pid": 81.016
+    }
+   }
+  },
+  "JAOEHX010099100.1": {
+   "len": 12441,
+   "gc": 45.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_wallicus",
+     "top_pid": 88.049,
+     "claimed_pid": 85.94
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 87.089,
+     "claimed_pid": 83.784
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 79.162,
+     "claimed_pid": 75.342
+    }
+   }
+  },
+  "JAOEHX010099121.1": {
+   "len": 9884,
+   "gc": 48.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_perlata",
+     "top_pid": 88.947,
+     "claimed_pid": 85.614
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.185,
+     "claimed_pid": 83.108
+    }
+   }
+  },
+  "JAOEHX010099144.1": {
+   "len": 8627,
+   "gc": 45.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 89.059,
+     "claimed_pid": 86.14
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 79.635,
+     "claimed_pid": 75.74
+    }
+   }
+  },
+  "JAOEHX010033149.1": {
+   "len": 20788,
+   "gc": 38.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacus_erithacus",
+     "top_pid": 86.965,
+     "claimed_pid": 77.24
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Prioniturus_platurus",
+     "top_pid": 83.516,
+     "claimed_pid": 79.791
+    }
+   }
+  },
+  "JAOEHX010101099.1": {
+   "len": 1994,
+   "gc": 45.2,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Bolborhynchus_lineola",
+     "top_pid": 99.441,
+     "claimed_pid": 99.441
+    }
+   }
+  },
+  "JAOEHX010077509.1": {
+   "len": 1152,
+   "gc": 46.8,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Bolborhynchus_lineola",
+     "top_pid": 99.751,
+     "claimed_pid": 99.751
+    }
+   }
+  },
+  "JAOEHX010099137.1": {
+   "len": 8792,
+   "gc": 44.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 87.324,
+     "claimed_pid": 83.878
+    }
+   }
+  },
+  "JAOEHX010066738.1": {
+   "len": 1174,
+   "gc": 46.4,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_cyanocephala",
+     "top_pid": 86.475,
+     "claimed_pid": 84.572
+    }
+   }
+  },
+  "JAOEHX010076145.1": {
+   "len": 1320,
+   "gc": 47.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Tanygnathus_lucionensis",
+     "top_pid": 86.667,
+     "claimed_pid": 85.127
+    }
+   }
+  },
+  "JAOEHX010099449.1": {
+   "len": 4184,
+   "gc": 46.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_roseata",
+     "top_pid": 88.401,
+     "claimed_pid": 86.467
+    }
+   }
+  },
+  "JAOEHX010100401.1": {
+   "len": 2431,
+   "gc": 48.8,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittacula_krameri",
+     "top_pid": 79.077,
+     "claimed_pid": 76.4
+    }
+   }
+  },
+  "JAOEHX010083034.1": {
+   "len": 798,
+   "gc": 46.4,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Bolborhynchus_lineola",
+     "top_pid": 99.649,
+     "claimed_pid": 99.649
+    }
+   }
+  },
+  "JAOEHX010097893.1": {
+   "len": 509,
+   "gc": 48.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_sp._1_PG-2015",
+     "top_pid": 88.2,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAOEHX010089054.1": {
+   "len": 623,
+   "gc": 47.0,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Polytelis_anthopeplus",
+     "top_pid": 80.154,
+     "claimed_pid": 75.109
+    }
+   }
+  },
+  "JAOEHX010088905.1": {
+   "len": 626,
+   "gc": 44.7,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Cyanoramphus_auriceps",
+     "top_pid": 78.967,
+     "claimed_pid": 76.201
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Cacatua_ducorpsii",
+  "Cyanoliseus_patagonus",
+  "Psilopsiagon_aurifrons"
+ ],
+ "foreign_contigs": [
+  "JAOEHX010039146.1",
+  "JAOEHX010099091.1",
+  "JAOEHX010099092.1"
+ ],
+ "best_own_pid": 99.751,
+ "overall": "confirmed_with_foreign_mito"
+}

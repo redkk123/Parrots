@@ -1,0 +1,145 @@
+{
+ "accession": "GCA_031763935.1",
+ "claimed": "Amazona finschi",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JARPRF010031523.1": {
+   "len": 19327,
+   "gc": 33.1,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Pionus_chalcopterus",
+     "top_pid": 95.929,
+     "claimed_pid": 89.924
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Pionus_seniloides",
+     "top_pid": 98.966,
+     "claimed_pid": 89.31
+    }
+   }
+  },
+  "JARPRF010026521.1": {
+   "len": 44603,
+   "gc": 41.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 87.952,
+     "claimed_pid": 84.44
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 85.645,
+     "claimed_pid": 80.675
+    }
+   }
+  },
+  "JARPRF010011907.1": {
+   "len": 73901,
+   "gc": 39.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pionus_chalcopterus",
+     "top_pid": 94.523,
+     "claimed_pid": 93.213
+    }
+   }
+  },
+  "JARPRF010060770.1": {
+   "len": 854,
+   "gc": 44.5,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Pionus_seniloides",
+     "top_pid": 99.883,
+     "claimed_pid": 89.307
+    }
+   }
+  },
+  "JARPRF010059000.1": {
+   "len": 3799,
+   "gc": 37.7,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Amazona_finschi",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JARPRF010062377.1": {
+   "len": 737,
+   "gc": 48.0,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Amazona_viridigenalis",
+     "top_pid": 97.693,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JARPRF010063954.1": {
+   "len": 649,
+   "gc": 44.4,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Amazona_finschi",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JARPRF010064807.1": {
+   "len": 611,
+   "gc": 46.2,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Amazona_finschi",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JARPRF010003091.1": {
+   "len": 13228,
+   "gc": 35.8,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Amazona_farinosa",
+     "top_pid": 95.012,
+     "claimed_pid": 94.537
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Pionus_seniloides"
+ ],
+ "foreign_contigs": [
+  "JARPRF010031523.1",
+  "JARPRF010060770.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

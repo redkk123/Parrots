@@ -1,0 +1,82 @@
+{
+ "accession": "GCA_010014805.2",
+ "claimed": "Ara ararauna",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAAAKF020005940.1": {
+   "len": 32283,
+   "gc": 41.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 88.489,
+     "claimed_pid": 86.9
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Coracopsis_vasa",
+     "top_pid": 86.158,
+     "claimed_pid": 80.48
+    }
+   }
+  },
+  "JAAAKF020024780.1": {
+   "len": 14344,
+   "gc": 40.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 88.525,
+     "claimed_pid": 87.481
+    }
+   }
+  },
+  "JAAAKF020002877.1": {
+   "len": 42865,
+   "gc": 39.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 94.858,
+     "claimed_pid": 88.546
+    }
+   }
+  },
+  "JAAAKF020013398.1": {
+   "len": 21662,
+   "gc": 41.2,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_sordidus",
+     "top_pid": 89.356,
+     "claimed_pid": 84.199
+    }
+   }
+  },
+  "JAAAKF020007092.1": {
+   "len": 29932,
+   "gc": 39.6,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 97.543,
+     "claimed_pid": 85.258
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": null,
+ "overall": "ambiguous"
+}

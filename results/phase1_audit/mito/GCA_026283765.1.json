@@ -1,0 +1,44 @@
+{
+ "accession": "GCA_026283765.1",
+ "claimed": "Psephotus haematonotus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANEWY010035815.1": {
+   "len": 17100,
+   "gc": 42.3,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Psephotus_haematonotus",
+     "top_pid": 99.847,
+     "claimed_pid": 99.847
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Psephotus_haematonotus",
+     "top_pid": 99.904,
+     "claimed_pid": 99.904
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Psephotus_haematonotus",
+     "top_pid": 99.875,
+     "claimed_pid": 99.875
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 99.904,
+ "overall": "confirmed"
+}

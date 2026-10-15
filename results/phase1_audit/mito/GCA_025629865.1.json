@@ -1,0 +1,349 @@
+{
+ "accession": "GCA_025629865.1",
+ "claimed": "Cyanoliseus patagonus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAOTBC010043121.1": {
+   "len": 35579,
+   "gc": 45.3,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 98.772,
+     "claimed_pid": 88.456
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 100.0,
+     "claimed_pid": 83.005
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 100.0,
+     "claimed_pid": 86.106
+    }
+   }
+  },
+  "JAOTBC010096475.1": {
+   "len": 14897,
+   "gc": 46.2,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Cacatua_ducorpsii",
+     "top_pid": 100.0,
+     "claimed_pid": 88.533
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Cacatua_ducorpsii",
+     "top_pid": 100.0,
+     "claimed_pid": 86.888
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Cacatua_ducorpsii",
+     "top_pid": 100.0,
+     "claimed_pid": 82.44
+    }
+   }
+  },
+  "JAOTBC010096427.1": {
+   "len": 14902,
+   "gc": 46.6,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Bolborhynchus_lineola",
+     "top_pid": 99.649,
+     "claimed_pid": 88.163
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Bolborhynchus_lineola",
+     "top_pid": 99.553,
+     "claimed_pid": 81.304
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Bolborhynchus_lineola",
+     "top_pid": 100.0,
+     "claimed_pid": 85.91
+    }
+   }
+  },
+  "JAOTBC010098262.1": {
+   "len": 5814,
+   "gc": 47.4,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Lorius_chlorocercus",
+     "top_pid": 99.825,
+     "claimed_pid": 87.832
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Lorius_chlorocercus",
+     "top_pid": 99.808,
+     "claimed_pid": 82.399
+    }
+   }
+  },
+  "JAOTBC010098169.1": {
+   "len": 9069,
+   "gc": 45.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_wallicus",
+     "top_pid": 88.049,
+     "claimed_pid": 84.199
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 79.162,
+     "claimed_pid": 73.973
+    }
+   }
+  },
+  "JAOTBC010035990.1": {
+   "len": 26551,
+   "gc": 41.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Alisterus_amboinensis",
+     "top_pid": 88.889,
+     "claimed_pid": 84.819
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 86.035,
+     "claimed_pid": 80.984
+    }
+   }
+  },
+  "JAOTBC010082988.1": {
+   "len": 2540,
+   "gc": 46.7,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JAOTBC010084761.1": {
+   "len": 1391,
+   "gc": 43.1,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 99.9,
+     "claimed_pid": 99.9
+    }
+   }
+  },
+  "JAOTBC010085215.1": {
+   "len": 1276,
+   "gc": 48.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_roseata",
+     "top_pid": 88.401,
+     "claimed_pid": 85.523
+    }
+   }
+  },
+  "JAOTBC010098236.1": {
+   "len": 6255,
+   "gc": 48.3,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Lorius_chlorocercus",
+     "top_pid": 99.367,
+     "claimed_pid": 87.033
+    }
+   }
+  },
+  "JAOTBC010029625.1": {
+   "len": 22973,
+   "gc": 34.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 88.972,
+     "claimed_pid": 86.158
+    }
+   }
+  },
+  "JAOTBC010087039.1": {
+   "len": 988,
+   "gc": 45.7,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 86.176,
+     "claimed_pid": 81.545
+    }
+   }
+  },
+  "JAOTBC010089032.1": {
+   "len": 808,
+   "gc": 46.8,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JAOTBC010084572.1": {
+   "len": 1449,
+   "gc": 46.0,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 79.208,
+     "claimed_pid": 73.964
+    }
+   }
+  },
+  "JAOTBC010074597.1": {
+   "len": 7467,
+   "gc": 39.7,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 95.213,
+     "claimed_pid": 90.602
+    }
+   }
+  },
+  "JAOTBC010088243.1": {
+   "len": 869,
+   "gc": 45.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_roseata",
+     "top_pid": 87.522,
+     "claimed_pid": 84.234
+    }
+   }
+  },
+  "JAOTBC010087637.1": {
+   "len": 924,
+   "gc": 45.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Zanda_baudinii",
+     "top_pid": 80.095,
+     "claimed_pid": 75.09
+    }
+   }
+  },
+  "JAOTBC010090388.1": {
+   "len": 728,
+   "gc": 45.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Probosciger_aterrimus",
+     "top_pid": 79.477,
+     "claimed_pid": 75.207
+    }
+   }
+  },
+  "JAOTBC010041355.1": {
+   "len": 11313,
+   "gc": 38.7,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_sordidus",
+     "top_pid": 89.578,
+     "claimed_pid": 86.456
+    }
+   }
+  },
+  "JAOTBC010093032.1": {
+   "len": 616,
+   "gc": 47.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 88.288,
+     "claimed_pid": 85.045
+    }
+   }
+  },
+  "JAOTBC010094122.1": {
+   "len": 581,
+   "gc": 43.2,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JAOTBC010034911.1": {
+   "len": 24958,
+   "gc": 40.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 94.595,
+     "claimed_pid": 82.064
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Barnardius_zonarius",
+  "Bolborhynchus_lineola",
+  "Cacatua_ducorpsii",
+  "Lorius_chlorocercus"
+ ],
+ "foreign_contigs": [
+  "JAOTBC010043121.1",
+  "JAOTBC010096427.1",
+  "JAOTBC010096475.1",
+  "JAOTBC010098236.1",
+  "JAOTBC010098262.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

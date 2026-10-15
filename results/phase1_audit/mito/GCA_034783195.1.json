@@ -1,0 +1,224 @@
+{
+ "accession": "GCA_034783195.1",
+ "claimed": "Agapornis taranta",
+ "own_reference_genes": [
+  "CYTB"
+ ],
+ "contigs": {
+  "JAVHND010063575.1": {
+   "len": 21456,
+   "gc": 46.9,
+   "genes": {
+    "COX1": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Agapornis_canus",
+     "top_pid": 100.0,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Agapornis_canus",
+     "top_pid": 99.808,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Agapornis_canus",
+     "top_pid": 99.697,
+     "claimed_pid": 87.279
+    }
+   }
+  },
+  "JAVHND010189365.1": {
+   "len": 5848,
+   "gc": 46.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 90.047,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 86.318,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHND010165102.1": {
+   "len": 16704,
+   "gc": 47.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 87.111,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 78.279,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHND010053249.1": {
+   "len": 23768,
+   "gc": 21.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Agapornis_roseicollis",
+     "top_pid": 90.877,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHND010063953.1": {
+   "len": 17338,
+   "gc": 38.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 84.04,
+     "claimed_pid": 80.161
+    }
+   }
+  },
+  "JAVHND010122377.1": {
+   "len": 2084,
+   "gc": 47.4,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Agapornis_swindernianus",
+     "top_pid": 100.0,
+     "claimed_pid": 88.972
+    }
+   }
+  },
+  "JAVHND010136540.1": {
+   "len": 1020,
+   "gc": 46.3,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Agapornis_roseicollis",
+     "top_pid": 86.939,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHND010069912.1": {
+   "len": 15691,
+   "gc": 47.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 86.589,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHND010171390.1": {
+   "len": 577,
+   "gc": 48.0,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Loriculus_vernalis",
+     "top_pid": 85.324,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHND010180060.1": {
+   "len": 532,
+   "gc": 48.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Agapornis_roseicollis",
+     "top_pid": 89.851,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHND010070263.1": {
+   "len": 23827,
+   "gc": 22.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Chalcopsitta_scintillata",
+     "top_pid": 91.707,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHND010021130.1": {
+   "len": 20287,
+   "gc": 19.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Eos_semilarvata",
+     "top_pid": 87.885,
+     "claimed_pid": 84.141
+    }
+   }
+  },
+  "JAVHND010044770.1": {
+   "len": 15466,
+   "gc": 35.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Tanygnathus_sumatranus",
+     "top_pid": 73.902,
+     "claimed_pid": 68.498
+    }
+   }
+  },
+  "JAVHND010134259.1": {
+   "len": 1086,
+   "gc": 46.3,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 85.714,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHND010167183.1": {
+   "len": 604,
+   "gc": 34.4,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Brotogeris_cyanoptera",
+     "top_pid": 70.222,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Agapornis_canus",
+  "Agapornis_swindernianus"
+ ],
+ "foreign_contigs": [
+  "JAVHND010063575.1",
+  "JAVHND010122377.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

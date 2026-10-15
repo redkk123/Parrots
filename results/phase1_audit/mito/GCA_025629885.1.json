@@ -1,0 +1,155 @@
+{
+ "accession": "GCA_025629885.1",
+ "claimed": "Lorius chlorocercus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAOSLP010070118.1": {
+   "len": 12599,
+   "gc": 47.6,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Lorius_chlorocercus",
+     "top_pid": 99.825,
+     "claimed_pid": 99.825
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Lorius_chlorocercus",
+     "top_pid": 99.385,
+     "claimed_pid": 99.385
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Lorius_chlorocercus",
+     "top_pid": 99.808,
+     "claimed_pid": 99.808
+    }
+   }
+  },
+  "JAOSLP010070097.1": {
+   "len": 17223,
+   "gc": 45.5,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 100.0,
+     "claimed_pid": 91.579
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 100.0,
+     "claimed_pid": 88.85
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 100.0,
+     "claimed_pid": 84.333
+    }
+   }
+  },
+  "JAOSLP010070116.1": {
+   "len": 13077,
+   "gc": 46.1,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 98.772,
+     "claimed_pid": 90.052
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 100.0,
+     "claimed_pid": 85.962
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 100.0,
+     "claimed_pid": 90.391
+    }
+   }
+  },
+  "JAOSLP010033781.1": {
+   "len": 12299,
+   "gc": 45.0,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 100.0,
+     "claimed_pid": 87.016
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 100.0,
+     "claimed_pid": 86.04
+    }
+   }
+  },
+  "JAOSLP010070837.1": {
+   "len": 2648,
+   "gc": 44.5,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 100.0,
+     "claimed_pid": 81.915
+    }
+   }
+  },
+  "JAOSLP010069582.1": {
+   "len": 539,
+   "gc": 46.2,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Pionus_menstruus",
+     "top_pid": 86.965,
+     "claimed_pid": 86.064
+    }
+   }
+  },
+  "JAOSLP010067687.1": {
+   "len": 834,
+   "gc": 44.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 80.779,
+     "claimed_pid": 74.821
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Barnardius_zonarius",
+  "Cyanoliseus_patagonus",
+  "Psilopsiagon_aurifrons"
+ ],
+ "foreign_contigs": [
+  "JAOSLP010033781.1",
+  "JAOSLP010070097.1",
+  "JAOSLP010070116.1",
+  "JAOSLP010070837.1"
+ ],
+ "best_own_pid": 99.825,
+ "overall": "confirmed_with_foreign_mito"
+}

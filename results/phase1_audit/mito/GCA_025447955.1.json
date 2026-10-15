@@ -1,0 +1,328 @@
+{
+ "accession": "GCA_025447955.1",
+ "claimed": "Psilopsiagon aurifrons",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAOEHY010027461.1": {
+   "len": 28161,
+   "gc": 46.1,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Primolius_maracana",
+     "top_pid": 100.0,
+     "claimed_pid": 88.76
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Primolius_maracana",
+     "top_pid": 99.912,
+     "claimed_pid": 87.719
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Primolius_maracana",
+     "top_pid": 100.0,
+     "claimed_pid": 84.282
+    }
+   }
+  },
+  "JAOEHY010053073.1": {
+   "len": 11419,
+   "gc": 47.8,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Lorius_chlorocercus",
+     "top_pid": 99.825,
+     "claimed_pid": 90.439
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Lorius_chlorocercus",
+     "top_pid": 99.808,
+     "claimed_pid": 84.764
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Lorius_chlorocercus",
+     "top_pid": 99.208,
+     "claimed_pid": 88.348
+    }
+   }
+  },
+  "JAOEHY010053023.1": {
+   "len": 14862,
+   "gc": 46.1,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Bolborhynchus_lineola",
+     "top_pid": 99.649,
+     "claimed_pid": 92.054
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Bolborhynchus_lineola",
+     "top_pid": 100.0,
+     "claimed_pid": 89.689
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 77.954,
+     "claimed_pid": 76.596
+    }
+   }
+  },
+  "JAOEHY010053015.1": {
+   "len": 18033,
+   "gc": 47.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_perlata",
+     "top_pid": 88.947,
+     "claimed_pid": 87.07
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.185,
+     "claimed_pid": 82.058
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittacula_krameri",
+     "top_pid": 79.077,
+     "claimed_pid": 77.617
+    }
+   }
+  },
+  "JAOEHY010036613.1": {
+   "len": 35126,
+   "gc": 36.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 93.669,
+     "claimed_pid": 93.669
+    }
+   }
+  },
+  "JAOEHY010054354.1": {
+   "len": 1978,
+   "gc": 45.9,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 99.91,
+     "claimed_pid": 99.91
+    }
+   }
+  },
+  "JAOEHY010053888.1": {
+   "len": 2537,
+   "gc": 46.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aymara",
+     "top_pid": 86.667,
+     "claimed_pid": 86.095
+    }
+   }
+  },
+  "JAOEHY010017573.1": {
+   "len": 24611,
+   "gc": 38.9,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 95.194,
+     "claimed_pid": 95.194
+    }
+   }
+  },
+  "JAOEHY010053244.1": {
+   "len": 5569,
+   "gc": 47.1,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Bolborhynchus_lineola",
+     "top_pid": 99.553,
+     "claimed_pid": 86.307
+    }
+   }
+  },
+  "JAOEHY010023174.1": {
+   "len": 26014,
+   "gc": 41.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Graydidascalus_brachyurus",
+     "top_pid": 83.439,
+     "claimed_pid": 81.242
+    }
+   }
+  },
+  "JAOEHY010060164.1": {
+   "len": 752,
+   "gc": 42.4,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JAOEHY010056451.1": {
+   "len": 1171,
+   "gc": 46.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Cyanoramphus_novaezelandiae",
+     "top_pid": 79.172,
+     "claimed_pid": 75.386
+    }
+   }
+  },
+  "JAOEHY010012860.1": {
+   "len": 10167,
+   "gc": 44.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 92.118,
+     "claimed_pid": 92.118
+    }
+   }
+  },
+  "JAOEHY010061480.1": {
+   "len": 679,
+   "gc": 46.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_cyanocephala",
+     "top_pid": 87.09,
+     "claimed_pid": 84.242
+    }
+   }
+  },
+  "JAOEHY010060548.1": {
+   "len": 730,
+   "gc": 47.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_xanthopterygius",
+     "top_pid": 88.717,
+     "claimed_pid": 84.365
+    }
+   }
+  },
+  "JAOEHY010053191.1": {
+   "len": 6461,
+   "gc": 48.3,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 77.204,
+     "claimed_pid": 75.025
+    }
+   }
+  },
+  "JAOEHY010058858.1": {
+   "len": 855,
+   "gc": 49.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_wallicus",
+     "top_pid": 81.807,
+     "claimed_pid": 81.341
+    }
+   }
+  },
+  "JAOEHY010055496.1": {
+   "len": 1401,
+   "gc": 45.7,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 96.422,
+     "claimed_pid": 96.422
+    }
+   }
+  },
+  "JAOEHY010065127.1": {
+   "len": 550,
+   "gc": 47.1,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 96.837,
+     "claimed_pid": 96.837
+    }
+   }
+  },
+  "JAOEHY010047337.1": {
+   "len": 33921,
+   "gc": 36.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 94.082,
+     "claimed_pid": 94.082
+    }
+   }
+  },
+  "JAOEHY010057470.1": {
+   "len": 1001,
+   "gc": 33.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacus_erithacus",
+     "top_pid": 73.645,
+     "claimed_pid": 71.585
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Bolborhynchus_lineola",
+  "Lorius_chlorocercus",
+  "Primolius_maracana"
+ ],
+ "foreign_contigs": [
+  "JAOEHY010027461.1",
+  "JAOEHY010053023.1",
+  "JAOEHY010053073.1",
+  "JAOEHY010053244.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

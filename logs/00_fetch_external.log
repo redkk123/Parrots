@@ -1,10 +1,12 @@
-# fetched 2026-09-25T19:17:50Z
+# fetched 2026-10-15T00:00:36Z
 smeele2022 311066c9a68ee2b4866754a2ef24e5da8f77df0e
 parrottraits 79a8334db7677c9ab4e5d79e6c2e43fb102274b5
 traitdata 5560f5a609e2c891c23c36ae0cc25c56c81c64ac
+genomeark Agapornis_nigrigenis bAgaNig1 bAgaNig1.hap1.cur.20260929.fasta.gz
 genomeark Amazona_ochrocephala bAmaOch1 bAmaOch1.hap1.cur.04022024.fa.gz
 genomeark Anodorhynchus_hyacinthinus bAnoHya1 -
 genomeark Ara_ararauna bAraAra1 bAraAra1.hap1.cur.20230118.fasta.gz
+genomeark Ara_militaris bAraMil1 bAraMil1.hap1.cur.20260929.fasta.gz
 genomeark Guaruba_guarouba bGuaGua1 bGuaGua1.0.20240802.cur.h1.fasta.gz
 genomeark Lathamus_discolor bLatDis1 bLatDis1.hap1.cur.20230710.fasta.gz
 genomeark Melopsittacus_undulatus bMelUnd1 bMelUnd1.mat.Z.cur.20200204.fasta.gz

@@ -1,0 +1,270 @@
+{
+ "accession": "GCA_029814565.1",
+ "claimed": "Pionites melanocephalus",
+ "own_reference_genes": [
+  "COX1",
+  "ND2"
+ ],
+ "contigs": {
+  "JAPVEF010028376.1": {
+   "len": 17536,
+   "gc": 46.9,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Psittacula_alexandri",
+     "top_pid": 99.548,
+     "claimed_pid": 89.807
+    },
+    "CYTB": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 100.0,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 99.712,
+     "claimed_pid": 84.63
+    }
+   }
+  },
+  "JAPVEF010054779.1": {
+   "len": 17960,
+   "gc": 43.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_wallicus",
+     "top_pid": 88.049,
+     "claimed_pid": 85.237
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 87.089,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 79.162,
+     "claimed_pid": 75.579
+    }
+   }
+  },
+  "JAPVEF010054850.1": {
+   "len": 8719,
+   "gc": 45.6,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Cyanoramphus_auriceps",
+     "top_pid": 100.0,
+     "claimed_pid": 93.656
+    },
+    "CYTB": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Cyanoramphus_auriceps",
+     "top_pid": 99.656,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAPVEF010029490.1": {
+   "len": 32240,
+   "gc": 41.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 89.398,
+     "claimed_pid": 87.44
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Hapalopsittaca_melanotis",
+     "top_pid": 85.075,
+     "claimed_pid": 80.71
+    }
+   }
+  },
+  "JAPVEF010055325.1": {
+   "len": 2765,
+   "gc": 44.5,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Cyanoramphus_auriceps",
+     "top_pid": 100.0,
+     "claimed_pid": 81.774
+    }
+   }
+  },
+  "JAPVEF010050506.1": {
+   "len": 2000,
+   "gc": 46.9,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Pionites_leucogaster",
+     "top_pid": 96.316,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAPVEF010059942.1": {
+   "len": 918,
+   "gc": 42.4,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Platycercus_eximius",
+     "top_pid": 99.76,
+     "claimed_pid": 82.139
+    }
+   }
+  },
+  "JAPVEF010019631.1": {
+   "len": 16313,
+   "gc": 40.7,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Ara_tricolor",
+     "top_pid": 88.86,
+     "claimed_pid": 87.047
+    }
+   }
+  },
+  "JAPVEF010041092.1": {
+   "len": 57562,
+   "gc": 41.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 94.671,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAPVEF010059715.1": {
+   "len": 942,
+   "gc": 44.7,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Platycercus_adscitus",
+     "top_pid": 99.387,
+     "claimed_pid": 87.935
+    }
+   }
+  },
+  "JAPVEF010061798.1": {
+   "len": 776,
+   "gc": 47.0,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Pionites_leucogaster",
+     "top_pid": 97.222,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAPVEF010067147.1": {
+   "len": 570,
+   "gc": 42.8,
+   "genes": {
+    "CYTB": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Platycercus_eximius",
+     "top_pid": 98.75,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAPVEF010063087.1": {
+   "len": 706,
+   "gc": 46.7,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 79.202,
+     "claimed_pid": 75.578
+    }
+   }
+  },
+  "JAPVEF010068053.1": {
+   "len": 550,
+   "gc": 46.9,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Pionites_leucogaster",
+     "top_pid": 96.782,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAPVEF010027225.1": {
+   "len": 17928,
+   "gc": 40.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittinus_cyanurus",
+     "top_pid": 89.269,
+     "claimed_pid": 85.421
+    }
+   }
+  },
+  "JAPVEF010064788.1": {
+   "len": 637,
+   "gc": 49.8,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Pionites_melanocephalus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JAPVEF010065904.1": {
+   "len": 602,
+   "gc": 45.3,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Pionites_melanocephalus",
+     "top_pid": 99.754,
+     "claimed_pid": 99.754
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Cyanoramphus_auriceps",
+  "Platycercus_adscitus",
+  "Platycercus_eximius",
+  "Psittacula_alexandri",
+  "Psittacula_derbiana"
+ ],
+ "foreign_contigs": [
+  "JAPVEF010028376.1",
+  "JAPVEF010054850.1",
+  "JAPVEF010055325.1",
+  "JAPVEF010059715.1",
+  "JAPVEF010059942.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

@@ -1,0 +1,134 @@
+{
+ "accession": "GCA_010014965.2",
+ "claimed": "Pyrrhura griseipectus",
+ "own_reference_genes": [
+  "CYTB"
+ ],
+ "contigs": {
+  "JAAAKS020033873.1": {
+   "len": 21462,
+   "gc": 43.6,
+   "genes": {
+    "COX1": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Pyrrhura_perlata",
+     "top_pid": 99.847,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Pyrrhura_leucotis",
+     "top_pid": 99.912,
+     "claimed_pid": 99.649
+    },
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Pyrrhura_lepida",
+     "top_pid": 99.904,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAAAKS020028397.1": {
+   "len": 42687,
+   "gc": 41.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 88.462,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Hapalopsittaca_melanotis",
+     "top_pid": 84.328,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAAAKS020160084.1": {
+   "len": 1833,
+   "gc": 47.9,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Pyrrhura_lepida",
+     "top_pid": 100.0,
+     "claimed_pid": 95.088
+    }
+   }
+  },
+  "JAAAKS020013527.1": {
+   "len": 73688,
+   "gc": 39.2,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 87.481,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAAAKS020047836.1": {
+   "len": 47486,
+   "gc": 39.4,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 94.858,
+     "claimed_pid": 88.948
+    }
+   }
+  },
+  "JAAAKS020170052.1": {
+   "len": 577,
+   "gc": 45.1,
+   "genes": {
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Pyrrhura_leucotis",
+     "top_pid": 99.223,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAAAKS020043834.1": {
+   "len": 64362,
+   "gc": 41.2,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_sordidus",
+     "top_pid": 87.624,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAAAKS020050998.1": {
+   "len": 92498,
+   "gc": 35.9,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 95.577,
+     "claimed_pid": 85.749
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "CYTB"
+ ],
+ "foreign_species": [
+  "Pyrrhura_lepida"
+ ],
+ "foreign_contigs": [
+  "JAAAKS020160084.1"
+ ],
+ "best_own_pid": 99.649,
+ "overall": "confirmed_with_foreign_mito"
+}

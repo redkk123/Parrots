@@ -1,0 +1,66 @@
+{
+ "accession": "GCA_026283635.1",
+ "claimed": "Ara macao",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANEYE010151471.1": {
+   "len": 17482,
+   "gc": 44.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 89.016,
+     "claimed_pid": 85.874
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_columboides",
+     "top_pid": 84.637,
+     "claimed_pid": 81.273
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 79.602,
+     "claimed_pid": 76.327
+    }
+   }
+  },
+  "JANEYE010064109.1": {
+   "len": 1388,
+   "gc": 46.6,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Ara_macao",
+     "top_pid": 99.814,
+     "claimed_pid": 99.814
+    }
+   }
+  },
+  "JANEYE010090052.1": {
+   "len": 3165,
+   "gc": 34.0,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Ara_severus",
+     "top_pid": 88.398,
+     "claimed_pid": 87.109
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "CYTB"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 99.814,
+ "overall": "confirmed"
+}

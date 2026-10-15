@@ -1,0 +1,165 @@
+{
+  "PhylogeneticEM": "1.8.1",
+  "rel_LE": {
+    "n_species": 215,
+    "minutes": 1.49946,
+    "selection": {
+      "BGHuni": {
+        "K": 1,
+        "alpha_per_tree_height": [
+          [2.36271]
+        ],
+        "half_life_myr": [
+          [11.65723]
+        ],
+        "root_optimum": 0.00241,
+        "shifts": [
+          {
+            "edge": 117,
+            "shift_value": -10.81425,
+            "n_tips": 1,
+            "genera": "Psittaculirostris",
+            "tips": "Psittaculirostris_desmarestii"
+          }
+        ]
+      },
+      "DDSE_BM1": {
+        "error": "criterion not available"
+      },
+      "Djump_BM1": {
+        "error": "criterion not available"
+      }
+    },
+    "loglik_by_K": [
+      {
+        "K": 0,
+        "loglik": -43.98356
+      },
+      {
+        "K": 1,
+        "loglik": -31.06014
+      },
+      {
+        "K": 2,
+        "loglik": -23.45334
+      },
+      {
+        "K": 3,
+        "loglik": -16.51017
+      },
+      {
+        "K": 4,
+        "loglik": -11.67192
+      },
+      {
+        "K": 5,
+        "loglik": -6.92443
+      },
+      {
+        "K": 6,
+        "loglik": -2.1098
+      },
+      {
+        "K": 7,
+        "loglik": 2.27539
+      },
+      {
+        "K": 8,
+        "loglik": 6.34211
+      },
+      {
+        "K": 9,
+        "loglik": 9.72876
+      },
+      {
+        "K": 10,
+        "loglik": 13.1456
+      },
+      {
+        "K": 11,
+        "loglik": 16.56722
+      },
+      {
+        "K": 12,
+        "loglik": 20.33745
+      }
+    ]
+  },
+  "rel_maxL_ssadj": {
+    "n_species": 152,
+    "minutes": 1.12525,
+    "selection": {
+      "BGHuni": {
+        "K": 0,
+        "alpha_per_tree_height": [
+          [7.0081]
+        ],
+        "half_life_myr": [
+          [3.93012]
+        ],
+        "root_optimum": -0.09832,
+        "shifts": []
+      },
+      "DDSE_BM1": {
+        "error": "criterion not available"
+      },
+      "Djump_BM1": {
+        "error": "criterion not available"
+      }
+    },
+    "loglik_by_K": [
+      {
+        "K": 0,
+        "loglik": -36.43026
+      },
+      {
+        "K": 1,
+        "loglik": -29.53256
+      },
+      {
+        "K": 2,
+        "loglik": -23.30114
+      },
+      {
+        "K": 3,
+        "loglik": -16.39753
+      },
+      {
+        "K": 4,
+        "loglik": -11.85569
+      },
+      {
+        "K": 5,
+        "loglik": -8.16241
+      },
+      {
+        "K": 6,
+        "loglik": -4.30037
+      },
+      {
+        "K": 7,
+        "loglik": -0.61432
+      },
+      {
+        "K": 8,
+        "loglik": 2.2392
+      },
+      {
+        "K": 9,
+        "loglik": 5.02068
+      },
+      {
+        "K": 10,
+        "loglik": 8.26739
+      },
+      {
+        "K": 11,
+        "loglik": 11.52491
+      },
+      {
+        "K": 12,
+        "loglik": 14.12784
+      }
+    ]
+  }
+}

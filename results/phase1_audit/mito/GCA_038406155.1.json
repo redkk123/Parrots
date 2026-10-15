@@ -1,0 +1,162 @@
+{
+ "accession": "GCA_038406155.1",
+ "claimed": "Pyrrhura leucotis",
+ "own_reference_genes": [
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBCAUH010043123.1": {
+   "len": 46675,
+   "gc": 39.5,
+   "genes": {
+    "COX1": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 99.474,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Pyrrhura_leucotis",
+     "top_pid": 99.664,
+     "claimed_pid": 99.664
+    }
+   }
+  },
+  "JBCAUH010034275.1": {
+   "len": 22828,
+   "gc": 41.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 88.462,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Hapalopsittaca_melanotis",
+     "top_pid": 84.328,
+     "claimed_pid": 80.291
+    }
+   }
+  },
+  "JBCAUH010040574.1": {
+   "len": 8353,
+   "gc": 55.5,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Pyrrhura_leucotis",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBCAUH010028522.1": {
+   "len": 21152,
+   "gc": 39.8,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 87.779,
+     "claimed_pid": 85.395
+    }
+   }
+  },
+  "JBCAUH010012297.1": {
+   "len": 26948,
+   "gc": 39.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 94.858,
+     "claimed_pid": 88.693
+    }
+   }
+  },
+  "JBCAUH010039019.1": {
+   "len": 17984,
+   "gc": 40.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittinus_cyanurus",
+     "top_pid": 87.585,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBCAUH010033329.1": {
+   "len": 21461,
+   "gc": 39.9,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 95.577,
+     "claimed_pid": 85.749
+    }
+   }
+  },
+  "JBCAUH010165919.1": {
+   "len": 14230,
+   "gc": 34.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 70.905,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBCAUH010084191.1": {
+   "len": 823,
+   "gc": 36.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eupsittula_canicularis",
+     "top_pid": 74.109,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBCAUH010602473.1": {
+   "len": 3901,
+   "gc": 36.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eolophus_roseicapilla",
+     "top_pid": 69.821,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBCAUH010612137.1": {
+   "len": 1843,
+   "gc": 35.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Probosciger_aterrimus",
+     "top_pid": 71.77,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}

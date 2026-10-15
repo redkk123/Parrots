@@ -1,0 +1,224 @@
+{
+ "accession": "GCA_038381815.1",
+ "claimed": "Anodorhynchus leari",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBBYGU010078335.1": {
+   "len": 22665,
+   "gc": 46.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Aratinga_jandaya",
+     "top_pid": 86.426,
+     "claimed_pid": 84.348
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 89.561,
+     "claimed_pid": 84.649
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 79.602,
+     "claimed_pid": 75.877
+    }
+   }
+  },
+  "JBBYGU010241062.1": {
+   "len": 16945,
+   "gc": 45.3,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Eolophus_roseicapilla",
+     "top_pid": 99.404,
+     "claimed_pid": 88.696
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Eolophus_roseicapilla",
+     "top_pid": 99.211,
+     "claimed_pid": 85.789
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Eolophus_roseicapilla",
+     "top_pid": 100.0,
+     "claimed_pid": 82.917
+    }
+   }
+  },
+  "JBBYGU010159773.1": {
+   "len": 19582,
+   "gc": 47.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 87.111,
+     "claimed_pid": 84.667
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 84.04,
+     "claimed_pid": 78.402
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 78.484,
+     "claimed_pid": 74.239
+    }
+   }
+  },
+  "JBBYGU010195557.1": {
+   "len": 5436,
+   "gc": 47.2,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Lorius_hypoinochrous",
+     "top_pid": 98.421,
+     "claimed_pid": 90.217
+    },
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Lorius_hypoinochrous",
+     "top_pid": 97.502,
+     "claimed_pid": 82.995
+    }
+   }
+  },
+  "JBBYGU010161719.1": {
+   "len": 9325,
+   "gc": 45.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Touit_batavicus",
+     "top_pid": 94.728,
+     "claimed_pid": 89.76
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Touit_purpuratus",
+     "top_pid": 94.044,
+     "claimed_pid": 83.477
+    }
+   }
+  },
+  "JBBYGU010066202.1": {
+   "len": 30052,
+   "gc": 36.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 88.278,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Cyclopsitta_diophthalma",
+     "top_pid": 86.486,
+     "claimed_pid": 83.277
+    }
+   }
+  },
+  "JBBYGU010155603.1": {
+   "len": 2056,
+   "gc": 46.5,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Anodorhynchus_leari",
+     "top_pid": 99.783,
+     "claimed_pid": 99.783
+    }
+   }
+  },
+  "JBBYGU010160507.1": {
+   "len": 6314,
+   "gc": 48.1,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Lorius_lory",
+     "top_pid": 96.48,
+     "claimed_pid": 87.744
+    }
+   }
+  },
+  "JBBYGU010062352.1": {
+   "len": 13938,
+   "gc": 29.1,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Anodorhynchus_leari",
+     "top_pid": 99.872,
+     "claimed_pid": 99.872
+    }
+   }
+  },
+  "JBBYGU010170219.1": {
+   "len": 579,
+   "gc": 46.3,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Anodorhynchus_leari",
+     "top_pid": 98.066,
+     "claimed_pid": 98.066
+    }
+   }
+  },
+  "JBBYGU010162039.1": {
+   "len": 946,
+   "gc": 41.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Prioniturus_montanus",
+     "top_pid": 78.674,
+     "claimed_pid": 76.499
+    }
+   }
+  },
+  "JBBYGU010039398.1": {
+   "len": 47294,
+   "gc": 31.3,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 96.069,
+     "claimed_pid": 86.978
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Eolophus_roseicapilla",
+  "Lorius_hypoinochrous"
+ ],
+ "foreign_contigs": [
+  "JBBYGU010195557.1",
+  "JBBYGU010241062.1"
+ ],
+ "best_own_pid": 99.872,
+ "overall": "confirmed_with_foreign_mito"
+}

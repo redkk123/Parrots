@@ -1,0 +1,131 @@
+{
+ "accession": "GCA_032353375.1",
+ "claimed": "Forpus cyanopygius",
+ "own_reference_genes": [
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAUCNI010067046.1": {
+   "len": 18532,
+   "gc": 44.7,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Forpus_xanthops",
+     "top_pid": 100.0,
+     "claimed_pid": 94.624
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Forpus_xanthops",
+     "top_pid": 100.0,
+     "claimed_pid": 93.475
+    }
+   }
+  },
+  "JAUCNI010139400.1": {
+   "len": 6801,
+   "gc": 42.1,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Forpus_xanthopterygius",
+     "top_pid": 95.159,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Forpus_xanthops",
+     "top_pid": 100.0,
+     "claimed_pid": 93.917
+    }
+   }
+  },
+  "JAUCNI010130981.1": {
+   "len": 1456,
+   "gc": 48.3,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Amazona_mercenarius",
+     "top_pid": 97.568,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAUCNI010138211.1": {
+   "len": 990,
+   "gc": 47.5,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Forpus_xanthopterygius",
+     "top_pid": 99.293,
+     "claimed_pid": 93.535
+    }
+   }
+  },
+  "JAUCNI010142392.1": {
+   "len": 865,
+   "gc": 42.7,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Forpus_xanthopterygius",
+     "top_pid": 99.741,
+     "claimed_pid": 94.163
+    }
+   }
+  },
+  "JAUCNI010056264.1": {
+   "len": 7710,
+   "gc": 43.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 91.98,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAUCNI010131310.1": {
+   "len": 1418,
+   "gc": 44.9,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Amazona_farinosa",
+     "top_pid": 95.098,
+     "claimed_pid": 84.848
+    }
+   }
+  },
+  "JAUCNI010056183.1": {
+   "len": 25418,
+   "gc": 36.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 81.731,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Forpus_xanthops",
+  "Forpus_xanthopterygius"
+ ],
+ "foreign_contigs": [
+  "JAUCNI010067046.1",
+  "JAUCNI010138211.1",
+  "JAUCNI010139400.1",
+  "JAUCNI010142392.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

@@ -1,0 +1,10 @@
+outcome	dropped	n	n_in_clade	lambda	effect_log	se	pct_effect	p
+rel_log_life_expectancy	none	215	101	0.5673	-0.2895	0.148	-25.14	0.05171
+rel_log_max_longevity	none	168	74	0.8021	-0.2192	0.1981	-19.68	0.2702
+rel_log_max_longevity_ssadj	none	152	65	0.3845	-0.1851	0.1181	-16.9	0.1191
+rel_log_life_expectancy	Loriini	172	58	0.4991	-0.3252	0.1412	-27.76	0.02252
+rel_log_life_expectancy	Platycercini + Pezoporini	192	78	0.5689	-0.2415	0.1623	-21.46	0.1384
+rel_log_life_expectancy	Psittaculini	195	81	0.4926	-0.3211	0.1351	-27.46	0.01844
+rel_log_life_expectancy	Agapornis + Loriculus	205	91	0.5648	-0.3318	0.1534	-28.24	0.03175
+rel_log_life_expectancy	Cyclopsittini	211	97	0.6246	-0.2582	0.1538	-22.76	0.0946
+rel_log_life_expectancy	Melopsittacus	214	100	0.5731	-0.2862	0.1495	-24.89	0.05695

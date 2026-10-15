@@ -1,0 +1,139 @@
+{
+ "accession": "GCA_025629925.1",
+ "claimed": "Platycercus adscitus",
+ "own_reference_genes": [
+  "COX1",
+  "ND2"
+ ],
+ "contigs": {
+  "JAOSLL010072366.1": {
+   "len": 11905,
+   "gc": 46.5,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Pionites_melanocephalus",
+     "top_pid": 100.0,
+     "claimed_pid": 88.225
+    },
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Pionites_leucogaster",
+     "top_pid": 97.281,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Pionites_melanocephalus",
+     "top_pid": 99.904,
+     "claimed_pid": 82.653
+    }
+   }
+  },
+  "JAOSLL010030921.1": {
+   "len": 11272,
+   "gc": 45.4,
+   "genes": {
+    "CYTB": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Cyanoramphus_auriceps",
+     "top_pid": 100.0,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAOSLL010072921.1": {
+   "len": 2798,
+   "gc": 44.9,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Platycercus_eximius",
+     "top_pid": 99.847,
+     "claimed_pid": 99.693
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Platycercus_eximius",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JAOSLL010072656.1": {
+   "len": 3755,
+   "gc": 43.9,
+   "genes": {
+    "CYTB": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Platycercus_eximius",
+     "top_pid": 100.0,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAOSLL010076577.1": {
+   "len": 1101,
+   "gc": 43.0,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Cyanoramphus_auriceps",
+     "top_pid": 99.867,
+     "claimed_pid": 85.792
+    }
+   }
+  },
+  "JAOSLL010072522.1": {
+   "len": 5300,
+   "gc": 45.5,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Cyanoramphus_auriceps",
+     "top_pid": 100.0,
+     "claimed_pid": 87.659
+    }
+   }
+  },
+  "JAOSLL010075595.1": {
+   "len": 1249,
+   "gc": 46.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 86.854,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAOSLL010073067.1": {
+   "len": 2511,
+   "gc": 45.5,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Platycercus_eximius",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Cyanoramphus_auriceps",
+  "Pionites_melanocephalus"
+ ],
+ "foreign_contigs": [
+  "JAOSLL010072366.1",
+  "JAOSLL010072522.1",
+  "JAOSLL010076577.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

@@ -1,0 +1,511 @@
+{
+ "accession": "GCA_046245015.1",
+ "claimed": "Eos cyanogenia",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBIUFO010073246.1": {
+   "len": 43855,
+   "gc": 45.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Ara_militaris",
+     "top_pid": 88.78,
+     "claimed_pid": 84.359
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 84.272,
+     "claimed_pid": 81.343
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 79.551,
+     "claimed_pid": 76.997
+    }
+   }
+  },
+  "JBIUFO011285718.1": {
+   "len": 16985,
+   "gc": 47.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 87.207,
+     "claimed_pid": 83.304
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 78.659,
+     "claimed_pid": 77.135
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Eupsittula_canicularis",
+     "top_pid": 85.328,
+     "claimed_pid": 85.047
+    }
+   }
+  },
+  "JBIUFO011285367.1": {
+   "len": 16988,
+   "gc": 46.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psitteuteles_versicolor",
+     "top_pid": 87.719,
+     "claimed_pid": 84.912
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 83.214,
+     "claimed_pid": 80.171
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittacara_holochlorus",
+     "top_pid": 76.848,
+     "claimed_pid": 74.044
+    }
+   }
+  },
+  "JBIUFO011235693.1": {
+   "len": 4360,
+   "gc": 46.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Tanygnathus_lucionensis",
+     "top_pid": 87.986,
+     "claimed_pid": 86.749
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Alisterus_amboinensis",
+     "top_pid": 77.195,
+     "claimed_pid": 75.482
+    }
+   }
+  },
+  "JBIUFO011282161.1": {
+   "len": 3159,
+   "gc": 48.1,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Lorius_garrulus",
+     "top_pid": 85.694,
+     "claimed_pid": 83.902
+    }
+   }
+  },
+  "JBIUFO010040480.1": {
+   "len": 28156,
+   "gc": 23.7,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Eos_cyanogenia",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBIUFO010957415.1": {
+   "len": 1555,
+   "gc": 40.8,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 79.54,
+     "claimed_pid": 77.06
+    }
+   }
+  },
+  "JBIUFO010082819.1": {
+   "len": 43944,
+   "gc": 26.2,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Trichoglossus_chlorolepidotus",
+     "top_pid": 96.03,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBIUFO011270200.1": {
+   "len": 7774,
+   "gc": 41.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aymara",
+     "top_pid": 87.985,
+     "claimed_pid": 84.489
+    }
+   }
+  },
+  "JBIUFO011116937.1": {
+   "len": 4506,
+   "gc": 44.5,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 84.289,
+     "claimed_pid": 80.917
+    }
+   }
+  },
+  "JBIUFO011246235.1": {
+   "len": 962,
+   "gc": 47.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Vini_australis",
+     "top_pid": 83.523,
+     "claimed_pid": 81.224
+    }
+   }
+  },
+  "JBIUFO010228464.1": {
+   "len": 2152,
+   "gc": 42.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Vini_australis",
+     "top_pid": 84.263,
+     "claimed_pid": 81.761
+    }
+   }
+  },
+  "JBIUFO010062110.1": {
+   "len": 26311,
+   "gc": 28.7,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Cacatua_haematuropygia",
+     "top_pid": 99.692,
+     "claimed_pid": 83.796
+    }
+   }
+  },
+  "JBIUFO011241829.1": {
+   "len": 1075,
+   "gc": 47.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eunymphicus_uvaeensis",
+     "top_pid": 86.486,
+     "claimed_pid": 84.886
+    }
+   }
+  },
+  "JBIUFO011244450.1": {
+   "len": 1002,
+   "gc": 47.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacella_brehmii",
+     "top_pid": 87.135,
+     "claimed_pid": 84.6
+    }
+   }
+  },
+  "JBIUFO010978578.1": {
+   "len": 1543,
+   "gc": 44.0,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 75.262,
+     "claimed_pid": 74.399
+    }
+   }
+  },
+  "JBIUFO011244796.1": {
+   "len": 994,
+   "gc": 47.6,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Cacatua_haematuropygia",
+     "top_pid": 100.0,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBIUFO010076859.1": {
+   "len": 21350,
+   "gc": 24.7,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Eos_cyanogenia",
+     "top_pid": 99.688,
+     "claimed_pid": 99.688
+    }
+   }
+  },
+  "JBIUFO010892167.1": {
+   "len": 1594,
+   "gc": 46.7,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Brotogeris_cyanoptera",
+     "top_pid": 84.339,
+     "claimed_pid": 79.857
+    }
+   }
+  },
+  "JBIUFO010500731.1": {
+   "len": 1876,
+   "gc": 46.8,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 77.066,
+     "claimed_pid": 75.687
+    }
+   }
+  },
+  "JBIUFO011238452.1": {
+   "len": 1211,
+   "gc": 47.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Prioniturus_luconensis",
+     "top_pid": 76.515,
+     "claimed_pid": 75.962
+    }
+   }
+  },
+  "JBIUFO011246361.1": {
+   "len": 959,
+   "gc": 46.2,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Brotogeris_cyanoptera",
+     "top_pid": 82.863,
+     "claimed_pid": 79.786
+    }
+   }
+  },
+  "JBIUFO011241575.1": {
+   "len": 1084,
+   "gc": 46.4,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Brotogeris_chiriri",
+     "top_pid": 82.558,
+     "claimed_pid": 80.328
+    }
+   }
+  },
+  "JBIUFO011259125.1": {
+   "len": 777,
+   "gc": 46.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Poicephalus_rufiventris",
+     "top_pid": 78.536,
+     "claimed_pid": 74.488
+    }
+   }
+  },
+  "JBIUFO011272200.1": {
+   "len": 679,
+   "gc": 46.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Cacatua_haematuropygia",
+     "top_pid": 91.754,
+     "claimed_pid": 84.386
+    }
+   }
+  },
+  "JBIUFO010853514.1": {
+   "len": 1618,
+   "gc": 45.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Myiopsitta_monachus",
+     "top_pid": 84.118,
+     "claimed_pid": 81.818
+    }
+   }
+  },
+  "JBIUFO011283092.1": {
+   "len": 626,
+   "gc": 47.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 87.613,
+     "claimed_pid": 85.417
+    }
+   }
+  },
+  "JBIUFO010056863.1": {
+   "len": 18279,
+   "gc": 28.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Probosciger_aterrimus",
+     "top_pid": 77.654,
+     "claimed_pid": 72.409
+    }
+   }
+  },
+  "JBIUFO011311792.1": {
+   "len": 541,
+   "gc": 45.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Charmosyna_meeki",
+     "top_pid": 91.083,
+     "claimed_pid": 86.837
+    }
+   }
+  },
+  "JBIUFO010082180.1": {
+   "len": 21552,
+   "gc": 20.8,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Eos_cyanogenia",
+     "top_pid": 99.502,
+     "claimed_pid": 99.502
+    }
+   }
+  },
+  "JBIUFO011246699.1": {
+   "len": 952,
+   "gc": 44.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 77.797,
+     "claimed_pid": 76.42
+    }
+   }
+  },
+  "JBIUFO011362122.1": {
+   "len": 462,
+   "gc": 45.7,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Poicephalus_rufiventris",
+     "top_pid": 83.08,
+     "claimed_pid": 80.087
+    }
+   }
+  },
+  "JBIUFO011276553.1": {
+   "len": 656,
+   "gc": 46.3,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Nymphicus_hollandicus",
+     "top_pid": 78.352,
+     "claimed_pid": 74.707
+    }
+   }
+  },
+  "JBIUFO011308231.1": {
+   "len": 549,
+   "gc": 47.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Cyanoramphus_novaezelandiae",
+     "top_pid": 85.974,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBIUFO011328230.1": {
+   "len": 509,
+   "gc": 46.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Pionus_maximiliani",
+     "top_pid": 84.116,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBIUFO011352522.1": {
+   "len": 473,
+   "gc": 47.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pionus_chalcopterus",
+     "top_pid": 86.258,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBIUFO011283456.1": {
+   "len": 625,
+   "gc": 44.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Trichoglossus_haematodus",
+     "top_pid": 82.844,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Cacatua_haematuropygia"
+ ],
+ "foreign_contigs": [
+  "JBIUFO010062110.1",
+  "JBIUFO011244796.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

@@ -1,0 +1,722 @@
+{
+ "accession": "GCA_043110865.1",
+ "claimed": "Coracopsis nigra",
+ "own_reference_genes": [
+  "CYTB"
+ ],
+ "contigs": {
+  "JBHZQB010019453.1": {
+   "len": 32626,
+   "gc": 46.0,
+   "genes": {
+    "COX1": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Brotogeris_versicolurus",
+     "top_pid": 99.649,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Coracopsis_nigra",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Brotogeris_versicolurus",
+     "top_pid": 99.616,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011636692.1": {
+   "len": 32159,
+   "gc": 46.0,
+   "genes": {
+    "COX1": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Brotogeris_versicolurus",
+     "top_pid": 98.246,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Coracopsis_nigra",
+     "top_pid": 98.596,
+     "claimed_pid": 98.596
+    },
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Brotogeris_versicolurus",
+     "top_pid": 98.175,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011633620.1": {
+   "len": 32157,
+   "gc": 46.0,
+   "genes": {
+    "COX1": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Brotogeris_versicolurus",
+     "top_pid": 98.246,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Coracopsis_nigra",
+     "top_pid": 98.596,
+     "claimed_pid": 98.596
+    },
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Brotogeris_versicolurus",
+     "top_pid": 98.175,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011640816.1": {
+   "len": 31699,
+   "gc": 46.1,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Brotogeris_versicolurus",
+     "top_pid": 96.842,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Coracopsis_nigra",
+     "top_pid": 97.193,
+     "claimed_pid": 97.193
+    },
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Brotogeris_versicolurus",
+     "top_pid": 96.83,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB010354190.1": {
+   "len": 16741,
+   "gc": 45.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pseudeos_fuscata",
+     "top_pid": 88.246,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.572,
+     "claimed_pid": 81.731
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 78.788,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011214925.1": {
+   "len": 18723,
+   "gc": 46.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Aratinga_jandaya",
+     "top_pid": 88.136,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.075,
+     "claimed_pid": 80.848
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 80.296,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB010143682.1": {
+   "len": 16900,
+   "gc": 47.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Vini_peruviana",
+     "top_pid": 87.544,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.112,
+     "claimed_pid": 81.806
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 78.061,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB010564605.1": {
+   "len": 16108,
+   "gc": 47.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacella_brehmii",
+     "top_pid": 87.368,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 83.168,
+     "claimed_pid": 80.027
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Glossopsitta_concinna",
+     "top_pid": 77.933,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB010669694.1": {
+   "len": 15847,
+   "gc": 47.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Vini_australis",
+     "top_pid": 87.895,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 83.831,
+     "claimed_pid": 80.796
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Vini_peruviana",
+     "top_pid": 77.778,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB010883635.1": {
+   "len": 12478,
+   "gc": 47.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aymara",
+     "top_pid": 87.018,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Nymphicus_hollandicus",
+     "top_pid": 81.596,
+     "claimed_pid": 77.975
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 77.97,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011640576.1": {
+   "len": 16501,
+   "gc": 45.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Charmosyna_meeki",
+     "top_pid": 87.544,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.075,
+     "claimed_pid": 81.044
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Melopsittacus_undulatus",
+     "top_pid": 78.056,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011640722.1": {
+   "len": 18455,
+   "gc": 46.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Aratinga_jandaya",
+     "top_pid": 86.97,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_cyanocephala",
+     "top_pid": 84.049,
+     "claimed_pid": 79.891
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 78.818,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011640555.1": {
+   "len": 16658,
+   "gc": 47.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Vini_peruviana",
+     "top_pid": 86.067,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 84.119,
+     "claimed_pid": 80.711
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Callocephalon_fimbriatum",
+     "top_pid": 77.266,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011640597.1": {
+   "len": 15877,
+   "gc": 47.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacella_brehmii",
+     "top_pid": 86.491,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 82.426,
+     "claimed_pid": 79.754
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Neopsittacus_musschenbroekii",
+     "top_pid": 76.932,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011640604.1": {
+   "len": 15620,
+   "gc": 47.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Vini_australis",
+     "top_pid": 86.786,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_cyanocephala",
+     "top_pid": 83.299,
+     "claimed_pid": 80.498
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Charmosyna_placentis",
+     "top_pid": 77.049,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011640691.1": {
+   "len": 12299,
+   "gc": 47.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Chalcopsitta_atra",
+     "top_pid": 86.176,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Nymphicus_hollandicus",
+     "top_pid": 81.153,
+     "claimed_pid": 77.56
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Touit_batavicus",
+     "top_pid": 77.569,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011381600.1": {
+   "len": 7682,
+   "gc": 44.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Aratinga_jandaya",
+     "top_pid": 87.22,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 80.624,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011640738.1": {
+   "len": 7572,
+   "gc": 44.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 86.623,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 79.733,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB010194069.1": {
+   "len": 2801,
+   "gc": 47.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Charmosyna_meeki",
+     "top_pid": 87.895,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Poicephalus_rufiventris",
+     "top_pid": 78.185,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB010771995.1": {
+   "len": 5670,
+   "gc": 47.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Charmosyna_meeki",
+     "top_pid": 87.895,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Cacatua_sulphurea",
+     "top_pid": 79.095,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011640618.1": {
+   "len": 5589,
+   "gc": 47.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Charmosyna_meeki",
+     "top_pid": 86.491,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Cacatua_sulphurea",
+     "top_pid": 77.706,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011496936.1": {
+   "len": 7288,
+   "gc": 46.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Aratinga_jandaya",
+     "top_pid": 87.712,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB010836045.1": {
+   "len": 5079,
+   "gc": 46.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Coracopsis_vasa",
+     "top_pid": 94.286,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011640749.1": {
+   "len": 7183,
+   "gc": 47.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Aratinga_jandaya",
+     "top_pid": 86.547,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB010823142.1": {
+   "len": 1035,
+   "gc": 46.9,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Loriculus_galgulus",
+     "top_pid": 96.488,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011640677.1": {
+   "len": 5006,
+   "gc": 46.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Coracopsis_vasa",
+     "top_pid": 93.079,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011439567.1": {
+   "len": 1423,
+   "gc": 48.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Glossopsitta_porphyrocephala",
+     "top_pid": 86.94,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011011122.1": {
+   "len": 1794,
+   "gc": 48.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacella_brehmii",
+     "top_pid": 87.452,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB010068815.1": {
+   "len": 1318,
+   "gc": 47.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.075,
+     "claimed_pid": 81.481
+    }
+   }
+  },
+  "JBHZQB010972699.1": {
+   "len": 1855,
+   "gc": 48.4,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Loriculus_pusillus",
+     "top_pid": 99.042,
+     "claimed_pid": 85.486
+    }
+   }
+  },
+  "JBHZQB011490821.1": {
+   "len": 1393,
+   "gc": 48.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Loriculus_philippensis",
+     "top_pid": 90.36,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB010906863.1": {
+   "len": 1984,
+   "gc": 48.2,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Charmosyna_papou",
+     "top_pid": 84.017,
+     "claimed_pid": 81.538
+    }
+   }
+  },
+  "JBHZQB010859437.1": {
+   "len": 988,
+   "gc": 48.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittinus_cyanurus",
+     "top_pid": 82.664,
+     "claimed_pid": 78.659
+    }
+   }
+  },
+  "JBHZQB010122599.1": {
+   "len": 2866,
+   "gc": 47.5,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Charmosyna_josefinae",
+     "top_pid": 83.472,
+     "claimed_pid": 79.305
+    }
+   }
+  },
+  "JBHZQB010793652.1": {
+   "len": 5426,
+   "gc": 47.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 80.392,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB010681143.1": {
+   "len": 1143,
+   "gc": 46.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Coracopsis_vasa",
+     "top_pid": 92.845,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB010373075.1": {
+   "len": 2672,
+   "gc": 47.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Charmosyna_josefinae",
+     "top_pid": 84.797,
+     "claimed_pid": 82.794
+    }
+   }
+  },
+  "JBHZQB011640635.1": {
+   "len": 5348,
+   "gc": 47.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 79.902,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB010832106.1": {
+   "len": 2187,
+   "gc": 46.9,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Brotogeris_jugularis",
+     "top_pid": 76.078,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHZQB011277332.1": {
+   "len": 1520,
+   "gc": 46.9,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Charmosyna_papou",
+     "top_pid": 85.207,
+     "claimed_pid": 82.427
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "CYTB"
+ ],
+ "foreign_species": [
+  "Loriculus_pusillus"
+ ],
+ "foreign_contigs": [
+  "JBHZQB010972699.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

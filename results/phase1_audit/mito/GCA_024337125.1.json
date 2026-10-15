@@ -1,0 +1,88 @@
+{
+ "accession": "GCA_024337125.1",
+ "claimed": "Agapornis roseicollis",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANEXD010056523.1": {
+   "len": 21008,
+   "gc": 43.8,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Probosciger_aterrimus",
+     "top_pid": 100.0,
+     "claimed_pid": 85.062
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Probosciger_aterrimus",
+     "top_pid": 100.0,
+     "claimed_pid": 85.162
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Probosciger_aterrimus",
+     "top_pid": 100.0,
+     "claimed_pid": 80.462
+    }
+   }
+  },
+  "JANEXD010109089.1": {
+   "len": 8186,
+   "gc": 48.0,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Poicephalus_meyeri",
+     "top_pid": 98.411,
+     "claimed_pid": 89.649
+    },
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Poicephalus_senegalus",
+     "top_pid": 95.273,
+     "claimed_pid": 80.019
+    }
+   }
+  },
+  "JANEXD010113017.1": {
+   "len": 1223,
+   "gc": 46.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 86.936,
+     "claimed_pid": 86.044
+    }
+   }
+  },
+  "JANEXD010016609.1": {
+   "len": 11953,
+   "gc": 37.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Trichoglossus_rosenbergii",
+     "top_pid": 88.546,
+     "claimed_pid": 86.696
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Poicephalus_meyeri",
+  "Probosciger_aterrimus"
+ ],
+ "foreign_contigs": [
+  "JANEXD010056523.1",
+  "JANEXD010109089.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

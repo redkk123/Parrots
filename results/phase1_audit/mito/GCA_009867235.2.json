@@ -1,0 +1,37 @@
+{
+ "accession": "GCA_009867235.2",
+ "claimed": "Psittacus erithacus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "WYDI02022000.1": {
+   "len": 17467,
+   "gc": 37.2,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Psittacus_erithacus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Psittacus_erithacus",
+     "top_pid": 99.723,
+     "claimed_pid": 99.723
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}

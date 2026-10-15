@@ -1,0 +1,157 @@
+{
+  "PhylogeneticEM": "1.8.1",
+  "rel_LE": {
+    "n_species": 204,
+    "minutes": 1.31623,
+    "selection": {
+      "BGHuni": {
+        "K": 0,
+        "alpha_per_tree_height": [
+          [2.36271]
+        ],
+        "half_life_myr": [
+          [11.65723]
+        ],
+        "root_optimum": 0.01195,
+        "shifts": []
+      },
+      "DDSE_BM1": {
+        "error": "criterion not available"
+      },
+      "Djump_BM1": {
+        "error": "criterion not available"
+      }
+    },
+    "loglik_by_K": [
+      {
+        "K": 0,
+        "loglik": -21.69161
+      },
+      {
+        "K": 1,
+        "loglik": -15.29162
+      },
+      {
+        "K": 2,
+        "loglik": -10.17262
+      },
+      {
+        "K": 3,
+        "loglik": -4.94026
+      },
+      {
+        "K": 4,
+        "loglik": 0.17576
+      },
+      {
+        "K": 5,
+        "loglik": 5.25702
+      },
+      {
+        "K": 6,
+        "loglik": 8.66413
+      },
+      {
+        "K": 7,
+        "loglik": 11.79554
+      },
+      {
+        "K": 8,
+        "loglik": 14.84834
+      },
+      {
+        "K": 9,
+        "loglik": 17.58113
+      },
+      {
+        "K": 10,
+        "loglik": 20.71579
+      },
+      {
+        "K": 11,
+        "loglik": 23.62482
+      },
+      {
+        "K": 12,
+        "loglik": 26.60286
+      }
+    ]
+  },
+  "rel_maxL_ssadj": {
+    "n_species": 152,
+    "minutes": 1.28569,
+    "selection": {
+      "BGHuni": {
+        "K": 0,
+        "alpha_per_tree_height": [
+          [7.0081]
+        ],
+        "half_life_myr": [
+          [3.93012]
+        ],
+        "root_optimum": -0.09832,
+        "shifts": []
+      },
+      "DDSE_BM1": {
+        "error": "criterion not available"
+      },
+      "Djump_BM1": {
+        "error": "criterion not available"
+      }
+    },
+    "loglik_by_K": [
+      {
+        "K": 0,
+        "loglik": -36.43026
+      },
+      {
+        "K": 1,
+        "loglik": -29.53256
+      },
+      {
+        "K": 2,
+        "loglik": -23.30114
+      },
+      {
+        "K": 3,
+        "loglik": -16.39753
+      },
+      {
+        "K": 4,
+        "loglik": -11.85569
+      },
+      {
+        "K": 5,
+        "loglik": -8.16241
+      },
+      {
+        "K": 6,
+        "loglik": -4.30037
+      },
+      {
+        "K": 7,
+        "loglik": -0.61432
+      },
+      {
+        "K": 8,
+        "loglik": 2.2392
+      },
+      {
+        "K": 9,
+        "loglik": 5.02068
+      },
+      {
+        "K": 10,
+        "loglik": 8.26739
+      },
+      {
+        "K": 11,
+        "loglik": 11.52491
+      },
+      {
+        "K": 12,
+        "loglik": 14.12784
+      }
+    ]
+  }
+}

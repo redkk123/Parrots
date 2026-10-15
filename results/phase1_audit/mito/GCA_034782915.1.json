@@ -1,0 +1,247 @@
+{
+ "accession": "GCA_034782915.1",
+ "claimed": "Forpus coelestis",
+ "own_reference_genes": [
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAVHNA010064234.1": {
+   "len": 38069,
+   "gc": 42.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Agapornis_roseicollis",
+     "top_pid": 86.643,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 84.289,
+     "claimed_pid": 80.46
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Vini_peruviana",
+     "top_pid": 78.175,
+     "claimed_pid": 74.369
+    }
+   }
+  },
+  "JAVHNA010122501.1": {
+   "len": 2359,
+   "gc": 45.0,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 95.904,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Forpus_coelestis",
+     "top_pid": 99.642,
+     "claimed_pid": 99.642
+    }
+   }
+  },
+  "JAVHNA010053773.1": {
+   "len": 27985,
+   "gc": 28.1,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Micropsitta_pusio",
+     "top_pid": 98.171,
+     "claimed_pid": 84.525
+    }
+   }
+  },
+  "JAVHNA010122851.1": {
+   "len": 2164,
+   "gc": 48.6,
+   "genes": {
+    "COX1": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Agapornis_canus",
+     "top_pid": 100.0,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHNA010170447.1": {
+   "len": 3271,
+   "gc": 51.2,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 97.891,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHNA010128649.1": {
+   "len": 4366,
+   "gc": 49.2,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Agapornis_canus",
+     "top_pid": 99.697,
+     "claimed_pid": 83.837
+    }
+   }
+  },
+  "JAVHNA010129383.1": {
+   "len": 1195,
+   "gc": 46.8,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Forpus_coelestis",
+     "top_pid": 99.628,
+     "claimed_pid": 99.628
+    }
+   }
+  },
+  "JAVHNA010122190.1": {
+   "len": 2574,
+   "gc": 46.3,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 79.578,
+     "claimed_pid": 75.146
+    }
+   }
+  },
+  "JAVHNA010130924.1": {
+   "len": 1117,
+   "gc": 48.2,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Agapornis_canus",
+     "top_pid": 99.682,
+     "claimed_pid": 81.505
+    }
+   }
+  },
+  "JAVHNA010124484.1": {
+   "len": 1690,
+   "gc": 46.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 86.914,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHNA010123452.1": {
+   "len": 1951,
+   "gc": 47.7,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.891,
+     "claimed_pid": 82.154
+    }
+   }
+  },
+  "JAVHNA010140646.1": {
+   "len": 822,
+   "gc": 45.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 94.883,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHNA010144909.1": {
+   "len": 734,
+   "gc": 42.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 81.572,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHNA010170771.1": {
+   "len": 2733,
+   "gc": 44.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacus_erithacus",
+     "top_pid": 77.616,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHNA010025126.1": {
+   "len": 10302,
+   "gc": 33.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Ara_ararauna",
+     "top_pid": 71.619,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHNA010136788.1": {
+   "len": 916,
+   "gc": 45.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Trichoglossus_haematodus",
+     "top_pid": 73.945,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHNA010069141.1": {
+   "len": 89716,
+   "gc": 32.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Strigops_habroptila",
+     "top_pid": 70.427,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Agapornis_canus",
+  "Micropsitta_pusio"
+ ],
+ "foreign_contigs": [
+  "JAVHNA010053773.1",
+  "JAVHNA010128649.1",
+  "JAVHNA010130924.1"
+ ],
+ "best_own_pid": 99.642,
+ "overall": "confirmed_with_foreign_mito"
+}

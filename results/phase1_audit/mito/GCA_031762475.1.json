@@ -1,0 +1,104 @@
+{
+ "accession": "GCA_031762475.1",
+ "claimed": "Cacatua sulphurea",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JARUQN010025728.1": {
+   "len": 15356,
+   "gc": 45.9,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Cacatua_sulphurea",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Cacatua_sulphurea",
+     "top_pid": 99.606,
+     "claimed_pid": 99.606
+    }
+   }
+  },
+  "JARUQN010052638.1": {
+   "len": 1777,
+   "gc": 47.5,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Cacatua_sulphurea",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JARUQN010049915.1": {
+   "len": 17604,
+   "gc": 35.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Cacatua_leadbeateri",
+     "top_pid": 77.831,
+     "claimed_pid": 75.599
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Charmosyna_pulchella",
+     "top_pid": 72.117,
+     "claimed_pid": 69.653
+    }
+   }
+  },
+  "JARUQN010035834.1": {
+   "len": 26601,
+   "gc": 49.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 88.679,
+     "claimed_pid": 88.014
+    }
+   }
+  },
+  "JARUQN010050699.1": {
+   "len": 3564,
+   "gc": 36.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Polytelis_alexandrae",
+     "top_pid": 82.975,
+     "claimed_pid": 82.087
+    }
+   }
+  },
+  "JARUQN010062872.1": {
+   "len": 648,
+   "gc": 49.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Alisterus_scapularis",
+     "top_pid": 79.236,
+     "claimed_pid": 77.455
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}

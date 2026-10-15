@@ -1,0 +1,140 @@
+{
+ "accession": "GCA_032274665.1",
+ "claimed": "Psittacula columboides",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JARWLR010049987.1": {
+   "len": 6031,
+   "gc": 44.3,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Amazona_oratrix",
+     "top_pid": 99.856,
+     "claimed_pid": 88.035
+    }
+   }
+  },
+  "JARWLR010095998.1": {
+   "len": 1510,
+   "gc": 45.8,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Psittacula_columboides",
+     "top_pid": 99.662,
+     "claimed_pid": 99.662
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Psittacula_columboides",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JARWLR010096409.1": {
+   "len": 1436,
+   "gc": 45.1,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Amazona_festiva",
+     "top_pid": 96.61,
+     "claimed_pid": 83.268
+    }
+   }
+  },
+  "JARWLR010103627.1": {
+   "len": 926,
+   "gc": 49.6,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Amazona_finschi",
+     "top_pid": 95.833,
+     "claimed_pid": 88.032
+    }
+   }
+  },
+  "JARWLR010100536.1": {
+   "len": 1061,
+   "gc": 46.4,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Psittacula_columboides",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JARWLR010084155.1": {
+   "len": 1018,
+   "gc": 47.8,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Pyrrhura_eisenmanni",
+     "top_pid": 99.499,
+     "claimed_pid": 89.294
+    }
+   }
+  },
+  "JARWLR010130215.1": {
+   "len": 553,
+   "gc": 49.2,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Psittacula_columboides",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JARWLR010138177.1": {
+   "len": 513,
+   "gc": 47.4,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Psittacula_columboides",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JARWLR010094789.1": {
+   "len": 1895,
+   "gc": 47.9,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Psittacula_columboides",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Amazona_oratrix",
+  "Pyrrhura_eisenmanni"
+ ],
+ "foreign_contigs": [
+  "JARWLR010049987.1",
+  "JARWLR010084155.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

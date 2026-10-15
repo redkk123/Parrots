@@ -1,0 +1,408 @@
+{
+ "accession": "GCA_026413525.1",
+ "claimed": "Poicephalus cryptoxanthus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB"
+ ],
+ "contigs": {
+  "JANHOB010076580.1": {
+   "len": 20431,
+   "gc": 45.9,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Psittacara_acuticaudatus",
+     "top_pid": 100.0,
+     "claimed_pid": 87.162
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Eupsittula_aurea",
+     "top_pid": 100.0,
+     "claimed_pid": 85.082
+    },
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Psittacara_acuticaudatus",
+     "top_pid": 99.904,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010332001.1": {
+   "len": 12387,
+   "gc": 46.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Charmosyna_meeki",
+     "top_pid": 87.544,
+     "claimed_pid": 86.201
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Charmosyna_josefinae",
+     "top_pid": 81.866,
+     "claimed_pid": 80.186
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 77.642,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010308631.1": {
+   "len": 13164,
+   "gc": 46.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Prioniturus_luconensis",
+     "top_pid": 85.965,
+     "claimed_pid": 83.39
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 83.333,
+     "claimed_pid": 82.051
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Cacatua_leadbeateri",
+     "top_pid": 77.183,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010302066.1": {
+   "len": 13515,
+   "gc": 45.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Myiopsitta_monachus",
+     "top_pid": 87.8,
+     "claimed_pid": 83.475
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 82.338,
+     "claimed_pid": 81.585
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Calyptorhynchus_banksii",
+     "top_pid": 78.571,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010291615.1": {
+   "len": 6306,
+   "gc": 44.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Phigys_solitarius",
+     "top_pid": 87.193,
+     "claimed_pid": 82.215
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Calyptorhynchus_banksii",
+     "top_pid": 76.773,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010276793.1": {
+   "len": 4147,
+   "gc": 46.8,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Psittacara_chloropterus",
+     "top_pid": 99.825,
+     "claimed_pid": 89.643
+    }
+   }
+  },
+  "JANHOB010157793.1": {
+   "len": 4516,
+   "gc": 46.9,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Eupsittula_aurea",
+     "top_pid": 99.847,
+     "claimed_pid": 87.053
+    }
+   }
+  },
+  "JANHOB010276807.1": {
+   "len": 4143,
+   "gc": 47.2,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 100.0,
+     "claimed_pid": 87.52
+    }
+   }
+  },
+  "JANHOB010281936.1": {
+   "len": 3232,
+   "gc": 44.7,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Psittacara_chloropterus",
+     "top_pid": 100.0,
+     "claimed_pid": 84.627
+    }
+   }
+  },
+  "JANHOB010295086.1": {
+   "len": 2588,
+   "gc": 45.4,
+   "genes": {
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Ara_ararauna",
+     "top_pid": 99.904,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010295309.1": {
+   "len": 2583,
+   "gc": 46.3,
+   "genes": {
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 99.888,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010277197.1": {
+   "len": 1535,
+   "gc": 44.7,
+   "genes": {
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Psittacara_chloropterus",
+     "top_pid": 100.0,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010089167.1": {
+   "len": 25826,
+   "gc": 37.6,
+   "genes": {
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Poicephalus_robustus",
+     "top_pid": 99.006,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010281464.1": {
+   "len": 1086,
+   "gc": 47.7,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Poicephalus_rufiventris",
+     "top_pid": 99.682,
+     "claimed_pid": 94.697
+    }
+   }
+  },
+  "JANHOB010314722.1": {
+   "len": 5490,
+   "gc": 45.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Poicephalus_cryptoxanthus",
+     "top_pid": 82.033,
+     "claimed_pid": 82.033
+    }
+   }
+  },
+  "JANHOB010280869.1": {
+   "len": 1124,
+   "gc": 49.6,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Poicephalus_cryptoxanthus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JANHOB010118602.1": {
+   "len": 4587,
+   "gc": 38.1,
+   "genes": {
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Eupsittula_aurea",
+     "top_pid": 99.818,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010028718.1": {
+   "len": 27930,
+   "gc": 23.5,
+   "genes": {
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Poicephalus_rufiventris",
+     "top_pid": 99.281,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010304324.1": {
+   "len": 497,
+   "gc": 47.7,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Poicephalus_rufiventris",
+     "top_pid": 94.937,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010280628.1": {
+   "len": 1140,
+   "gc": 46.8,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Poicephalus_rufiventris",
+     "top_pid": 97.471,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010309207.1": {
+   "len": 462,
+   "gc": 45.2,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Poicephalus_senegalus",
+     "top_pid": 94.589,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010304836.1": {
+   "len": 493,
+   "gc": 43.0,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 87.257,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010036969.1": {
+   "len": 13343,
+   "gc": 34.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Brotogeris_pyrrhoptera",
+     "top_pid": 87.204,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010307674.1": {
+   "len": 473,
+   "gc": 46.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psephotellus_varius",
+     "top_pid": 83.409,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010310001.1": {
+   "len": 457,
+   "gc": 49.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 85.714,
+     "claimed_pid": 82.793
+    }
+   }
+  },
+  "JANHOB010307803.1": {
+   "len": 472,
+   "gc": 45.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 86.848,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANHOB010299838.1": {
+   "len": 542,
+   "gc": 44.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 77.893,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1"
+ ],
+ "foreign_species": [
+  "Eupsittula_aurea",
+  "Poicephalus_rufiventris",
+  "Primolius_auricollis",
+  "Psittacara_acuticaudatus",
+  "Psittacara_chloropterus"
+ ],
+ "foreign_contigs": [
+  "JANHOB010076580.1",
+  "JANHOB010157793.1",
+  "JANHOB010276793.1",
+  "JANHOB010276807.1",
+  "JANHOB010281464.1",
+  "JANHOB010281936.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

@@ -1,0 +1,190 @@
+{
+ "accession": "GCA_029814625.1",
+ "claimed": "Psittacula derbiana",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAPWDL010051011.1": {
+   "len": 17351,
+   "gc": 46.6,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Pionites_melanocephalus",
+     "top_pid": 100.0,
+     "claimed_pid": 88.953
+    },
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Pionites_leucogaster",
+     "top_pid": 97.281,
+     "claimed_pid": 90.909
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Pionites_melanocephalus",
+     "top_pid": 99.904,
+     "claimed_pid": 85.005
+    }
+   }
+  },
+  "JAPWDL010051019.1": {
+   "len": 16634,
+   "gc": 44.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_wallicus",
+     "top_pid": 88.049,
+     "claimed_pid": 85.055
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 87.089,
+     "claimed_pid": 85.432
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 79.162,
+     "claimed_pid": 75.889
+    }
+   }
+  },
+  "JAPWDL010051314.1": {
+   "len": 5761,
+   "gc": 45.2,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Cyanoramphus_novaezelandiae",
+     "top_pid": 100.0,
+     "claimed_pid": 89.018
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Cyanoramphus_auriceps",
+     "top_pid": 100.0,
+     "claimed_pid": 83.622
+    }
+   }
+  },
+  "JAPWDL010051252.1": {
+   "len": 6485,
+   "gc": 45.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 88.085,
+     "claimed_pid": 86.806
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 79.8,
+     "claimed_pid": 77.225
+    }
+   }
+  },
+  "JAPWDL010051866.1": {
+   "len": 3389,
+   "gc": 46.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 86.383,
+     "claimed_pid": 84.306
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Cyanoramphus_novaezelandiae",
+     "top_pid": 79.172,
+     "claimed_pid": 75.556
+    }
+   }
+  },
+  "JAPWDL010026323.1": {
+   "len": 10173,
+   "gc": 45.2,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Cyanoramphus_auriceps",
+     "top_pid": 100.0,
+     "claimed_pid": 88.861
+    }
+   }
+  },
+  "JAPWDL010055649.1": {
+   "len": 1184,
+   "gc": 46.1,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 85.211,
+     "claimed_pid": 84.577
+    }
+   }
+  },
+  "JAPWDL010063061.1": {
+   "len": 574,
+   "gc": 47.0,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Platycercus_eximius",
+     "top_pid": 100.0,
+     "claimed_pid": 86.888
+    }
+   }
+  },
+  "JAPWDL010064085.1": {
+   "len": 539,
+   "gc": 43.8,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Platycercus_adscitus",
+     "top_pid": 99.628,
+     "claimed_pid": 87.57
+    }
+   }
+  },
+  "JAPWDL010055030.1": {
+   "len": 1306,
+   "gc": 45.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Myiopsitta_monachus",
+     "top_pid": 87.073,
+     "claimed_pid": 85.122
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Cyanoramphus_auriceps",
+  "Cyanoramphus_novaezelandiae",
+  "Pionites_melanocephalus",
+  "Platycercus_adscitus",
+  "Platycercus_eximius"
+ ],
+ "foreign_contigs": [
+  "JAPWDL010026323.1",
+  "JAPWDL010051011.1",
+  "JAPWDL010051314.1",
+  "JAPWDL010063061.1",
+  "JAPWDL010064085.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

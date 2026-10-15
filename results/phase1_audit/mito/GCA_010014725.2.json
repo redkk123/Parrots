@@ -1,0 +1,58 @@
+{
+ "accession": "GCA_010014725.2",
+ "claimed": "Ara chloropterus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "WSYR02053364.1": {
+   "len": 36658,
+   "gc": 39.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 88.942,
+     "claimed_pid": 87.309
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Hapalopsittaca_melanotis",
+     "top_pid": 85.821,
+     "claimed_pid": 82.064
+    }
+   }
+  },
+  "WSYR02089516.1": {
+   "len": 5614,
+   "gc": 39.9,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 88.279,
+     "claimed_pid": 87.371
+    }
+   }
+  },
+  "WSYR02189659.1": {
+   "len": 4727,
+   "gc": 40.8,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 97.304,
+     "claimed_pid": 85.049
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": null,
+ "overall": "ambiguous"
+}

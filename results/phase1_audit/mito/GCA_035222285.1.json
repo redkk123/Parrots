@@ -1,0 +1,151 @@
+{
+ "accession": "GCA_035222285.1",
+ "claimed": "Agapornis lilianae",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAWWTZ010036091.1": {
+   "len": 21626,
+   "gc": 41.5,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Agapornis_nigrigenis",
+     "top_pid": 99.195,
+     "claimed_pid": 99.034
+    },
+    "COX1": {
+     "class": "numt",
+     "top_species": "Agapornis_nigrigenis_x_Agapornis_fischeri",
+     "top_pid": 91.772,
+     "claimed_pid": 91.154
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Polytelis_alexandrae",
+     "top_pid": 86.0,
+     "claimed_pid": 83.262
+    }
+   }
+  },
+  "JAWWTZ010070720.1": {
+   "len": 1322,
+   "gc": 49.3,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Agapornis_fischeri",
+     "top_pid": 99.022,
+     "claimed_pid": 98.826
+    }
+   }
+  },
+  "JAWWTZ010035624.1": {
+   "len": 33274,
+   "gc": 37.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 87.045,
+     "claimed_pid": 86.387
+    }
+   }
+  },
+  "JAWWTZ010092555.1": {
+   "len": 607,
+   "gc": 44.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Agapornis_fischeri",
+     "top_pid": 86.832,
+     "claimed_pid": 86.832
+    }
+   }
+  },
+  "JAWWTZ010080428.1": {
+   "len": 831,
+   "gc": 44.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_oratrix",
+     "top_pid": 94.406,
+     "claimed_pid": 79.059
+    }
+   }
+  },
+  "JAWWTZ010010745.1": {
+   "len": 15122,
+   "gc": 39.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Trichoglossus_rosenbergii",
+     "top_pid": 88.326,
+     "claimed_pid": 85.588
+    }
+   }
+  },
+  "JAWWTZ010092436.1": {
+   "len": 609,
+   "gc": 40.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Northiella_haematogaster",
+     "top_pid": 81.303,
+     "claimed_pid": 78.654
+    }
+   }
+  },
+  "JAWWTZ010071692.1": {
+   "len": 1231,
+   "gc": 35.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Calyptorhynchus_lathami",
+     "top_pid": 79.074,
+     "claimed_pid": 76.438
+    }
+   }
+  },
+  "JAWWTZ010075963.1": {
+   "len": 977,
+   "gc": 36.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Triclaria_malachitacea",
+     "top_pid": 76.337,
+     "claimed_pid": 74.209
+    }
+   }
+  },
+  "JAWWTZ010081836.1": {
+   "len": 794,
+   "gc": 35.5,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacella_brehmii",
+     "top_pid": 71.982,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 99.034,
+ "overall": "confirmed"
+}

@@ -1,0 +1,251 @@
+{
+ "accession": "GCA_034782755.1",
+ "claimed": "Amazona guildingii",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAWLRG010001982.1": {
+   "len": 3664,
+   "gc": 46.4,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Amazona_kawalli",
+     "top_pid": 99.505,
+     "claimed_pid": 95.399
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Amazona_kawalli",
+     "top_pid": 99.804,
+     "claimed_pid": 92.885
+    }
+   }
+  },
+  "JAWLRG012123779.1": {
+   "len": 3662,
+   "gc": 46.5,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Amazona_kawalli",
+     "top_pid": 99.502,
+     "claimed_pid": 95.399
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Amazona_kawalli",
+     "top_pid": 99.804,
+     "claimed_pid": 92.885
+    }
+   }
+  },
+  "JAWLRG012123054.1": {
+   "len": 4821,
+   "gc": 46.3,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Amazona_kawalli",
+     "top_pid": 100.0,
+     "claimed_pid": 94.759
+    }
+   }
+  },
+  "JAWLRG010001255.1": {
+   "len": 4823,
+   "gc": 46.3,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Amazona_kawalli",
+     "top_pid": 100.0,
+     "claimed_pid": 94.759
+    }
+   }
+  },
+  "JAWLRG010274944.1": {
+   "len": 511,
+   "gc": 44.2,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 94.524,
+     "claimed_pid": 84.344
+    }
+   }
+  },
+  "JAWLRG012396159.1": {
+   "len": 509,
+   "gc": 44.0,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 94.524,
+     "claimed_pid": 84.283
+    }
+   }
+  },
+  "JAWLRG010105186.1": {
+   "len": 738,
+   "gc": 44.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Tanygnathus_lucionensis",
+     "top_pid": 85.034,
+     "claimed_pid": 83.81
+    }
+   }
+  },
+  "JAWLRG012226676.1": {
+   "len": 736,
+   "gc": 44.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Tanygnathus_lucionensis",
+     "top_pid": 85.034,
+     "claimed_pid": 83.81
+    }
+   }
+  },
+  "JAWLRG010047554.1": {
+   "len": 960,
+   "gc": 34.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Calyptorhynchus_banksii",
+     "top_pid": 79.225,
+     "claimed_pid": 75.936
+    }
+   }
+  },
+  "JAWLRG012169165.1": {
+   "len": 958,
+   "gc": 33.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Calyptorhynchus_banksii",
+     "top_pid": 79.225,
+     "claimed_pid": 75.936
+    }
+   }
+  },
+  "JAWLRG012167019.1": {
+   "len": 973,
+   "gc": 44.6,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 96.614,
+     "claimed_pid": 86.94
+    }
+   }
+  },
+  "JAWLRG010045400.1": {
+   "len": 975,
+   "gc": 44.7,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 96.614,
+     "claimed_pid": 86.94
+    }
+   }
+  },
+  "JAWLRG012212730.1": {
+   "len": 773,
+   "gc": 41.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Polytelis_alexandrae",
+     "top_pid": 83.135,
+     "claimed_pid": 79.441
+    }
+   }
+  },
+  "JAWLRG010091218.1": {
+   "len": 775,
+   "gc": 41.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Polytelis_alexandrae",
+     "top_pid": 83.135,
+     "claimed_pid": 79.441
+    }
+   }
+  },
+  "JAWLRG010407869.1": {
+   "len": 432,
+   "gc": 47.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_viridigenalis",
+     "top_pid": 94.907,
+     "claimed_pid": 94.676
+    }
+   }
+  },
+  "JAWLRG012528874.1": {
+   "len": 430,
+   "gc": 47.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_viridigenalis",
+     "top_pid": 94.884,
+     "claimed_pid": 94.651
+    }
+   }
+  },
+  "JAWLRG012206120.1": {
+   "len": 794,
+   "gc": 29.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Melopsittacus_undulatus",
+     "top_pid": 73.594,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAWLRG010084599.1": {
+   "len": 796,
+   "gc": 29.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Melopsittacus_undulatus",
+     "top_pid": 73.594,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Amazona_kawalli"
+ ],
+ "foreign_contigs": [
+  "JAWLRG010001255.1",
+  "JAWLRG010001982.1",
+  "JAWLRG012123054.1",
+  "JAWLRG012123779.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

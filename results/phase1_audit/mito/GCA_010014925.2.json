@@ -1,0 +1,56 @@
+{
+ "accession": "GCA_010014925.2",
+ "claimed": "Lorius garrulus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAAAKI020038585.1": {
+   "len": 16546,
+   "gc": 45.3,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Lorius_garrulus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Lorius_garrulus",
+     "top_pid": 99.848,
+     "claimed_pid": 99.848
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Lorius_garrulus",
+     "top_pid": 99.613,
+     "claimed_pid": 99.613
+    }
+   }
+  },
+  "JAAAKI020083291.1": {
+   "len": 608,
+   "gc": 44.2,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Lorius_garrulus",
+     "top_pid": 99.775,
+     "claimed_pid": 99.775
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}

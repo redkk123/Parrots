@@ -3,9 +3,19 @@
 # and tip measurement error is not modelled.
 # Run from the repository root with an R that has PhylogeneticEM:
 #   Rscript scripts/R/regime_shifts.R
+# Alternative tree (sensitivity), e.g. Smith et al. 2024:
+#   REGIME_TREE=results/phase1_trees/smith2024_species.nwk \
+#   REGIME_MATRIX=results/phase1_trees/species_data_matrix_smith2024.tsv \
+#   REGIME_OUT=results/phase1_trees/regime_smith2024 Rscript scripts/R/regime_shifts.R
 suppressPackageStartupMessages({library(ape); library(phytools); library(PhylogeneticEM); library(jsonlite)})
-full <- read.tree("results/phase0/supertree_burgio2019_full.nwk")
-m <- read.delim("results/phase0b/species_data_matrix_with_residuals.tsv")
+env <- function(k, d) { v <- Sys.getenv(k); if (nzchar(v)) v else d }
+full <- read.tree(env("REGIME_TREE", "results/phase0/supertree_burgio2019_full.nwk"))
+m <- read.delim(env("REGIME_MATRIX", "results/phase0b/species_data_matrix_with_residuals.tsv"))
+out_dir <- env("REGIME_OUT", "")   # empty: Phase 0b locations
+json_out <- if (nzchar(out_dir)) file.path(out_dir, "regime_shifts.json") else "results/phase0b/regime_shifts.json"
+fig_dir <- if (nzchar(out_dir)) out_dir else "results/phase0b/figures"
+rds_prefix <- if (nzchar(out_dir)) file.path(out_dir, "phyloem_") else "data/processed/phyloem_"
+if (nzchar(out_dir)) dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 outcomes <- c(rel_LE = "rel_log_life_expectancy", rel_maxL_ssadj = "rel_log_max_longevity_ssadj")
 set.seed(20260926)
 summary <- list(PhylogeneticEM = as.character(packageVersion("PhylogeneticEM")))
@@ -32,7 +42,7 @@ for (nm in names(outcomes)) {
                  K_max = 12, parallel_alpha = TRUE, Ncores = 4, method.selection = c("LINselect", "DDSE", "Djump"),
                  progress.bar = FALSE)
   el <- difftime(Sys.time(), t0, units = "mins")
-  saveRDS(fit, sprintf("data/processed/phyloem_%s.rds", nm))
+  saveRDS(fit, sprintf("%s%s.rds", rds_prefix, nm))
   sel <- list()
   # univariate names: LINselect -> "BGHuni", DDSE -> "DDSE_BM1", Djump -> "Djump_BM1"
   for (meth in c("BGHuni", "DDSE_BM1", "Djump_BM1")) {
@@ -51,10 +61,10 @@ for (nm in names(outcomes)) {
                   error = function(e) NA); if (length(v)) v[1] else NA }))
   summary[[nm]] <- list(n_species = Ntip(tr), minutes = as.numeric(el), selection = sel,
                         loglik_by_K = prof)
-  png(sprintf("results/phase0b/figures/fig4_regime_shifts_%s.png", nm), width = 1800, height = 3600, res = 200)
+  png(sprintf("%s/fig4_regime_shifts_%s.png", fig_dir, nm), width = 1800, height = 3600, res = 200)
   plot(fit, method.selection = "BGHuni", show.tip.label = TRUE, label_cex = 0.35, value_in_box = TRUE,
        shifts_bg = "white", show_axis_traits = TRUE)
   dev.off()
   cat(nm, ": K(BGHuni) =", sel$BGHuni$K, " K(DDSE) =", sel$DDSE_BM1$K, " minutes =", round(el, 1), "\n")
 }
-write(toJSON(summary, auto_unbox = TRUE, pretty = TRUE, digits = 5), "results/phase0b/regime_shifts.json")
+write(toJSON(summary, auto_unbox = TRUE, pretty = TRUE, digits = 5), json_out)

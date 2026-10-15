@@ -1,0 +1,458 @@
+{
+ "accession": "GCA_034783095.1",
+ "claimed": "Forpus spengeli",
+ "own_reference_genes": [
+  "CYTB"
+ ],
+ "contigs": {
+  "JAVHMY010057956.1": {
+   "len": 17866,
+   "gc": 44.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_roseata",
+     "top_pid": 88.752,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Prioniturus_platenae",
+     "top_pid": 87.067,
+     "claimed_pid": 84.186
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittacula_roseata",
+     "top_pid": 78.135,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010146514.1": {
+   "len": 14842,
+   "gc": 45.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Glossopsitta_pusilla",
+     "top_pid": 87.895,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 86.15,
+     "claimed_pid": 82.674
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 79.084,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010207172.1": {
+   "len": 13863,
+   "gc": 45.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_columboides",
+     "top_pid": 87.719,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 86.881,
+     "claimed_pid": 83.704
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 78.792,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010147798.1": {
+   "len": 14818,
+   "gc": 47.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Polytelis_alexandrae",
+     "top_pid": 88.772,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 86.567,
+     "claimed_pid": 83.61
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 79.551,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010434229.1": {
+   "len": 12563,
+   "gc": 47.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Prioniturus_luconensis",
+     "top_pid": 88.225,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Alipiopsitta_xanthops",
+     "top_pid": 85.952,
+     "claimed_pid": 81.874
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 80.597,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010112470.1": {
+   "len": 21267,
+   "gc": 46.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 87.872,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Poicephalus_robustus",
+     "top_pid": 84.25,
+     "claimed_pid": 80.421
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Calyptorhynchus_banksii",
+     "top_pid": 79.961,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010142380.1": {
+   "len": 14960,
+   "gc": 44.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psitteuteles_iris",
+     "top_pid": 88.087,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 86.914,
+     "claimed_pid": 83.611
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 79.408,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010138288.1": {
+   "len": 15129,
+   "gc": 44.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Prioniturus_montanus",
+     "top_pid": 88.576,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.572,
+     "claimed_pid": 82.673
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Alipiopsitta_xanthops",
+     "top_pid": 77.57,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010110735.1": {
+   "len": 3271,
+   "gc": 45.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_columboides",
+     "top_pid": 88.421,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 78.803,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010152133.1": {
+   "len": 5321,
+   "gc": 47.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 86.485,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Probosciger_aterrimus",
+     "top_pid": 80.44,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010122207.1": {
+   "len": 6138,
+   "gc": 46.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_columboides",
+     "top_pid": 88.576,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 79.487,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010113519.1": {
+   "len": 11280,
+   "gc": 43.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 87.559,
+     "claimed_pid": 83.026
+    },
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_columboides",
+     "top_pid": 88.07,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010356375.1": {
+   "len": 12893,
+   "gc": 45.9,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_columboides",
+     "top_pid": 85.678,
+     "claimed_pid": 83.821
+    }
+   }
+  },
+  "JAVHMY010111864.1": {
+   "len": 3068,
+   "gc": 45.7,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 86.854,
+     "claimed_pid": 84.225
+    }
+   }
+  },
+  "JAVHMY010206065.1": {
+   "len": 1118,
+   "gc": 42.2,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Charmosyna_pulchella",
+     "top_pid": 83.871,
+     "claimed_pid": 82.793
+    }
+   }
+  },
+  "JAVHMY010283511.1": {
+   "len": 868,
+   "gc": 47.5,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Bolborhynchus_lineola",
+     "top_pid": 85.503,
+     "claimed_pid": 84.499
+    }
+   }
+  },
+  "JAVHMY010037746.1": {
+   "len": 7322,
+   "gc": 41.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 84.767,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010113484.1": {
+   "len": 2842,
+   "gc": 44.7,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Trichoglossus_chlorolepidotus",
+     "top_pid": 77.805,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010189878.1": {
+   "len": 1202,
+   "gc": 45.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 80.299,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010278834.1": {
+   "len": 879,
+   "gc": 44.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Poicephalus_cryptoxanthus",
+     "top_pid": 84.149,
+     "claimed_pid": 82.234
+    }
+   }
+  },
+  "JAVHMY010265251.1": {
+   "len": 912,
+   "gc": 44.3,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Micropsitta_pusio",
+     "top_pid": 78.409,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010360380.1": {
+   "len": 727,
+   "gc": 47.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_barbadensis",
+     "top_pid": 88.049,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010497583.1": {
+   "len": 574,
+   "gc": 47.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Trichoglossus_haematodus",
+     "top_pid": 87.917,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010456309.1": {
+   "len": 612,
+   "gc": 47.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Aprosmictus_erythropterus",
+     "top_pid": 79.518,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010071973.1": {
+   "len": 2817,
+   "gc": 40.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Callocephalon_fimbriatum",
+     "top_pid": 75.493,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010492289.1": {
+   "len": 579,
+   "gc": 41.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Melopsittacus_undulatus",
+     "top_pid": 77.927,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAVHMY010346518.1": {
+   "len": 4084,
+   "gc": 46.4,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Brotogeris_versicolurus",
+     "top_pid": 79.719,
+     "claimed_pid": 73.636
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": null,
+ "overall": "no_reliable_mito"
+}

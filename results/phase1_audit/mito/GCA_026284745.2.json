@@ -1,0 +1,187 @@
+{
+ "accession": "GCA_026284745.2",
+ "claimed": "Primolius auricollis",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANFOM020037618.1": {
+   "len": 33510,
+   "gc": 45.1,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Psittacara_chloropterus",
+     "top_pid": 99.825,
+     "claimed_pid": 88.646
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Psittacara_chloropterus",
+     "top_pid": 100.0,
+     "claimed_pid": 90.783
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Psittacara_chloropterus",
+     "top_pid": 100.0,
+     "claimed_pid": 87.906
+    }
+   }
+  },
+  "JANFOM020031587.1": {
+   "len": 42801,
+   "gc": 41.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 88.995,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 85.798,
+     "claimed_pid": 82.867
+    }
+   }
+  },
+  "JANFOM020026094.1": {
+   "len": 14235,
+   "gc": 40.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 88.823,
+     "claimed_pid": 88.077
+    }
+   }
+  },
+  "JANFOM020052349.1": {
+   "len": 47881,
+   "gc": 39.4,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 94.858,
+     "claimed_pid": 90.248
+    }
+   }
+  },
+  "JANFOM020076152.1": {
+   "len": 909,
+   "gc": 44.1,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 99.673,
+     "claimed_pid": 99.673
+    }
+   }
+  },
+  "JANFOM020106232.1": {
+   "len": 521,
+   "gc": 46.1,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JANFOM020048126.1": {
+   "len": 45785,
+   "gc": 41.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_sordidus",
+     "top_pid": 89.109,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANFOM020055873.1": {
+   "len": 89074,
+   "gc": 36.4,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 98.039,
+     "claimed_pid": 98.039
+    }
+   }
+  },
+  "JANFOM020104807.1": {
+   "len": 527,
+   "gc": 49.9,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Primolius_maracana",
+     "top_pid": 96.964,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANFOM020073545.1": {
+   "len": 1083,
+   "gc": 46.0,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Primolius_couloni",
+     "top_pid": 97.772,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANFOM020153506.1": {
+   "len": 411,
+   "gc": 46.5,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Primolius_maracana",
+     "top_pid": 98.054,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANFOM020139537.1": {
+   "len": 434,
+   "gc": 49.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittacus_erithacus",
+     "top_pid": 75.062,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Primolius_maracana",
+  "Psittacara_chloropterus"
+ ],
+ "foreign_contigs": [
+  "JANFOM020037618.1",
+  "JANFOM020153506.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

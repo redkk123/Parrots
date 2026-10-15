@@ -1,0 +1,46 @@
+{
+ "accession": "GCA_031762955.1",
+ "claimed": "Psittacula longicauda",
+ "own_reference_genes": [
+  "CYTB"
+ ],
+ "contigs": {
+  "JAUEKQ010056833.1": {
+   "len": 42933,
+   "gc": 37.8,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Tanygnathus_lucionensis",
+     "top_pid": 96.316,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Tanygnathus_lucionensis",
+     "top_pid": 94.712,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAUEKQ010045060.1": {
+   "len": 17072,
+   "gc": 21.4,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Psittacula_longicauda",
+     "top_pid": 99.653,
+     "claimed_pid": 99.653
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "CYTB"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 99.653,
+ "overall": "confirmed"
+}

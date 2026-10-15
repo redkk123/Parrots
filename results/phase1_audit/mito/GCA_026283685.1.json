@@ -1,0 +1,158 @@
+{
+ "accession": "GCA_026283685.1",
+ "claimed": "Amazona aestiva",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANEXC010044186.1": {
+   "len": 13644,
+   "gc": 46.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_roseata",
+     "top_pid": 88.772,
+     "claimed_pid": 87.66
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Calyptorhynchus_banksii",
+     "top_pid": 79.672,
+     "claimed_pid": 76.371
+    }
+   }
+  },
+  "JANEXC010017504.1": {
+   "len": 40824,
+   "gc": 40.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pionus_chalcopterus",
+     "top_pid": 94.17,
+     "claimed_pid": 92.405
+    }
+   }
+  },
+  "JANEXC010037076.1": {
+   "len": 35047,
+   "gc": 41.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Prioniturus_platurus",
+     "top_pid": 85.376,
+     "claimed_pid": 82.212
+    }
+   }
+  },
+  "JANEXC010075696.1": {
+   "len": 1015,
+   "gc": 49.5,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 99.775,
+     "claimed_pid": 97.748
+    }
+   }
+  },
+  "JANEXC010085806.1": {
+   "len": 1254,
+   "gc": 47.4,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 86.07,
+     "claimed_pid": 82.39
+    }
+   }
+  },
+  "JANEXC010085021.1": {
+   "len": 1388,
+   "gc": 46.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_finschi",
+     "top_pid": 90.288,
+     "claimed_pid": 89.226
+    }
+   }
+  },
+  "JANEXC010537333.1": {
+   "len": 1639,
+   "gc": 46.7,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Amazona_oratrix",
+     "top_pid": 99.901,
+     "claimed_pid": 98.79
+    }
+   }
+  },
+  "JANEXC010045601.1": {
+   "len": 44283,
+   "gc": 41.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 90.385,
+     "claimed_pid": 87.582
+    }
+   }
+  },
+  "JANEXC010065216.1": {
+   "len": 1798,
+   "gc": 46.3,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Amazona_oratrix",
+     "top_pid": 100.0,
+     "claimed_pid": 98.406
+    }
+   }
+  },
+  "JANEXC010121133.1": {
+   "len": 412,
+   "gc": 44.4,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Amazona_oratrix",
+     "top_pid": 100.0,
+     "claimed_pid": 98.254
+    }
+   }
+  },
+  "JANEXC010093185.1": {
+   "len": 702,
+   "gc": 41.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 78.0,
+     "claimed_pid": 78.0
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Amazona_ochrocephala"
+ ],
+ "foreign_contigs": [
+  "JANEXC010075696.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

@@ -1,0 +1,16 @@
+Species	Genus	group	domesticated	Necropsies	n_neoplasia	n_malignancy	NeoplasiaPrevalence	MalignancyPrevalence	Maximum_lifespan
+Eos bornea	Eos	Loriini	False	60	1	0	0.01667	0	296.4
+Lorius garrulus	Lorius	Loriini	False	20	0	0	0	0	319.2
+Lorius lory	Lorius	Loriini	False	22	0	0	0	0	222
+Trichoglossus haematodus	Trichoglossus	Loriini	False	190	5	3	0.02632	0.01579	
+Trichoglossus moluccanus	Trichoglossus	Loriini	False	80	0	0	0	0	193
+Vini australis	Vini	Loriini	False	27	0	0	0	0	163.2
+Melopsittacus undulatus	Melopsittacus	Melopsittacus	True	477	99	83	0.2075	0.174	252
+Agapornis fischeri	Agapornis	Psittaculidae_other	False	28	4	2	0.1429	0.07143	151.2
+Agapornis nigrigenis	Agapornis	Psittaculidae_other	False	108	2	0	0.01852	0	
+Neophema splendida	Neophema	Psittaculidae_other	True	33	1	1	0.0303	0.0303	168
+Anodorhynchus hyacinthinus	Anodorhynchus	non_Psittaculidae	False	31	3	1	0.09677	0.03226	466
+Aratinga solstitialis	Aratinga	non_Psittaculidae	False	21	0	0	0	0	
+Cacatua moluccensis	Cacatua	non_Psittaculidae	False	20	1	0	0.05	0	789.6
+Nymphicus hollandicus	Nymphicus	non_Psittaculidae	True	70	8	7	0.1143	0.1	420
+Rhynchopsitta pachyrhyncha	Rhynchopsitta	non_Psittaculidae	False	23	0	0	0	0	396

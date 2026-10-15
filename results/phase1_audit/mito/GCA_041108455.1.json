@@ -1,0 +1,293 @@
+{
+ "accession": "GCA_041108455.1",
+ "claimed": "Loriculus galgulus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBFNWX010400905.1": {
+   "len": 15281,
+   "gc": 47.6,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Loriculus_galgulus",
+     "top_pid": 99.123,
+     "claimed_pid": 99.123
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Loriculus_galgulus",
+     "top_pid": 99.808,
+     "claimed_pid": 99.808
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Loriculus_galgulus",
+     "top_pid": 99.821,
+     "claimed_pid": 99.821
+    }
+   }
+  },
+  "JBFNWX010564535.1": {
+   "len": 11641,
+   "gc": 48.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Charmosyna_meeki",
+     "top_pid": 86.292,
+     "claimed_pid": 85.413
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 78.034,
+     "claimed_pid": 75.541
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Loriculus_galgulus",
+     "top_pid": 84.587,
+     "claimed_pid": 84.587
+    }
+   }
+  },
+  "JBFNWX010466488.1": {
+   "len": 3966,
+   "gc": 45.8,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Brotogeris_chrysoptera",
+     "top_pid": 98.926,
+     "claimed_pid": 84.007
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Brotogeris_cyanoptera",
+     "top_pid": 99.712,
+     "claimed_pid": 79.98
+    }
+   }
+  },
+  "JBFNWX010809355.1": {
+   "len": 9044,
+   "gc": 47.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Poicephalus_meyeri",
+     "top_pid": 86.108,
+     "claimed_pid": 85.062
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Tanygnathus_megalorynchos",
+     "top_pid": 78.249,
+     "claimed_pid": 75.592
+    }
+   }
+  },
+  "JBFNWX010035397.1": {
+   "len": 3688,
+   "gc": 48.1,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Brotogeris_cyanoptera",
+     "top_pid": 99.892,
+     "claimed_pid": 86.822
+    }
+   }
+  },
+  "JBFNWX010413308.1": {
+   "len": 4656,
+   "gc": 46.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 86.842,
+     "claimed_pid": 83.128
+    }
+   }
+  },
+  "JBFNWX010497289.1": {
+   "len": 3667,
+   "gc": 47.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 84.272,
+     "claimed_pid": 81.596
+    }
+   }
+  },
+  "JBFNWX010381410.1": {
+   "len": 5234,
+   "gc": 45.9,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 80.494,
+     "claimed_pid": 77.802
+    }
+   }
+  },
+  "JBFNWX010778996.1": {
+   "len": 2540,
+   "gc": 47.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Lorius_garrulus",
+     "top_pid": 85.589,
+     "claimed_pid": 84.022
+    }
+   }
+  },
+  "JBFNWX010478960.1": {
+   "len": 998,
+   "gc": 46.1,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Loriculus_philippensis",
+     "top_pid": 95.455,
+     "claimed_pid": 86.05
+    }
+   }
+  },
+  "JBFNWX010372620.1": {
+   "len": 5384,
+   "gc": 47.2,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Brotogeris_cyanoptera",
+     "top_pid": 99.685,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBFNWX010582154.1": {
+   "len": 3131,
+   "gc": 44.3,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Calyptorhynchus_lathami",
+     "top_pid": 75.725,
+     "claimed_pid": 73.679
+    }
+   }
+  },
+  "JBFNWX010198757.1": {
+   "len": 652,
+   "gc": 50.2,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Trichoglossus_forsteni",
+     "top_pid": 96.088,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBFNWX010941203.1": {
+   "len": 745,
+   "gc": 49.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_wallicus",
+     "top_pid": 86.228,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBFNWX010380247.1": {
+   "len": 579,
+   "gc": 49.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 90.155,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBFNWX010061170.1": {
+   "len": 435,
+   "gc": 49.4,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Brotogeris_pyrrhoptera",
+     "top_pid": 100.0,
+     "claimed_pid": 86.824
+    }
+   }
+  },
+  "JBFNWX010052056.1": {
+   "len": 56171,
+   "gc": 8.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Eupsittula_canicularis",
+     "top_pid": 84.565,
+     "claimed_pid": 80.446
+    }
+   }
+  },
+  "JBFNWX010517839.1": {
+   "len": 431,
+   "gc": 47.1,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Trichoglossus_rubritorquis",
+     "top_pid": 97.448,
+     "claimed_pid": 84.742
+    }
+   }
+  },
+  "JBFNWX010697781.1": {
+   "len": 843,
+   "gc": 43.9,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Amazona_imperialis",
+     "top_pid": 82.143,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Brotogeris_chrysoptera",
+  "Brotogeris_cyanoptera",
+  "Brotogeris_pyrrhoptera"
+ ],
+ "foreign_contigs": [
+  "JBFNWX010035397.1",
+  "JBFNWX010061170.1",
+  "JBFNWX010372620.1",
+  "JBFNWX010466488.1"
+ ],
+ "best_own_pid": 99.821,
+ "overall": "confirmed_with_foreign_mito"
+}

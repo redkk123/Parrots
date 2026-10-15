@@ -1,0 +1,68 @@
+{
+ "accession": "GCA_047446135.1",
+ "claimed": "Glossopsitta concinna",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBLGCQ011277345.1": {
+   "len": 17959,
+   "gc": 47.2,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Glossopsitta_concinna",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Glossopsitta_concinna",
+     "top_pid": 99.666,
+     "claimed_pid": 99.666
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Glossopsitta_concinna",
+     "top_pid": 99.808,
+     "claimed_pid": 99.808
+    }
+   }
+  },
+  "JBLGCQ011297184.1": {
+   "len": 16984,
+   "gc": 46.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Charmosyna_meeki",
+     "top_pid": 88.07,
+     "claimed_pid": 86.879
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.323,
+     "claimed_pid": 81.069
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 78.304,
+     "claimed_pid": 75.69
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}

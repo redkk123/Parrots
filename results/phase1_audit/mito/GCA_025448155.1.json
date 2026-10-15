@@ -1,0 +1,273 @@
+{
+ "accession": "GCA_025448155.1",
+ "claimed": "Cacatua ducorpsii",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAOEHO010032827.1": {
+   "len": 30330,
+   "gc": 45.7,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 100.0,
+     "claimed_pid": 88.218
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 100.0,
+     "claimed_pid": 86.969
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 100.0,
+     "claimed_pid": 81.836
+    }
+   }
+  },
+  "JAOEHO010146656.1": {
+   "len": 16391,
+   "gc": 46.0,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Primolius_maracana",
+     "top_pid": 100.0,
+     "claimed_pid": 86.638
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Primolius_maracana",
+     "top_pid": 99.912,
+     "claimed_pid": 85.066
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Primolius_maracana",
+     "top_pid": 100.0,
+     "claimed_pid": 80.819
+    }
+   }
+  },
+  "JAOEHO010138698.1": {
+   "len": 17444,
+   "gc": 45.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 89.059,
+     "claimed_pid": 84.47
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 87.324,
+     "claimed_pid": 84.773
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 79.635,
+     "claimed_pid": 77.295
+    }
+   }
+  },
+  "JAOEHO010135750.1": {
+   "len": 17853,
+   "gc": 43.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_wallicus",
+     "top_pid": 88.049,
+     "claimed_pid": 83.171
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 87.089,
+     "claimed_pid": 83.455
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 79.162,
+     "claimed_pid": 77.177
+    }
+   }
+  },
+  "JAOEHO010232115.1": {
+   "len": 4066,
+   "gc": 46.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_roseata",
+     "top_pid": 89.318,
+     "claimed_pid": 84.386
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 79.208,
+     "claimed_pid": 75.167
+    }
+   }
+  },
+  "JAOEHO010233329.1": {
+   "len": 1629,
+   "gc": 45.9,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Cacatua_sanguinea",
+     "top_pid": 97.784,
+     "claimed_pid": 96.755
+    }
+   }
+  },
+  "JAOEHO010233410.1": {
+   "len": 1578,
+   "gc": 47.4,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Cacatua_ducorpsii",
+     "top_pid": 97.273,
+     "claimed_pid": 97.273
+    }
+   }
+  },
+  "JAOEHO010234422.1": {
+   "len": 1199,
+   "gc": 44.7,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Cacatua_ducorpsii",
+     "top_pid": 96.731,
+     "claimed_pid": 96.731
+    }
+   }
+  },
+  "JAOEHO010057884.1": {
+   "len": 1279,
+   "gc": 45.9,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_xanthopterygius",
+     "top_pid": 86.374,
+     "claimed_pid": 83.309
+    }
+   }
+  },
+  "JAOEHO010236058.1": {
+   "len": 909,
+   "gc": 47.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Pionus_chalcopterus",
+     "top_pid": 85.369,
+     "claimed_pid": 82.816
+    }
+   }
+  },
+  "JAOEHO010235835.1": {
+   "len": 937,
+   "gc": 45.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 80.05,
+     "claimed_pid": 77.629
+    }
+   }
+  },
+  "JAOEHO010237681.1": {
+   "len": 743,
+   "gc": 47.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 88.085,
+     "claimed_pid": 84.219
+    }
+   }
+  },
+  "JAOEHO010246190.1": {
+   "len": 446,
+   "gc": 48.7,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Cacatua_ducorpsii",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JAOEHO010239056.1": {
+   "len": 646,
+   "gc": 44.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aymara",
+     "top_pid": 87.854,
+     "claimed_pid": 85.248
+    }
+   }
+  },
+  "JAOEHO010250095.1": {
+   "len": 407,
+   "gc": 42.3,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Cacatua_ducorpsii",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JAOEHO010251059.1": {
+   "len": 400,
+   "gc": 46.8,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Ara_severus",
+     "top_pid": 100.0,
+     "claimed_pid": 84.5
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Ara_severus",
+  "Cyanoliseus_patagonus",
+  "Primolius_maracana"
+ ],
+ "foreign_contigs": [
+  "JAOEHO010032827.1",
+  "JAOEHO010146656.1",
+  "JAOEHO010251059.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

@@ -1,0 +1,44 @@
+{
+ "accession": "GCA_032466295.1",
+ "claimed": "Forpus passerinus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JASTZW010067388.1": {
+   "len": 16517,
+   "gc": 44.5,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}

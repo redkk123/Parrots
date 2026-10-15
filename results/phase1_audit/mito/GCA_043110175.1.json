@@ -1,0 +1,301 @@
+{
+ "accession": "GCA_043110175.1",
+ "claimed": "Loriculus vernalis",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBHUPL010052002.1": {
+   "len": 17983,
+   "gc": 47.4,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Eos_cyanogenia",
+     "top_pid": 100.0,
+     "claimed_pid": 89.298
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Eos_cyanogenia",
+     "top_pid": 100.0,
+     "claimed_pid": 86.494
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Eos_cyanogenia",
+     "top_pid": 100.0,
+     "claimed_pid": 85.303
+    }
+   }
+  },
+  "JBHUPL010853137.1": {
+   "len": 16987,
+   "gc": 47.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 87.207,
+     "claimed_pid": 84.71
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Lorius_garrulus",
+     "top_pid": 85.0,
+     "claimed_pid": 82.857
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 78.659,
+     "claimed_pid": 75.549
+    }
+   }
+  },
+  "JBHUPL010301527.1": {
+   "len": 13056,
+   "gc": 47.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Aratinga_jandaya",
+     "top_pid": 87.182,
+     "claimed_pid": 84.886
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 84.198,
+     "claimed_pid": 82.338
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 80.244,
+     "claimed_pid": 76.436
+    }
+   }
+  },
+  "JBHUPL010254276.1": {
+   "len": 7995,
+   "gc": 46.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_conspicillatus",
+     "top_pid": 84.348,
+     "claimed_pid": 81.865
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 77.889,
+     "claimed_pid": 75.806
+    }
+   }
+  },
+  "JBHUPL010253331.1": {
+   "len": 2220,
+   "gc": 46.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 88.11,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 78.304,
+     "claimed_pid": 77.126
+    }
+   }
+  },
+  "JBHUPL010617686.1": {
+   "len": 4625,
+   "gc": 46.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Aratinga_jandaya",
+     "top_pid": 87.182,
+     "claimed_pid": 85.088
+    }
+   }
+  },
+  "JBHUPL010255420.1": {
+   "len": 2107,
+   "gc": 45.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 84.977,
+     "claimed_pid": 81.736
+    }
+   }
+  },
+  "JBHUPL010265386.1": {
+   "len": 1694,
+   "gc": 46.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.287,
+     "claimed_pid": 79.819
+    }
+   }
+  },
+  "JBHUPL010292819.1": {
+   "len": 1103,
+   "gc": 44.3,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Zanda_funerea",
+     "top_pid": 99.031,
+     "claimed_pid": 86.019
+    }
+   }
+  },
+  "JBHUPL010273252.1": {
+   "len": 1474,
+   "gc": 45.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 76.626,
+     "claimed_pid": 74.316
+    }
+   }
+  },
+  "JBHUPL010330460.1": {
+   "len": 682,
+   "gc": 46.8,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Zanda_funerea",
+     "top_pid": 99.779,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHUPL010385576.1": {
+   "len": 445,
+   "gc": 49.9,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Loriculus_vernalis",
+     "top_pid": 98.427,
+     "claimed_pid": 98.427
+    }
+   }
+  },
+  "JBHUPL010311755.1": {
+   "len": 868,
+   "gc": 46.0,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Loriculus_vernalis",
+     "top_pid": 82.274,
+     "claimed_pid": 82.274
+    }
+   }
+  },
+  "JBHUPL010410520.1": {
+   "len": 403,
+   "gc": 48.1,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Loriculus_pusillus",
+     "top_pid": 92.02,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHUPL010326649.1": {
+   "len": 714,
+   "gc": 44.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Cacatua_sulphurea",
+     "top_pid": 84.396,
+     "claimed_pid": 81.457
+    }
+   }
+  },
+  "JBHUPL010384257.1": {
+   "len": 448,
+   "gc": 46.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pionus_chalcopterus",
+     "top_pid": 88.61,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHUPL010386061.1": {
+   "len": 444,
+   "gc": 48.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Cyclopsitta_diophthalma",
+     "top_pid": 90.909,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHUPL010249285.1": {
+   "len": 2506,
+   "gc": 45.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 86.785,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBHUPL010286835.1": {
+   "len": 1198,
+   "gc": 41.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Eunymphicus_uvaeensis",
+     "top_pid": 74.561,
+     "claimed_pid": 71.372
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "ND2"
+ ],
+ "foreign_species": [
+  "Eos_cyanogenia",
+  "Zanda_funerea"
+ ],
+ "foreign_contigs": [
+  "JBHUPL010052002.1",
+  "JBHUPL010292819.1",
+  "JBHUPL010330460.1"
+ ],
+ "best_own_pid": 98.427,
+ "overall": "confirmed_with_foreign_mito"
+}

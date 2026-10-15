@@ -1,0 +1,28 @@
+{
+ "source": "MCC-CMA-9-Oct-2023-root-mafft-nexus-clean-75p.charsets-100-rooted-smooth-1-revised-names.tre",
+ "n_tips_smith": 388,
+ "n_ingroup_mapped": 374,
+ "map_types": {
+  "exact": 325,
+  "unique_epithet": 29,
+  "manual": 11,
+  "split_lumped_in_tree": 11,
+  "genus_change": 7,
+  "burgio_synonym": 1,
+  "spelling": 1
+ },
+ "life_expectancy_allometry": {
+  "n": 215,
+  "lambda": 0.6580998198173401,
+  "slope": 0.338000617907125,
+  "slope_se": 0.03504181440182344,
+  "pearson_r_resid_vs_burgio": 0.9996271556875597
+ },
+ "max_longevity_allometry": {
+  "n": 168,
+  "lambda": 0.8192944090982923,
+  "slope": 0.26874715649774455,
+  "slope_se": 0.03984532100390111,
+  "pearson_r_resid_vs_burgio": 0.987603501312756
+ }
+}

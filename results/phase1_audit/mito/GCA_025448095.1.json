@@ -1,0 +1,102 @@
+{
+ "accession": "GCA_025448095.1",
+ "claimed": "Poicephalus senegalus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAOEIB010036134.1": {
+   "len": 17325,
+   "gc": 33.7,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Poicephalus_robustus",
+     "top_pid": 98.197,
+     "claimed_pid": 93.634
+    },
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_finschi",
+     "top_pid": 86.925,
+     "claimed_pid": 84.108
+    }
+   }
+  },
+  "JAOEIB010028093.1": {
+   "len": 17702,
+   "gc": 42.5,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 98.752,
+     "claimed_pid": 93.684
+    }
+   }
+  },
+  "JAOEIB010072193.1": {
+   "len": 1061,
+   "gc": 47.9,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Poicephalus_senegalus",
+     "top_pid": 98.363,
+     "claimed_pid": 98.363
+    }
+   }
+  },
+  "JAOEIB010071790.1": {
+   "len": 1113,
+   "gc": 27.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_eques",
+     "top_pid": 72.749,
+     "claimed_pid": 68.395
+    }
+   }
+  },
+  "JAOEIB010077900.1": {
+   "len": 688,
+   "gc": 29.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Calyptorhynchus_lathami",
+     "top_pid": 70.408,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAOEIB010070209.1": {
+   "len": 1428,
+   "gc": 23.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 69.058,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "CYTB"
+ ],
+ "foreign_species": [
+  "Poicephalus_gulielmi",
+  "Poicephalus_robustus"
+ ],
+ "foreign_contigs": [
+  "JAOEIB010028093.1",
+  "JAOEIB010036134.1"
+ ],
+ "best_own_pid": 98.363,
+ "overall": "confirmed_with_foreign_mito"
+}

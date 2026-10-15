@@ -1,0 +1,13 @@
+{
+ "accession": "GCA_009867315.2",
+ "claimed": "Psittacus timneh",
+ "own_reference_genes": [
+  "CYTB"
+ ],
+ "contigs": {},
+ "own_genes": [],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": null,
+ "overall": "no_mito_found"
+}

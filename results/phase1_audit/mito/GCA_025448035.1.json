@@ -1,0 +1,150 @@
+{
+ "accession": "GCA_025448035.1",
+ "claimed": "Cacatua moluccensis",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAOEHW010022902.1": {
+   "len": 16582,
+   "gc": 47.7,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Trichoglossus_haematodus",
+     "top_pid": 100.0,
+     "claimed_pid": 86.499
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Trichoglossus_haematodus",
+     "top_pid": 100.0,
+     "claimed_pid": 85.232
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Trichoglossus_moluccanus",
+     "top_pid": 100.0,
+     "claimed_pid": 83.862
+    }
+   }
+  },
+  "JAOEHW010077309.1": {
+   "len": 7956,
+   "gc": 47.2,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Cacatua_moluccensis",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Cacatua_moluccensis",
+     "top_pid": 99.712,
+     "claimed_pid": 99.712
+    }
+   }
+  },
+  "JAOEHW010033162.1": {
+   "len": 31881,
+   "gc": 42.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 88.428,
+     "claimed_pid": 86.575
+    }
+   }
+  },
+  "JAOEHW010019395.1": {
+   "len": 3218,
+   "gc": 37.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Eolophus_roseicapilla",
+     "top_pid": 83.273,
+     "claimed_pid": 80.826
+    }
+   }
+  },
+  "JAOEHW010068614.1": {
+   "len": 525,
+   "gc": 43.2,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Glossopsitta_concinna",
+     "top_pid": 80.549,
+     "claimed_pid": 77.799
+    }
+   }
+  },
+  "JAOEHW010078783.1": {
+   "len": 2530,
+   "gc": 23.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 73.759,
+     "claimed_pid": 68.872
+    }
+   }
+  },
+  "JAOEHW010080492.1": {
+   "len": 1643,
+   "gc": 28.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Myiopsitta_monachus",
+     "top_pid": 72.104,
+     "claimed_pid": 69.329
+    }
+   }
+  },
+  "JAOEHW010084386.1": {
+   "len": 1151,
+   "gc": 28.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Neopsephotus_bourkii",
+     "top_pid": 72.183,
+     "claimed_pid": 69.032
+    }
+   }
+  },
+  "JAOEHW010079054.1": {
+   "len": 2286,
+   "gc": 22.4,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Prioniturus_luconensis",
+     "top_pid": 69.403,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Trichoglossus_haematodus",
+  "Trichoglossus_moluccanus"
+ ],
+ "foreign_contigs": [
+  "JAOEHW010022902.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

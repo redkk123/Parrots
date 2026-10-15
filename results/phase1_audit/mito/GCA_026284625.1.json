@@ -1,0 +1,85 @@
+{
+ "accession": "GCA_026284625.1",
+ "claimed": "Ara ambiguus",
+ "own_reference_genes": [
+  "COX1",
+  "ND2"
+ ],
+ "contigs": {
+  "JANCME010035390.1": {
+   "len": 32552,
+   "gc": 41.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 88.942,
+     "claimed_pid": 86.058
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Hapalopsittaca_melanotis",
+     "top_pid": 85.821,
+     "claimed_pid": 82.282
+    }
+   }
+  },
+  "JANCME010023484.1": {
+   "len": 14766,
+   "gc": 40.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 88.279,
+     "claimed_pid": 85.954
+    }
+   }
+  },
+  "JANCME010034146.1": {
+   "len": 7705,
+   "gc": 40.8,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Ara_militaris",
+     "top_pid": 98.169,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANCME010048236.1": {
+   "len": 42735,
+   "gc": 39.6,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 95.213,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANCME010044198.1": {
+   "len": 45881,
+   "gc": 41.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_sordidus",
+     "top_pid": 89.109,
+     "claimed_pid": 84.58
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Ara_militaris"
+ ],
+ "foreign_contigs": [
+  "JANCME010034146.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

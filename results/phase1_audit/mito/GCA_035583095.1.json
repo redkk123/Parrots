@@ -1,0 +1,94 @@
+{
+ "accession": "GCA_035583095.1",
+ "claimed": "Cacatua galerita",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAWWER010029390.1": {
+   "len": 17491,
+   "gc": 48.6,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Agapornis_canus",
+     "top_pid": 100.0,
+     "claimed_pid": 88.294
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Agapornis_canus",
+     "top_pid": 99.808,
+     "claimed_pid": 80.259
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Agapornis_canus",
+     "top_pid": 99.681,
+     "claimed_pid": 85.486
+    }
+   }
+  },
+  "JAWWER010070614.1": {
+   "len": 3259,
+   "gc": 47.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 89.088,
+     "claimed_pid": 87.976
+    }
+   }
+  },
+  "JAWWER010056844.1": {
+   "len": 738,
+   "gc": 45.5,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Cacatua_galerita",
+     "top_pid": 99.751,
+     "claimed_pid": 99.751
+    }
+   }
+  },
+  "JAWWER010024993.1": {
+   "len": 12215,
+   "gc": 26.0,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Eolophus_roseicapilla",
+     "top_pid": 83.091,
+     "claimed_pid": 81.565
+    }
+   }
+  },
+  "JAWWER010066288.1": {
+   "len": 540,
+   "gc": 50.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Prioniturus_luconensis",
+     "top_pid": 86.667,
+     "claimed_pid": 82.593
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1"
+ ],
+ "foreign_species": [
+  "Agapornis_canus"
+ ],
+ "foreign_contigs": [
+  "JAWWER010029390.1"
+ ],
+ "best_own_pid": 99.751,
+ "overall": "confirmed_with_foreign_mito"
+}

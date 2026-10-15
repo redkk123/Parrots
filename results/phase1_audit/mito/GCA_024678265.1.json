@@ -1,0 +1,103 @@
+{
+ "accession": "GCA_024678265.1",
+ "claimed": "Probosciger aterrimus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANIIB010141151.1": {
+   "len": 8873,
+   "gc": 49.3,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.629,
+     "claimed_pid": 87.119
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.231,
+     "claimed_pid": 84.883
+    }
+   }
+  },
+  "JANIIB010072862.1": {
+   "len": 7164,
+   "gc": 48.9,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.523,
+     "claimed_pid": 84.935
+    }
+   }
+  },
+  "JANIIB010050429.1": {
+   "len": 8131,
+   "gc": 36.6,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Probosciger_aterrimus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JANIIB010141761.1": {
+   "len": 6084,
+   "gc": 42.1,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Probosciger_aterrimus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JANIIB010020264.1": {
+   "len": 19899,
+   "gc": 37.5,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Probosciger_aterrimus",
+     "top_pid": 99.81,
+     "claimed_pid": 99.81
+    }
+   }
+  },
+  "JANIIB010105304.1": {
+   "len": 10355,
+   "gc": 33.2,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Probosciger_aterrimus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Poicephalus_gulielmi"
+ ],
+ "foreign_contigs": [
+  "JANIIB010072862.1",
+  "JANIIB010141151.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

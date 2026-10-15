@@ -1,0 +1,167 @@
+{
+ "accession": "GCA_031763765.1",
+ "claimed": "Psittacara erythrogenys",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JASSZB010115031.1": {
+   "len": 27987,
+   "gc": 47.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Primolius_maracana",
+     "top_pid": 80.778,
+     "claimed_pid": 77.778
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Alipiopsitta_xanthops",
+     "top_pid": 75.62,
+     "claimed_pid": 71.387
+    }
+   }
+  },
+  "JASSZB010050590.1": {
+   "len": 9538,
+   "gc": 46.3,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Psittacara_erythrogenys",
+     "top_pid": 99.708,
+     "claimed_pid": 99.708
+    },
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Psittacara_holochlorus",
+     "top_pid": 98.724,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JASSZB010096479.1": {
+   "len": 4080,
+   "gc": 47.0,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Psittacara_erythrogenys",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_mitratus",
+     "top_pid": 97.005,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JASSZB010236840.1": {
+   "len": 13984,
+   "gc": 37.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Cyanoramphus_unicolor",
+     "top_pid": 79.642,
+     "claimed_pid": 75.613
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Nestor_meridionalis",
+     "top_pid": 74.543,
+     "claimed_pid": 70.529
+    }
+   }
+  },
+  "JASSZB010177434.1": {
+   "len": 18088,
+   "gc": 36.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Diopsittaca_nobilis",
+     "top_pid": 77.966,
+     "claimed_pid": 75.153
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Nannopsittaca_dachilleae",
+     "top_pid": 72.428,
+     "claimed_pid": 68.186
+    }
+   }
+  },
+  "JASSZB010185003.1": {
+   "len": 17831,
+   "gc": 35.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Anodorhynchus_hyacinthinus",
+     "top_pid": 76.484,
+     "claimed_pid": 73.579
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Strigops_habroptila",
+     "top_pid": 73.129,
+     "claimed_pid": 69.072
+    }
+   }
+  },
+  "JASSZB010124123.1": {
+   "len": 746,
+   "gc": 43.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Poicephalus_senegalus",
+     "top_pid": 84.272,
+     "claimed_pid": 81.614
+    }
+   }
+  },
+  "JASSZB010236669.1": {
+   "len": 14200,
+   "gc": 35.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Strigops_habroptila",
+     "top_pid": 71.048,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JASSZB010018502.1": {
+   "len": 16272,
+   "gc": 27.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Myiopsitta_monachus",
+     "top_pid": 72.927,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Psittacara_holochlorus"
+ ],
+ "foreign_contigs": [
+  "JASSZB010050590.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

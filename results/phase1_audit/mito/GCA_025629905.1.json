@@ -1,0 +1,136 @@
+{
+ "accession": "GCA_025629905.1",
+ "claimed": "Lorius lory",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAOSLQ010163092.1": {
+   "len": 4326,
+   "gc": 46.0,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Cacatua_moluccensis",
+     "top_pid": 99.844,
+     "claimed_pid": 88.246
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Cacatua_moluccensis",
+     "top_pid": 99.708,
+     "claimed_pid": 83.631
+    }
+   }
+  },
+  "JAOSLQ010163052.1": {
+   "len": 4592,
+   "gc": 45.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_wallicus",
+     "top_pid": 88.049,
+     "claimed_pid": 86.995
+    }
+   }
+  },
+  "JAOSLQ010066083.1": {
+   "len": 1699,
+   "gc": 44.1,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 99.632,
+     "claimed_pid": 84.464
+    }
+   }
+  },
+  "JAOSLQ010076897.1": {
+   "len": 1020,
+   "gc": 43.8,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Northiella_haematogaster",
+     "top_pid": 78.328,
+     "claimed_pid": 75.433
+    }
+   }
+  },
+  "JAOSLQ010163843.1": {
+   "len": 2522,
+   "gc": 23.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Strigops_habroptila",
+     "top_pid": 72.381,
+     "claimed_pid": 69.406
+    }
+   }
+  },
+  "JAOSLQ010070788.1": {
+   "len": 1230,
+   "gc": 29.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psephotellus_dissimilis",
+     "top_pid": 72.374,
+     "claimed_pid": 71.167
+    }
+   }
+  },
+  "JAOSLQ010139051.1": {
+   "len": 558,
+   "gc": 41.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Primolius_maracana",
+     "top_pid": 76.649,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAOSLQ010164411.1": {
+   "len": 2124,
+   "gc": 65.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 68.988,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JAOSLQ010164006.1": {
+   "len": 2393,
+   "gc": 22.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Eolophus_roseicapilla",
+     "top_pid": 68.909,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Cacatua_moluccensis",
+  "Psittacula_derbiana"
+ ],
+ "foreign_contigs": [
+  "JAOSLQ010066083.1",
+  "JAOSLQ010163092.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

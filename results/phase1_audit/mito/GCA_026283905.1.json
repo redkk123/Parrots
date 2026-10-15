@@ -1,0 +1,30 @@
+{
+ "accession": "GCA_026283905.1",
+ "claimed": "Psittacula cyanocephala",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANEXR010026711.1": {
+   "len": 16595,
+   "gc": 38.4,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Psittacula_cyanocephala",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "CYTB"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}

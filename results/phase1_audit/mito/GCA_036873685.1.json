@@ -1,0 +1,169 @@
+{
+ "accession": "GCA_036873685.1",
+ "claimed": "Agapornis canus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBAFWW010035221.1": {
+   "len": 13132,
+   "gc": 30.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aymara",
+     "top_pid": 91.053,
+     "claimed_pid": 88.246
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Trichoglossus_haematodus",
+     "top_pid": 86.745,
+     "claimed_pid": 86.05
+    }
+   }
+  },
+  "JBAFWW010070079.1": {
+   "len": 916,
+   "gc": 50.3,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Agapornis_canus",
+     "top_pid": 99.576,
+     "claimed_pid": 99.576
+    }
+   }
+  },
+  "JBAFWW010008846.1": {
+   "len": 11697,
+   "gc": 57.4,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Agapornis_swindernianus",
+     "top_pid": 90.315,
+     "claimed_pid": 88.599
+    }
+   }
+  },
+  "JBAFWW010070565.1": {
+   "len": 865,
+   "gc": 49.4,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Agapornis_canus",
+     "top_pid": 99.381,
+     "claimed_pid": 99.381
+    }
+   }
+  },
+  "JBAFWW010071403.1": {
+   "len": 789,
+   "gc": 47.9,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Agapornis_canus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBAFWW010061603.1": {
+   "len": 1910,
+   "gc": 46.2,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Agapornis_pullarius",
+     "top_pid": 95.874,
+     "claimed_pid": 89.165
+    }
+   }
+  },
+  "JBAFWW010075943.1": {
+   "len": 3548,
+   "gc": 53.4,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Agapornis_canus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBAFWW010074924.1": {
+   "len": 556,
+   "gc": 46.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Tanygnathus_sumatranus",
+     "top_pid": 84.862,
+     "claimed_pid": 78.682
+    }
+   }
+  },
+  "JBAFWW010009166.1": {
+   "len": 14829,
+   "gc": 38.9,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Lorius_lory",
+     "top_pid": 87.638,
+     "claimed_pid": 83.002
+    }
+   }
+  },
+  "JBAFWW010075213.1": {
+   "len": 531,
+   "gc": 45.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 88.608,
+     "claimed_pid": 85.232
+    }
+   }
+  },
+  "JBAFWW010075554.1": {
+   "len": 507,
+   "gc": 48.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacula_eupatria",
+     "top_pid": 90.335,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBAFWW010073619.1": {
+   "len": 647,
+   "gc": 42.3,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Vini_australis",
+     "top_pid": 76.644,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}

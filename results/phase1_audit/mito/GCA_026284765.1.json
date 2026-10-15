@@ -1,0 +1,213 @@
+{
+ "accession": "GCA_026284765.1",
+ "claimed": "Psittacara acuticaudatus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANHGZ010152893.1": {
+   "len": 16877,
+   "gc": 48.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aymara",
+     "top_pid": 87.895,
+     "claimed_pid": 83.787
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 84.507,
+     "claimed_pid": 80.404
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 79.837,
+     "claimed_pid": 74.581
+    }
+   }
+  },
+  "JANHGZ010031251.1": {
+   "len": 32114,
+   "gc": 41.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 88.936,
+     "claimed_pid": 85.016
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 85.536,
+     "claimed_pid": 81.643
+    }
+   }
+  },
+  "JANHGZ010228238.1": {
+   "len": 1625,
+   "gc": 48.0,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Psittacara_wagleri",
+     "top_pid": 99.123,
+     "claimed_pid": 91.408
+    }
+   }
+  },
+  "JANHGZ010228798.1": {
+   "len": 1453,
+   "gc": 43.8,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Anodorhynchus_hyacinthinus",
+     "top_pid": 92.364,
+     "claimed_pid": 90.577
+    }
+   }
+  },
+  "JANHGZ010227353.1": {
+   "len": 2121,
+   "gc": 45.0,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Psittacara_wagleri",
+     "top_pid": 99.894,
+     "claimed_pid": 88.392
+    }
+   }
+  },
+  "JANHGZ010227354.1": {
+   "len": 2121,
+   "gc": 45.3,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Psittacara_mitratus",
+     "top_pid": 100.0,
+     "claimed_pid": 87.859
+    }
+   }
+  },
+  "JANHGZ010015296.1": {
+   "len": 68714,
+   "gc": 38.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 88.972,
+     "claimed_pid": 85.899
+    }
+   }
+  },
+  "JANHGZ010051691.1": {
+   "len": 57852,
+   "gc": 41.8,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 95.035,
+     "claimed_pid": 90.602
+    }
+   }
+  },
+  "JANHGZ010037175.1": {
+   "len": 1792,
+   "gc": 44.9,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Psittacara_wagleri",
+     "top_pid": 99.668,
+     "claimed_pid": 89.934
+    }
+   }
+  },
+  "JANHGZ010228969.1": {
+   "len": 1405,
+   "gc": 47.0,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Psittacara_mitratus",
+     "top_pid": 100.0,
+     "claimed_pid": 90.099
+    }
+   }
+  },
+  "JANHGZ010047553.1": {
+   "len": 44664,
+   "gc": 41.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittinus_cyanurus",
+     "top_pid": 88.488,
+     "claimed_pid": 84.163
+    }
+   }
+  },
+  "JANHGZ010078922.1": {
+   "len": 575,
+   "gc": 48.9,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Psittacara_mitratus",
+     "top_pid": 100.0,
+     "claimed_pid": 91.048
+    }
+   }
+  },
+  "JANHGZ010030341.1": {
+   "len": 16767,
+   "gc": 40.5,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 96.088,
+     "claimed_pid": 86.553
+    }
+   }
+  },
+  "JANHGZ010087222.1": {
+   "len": 437,
+   "gc": 47.4,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Psittacara_mitratus",
+     "top_pid": 100.0,
+     "claimed_pid": 89.474
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Psittacara_mitratus",
+  "Psittacara_wagleri"
+ ],
+ "foreign_contigs": [
+  "JANHGZ010037175.1",
+  "JANHGZ010078922.1",
+  "JANHGZ010087222.1",
+  "JANHGZ010227353.1",
+  "JANHGZ010227354.1",
+  "JANHGZ010228238.1",
+  "JANHGZ010228969.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

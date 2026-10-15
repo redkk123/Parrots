@@ -1,0 +1,255 @@
+{
+ "accession": "GCA_047535115.1",
+ "claimed": "Triclaria malachitacea",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBLJBY010005971.1": {
+   "len": 14695,
+   "gc": 46.6,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Trichoglossus_chlorolepidotus",
+     "top_pid": 99.841,
+     "claimed_pid": 87.873
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Trichoglossus_chlorolepidotus",
+     "top_pid": 99.792,
+     "claimed_pid": 86.937
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Trichoglossus_chlorolepidotus",
+     "top_pid": 100.0,
+     "claimed_pid": 85.66
+    }
+   }
+  },
+  "JBLJBY010211168.1": {
+   "len": 16261,
+   "gc": 47.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Charmosyna_meeki",
+     "top_pid": 88.596,
+     "claimed_pid": 86.292
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.037,
+     "claimed_pid": 81.426
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 80.211,
+     "claimed_pid": 77.306
+    }
+   }
+  },
+  "JBLJBY010117735.1": {
+   "len": 16755,
+   "gc": 44.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Bolborhynchus_lineola",
+     "top_pid": 85.965,
+     "claimed_pid": 83.128
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.075,
+     "claimed_pid": 80.328
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Calyptorhynchus_banksii",
+     "top_pid": 77.163,
+     "claimed_pid": 74.487
+    }
+   }
+  },
+  "JBLJBY010132382.1": {
+   "len": 1781,
+   "gc": 48.4,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Chalcopsitta_duivenbodei",
+     "top_pid": 100.0,
+     "claimed_pid": 88.752
+    }
+   }
+  },
+  "JBLJBY010086352.1": {
+   "len": 5699,
+   "gc": 47.3,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Chalcopsitta_duivenbodei",
+     "top_pid": 99.731,
+     "claimed_pid": 87.202
+    }
+   }
+  },
+  "JBLJBY010099939.1": {
+   "len": 1873,
+   "gc": 46.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Charmosyna_meeki",
+     "top_pid": 88.07,
+     "claimed_pid": 86.116
+    }
+   }
+  },
+  "JBLJBY010083198.1": {
+   "len": 812,
+   "gc": 48.4,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Agapornis_canus",
+     "top_pid": 99.631,
+     "claimed_pid": 81.362
+    }
+   }
+  },
+  "JBLJBY010224640.1": {
+   "len": 1236,
+   "gc": 48.7,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Agapornis_canus",
+     "top_pid": 100.0,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JBLJBY010005777.1": {
+   "len": 3429,
+   "gc": 10.2,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Chalcopsitta_duivenbodei",
+     "top_pid": 99.814,
+     "claimed_pid": 83.365
+    }
+   }
+  },
+  "JBLJBY010188688.1": {
+   "len": 672,
+   "gc": 47.2,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Trichoglossus_chlorolepidotus",
+     "top_pid": 97.814,
+     "claimed_pid": 82.531
+    }
+   }
+  },
+  "JBLJBY010125992.1": {
+   "len": 742,
+   "gc": 50.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.323,
+     "claimed_pid": 81.132
+    }
+   }
+  },
+  "JBLJBY010261376.1": {
+   "len": 1025,
+   "gc": 48.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Vini_peruviana",
+     "top_pid": 78.287,
+     "claimed_pid": 73.88
+    }
+   }
+  },
+  "JBLJBY010169511.1": {
+   "len": 690,
+   "gc": 49.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psitteuteles_versicolor",
+     "top_pid": 87.118,
+     "claimed_pid": 85.59
+    }
+   }
+  },
+  "JBLJBY010230678.1": {
+   "len": 1194,
+   "gc": 46.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Northiella_haematogaster",
+     "top_pid": 77.35,
+     "claimed_pid": 75.676
+    }
+   }
+  },
+  "JBLJBY010216909.1": {
+   "len": 550,
+   "gc": 44.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 88.983,
+     "claimed_pid": 86.624
+    }
+   }
+  },
+  "JBLJBY010124876.1": {
+   "len": 744,
+   "gc": 49.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pionus_chalcopterus",
+     "top_pid": 85.616,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Agapornis_canus",
+  "Chalcopsitta_duivenbodei",
+  "Trichoglossus_chlorolepidotus"
+ ],
+ "foreign_contigs": [
+  "JBLJBY010005777.1",
+  "JBLJBY010005971.1",
+  "JBLJBY010083198.1",
+  "JBLJBY010086352.1",
+  "JBLJBY010132382.1",
+  "JBLJBY010224640.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}

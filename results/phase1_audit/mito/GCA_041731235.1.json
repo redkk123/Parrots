@@ -1,0 +1,386 @@
+{
+ "accession": "GCA_041731235.1",
+ "claimed": "Brotogeris cyanoptera",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBFPDW010054209.1": {
+   "len": 34374,
+   "gc": 44.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 86.842,
+     "claimed_pid": 82.781
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 85.075,
+     "claimed_pid": 83.009
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Calyptorhynchus_lathami",
+     "top_pid": 75.725,
+     "claimed_pid": 73.904
+    }
+   }
+  },
+  "JBFPDW010045811.1": {
+   "len": 19503,
+   "gc": 40.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 88.403,
+     "claimed_pid": 85.444
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 84.248,
+     "claimed_pid": 79.31
+    }
+   }
+  },
+  "JBFPDW010101992.1": {
+   "len": 1899,
+   "gc": 47.3,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Trichoglossus_forsteni",
+     "top_pid": 98.077,
+     "claimed_pid": 82.766
+    },
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Loriculus_philippensis",
+     "top_pid": 97.108,
+     "claimed_pid": 87.419
+    }
+   }
+  },
+  "JBFPDW010084198.1": {
+   "len": 8251,
+   "gc": 37.1,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Brotogeris_jugularis",
+     "top_pid": 98.958,
+     "claimed_pid": 92.842
+    }
+   }
+  },
+  "JBFPDW010105128.1": {
+   "len": 1150,
+   "gc": 44.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Brotogeris_chrysoptera",
+     "top_pid": 92.398,
+     "claimed_pid": 92.008
+    }
+   }
+  },
+  "JBFPDW010101021.1": {
+   "len": 3132,
+   "gc": 47.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Lorius_garrulus",
+     "top_pid": 83.705,
+     "claimed_pid": 83.388
+    }
+   }
+  },
+  "JBFPDW010103462.1": {
+   "len": 1414,
+   "gc": 48.8,
+   "genes": {
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Loriculus_philippensis",
+     "top_pid": 99.712,
+     "claimed_pid": 79.363
+    }
+   }
+  },
+  "JBFPDW010101019.1": {
+   "len": 3133,
+   "gc": 48.4,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Lorius_garrulus",
+     "top_pid": 83.939,
+     "claimed_pid": 83.388
+    }
+   }
+  },
+  "JBFPDW010103669.1": {
+   "len": 1368,
+   "gc": 49.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Poicephalus_meyeri",
+     "top_pid": 86.108,
+     "claimed_pid": 84.564
+    }
+   }
+  },
+  "JBFPDW010103668.1": {
+   "len": 1368,
+   "gc": 48.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Cacatua_galerita",
+     "top_pid": 86.011,
+     "claimed_pid": 84.315
+    }
+   }
+  },
+  "JBFPDW010383147.1": {
+   "len": 4601,
+   "gc": 45.5,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 80.494,
+     "claimed_pid": 79.754
+    }
+   }
+  },
+  "JBFPDW010102631.1": {
+   "len": 1636,
+   "gc": 48.1,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Brotogeris_cyanoptera",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBFPDW010047973.1": {
+   "len": 19744,
+   "gc": 45.9,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Brotogeris_cyanoptera",
+     "top_pid": 93.718,
+     "claimed_pid": 93.718
+    }
+   }
+  },
+  "JBFPDW010011423.1": {
+   "len": 11856,
+   "gc": 39.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Brotogeris_chiriri",
+     "top_pid": 89.407,
+     "claimed_pid": 87.893
+    }
+   }
+  },
+  "JBFPDW010104309.1": {
+   "len": 1261,
+   "gc": 46.5,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Trichoglossus_haematodus",
+     "top_pid": 88.21,
+     "claimed_pid": 82.939
+    }
+   }
+  },
+  "JBFPDW010101434.1": {
+   "len": 2368,
+   "gc": 47.2,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Tanygnathus_megalorynchos",
+     "top_pid": 78.112,
+     "claimed_pid": 73.655
+    }
+   }
+  },
+  "JBFPDW010101433.1": {
+   "len": 2368,
+   "gc": 47.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 78.995,
+     "claimed_pid": 73.61
+    }
+   }
+  },
+  "JBFPDW010000875.1": {
+   "len": 26133,
+   "gc": 28.3,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Amazona_leucocephala",
+     "top_pid": 86.825,
+     "claimed_pid": 86.638
+    }
+   }
+  },
+  "JBFPDW010111401.1": {
+   "len": 723,
+   "gc": 48.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_wallicus",
+     "top_pid": 85.484,
+     "claimed_pid": 83.871
+    }
+   }
+  },
+  "JBFPDW010122401.1": {
+   "len": 486,
+   "gc": 42.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Brotogeris_chiriri",
+     "top_pid": 90.928,
+     "claimed_pid": 89.897
+    }
+   }
+  },
+  "JBFPDW010118049.1": {
+   "len": 541,
+   "gc": 48.6,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Trichoglossus_haematodus",
+     "top_pid": 96.488,
+     "claimed_pid": 88.17
+    }
+   }
+  },
+  "JBFPDW010115378.1": {
+   "len": 594,
+   "gc": 48.5,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Pionus_maximiliani",
+     "top_pid": 82.721,
+     "claimed_pid": 80.074
+    }
+   }
+  },
+  "JBFPDW010110615.1": {
+   "len": 767,
+   "gc": 47.8,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Calyptorhynchus_banksii",
+     "top_pid": 77.583,
+     "claimed_pid": 74.116
+    }
+   }
+  },
+  "JBFPDW010107649.1": {
+   "len": 943,
+   "gc": 47.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Trichoglossus_haematodus",
+     "top_pid": 91.435,
+     "claimed_pid": 88.889
+    }
+   }
+  },
+  "JBFPDW010107137.1": {
+   "len": 976,
+   "gc": 44.4,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Neophema_elegans",
+     "top_pid": 82.1,
+     "claimed_pid": 79.236
+    }
+   }
+  },
+  "JBFPDW010125091.1": {
+   "len": 462,
+   "gc": 50.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Cyclopsitta_diophthalma",
+     "top_pid": 89.371,
+     "claimed_pid": 86.551
+    }
+   }
+  },
+  "JBFPDW010131474.1": {
+   "len": 422,
+   "gc": 48.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Charmosyna_meeki",
+     "top_pid": 87.711,
+     "claimed_pid": 86.091
+    }
+   }
+  },
+  "JBFPDW010134227.1": {
+   "len": 409,
+   "gc": 46.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Tanygnathus_lucionensis",
+     "top_pid": 79.319,
+     "claimed_pid": 76.355
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "CYTB"
+ ],
+ "foreign_species": [
+  "Brotogeris_jugularis",
+  "Loriculus_philippensis",
+  "Trichoglossus_forsteni"
+ ],
+ "foreign_contigs": [
+  "JBFPDW010084198.1",
+  "JBFPDW010101992.1",
+  "JBFPDW010103462.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

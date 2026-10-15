@@ -233,6 +233,46 @@ def fit_pgls(y, X, C, model="lambda"):
             "se": np.sqrt(np.diag(cov_beta)), "sigma2": s2, "V": V, "k": k}
 
 
+def fit_pgls_me(y, X, C, se, model="lambda"):
+    """PGLS with known per-tip measurement error (Ives et al. 2007): V = sigma2 * C_lambda + diag(se^2).
+
+    sigma2 cannot be profiled out once se is fixed, so lambda (model "lambda") and log sigma2 are optimised
+    jointly by ML; beta is the GLS estimate given V. C is rescaled to unit height as in fit_pgls, so sigma2 is
+    per unit tree height. Standard errors of beta use V directly (known-scale covariance).
+    """
+    y, X, se = np.asarray(y, float), np.asarray(X, float), np.asarray(se, float)
+    Cn = C / np.max(np.diag(C))
+    E = np.diag(se ** 2)
+    n = len(y)
+
+    def parts(theta):
+        s2 = math.exp(theta[0])
+        lam = theta[1] if model == "lambda" else 1.0
+        V = s2 * lambda_transform(Cn, lam) + E
+        L = np.linalg.cholesky(V)
+        Xs, ys = np.linalg.solve(L, X), np.linalg.solve(L, y)
+        beta, *_ = np.linalg.lstsq(Xs, ys, rcond=None)
+        r = ys - Xs @ beta
+        ll = -0.5 * (n * math.log(2 * math.pi) + 2 * np.sum(np.log(np.diag(L))) + float(r @ r))
+        return ll, beta, Xs, s2, lam
+
+    s0 = math.log(max(np.var(y) - np.mean(se ** 2), 1e-4))
+    if model == "lambda":
+        best = None
+        for l0 in (0.1, 0.5, 0.9):
+            res = optimize.minimize(lambda t: -parts(t)[0], x0=[s0, l0], method="L-BFGS-B",
+                                    bounds=[(-12, 5), (0.0, 1.0)])
+            best = res if best is None or res.fun < best.fun else best
+    else:
+        best = optimize.minimize(lambda t: -parts([t[0], 1.0])[0], x0=[s0], method="L-BFGS-B", bounds=[(-12, 5)])
+        best.x = np.array([best.x[0], 1.0])
+    ll, beta, Xs, s2, lam = parts(best.x)
+    cov_beta = np.linalg.inv(Xs.T @ Xs)
+    k = X.shape[1] + 1 + (1 if model == "lambda" else 0)
+    return {"model": model + "+ME", "param": lam if model == "lambda" else None, "loglik": ll, "aic": 2 * k - 2 * ll,
+            "beta": beta, "se": np.sqrt(np.diag(cov_beta)), "sigma2": s2, "k": k}
+
+
 def bm_ancestral(tree, tip_values):
     """ML (= conditional expectation) ancestral states under BM, with conditional SEs.
 

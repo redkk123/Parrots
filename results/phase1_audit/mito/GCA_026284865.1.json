@@ -1,0 +1,56 @@
+{
+ "accession": "GCA_026284865.1",
+ "claimed": "Eos histrio",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JANHHC010067578.1": {
+   "len": 17020,
+   "gc": 32.6,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Eos_histrio",
+     "top_pid": 99.649,
+     "claimed_pid": 99.649
+    }
+   }
+  },
+  "JANHHC010513590.1": {
+   "len": 1822,
+   "gc": 49.0,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Eos_histrio",
+     "top_pid": 99.912,
+     "claimed_pid": 99.912
+    }
+   }
+  },
+  "JANHHC010639808.1": {
+   "len": 875,
+   "gc": 46.3,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Eos_histrio",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}

@@ -1,0 +1,130 @@
+{
+ "accession": "GCA_024733675.1",
+ "claimed": "Psilopsiagon aymara",
+ "own_reference_genes": [
+  "COX1",
+  "ND2"
+ ],
+ "contigs": {
+  "JANRGW010028647.1": {
+   "len": 17071,
+   "gc": 46.8,
+   "genes": {
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Ara_severus",
+     "top_pid": 100.0,
+     "claimed_pid": 88.421
+    },
+    "CYTB": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Ara_severus",
+     "top_pid": 99.912,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "foreign",
+     "top_species": "Ara_severus",
+     "top_pid": 99.712,
+     "claimed_pid": 83.67
+    }
+   }
+  },
+  "JANRGW010152259.1": {
+   "len": 3261,
+   "gc": 45.5,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Psilopsiagon_aymara",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Psilopsiagon_aymara",
+     "top_pid": 99.808,
+     "claimed_pid": 99.808
+    }
+   }
+  },
+  "JANRGW010038067.1": {
+   "len": 28763,
+   "gc": 36.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 93.217,
+     "claimed_pid": 92.807
+    }
+   }
+  },
+  "JANRGW010152228.1": {
+   "len": 3407,
+   "gc": 44.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aurifrons",
+     "top_pid": 91.754,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANRGW010151911.1": {
+   "len": 8057,
+   "gc": 46.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_aestiva",
+     "top_pid": 85.068,
+     "claimed_pid": 79.856
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 77.204,
+     "claimed_pid": 74.419
+    }
+   }
+  },
+  "JANRGW010151909.1": {
+   "len": 6457,
+   "gc": 43.7,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Forpus_passerinus",
+     "top_pid": 86.385,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANRGW010024152.1": {
+   "len": 26742,
+   "gc": 41.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Graydidascalus_brachyurus",
+     "top_pid": 83.795,
+     "claimed_pid": 81.471
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Ara_severus"
+ ],
+ "foreign_contigs": [
+  "JANRGW010028647.1"
+ ],
+ "best_own_pid": 100.0,
+ "overall": "confirmed_with_foreign_mito"
+}

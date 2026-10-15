@@ -4,7 +4,12 @@ Reads results/phase0b/regime_shifts.json (scripts/R/regime_shifts.R), takes the 
 clade, expands it to its MRCA in the full supertree and tests it with a PGLS indicator under
 three outcomes, plus a leave-one-subclade-out check. Because the contrast is a single
 evolutionary event, anything else that changed on the same branch is confounded with it.
+
+Defaults reproduce Phase 0b. For another tree (sensitivity):
+  python scripts/06_regime_followup.py --tree results/phase1_trees/smith2024_species.nwk \
+      --matrix results/phase1_trees/species_data_matrix_smith2024.tsv --out results/phase1_trees/regime_smith2024
 """
+import argparse
 import json
 import sys
 from pathlib import Path
@@ -34,15 +39,25 @@ SUBCLADES = {
 
 
 def main():
-    shifts = json.loads((OUT / "regime_shifts.json").read_text())["rel_LE"]["selection"]["BGHuni"]["shifts"]
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--tree", default=str(ROOT / "results/phase0/supertree_burgio2019_full.nwk"))
+    ap.add_argument("--matrix", default=str(OUT / "species_data_matrix_with_residuals.tsv"))
+    ap.add_argument("--out", default=str(OUT), help="folder with regime_shifts.json; outputs are written here")
+    ap.add_argument("--clade-from", default=None,
+                    help="take the shifted clade from this folder's regime_shifts.json instead of --out "
+                         "(e.g. test the Phase 0b clade on another tree)")
+    a = ap.parse_args()
+    out = Path(a.out)
+    src = Path(a.clade_from) if a.clade_from else out
+    shifts = json.loads((src / "regime_shifts.json").read_text())["rel_LE"]["selection"]["BGHuni"]["shifts"]
     main_shift = max(shifts, key=lambda s: s["n_tips"])
     clade = set(main_shift["tips"].split(";"))
-    full = Tree.from_newick((ROOT / "results/phase0/supertree_burgio2019_full.nwk").read_text())
+    full = Tree.from_newick(Path(a.tree).read_text())
     desc = full.descendants_tips()
     mrca = min((n for n in range(len(full.parent)) if clade <= {full.label[t] for t in desc[n]}),
                key=lambda n: len(desc[n]))
     members = {full.label[t] for t in desc[mrca]}
-    m = pd.read_csv(OUT / "species_data_matrix_with_residuals.tsv", sep="\t")
+    m = pd.read_csv(a.matrix, sep="\t")
     m["in_shift_clade"] = m["tree_tip"].isin(members).astype(float)
 
     def test(col, drop=()):
@@ -62,11 +77,11 @@ def main():
     rows += [{"outcome": "rel_log_life_expectancy", "dropped": g, **test("rel_log_life_expectancy", gen)}
              for g, gen in SUBCLADES.items()]
     res = pd.DataFrame(rows)
-    res.to_csv(OUT / "shift_clade_contrast.tsv", sep="\t", index=False, float_format="%.4g")
+    res.to_csv(out / "shift_clade_contrast.tsv", sep="\t", index=False, float_format="%.4g")
     info = {"shift_value_phyloem": main_shift["shift_value"], "n_tips_in_fit": main_shift["n_tips"],
             "n_tips_mrca_full_tree": len(members),
             "genera": sorted({x.split("_")[0] for x in members})}
-    (OUT / "shift_clade_members.json").write_text(json.dumps(info, indent=2))
+    (out / "shift_clade_members.json").write_text(json.dumps(info, indent=2))
     print(json.dumps(info))
     print(res.to_string(index=False))
 

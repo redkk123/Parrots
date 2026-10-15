@@ -1,0 +1,229 @@
+{
+ "accession": "GCA_026283725.1",
+ "claimed": "Ara rubrogenys",
+ "own_reference_genes": [
+  "CYTB"
+ ],
+ "contigs": {
+  "JANCMJ010041237.1": {
+   "len": 13370,
+   "gc": 47.3,
+   "genes": {
+    "COX1": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 99.825,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Pyrrhura_albipectus",
+     "top_pid": 99.123,
+     "claimed_pid": 87.611
+    },
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 99.712,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANCMJ010180422.1": {
+   "len": 15215,
+   "gc": 46.7,
+   "genes": {
+    "COX1": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Amazona_auropalliata",
+     "top_pid": 100.0,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Amazona_auropalliata",
+     "top_pid": 100.0,
+     "claimed_pid": 84.547
+    },
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Amazona_auropalliata",
+     "top_pid": 99.904,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANCMJ010297463.1": {
+   "len": 4235,
+   "gc": 47.8,
+   "genes": {
+    "COX1": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Pyrrhura_egregia",
+     "top_pid": 99.08,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Pyrrhura_albipectus",
+     "top_pid": 98.367,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANCMJ010042589.1": {
+   "len": 29468,
+   "gc": 37.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_ventralis",
+     "top_pid": 88.789,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 86.035,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANCMJ010297435.1": {
+   "len": 4418,
+   "gc": 45.3,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Ara_rubrogenys",
+     "top_pid": 98.896,
+     "claimed_pid": 98.896
+    }
+   }
+  },
+  "JANCMJ010299593.1": {
+   "len": 1472,
+   "gc": 44.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Ara_ararauna",
+     "top_pid": 91.016,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANCMJ010028618.1": {
+   "len": 14372,
+   "gc": 40.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 89.121,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANCMJ010081790.1": {
+   "len": 863,
+   "gc": 46.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Ara_ararauna",
+     "top_pid": 94.76,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANCMJ010056577.1": {
+   "len": 42760,
+   "gc": 39.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 93.262,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANCMJ010090234.1": {
+   "len": 592,
+   "gc": 45.3,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Pyrrhura_snethlageae",
+     "top_pid": 100.0,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANCMJ010071115.1": {
+   "len": 457,
+   "gc": 51.2,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Pyrrhura_snethlageae",
+     "top_pid": 100.0,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANCMJ010039604.1": {
+   "len": 21640,
+   "gc": 41.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_sordidus",
+     "top_pid": 89.356,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANCMJ010033592.1": {
+   "len": 29997,
+   "gc": 39.7,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 97.8,
+     "claimed_pid": null
+    }
+   }
+  },
+  "JANCMJ010095540.1": {
+   "len": 517,
+   "gc": 50.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Ara_tricolor",
+     "top_pid": 94.175,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "CYTB"
+ ],
+ "foreign_species": [
+  "Amazona_auropalliata",
+  "Pyrrhura_albipectus",
+  "Pyrrhura_snethlageae"
+ ],
+ "foreign_contigs": [
+  "JANCMJ010041237.1",
+  "JANCMJ010071115.1",
+  "JANCMJ010090234.1",
+  "JANCMJ010180422.1"
+ ],
+ "best_own_pid": 98.896,
+ "overall": "confirmed_with_foreign_mito"
+}
