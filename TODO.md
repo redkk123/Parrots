@@ -107,7 +107,8 @@ Os módulos de genes e os testes estão congelados em `results/phase0/analysis_p
 - [ ] 🔴 Extrair de Filip & Scope 2002 (texto completo) o **número de animais** e separar benigno de maligno.
 - [x] Extrair de Kapsetaki 2024 os valores por espécie e denominadores (rows K24-* em `cancer_comparisons.tsv`).
 - [x] Comparar *Melopsittacus* com **Loriini**, Psittaculidae e *Nymphicus*: periquito 20,8 % de neoplasia × Loriini 1,5 %; **mas a calopsita (domesticada) tem 11,4 % e não difere do periquito**. Domesticação é explicação concorrente forte.
-- [ ] Separar **domesticação** de linhagem: periquitos não domésticos/selvagens, outra espécie doméstica de Psittaculidae, e **idade à morte** por espécie (pedir aos autores de Kapsetaki 2024).
+- [ ] Separar **domesticação** de linhagem: periquitos não domésticos/selvagens, outra espécie doméstica de Psittaculidae, e **idade à morte** por espécie.
+- [x] Pedidos de dados enviados em 15 out. 2026 a Boddy/Kapsetaki (idade e tecido por espécie) e Beaufrère/UC Davis (neoplasia por gênero). ⏳ Aguardando resposta (`docs/data_requests.md`).
 - [ ] Modelo binomial/beta-binomial hierárquico (espécie, fonte, idade) **só se houver denominadores**.
 - [ ] Separar **tecido e malignidade**; considerar *Macrorhabdus*, hormônios, dieta e linhagem doméstica como explicações concorrentes.
 

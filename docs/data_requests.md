@@ -1,6 +1,8 @@
-# Pedidos de dados (rascunhos, não enviados)
+# Pedidos de dados
 
-Rascunhos para o pesquisador revisar e enviar da própria conta. Endereços conferidos nos artigos em 15 out. 2026. Motivo dos pedidos: `results/phase1_cancer/cancer_report.md`.
+**Enviados pelo pesquisador em 15 out. 2026** (os dois). Aguardando resposta.
+
+Textos enviados da conta do pesquisador. Endereços conferidos nos artigos em 15 out. 2026. Motivo dos pedidos: `results/phase1_cancer/cancer_report.md`.
 
 ---
 
