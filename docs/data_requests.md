@@ -47,3 +47,25 @@ Textos enviados da conta do pesquisador. Endereços conferidos nos artigos em 15
 >
 > With best regards,
 > Angelo
+
+---
+
+## 3. Resposta a Beaufrère (rascunho, 16 out. 2026)
+
+Ele respondeu que o banco é público (<https://drury-reavill-database.vercel.app/>) e perguntou a afiliação. Pelos termos do site, extrações acima de 1.000 registros exigem código de acesso, pedido descrevendo o propósito.
+
+**Para:** hbeaufrere@ucdavis.edu (responder na mesma conversa)
+
+> Dear Dr Beaufrère,
+>
+> Thank you very much for the quick reply and for making the database public — it is a remarkable resource.
+>
+> [AFILIAÇÃO: ex. "I am an independent researcher based in Brazil" ou nome da instituição/curso]. The project is a comparative study of longevity and cancer across parrots, testing whether short-lived lineages such as the budgerigar show a lineage-specific excess of neoplasia, and how much of it is explained by domestication and age.
+>
+> Two questions, if I may:
+>
+> 1. How are necropsy cases identified in the database? Filtering by "Post Mortem" charge types returns about 1,600 psittacine records, whereas your 2024 study reports 11,737 psittacine necropsies, so I suspect many necropsies are recorded under other charge types.
+> 2. Would it be possible to receive a download access code for psittacine records (diagnosis text, species, age, sex, submission type)? The data would be used only for aggregate analyses of neoplasia prevalence by genus and age; I would cite the database and your 2024 article, and share the results with you before any submission.
+>
+> With best regards,
+> Angelo

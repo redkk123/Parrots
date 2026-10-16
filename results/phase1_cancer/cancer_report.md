@@ -80,6 +80,16 @@ O caso do papagaio-de-barriga-laranja vai na mesma direção da hipótese de dom
 
 **A fonte que resolveria isso é o banco UC Davis–Reavill**: mais de 26 mil amostras de papagaios, com gênero, idade e sexo, já usado para calcular razões de chances por gênero. Pedir aos autores (Beaufrère, UC Davis) a prevalência de neoplasia por gênero, com idade, daria denominadores para amazonas, araras, cacatuas e cinzento de uma vez.
 
+## Banco Drury R. Reavill (UC Davis), de acesso público (consultado em 16 out. 2026)
+
+Em resposta ao pedido de dados, H. Beaufrère indicou que o banco é público: <https://drury-reavill-database.vercel.app/>. São 85.734 registros, 28.699 de papagaios, com espécie, sexo, idade, texto completo do diagnóstico e lesão principal classificada. O explorador exporta até 1.000 registros por busca; extrações maiores exigem código de acesso pedido ao autor. Aqui só foram consultadas **contagens agregadas** (`scripts/22_drury_reavill_counts.py`, ~170 requisições em cache, nenhum registro baixado).
+
+**O que o site já publica** (página de epidemiologia): fração de tumores entre os diagnósticos classificados, por espécie com ≥ 250 amostras: periquito 41,2 % (n = 1.078), calopsita 32,8 % (n = 1.839), agapórnis 29,6 % (n = 318), amazona-de-cabeça-amarela 26,1 % (n = 161). Mistura biópsias e necropsias; biópsias são tiradas de massas, o que infla a fração de tumores.
+
+**Tentativa de restringir a necropsias:** pelo tipo de cobrança ("Post Mortem…"), o explorador dá só **1.618** necropsias de papagaios, contra **11.737** no artigo do mesmo grupo (Megan et al. 2024). A maioria das necropsias não é identificável no explorador público, e a amostra capturada é jovem (faixa mediana de 0–2 anos em quase todos os grupos). As prevalências obtidas assim ([`drury_reavill_necropsy.tsv`](drury_reavill_necropsy.tsv): periquito 8,3 %, araras 9,3 %, conures 0,2 % etc.) **não são interpretáveis** e não entram nas conclusões.
+
+**Próximo passo:** responder ao autor com afiliação e propósito, perguntando como as necropsias são identificadas e pedindo o código de acesso (rascunho em `docs/data_requests.md`). Com a extração completa: necropsias por gênero, tumores pelo texto do diagnóstico (malignos × benignos), padronização por idade.
+
 ## Próximos passos
 
 - Pedir aos autores (Maley/Boddy) a idade à morte e o tecido por espécie de papagaio, ou buscar a base pública da qual vieram os dados.
