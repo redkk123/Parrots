@@ -28,6 +28,8 @@
 
 ## 4. Critérios de inclusão de genomas (fixar antes dos testes)
 
+> **Revisto em 2026-10-16** (ver Histórico): critério principal BUSCO ≥ 70 % + completude por gene; o critério abaixo passa a ser sensibilidade.
+
 - BUSCO (aves_odb10) completo ≥ 85 % **e** N50 de contig ≥ 20 kb para o conjunto amplo; ≥ 95 % e escala cromossômica para o painel piloto.
 - Um genoma por espécie. Preferir RefSeq ou VGP curado.
 - Ausência ou truncamento de gene não conta como perda sem reanotação independente (miniprot/TOGA).
@@ -84,6 +86,13 @@ Piloto (7–9 genomas VGP, ~100 genes): CPU, ≤ 12 GB RAM. Medir tempo e memór
   - BUSCO calculado com **compleasm 0.2.10** (miniprot + hmmsearch, mesmo conjunto **aves_odb10**, passado explicitamente porque a versão usa odb12 por padrão). Motivo: tempo e memória (11 GB RAM).
   - Identidade do espécime: COX1/CYTB/ND2 dos contigs mitocondriais contra sequências do GenBank, **excluídos** os registros de Hains/Pirro/Iridian (`scripts/11_mito_identity.py`), e distâncias Mash nucleares contra a filogenia (`scripts/17_mash_identity.py`).
   - Os critérios do §4 (BUSCO ≥ 85 % **e** N50 de contig ≥ 20 kb) **não** foram alterados. Pelo N50, passam 22 de 96 montagens Iridian e 47 de 105 espécies com a melhor montagem disponível (12 de 34 em Psittaculidae). Qualquer mudança exige nova entrada, feita antes de olhar genes (ver `../phase1_audit/audit_report.md`).
+- 2026-10-16 — **Critério de inclusão de genomas e contrastes revistos (antes de qualquer análise de genes; informado só pela qualidade das montagens, nenhum gene foi olhado).**
+  - Motivo: com BUSCO ≥ 85 % **e** N50 ≥ 20 kb (§4), passam 3 de 27 montagens Iridian já auditadas (amostra aleatória do lote), o que inviabiliza o desenho. Montagens com N50 de 5–20 kb têm mediana de 78 % de BUSCO, com perda sobretudo por **fragmentação** de genes, não por ausência. BUSCO e N50 têm ρ = 0,89.
+  - **Novo critério principal (conjunto amplo):** BUSCO completo (aves_odb10) ≥ **70 %**; sem corte separado de N50 (com 70 %, todas as aprovadas já têm N50 ≥ 10 kb). **Por gene:** um gene entra numa espécie só se a reanotação (miniprot/TOGA) o achar com ORF completa, sem códon de parada interno nem *frameshift*; fragmentos ficam como dado faltante.
+  - **Exclusões fixas:** identidade do espécime reprovada (mitogenoma e/ou Mash) ou genoma misturado (`../phase1_audit/nuclear_identity_review.tsv`). Um genoma por espécie: a melhor montagem que passe na auditoria, preferindo as não Iridian de escala cromossômica (ex.: *A. nigrigenis* Sanger).
+  - **Sensibilidade obrigatória:** testes principais refeitos com o critério original (BUSCO ≥ 85 % e N50 ≥ 20 kb). Painel piloto (≥ 95 %, escala cromossômica) sem mudança. BUSCO entra como covariável se associado à longevidade relativa no conjunto final (§2).
+  - **Contrastes irmãos (§7):** definidos na árvore de Smith et al. 2024 (UCE, mais bem fundamentada) entre as espécies que passarem na auditoria, recalculados quando o BUSCO terminar. Robustez: só os pares que também são irmãos na *supertree*. Substitui a referência a `../phase0b/sister_pair_contrasts.tsv`.
+  - **Árvore principal (§3):** sem mudança (supertree); a árvore de Smith continua como sensibilidade obrigatória para todos os testes.
 - 2026-09-26 (revisão da H8 após crítica externa, antes de qualquer análise molecular): H8 dividida em **H8a** (proteção modular), **H8b** (efeito duplo: células danificadas sobrevivem mais) e **H8c** (história: mudanças no tronco de Psittaculidae). Retirada a previsão “M5 conservado / controle proliferativo perdido” como consequência de R1: NRF2 e resposta ao choque passam a ser candidatos. Genes intactos deixam de refutar a hipótese funcional e passam a enfraquecer só a versão de perda gênica. A distribuição dos tumores por tecido deixa de contar como evidência. A seção 10 foi reescrita.
 
 ## 10. Teste de H8 (fixado em 2026-09-26, revisado no mesmo dia)

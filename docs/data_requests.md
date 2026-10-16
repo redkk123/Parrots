@@ -50,7 +50,7 @@ Textos enviados da conta do pesquisador. Endereços conferidos nos artigos em 15
 
 ---
 
-## 3. Resposta a Beaufrère (rascunho, 16 out. 2026)
+## 3. Resposta a Beaufrère (pronta para enviar, 16 out. 2026; afiliação: confirmar antes de enviar)
 
 Ele respondeu que o banco é público (<https://drury-reavill-database.vercel.app/>) e perguntou a afiliação. Pelos termos do site, extrações acima de 1.000 registros exigem código de acesso, pedido descrevendo o propósito.
 
@@ -60,7 +60,7 @@ Ele respondeu que o banco é público (<https://drury-reavill-database.vercel.ap
 >
 > Thank you very much for the quick reply and for making the database public — it is a remarkable resource.
 >
-> [AFILIAÇÃO: ex. "I am an independent researcher based in Brazil" ou nome da instituição/curso]. The project is a comparative study of longevity and cancer across parrots, testing whether short-lived lineages such as the budgerigar show a lineage-specific excess of neoplasia, and how much of it is explained by domestication and age.
+> I am an independent researcher, not currently affiliated with an institution. The project is a comparative study of longevity and cancer across parrots, testing whether short-lived lineages such as the budgerigar show a lineage-specific excess of neoplasia, and how much of it is explained by domestication and age.
 >
 > Two questions, if I may:
 >

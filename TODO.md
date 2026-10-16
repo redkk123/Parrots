@@ -20,7 +20,7 @@ São **96 das 105 espécies utilizáveis**. Na prática, "Hains" = todas as mont
 - [ ] Usar a montagem Sanger de *A. nigrigenis* (GCA_988293565.1) no lugar da Iridian; rodar BUSCO nela.
 - [ ] **Contaminação nuclear:** medir a fração de reads de outra espécie (ex.: mapear uma amostra de reads contra o mitogenoma próprio e o da doadora; ou k-mers). Saber se a contaminação cruzada vista no mitogenoma chega ao nuclear em nível que importe.
 - [x] Qualidade (N50, tamanho, GC) × longevidade relativa: **sem associação** (PGLS). Repetir com BUSCO.
-- [ ] **Decidir o critério de N50** (pré-registrado: ≥ 20 kb → só 47 espécies, 12 em Psittaculidae). Manter ou registrar outro **antes** de olhar genes.
+- [x] **Critério revisto** (16 out., plano §4 e Histórico): BUSCO ≥ 70 % + gene completo por espécie; o original (≥ 85 % e N50 ≥ 20 kb) vira sensibilidade.
 - [ ] Rodar BUSCO também nas montagens não-Iridian escolhidas (VGP, B10K etc.) das espécies do conjunto.
 - [ ] Fixar a lista final de espécies antes de olhar qualquer gene.
 
@@ -32,7 +32,8 @@ São **96 das 105 espécies utilizáveis**. Na prática, "Hains" = todas as mont
 - [x] **Accessions e versões das montagens**: `assemblies_literature.tsv` resolvida (falta só o lote F1000 de 22 spp.); inventário completo em `results/phase1_audit/assembly_inventory.tsv`.
 - [x] **Árvore de Smith et al. 2024** (Zenodo, espelho do Dryad) e regimes repetidos: direção mantida, evidência mais fraca (p = 0,05). Ver `results/phase1_trees/tree_sensitivity_report.md`.
 - [x] Estados ancestrais e pares irmãos com a árvore de Smith: ancestrais iguais; **só 18 de 29/33 pares irmãos coincidem**.
-- [ ] **Decidir** que pares irmãos usar nos testes moleculares (árvore de Smith ou os 18 comuns) e registrar no plano antes de olhar genes.
+- [x] Pares irmãos: árvore de Smith entre as espécies aprovadas na auditoria; robustez com os pares comuns à supertree (plano, 16 out.).
+- [ ] Recalcular os pares irmãos quando o BUSCO terminar.
 - [ ] 🔴 **Texto completo** das referências (hoje a maioria foi lida só pelo resumo). Prioridade: Ogburn 2001, Wirthlin 2018, Martini 2025, Powers 2019, Kapsetaki 2024.
 - [x] **Dados por espécie de Kapsetaki 2024** (Zenodo): 15 papagaios com denominadores. Ver `results/phase1_cancer/cancer_report.md`.
 - [ ] 🟢 **Revisar os recordes do AnAge** nas 15 espécies com recorde ≈ expectativa de vida (*Ara macao*: 33 anos de recorde contra 35,5 de média). Procurar fonte primária.
@@ -109,7 +110,7 @@ Os módulos de genes e os testes estão congelados em `results/phase0/analysis_p
 - [x] Comparar *Melopsittacus* com **Loriini**, Psittaculidae e *Nymphicus*: periquito 20,8 % de neoplasia × Loriini 1,5 %; **mas a calopsita (domesticada) tem 11,4 % e não difere do periquito**. Domesticação é explicação concorrente forte.
 - [ ] Separar **domesticação** de linhagem: periquitos não domésticos/selvagens, outra espécie doméstica de Psittaculidae, e **idade à morte** por espécie.
 - [x] Pedidos de dados enviados em 15 out. 2026 a Boddy/Kapsetaki (idade e tecido por espécie) e Beaufrère/UC Davis (neoplasia por gênero). Boddy: ⏳ aguardando.
-- [ ] **Beaufrère respondeu** (16 out.): o banco Drury-Reavill é público, mas o explorador não identifica bem as necropsias (1.618 de 11.737). Responder com **afiliação**, perguntar como identificar necropsias e pedir o **código de acesso** (rascunho em `docs/data_requests.md`, §3).
+- [ ] **Beaufrère respondeu** (16 out.): o banco Drury-Reavill é público, mas o explorador não identifica bem as necropsias (1.618 de 11.737). Resposta pronta (`docs/data_requests.md`, §3): pergunta como identificar necropsias e pede o **código de acesso**. ⏳ Enviar.
 - [ ] Modelo binomial/beta-binomial hierárquico (espécie, fonte, idade) **só se houver denominadores**.
 - [ ] Separar **tecido e malignidade**; considerar *Macrorhabdus*, hormônios, dieta e linhagem doméstica como explicações concorrentes.
 

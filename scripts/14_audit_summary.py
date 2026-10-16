@@ -1,7 +1,8 @@
 """Collect the Iridian assembly audit (inventory + BUSCO + mitochondrial identity) into one table.
 
-Pass criteria (protocol / TODO 1.1):
-  BUSCO complete (S+D, aves_odb10) >= 85 % for the broad set (>= 95 % for the pilot panel)
+Pass criteria (analysis plan, revised 2026-10-16):
+  BUSCO complete (S+D, aves_odb10) >= 70 % (main); the original BUSCO >= 85 % and contig N50 >= 20 kb is kept as
+  a sensitivity set (column original_criterion_pass)
   species identity 'confirmed' by mitochondrial COX1/CYTB/ND2 against independent GenBank sequences;
   a mitochondrial 'conflict' (foreign mitogenome, own not assembled) is not an exclusion by itself: it is
   resolved by the nuclear Mash check (results/phase1_audit/mash_identity.tsv) when available; assemblies listed
@@ -19,7 +20,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 A = ROOT / "results/phase1_audit"
-BUSCO_MIN = 85.0
+BUSCO_MIN = 70.0  # main criterion; original (85 %, N50 >= 20 kb) reported as sensitivity
 
 
 def busco(acc):
@@ -76,6 +77,8 @@ def main():
         t["nearest_same_genus"] = t.accession.map(mi.nearest_same_genus)
     else:
         t["nuclear_vs_donor"] = np.nan
+    t["original_criterion_pass"] = np.where(t.busco_C.isna(), "pending",
+                                            np.where((t.busco_C >= 85) & (t.contig_n50 >= 20000), "pass", "fail"))
     t["identity_pass"] = np.select(
         [t.mito_overall.isna(), t.mito_overall.isin(["confirmed", "confirmed_with_foreign_mito"]),
          t.mito_overall == "conflict"], ["pending", "pass", "check_nuclear"], "unresolved")
