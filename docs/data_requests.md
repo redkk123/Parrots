@@ -50,22 +50,21 @@ Textos enviados da conta do pesquisador. Endereços conferidos nos artigos em 15
 
 ---
 
-## 3. Resposta a Beaufrère (pronta para enviar, 16 out. 2026; afiliação: confirmar antes de enviar)
+## 3. Resposta a Beaufrère (16 out. 2026)
 
-Ele respondeu que o banco é público (<https://drury-reavill-database.vercel.app/>) e perguntou a afiliação. Pelos termos do site, extrações acima de 1.000 registros exigem código de acesso, pedido descrevendo o propósito.
+Ele respondeu que o banco é público (<https://drury-reavill-database.vercel.app/>) e perguntou a afiliação. Pelos termos do site, extrações acima de 1.000 registros exigem código de acesso.
 
 **Para:** hbeaufrere@ucdavis.edu (responder na mesma conversa)
 
-> Dear Dr Beaufrère,
+> Hi Dr Beaufrère,
 >
-> Thank you very much for the quick reply and for making the database public — it is a remarkable resource.
+> Thanks for the quick reply. I'm at UNICEPLAC (Brasília, Brazil), working on a comparative study of cancer and longevity in parrots.
 >
-> I am an independent researcher, not currently affiliated with an institution. The project is a comparative study of longevity and cancer across parrots, testing whether short-lived lineages such as the budgerigar show a lineage-specific excess of neoplasia, and how much of it is explained by domestication and age.
+> I looked at the database and have two questions:
 >
-> Two questions, if I may:
+> 1. How can I identify necropsies? Filtering by the "Post Mortem" charge types gives about 1,600 psittacine cases, but your 2024 paper used 11,737, so I guess most are under other charge types.
 >
-> 1. How are necropsy cases identified in the database? Filtering by "Post Mortem" charge types returns about 1,600 psittacine records, whereas your 2024 study reports 11,737 psittacine necropsies, so I suspect many necropsies are recorded under other charge types.
-> 2. Would it be possible to receive a download access code for psittacine records (diagnosis text, species, age, sex, submission type)? The data would be used only for aggregate analyses of neoplasia prevalence by genus and age; I would cite the database and your 2024 article, and share the results with you before any submission.
+> 2. Could I get an access code to download the psittacine records? I only need species, age, sex, submission type and the diagnosis text, to estimate tumor prevalence by genus and age. I'll cite the database and your paper, and I'm happy to send you the results.
 >
-> With best regards,
+> Thanks again,
 > Angelo
