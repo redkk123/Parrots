@@ -4,18 +4,21 @@ Public database (https://drury-reavill-database.vercel.app/, 2026); only aggrega
 (/api/records with pageSize=1 returns the total for a filter), no records are downloaded. Requests are cached in
 data/external/drury_reavill/counts_cache.json and spaced by 0.5 s.
 
-Necropsies: charge_type "Post Mortem ..." or "CalAvian Necropsy". Tumour: full-text match (whole words, OR) on the
+Necropsies: identified as the database owner advises (H. Beaufrère, 2026-10-16): records with >= 3 tissues
+(`tissues_min`, main) or >= 2 (sensitivity). The earlier "Post Mortem" charge-type filter caught only ~1,600 cases
+and is not used. Usage: python scripts/22_drury_reavill_counts.py [tissues_min=3]. Tumour: full-text match (whole words, OR) on the
 diagnosis text for named neoplasms; generic words ("neoplasia", "tumor") are excluded because they also appear in
 negative statements. Malignant = carcinomas, sarcomas, lymphoma/leukaemia, melanoma, seminoma, mesothelioma,
 nephroblastoma; benign = adenomas, papillomas, lipomas, fibromas, haemangiomas etc. Groups pool the database's
 "breed" values by common name within category "Avian, Psittacine".
 Age bins (years): 0-2, 2-5, 5-10, 10-20, >=20. Age-standardised prevalence uses the pooled psittacine necropsy age
 distribution as the standard (direct standardisation).
-Writes results/phase1_cancer/drury_reavill_necropsy.tsv
+Writes results/phase1_cancer/drury_reavill_necropsy_tissues<N>.tsv
 Cite: Drury R. Reavill Pathology Database at UC Davis. Davis (CA): University of California, Davis, School of
 Veterinary Medicine; 2026.
 """
 import json
+import sys
 import time
 import urllib.parse
 import urllib.request
@@ -28,7 +31,8 @@ from scipy import stats
 ROOT = Path(__file__).resolve().parents[1]
 DIR = ROOT / "data/external/drury_reavill"
 CACHE = DIR / "counts_cache.json"
-OUT = ROOT / "results/phase1_cancer/drury_reavill_necropsy.tsv"
+TISSUES_MIN = int(sys.argv[1]) if len(sys.argv) > 1 else 3
+OUT = ROOT / f"results/phase1_cancer/drury_reavill_necropsy_tissues{TISSUES_MIN}.tsv"
 API = "https://drury-reavill-database.vercel.app/api/records?"
 PM = ["Post Mortem, Jar", "Post mortem, Medium", "Post Mortem, Small", "Post Mortem Sm Jar", "Post Mortem, small",
       "Post Mortem, Large", "CalAvian Necropsy", "Post Mortem Jar-Lab", "Post Mortem Jar-Very",
@@ -55,7 +59,7 @@ def load_cache():
 
 
 def count(cache, **params):
-    p = {"dataset": "main", "category": "Avian, Psittacine", "charge_type": "||".join(PM), **params,
+    p = {"dataset": "main", "category": "Avian, Psittacine", "tissues_min": str(TISSUES_MIN), **params,
          "page": "1", "pageSize": "1"}
     url = API + urllib.parse.urlencode(sorted(p.items()))
     if url not in cache:
