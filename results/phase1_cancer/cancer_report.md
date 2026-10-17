@@ -86,9 +86,28 @@ Em resposta ao pedido de dados, H. Beaufrère indicou que o banco é público: <
 
 **O que o site já publica** (página de epidemiologia): fração de tumores entre os diagnósticos classificados, por espécie com ≥ 250 amostras: periquito 41,2 % (n = 1.078), calopsita 32,8 % (n = 1.839), agapórnis 29,6 % (n = 318), amazona-de-cabeça-amarela 26,1 % (n = 161). Mistura biópsias e necropsias; biópsias são tiradas de massas, o que infla a fração de tumores.
 
-**Tentativa de restringir a necropsias:** pelo tipo de cobrança ("Post Mortem…"), o explorador dá só **1.618** necropsias de papagaios, contra **11.737** no artigo do mesmo grupo (Megan et al. 2024). A maioria das necropsias não é identificável no explorador público, e a amostra capturada é jovem (faixa mediana de 0–2 anos em quase todos os grupos). As prevalências obtidas assim ([`drury_reavill_necropsy.tsv`](drury_reavill_necropsy.tsv): periquito 8,3 %, araras 9,3 %, conures 0,2 % etc.) **não são interpretáveis** e não entram nas conclusões.
+**Necropsias pelo número de tecidos (17 out. 2026).** A primeira tentativa (tipo de cobrança "Post Mortem…") pegava só 1.618 casos e foi descartada. Por orientação de H. Beaufrère (e-mail de 17 out.), necropsia = registro com **≥ 3 tecidos** (principal; 10.152 casos de papagaios) ou **≥ 2** (sensibilidade; 12.198). O artigo do grupo (Megan et al. 2024) usou 11.737, entre os dois. Tumor = nome de neoplasia no texto do diagnóstico (lista no script); padronização direta por idade com a distribuição de todos os papagaios como padrão. Arquivos: [`drury_reavill_necropsy_tissues3.tsv`](drury_reavill_necropsy_tissues3.tsv) e [`drury_reavill_necropsy_tissues2.tsv`](drury_reavill_necropsy_tissues2.tsv).
 
-**Próximo passo:** responder ao autor com afiliação e propósito, perguntando como as necropsias são identificadas e pedindo o código de acesso (rascunho em `docs/data_requests.md`). Com a extração completa: necropsias por gênero, tumores pelo texto do diagnóstico (malignos × benignos), padronização por idade.
+| Grupo | Necropsias (≥ 3 / ≥ 2) | Algum tumor, % (IC 95 %), ≥ 3 | Maligno, % (≥ 3) | Padronizado por idade, % (≥ 3 / ≥ 2) |
+| --- | --- | --- | --- | --- |
+| Periquito | 652 / 799 | **23,2** (20,0–26,6) | 19,6 | **25,9 / 27,2** |
+| Amazonas | 742 / 983 | 15,9 (13,3–18,7) | 12,1 | 12,1 / 14,3 |
+| Agapórnis | 428 / 496 | 11,9 (9,0–15,4) | 9,1 | 12,7 / 14,8 |
+| Calopsita | 1.348 / 1.695 | 9,1 (7,6–10,7) | 7,3 | 10,8 / 13,0 |
+| Ringneck/*Psittacula* | 94 / 111 | 8,5 (3,8–16,1) | 7,5 | 10,8 / 11,8 |
+| Araras | 1.492 / 1.763 | 6,0 (4,9–7,4) | 3,9 | 5,2 / 6,3 |
+| **Lóris** | 399 / 457 | **5,0** (3,1–7,6) | 4,0 | **5,4 / 5,2** |
+| Cinzento | 944 / 1.139 | 4,6 (3,3–6,1) | 3,5 | 3,9 / 4,7 |
+| Conures | 965 / 1.116 | 4,0 (2,9–5,5) | 3,3 | 4,7 / 6,3 |
+| Cacatuas | 885 / 1.107 | 3,4 (2,3–4,8) | 2,8 | 2,8 / 4,2 |
+| Eclectus | 510 / 598 | 2,4 (1,2–4,1) | 1,8 | 2,7 / 4,2 |
+| Todos os papagaios | 10.152 / 12.198 | 7,9 (7,4–8,4) | 6,3 | 7,9 / 9,5 |
+
+Leitura:
+- **Periquito × Loriini replica** num banco independente (clínico/particular, não zoológico): ~4,6× bruto e ~4,8× padronizado por idade (Fisher p ≈ 10⁻¹⁶). A razão é menor que em Kapsetaki 2024 (~14×), mas a direção é a mesma.
+- **Domesticação perde força como explicação única:** aqui a calopsita (9 %) fica muito abaixo do periquito (23 %; p ≈ 10⁻¹⁷), ao contrário do observado em Kapsetaki (11,4 %, sem diferença significativa). O agapórnis (Psittaculidae, também pet comum) fica no meio.
+- Os resultados quase não mudam entre ≥ 3 e ≥ 2 tecidos.
+- **Limites:** tumor identificado por texto (pode perder diagnósticos com termos genéricos e não distingue primário de metástase); amostra jovem (faixa mediana 0–2 anos na maioria dos grupos); população de pets, com manejo e motivo de envio desconhecidos; o filtro por tecidos é aproximação do que é necropsia. Citar: Drury R. Reavill Pathology Database at UC Davis (2026).
 
 ## Próximos passos
 
