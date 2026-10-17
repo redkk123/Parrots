@@ -1,0 +1,118 @@
+[M::mp_ntseq_read@2.961*1.00] read 1096228723 bases in 59625 contigs
+[M::mp_idx_build@2.962*1.00] 8624834 blocks
+[M::mp_idx_build@26.667*2.66] collected syncmers
+[M::mp_idx_build@131.668*1.10] 512488070 kmer-block pairs
+[M::mp_mapopt_set_max_intron] set max intron size to 119194
+[M::mp_idx_print_stat] 2410288 distinct k-mers; mean occ of infrequent k-mers: 212.35; 29 frequent k-mers accounting for 680178 occurrences
+[M::worker_pipeline::154.092*2.08] mapped 2410 sequences
+[M::worker_pipeline::175.905*2.82] mapped 2424 sequences
+[M::worker_pipeline::197.212*3.37] mapped 2356 sequences
+[M::worker_pipeline::222.347*3.89] mapped 2617 sequences
+[M::worker_pipeline::245.166*4.27] mapped 2101 sequences
+[M::worker_pipeline::268.153*4.57] mapped 2413 sequences
+[M::worker_pipeline::298.067*4.74] mapped 2539 sequences
+[M::worker_pipeline::324.020*4.95] mapped 2513 sequences
+[M::worker_pipeline::349.637*5.12] mapped 2728 sequences
+[M::worker_pipeline::373.550*5.29] mapped 2378 sequences
+[M::worker_pipeline::397.768*5.45] mapped 2417 sequences
+[M::worker_pipeline::423.951*5.57] mapped 2450 sequences
+[M::worker_pipeline::452.493*5.66] mapped 2408 sequences
+[M::worker_pipeline::477.490*5.72] mapped 2721 sequences
+[M::worker_pipeline::506.146*5.81] mapped 2736 sequences
+[M::worker_pipeline::532.034*5.89] mapped 2677 sequences
+[M::worker_pipeline::559.447*5.96] mapped 3143 sequences
+[M::worker_pipeline::588.263*6.00] mapped 3037 sequences
+[M::worker_pipeline::614.928*6.07] mapped 2679 sequences
+[M::worker_pipeline::641.771*6.12] mapped 3396 sequences
+[M::worker_pipeline::671.530*6.12] mapped 2732 sequences
+[M::worker_pipeline::697.692*6.17] mapped 2976 sequences
+[M::worker_pipeline::725.879*6.23] mapped 3183 sequences
+[M::worker_pipeline::751.368*6.27] mapped 3329 sequences
+[M::worker_pipeline::780.999*6.31] mapped 3021 sequences
+[M::worker_pipeline::811.813*6.36] mapped 3216 sequences
+[M::worker_pipeline::838.662*6.39] mapped 3367 sequences
+[M::worker_pipeline::864.599*6.42] mapped 3196 sequences
+[M::worker_pipeline::890.744*6.45] mapped 3462 sequences
+[M::worker_pipeline::916.579*6.49] mapped 3292 sequences
+[M::worker_pipeline::943.605*6.52] mapped 3338 sequences
+[M::worker_pipeline::969.261*6.55] mapped 3466 sequences
+[M::worker_pipeline::997.839*6.57] mapped 3732 sequences
+[M::worker_pipeline::1022.737*6.60] mapped 3421 sequences
+[M::worker_pipeline::1055.529*6.60] mapped 3419 sequences
+[M::worker_pipeline::1091.014*6.60] mapped 4100 sequences
+[M::worker_pipeline::1124.001*6.60] mapped 3130 sequences
+[M::worker_pipeline::1157.746*6.60] mapped 4055 sequences
+[M::worker_pipeline::1191.309*6.58] mapped 3711 sequences
+[M::worker_pipeline::1219.856*6.61] mapped 4202 sequences
+[M::worker_pipeline::1246.341*6.63] mapped 4161 sequences
+[M::worker_pipeline::1274.279*6.66] mapped 3735 sequences
+[M::worker_pipeline::1298.382*6.68] mapped 4045 sequences
+[M::worker_pipeline::1326.769*6.70] mapped 4308 sequences
+[M::worker_pipeline::1352.885*6.73] mapped 3776 sequences
+[M::worker_pipeline::1382.116*6.75] mapped 4915 sequences
+[M::worker_pipeline::1410.205*6.78] mapped 4418 sequences
+[M::worker_pipeline::1439.230*6.80] mapped 4408 sequences
+[M::worker_pipeline::1467.956*6.82] mapped 4450 sequences
+[M::worker_pipeline::1498.474*6.84] mapped 4046 sequences
+[M::worker_pipeline::1525.236*6.86] mapped 4711 sequences
+[M::worker_pipeline::1555.916*6.88] mapped 5122 sequences
+[M::worker_pipeline::1584.202*6.90] mapped 4559 sequences
+[M::worker_pipeline::1614.167*6.92] mapped 4425 sequences
+[M::worker_pipeline::1642.619*6.93] mapped 5021 sequences
+[M::worker_pipeline::1674.408*6.95] mapped 4890 sequences
+[M::worker_pipeline::1704.137*6.96] mapped 5846 sequences
+[M::worker_pipeline::1734.292*6.97] mapped 5227 sequences
+[M::worker_pipeline::1762.980*6.99] mapped 4318 sequences
+[M::worker_pipeline::1793.937*7.00] mapped 6206 sequences
+[M::worker_pipeline::1827.705*7.02] mapped 6703 sequences
+[M::worker_pipeline::1860.514*7.03] mapped 5925 sequences
+[M::worker_pipeline::1894.443*7.05] mapped 5820 sequences
+[M::worker_pipeline::1924.309*7.06] mapped 4982 sequences
+[M::worker_pipeline::1956.807*7.08] mapped 6119 sequences
+[M::worker_pipeline::1989.735*7.09] mapped 6388 sequences
+[M::worker_pipeline::2017.294*7.10] mapped 4090 sequences
+[M::worker_pipeline::2048.821*7.11] mapped 5012 sequences
+[M::worker_pipeline::2075.548*7.12] mapped 4023 sequences
+[M::worker_pipeline::2097.547*7.13] mapped 2026 sequences
+[M::worker_pipeline::2122.935*7.14] mapped 1752 sequences
+[M::worker_pipeline::2146.852*7.15] mapped 1873 sequences
+[M::worker_pipeline::2168.919*7.16] mapped 1611 sequences
+[M::worker_pipeline::2191.167*7.17] mapped 1790 sequences
+[M::worker_pipeline::2213.799*7.17] mapped 1849 sequences
+[M::worker_pipeline::2238.270*7.18] mapped 2059 sequences
+[M::worker_pipeline::2264.362*7.19] mapped 1519 sequences
+[M::worker_pipeline::2288.368*7.20] mapped 1641 sequences
+[M::worker_pipeline::2313.115*7.21] mapped 1947 sequences
+[M::worker_pipeline::2335.903*7.21] mapped 2019 sequences
+[M::worker_pipeline::2359.658*7.22] mapped 1978 sequences
+[M::worker_pipeline::2385.100*7.23] mapped 2045 sequences
+[M::worker_pipeline::2411.948*7.24] mapped 2321 sequences
+[M::worker_pipeline::2434.612*7.24] mapped 2131 sequences
+[M::worker_pipeline::2458.748*7.25] mapped 2406 sequences
+[M::worker_pipeline::2477.710*7.25] mapped 1777 sequences
+[M::main] Version: 0.18-r281
+[M::main] CMD: /home/red/parrots/.bioenv/bin/miniprot --trans -u -I --outs=0.95 -t 8 --gff data/external/assemblies/GCA_034782575.1/genome.fna data/external/busco_lineages/aves_odb10/refseq_db.faa.gz
+[M::main] Real time: 2477.987 sec; CPU: 17972.954 sec; Peak RSS: 6.812 GB
+	Command being timed: "compleasm run -a data/external/assemblies/GCA_034782575.1/genome.fna -o results/phase1_audit/busco/GCA_034782575.1/run -l aves --odb odb10 -L data/external/busco_lineages -t 8"
+	User time (seconds): 25872.63
+	System time (seconds): 731.23
+	Percent of CPU this job got: 640%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:09:13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7143220
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 68007
+	Minor (reclaiming a frame) page faults: 37813720
+	Voluntary context switches: 641741
+	Involuntary context switches: 3034381
+	Swaps: 0
+	File system inputs: 6038432
+	File system outputs: 2057472
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
