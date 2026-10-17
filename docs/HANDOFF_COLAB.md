@@ -58,20 +58,28 @@ if [ ! -d "Parrots" ]; then
   git clone -b claude/new-session-lwh7xh https://github.com/redkk123/Parrots.git
 fi
 cd /content/Parrots
+git pull
+
+# Copia a fila de genomas rastreada para a pasta esperada
+mkdir -p data/external
+cp results/phase1_audit/audit_queue.tsv data/external/audit_queue.tsv
 
 # Baixa micromamba
 curl -Ls https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
 
 # Cria ambiente com as ferramentas exatas do projeto
-./bin/micromamba create -y -p /content/bioenv -c conda-forge -c bioconda \
+./bin/micromamba create -y -p /content/Parrots/.bioenv -c conda-forge -c bioconda \
     compleasm seqkit ncbi-datasets-cli python=3.10 pandas scipy biopython
 
+# Cria atalho .venv para scripts que chamam .venv/bin/python
+ln -sfn /content/Parrots/.bioenv /content/Parrots/.venv
+
 # Instala bibliotecas extras do Python
-/content/bioenv/bin/pip install pyreadr rdata openpyxl matplotlib
+/content/Parrots/.bioenv/bin/pip install pyreadr rdata openpyxl matplotlib
 
 # Baixa a linhagem aves_odb10 requerida pelo protocolo
 mkdir -p data/external/busco_lineages
-export PATH="/content/bioenv/bin:$PATH"
+export PATH="/content/Parrots/.bioenv/bin:$PATH"
 compleasm download aves --odb odb10 -L data/external/busco_lineages
 ```
 
@@ -79,7 +87,7 @@ compleasm download aves --odb odb10 -L data/external/busco_lineages
 ```bash
 %%bash
 cd /content/Parrots
-export PATH="/content/bioenv/bin:$PATH"
+export PATH="/content/Parrots/.bioenv/bin:$PATH"
 
 DRIVE_DIR="/content/drive/MyDrive/Parrots_results"
 
