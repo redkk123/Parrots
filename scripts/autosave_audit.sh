@@ -9,23 +9,25 @@ BRANCH=claude/new-session-lwh7xh
 LOG=logs/autosave_audit.log
 
 pass() {
-  .venv/bin/python scripts/14_audit_summary.py > /dev/null 2>&1
+  .venv/bin/python scripts/14_audit_summary.py > /dev/null 2>&1 && .venv/bin/python scripts/26_select_genomes.py > /dev/null 2>&1
   if ! pgrep -f '[1]6_mash_batch.sh' > /dev/null && ls data/external/mash/*.msh > /dev/null 2>&1; then
     .venv/bin/python scripts/17_mash_identity.py > /dev/null 2>&1 \
       && git add results/phase1_audit/mash_identity.tsv results/phase1_audit/mash_distances.tsv
   fi
-  git add results/phase1_audit/audit_table.tsv results/phase1_audit/mito logs/1*_batch.log
+  git add results/phase1_audit/audit_table.tsv results/phase1_audit/species_genomes.tsv \
+    results/phase1_audit/audit_queue_other.tsv results/phase1_audit/mito logs/1*_batch.log
   for d in results/phase1_audit/busco/*/; do [ -s "$d/summary.txt" ] && git add "$d"; done
   if git diff --cached --quiet; then
     echo "$(date -Is) nothing new" >> "$LOG"
     return
   fi
   n=$(ls results/phase1_audit/busco/*/summary.txt 2>/dev/null | wc -l)
-  git commit -q -m "Audit autosave: BUSCO ${n}/96
+  tot=$(cat results/phase1_audit/audit_queue.tsv results/phase1_audit/audit_queue_other.tsv 2>/dev/null | wc -l)
+  git commit -q -m "Audit autosave: BUSCO ${n}/${tot}
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" \
     && git push -q origin "$BRANCH" \
-    && echo "$(date -Is) pushed: BUSCO ${n}/96" >> "$LOG" \
+    && echo "$(date -Is) pushed: BUSCO ${n}/${tot}" >> "$LOG" \
     || echo "$(date -Is) commit/push FAILED" >> "$LOG"
 }
 

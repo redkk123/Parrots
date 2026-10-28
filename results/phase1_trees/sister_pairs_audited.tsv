@@ -1,0 +1,18 @@
+longer_lived	shorter_lived	divergence_myr	delta_rel_logLE	also_sisters_on_supertree
+Cacatua sanguinea	Cacatua ducorpsii	6.52	0.677	False
+Amazona aestiva	Amazona vinacea	7.49	0.462	False
+Poicephalus senegalus	Poicephalus rueppellii	5.28	0.415	False
+Pyrrhura leucotis	Pyrrhura griseipectus	5.08	0.415	True
+Brotogeris tirica	Myiopsitta monachus	17.4	0.218	True
+Primolius auricollis	Primolius couloni	2.62	0.185	True
+Psilopsiagon aurifrons	Psilopsiagon aymara	7.58	0.173	True
+Psittacara leucophthalmus	Psittacara wagleri	2.78	0.166	False
+Agapornis lilianae	Agapornis personatus	1.06	0.146	True
+Pionites melanocephalus	Deroptyus accipitrinus	11.7	0.141	True
+Ara rubrogenys	Ara ararauna	5.74	0.134	False
+Lorius chlorocercus	Lorius lory	4.78	0.127	False
+Diopsittaca nobilis	Guaruba guarouba	2.47	0.127	False
+Psittacus erithacus	Psittacus timneh	1.94	0.124	True
+Cacatua galerita	Cacatua sulphurea	2.33	0.0663	True
+Eupsittula nana	Eupsittula pertinax	3.82	0.0451	True
+Platycercus adscitus	Psephotus haematonotus	12.4	0.012	True

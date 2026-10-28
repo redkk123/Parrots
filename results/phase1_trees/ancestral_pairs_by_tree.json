@@ -53,5 +53,10 @@
   "Psittacara finschi / Psittacara wagleri",
   "Psittacula eupatria / Psittacula krameri",
   "Trichoglossus euteles / Trichoglossus haematodus"
- ]
+ ],
+ "audited": {
+  "n_species": 51,
+  "n_pairs_smith": 17,
+  "n_pairs_shared_with_supertree": 10
+ }
 }

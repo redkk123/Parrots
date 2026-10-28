@@ -1,8 +1,8 @@
 # Auditoria das montagens (Fase 1) — relatório parcial
 
-Iniciado em 14 out. 2026, atualizado em 15 out. 2026. **Nenhuma análise de genes foi feita.** Item 1.1 do `TODO.md`.
+Iniciado em 14 out. 2026, atualizado em 28 out. 2026. **Nenhuma análise de genes foi feita.** Item 1.1 do `TODO.md`.
 
-Estado: inventário NCBI ✅ · identidade mitocondrial 96/96 ✅ · identidade nuclear (Mash) 96/96 ✅ · BUSCO 10/96 ⏳ (≈ 1 h por genoma; salvamento automático no GitHub de hora em hora, `scripts/autosave_audit.sh`).
+Estado: inventário NCBI ✅ · identidade mitocondrial 96/96 ✅ · identidade nuclear (Mash) 96/96 ✅ · BUSCO Iridian 93/96 ⏳ · BUSCO de 30 montagens de outras fontes ⏳ (na fila, §7). Cerca de 1 h por genoma; salvamento automático no GitHub de hora em hora (`scripts/autosave_audit.sh`).
 
 ## 1. O que é o "lote Hains"
 
@@ -51,6 +51,8 @@ Com 20 kb, Psittaculidae cai de 34 para 12 espécies e os lóris ficam reduzidos
 
 Só 1 de 10 passa no critério de 85 %. Montagens com N50 de 14–19 kb ficam em 74–76 %, com muitos genes **fragmentados** (16–17 %), não ausentes. O corte de BUSCO pré-registrado tende a ser **mais restritivo** que o de N50. Como a ordem do lote é aleatória, estes 10 são uma amostra sem viés do restante.
 
+**Atualização (93 de 96, 28 out.):** mediana de 76 % de BUSCO completo. 55 passam no critério revisto (≥ 70 %); 11 chegariam a 85 % e 10 passam no critério original (85 % e N50 ≥ 20 kb). Nenhuma montagem com N50 de contig < 5 kb passa (máximo 61,5 %); com N50 ≥ 5 kb, a mediana é 80 %. Tabela completa: [`audit_table.tsv`](audit_table.tsv).
+
 ## 4. Identidade do espécime e contaminação (mitogenoma)
 
 Método: contigs mitocondriais localizados com COX1/CYTB/ND2 de cinco papagaios distantes e comparados a 6.700 sequências de COX1, CYTB e ND2 do GenBank, **excluídas** as depositadas por Hains/Pirro/Iridian (`scripts/11_mito_identity.py`). Todas as 105 espécies têm referência independente.
@@ -97,10 +99,27 @@ PGLS (λ de Pagel) da longevidade relativa sobre cada métrica (`quality_vs_long
 ## 6. Desvios e decisões registrados
 
 - BUSCO via compleasm, com aves_odb10 explícito. Registrado no histórico de `results/phase0/analysis_plan.md` (15 out. 2026).
-- Critérios do §4 **não** alterados.
+- Critérios do §4 revistos em 16 e 28 out. 2026, antes de olhar genes (Histórico de `results/phase0/analysis_plan.md`).
 - Os genomas não ficam em disco: cada montagem é baixada, analisada e apagada. Ficam versionados os resumos (`busco/*/summary.txt`, `mito/*.json`, tabelas).
 
-## 7. Como reproduzir / retomar
+## 7. Um genoma por espécie (provisório, 28 out.)
+
+Regras do plano (Histórico, 16 e 28 out.): BUSCO ≥ 70 %, identidade não reprovada e, entre as montagens aprovadas, preferência pelas de escala cromossômica de outras fontes. Quando o mitogenoma não decide, a identidade é aceita no nível de clado pelo Mash (resíduo em relação à árvore ≤ 0,006, N50 ≥ 5 kb). Isso vale para 12 montagens Iridian, 10 delas aprovadas no BUSCO. Script: `scripts/26_select_genomes.py`; tabela: [`species_genomes.tsv`](species_genomes.tsv).
+
+| Situação (105 espécies) | Loriini | *Melopsittacus* | Outros Psittaculidae | Resto da ordem | Total |
+| --- | --- | --- | --- | --- | --- |
+| Incluídas | 4 | 0 | 7 | 40 | **51** |
+| Aguardando BUSCO (Iridian ou outra fonte) | 0 | 1 | 9 | 13 | 23 |
+| Excluídas | 5 | 0 | 7 | 18 | 30 |
+| Sem montagem (*Pseudeos fuscata*) | 1 | 0 | 0 | 0 | 1 |
+
+- Das 51 incluídas, 41 têm identidade confirmada (entram na sensibilidade de identidade) e 8 passam no critério original.
+- Quatro das incluídas (*Amazona aestiva*, *Ara ararauna*, *Guaruba guarouba*, *Myiopsitta monachus*) podem trocar de genoma: há montagem cromossômica de outra fonte na fila.
+- **Fila de outras fontes** ([`audit_queue_other.tsv`](audit_queue_other.tsv), 30 montagens, Psittaculidae primeiro). Entra uma montagem quando acrescenta a espécie, é cromossômica ou tem N50 mais de 2× o da Iridian. Começa sozinha quando o lote Iridian termina (serviço `parrots-busco-other`).
+- **Se todas passarem:** até 74 espécies, 21 delas Psittaculidae, incluindo o periquito (VGP), *Lathamus*, *Neophema*, *Neopsephotus*, *Cyclopsitta*, *Psittacula krameri*, *Loriculus galgulus* e três *Agapornis* cromossômicos. Com isso volta a condição de escala da Fase 0 (~60 espécies).
+- **Pares irmãos** (árvore de Smith, só espécies incluídas): 17 pares, 10 também irmãos na *supertree* ([`../phase1_trees/sister_pairs_audited.tsv`](../phase1_trees/sister_pairs_audited.tsv)). São provisórios: periquito × Loriini ainda não aparece, porque os genomas dele estão na fila.
+
+## 8. Como reproduzir / retomar
 
 ```bash
 .venv/bin/python scripts/09_ncbi_assembly_inventory.py   # inventário NCBI
@@ -109,6 +128,9 @@ bash scripts/15_identity_batch.sh                         # só identidade mitoc
 bash scripts/16_mash_batch.sh                             # sketches Mash (~9 h)
 .venv/bin/python scripts/17_mash_identity.py              # identidade nuclear
 .venv/bin/python scripts/14_audit_summary.py              # tabela consolidada: audit_table.tsv
+.venv/bin/python scripts/26_select_genomes.py              # um genoma por espécie + fila de outras fontes
+bash scripts/12_audit_batch.sh results/phase1_audit/audit_queue_other.tsv   # BUSCO + identidade dessa fila
+.venv/bin/python scripts/21_tree_ancestral_pairs.py        # pares irmãos entre as espécies incluídas
 .venv/bin/python scripts/13_quality_vs_longevity.py
 ```
 

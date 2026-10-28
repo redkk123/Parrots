@@ -4,6 +4,9 @@ Smith et al. 2024 UCE tree (each with its own allometric residuals; see scripts/
 Ancestral states: root, crown Psittaculidae (MRCA of the Phase 0b shifted clade) and the change along its stem.
 Sister pairs: cherries among the gene-level usable species with life expectancy (as scripts/05_phase0b_analysis.py).
 Writes results/phase1_trees/ancestral_pairs_by_tree.json and results/phase1_trees/sister_pairs_smith2024.tsv.
+Audited pairs (plan, 2026-10-16): cherries among the species with a genome that passed the audit
+(results/phase1_audit/species_genomes.tsv, status included*), defined on the Smith tree and flagged when they are also
+sisters on the supertree; written to results/phase1_trees/sister_pairs_audited.tsv (provisional until the audit ends).
 """
 import json
 import sys
@@ -30,10 +33,31 @@ def mrca(t, labels):
     return min((n for n in range(len(t.parent)) if labels <= {t.label[x] for x in desc[n]}), key=lambda n: len(desc[n]))
 
 
+def sister_pairs(full, d, keep):
+    use = d[d.species.isin(keep)]
+    tu = full.prune(set(use.tree_tip))
+    depth = tu.depths()
+    H = depth[tu.tips()].max()
+    rel = dict(zip(use.tree_tip, use[Y]))
+    pairs = []
+    for n in range(len(tu.parent)):
+        kids = tu.children[n]
+        if len(kids) == 2 and all(tu.is_tip(k) for k in kids):
+            a, b = sorted((tu.label[k] for k in kids), key=lambda x: -rel[x])
+            pairs.append({"longer_lived": a.replace("_", " "), "shorter_lived": b.replace("_", " "),
+                          "divergence_myr": H - depth[n], "delta_rel_logLE": rel[a] - rel[b]})
+    return pd.DataFrame(pairs).sort_values("delta_rel_logLE", ascending=False)
+
+
 def main():
     shifts = json.loads((ROOT / "results/phase0b/regime_shifts.json").read_text())["rel_LE"]["selection"]["BGHuni"]["shifts"]
     clade = set(max(shifts, key=lambda s: s["n_tips"])["tips"].split(";"))
-    summary, pair_sets = {}, {}
+    summary, pair_sets, audited_pairs = {}, {}, {}
+    sg = ROOT / "results/phase1_audit/species_genomes.tsv"
+    audited = None
+    if sg.exists():
+        g = pd.read_csv(sg, sep="\t")
+        audited = set(g.species[g.status.str.startswith("included")])
     for name, (tp, mp) in TREES.items():
         full = Tree.from_newick(Path(tp).read_text())
         m = pd.read_csv(mp, sep="\t")
@@ -46,19 +70,9 @@ def main():
                          "crown_psittaculidae_est": float(est[c]), "crown_psittaculidae_se": float(se[c]),
                          "stem_parent_est": float(est[p]), "stem_change": float(est[c] - est[p]),
                          "stem_branch_myr": float(t.length[c])}
-        use = d[d.usable_for_gene_level]
-        tu = full.prune(set(use.tree_tip))
-        depth = tu.depths()
-        H = depth[tu.tips()].max()
-        rel = dict(zip(use.tree_tip, use[Y]))
-        pairs = []
-        for n in range(len(tu.parent)):
-            kids = tu.children[n]
-            if len(kids) == 2 and all(tu.is_tip(k) for k in kids):
-                a, b = sorted((tu.label[k] for k in kids), key=lambda x: -rel[x])
-                pairs.append({"longer_lived": a.replace("_", " "), "shorter_lived": b.replace("_", " "),
-                              "divergence_myr": H - depth[n], "delta_rel_logLE": rel[a] - rel[b]})
-        pairs = pd.DataFrame(pairs).sort_values("delta_rel_logLE", ascending=False)
+        pairs = sister_pairs(full, d, set(d.species[d.usable_for_gene_level]))
+        if audited is not None:
+            audited_pairs[name] = sister_pairs(full, d, audited)
         pair_sets[name] = {frozenset((r.longer_lived, r.shorter_lived)) for r in pairs.itertuples()}
         summary[name]["n_sister_pairs"] = len(pairs)
         summary[name]["n_pairs_delta_ge_0.3"] = int((pairs.delta_rel_logLE >= 0.3).sum())
@@ -68,6 +82,13 @@ def main():
     summary["sister_pairs_shared"] = len(shared)
     summary["sister_pairs_only_burgio"] = sorted(" / ".join(sorted(p)) for p in pair_sets["burgio2019"] - shared)
     summary["sister_pairs_only_smith"] = sorted(" / ".join(sorted(p)) for p in pair_sets["smith2024"] - shared)
+    if audited is not None:
+        sm, bu = audited_pairs["smith2024"], audited_pairs["burgio2019"]
+        bset = {frozenset((r.longer_lived, r.shorter_lived)) for r in bu.itertuples()}
+        sm["also_sisters_on_supertree"] = [frozenset((r.longer_lived, r.shorter_lived)) in bset for r in sm.itertuples()]
+        sm.to_csv(OUT / "sister_pairs_audited.tsv", sep="\t", index=False, float_format="%.3g")
+        summary["audited"] = {"n_species": len(audited), "n_pairs_smith": len(sm),
+                              "n_pairs_shared_with_supertree": int(sm.also_sisters_on_supertree.sum())}
     (OUT / "ancestral_pairs_by_tree.json").write_text(json.dumps(summary, indent=1))
     print(json.dumps(summary, indent=1))
 

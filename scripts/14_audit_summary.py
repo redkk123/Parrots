@@ -6,7 +6,10 @@ Pass criteria (analysis plan, revised 2026-10-16):
   species identity 'confirmed' by mitochondrial COX1/CYTB/ND2 against independent GenBank sequences;
   a mitochondrial 'conflict' (foreign mitogenome, own not assembled) is not an exclusion by itself: it is
   resolved by the nuclear Mash check (results/phase1_audit/mash_identity.tsv) when available; assemblies listed
-  in results/phase1_audit/nuclear_identity_review.tsv (wrong organism/specimen, mixed genomes) fail identity
+  in results/phase1_audit/nuclear_identity_review.tsv (wrong organism/specimen, mixed genomes) fail identity;
+  when the mitogenome cannot decide (no own mitogenome, ambiguous, congeneric donor), an assembly with contig N50
+  >= 5 kb whose nuclear Mash distances fit the tree (median residual <= RESID_MAX) passes at clade level only
+  ('pass_nuclear_placement'; plan, 2026-10-28): kept in the main set, dropped in the identity sensitivity
 Contamination: a second (foreign) mitogenome in the assembly is flagged as cross-sample contamination;
 GC or total length outside the expected range is flagged as possible contamination/redundancy (no read-level screen yet).
 Runs on partial results; rows without BUSCO/mito are 'pending'.
@@ -21,6 +24,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 A = ROOT / "results/phase1_audit"
 BUSCO_MIN = 70.0  # main criterion; original (85 %, N50 >= 20 kb) reported as sensitivity
+RESID_MAX = 0.006  # Mash residual vs tree: mito-confirmed (N50 >= 5 kb) reach 0.0031, the four failures start at 0.012
 
 
 def busco(acc):
@@ -75,8 +79,9 @@ def main():
         mi = pd.read_csv(mash, sep="\t").set_index("accession")
         t["nuclear_vs_donor"] = t.accession.map(mi.get("nuclear_vs_donor", pd.Series(dtype=str)))
         t["nearest_same_genus"] = t.accession.map(mi.nearest_same_genus)
+        t["mash_resid_vs_tree"] = t.accession.map(mi.median_resid_vs_tree)
     else:
-        t["nuclear_vs_donor"] = np.nan
+        t["nuclear_vs_donor"] = t["mash_resid_vs_tree"] = np.nan
     t["original_criterion_pass"] = np.where(t.busco_C.isna(), "pending",
                                             np.where((t.busco_C >= 85) & (t.contig_n50 >= 20000), "pass", "fail"))
     t["identity_pass"] = np.select(
@@ -89,11 +94,14 @@ def main():
         t.loc[t.nuclear_review.notna(), "identity_pass"] = "fail"
     t.loc[(t.identity_pass == "check_nuclear") & (t.nuclear_vs_donor == "nuclear_matches_claim"), "identity_pass"] = "pass"
     t.loc[(t.identity_pass == "check_nuclear") & (t.nuclear_vs_donor == "nuclear_closer_to_donor"), "identity_pass"] = "fail"
+    placed = t.identity_pass.isin(["check_nuclear", "unresolved"]) & (t.contig_n50 >= 5000) & (t.mash_resid_vs_tree <= RESID_MAX)
+    t.loc[placed, "identity_pass"] = "pass_nuclear_placement"
     t["flag_foreign_mito"] = t.mito_overall.isin(["confirmed_with_foreign_mito", "conflict"])
+    ok_id = t.identity_pass.isin(["pass", "pass_nuclear_placement"])
     t["audit"] = np.select(
         [(t.busco_pass == "fail") | (t.identity_pass == "fail"),
-         (t.busco_pass == "pass") & (t.identity_pass == "pass") & ~t.flag_length & ~t.flag_gc & ~t.flag_foreign_mito,
-         (t.busco_pass == "pass") & (t.identity_pass == "pass")],
+         (t.busco_pass == "pass") & ok_id & ~t.flag_length & ~t.flag_gc & ~t.flag_foreign_mito,
+         (t.busco_pass == "pass") & ok_id],
         ["exclude", "keep", "keep_check_contamination"], "pending")
     t.sort_values(["audit", "species"]).to_csv(A / "audit_table.tsv", sep="\t", index=False, float_format="%.4g")
     print(f"assemblies: {len(t)}; BUSCO done: {t.busco_C.notna().sum()}; identity done: {t.mito_overall.notna().sum()}")
