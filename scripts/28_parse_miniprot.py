@@ -11,6 +11,8 @@ translated (table 1). Call, as fixed in the plan (2026-10-16: a gene enters a sp
              higher identity (e.g. BCL2L1 landing on BCL2 when its own locus is missing): treated as missing
   absent     no alignment
 Coordinates are reported on the original sequences (window offsets from seqkit sliding are removed).
+Queries named kakapo_<SYMBOL> (second reference for the panel, scripts/33_prepare_proteome.py) compete for loci only
+with each other; they get calls in the panel table but no CDS (alignments use the Melopsittacus queries only).
 Writes, for the panel, results/phase2_genes/hits/<acc>.tsv (one row per gene) and results/phase2_genes/cds/<acc>.fna
 (complete only); for the whole proteome, results/phase3_genome/calls/<acc>.tsv.gz and data/genome_cds/<acc>.fna.gz.
 """
@@ -94,7 +96,7 @@ def main():
         if c != last_ctg:
             active, last_ctg = [], c
         active = [h for h in active if loci[h][2] >= x]
-        for h in active:
+        for h in (h for h in active if h.startswith("kakapo_") == g.startswith("kakapo_")):
             if best[h]["identity"] > best[g]["identity"]:
                 taken.add(g)
             elif best[g]["identity"] > best[h]["identity"]:
@@ -125,9 +127,10 @@ def main():
                      "frameshifts": a["frameshift"], "internal_stops": internal, "cds_len": len(cds),
                      "starts_met": prot[:1] == "M", "location": f"{c}:{x}-{y}{a['strand']}",
                      "n_exons": len(a["cds"])})
-        if call == "complete":
+        if call == "complete" and not g.startswith("kakapo_"):
             out.append((g, f">{species.replace(' ', '_')}|{g}|{acc}\n{cds}\n"))
     panel = {n.split("|")[0] for n, _ in fasta(PANEL)}
+    panel |= {"kakapo_" + g for g in panel}
     cols = ["gene", "call", "query_cov", "identity", "frameshifts", "internal_stops", "cds_len", "starts_met",
             "n_exons", "n_alignments", "location"]
 

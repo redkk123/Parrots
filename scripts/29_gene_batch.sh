@@ -1,19 +1,20 @@
 #!/usr/bin/env bash
-# Gene stage (analysis plan §10, Nível 1), started by scripts/keep_audit_running.sh once the genome audit is done:
-#   27_extract_genes.sh on every selected genome (results/phase1_audit/species_genomes.tsv, status included*;
+# Gene stage (H8 §10 Nível 1 and H6), started by scripts/keep_audit_running.sh (priority over the remaining audit):
+#   27_extract_genes.sh on every genome of the frozen list (results/phase1_audit/analysis_species.tsv;
 #   whole Melopsittacus proteome, panel included), then 30_align_genes.py (panel), 34_align_genome.py (universe),
 #   35_prepare_rer_inputs.py, 31_selection_tests.py (HyPhy RELAX / aBSREL), 32_h8_summary.py and, when the R package
 #   is installed, R/rerconverge_h6_h8.R on both trees (H6 and H8 within clades).
+# Species list: results/phase1_audit/analysis_species.tsv (frozen 2026-10-28, plan history); the assemblies audited
+# later enter a pre-declared extension (regenerate that file from species_genomes.tsv and rerun).
 # Resumable: each step skips what is done. An accession that fails 3 times is skipped. Log: logs/29_gene_batch.log
 set -uo pipefail
 cd "$(dirname "$0")/.."
 LOG=logs/29_gene_batch.log
 Q=data/external/gene_queue.tsv
-.venv/bin/python scripts/26_select_genomes.py > /dev/null
 .venv/bin/python - <<'EOF' > "$Q"
 import pandas as pd
-t = pd.read_csv("results/phase1_audit/species_genomes.tsv", sep="\t")
-for r in t[t.status.str.startswith("included")].itertuples():
+t = pd.read_csv("results/phase1_audit/analysis_species.tsv", sep="\t")
+for r in t.itertuples():
     print(f"{r.accession}\t{r.species}")
 EOF
 while IFS=$'\t' read -r acc sp; do

@@ -18,7 +18,7 @@ Agapornis personatus	Agapornis	Psittaculidae_other	True	included	1	GCA_034783155
 Agapornis fischeri	Agapornis	Psittaculidae_other	True	pending	2									GCA_034782895.1 (Iridian, BUSCO 63.47, id pass_nuclear_placement); GCA_051622115.1 (Southwest University, BUSCO nan, id pass_nuclear_same_species)
 Agapornis roseicollis	Agapornis	Psittaculidae_other	True	pending	2									GCA_024337125.1 (Iridian, BUSCO 48.73, id check_nuclear); GCA_051622155.1 (Southwest University, BUSCO nan, id pass)
 Agapornis canus	Agapornis	Psittaculidae_other	True	included	1	GCA_036873685.1	Iridian	Scaffold	1.366e+04	76.38	pass	False	True	GCA_036873685.1 (Iridian, BUSCO 76.38, id pass)
-Loriculus galgulus	Loriculus	Psittaculidae_other	True	pending	2									GCA_041108455.1 (Iridian, BUSCO 2.0, id pass); GCA_046563285.1 (Harvrad University, BUSCO nan, id pass)
+Loriculus galgulus	Loriculus	Psittaculidae_other	True	included	2	GCA_046563285.1	Harvrad University	Scaffold	2.769e+07	99.39	pass	True	True	GCA_041108455.1 (Iridian, BUSCO 2.0, id pass); GCA_046563285.1 (Harvrad University, BUSCO 99.39, id pass)
 Loriculus vernalis	Loriculus	Psittaculidae_other	True	excluded	1									GCA_043110175.1 (Iridian, BUSCO 61.52, id pass)
 Loriculus philippensis	Loriculus	Psittaculidae_other	True	excluded	1									GCA_042902855.1 (Iridian, BUSCO 51.06, id pass)
 Cyanoramphus novaezelandiae	Cyanoramphus	Psittaculidae_other	True	included	1	GCA_025629965.1	Iridian	Scaffold	1.785e+04	82.38	pass	False	True	GCA_025629965.1 (Iridian, BUSCO 82.38, id pass)

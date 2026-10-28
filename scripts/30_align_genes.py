@@ -1,6 +1,6 @@
 """Codon alignments of the H8 panel genes across the selected genomes (analysis plan §10, Nível 1).
 
-Inputs: results/phase1_audit/species_genomes.tsv (one genome per species, status included*) and, for each chosen
+Inputs: results/phase1_audit/analysis_species.tsv (one genome per species, frozen 2026-10-28) and, for each chosen
 accession, results/phase2_genes/{hits,cds}/<acc>.tsv/.fna from scripts/27_extract_genes.sh.
 Per gene: complete CDS only (missing otherwise), protein alignment with MAFFT L-INS-i, back-translated to codons
 with PAL2NAL; genes with fewer than MIN_SPECIES species are skipped. Sequence names are species with underscores.
@@ -38,7 +38,7 @@ def align(seqs, out):
 
 
 def main():
-    sg = pd.read_csv(ROOT / "results/phase1_audit/species_genomes.tsv", sep="\t")
+    sg = pd.read_csv(ROOT / "results/phase1_audit/analysis_species.tsv", sep="\t")
     sel = sg[sg.status.str.startswith("included")]
     genes = pd.read_csv(ROOT / "data/pilot_genes/canonical_genes.tsv", sep="\t")
     calls, cds = {}, {}

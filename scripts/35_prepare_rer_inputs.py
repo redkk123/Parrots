@@ -4,8 +4,7 @@ Traits (natural-log scale, PGLS-lambda residuals on the supertree, as scripts/05
   rel_log_life_expectancy   already in results/phase0b/species_data_matrix_with_residuals.tsv
   rel_log_brain             log brain mass on log body mass, all species with both (results/phase0/phenotypes.tsv)
   rel_brain_given_le        rel_log_brain on rel_log_life_expectancy (brain "beyond longevity"), species with both
-Master trees: supertree (main) and Smith 2024 (sensitivity), pruned to the selected species (species_genomes.tsv,
-status included*), tips named Genus_species as in the alignments.
+Master trees: supertree (main) and Smith 2024 (sensitivity), pruned to the species of results/phase1_audit/analysis_species.tsv (frozen 2026-10-28), tips named Genus_species as in the alignments.
 Writes results/phase3_genome/{rer_traits.tsv, master_burgio2019.nwk, master_smith2024.nwk}.
 """
 import importlib.util
@@ -39,7 +38,7 @@ def main():
     both = t.dropna(subset=["rel_log_brain", "rel_log_life_expectancy"])
     f_c, r_c, _ = p0b.subset_fit(full, both, "rel_log_brain", ["rel_log_life_expectancy"])
     t["rel_brain_given_le"] = t.tree_tip.map(r_c)
-    sg = pd.read_csv(ROOT / "results/phase1_audit/species_genomes.tsv", sep="\t")
+    sg = pd.read_csv(ROOT / "results/phase1_audit/analysis_species.tsv", sep="\t")
     keep = set(sg.species[sg.status.str.startswith("included")])
     t = t[t.species.isin(keep)].copy()
     t["species_tip"] = t.species.str.replace(" ", "_")

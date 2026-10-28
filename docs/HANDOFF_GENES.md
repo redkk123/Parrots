@@ -2,6 +2,12 @@
 
 Atualizado em 28 out. 2026. Para quem continuar (Angelo, Gemini/Antigravity ou outro agente). Nenhum gene real foi analisado até esta data.
 
+## Estado em 28 out., 14h15
+
+- **Lista congelada:** `results/phase1_audit/analysis_species.tsv`, 58 espécies, 15 Psittaculidae. É a base da análise principal (Histórico do plano, 28 out.).
+- **Etapa de genes rodando** (`parrots-genes`). O BUSCO das 22 montagens restantes volta sozinho depois dela e alimenta a **extensão pré-declarada**: regenerar `analysis_species.tsv` a partir de `species_genomes.tsv`, apagar `results/phase2_genes/DONE` e rodar de novo, uma vez só.
+- **Segunda referência:** painel do kakapo (`kakapo_<GENE>` nas tabelas de chamadas). aBSREL testa o tronco de Psittaculidae e o ramo do periquito.
+
 ## O que roda sozinho
 
 Tudo em serviços do systemd do usuário. O salvamento vai para o GitHub de hora em hora (`scripts/autosave_audit.sh`).

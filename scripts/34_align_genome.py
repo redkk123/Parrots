@@ -1,6 +1,6 @@
 """Genome-wide alignments for RERconverge (analysis plan, 2026-10-28: universe for H6 and the H8 null).
 
-Inputs: results/phase1_audit/species_genomes.tsv (final list, status included*) and data/genome_cds/<acc>.fna.gz from
+Inputs: results/phase1_audit/analysis_species.tsv (species list frozen 2026-10-28) and data/genome_cds/<acc>.fna.gz from
 scripts/27_extract_genes.sh (complete ORFs only). A gene is eligible with a complete ORF in >= 50 % of the species.
 Eligible genes: MAFFT --auto on proteins (L-INS-i is kept for the 101-gene panel only, for cost), PAL2NAL codons.
 Writes data/genome_alignments/{aa/<gene>.fa, codon/<gene>.fa.gz} (local, large) and
@@ -50,7 +50,7 @@ def align(job):
 
 
 def main():
-    sg = pd.read_csv(ROOT / "results/phase1_audit/species_genomes.tsv", sep="\t")
+    sg = pd.read_csv(ROOT / "results/phase1_audit/analysis_species.tsv", sep="\t")
     sel = sg[sg.status.str.startswith("included")]
     cds, n_sp = {}, 0
     for r in sel.itertuples():

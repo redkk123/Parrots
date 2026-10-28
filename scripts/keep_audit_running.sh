@@ -3,9 +3,10 @@
 #  - Relaunches the BUSCO batch and the hourly autosave if they stopped (reboot, crash, power cut).
 #  - Once a week re-downloads the NCBI Psittaciformes report (09_ncbi_assembly_inventory.py --refresh), so assemblies
 #    deposited later for the 105 analysis species enter the queues (14_audit_summary.py, 26_select_genomes.py).
-#  - Does nothing while a batch runs. When every queued assembly is done (or failed 3 times; to retry one, delete its
-#    FAIL lines from logs/12_audit_batch.log), starts the gene stage (scripts/29_gene_batch.sh) until
-#    results/phase2_genes/DONE exists.
+#  - Does nothing while a batch runs (one at a time: 11 GB RAM). The gene stage (scripts/29_gene_batch.sh, frozen list
+#    results/phase1_audit/analysis_species.tsv) has priority until results/phase2_genes/DONE exists; then the audit
+#    of the remaining assemblies resumes (an accession that failed 3 times is skipped; to retry one, delete its FAIL
+#    lines from logs/12_audit_batch.log).
 # Usage: bash scripts/keep_audit_running.sh [--refresh]      Log: logs/keep_audit.log
 cd "$(dirname "$0")/.." || exit 1
 LOG=logs/keep_audit.log
@@ -30,6 +31,14 @@ autosave() {
     || run parrots-autosave bash scripts/autosave_audit.sh || { nohup setsid bash scripts/autosave_audit.sh > /dev/null 2>&1 & }
 }
 if running; then autosave; log "batch running"; exit 0; fi
+genes_running() { systemctl --user -q is-active parrots-genes || pgrep -f '^(/usr/bin/)?bash scripts/29_gene_batch[.]sh' > /dev/null; }
+if genes_running; then autosave; log "gene stage running"; exit 0; fi
+if [ -s results/phase1_audit/analysis_species.tsv ] && [ ! -e results/phase2_genes/DONE ]; then
+  rm -rf data/external/genes_tmp
+  run parrots-genes -p OOMScoreAdjust=800 -p OOMPolicy=continue bash scripts/29_gene_batch.sh \
+    || { nohup setsid bash scripts/29_gene_batch.sh > /dev/null 2>&1 & }
+  autosave; log "gene stage started"; exit 0
+fi
 
 .venv/bin/python scripts/14_audit_summary.py > /dev/null 2>&1; .venv/bin/python scripts/26_select_genomes.py > /dev/null 2>&1
 Q1=results/phase1_audit/audit_queue.tsv; [ -s "$Q1" ] || Q1=data/external/audit_queue.tsv
@@ -37,16 +46,7 @@ Q2=results/phase1_audit/audit_queue_other.tsv   # non-Iridian assemblies still t
 left=$(cut -f1 "$Q1" "$Q2" 2>/dev/null | while read -r a; do
   [ -s "results/phase1_audit/busco/$a/summary.txt" ] || [ "$(grep -c "	$a	.*	FAIL	" logs/12_audit_batch.log)" -ge 3 ] || echo
 done | wc -l)
-if [ "$left" -eq 0 ]; then
-  if [ -e results/phase2_genes/DONE ]; then log "audit and gene stage done"; exit 0; fi
-  if systemctl --user -q is-active parrots-genes || pgrep -f '^(/usr/bin/)?bash scripts/29_gene_batch[.]sh' > /dev/null; then
-    autosave; log "gene stage running"; exit 0
-  fi
-  rm -rf data/external/genes_tmp
-  run parrots-genes -p OOMScoreAdjust=800 -p OOMPolicy=continue bash scripts/29_gene_batch.sh \
-    || { nohup setsid bash scripts/29_gene_batch.sh > /dev/null 2>&1 & }
-  autosave; log "audit done; gene stage started"; exit 0
-fi
+if [ "$left" -eq 0 ]; then log "nothing to audit"; exit 0; fi
 for d in data/external/assemblies/*/; do   # genome interrupted mid-run
   [ -d "$d" ] || continue
   a=$(basename "$d"); rm -rf "$d"

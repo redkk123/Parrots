@@ -3,7 +3,8 @@
 For each tree (supertree = main, Smith 2024 = sensitivity), each alignment from scripts/30_align_genes.py is run with
   RELAX   TEST = stem of Psittaculidae + its internal branches; REFERENCE = every branch outside Psittaculidae;
           Psittaculidae terminal branches unlabelled (plan wording: "tronco de Psittaculidae + ramos internos");
-  aBSREL  the Psittaculidae stem only.
+  aBSREL  the Psittaculidae stem and the Melopsittacus terminal branch (H8c, item 4: stem vs Melopsittacus only;
+          Holm correction across the two tested branches, as aBSREL does).
 Zero-length internal branches are kept (--kill-zero-lengths No), so a short stem is never dropped from the test.
 Psittaculidae = genera in scripts/26_select_genomes.py. A gene is skipped on a tree when it has < 2 Psittaculidae or
 < 2 other species, or when the Psittaculidae present are not monophyletic on that tree.
@@ -59,7 +60,8 @@ def tree_for(full, tip_of, species):
     reference = set(range(len(t.parent))) - inside - {t.root}
     names = {t.label[n]: tips[t.label[n]] for n in t.tips()}
     relax = {**{n: "TEST" for n in test}, **{n: "REFERENCE" for n in reference}}
-    return {"relax": labelled_newick(t, names, relax), "absrel": labelled_newick(t, names, {crown: "FG"})}, "ok"
+    fg = {crown: "FG", **{n: "FG" for n in t.tips() if names[t.label[n]] == "Melopsittacus_undulatus"}}
+    return {"relax": labelled_newick(t, names, relax), "absrel": labelled_newick(t, names, fg)}, "ok"
 
 
 def main():

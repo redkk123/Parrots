@@ -36,10 +36,14 @@ def relax_row(js):
 
 
 def absrel_row(js):
+    """Corrected p of the tested branches: the internal one is the Psittaculidae stem, the tip is Melopsittacus."""
     d = json.load(open(js))
-    br = [v for v in d["branch attributes"]["0"].values() if "Corrected P-value" in v and v.get("Corrected P-value") is not None]
-    p = min((v["Corrected P-value"] for v in br), default=np.nan)
-    return {"absrel_stem_p": p}
+    tested = [k for k, v in d["tested"]["0"].items() if v == "test"]
+    p = {k: d["branch attributes"]["0"][k].get("Corrected P-value") for k in tested}
+    stem = [v for k, v in p.items() if k != "Melopsittacus_undulatus"]
+    return {"absrel_stem_p": stem[0] if stem and stem[0] is not None else np.nan,
+            "absrel_melopsittacus_p": p.get("Melopsittacus_undulatus") if p.get("Melopsittacus_undulatus") is not None
+            else np.nan}
 
 
 def heterogeneity(df, col, stat):
@@ -68,8 +72,9 @@ def main():
         t["log2_k"] = np.log2(t.k.clip(lower=1e-3))
         t["relaxed"] = (t.relax_q < Q) & (t.k < 1)
         t["intensified"] = (t.relax_q < Q) & (t.k > 1)
-        if "absrel_stem_p" in t:
-            t["absrel_stem_q"] = t.groupby("tree").absrel_stem_p.transform(lambda p: bh(p.fillna(1)))
+        for col in ("absrel_stem_p", "absrel_melopsittacus_p"):
+            if col in t:
+                t[col.replace("_p", "_q")] = t.groupby("tree")[col].transform(lambda p: bh(p.fillna(1)))
         t.to_csv(G / "h8_relax_by_gene.tsv", sep="\t", index=False, float_format="%.4g")
         for tree, d in t.groupby("tree"):
             m = d.groupby("module").agg(n_genes=("gene", "size"), prop_relaxed=("relaxed", "mean"),
