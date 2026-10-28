@@ -1,0 +1,58 @@
+species	rel_log_life_expectancy	rel_log_brain	rel_brain_given_le	species_tip	clade
+Lorius lory	0.082474	-0.007933	-0.061293	Lorius_lory	Psittaculidae
+Lorius garrulus	-0.19878	0.0034102	-0.038824	Lorius_garrulus	Psittaculidae
+Lorius chlorocercus	0.2123			Lorius_chlorocercus	Psittaculidae
+Trichoglossus euteles	-0.09218			Trichoglossus_euteles	Psittaculidae
+Melopsittacus undulatus	-0.28789	-0.42703	-0.46574	Melopsittacus_undulatus	Psittaculidae
+Agapornis lilianae	-0.049489	-0.12437	-0.17251	Agapornis_lilianae	Psittaculidae
+Agapornis personatus	-0.19756	-0.066586	-0.10887	Agapornis_personatus	Psittaculidae
+Agapornis canus	-0.047675	-0.26945	-0.31766	Agapornis_canus	Psittaculidae
+Cyanoramphus novaezelandiae	-0.33092	-0.13596	-0.17297	Cyanoramphus_novaezelandiae	Psittaculidae
+Lathamus discolor	-0.69084	-0.076856	-0.099626	Lathamus_discolor	Psittaculidae
+Platycercus adscitus	-0.14674	-0.0924	-0.13669	Platycercus_adscitus	Psittaculidae
+Psephotus haematonotus	-0.1533	-0.21666	-0.2607	Psephotus_haematonotus	Psittaculidae
+Neopsephotus bourkii	-0.079625	-0.42828	-0.47522	Neopsephotus_bourkii	Psittaculidae
+Psittacula derbiana	-0.20781	-0.0031737	-0.045051	Psittacula_derbiana	Psittaculidae
+Amazona aestiva	0.43677	-0.071521	-0.1389	Amazona_aestiva	rest
+Amazona finschi	0.66663	-0.058095	-0.13456	Amazona_finschi	rest
+Amazona vinacea	-0.024384	0.01821	-0.030923	Amazona_vinacea	rest
+Brotogeris tirica	0.011494	0.070921	0.020369	Brotogeris_tirica	rest
+Myiopsitta monachus	-0.21184	0.12023	0.078512	Myiopsitta_monachus	rest
+Eupsittula nana	0.40809	0.30775	0.24151	Eupsittula_nana	rest
+Eupsittula pertinax	0.36271	0.14508	0.080637	Eupsittula_pertinax	rest
+Psittacara holochlorus	0.40457	0.17817	0.11207	Psittacara_holochlorus	rest
+Psittacara wagleri	0.3577			Psittacara_wagleri	rest
+Psittacara leucophthalmus	0.52822	0.093748	0.022755	Psittacara_leucophthalmus	rest
+Ara ararauna	0.22991	0.16711	0.10791	Ara_ararauna	rest
+Ara rubrogenys	0.37255	0.25647	0.19164	Ara_rubrogenys	rest
+Ara ambiguus	0.25279	0.066553	0.0064557	Ara_ambiguus	rest
+Primolius auricollis	0.4098	0.23406	0.16775	Primolius_auricollis	rest
+Primolius couloni	0.22351			Primolius_couloni	rest
+Aratinga auricapillus	0.37401	0.094078	0.029185	Aratinga_auricapillus	rest
+Aratinga solstitialis	0.10501	0.26428	0.21002	Aratinga_solstitialis	rest
+Psittacara acuticaudatus	0.49872	0.13397	0.06414	Psittacara_acuticaudatus	rest
+Diopsittaca nobilis	0.3426	0.29108	0.22743	Diopsittaca_nobilis	rest
+Guaruba guarouba	0.21064	0.24208	0.18365	Guaruba_guarouba	rest
+Cyanoliseus patagonus	0.25153	0.20293	0.14288	Cyanoliseus_patagonus	rest
+Rhynchopsitta pachyrhyncha	-0.12791	0.41924	0.37421	Rhynchopsitta_pachyrhyncha	rest
+Pyrrhura leucotis	0.60028	0.061166	-0.012678	Pyrrhura_leucotis	rest
+Pyrrhura griseipectus	0.18367			Pyrrhura_griseipectus	rest
+Pionites melanocephalus	0.36167	0.15315	0.088743	Pionites_melanocephalus	rest
+Deroptyus accipitrinus	0.21507	0.24569	0.18709	Deroptyus_accipitrinus	rest
+Psilopsiagon aymara	-0.33559	-0.12634	-0.16317	Psilopsiagon_aymara	rest
+Psilopsiagon aurifrons	-0.16348	-0.1842	-0.22783	Psilopsiagon_aurifrons	rest
+Bolborhynchus lineola	0.025416	-0.014278	-0.065382	Bolborhynchus_lineola	rest
+Poicephalus gulielmi	0.21491	0.19733	0.13873	Poicephalus_gulielmi	rest
+Poicephalus senegalus	0.53268	0.13861	0.067438	Poicephalus_senegalus	rest
+Poicephalus rueppellii	0.11983			Poicephalus_rueppellii	rest
+Psittacus erithacus	0.24323	0.009505	-0.050215	Psittacus_erithacus	rest
+Psittacus timneh	0.12353			Psittacus_timneh	rest
+Cacatua ducorpsii	0.1028	0.22387	0.1697	Cacatua_ducorpsii	rest
+Cacatua sanguinea	0.77868	0.19337	0.11247	Cacatua_sanguinea	rest
+Cacatua moluccensis	0.027152	0.19704	0.14586	Cacatua_moluccensis	rest
+Cacatua alba	0.32654	0.32697	0.26395	Cacatua_alba	rest
+Cacatua sulphurea	0.38938	0.26077	0.19527	Cacatua_sulphurea	rest
+Cacatua galerita	0.44987	0.22888	0.16098	Cacatua_galerita	rest
+Eolophus roseicapilla	0.21788	-0.11186	-0.17057	Eolophus_roseicapilla	rest
+Nymphicus hollandicus	-0.0010923	-0.25796	-0.30801	Nymphicus_hollandicus	rest
+Nestor notabilis	-0.25301	0.20859	0.1685	Nestor_notabilis	rest
