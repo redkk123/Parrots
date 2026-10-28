@@ -1,0 +1,64 @@
+{
+ "accession": "GCA_051622115.1",
+ "claimed": "Agapornis fischeri",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "CM121528.1": {
+   "len": 67337151,
+   "gc": 44.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Agapornis_roseicollis",
+     "top_pid": 90.559,
+     "claimed_pid": 90.258
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 86.051,
+     "claimed_pid": 84.904
+    }
+   }
+  },
+  "CM121515.1": {
+   "len": 77073555,
+   "gc": 40.9,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Eos_histrio",
+     "top_pid": 85.317,
+     "claimed_pid": 84.453
+    },
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 86.88,
+     "claimed_pid": 86.246
+    }
+   }
+  },
+  "CM121510.1": {
+   "len": 104428388,
+   "gc": 40.5,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Trichoglossus_rosenbergii",
+     "top_pid": 88.326,
+     "claimed_pid": 85.588
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": null,
+ "overall": "no_reliable_mito"
+}

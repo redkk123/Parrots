@@ -1,0 +1,308 @@
+{
+ "accession": "GCA_047054915.1",
+ "claimed": "Neophema chrysogaster",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBHECO010000524.1": {
+   "len": 71004,
+   "gc": 48.4,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBHECO010000823.1": {
+   "len": 49114,
+   "gc": 48.2,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBHECO010001088.1": {
+   "len": 39526,
+   "gc": 48.4,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBHECO010001245.1": {
+   "len": 35370,
+   "gc": 48.0,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBHECO010001486.1": {
+   "len": 30019,
+   "gc": 48.3,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBHECO010001289.1": {
+   "len": 34114,
+   "gc": 48.0,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBHECO010001665.1": {
+   "len": 26575,
+   "gc": 48.3,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 99.912,
+     "claimed_pid": 99.912
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBHECO010001619.1": {
+   "len": 27527,
+   "gc": 48.2,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBHECO010001903.1": {
+   "len": 18099,
+   "gc": 47.4,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBHECO010001854.1": {
+   "len": 21835,
+   "gc": 49.2,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBHECO010001846.1": {
+   "len": 22059,
+   "gc": 49.2,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBHECO010001965.1": {
+   "len": 15017,
+   "gc": 48.6,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Neophema_chrysogaster",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBHECO010000006.1": {
+   "len": 89420300,
+   "gc": 42.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 86.79,
+     "claimed_pid": 82.901
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}

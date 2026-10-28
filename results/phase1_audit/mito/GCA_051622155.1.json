@@ -1,0 +1,61 @@
+{
+ "accession": "GCA_051622155.1",
+ "claimed": "Agapornis roseicollis",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "CM121538.1": {
+   "len": 85269998,
+   "gc": 41.6,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Agapornis_roseicollis",
+     "top_pid": 98.942,
+     "claimed_pid": 98.942
+    },
+    "COX1": {
+     "class": "own",
+     "top_species": "Agapornis_roseicollis",
+     "top_pid": 99.147,
+     "claimed_pid": 99.147
+    }
+   }
+  },
+  "CM121553.1": {
+   "len": 42069667,
+   "gc": 43.9,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 85.855,
+     "claimed_pid": 80.962
+    }
+   }
+  },
+  "CM121534.1": {
+   "len": 149423965,
+   "gc": 42.2,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Trichoglossus_rosenbergii",
+     "top_pid": 88.546,
+     "claimed_pid": 86.696
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 99.147,
+ "overall": "confirmed"
+}

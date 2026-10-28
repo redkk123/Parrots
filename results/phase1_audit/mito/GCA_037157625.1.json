@@ -1,0 +1,28 @@
+{
+ "accession": "GCA_037157625.1",
+ "claimed": "Lathamus discolor",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "CM073784.1": {
+   "len": 128186114,
+   "gc": 41.1,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Cyanoramphus_auriceps",
+     "top_pid": 88.782,
+     "claimed_pid": 87.817
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": null,
+ "overall": "no_reliable_mito"
+}

@@ -1,0 +1,50 @@
+{
+ "accession": "GCA_056825465.1",
+ "claimed": "Cyclopsitta diophthalma",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBWNTY010404645.1": {
+   "len": 16051,
+   "gc": 46.6,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Cyclopsitta_diophthalma",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Cyclopsitta_diophthalma",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JBWNTY010410653.1": {
+   "len": 1058,
+   "gc": 46.3,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Cyclopsitta_diophthalma",
+     "top_pid": 98.879,
+     "claimed_pid": 98.879
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}
