@@ -17,6 +17,7 @@ pass() {
   git add results/phase1_audit/audit_table.tsv results/phase1_audit/species_genomes.tsv \
     results/phase1_audit/audit_queue_other.tsv results/phase1_audit/mito logs/1*_batch.log
   for d in results/phase1_audit/busco/*/; do [ -s "$d/summary.txt" ] && git add "$d"; done
+  for p in results/phase2_genes logs/29_gene_batch.log logs/27_extract_genes.time.log; do [ -e "$p" ] && git add "$p"; done
   if git diff --cached --quiet; then
     echo "$(date -Is) nothing new" >> "$LOG"
     return
@@ -25,7 +26,8 @@ pass() {
   left=$(cut -f1 results/phase1_audit/audit_queue.tsv results/phase1_audit/audit_queue_other.tsv 2>/dev/null \
     | while read -r a; do [ -s "results/phase1_audit/busco/$a/summary.txt" ] || echo; done | wc -l)
   tot=$(( n + left ))   # the non-Iridian queue only lists what is still to audit
-  git commit -q -m "Audit autosave: BUSCO ${n}/${tot}
+  k=$(ls results/phase2_genes/hits/*.tsv 2>/dev/null | wc -l)
+  git commit -q -m "Audit autosave: BUSCO ${n}/${tot}; genes extracted ${k}
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" \
     && git push -q origin "$BRANCH" \
@@ -34,7 +36,8 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" \
 }
 
 if [ "${1:-}" = "--once" ]; then pass; exit; fi
-while pgrep -f '[1]2_audit_batch.sh' > /dev/null || pgrep -f '[1]6_mash_batch.sh' > /dev/null; do
+while pgrep -f '[1]2_audit_batch.sh' > /dev/null || pgrep -f '[1]6_mash_batch.sh' > /dev/null \
+  || pgrep -f '[2]9_gene_batch.sh' > /dev/null; do
   pass
   sleep 3600
 done
