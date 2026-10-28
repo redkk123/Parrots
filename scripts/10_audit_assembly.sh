@@ -7,6 +7,9 @@
 # The FASTA is downloaded to data/external/assemblies/<acc>/ and deleted afterwards (disk budget).
 # Completeness: compleasm (miniprot + hmmsearch) with BUSCO aves_odb10, as fixed in the protocol
 # (compleasm >= 0.2.7 defaults to odb12, so --odb odb10 is passed explicitly).
+# Chromosome-scale assemblies (longest sequence > 20 Mb) are cut into 5 Mb windows overlapping by 500 kb before
+# compleasm: miniprot memory grows with sequence length and passed 10 GB (OOM on 11 GB RAM) on 100-200 Mb chromosomes.
+# Genes in an overlap are found twice, so S moves to D; C = S + D is unaffected.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 ACC=$1; SP=$2; T=${3:-8}
@@ -24,7 +27,13 @@ fi
 [ -s "$OUT/seqkit_stats.tsv" ] || seqkit stats -a -T -j "$T" "$TMP/genome.fna" > "$OUT/seqkit_stats.tsv"
 [ -s "$MITO" ] || .venv/bin/python scripts/11_mito_identity.py "$ACC" "$TMP/genome.fna" "$SP" > "$OUT/mito.log"
 if [ ! -s "$OUT/summary.txt" ]; then
-  /usr/bin/time -v compleasm run -a "$TMP/genome.fna" -o "$OUT/run" -l aves --odb odb10 -L "$LIB" -t "$T" \
+  rm -rf "$OUT/run"   # a killed run leaves partial miniprot output that compleasm would reuse
+  GEN=$TMP/genome.fna
+  if [ "$(awk -F'\t' 'NR==2{print $8}' "$OUT/seqkit_stats.tsv")" -gt 20000000 ]; then
+    seqkit sliding -g -W 5000000 -s 4500000 -j "$T" "$GEN" > "$TMP/windows.fna"
+    GEN=$TMP/windows.fna; echo "windows 5 Mb / overlap 500 kb" > "$OUT/chunked.txt"
+  fi
+  /usr/bin/time -v compleasm run -a "$GEN" -o "$OUT/run" -l aves --odb odb10 -L "$LIB" -t "$T" \
     2> "$OUT/time.txt" > "$OUT/compleasm.log"
   cp "$OUT/run/summary.txt" "$OUT/summary.txt"
   cp "$OUT/run/aves_odb10/full_table.tsv" "$OUT/full_table.tsv" 2>/dev/null || true

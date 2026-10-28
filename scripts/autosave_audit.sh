@@ -22,7 +22,9 @@ pass() {
     return
   fi
   n=$(ls results/phase1_audit/busco/*/summary.txt 2>/dev/null | wc -l)
-  tot=$(cat results/phase1_audit/audit_queue.tsv results/phase1_audit/audit_queue_other.tsv 2>/dev/null | wc -l)
+  left=$(cut -f1 results/phase1_audit/audit_queue.tsv results/phase1_audit/audit_queue_other.tsv 2>/dev/null \
+    | while read -r a; do [ -s "results/phase1_audit/busco/$a/summary.txt" ] || echo; done | wc -l)
+  tot=$(( n + left ))   # the non-Iridian queue only lists what is still to audit
   git commit -q -m "Audit autosave: BUSCO ${n}/${tot}
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" \
