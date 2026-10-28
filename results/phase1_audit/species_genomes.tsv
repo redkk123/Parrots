@@ -99,7 +99,7 @@ Cacatua moluccensis	Cacatua	other_Psittaciformes	False	included	1	GCA_025448035.
 Cacatua alba	Cacatua	other_Psittaciformes	False	included	1	GCA_024361745.1	Iridian	Scaffold	1.624e+04	79.98	pass	False	True	GCA_024361745.1 (Iridian, BUSCO 79.98, id pass)
 Cacatua sulphurea	Cacatua	other_Psittaciformes	False	included	1	GCA_031762475.1	Iridian	Scaffold	2.764e+04	85.35	pass	True	True	GCA_031762475.1 (Iridian, BUSCO 85.35, id pass)
 Cacatua galerita	Cacatua	other_Psittaciformes	False	included	1	GCA_035583095.1	Iridian	Scaffold	2.301e+04	81.16	pass	False	True	GCA_035583095.1 (Iridian, BUSCO 81.16, id pass)
-Eolophus roseicapilla	Eolophus	other_Psittaciformes	False	pending	2									GCA_040207695.1 (Iridian, BUSCO 2.71, id check_nuclear); GCA_013397615.1 (B10K Consortium, BUSCO nan, id pass_provenance)
+Eolophus roseicapilla	Eolophus	other_Psittaciformes	False	included	2	GCA_013397615.1	B10K Consortium	Scaffold	2.174e+04	93.83	pass_provenance	True	False	GCA_040207695.1 (Iridian, BUSCO 2.71, id check_nuclear); GCA_013397615.1 (B10K Consortium, BUSCO 93.83, id pass_provenance)
 Probosciger aterrimus	Probosciger	other_Psittaciformes	False	pending	2									GCA_024678265.1 (Iridian, BUSCO 36.16, id pass); GCA_013397665.1 (B10K Consortium, BUSCO nan, id pending)
 Zanda funerea	Zanda	other_Psittaciformes	False	excluded	1									GCA_043109885.1 (Iridian, BUSCO 59.15, id pass)
 Nymphicus hollandicus	Nymphicus	other_Psittaciformes	False	included	1	GCA_009823435.2	Iridian	Scaffold	1.589e+04	77.18	pass_nuclear_placement	False	False	GCA_009823435.2 (Iridian, BUSCO 77.18, id pass_nuclear_placement)
