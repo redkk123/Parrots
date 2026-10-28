@@ -41,7 +41,7 @@ Amazona guildingii	Amazona	other_Psittaciformes	False	pending	2									GCA_0347
 Amazona vittata	Amazona	other_Psittaciformes	False	pending	1									GCA_980694505.1 (institute for systems genomics, BUSCO nan, id pending)
 Amazona ventralis	Amazona	other_Psittaciformes	False	excluded	1									GCA_032360045.1 (Iridian, BUSCO 0.86, id unresolved)
 Amazona vinacea	Amazona	other_Psittaciformes	False	included	1	GCA_026283615.1	Iridian	Scaffold	1.755e+04	79.34	pass_nuclear_placement	False	False	GCA_026283615.1 (Iridian, BUSCO 79.34, id pass_nuclear_placement)
-Amazona leucocephala	Amazona	other_Psittaciformes	False	pending	1									GCA_026283665.1 (Iridian, BUSCO nan, id pass)
+Amazona leucocephala	Amazona	other_Psittaciformes	False	excluded	1									GCA_026283665.1 (Iridian, BUSCO 69.49, id pass)
 Amazona ochrocephala	Amazona	other_Psittaciformes	False	pending	2									GCA_032360005.1 (Iridian, BUSCO 8.16, id pass); GCA_039720435.1 (Vertebrate Genomes Project, BUSCO nan, id pending)
 Triclaria malachitacea	Triclaria	other_Psittaciformes	False	excluded	1									GCA_047535115.1 (Iridian, BUSCO 0.01, id check_nuclear)
 Brotogeris pyrrhoptera	Brotogeris	other_Psittaciformes	False	excluded	1									GCA_041108055.1 (Iridian, BUSCO 45.39, id pass)
