@@ -17,7 +17,11 @@ OUT=results/phase2_genes; TMP=data/external/genes_tmp/$ACC
 if [ -s "$OUT/hits/$ACC.tsv" ] && [ -s "results/phase3_genome/calls/$ACC.tsv.gz" ]; then echo "$ACC done"; exit 0; fi
 mkdir -p "$TMP"
 if [ ! -s "$TMP/genome.fna" ]; then
-  datasets download genome accession "$ACC" --include genome --filename "$TMP/pkg.zip" --no-progressbar
+  for try in 1 2 3 4 5 6; do   # NCBI API outages are common; wait instead of failing the genome
+    datasets download genome accession "$ACC" --include genome --filename "$TMP/pkg.zip" --no-progressbar && break
+    rm -f "$TMP/pkg.zip"; [ "$try" -lt 6 ] && sleep 300
+  done
+  [ -s "$TMP/pkg.zip" ] || { echo "$ACC download failed"; exit 1; }
   unzip -p "$TMP/pkg.zip" 'ncbi_dataset/data/*/*.fna' > "$TMP/genome.fna.part"
   mv "$TMP/genome.fna.part" "$TMP/genome.fna"; rm "$TMP/pkg.zip"
 fi
