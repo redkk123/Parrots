@@ -18,13 +18,24 @@ t = pd.read_csv("results/phase1_audit/analysis_species.tsv", sep="\t")
 for r in t.itertuples():
     print(f"{r.accession}\t{r.species}")
 EOF
+todo=()   # accession<TAB>species still to extract; the next genome is downloaded while the current one runs
 while IFS=$'\t' read -r acc sp; do
   if [ "$(grep -c "	$acc	.*	FAIL	" "$LOG" 2>/dev/null)" -ge 3 ]; then continue; fi
   [ -s "results/phase2_genes/hits/$acc.tsv" ] && [ -s "results/phase3_genome/calls/$acc.tsv.gz" ] && continue
+  todo+=("$acc	$sp")
+done < "$Q"
+for i in "${!todo[@]}"; do
+  IFS=$'\t' read -r acc sp <<< "${todo[$i]}"
+  if [ $((i + 1)) -lt ${#todo[@]} ]; then
+    IFS=$'\t' read -r nacc nsp <<< "${todo[$((i + 1))]}"
+    nice -n 19 bash scripts/27_extract_genes.sh "$nacc" "$nsp" 2 --download-only < /dev/null >> "$LOG.detail" 2>&1 &
+    pre=$!
+  else pre=""; fi
   start=$(date +%s)
   if nice -n 19 bash scripts/27_extract_genes.sh "$acc" "$sp" 8 < /dev/null >> "$LOG.detail" 2>&1; then st=ok; else st=FAIL; rm -rf "data/external/genes_tmp/$acc"; fi
   echo -e "$(date -Is)\t$acc\t$sp\t$st\t$(( $(date +%s) - start ))s" | tee -a "$LOG"
-done < "$Q"
+  [ -n "$pre" ] && wait "$pre"
+done
 .venv/bin/python scripts/30_align_genes.py >> "$LOG" 2>&1 || { echo "$(date -Is) alignment FAILED" >> "$LOG"; exit 1; }
 .venv/bin/python scripts/34_align_genome.py >> "$LOG" 2>&1 || echo "$(date -Is) genome alignment FAILED" >> "$LOG"
 .venv/bin/python scripts/35_prepare_rer_inputs.py >> "$LOG" 2>&1

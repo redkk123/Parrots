@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Extract the Melopsittacus canonical proteome (data/genome_genes, 16,045 genes incl. the 101 H8 panel genes) from one
 # assembly in a single miniprot run (scripts/33_prepare_proteome.py builds the query set).
-# Usage: scripts/27_extract_genes.sh <GCA_accession> "<species>" [threads]
+# Usage: scripts/27_extract_genes.sh <GCA_accession> "<species>" [threads] [--download-only]   (prefetch)
 # Download -> (chromosome-scale: 5 Mb windows overlapping by 500 kb, as in 10_audit_assembly.sh) -> split into parts of
 # ~150 Mb, miniprot (vertebrate splice model) on one part at a time (a whole genome needs ~7 GB; a 142 Mb part used
 # 2.0 GB in a test), IDs prefixed per part -> scripts/28_parse_miniprot.py on all parts. The genome is deleted after.
@@ -21,6 +21,7 @@ if [ ! -s "$TMP/genome.fna" ]; then
   unzip -p "$TMP/pkg.zip" 'ncbi_dataset/data/*/*.fna' > "$TMP/genome.fna.part"
   mv "$TMP/genome.fna.part" "$TMP/genome.fna"; rm "$TMP/pkg.zip"
 fi
+[ "${4:-}" = "--download-only" ] && exit 0
 GEN=$TMP/genome.fna
 if [ "$(seqkit stats -T "$GEN" | awk -F'\t' 'NR==2{print $8}')" -gt 20000000 ]; then
   seqkit sliding -g -W 5000000 -s 4500000 -j "$T" "$GEN" > "$TMP/windows.fna"; GEN=$TMP/windows.fna

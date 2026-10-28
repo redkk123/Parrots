@@ -9,12 +9,13 @@ Zero-length internal branches are kept (--kill-zero-lengths No), so a short stem
 Psittaculidae = genera in scripts/26_select_genomes.py. A gene is skipped on a tree when it has < 2 Psittaculidae or
 < 2 other species, or when the Psittaculidae present are not monophyletic on that tree.
 JSON: results/phase2_genes/hyphy/<tree>/<gene>.<test>.json (gitignored). Resumable. Threads: HYPHY_CPU (default 4).
-Usage: 31_selection_tests.py [gene ...]     (default: every alignment)
+Usage: 31_selection_tests.py [gene ...]     (default: every alignment). HYPHY_JOBS runs in parallel (default 2).
 """
 import importlib.util
 import os
 import subprocess
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import pandas as pd
@@ -64,9 +65,25 @@ def tree_for(full, tip_of, species):
     return {"relax": labelled_newick(t, names, relax), "absrel": labelled_newick(t, names, fg)}, "ok"
 
 
+def run(test, args, aln, out, g, log_row):
+    js = out / f"{g}.{test}.json"
+    if js.exists():
+        return
+    r = subprocess.run([HYPHY, f"CPU={CPU}", test, "--alignment", aln, "--tree", out / f"{g}.{test}.nwk",
+                        *args, "--kill-zero-lengths", "No",
+                        "--output", js.with_suffix(".tmp")], capture_output=True, text=True,
+                       cwd=out)  # HyPhy writes errors.log / messages.log in its working directory
+    if r.returncode == 0 and js.with_suffix(".tmp").exists():
+        js.with_suffix(".tmp").replace(js)
+    else:
+        log_row[f"{test}_error"] = (r.stderr or r.stdout)[-300:].replace("\n", " ")
+    print(out.name, g, test, "ok" if js.exists() else "FAILED", flush=True)
+
+
 def main():
     genes = sys.argv[1:] or sorted(p.name.split(".")[0] for p in (G / "alignments").glob("*.codon.fasta"))
     log = []
+    pool = ThreadPoolExecutor(int(os.environ.get("HYPHY_JOBS", "2")))  # HyPhy runs in parallel, CPU threads each
     for name, (tp, mp) in TREES.items():
         full = Tree.from_newick(tp.read_text())
         m = pd.read_csv(mp, sep="\t")
@@ -84,18 +101,8 @@ def main():
                 (out / f"{g}.{test}.nwk").write_text(text)
             for test, args in (("relax", ["--test", "TEST", "--reference", "REFERENCE", "--models", "Minimal"]),
                                ("absrel", ["--branches", "FG"])):
-                js = out / f"{g}.{test}.json"
-                if js.exists():
-                    continue
-                r = subprocess.run([HYPHY, f"CPU={CPU}", test, "--alignment", aln, "--tree", out / f"{g}.{test}.nwk",
-                                    *args, "--kill-zero-lengths", "No",
-                                    "--output", js.with_suffix(".tmp")], capture_output=True, text=True,
-                                   cwd=out)  # HyPhy writes errors.log / messages.log in its working directory
-                if r.returncode == 0 and js.with_suffix(".tmp").exists():
-                    js.with_suffix(".tmp").replace(js)
-                else:
-                    log[-1][f"{test}_error"] = (r.stderr or r.stdout)[-300:].replace("\n", " ")
-                print(name, g, test, "ok" if js.exists() else "FAILED", flush=True)
+                pool.submit(run, test, args, aln, out, g, log[-1])  # queued in order: main tree first
+    pool.shutdown(wait=True)
     pd.DataFrame(log).to_csv(G / "selection_tests_log.tsv", sep="\t", index=False)
 
 
