@@ -1,0 +1,9 @@
+# compleasm version is: 0.2.10
+# The lineage dataset is: aves_odb10 (Creation date: 2024-01-08, number of genomes: 62, number of BUSCOs: 8338)
+## lineage: aves_odb10
+S:88.92%, 7413
+D:8.77%, 731
+F:1.00%, 83
+I:0.00%, 0
+M:1.32%, 110
+N:8337
