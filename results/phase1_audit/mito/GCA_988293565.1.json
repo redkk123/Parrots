@@ -1,0 +1,134 @@
+{
+ "accession": "GCA_988293565.1",
+ "claimed": "Agapornis nigrigenis",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "CGBOBQ010000183.1": {
+   "len": 12472,
+   "gc": 49.2,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Agapornis_fischeri",
+     "top_pid": 99.208,
+     "claimed_pid": 98.837
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Agapornis_nigrigenis",
+     "top_pid": 99.196,
+     "claimed_pid": 99.196
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Agapornis_fischeri",
+     "top_pid": 98.726,
+     "claimed_pid": 98.726
+    }
+   }
+  },
+  "CGBOBQ010000003.1": {
+   "len": 4465,
+   "gc": 47.6,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Agapornis_fischeri",
+     "top_pid": 98.732,
+     "claimed_pid": 98.643
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Agapornis_fischeri",
+     "top_pid": 98.558,
+     "claimed_pid": 98.558
+    }
+   }
+  },
+  "CGBOBQ010000220.1": {
+   "len": 7048,
+   "gc": 46.3,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Agapornis_fischeri",
+     "top_pid": 99.208,
+     "claimed_pid": 98.837
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Agapornis_fischeri",
+     "top_pid": 98.782,
+     "claimed_pid": 98.782
+    }
+   }
+  },
+  "OZ561914.1": {
+   "len": 80622196,
+   "gc": 41.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Eos_histrio",
+     "top_pid": 85.413,
+     "claimed_pid": 84.549
+    },
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 87.045,
+     "claimed_pid": 86.514
+    }
+   }
+  },
+  "CGBOBQ010000269.1": {
+   "len": 4782,
+   "gc": 50.5,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Agapornis_fischeri",
+     "top_pid": 98.558,
+     "claimed_pid": 98.558
+    }
+   }
+  },
+  "OZ561913.1": {
+   "len": 107617378,
+   "gc": 40.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Trichoglossus_rosenbergii",
+     "top_pid": 88.326,
+     "claimed_pid": 85.588
+    }
+   }
+  },
+  "CGBOBQ010000281.1": {
+   "len": 4540,
+   "gc": 45.2,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Agapornis_fischeri",
+     "top_pid": 98.507,
+     "claimed_pid": 98.507
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 99.196,
+ "overall": "confirmed"
+}

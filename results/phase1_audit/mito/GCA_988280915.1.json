@@ -1,0 +1,62 @@
+{
+ "accession": "GCA_988280915.1",
+ "claimed": "Psittacula krameri",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "CGBMNT010000119.1": {
+   "len": 12523,
+   "gc": 46.5,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Psittacula_eques",
+     "top_pid": 99.896,
+     "claimed_pid": 99.857
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Psittacula_krameri",
+     "top_pid": 99.904,
+     "claimed_pid": 99.904
+    }
+   }
+  },
+  "CGBMNT010000108.1": {
+   "len": 21952,
+   "gc": 43.9,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Psittacula_krameri",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "CGBMNT010000144.1": {
+   "len": 8175,
+   "gc": 49.0,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Psittacula_krameri",
+     "top_pid": 99.912,
+     "claimed_pid": 99.912
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}

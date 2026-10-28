@@ -1,0 +1,98 @@
+{
+ "accession": "GCA_000400695.1",
+ "claimed": "Ara macao",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "CM002021.1": {
+   "len": 16970,
+   "gc": 46.9,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Ara_macao",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Ara_macao",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Ara_macao",
+     "top_pid": 99.904,
+     "claimed_pid": 99.904
+    }
+   }
+  },
+  "KE101811.1": {
+   "len": 25697,
+   "gc": 38.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 88.942,
+     "claimed_pid": 88.184
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 85.896,
+     "claimed_pid": 82.665
+    }
+   }
+  },
+  "KE039630.1": {
+   "len": 3503,
+   "gc": 31.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 88.576,
+     "claimed_pid": 87.5
+    }
+   }
+  },
+  "AOUJ01411531.1": {
+   "len": 5023,
+   "gc": 41.2,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 95.213,
+     "claimed_pid": 90.303
+    }
+   }
+  },
+  "KE107073.1": {
+   "len": 9377,
+   "gc": 38.5,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_sordidus",
+     "top_pid": 89.109,
+     "claimed_pid": 84.163
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}
