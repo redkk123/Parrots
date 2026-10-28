@@ -1,0 +1,256 @@
+{
+ "accession": "GCA_013397615.1",
+ "claimed": "Eolophus roseicapilla",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "WBNI01005574.1": {
+   "len": 17208,
+   "gc": 40.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aymara",
+     "top_pid": 85.965,
+     "claimed_pid": 83.158
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 82.673,
+     "claimed_pid": 79.981
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 77.149,
+     "claimed_pid": 75.604
+    }
+   }
+  },
+  "WBNI01006083.1": {
+   "len": 14489,
+   "gc": 43.3,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psilopsiagon_aymara",
+     "top_pid": 88.07,
+     "claimed_pid": 84.716
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Neophema_pulchella",
+     "top_pid": 86.515,
+     "claimed_pid": 82.093
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 80.798,
+     "claimed_pid": 78.349
+    }
+   }
+  },
+  "WBNI01008300.1": {
+   "len": 6933,
+   "gc": 46.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittacella_brehmii",
+     "top_pid": 87.719,
+     "claimed_pid": 84.737
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Eolophus_roseicapilla",
+     "top_pid": 81.592,
+     "claimed_pid": 81.592
+    }
+   }
+  },
+  "WBNI01009639.1": {
+   "len": 4439,
+   "gc": 42.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 86.316,
+     "claimed_pid": 84.357
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_guatemalae",
+     "top_pid": 75.495,
+     "claimed_pid": 74.831
+    }
+   }
+  },
+  "WBNI01007404.1": {
+   "len": 9344,
+   "gc": 47.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 86.463,
+     "claimed_pid": 83.333
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_kawalli",
+     "top_pid": 74.065,
+     "claimed_pid": 71.588
+    }
+   }
+  },
+  "WBNI01011286.1": {
+   "len": 1978,
+   "gc": 45.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_guildingii",
+     "top_pid": 87.062,
+     "claimed_pid": 82.842
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Prioniturus_luconensis",
+     "top_pid": 78.08,
+     "claimed_pid": 76.147
+    }
+   }
+  },
+  "WBNI01010524.1": {
+   "len": 3256,
+   "gc": 48.6,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 86.42,
+     "claimed_pid": 82.529
+    }
+   }
+  },
+  "WBNI01011093.1": {
+   "len": 2387,
+   "gc": 47.9,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 84.826,
+     "claimed_pid": 80.357
+    }
+   }
+  },
+  "WBNI01011046.1": {
+   "len": 2417,
+   "gc": 52.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Prioniturus_montanus",
+     "top_pid": 82.585,
+     "claimed_pid": 80.357
+    }
+   }
+  },
+  "WBNI01010005.1": {
+   "len": 3849,
+   "gc": 46.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Amazona_amazonica",
+     "top_pid": 82.383,
+     "claimed_pid": 77.009
+    }
+   }
+  },
+  "WBNI01009267.1": {
+   "len": 4922,
+   "gc": 32.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Cyclopsitta_diophthalma",
+     "top_pid": 86.038,
+     "claimed_pid": 85.006
+    }
+   }
+  },
+  "WBNI01008821.1": {
+   "len": 5848,
+   "gc": 42.7,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Vini_australis",
+     "top_pid": 82.55,
+     "claimed_pid": 79.618
+    }
+   }
+  },
+  "WBNI01009505.1": {
+   "len": 4590,
+   "gc": 46.2,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Charmosyna_meeki",
+     "top_pid": 88.74,
+     "claimed_pid": 84.542
+    }
+   }
+  },
+  "WBNI01014357.1": {
+   "len": 883,
+   "gc": 53.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Glossopsitta_concinna",
+     "top_pid": 78.555,
+     "claimed_pid": 75.919
+    }
+   }
+  },
+  "WBNI01012800.1": {
+   "len": 1278,
+   "gc": 43.7,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Brotogeris_versicolurus",
+     "top_pid": 83.07,
+     "claimed_pid": 78.98
+    }
+   }
+  },
+  "WBNI01012224.1": {
+   "len": 1450,
+   "gc": 28.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Prosopeia_tabuensis",
+     "top_pid": 69.288,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": null,
+ "overall": "no_reliable_mito"
+}
