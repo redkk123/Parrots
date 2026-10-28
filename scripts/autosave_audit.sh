@@ -17,7 +17,7 @@ pass() {
   git add results/phase1_audit/audit_table.tsv results/phase1_audit/species_genomes.tsv \
     results/phase1_audit/audit_queue_other.tsv results/phase1_audit/mito logs/1*_batch.log
   for d in results/phase1_audit/busco/*/; do [ -s "$d/summary.txt" ] && git add "$d"; done
-  for p in results/phase2_genes logs/29_gene_batch.log logs/27_extract_genes.time.log; do [ -e "$p" ] && git add "$p"; done
+  for p in results/phase2_genes results/phase3_genome logs/29_gene_batch.log logs/27_extract_genes.time.log; do [ -e "$p" ] && git add "$p"; done
   if git diff --cached --quiet; then
     echo "$(date -Is) nothing new" >> "$LOG"
     return

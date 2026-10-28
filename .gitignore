@@ -18,3 +18,7 @@ logs/resume_on_boot.log
 logs/keep_audit.log
 logs/.keep_audit.lock
 results/phase2_genes/hyphy/
+data/genome_genes/*.faa
+data/genome_genes/*.fna
+data/genome_cds/
+results/phase3_genome/genetrees_*.txt

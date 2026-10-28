@@ -1,4 +1,5 @@
-"""Per-gene calls from a miniprot GFF of the 101 H8 panel proteins (Melopsittacus RefSeq, data/pilot_genes) on one genome.
+"""Per-gene calls from a miniprot GFF of the Melopsittacus canonical proteome (data/genome_genes, which contains the
+101 H8 panel proteins of data/pilot_genes with the same headers) on one genome.
 
 Usage: 28_parse_miniprot.py <accession> <species> <genome.fna> <miniprot.gff>
 For each query protein, the best alignment (Rank=1, highest score) gives the CDS, spliced from its CDS features and
@@ -6,18 +7,23 @@ translated (table 1). Call, as fixed in the plan (2026-10-16: a gene enters a sp
   complete   >= 90 % of the query aligned, CDS length a multiple of 3, no frameshift, no internal stop codon
   disrupted  frameshift or internal stop (candidate pseudogene: not called a loss without read-level checks, §4)
   partial    < 90 % of the query aligned, no disruption (assembly fragment; missing data)
-  paralog    best alignment has < 60 % identity, or its locus is the best locus of another panel protein with
+  paralog    best alignment has < 60 % identity, or its locus is the best locus of another query protein with
              higher identity (e.g. BCL2L1 landing on BCL2 when its own locus is missing): treated as missing
   absent     no alignment
 Coordinates are reported on the original sequences (window offsets from seqkit sliding are removed).
-Writes results/phase2_genes/hits/<acc>.tsv (one row per gene) and results/phase2_genes/cds/<acc>.fna (complete only).
+Writes, for the panel, results/phase2_genes/hits/<acc>.tsv (one row per gene) and results/phase2_genes/cds/<acc>.fna
+(complete only); for the whole proteome, results/phase3_genome/calls/<acc>.tsv.gz and data/genome_cds/<acc>.fna.gz.
 """
+import gzip
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "results/phase2_genes"
-QUERY = ROOT / "data/pilot_genes/canonical_proteins.faa"
+GENOME_OUT = ROOT / "results/phase3_genome/calls"
+GENOME_CDS = ROOT / "data/genome_cds"
+QUERY = ROOT / "data/genome_genes/canonical_proteins.faa"
+PANEL = ROOT / "data/pilot_genes/canonical_proteins.faa"
 MIN_QCOV = 0.90
 MIN_IDENTITY = 0.60  # orthologs across parrots: >= 0.75 in the Loriculus test; paralog hits 0.36-0.52
 CODE = {a + b + c: "FFLLSSSSYY**CC*WLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG"[16 * i + 4 * j + k]
@@ -82,11 +88,18 @@ def main():
     best = {g: max(v, key=lambda a: (-a["rank"], a["score"])) for g, v in by_q.items()}
     seqs = dict(fasta(genome, keep={a["ctg"] for a in best.values()}))
     loci = {g: genomic(a["ctg"], a["start"], a["end"]) for g, a in best.items()}
-    taken = set()  # queries whose best locus belongs to another query with higher identity
-    for g, (c, x, y) in loci.items():
-        for h, (c2, x2, y2) in loci.items():
-            if h != g and c == c2 and x <= y2 and x2 <= y and best[h]["identity"] > best[g]["identity"]:
+    taken = set()  # queries whose best locus overlaps the best locus of another query with higher identity
+    active, last_ctg = [], None
+    for g, (c, x, y) in sorted(loci.items(), key=lambda kv: kv[1]):
+        if c != last_ctg:
+            active, last_ctg = [], c
+        active = [h for h in active if loci[h][2] >= x]
+        for h in active:
+            if best[h]["identity"] > best[g]["identity"]:
                 taken.add(g)
+            elif best[g]["identity"] > best[h]["identity"]:
+                taken.add(h)
+        active.append(g)
     rows, out = [], []
     for g in qlen:
         a = best.get(g)
@@ -113,18 +126,25 @@ def main():
                      "starts_met": prot[:1] == "M", "location": f"{c}:{x}-{y}{a['strand']}",
                      "n_exons": len(a["cds"])})
         if call == "complete":
-            out.append(f">{species.replace(' ', '_')}|{g}|{acc}\n{cds}\n")
-    (OUT / "hits").mkdir(parents=True, exist_ok=True)
-    (OUT / "cds").mkdir(parents=True, exist_ok=True)
+            out.append((g, f">{species.replace(' ', '_')}|{g}|{acc}\n{cds}\n"))
+    panel = {n.split("|")[0] for n, _ in fasta(PANEL)}
     cols = ["gene", "call", "query_cov", "identity", "frameshifts", "internal_stops", "cds_len", "starts_met",
             "n_exons", "n_alignments", "location"]
-    with open(OUT / "hits" / f"{acc}.tsv", "w") as f:
-        f.write("\t".join(cols) + "\n")
-        for r in rows:
-            f.write("\t".join(str(r.get(c, "")) for c in cols) + "\n")
-    (OUT / "cds" / f"{acc}.fna").write_text("".join(out))
-    calls = [r["call"] for r in rows]
-    print(acc, species, {c: calls.count(c) for c in ("complete", "partial", "disrupted", "paralog", "absent")})
+
+    def table(rs):
+        return "\t".join(cols) + "\n" + "".join("\t".join(str(r.get(c, "")) for c in cols) + "\n" for r in rs)
+
+    for d in (OUT / "hits", OUT / "cds", GENOME_OUT, GENOME_CDS):
+        d.mkdir(parents=True, exist_ok=True)
+    (OUT / "cds" / f"{acc}.fna").write_text("".join(x for g, x in out if g in panel))
+    (OUT / "hits" / f"{acc}.tsv").write_text(table(r for r in rows if r["gene"] in panel))
+    with gzip.open(GENOME_CDS / f"{acc}.fna.gz", "wt") as f:
+        f.write("".join(x for _, x in out))
+    with gzip.open(GENOME_OUT / f"{acc}.tsv.gz", "wt") as f:
+        f.write(table(rows))
+    for name, rs in (("panel", [r for r in rows if r["gene"] in panel]), ("genome", rows)):
+        calls = [r["call"] for r in rs]
+        print(acc, species, name, {c: calls.count(c) for c in ("complete", "partial", "disrupted", "paralog", "absent")})
 
 
 if __name__ == "__main__":
