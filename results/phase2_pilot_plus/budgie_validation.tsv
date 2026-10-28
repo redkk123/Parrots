@@ -1,0 +1,8 @@
+gene	call_vgp	call_iridian	identity_vgp_iridian	budgie_unique_sites	shared_by_iridian
+TP53	disrupted	partial			
+MRE11	disrupted	complete	0.0	0.0	0.0
+TERT	complete	disrupted			
+RTEL1	complete	complete	0.9828	63.0	61.0
+TERF2	complete	partial			
+TERF2IP	complete	partial			
+POT1	complete	complete	0.9962	26.0	25.0

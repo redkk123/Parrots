@@ -28,3 +28,17 @@ Genes interrompidos com as duas referências (periquito e kakapo) aparecem sobre
 - **O sinal consistente é a maquinaria de telômeros:** TERT sob seleção intensificada em Psittaculidae e com seleção episódica no ramo do periquito, junto com TERF2 e RTEL1. ACD tem seleção no tronco, DKC1 relaxou. É o candidato mais forte para ligar periquito, câncer e longevidade, e conversa com a literatura de telomerase e câncer.
 - **CASP8 relaxado em Psittaculidae** (apoptose, M3) é o único sinal do lado "controle de células danificadas". É compatível com a ideia da H8b (limiar de apoptose), mas é um gene só.
 - **Limites:** 17 espécies, sem lóris; montagens não auditadas pelo BUSCO; a análise principal (58 espécies) fica como teste confirmatório.
+
+## Checagem num segundo periquito (Iridian, Illumina; `scripts/39_validate_budgie.py`)
+
+| Gene | VGP | Iridian | Mudanças só do periquito (VGP) | Presentes também no Iridian |
+| --- | --- | --- | --- | --- |
+| RTEL1 | completo | completo | 63 | **61 (97 %)** |
+| POT1 | completo | completo | 26 | **25 (96 %)** |
+| MRE11 | interrompido | **completo** | — | — |
+| TP53 | interrompido | parcial | — | — |
+| TERT, TERF2, TERF2IP | completos | interrompido/parcial | — | — |
+
+- As mudanças de aminoácido exclusivas do periquito nos genes de telômero **se repetem num indivíduo independente, sequenciado com outra tecnologia**. Não são erro da montagem VGP.
+- O MRE11 interrompido no VGP está **inteiro** no outro periquito: era erro de montagem.
+- TP53 e TERT ficam sem resposta, porque o genoma Iridian é fragmentado demais nesses genes.
