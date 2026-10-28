@@ -24,8 +24,9 @@ done
 # Own systemd units, so an out-of-memory kill in BUSCO (miniprot peaks at ~9.6 GB) does not take the desktop app with it
 run() { systemd-run --user --unit="$1" --collect --working-directory="$PWD" --setenv=PATH="$PATH" "${@:2}" >> "$LOG" 2>&1; }
 BOTH="bash scripts/12_audit_batch.sh; [ -s $Q2 ] && bash scripts/12_audit_batch.sh $Q2"   # finished ones are skipped
+# systemd-run returns at once; not backgrounded, so it completes even when the caller is a unit that stops on exit
 run parrots-busco -p OOMScoreAdjust=800 -p OOMPolicy=continue bash -c "$BOTH" \
-  || nohup setsid bash -c "$BOTH" > /dev/null 2>&1 &
+  || { nohup setsid bash -c "$BOTH" > /dev/null 2>&1 & }
 pgrep -f '[a]utosave_audit.sh' > /dev/null || run parrots-autosave bash scripts/autosave_audit.sh \
-  || nohup setsid bash scripts/autosave_audit.sh > /dev/null 2>&1 &
+  || { nohup setsid bash scripts/autosave_audit.sh > /dev/null 2>&1 & }
 echo "$(date -Is) relaunched (BUSCO $done_n/$total)" >> "$LOG"
