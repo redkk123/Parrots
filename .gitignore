@@ -17,3 +17,4 @@ data/pilot_genomes/
 logs/resume_on_boot.log
 logs/keep_audit.log
 logs/.keep_audit.lock
+results/phase2_genes/hyphy/

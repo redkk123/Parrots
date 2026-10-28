@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Gene stage (analysis plan §10, Nível 1), started by scripts/keep_audit_running.sh once the genome audit is done:
 #   27_extract_genes.sh on every selected genome (results/phase1_audit/species_genomes.tsv, status included*),
-#   then 30_align_genes.py, then 31_selection_tests.sh (HyPhy RELAX / aBSREL), then 32_h8_summary.py.
+#   then 30_align_genes.py, then 31_selection_tests.py (HyPhy RELAX / aBSREL), then 32_h8_summary.py.
 # Resumable: each step skips what is done. An accession that fails 3 times is skipped. Log: logs/29_gene_batch.log
 set -uo pipefail
 cd "$(dirname "$0")/.."
@@ -22,9 +22,7 @@ while IFS=$'\t' read -r acc sp; do
   echo -e "$(date -Is)\t$acc\t$sp\t$st\t$(( $(date +%s) - start ))s" | tee -a "$LOG"
 done < "$Q"
 .venv/bin/python scripts/30_align_genes.py >> "$LOG" 2>&1 || { echo "$(date -Is) alignment FAILED" >> "$LOG"; exit 1; }
-if [ -x scripts/31_selection_tests.sh ]; then
-  bash scripts/31_selection_tests.sh >> "$LOG.detail" 2>&1 || { echo "$(date -Is) selection tests FAILED" >> "$LOG"; exit 1; }
-  .venv/bin/python scripts/32_h8_summary.py >> "$LOG" 2>&1
-fi
+.venv/bin/python scripts/31_selection_tests.py >> "$LOG.detail" 2>&1 || { echo "$(date -Is) selection tests FAILED" >> "$LOG"; exit 1; }
+.venv/bin/python scripts/32_h8_summary.py >> "$LOG" 2>&1
 echo "$(date -Is) gene stage finished" >> "$LOG"
 touch results/phase2_genes/DONE
