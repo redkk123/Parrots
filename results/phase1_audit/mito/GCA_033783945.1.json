@@ -1,0 +1,98 @@
+{
+ "accession": "GCA_033783945.1",
+ "claimed": "Neopsephotus bourkii",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JAWCUB010001266.1": {
+   "len": 1166617,
+   "gc": 42.2,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Neopsephotus_bourkii",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Neopsephotus_bourkii",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Neopsephotus_bourkii",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JAWCUB010000143.1": {
+   "len": 18364,
+   "gc": 45.0,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Neopsephotus_bourkii",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Neopsephotus_bourkii",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Neopsephotus_bourkii",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JAWCUB010001508.1": {
+   "len": 77560,
+   "gc": 57.2,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Neopsephotus_bourkii",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Neopsephotus_bourkii",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "JAWCUB010000043.1": {
+   "len": 1586023,
+   "gc": 40.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 86.783,
+     "claimed_pid": 85.714
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}
