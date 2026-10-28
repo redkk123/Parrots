@@ -9,7 +9,7 @@ Trichoglossus haematodus	Trichoglossus	Loriini	True	excluded	1									GCA_03236
 Trichoglossus chlorolepidotus	Trichoglossus	Loriini	True	excluded	1									GCA_048591985.1 (Iridian, BUSCO 3.42, id check_nuclear)
 Trichoglossus euteles	Trichoglossus	Loriini	True	included	1	GCA_025447915.1	Iridian	Scaffold	2.177e+04	83.14	pass	False	True	GCA_025447915.1 (Iridian, BUSCO 83.14, id pass)
 Pseudeos fuscata	Pseudeos	Loriini	True	no_assembly	0									
-Melopsittacus undulatus	Melopsittacus	Melopsittacus	True	included_provisional	2	GCA_025448075.1	Iridian	Scaffold	1.02e+04	97.69	pass	False	True	GCA_025448075.1 (Iridian, BUSCO 97.69, id pass); GCA_012275295.1 (G10K, BUSCO nan, id pass)
+Melopsittacus undulatus	Melopsittacus	Melopsittacus	True	included	2	GCA_012275295.1	G10K	Chromosome	1.664e+07	99.34	pass	True	True	GCA_025448075.1 (Iridian, BUSCO 97.69, id pass); GCA_012275295.1 (G10K, BUSCO 99.34, id pass)
 Cyclopsitta diophthalma	Cyclopsitta	Psittaculidae_other	True	excluded	1									GCA_056825465.1 (Bird 10,000 Genomes (B10K) consortium, BUSCO 31.33, id pass)
 Agapornis taranta	Agapornis	Psittaculidae_other	True	excluded	1									GCA_034783195.1 (Iridian, BUSCO 46.94, id check_nuclear)
 Agapornis nigrigenis	Agapornis	Psittaculidae_other	True	pending	2									GCA_035041115.1 (Iridian, BUSCO 92.01, id fail); GCA_988293565.1 (WELLCOME SANGER INSTITUTE, BUSCO nan, id pass)
