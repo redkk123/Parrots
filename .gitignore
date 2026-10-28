@@ -22,3 +22,4 @@ data/genome_genes/*.faa
 data/genome_genes/*.fna
 data/genome_cds/
 results/phase3_genome/genetrees_*.txt
+results/phase2_genes/hyphy_null/

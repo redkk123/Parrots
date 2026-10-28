@@ -3,7 +3,8 @@
 #   27_extract_genes.sh on every genome of the frozen list (results/phase1_audit/analysis_species.tsv;
 #   whole Melopsittacus proteome, panel included), then 30_align_genes.py (panel), 34_align_genome.py (universe),
 #   35_prepare_rer_inputs.py, 31_selection_tests.py (HyPhy RELAX / aBSREL), 32_h8_summary.py and, when the R package
-#   is installed, R/rerconverge_h6_h8.R on both trees (H6 and H8 within clades).
+#   is installed, R/rerconverge_h6_h8.R on both trees (H6 and H8 within clades); last, 37_h8_null.py (RELAX on a
+#   300-gene pool of the universe, the longest step).
 # Species list: results/phase1_audit/analysis_species.tsv (frozen 2026-10-28, plan history); the assemblies audited
 # later enter a pre-declared extension (regenerate that file from species_genomes.tsv and rerun).
 # Resumable: each step skips what is done. An accession that fails 3 times is skipped. Log: logs/29_gene_batch.log
@@ -37,5 +38,6 @@ if .renv45/bin/Rscript -e 'quit(status = !requireNamespace("RERconverge", quietl
 else
   echo "$(date -Is) RERconverge not installed: H6 and H8-within-clade tests skipped (docs/HANDOFF_GENES.md)" >> "$LOG"
 fi
+.venv/bin/python scripts/37_h8_null.py >> "$LOG.detail" 2>&1 || echo "$(date -Is) H8 null FAILED" >> "$LOG"
 echo "$(date -Is) gene stage finished" >> "$LOG"
 touch results/phase2_genes/DONE
