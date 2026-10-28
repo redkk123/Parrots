@@ -5,6 +5,8 @@ Amazona ochrocephala, Myiopsitta). Same rules as the main analysis: miniprot wit
 proteins (28_parse_miniprot.py), MAFFT L-INS-i + PAL2NAL (30_align_genes.align), RELAX / aBSREL on the supertree
 (31_selection_tests.tree_for; Psittacula echo takes the tip of its congener in the tree), BH within the panel.
 Writes results/phase2_pilot/{calls.tsv, h8_pilot_by_gene.tsv, h8_pilot_modules.tsv, alignments/, hyphy/ (gitignored)}.
+PILOT_SET=plus adds the 9 other long-read / chromosome-scale assemblies of the analysis set (downloaded from NCBI; not
+yet BUSCO-audited): 17 species, 10 Psittaculidae. Output then goes to results/phase2_pilot_plus/.
 """
 import importlib.util
 import os
@@ -18,11 +20,18 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 FA = ROOT / "data/pilot_genomes/fasta"
-OUT = ROOT / "results/phase2_pilot"
+PLUS = os.environ.get("PILOT_SET") == "plus"
+OUT = ROOT / ("results/phase2_pilot_plus" if PLUS else "results/phase2_pilot")
 TMP = ROOT / "data/external/pilot_tmp"
+EXTRA = {"Loriculus_galgulus": "GCA_046563285.1", "Neopsephotus_bourkii": "GCA_033783945.1",
+         "Agapornis_fischeri": "GCA_051622115.1", "Agapornis_roseicollis": "GCA_051622155.1",
+         "Psittacula_krameri": "GCA_988280915.1", "Neophema_chrysogaster": "GCA_047054915.1",
+         "Amazona_vittata": "GCA_980694505.1", "Guaruba_guarouba": "GCA_045345405.1",
+         "Ara_rubrogenys": "GCA_917880015.2"}
 BIN = ROOT / ".bioenv/bin"
 SPECIES = ["Melopsittacus_undulatus", "Lathamus_discolor", "Psittacula_echo", "Agapornis_nigrigenis",
            "Strigops_habroptila", "Ara_ararauna", "Amazona_ochrocephala", "Myiopsitta_monachus"]
+SPECIES += list(EXTRA) if PLUS else []
 T = os.environ.get("PILOT_THREADS", "4")
 
 
@@ -51,14 +60,29 @@ def panel_query():
 
 def extract(sp, query):
     acc = f"pilot_{sp}"
+    done = ROOT / "results/phase2_pilot/hits" / f"{acc}.tsv"   # the 8 base genomes are shared with the small pilot
     if (OUT / "hits" / f"{acc}.tsv").exists():
+        return
+    if done.exists() and PLUS:
+        for sub in ("hits", "cds"):
+            (OUT / sub).mkdir(parents=True, exist_ok=True)
+            src = ROOT / "results/phase2_pilot" / sub / f"{acc}.{'tsv' if sub == 'hits' else 'fna'}"
+            shutil.copy(src, OUT / sub / src.name)
         return
     d = TMP / sp
     shutil.rmtree(d, ignore_errors=True)
     d.mkdir(parents=True)
     run = lambda *a, **k: subprocess.run([str(x) for x in a], check=True, **k)  # noqa: E731
+    src = FA / f"{sp}.fna.gz"
+    if sp in EXTRA:
+        run(BIN / "datasets", "download", "genome", "accession", EXTRA[sp], "--include", "genome", "--filename",
+            d / "pkg.zip", "--no-progressbar", stderr=subprocess.DEVNULL)
+        with open(d / "genome.fna", "w") as f:
+            run("unzip", "-p", d / "pkg.zip", "ncbi_dataset/data/*/*.fna", stdout=f)
+        (d / "pkg.zip").unlink()
+        src = d / "genome.fna"
     with open(d / "windows.fna", "w") as f:
-        run(BIN / "seqkit", "sliding", "-g", "-W", "5000000", "-s", "4500000", "-j", T, FA / f"{sp}.fna.gz", stdout=f)
+        run(BIN / "seqkit", "sliding", "-g", "-W", "5000000", "-s", "4500000", "-j", T, src, stdout=f)
     total = int(subprocess.run([BIN / "seqkit", "stats", "-T", d / "windows.fna"], capture_output=True, text=True,
                                check=True).stdout.splitlines()[1].split("\t")[4])
     run(BIN / "seqkit", "split2", "-p", total // 150_000_000 + 1, "-O", d / "parts", d / "windows.fna",

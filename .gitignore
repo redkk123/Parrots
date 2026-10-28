@@ -25,3 +25,5 @@ results/phase3_genome/genetrees_*.txt
 results/phase2_genes/hyphy_null/
 results/phase2_pilot/hyphy/
 results/phase2_pilot/cds/
+results/phase2_pilot_plus/hyphy/
+results/phase2_pilot_plus/cds/
