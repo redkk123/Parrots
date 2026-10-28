@@ -1,6 +1,7 @@
 """NCBI assembly inventory for Psittaciformes and per-species choice for the analysis set.
 
-1. Downloads the NCBI Datasets genome report for taxon 9223 (all assembly versions) unless already present.
+1. Downloads the NCBI Datasets genome report for taxon 9223 (all assembly versions) unless already present;
+   --refresh downloads it again (new depositions), replacing the cached copy only after a complete download.
 2. Flattens it to data/external/ncbi/psittaciformes_assemblies.tsv (one row per assembly).
 3. For the 105 analysis species (gene-level usable + life expectancy, results/phase0b/species_data_matrix.tsv)
    writes results/phase1_audit/assembly_inventory.tsv: best current Iridian assembly (by contig N50), best
@@ -60,8 +61,10 @@ def flatten(reports):
 
 def main():
     NCBI.mkdir(parents=True, exist_ok=True)
-    if not REPORT.exists():
-        json.dump(fetch(), open(REPORT, "w"))
+    if not REPORT.exists() or "--refresh" in sys.argv:
+        tmp = REPORT.with_suffix(".tmp")
+        json.dump(fetch(), open(tmp, "w"))
+        tmp.replace(REPORT)
     flat = flatten(json.load(open(REPORT)))
     R = NameResolver()
     flat["species"], flat["name_map"] = zip(*flat.organism.map(R.resolve))

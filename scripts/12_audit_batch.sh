@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Run scripts/10_audit_assembly.sh over every Iridian assembly in results/phase1_audit/assembly_inventory.tsv.
-# Sequential (one genome at a time: 11 GB RAM, ~37 GB free disk). Resumable: finished accessions are skipped.
+# Sequential (one genome at a time: 11 GB RAM, ~37 GB free disk). Resumable: finished accessions are skipped, and so
+# are accessions that already failed 3 times (logged as FAIL in logs/12_audit_batch.log).
 # Order is shuffled with a fixed seed so that a partial run is an unbiased sample of the batch.
 # With an argument, audits that queue instead (accession<TAB>species; e.g. results/phase1_audit/audit_queue_other.tsv
 # from scripts/26_select_genomes.py), read from a snapshot so the source can be regenerated meanwhile.
@@ -18,6 +19,7 @@ for r in t.itertuples():
 EOF
 fi
 while IFS=$'\t' read -r acc sp; do
+  if [ "$(grep -c "	$acc	.*	FAIL	" "$LOG")" -ge 3 ]; then continue; fi   # gave up after 3 failures
   start=$(date +%s)
   if nice -n 19 bash scripts/10_audit_assembly.sh "$acc" "$sp" 8 < /dev/null >> "$LOG.detail" 2>&1; then st=ok; else st=FAIL; rm -rf "data/external/assemblies/$acc"; fi
   echo -e "$(date -Is)\t$acc\t$sp\t$st\t$(( $(date +%s) - start ))s" | tee -a "$LOG"

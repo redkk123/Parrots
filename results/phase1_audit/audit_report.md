@@ -123,6 +123,7 @@ Regras do plano (Histórico, 16 e 28 out.): BUSCO ≥ 70 %, identidade não repr
 
 ```bash
 .venv/bin/python scripts/09_ncbi_assembly_inventory.py   # inventário NCBI
+bash scripts/keep_audit_running.sh                        # relança o lote se parou; procura genomas novos no NCBI 1x/semana
 bash scripts/12_audit_batch.sh                            # BUSCO + identidade, lote retomável (dias)
 bash scripts/15_identity_batch.sh                         # só identidade mitocondrial (~6 h)
 bash scripts/16_mash_batch.sh                             # sketches Mash (~9 h)

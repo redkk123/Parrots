@@ -15,3 +15,5 @@ logs/*.log.detail
 logs/autosave_audit.log
 data/pilot_genomes/
 logs/resume_on_boot.log
+logs/keep_audit.log
+logs/.keep_audit.lock
