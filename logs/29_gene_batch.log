@@ -57,3 +57,8 @@
 2026-10-29T09:04:07-03:00	GCA_009823435.2	Nymphicus hollandicus	ok	849s
 2026-10-29T09:20:05-03:00	GCA_000696875.1	Nestor notabilis	ok	958s
 58 genomes; 91 of 101 genes aligned; median species per gene 35
+58 genomes; 15789 genes with >= 1 complete ORF; 7756 eligible (>= 29 species); 0 alignment errors
+burgio2019 58 tips
+smith2024 58 tips
+brain allometry: lambda 0.90, slope 0.653 (n 235); brain on longevity: slope 0.040 ± 0.032 (n 166)
+selected species 58; with longevity 58, with brain 51; Psittaculidae 15
