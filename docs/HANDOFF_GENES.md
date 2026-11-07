@@ -72,3 +72,6 @@ Tabela: `results/phase2_genes/disrupted_second_reference.tsv` (chamadas com a pr
 - **Interrompido com as duas referências (candidatos a checar com reads):** PSMD6 (12/12 das espécies disrupted com periquito), ERCC3 (6), ACD (7), NQO1 (5), MRE11 (1: já visto como erro de montagem no Iridian do periquito), TERF2IP (1).
 - RB1 e TP53: o periquito dá parálogo/partial; sem resposta (montagens fragmentadas nesses genes).
 - Consequência: a chamada de integridade só vale quando as duas referências concordam. Não usar a do periquito sozinha para OGG1, MUTYH, MYC, HMOX1, PRDX3.
+
+### Candidatos à checagem com reads (7 nov. 2026)
+`results/phase2_genes/disrupted_read_check_candidates.tsv` (31 chamadas interrompidas com as duas referências em PSMD6, ERCC3, ACD, NQO1, TERF2IP). A maioria é provável artefato de fragmentação: contigs de 5–15 kb, cobertura da proteína 40–70 % e 10–30 "stops" (alinhamento truncado, não gene quebrado). ERCC3 (6 espécies): todas cobrem só ~57 % em contig pequeno. Critério de priorização (definido depois de ver a tabela, então exploratório): cobertura ≥ 90 %, 0 frameshift, ≤ 2 stops. Esses são os que valem uma checagem com reads (Illumina existe no SRA para todas as espécies listadas).
