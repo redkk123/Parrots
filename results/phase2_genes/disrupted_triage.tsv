@@ -1,0 +1,330 @@
+gene	species	genus	accession	source	level	n_congeners	congeners_complete	congeners_disrupted	class
+ATM	Eolophus_roseicapilla	Eolophus	GCA_013397615.1	B10K Consortium	Scaffold	0	0	0	unresolved
+CHEK1	Loriculus_galgulus	Loriculus	GCA_046563285.1	Harvrad University	Scaffold	0	0	0	unresolved
+CHEK1	Lathamus_discolor	Lathamus	GCA_037157625.1	Vertebrate Genomes Project	Chromosome	0	0	0	unresolved
+CHEK1	Neopsephotus_bourkii	Neopsephotus	GCA_033783945.1	CSIRO Applied Genomics Initiative	Scaffold	0	0	0	unresolved
+CHEK1	Amazona_finschi	Amazona	GCA_031763935.1	Iridian	Scaffold	2	1	0	isolated
+CHEK1	Cacatua_sanguinea	Cacatua	GCA_030265285.1	Iridian	Scaffold	5	0	0	unresolved
+CHEK1	Eolophus_roseicapilla	Eolophus	GCA_013397615.1	B10K Consortium	Scaffold	0	0	0	unresolved
+TP53	Melopsittacus_undulatus	Melopsittacus	GCA_012275295.1	G10K	Chromosome	0	0	0	unresolved
+TP53	Myiopsitta_monachus	Myiopsitta	GCA_013036005.2	Iridian	Scaffold	0	0	0	unresolved
+MDM2	Cyanoliseus_patagonus	Cyanoliseus	GCA_025629865.1	Iridian	Scaffold	0	0	0	unresolved
+MDM4	Nestor_notabilis	Nestor	GCA_000696875.1	BGI	Scaffold	0	0	0	unresolved
+MAD2L1	Pionites_melanocephalus	Pionites	GCA_029814565.1	Iridian	Scaffold	0	0	0	unresolved
+RB1	Ara_rubrogenys	Ara	GCA_026283725.1	Iridian	Scaffold	2	0	1	shared
+RB1	Ara_ambiguus	Ara	GCA_026284625.1	Iridian	Scaffold	2	0	1	shared
+RB1	Primolius_auricollis	Primolius	GCA_026284745.2	Iridian	Scaffold	1	0	0	unresolved
+RB1	Psittacara_acuticaudatus	Psittacara	GCA_026284765.1	Iridian	Scaffold	3	0	0	unresolved
+RB1	Diopsittaca_nobilis	Diopsittaca	GCA_024337085.1	Iridian	Scaffold	0	0	0	unresolved
+RB1	Guaruba_guarouba	Guaruba	GCA_011800095.2	Iridian	Scaffold	0	0	0	unresolved
+RB1	Cyanoliseus_patagonus	Cyanoliseus	GCA_025629865.1	Iridian	Scaffold	0	0	0	unresolved
+RB1	Pyrrhura_griseipectus	Pyrrhura	GCA_010014965.2	Iridian	Scaffold	1	0	0	unresolved
+RB1	Deroptyus_accipitrinus	Deroptyus	GCA_026284505.1	Iridian	Scaffold	0	0	0	unresolved
+CDKN2B	Poicephalus_senegalus	Poicephalus	GCA_025448095.1	Iridian	Scaffold	2	0	0	unresolved
+CDKN2B	Cacatua_moluccensis	Cacatua	GCA_025448035.1	Iridian	Scaffold	5	3	0	isolated
+CCNE1	Psephotus_haematonotus	Psephotus	GCA_026283765.1	Iridian	Scaffold	0	0	0	unresolved
+CCNE1	Psittacara_acuticaudatus	Psittacara	GCA_026284765.1	Iridian	Scaffold	3	3	0	isolated
+CCNE1	Guaruba_guarouba	Guaruba	GCA_011800095.2	Iridian	Scaffold	0	0	0	unresolved
+CCNE1	Eolophus_roseicapilla	Eolophus	GCA_013397615.1	B10K Consortium	Scaffold	0	0	0	unresolved
+MYC	Lorius_lory	Lorius	GCA_025629905.1	Iridian	Scaffold	2	0	2	shared
+MYC	Lorius_garrulus	Lorius	GCA_010014925.2	Iridian	Scaffold	2	0	2	shared
+MYC	Lorius_chlorocercus	Lorius	GCA_025629885.1	Iridian	Scaffold	2	0	2	shared
+MYC	Trichoglossus_euteles	Trichoglossus	GCA_025447915.1	Iridian	Scaffold	0	0	0	unresolved
+MYC	Agapornis_personatus	Agapornis	GCA_034783155.1	Iridian	Scaffold	2	1	0	isolated
+MYC	Loriculus_galgulus	Loriculus	GCA_046563285.1	Harvrad University	Scaffold	0	0	0	unresolved
+MYC	Lathamus_discolor	Lathamus	GCA_037157625.1	Vertebrate Genomes Project	Chromosome	0	0	0	unresolved
+MYC	Platycercus_adscitus	Platycercus	GCA_025629925.1	Iridian	Scaffold	0	0	0	unresolved
+MYC	Psephotus_haematonotus	Psephotus	GCA_026283765.1	Iridian	Scaffold	0	0	0	unresolved
+MYC	Neopsephotus_bourkii	Neopsephotus	GCA_033783945.1	CSIRO Applied Genomics Initiative	Scaffold	0	0	0	unresolved
+MYC	Amazona_aestiva	Amazona	GCA_026283685.1	Iridian	Scaffold	2	0	2	shared
+MYC	Amazona_finschi	Amazona	GCA_031763935.1	Iridian	Scaffold	2	0	2	shared
+MYC	Amazona_vinacea	Amazona	GCA_026283615.1	Iridian	Scaffold	2	0	2	shared
+MYC	Myiopsitta_monachus	Myiopsitta	GCA_013036005.2	Iridian	Scaffold	0	0	0	unresolved
+MYC	Eupsittula_nana	Eupsittula	GCA_026284785.1	Iridian	Scaffold	1	0	0	unresolved
+MYC	Psittacara_holochlorus	Psittacara	GCA_024320895.1	Iridian	Scaffold	3	0	3	shared
+MYC	Psittacara_wagleri	Psittacara	GCA_024361765.2	Iridian	Scaffold	3	0	3	shared
+MYC	Psittacara_leucophthalmus	Psittacara	GCA_024331625.1	Iridian	Scaffold	3	0	3	shared
+MYC	Ara_rubrogenys	Ara	GCA_026283725.1	Iridian	Scaffold	2	0	1	shared
+MYC	Ara_ambiguus	Ara	GCA_026284625.1	Iridian	Scaffold	2	0	1	shared
+MYC	Primolius_auricollis	Primolius	GCA_026284745.2	Iridian	Scaffold	1	0	1	shared
+MYC	Primolius_couloni	Primolius	GCA_024331605.1	Iridian	Scaffold	1	0	1	shared
+MYC	Aratinga_auricapillus	Aratinga	GCA_026284685.1	Iridian	Scaffold	1	0	1	shared
+MYC	Aratinga_solstitialis	Aratinga	GCA_009867195.2	Iridian	Scaffold	1	0	1	shared
+MYC	Psittacara_acuticaudatus	Psittacara	GCA_026284765.1	Iridian	Scaffold	3	0	3	shared
+MYC	Diopsittaca_nobilis	Diopsittaca	GCA_024337085.1	Iridian	Scaffold	0	0	0	unresolved
+MYC	Guaruba_guarouba	Guaruba	GCA_011800095.2	Iridian	Scaffold	0	0	0	unresolved
+MYC	Pyrrhura_leucotis	Pyrrhura	GCA_038406155.1	Iridian	Scaffold	1	0	1	shared
+MYC	Pyrrhura_griseipectus	Pyrrhura	GCA_010014965.2	Iridian	Scaffold	1	0	1	shared
+MYC	Pionites_melanocephalus	Pionites	GCA_029814565.1	Iridian	Scaffold	0	0	0	unresolved
+MYC	Deroptyus_accipitrinus	Deroptyus	GCA_026284505.1	Iridian	Scaffold	0	0	0	unresolved
+MYC	Psilopsiagon_aymara	Psilopsiagon	GCA_024733675.1	Iridian	Scaffold	1	0	1	shared
+MYC	Psilopsiagon_aurifrons	Psilopsiagon	GCA_025447955.1	Iridian	Scaffold	1	0	1	shared
+MYC	Poicephalus_gulielmi	Poicephalus	GCA_026283885.1	Iridian	Scaffold	2	0	2	shared
+MYC	Poicephalus_senegalus	Poicephalus	GCA_025448095.1	Iridian	Scaffold	2	0	2	shared
+MYC	Poicephalus_rueppellii	Poicephalus	GCA_031762375.1	Iridian	Scaffold	2	0	2	shared
+MYC	Psittacus_erithacus	Psittacus	GCA_009867235.2	Iridian	Scaffold	1	0	1	shared
+MYC	Psittacus_timneh	Psittacus	GCA_009867315.2	Iridian	Scaffold	1	0	1	shared
+MYC	Cacatua_sanguinea	Cacatua	GCA_030265285.1	Iridian	Scaffold	5	0	2	shared
+MYC	Cacatua_alba	Cacatua	GCA_024361745.1	Iridian	Scaffold	5	0	2	shared
+MYC	Cacatua_sulphurea	Cacatua	GCA_031762475.1	Iridian	Scaffold	5	0	2	shared
+MYC	Eolophus_roseicapilla	Eolophus	GCA_013397615.1	B10K Consortium	Scaffold	0	0	0	unresolved
+MYC	Nymphicus_hollandicus	Nymphicus	GCA_009823435.2	Iridian	Scaffold	0	0	0	unresolved
+TSC1	Bolborhynchus_lineola	Bolborhynchus	GCA_025448015.1	Iridian	Scaffold	0	0	0	unresolved
+BCL2	Nestor_notabilis	Nestor	GCA_000696875.1	BGI	Scaffold	0	0	0	unresolved
+BCL2L1	Agapornis_lilianae	Agapornis	GCA_035222285.1	Iridian	Scaffold	2	0	0	unresolved
+MCL1	Myiopsitta_monachus	Myiopsitta	GCA_013036005.2	Iridian	Scaffold	0	0	0	unresolved
+MCL1	Cyanoliseus_patagonus	Cyanoliseus	GCA_025629865.1	Iridian	Scaffold	0	0	0	unresolved
+APAF1	Eolophus_roseicapilla	Eolophus	GCA_013397615.1	B10K Consortium	Scaffold	0	0	0	unresolved
+CASP9	Cacatua_sanguinea	Cacatua	GCA_030265285.1	Iridian	Scaffold	5	0	0	unresolved
+CASP9	Nestor_notabilis	Nestor	GCA_000696875.1	BGI	Scaffold	0	0	0	unresolved
+BRCA2	Cyanoramphus_novaezelandiae	Cyanoramphus	GCA_025629965.1	Iridian	Scaffold	0	0	0	unresolved
+BRCA2	Lathamus_discolor	Lathamus	GCA_037157625.1	Vertebrate Genomes Project	Chromosome	0	0	0	unresolved
+BRCA2	Amazona_finschi	Amazona	GCA_031763935.1	Iridian	Scaffold	2	2	0	isolated
+BRCA2	Brotogeris_tirica	Brotogeris	GCA_034782575.1	Iridian	Scaffold	0	0	0	unresolved
+BRCA2	Myiopsitta_monachus	Myiopsitta	GCA_013036005.2	Iridian	Scaffold	0	0	0	unresolved
+BRCA2	Eupsittula_pertinax	Eupsittula	GCA_011317185.2	Iridian	Scaffold	1	0	0	unresolved
+BRCA2	Psilopsiagon_aurifrons	Psilopsiagon	GCA_025447955.1	Iridian	Scaffold	1	0	0	unresolved
+BRCA2	Nestor_notabilis	Nestor	GCA_000696875.1	BGI	Scaffold	0	0	0	unresolved
+RAD51	Psephotus_haematonotus	Psephotus	GCA_026283765.1	Iridian	Scaffold	0	0	0	unresolved
+MRE11	Melopsittacus_undulatus	Melopsittacus	GCA_012275295.1	G10K	Chromosome	0	0	0	unresolved
+RAD50	Lorius_lory	Lorius	GCA_025629905.1	Iridian	Scaffold	2	2	0	isolated
+ERCC3	Amazona_aestiva	Amazona	GCA_026283685.1	Iridian	Scaffold	2	0	2	shared
+ERCC3	Amazona_finschi	Amazona	GCA_031763935.1	Iridian	Scaffold	2	0	2	shared
+ERCC3	Amazona_vinacea	Amazona	GCA_026283615.1	Iridian	Scaffold	2	0	2	shared
+ERCC3	Brotogeris_tirica	Brotogeris	GCA_034782575.1	Iridian	Scaffold	0	0	0	unresolved
+ERCC3	Eupsittula_nana	Eupsittula	GCA_026284785.1	Iridian	Scaffold	1	0	0	unresolved
+ERCC3	Bolborhynchus_lineola	Bolborhynchus	GCA_025448015.1	Iridian	Scaffold	0	0	0	unresolved
+POLK	Agapornis_lilianae	Agapornis	GCA_035222285.1	Iridian	Scaffold	2	0	0	unresolved
+OGG1	Lorius_lory	Lorius	GCA_025629905.1	Iridian	Scaffold	2	0	2	shared
+OGG1	Lorius_garrulus	Lorius	GCA_010014925.2	Iridian	Scaffold	2	0	2	shared
+OGG1	Lorius_chlorocercus	Lorius	GCA_025629885.1	Iridian	Scaffold	2	0	2	shared
+OGG1	Trichoglossus_euteles	Trichoglossus	GCA_025447915.1	Iridian	Scaffold	0	0	0	unresolved
+OGG1	Agapornis_lilianae	Agapornis	GCA_035222285.1	Iridian	Scaffold	2	0	2	shared
+OGG1	Agapornis_personatus	Agapornis	GCA_034783155.1	Iridian	Scaffold	2	0	2	shared
+OGG1	Agapornis_canus	Agapornis	GCA_036873685.1	Iridian	Scaffold	2	0	2	shared
+OGG1	Loriculus_galgulus	Loriculus	GCA_046563285.1	Harvrad University	Scaffold	0	0	0	unresolved
+OGG1	Cyanoramphus_novaezelandiae	Cyanoramphus	GCA_025629965.1	Iridian	Scaffold	0	0	0	unresolved
+OGG1	Lathamus_discolor	Lathamus	GCA_037157625.1	Vertebrate Genomes Project	Chromosome	0	0	0	unresolved
+OGG1	Platycercus_adscitus	Platycercus	GCA_025629925.1	Iridian	Scaffold	0	0	0	unresolved
+OGG1	Psephotus_haematonotus	Psephotus	GCA_026283765.1	Iridian	Scaffold	0	0	0	unresolved
+OGG1	Neopsephotus_bourkii	Neopsephotus	GCA_033783945.1	CSIRO Applied Genomics Initiative	Scaffold	0	0	0	unresolved
+OGG1	Psittacula_derbiana	Psittacula	GCA_029814625.1	Iridian	Scaffold	0	0	0	unresolved
+OGG1	Amazona_aestiva	Amazona	GCA_026283685.1	Iridian	Scaffold	2	0	2	shared
+OGG1	Amazona_finschi	Amazona	GCA_031763935.1	Iridian	Scaffold	2	0	2	shared
+OGG1	Amazona_vinacea	Amazona	GCA_026283615.1	Iridian	Scaffold	2	0	2	shared
+OGG1	Brotogeris_tirica	Brotogeris	GCA_034782575.1	Iridian	Scaffold	0	0	0	unresolved
+OGG1	Myiopsitta_monachus	Myiopsitta	GCA_013036005.2	Iridian	Scaffold	0	0	0	unresolved
+OGG1	Eupsittula_nana	Eupsittula	GCA_026284785.1	Iridian	Scaffold	1	0	1	shared
+OGG1	Eupsittula_pertinax	Eupsittula	GCA_011317185.2	Iridian	Scaffold	1	0	1	shared
+OGG1	Psittacara_holochlorus	Psittacara	GCA_024320895.1	Iridian	Scaffold	3	0	3	shared
+OGG1	Psittacara_wagleri	Psittacara	GCA_024361765.2	Iridian	Scaffold	3	0	3	shared
+OGG1	Psittacara_leucophthalmus	Psittacara	GCA_024331625.1	Iridian	Scaffold	3	0	3	shared
+OGG1	Ara_ararauna	Ara	GCA_010014805.2	Iridian	Scaffold	2	0	2	shared
+OGG1	Ara_rubrogenys	Ara	GCA_026283725.1	Iridian	Scaffold	2	0	2	shared
+OGG1	Ara_ambiguus	Ara	GCA_026284625.1	Iridian	Scaffold	2	0	2	shared
+OGG1	Primolius_auricollis	Primolius	GCA_026284745.2	Iridian	Scaffold	1	0	1	shared
+OGG1	Primolius_couloni	Primolius	GCA_024331605.1	Iridian	Scaffold	1	0	1	shared
+OGG1	Aratinga_auricapillus	Aratinga	GCA_026284685.1	Iridian	Scaffold	1	0	1	shared
+OGG1	Aratinga_solstitialis	Aratinga	GCA_009867195.2	Iridian	Scaffold	1	0	1	shared
+OGG1	Psittacara_acuticaudatus	Psittacara	GCA_026284765.1	Iridian	Scaffold	3	0	3	shared
+OGG1	Diopsittaca_nobilis	Diopsittaca	GCA_024337085.1	Iridian	Scaffold	0	0	0	unresolved
+OGG1	Guaruba_guarouba	Guaruba	GCA_011800095.2	Iridian	Scaffold	0	0	0	unresolved
+OGG1	Cyanoliseus_patagonus	Cyanoliseus	GCA_025629865.1	Iridian	Scaffold	0	0	0	unresolved
+OGG1	Rhynchopsitta_pachyrhyncha	Rhynchopsitta	GCA_026284805.1	Iridian	Scaffold	0	0	0	unresolved
+OGG1	Pyrrhura_leucotis	Pyrrhura	GCA_038406155.1	Iridian	Scaffold	1	0	1	shared
+OGG1	Pyrrhura_griseipectus	Pyrrhura	GCA_010014965.2	Iridian	Scaffold	1	0	1	shared
+OGG1	Pionites_melanocephalus	Pionites	GCA_029814565.1	Iridian	Scaffold	0	0	0	unresolved
+OGG1	Deroptyus_accipitrinus	Deroptyus	GCA_026284505.1	Iridian	Scaffold	0	0	0	unresolved
+OGG1	Psilopsiagon_aymara	Psilopsiagon	GCA_024733675.1	Iridian	Scaffold	1	0	1	shared
+OGG1	Psilopsiagon_aurifrons	Psilopsiagon	GCA_025447955.1	Iridian	Scaffold	1	0	1	shared
+OGG1	Bolborhynchus_lineola	Bolborhynchus	GCA_025448015.1	Iridian	Scaffold	0	0	0	unresolved
+OGG1	Poicephalus_gulielmi	Poicephalus	GCA_026283885.1	Iridian	Scaffold	2	0	2	shared
+OGG1	Poicephalus_senegalus	Poicephalus	GCA_025448095.1	Iridian	Scaffold	2	0	2	shared
+OGG1	Poicephalus_rueppellii	Poicephalus	GCA_031762375.1	Iridian	Scaffold	2	0	2	shared
+OGG1	Psittacus_erithacus	Psittacus	GCA_009867235.2	Iridian	Scaffold	1	0	1	shared
+OGG1	Psittacus_timneh	Psittacus	GCA_009867315.2	Iridian	Scaffold	1	0	1	shared
+OGG1	Cacatua_ducorpsii	Cacatua	GCA_025448155.1	Iridian	Scaffold	5	0	5	shared
+OGG1	Cacatua_sanguinea	Cacatua	GCA_030265285.1	Iridian	Scaffold	5	0	5	shared
+OGG1	Cacatua_moluccensis	Cacatua	GCA_025448035.1	Iridian	Scaffold	5	0	5	shared
+OGG1	Cacatua_alba	Cacatua	GCA_024361745.1	Iridian	Scaffold	5	0	5	shared
+OGG1	Cacatua_sulphurea	Cacatua	GCA_031762475.1	Iridian	Scaffold	5	0	5	shared
+OGG1	Cacatua_galerita	Cacatua	GCA_035583095.1	Iridian	Scaffold	5	0	5	shared
+OGG1	Eolophus_roseicapilla	Eolophus	GCA_013397615.1	B10K Consortium	Scaffold	0	0	0	unresolved
+OGG1	Nymphicus_hollandicus	Nymphicus	GCA_009823435.2	Iridian	Scaffold	0	0	0	unresolved
+MUTYH	Agapornis_canus	Agapornis	GCA_036873685.1	Iridian	Scaffold	2	2	0	isolated
+MUTYH	Cyanoramphus_novaezelandiae	Cyanoramphus	GCA_025629965.1	Iridian	Scaffold	0	0	0	unresolved
+MUTYH	Platycercus_adscitus	Platycercus	GCA_025629925.1	Iridian	Scaffold	0	0	0	unresolved
+MUTYH	Amazona_finschi	Amazona	GCA_031763935.1	Iridian	Scaffold	2	0	1	shared
+MUTYH	Amazona_vinacea	Amazona	GCA_026283615.1	Iridian	Scaffold	2	0	1	shared
+MUTYH	Brotogeris_tirica	Brotogeris	GCA_034782575.1	Iridian	Scaffold	0	0	0	unresolved
+MUTYH	Myiopsitta_monachus	Myiopsitta	GCA_013036005.2	Iridian	Scaffold	0	0	0	unresolved
+MUTYH	Eupsittula_nana	Eupsittula	GCA_026284785.1	Iridian	Scaffold	1	0	1	shared
+MUTYH	Eupsittula_pertinax	Eupsittula	GCA_011317185.2	Iridian	Scaffold	1	0	1	shared
+MUTYH	Psittacara_holochlorus	Psittacara	GCA_024320895.1	Iridian	Scaffold	3	0	3	shared
+MUTYH	Psittacara_wagleri	Psittacara	GCA_024361765.2	Iridian	Scaffold	3	0	3	shared
+MUTYH	Psittacara_leucophthalmus	Psittacara	GCA_024331625.1	Iridian	Scaffold	3	0	3	shared
+MUTYH	Ara_ararauna	Ara	GCA_010014805.2	Iridian	Scaffold	2	0	2	shared
+MUTYH	Ara_rubrogenys	Ara	GCA_026283725.1	Iridian	Scaffold	2	0	2	shared
+MUTYH	Ara_ambiguus	Ara	GCA_026284625.1	Iridian	Scaffold	2	0	2	shared
+MUTYH	Primolius_auricollis	Primolius	GCA_026284745.2	Iridian	Scaffold	1	0	1	shared
+MUTYH	Primolius_couloni	Primolius	GCA_024331605.1	Iridian	Scaffold	1	0	1	shared
+MUTYH	Aratinga_auricapillus	Aratinga	GCA_026284685.1	Iridian	Scaffold	1	0	1	shared
+MUTYH	Aratinga_solstitialis	Aratinga	GCA_009867195.2	Iridian	Scaffold	1	0	1	shared
+MUTYH	Psittacara_acuticaudatus	Psittacara	GCA_026284765.1	Iridian	Scaffold	3	0	3	shared
+MUTYH	Diopsittaca_nobilis	Diopsittaca	GCA_024337085.1	Iridian	Scaffold	0	0	0	unresolved
+MUTYH	Guaruba_guarouba	Guaruba	GCA_011800095.2	Iridian	Scaffold	0	0	0	unresolved
+MUTYH	Cyanoliseus_patagonus	Cyanoliseus	GCA_025629865.1	Iridian	Scaffold	0	0	0	unresolved
+MUTYH	Rhynchopsitta_pachyrhyncha	Rhynchopsitta	GCA_026284805.1	Iridian	Scaffold	0	0	0	unresolved
+MUTYH	Pyrrhura_leucotis	Pyrrhura	GCA_038406155.1	Iridian	Scaffold	1	0	1	shared
+MUTYH	Pyrrhura_griseipectus	Pyrrhura	GCA_010014965.2	Iridian	Scaffold	1	0	1	shared
+MUTYH	Pionites_melanocephalus	Pionites	GCA_029814565.1	Iridian	Scaffold	0	0	0	unresolved
+MUTYH	Deroptyus_accipitrinus	Deroptyus	GCA_026284505.1	Iridian	Scaffold	0	0	0	unresolved
+MUTYH	Psilopsiagon_aymara	Psilopsiagon	GCA_024733675.1	Iridian	Scaffold	1	0	1	shared
+MUTYH	Psilopsiagon_aurifrons	Psilopsiagon	GCA_025447955.1	Iridian	Scaffold	1	0	1	shared
+MUTYH	Bolborhynchus_lineola	Bolborhynchus	GCA_025448015.1	Iridian	Scaffold	0	0	0	unresolved
+MUTYH	Poicephalus_gulielmi	Poicephalus	GCA_026283885.1	Iridian	Scaffold	2	0	2	shared
+MUTYH	Poicephalus_senegalus	Poicephalus	GCA_025448095.1	Iridian	Scaffold	2	0	2	shared
+MUTYH	Poicephalus_rueppellii	Poicephalus	GCA_031762375.1	Iridian	Scaffold	2	0	2	shared
+MUTYH	Psittacus_erithacus	Psittacus	GCA_009867235.2	Iridian	Scaffold	1	0	1	shared
+MUTYH	Psittacus_timneh	Psittacus	GCA_009867315.2	Iridian	Scaffold	1	0	1	shared
+MUTYH	Cacatua_ducorpsii	Cacatua	GCA_025448155.1	Iridian	Scaffold	5	0	5	shared
+MUTYH	Cacatua_sanguinea	Cacatua	GCA_030265285.1	Iridian	Scaffold	5	0	5	shared
+MUTYH	Cacatua_moluccensis	Cacatua	GCA_025448035.1	Iridian	Scaffold	5	0	5	shared
+MUTYH	Cacatua_alba	Cacatua	GCA_024361745.1	Iridian	Scaffold	5	0	5	shared
+MUTYH	Cacatua_sulphurea	Cacatua	GCA_031762475.1	Iridian	Scaffold	5	0	5	shared
+MUTYH	Cacatua_galerita	Cacatua	GCA_035583095.1	Iridian	Scaffold	5	0	5	shared
+MUTYH	Eolophus_roseicapilla	Eolophus	GCA_013397615.1	B10K Consortium	Scaffold	0	0	0	unresolved
+MUTYH	Nestor_notabilis	Nestor	GCA_000696875.1	BGI	Scaffold	0	0	0	unresolved
+APEX1	Loriculus_galgulus	Loriculus	GCA_046563285.1	Harvrad University	Scaffold	0	0	0	unresolved
+APEX1	Lathamus_discolor	Lathamus	GCA_037157625.1	Vertebrate Genomes Project	Chromosome	0	0	0	unresolved
+APEX1	Amazona_vinacea	Amazona	GCA_026283615.1	Iridian	Scaffold	2	0	0	unresolved
+XRCC1	Neopsephotus_bourkii	Neopsephotus	GCA_033783945.1	CSIRO Applied Genomics Initiative	Scaffold	0	0	0	unresolved
+XRCC1	Pyrrhura_leucotis	Pyrrhura	GCA_038406155.1	Iridian	Scaffold	1	0	0	unresolved
+XRCC1	Nestor_notabilis	Nestor	GCA_000696875.1	BGI	Scaffold	0	0	0	unresolved
+KEAP1	Amazona_aestiva	Amazona	GCA_026283685.1	Iridian	Scaffold	2	0	0	unresolved
+HSF1	Loriculus_galgulus	Loriculus	GCA_046563285.1	Harvrad University	Scaffold	0	0	0	unresolved
+HSF1	Psittacara_wagleri	Psittacara	GCA_024361765.2	Iridian	Scaffold	3	0	0	unresolved
+HSF1	Cyanoliseus_patagonus	Cyanoliseus	GCA_025629865.1	Iridian	Scaffold	0	0	0	unresolved
+HSF1	Cacatua_sanguinea	Cacatua	GCA_030265285.1	Iridian	Scaffold	5	0	0	unresolved
+HMOX1	Agapornis_lilianae	Agapornis	GCA_035222285.1	Iridian	Scaffold	2	0	2	shared
+HMOX1	Agapornis_personatus	Agapornis	GCA_034783155.1	Iridian	Scaffold	2	0	2	shared
+HMOX1	Agapornis_canus	Agapornis	GCA_036873685.1	Iridian	Scaffold	2	0	2	shared
+HMOX1	Neopsephotus_bourkii	Neopsephotus	GCA_033783945.1	CSIRO Applied Genomics Initiative	Scaffold	0	0	0	unresolved
+HMOX1	Psittacula_derbiana	Psittacula	GCA_029814625.1	Iridian	Scaffold	0	0	0	unresolved
+HMOX1	Deroptyus_accipitrinus	Deroptyus	GCA_026284505.1	Iridian	Scaffold	0	0	0	unresolved
+HMOX1	Psilopsiagon_aymara	Psilopsiagon	GCA_024733675.1	Iridian	Scaffold	1	0	1	shared
+HMOX1	Psilopsiagon_aurifrons	Psilopsiagon	GCA_025447955.1	Iridian	Scaffold	1	0	1	shared
+HMOX1	Bolborhynchus_lineola	Bolborhynchus	GCA_025448015.1	Iridian	Scaffold	0	0	0	unresolved
+HMOX1	Psittacus_erithacus	Psittacus	GCA_009867235.2	Iridian	Scaffold	1	0	1	shared
+HMOX1	Psittacus_timneh	Psittacus	GCA_009867315.2	Iridian	Scaffold	1	0	1	shared
+NQO1	Poicephalus_gulielmi	Poicephalus	GCA_026283885.1	Iridian	Scaffold	2	0	2	shared
+NQO1	Poicephalus_senegalus	Poicephalus	GCA_025448095.1	Iridian	Scaffold	2	0	2	shared
+NQO1	Poicephalus_rueppellii	Poicephalus	GCA_031762375.1	Iridian	Scaffold	2	0	2	shared
+NQO1	Psittacus_erithacus	Psittacus	GCA_009867235.2	Iridian	Scaffold	1	0	1	shared
+NQO1	Psittacus_timneh	Psittacus	GCA_009867315.2	Iridian	Scaffold	1	0	1	shared
+TXNRD1	Bolborhynchus_lineola	Bolborhynchus	GCA_025448015.1	Iridian	Scaffold	0	0	0	unresolved
+SOD1	Lorius_lory	Lorius	GCA_025629905.1	Iridian	Scaffold	2	2	0	isolated
+SOD2	Bolborhynchus_lineola	Bolborhynchus	GCA_025448015.1	Iridian	Scaffold	0	0	0	unresolved
+CAT	Cyanoliseus_patagonus	Cyanoliseus	GCA_025629865.1	Iridian	Scaffold	0	0	0	unresolved
+PRDX1	Eolophus_roseicapilla	Eolophus	GCA_013397615.1	B10K Consortium	Scaffold	0	0	0	unresolved
+PRDX3	Loriculus_galgulus	Loriculus	GCA_046563285.1	Harvrad University	Scaffold	0	0	0	unresolved
+PRDX3	Lathamus_discolor	Lathamus	GCA_037157625.1	Vertebrate Genomes Project	Chromosome	0	0	0	unresolved
+PRDX3	Platycercus_adscitus	Platycercus	GCA_025629925.1	Iridian	Scaffold	0	0	0	unresolved
+PRDX3	Neopsephotus_bourkii	Neopsephotus	GCA_033783945.1	CSIRO Applied Genomics Initiative	Scaffold	0	0	0	unresolved
+PRDX3	Psittacula_derbiana	Psittacula	GCA_029814625.1	Iridian	Scaffold	0	0	0	unresolved
+PRDX3	Amazona_aestiva	Amazona	GCA_026283685.1	Iridian	Scaffold	2	0	1	shared
+PRDX3	Amazona_finschi	Amazona	GCA_031763935.1	Iridian	Scaffold	2	0	1	shared
+PRDX3	Brotogeris_tirica	Brotogeris	GCA_034782575.1	Iridian	Scaffold	0	0	0	unresolved
+PRDX3	Myiopsitta_monachus	Myiopsitta	GCA_013036005.2	Iridian	Scaffold	0	0	0	unresolved
+PRDX3	Eupsittula_nana	Eupsittula	GCA_026284785.1	Iridian	Scaffold	1	0	0	unresolved
+PRDX3	Psittacara_holochlorus	Psittacara	GCA_024320895.1	Iridian	Scaffold	3	0	2	shared
+PRDX3	Psittacara_wagleri	Psittacara	GCA_024361765.2	Iridian	Scaffold	3	0	2	shared
+PRDX3	Ara_ararauna	Ara	GCA_010014805.2	Iridian	Scaffold	2	0	1	shared
+PRDX3	Ara_ambiguus	Ara	GCA_026284625.1	Iridian	Scaffold	2	0	1	shared
+PRDX3	Primolius_auricollis	Primolius	GCA_026284745.2	Iridian	Scaffold	1	0	1	shared
+PRDX3	Primolius_couloni	Primolius	GCA_024331605.1	Iridian	Scaffold	1	0	1	shared
+PRDX3	Aratinga_auricapillus	Aratinga	GCA_026284685.1	Iridian	Scaffold	1	0	0	unresolved
+PRDX3	Psittacara_acuticaudatus	Psittacara	GCA_026284765.1	Iridian	Scaffold	3	0	2	shared
+PRDX3	Diopsittaca_nobilis	Diopsittaca	GCA_024337085.1	Iridian	Scaffold	0	0	0	unresolved
+PRDX3	Guaruba_guarouba	Guaruba	GCA_011800095.2	Iridian	Scaffold	0	0	0	unresolved
+PRDX3	Rhynchopsitta_pachyrhyncha	Rhynchopsitta	GCA_026284805.1	Iridian	Scaffold	0	0	0	unresolved
+PRDX3	Bolborhynchus_lineola	Bolborhynchus	GCA_025448015.1	Iridian	Scaffold	0	0	0	unresolved
+PRDX3	Psittacus_erithacus	Psittacus	GCA_009867235.2	Iridian	Scaffold	1	0	1	shared
+PRDX3	Psittacus_timneh	Psittacus	GCA_009867315.2	Iridian	Scaffold	1	0	1	shared
+PRDX3	Cacatua_sanguinea	Cacatua	GCA_030265285.1	Iridian	Scaffold	5	0	2	shared
+PRDX3	Cacatua_alba	Cacatua	GCA_024361745.1	Iridian	Scaffold	5	0	2	shared
+PRDX3	Cacatua_galerita	Cacatua	GCA_035583095.1	Iridian	Scaffold	5	0	2	shared
+PRDX3	Eolophus_roseicapilla	Eolophus	GCA_013397615.1	B10K Consortium	Scaffold	0	0	0	unresolved
+PRDX3	Nymphicus_hollandicus	Nymphicus	GCA_009823435.2	Iridian	Scaffold	0	0	0	unresolved
+PRDX5	Trichoglossus_euteles	Trichoglossus	GCA_025447915.1	Iridian	Scaffold	0	0	0	unresolved
+TERT	Nestor_notabilis	Nestor	GCA_000696875.1	BGI	Scaffold	0	0	0	unresolved
+POT1	Lorius_lory	Lorius	GCA_025629905.1	Iridian	Scaffold	2	0	0	unresolved
+POT1	Eolophus_roseicapilla	Eolophus	GCA_013397615.1	B10K Consortium	Scaffold	0	0	0	unresolved
+ACD	Loriculus_galgulus	Loriculus	GCA_046563285.1	Harvrad University	Scaffold	0	0	0	unresolved
+ACD	Cyanoramphus_novaezelandiae	Cyanoramphus	GCA_025629965.1	Iridian	Scaffold	0	0	0	unresolved
+ACD	Platycercus_adscitus	Platycercus	GCA_025629925.1	Iridian	Scaffold	0	0	0	unresolved
+ACD	Amazona_vinacea	Amazona	GCA_026283615.1	Iridian	Scaffold	2	1	0	isolated
+ACD	Brotogeris_tirica	Brotogeris	GCA_034782575.1	Iridian	Scaffold	0	0	0	unresolved
+ACD	Myiopsitta_monachus	Myiopsitta	GCA_013036005.2	Iridian	Scaffold	0	0	0	unresolved
+ACD	Psilopsiagon_aymara	Psilopsiagon	GCA_024733675.1	Iridian	Scaffold	1	0	0	unresolved
+ACD	Psittacus_erithacus	Psittacus	GCA_009867235.2	Iridian	Scaffold	1	0	1	shared
+ACD	Psittacus_timneh	Psittacus	GCA_009867315.2	Iridian	Scaffold	1	0	1	shared
+ACD	Cacatua_ducorpsii	Cacatua	GCA_025448155.1	Iridian	Scaffold	5	1	1	shared
+ACD	Cacatua_sanguinea	Cacatua	GCA_030265285.1	Iridian	Scaffold	5	1	1	shared
+ACD	Eolophus_roseicapilla	Eolophus	GCA_013397615.1	B10K Consortium	Scaffold	0	0	0	unresolved
+TERF2IP	Lorius_lory	Lorius	GCA_025629905.1	Iridian	Scaffold	2	1	1	shared
+TERF2IP	Lorius_chlorocercus	Lorius	GCA_025629885.1	Iridian	Scaffold	2	1	1	shared
+RTEL1	Myiopsitta_monachus	Myiopsitta	GCA_013036005.2	Iridian	Scaffold	0	0	0	unresolved
+RTEL1	Nestor_notabilis	Nestor	GCA_000696875.1	BGI	Scaffold	0	0	0	unresolved
+DKC1	Agapornis_personatus	Agapornis	GCA_034783155.1	Iridian	Scaffold	2	1	0	isolated
+DKC1	Ara_ararauna	Ara	GCA_010014805.2	Iridian	Scaffold	2	2	0	isolated
+PSMD6	Lorius_lory	Lorius	GCA_025629905.1	Iridian	Scaffold	2	1	1	shared
+PSMD6	Lorius_garrulus	Lorius	GCA_010014925.2	Iridian	Scaffold	2	1	1	shared
+PSMD6	Agapornis_lilianae	Agapornis	GCA_035222285.1	Iridian	Scaffold	2	0	1	shared
+PSMD6	Agapornis_personatus	Agapornis	GCA_034783155.1	Iridian	Scaffold	2	0	1	shared
+PSMD6	Loriculus_galgulus	Loriculus	GCA_046563285.1	Harvrad University	Scaffold	0	0	0	unresolved
+PSMD6	Cyanoramphus_novaezelandiae	Cyanoramphus	GCA_025629965.1	Iridian	Scaffold	0	0	0	unresolved
+PSMD6	Psephotus_haematonotus	Psephotus	GCA_026283765.1	Iridian	Scaffold	0	0	0	unresolved
+PSMD6	Amazona_aestiva	Amazona	GCA_026283685.1	Iridian	Scaffold	2	1	1	shared
+PSMD6	Amazona_vinacea	Amazona	GCA_026283615.1	Iridian	Scaffold	2	1	1	shared
+PSMD6	Eupsittula_pertinax	Eupsittula	GCA_011317185.2	Iridian	Scaffold	1	1	0	isolated
+PSMD6	Aratinga_solstitialis	Aratinga	GCA_009867195.2	Iridian	Scaffold	1	1	0	isolated
+PSMD6	Bolborhynchus_lineola	Bolborhynchus	GCA_025448015.1	Iridian	Scaffold	0	0	0	unresolved
+PSMA1	Nestor_notabilis	Nestor	GCA_000696875.1	BGI	Scaffold	0	0	0	unresolved
+PSMA3	Lorius_lory	Lorius	GCA_025629905.1	Iridian	Scaffold	2	2	0	isolated
+PSMA5	Bolborhynchus_lineola	Bolborhynchus	GCA_025448015.1	Iridian	Scaffold	0	0	0	unresolved
+PSMA7	Cyanoramphus_novaezelandiae	Cyanoramphus	GCA_025629965.1	Iridian	Scaffold	0	0	0	unresolved
+PSMA7	Platycercus_adscitus	Platycercus	GCA_025629925.1	Iridian	Scaffold	0	0	0	unresolved
+PSMA7	Psephotus_haematonotus	Psephotus	GCA_026283765.1	Iridian	Scaffold	0	0	0	unresolved
+PSMB4	Brotogeris_tirica	Brotogeris	GCA_034782575.1	Iridian	Scaffold	0	0	0	unresolved
+PSMB5	Trichoglossus_euteles	Trichoglossus	GCA_025447915.1	Iridian	Scaffold	0	0	0	unresolved
+PSMB5	Amazona_finschi	Amazona	GCA_031763935.1	Iridian	Scaffold	2	0	0	unresolved
+PSMB5	Eupsittula_nana	Eupsittula	GCA_026284785.1	Iridian	Scaffold	1	0	1	shared
+PSMB5	Eupsittula_pertinax	Eupsittula	GCA_011317185.2	Iridian	Scaffold	1	0	1	shared
+PSMB5	Psittacara_holochlorus	Psittacara	GCA_024320895.1	Iridian	Scaffold	3	0	3	shared
+PSMB5	Psittacara_wagleri	Psittacara	GCA_024361765.2	Iridian	Scaffold	3	0	3	shared
+PSMB5	Psittacara_leucophthalmus	Psittacara	GCA_024331625.1	Iridian	Scaffold	3	0	3	shared
+PSMB5	Ara_ararauna	Ara	GCA_010014805.2	Iridian	Scaffold	2	0	1	shared
+PSMB5	Ara_ambiguus	Ara	GCA_026284625.1	Iridian	Scaffold	2	0	1	shared
+PSMB5	Primolius_auricollis	Primolius	GCA_026284745.2	Iridian	Scaffold	1	0	1	shared
+PSMB5	Primolius_couloni	Primolius	GCA_024331605.1	Iridian	Scaffold	1	0	1	shared
+PSMB5	Aratinga_solstitialis	Aratinga	GCA_009867195.2	Iridian	Scaffold	1	0	0	unresolved
+PSMB5	Psittacara_acuticaudatus	Psittacara	GCA_026284765.1	Iridian	Scaffold	3	0	3	shared
+PSMB5	Diopsittaca_nobilis	Diopsittaca	GCA_024337085.1	Iridian	Scaffold	0	0	0	unresolved
+PSMB5	Guaruba_guarouba	Guaruba	GCA_011800095.2	Iridian	Scaffold	0	0	0	unresolved
+PSMB5	Cyanoliseus_patagonus	Cyanoliseus	GCA_025629865.1	Iridian	Scaffold	0	0	0	unresolved
+PSMB5	Pyrrhura_leucotis	Pyrrhura	GCA_038406155.1	Iridian	Scaffold	1	0	1	shared
+PSMB5	Pyrrhura_griseipectus	Pyrrhura	GCA_010014965.2	Iridian	Scaffold	1	0	1	shared
+PSMB5	Pionites_melanocephalus	Pionites	GCA_029814565.1	Iridian	Scaffold	0	0	0	unresolved
+PSMB5	Bolborhynchus_lineola	Bolborhynchus	GCA_025448015.1	Iridian	Scaffold	0	0	0	unresolved
+PSMB5	Poicephalus_gulielmi	Poicephalus	GCA_026283885.1	Iridian	Scaffold	2	0	2	shared
+PSMB5	Poicephalus_senegalus	Poicephalus	GCA_025448095.1	Iridian	Scaffold	2	0	2	shared
+PSMB5	Poicephalus_rueppellii	Poicephalus	GCA_031762375.1	Iridian	Scaffold	2	0	2	shared
+PSMB5	Psittacus_timneh	Psittacus	GCA_009867315.2	Iridian	Scaffold	1	0	0	unresolved
+PSMB6	Poicephalus_gulielmi	Poicephalus	GCA_026283885.1	Iridian	Scaffold	2	1	0	isolated
+ATG5	Eolophus_roseicapilla	Eolophus	GCA_013397615.1	B10K Consortium	Scaffold	0	0	0	unresolved
+ATG7	Eupsittula_pertinax	Eupsittula	GCA_011317185.2	Iridian	Scaffold	1	0	0	unresolved
+PINK1	Nestor_notabilis	Nestor	GCA_000696875.1	BGI	Scaffold	0	0	0	unresolved
+PRKN	Neopsephotus_bourkii	Neopsephotus	GCA_033783945.1	CSIRO Applied Genomics Initiative	Scaffold	0	0	0	unresolved
+BNIP3L	Eolophus_roseicapilla	Eolophus	GCA_013397615.1	B10K Consortium	Scaffold	0	0	0	unresolved
+TFEB	Nestor_notabilis	Nestor	GCA_000696875.1	BGI	Scaffold	0	0	0	unresolved

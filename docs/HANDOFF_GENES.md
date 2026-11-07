@@ -60,3 +60,7 @@ Estão no Histórico de `results/phase0/analysis_plan.md` (entradas de 16 e 28 o
 ## Ferramentas
 
 `.bioenv` (micromamba, bioconda): compleasm 0.2.10, miniprot 0.18, mafft, pal2nal, hyphy 2.5.103, seqkit, samtools, ncbi-datasets. Python: `.venv`. R: `.renv45` (ape, phytools, nlme).
+
+## Triagem de genes interrompidos sem reads (7 nov. 2026)
+
+`scripts/40_integrity_triage.py` → `results/phase2_genes/disrupted_triage*.tsv`. Das 329 chamadas "disrupted": 153 compartilhadas com congênere, 15 isoladas, 161 sem congênere. As "compartilhadas" se concentram em 12 genes (ACD, ERCC3, HMOX1, MUTYH, MYC, NQO1, OGG1, PRDX3, PSMB5, PSMD6, RB1, TERF2IP). OGG1 é "disrupted" em 52/52 Iridian, MUTYH em 42/52, MYC em 39/52, PRDX3 em 25/52 (+24 parálogo): padrão sistemático em todas as espécies, mais provável de ser artefato (montagem Illumina, regiões ricas em GC ou lócus de referência) do que perda real. **Não chamar perda** nesses genes sem checar com reads/outra referência (kakapo). Pendente: checagem com reads.
