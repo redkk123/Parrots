@@ -64,3 +64,11 @@ Estão no Histórico de `results/phase0/analysis_plan.md` (entradas de 16 e 28 o
 ## Triagem de genes interrompidos sem reads (7 nov. 2026)
 
 `scripts/40_integrity_triage.py` → `results/phase2_genes/disrupted_triage*.tsv`. Das 329 chamadas "disrupted": 153 compartilhadas com congênere, 15 isoladas, 161 sem congênere. As "compartilhadas" se concentram em 12 genes (ACD, ERCC3, HMOX1, MUTYH, MYC, NQO1, OGG1, PRDX3, PSMB5, PSMD6, RB1, TERF2IP). OGG1 é "disrupted" em 52/52 Iridian, MUTYH em 42/52, MYC em 39/52, PRDX3 em 25/52 (+24 parálogo): padrão sistemático em todas as espécies, mais provável de ser artefato (montagem Illumina, regiões ricas em GC ou lócus de referência) do que perda real. **Não chamar perda** nesses genes sem checar com reads/outra referência (kakapo). Pendente: checagem com reads.
+
+### Segunda referência (kakapo) nos 12 genes (7 nov. 2026)
+Tabela: `results/phase2_genes/disrupted_second_reference.tsv` (chamadas com a proteína do periquito × a do kakapo, mesma montagem).
+- **Artefato da proteína de referência do periquito:** OGG1 (44/56 "disrupted" com periquito → completo com kakapo), MUTYH (41), MYC (42), HMOX1 (11/11), PRDX3 (7). Não são perdas.
+- **Artefato da proteína do kakapo:** NQO1 (37 espécies completas com periquito, "disrupted" com kakapo).
+- **Interrompido com as duas referências (candidatos a checar com reads):** PSMD6 (12/12 das espécies disrupted com periquito), ERCC3 (6), ACD (7), NQO1 (5), MRE11 (1: já visto como erro de montagem no Iridian do periquito), TERF2IP (1).
+- RB1 e TP53: o periquito dá parálogo/partial; sem resposta (montagens fragmentadas nesses genes).
+- Consequência: a chamada de integridade só vale quando as duas referências concordam. Não usar a do periquito sozinha para OGG1, MUTYH, MYC, HMOX1, PRDX3.
