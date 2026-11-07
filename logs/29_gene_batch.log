@@ -80,3 +80,30 @@ burgio2019 58 tips
 smith2024 58 tips
 brain allometry: lambda 0.90, slope 0.653 (n 235); brain on longevity: slope 0.040 ± 0.032 (n 166)
 selected species 58; with longevity 58, with brain 51; Psittaculidae 15
+/home/red/parrots/scripts/32_h8_summary.py:96: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  "disrupted_psittaculidae": (calls[psl] == "disrupted").sum(1), "complete_psittaculidae": (calls[psl] == "complete").sum(1),
+/home/red/parrots/scripts/32_h8_summary.py:96: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  "disrupted_psittaculidae": (calls[psl] == "disrupted").sum(1), "complete_psittaculidae": (calls[psl] == "complete").sum(1),
+/home/red/parrots/scripts/32_h8_summary.py:97: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  "disrupted_rest": (calls[rest] == "disrupted").sum(1), "complete_rest": (calls[rest] == "complete").sum(1),
+/home/red/parrots/scripts/32_h8_summary.py:97: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  "disrupted_rest": (calls[rest] == "disrupted").sum(1), "complete_rest": (calls[rest] == "complete").sum(1),
+RELAX genes: {'burgio2019': 87, 'smith2024': 87}; integrity table: 101 genes
+module  n_genes  prop_relaxed  prop_intensified  mean_log2_k       tree  heterogeneity_relaxed_p  heterogeneity_log2_k_p
+    M1        9      0.000000          0.000000    -0.100282 burgio2019                 0.022898                0.164284
+    M2        6      0.333333          0.000000    -3.687887 burgio2019                 0.022898                0.164284
+    M3       10      0.100000          0.000000    -1.374032 burgio2019                 0.022898                0.164284
+    M4       11      0.000000          0.090909    -0.045938 burgio2019                 0.022898                0.164284
+    M5        8      0.125000          0.000000     0.347783 burgio2019                 0.022898                0.164284
+    M6       13      0.000000          0.076923    -0.490801 burgio2019                 0.022898                0.164284
+    M7        8      0.250000          0.125000    -1.134610 burgio2019                 0.022898                0.164284
+    M8       22      0.000000          0.000000    -0.271600 burgio2019                 0.022898                0.164284
+    M1        9      0.000000          0.000000    -0.234293  smith2024                 0.127087                0.955104
+    M2        7      0.142857          0.142857    -1.085288  smith2024                 0.127087                0.955104
+    M3       10      0.100000          0.000000    -1.190871  smith2024                 0.127087                0.955104
+    M4       11      0.000000          0.090909     0.003243  smith2024                 0.127087                0.955104
+    M5        8      0.125000          0.000000    -0.018520  smith2024                 0.127087                0.955104
+    M6       13      0.000000          0.076923    -0.168423  smith2024                 0.127087                0.955104
+    M7        8      0.250000          0.125000    -1.147189  smith2024                 0.127087                0.955104
+    M8       21      0.000000          0.000000    -1.716523  smith2024                 0.127087                0.955104
+2026-11-07T16:32:47-03:00 RERconverge not installed: H6 and H8-within-clade tests skipped (docs/HANDOFF_GENES.md)
