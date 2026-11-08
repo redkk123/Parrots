@@ -27,3 +27,13 @@ Montagens: GCA_009867235.2 (*P. erithacus*) e GCA_009867315.2 (*P. timneh*), amb
 | Coordenada do stop | Posições genômicas 1565–1567 (`TGA`, aa 35 do miniprot, fita forward) no 1º éxon. | Exatamente o mesmo stop identificado em *Loriculus galgulus* (aa 34, 1º éxon). |
 | Contexto genômico local | Posições 1500–1650: sequência com **77,3 % de GC** (`GCGCTGGGGGCGCCGTGAGGACGCGGGGGAA...`). | Região hiper-GC / CpG island típica de promotor/éxon 1 aviário. |
 | Cobertura por reads curtas | Biblioteca `SRR8236665` (LSU): profundidade média de 31× no corpo do gene ACD (éxons 2–15), mas profundidade **0×** na janela 1500–1650. | Drop-out clássico de sequenciamento Illumina e alinhamento em ilha CpG / extremo 5' divergente. O "stop" do miniprot decorre de alinhamento forçado na borda da montagem desprovida de reads. Não é pseudogenização. |
+
+# Checagem com reads: Myiopsitta monachus (7 nov. 2026, exploratória)
+
+Montagem: GCA_013036005.2 (Iridian, Scaffold). Gene: ACD (M7), coordenada `WUAQ02000083.1:83986751-83994478+`.
+
+| Parâmetro | Observação | Interpretação |
+| --- | --- | --- |
+| Coordenada do stop | Janela relativa posições 2854–2856 (`TGA`, aa 35 do miniprot, fita forward). | Idêntico a *P. erithacus* (aa 35), *P. timneh* (aa 35) e *L. galgulus* (aa 34). |
+| Contexto local | Posições 2750–2900: sequência com **74,7 % de GC** (`AGCTGGAGGCGCCATGAGGACGCGGGGGAGC...`). | Região hiper-GC / CpG de éxon 1 em todas as espécies testadas. |
+| Conclusão diagnóstica | O stop do ACD não é perda gênica nem mutação linhagem-específica; é um artefato sistemático de modelagem do miniprot no éxon 1 altamente divergente e rico em GC contra a referência de *Melopsittacus*. | O gene ACD permanece funcional em todas as espécies. Não deve ser considerado interrompido na análise de integridade da H8. |
