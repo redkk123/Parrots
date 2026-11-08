@@ -1,0 +1,118 @@
+{
+ "accession": "GCA_013399615.1",
+ "claimed": "Amazona guildingii",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "VXAR01011626.1": {
+   "len": 237066,
+   "gc": 40.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 90.843,
+     "claimed_pid": 87.613
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 86.534,
+     "claimed_pid": 81.827
+    }
+   }
+  },
+  "VXAR01000918.1": {
+   "len": 67875,
+   "gc": 38.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_viridigenalis",
+     "top_pid": 94.035,
+     "claimed_pid": 93.252
+    }
+   }
+  },
+  "VXAR01005205.1": {
+   "len": 510912,
+   "gc": 39.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_sp._1_PG-2015",
+     "top_pid": 89.868,
+     "claimed_pid": 88.458
+    }
+   }
+  },
+  "VXAR01012143.1": {
+   "len": 1982,
+   "gc": 45.0,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 80.227,
+     "claimed_pid": 75.93
+    }
+   }
+  },
+  "VXAR01001649.1": {
+   "len": 2207,
+   "gc": 44.8,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Vini_australis",
+     "top_pid": 85.417,
+     "claimed_pid": 82.218
+    }
+   }
+  },
+  "VXAR01004813.1": {
+   "len": 6079,
+   "gc": 46.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 88.478,
+     "claimed_pid": 84.492
+    }
+   }
+  },
+  "VXAR01011494.1": {
+   "len": 292971,
+   "gc": 36.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_farinosa",
+     "top_pid": 93.824,
+     "claimed_pid": 93.349
+    }
+   }
+  },
+  "VXAR01007341.1": {
+   "len": 248721,
+   "gc": 41.2,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Amazona_guildingii",
+     "top_pid": 97.546,
+     "claimed_pid": 97.546
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": null,
+ "overall": "ambiguous"
+}
