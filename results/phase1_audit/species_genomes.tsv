@@ -27,7 +27,7 @@ Platycercus adscitus	Platycercus	Psittaculidae_other	True	included	1	GCA_0256299
 Psephotus haematonotus	Psephotus	Psittaculidae_other	True	included	1	GCA_026283765.1	Iridian	Scaffold	1.74e+04	77.17	pass	False	True	GCA_026283765.1 (Iridian, BUSCO 77.17, id pass)
 Neophema chrysogaster	Neophema	Psittaculidae_other	True	included	1	GCA_047054915.1	The University of Sydney	Scaffold	7.608e+06	99.58	pass	True	True	GCA_047054915.1 (The University of Sydney, BUSCO 99.58, id pass)
 Neopsephotus bourkii	Neopsephotus	Psittaculidae_other	True	included	1	GCA_033783945.1	CSIRO Applied Genomics Initiative	Scaffold	4.34e+06	99.35	pass	True	True	GCA_033783945.1 (CSIRO Applied Genomics Initiative, BUSCO 99.35, id pass)
-Psittacula krameri	Psittacula	Psittaculidae_other	True	pending	1									GCA_988280915.1 (WELLCOME SANGER INSTITUTE, BUSCO nan, id pass)
+Psittacula krameri	Psittacula	Psittaculidae_other	True	included	1	GCA_988280915.1	WELLCOME SANGER INSTITUTE	Scaffold	2.267e+07	93.06	pass	True	True	GCA_988280915.1 (WELLCOME SANGER INSTITUTE, BUSCO 93.06, id pass)
 Psittacula derbiana	Psittacula	Psittaculidae_other	True	included	1	GCA_029814625.1	Iridian	Scaffold	2.573e+04	83.89	pass	False	True	GCA_029814625.1 (Iridian, BUSCO 83.89, id pass)
 Psittacula longicauda	Psittacula	Psittaculidae_other	True	excluded	1									GCA_031762955.1 (Iridian, BUSCO 68.38, id pass)
 Psittacula columboides	Psittacula	Psittaculidae_other	True	excluded	1									GCA_032274665.1 (Iridian, BUSCO 65.03, id pass)
