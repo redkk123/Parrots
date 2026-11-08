@@ -1,0 +1,122 @@
+{
+ "accession": "GCA_039720435.1",
+ "claimed": "Amazona ochrocephala",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBCFXG010000395.1": {
+   "len": 75920,
+   "gc": 45.8,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 99.808,
+     "claimed_pid": 99.808
+    }
+   }
+  },
+  "CM077910.1": {
+   "len": 19046,
+   "gc": 45.8,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 99.808,
+     "claimed_pid": 99.808
+    }
+   }
+  },
+  "CM077880.1": {
+   "len": 92674118,
+   "gc": 41.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 90.144,
+     "claimed_pid": 87.374
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 85.536,
+     "claimed_pid": 82.325
+    }
+   }
+  },
+  "CM077877.1": {
+   "len": 132313556,
+   "gc": 41.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_viridigenalis",
+     "top_pid": 94.035,
+     "claimed_pid": 92.95
+    }
+   }
+  },
+  "CM077908.1": {
+   "len": 28878279,
+   "gc": 45.3,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Amazona_ochrocephala",
+     "top_pid": 98.532,
+     "claimed_pid": 98.532
+    }
+   }
+  },
+  "CM077882.1": {
+   "len": 74041890,
+   "gc": 42.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_finschi",
+     "top_pid": 90.123,
+     "claimed_pid": 89.696
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}
