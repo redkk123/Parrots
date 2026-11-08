@@ -75,3 +75,25 @@ Tabela: `results/phase2_genes/disrupted_second_reference.tsv` (chamadas com a pr
 
 ### Candidatos à checagem com reads (7 nov. 2026)
 `results/phase2_genes/disrupted_read_check_candidates.tsv` (31 chamadas interrompidas com as duas referências em PSMD6, ERCC3, ACD, NQO1, TERF2IP). A maioria é provável artefato de fragmentação: contigs de 5–15 kb, cobertura da proteína 40–70 % e 10–30 "stops" (alinhamento truncado, não gene quebrado). ERCC3 (6 espécies): todas cobrem só ~57 % em contig pequeno. Critério de priorização (definido depois de ver a tabela, então exploratório): cobertura ≥ 90 %, 0 frameshift, ≤ 2 stops. Esses são os que valem uma checagem com reads (Illumina existe no SRA para todas as espécies listadas).
+
+## Conclusão do Lote de Genes e Nulo da H8 (8 nov. 2026)
+
+Lote concluído com sucesso às 00:14 (`results/phase2_genes/DONE`). O script `37_h8_null.py` executou o RELAX em 298 genes do universo genômico e gerou `h8_null_modules.tsv`.
+
+### Resultados da Análise de 58 Espécies:
+1. **Validação contra o Nulo Genômico (298 genes controle):**
+   - **M2 (Crescimento e supressores tumorais):** relaxamento médio significativo contra o nulo (`mean_log2_k = -3.69` vs `-0.49` no nulo, **p = 0.024**). Puxado por *TSC2* (relaxado com q < 0.10) e *CCNE1*.
+   - **M3 (Apoptose):** tendência a relaxamento (`mean_log2_k = -1.37` vs `-0.00` no nulo, **p = 0.094**), puxado por *BBC3* (PUMA).
+   - Os demais módulos não diferem do nulo genômico em proporção de relaxamento.
+2. **Sinais Robustos nas Duas Árvores (Burgio 2019 e Smith 2024):**
+   - **Maquinaria de Telômeros (M7):**
+     - *TERT*: seleção intensificada em Psittaculidae (k = 3.1–5.5, q < 0.10) e seleção episódica no ramo do periquito (*Melopsittacus*, q = 0.004).
+     - *RTEL1*: relaxado em Psittaculidae (k -> 0, q < 0.10) e seleção episódica muito forte no periquito (q = 1.5e-8).
+     - *DKC1*: relaxado em Psittaculidae (k = 0.49, q < 0.10).
+     - *TERF1, TERF2, ACD*: seleção episódica exclusiva no periquito (q < 0.01).
+   - **Resistência ao Estresse e Reparo:**
+     - *SOD1* (M6, estresse oxidativo): intensificado em Psittaculidae (k = 31–50, q < 0.10).
+     - *MRE11* (M4, reparo de DNA): intensificado em Psittaculidae (k = 2.6, q < 0.10).
+     - *NQO1* (M5): relaxado em Psittaculidae (k = 0.33, q < 0.10).
+3. **Triagem de Genes Interrompidos (Read-Check):**
+   - Os 6 candidatos com stops (PSMD6 e ACD) foram testados com bibliotecas Illumina independentes e análise hiper-GC. Nenhum representa pseudogenização fixada (são polimorfismos ou artefatos de montagem/éxon 1 hiper-GC).
