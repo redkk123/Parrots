@@ -107,3 +107,4 @@ module  n_genes  prop_relaxed  prop_intensified  mean_log2_k       tree  heterog
     M7        8      0.250000          0.125000    -1.147189  smith2024                 0.127087                0.955104
     M8       21      0.000000          0.000000    -1.716523  smith2024                 0.127087                0.955104
 2026-11-07T16:32:47-03:00 RERconverge not installed: H6 and H8-within-clade tests skipped (docs/HANDOFF_GENES.md)
+2026-11-08T00:14:54-03:00 gene stage finished
