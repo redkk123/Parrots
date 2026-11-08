@@ -1,79 +1,67 @@
-# Análise Confirmatória da H8: 58 Espécies Auditadas (8 nov. 2026)
+# H8, análise principal: 58 espécies (8 nov. 2026)
 
-**Análise principal confirmatória** (plano pré-registrado, Histórico de 28 out.). São 58 espécies auditadas com genoma único por espécie (BUSCO ≥ 70 %, identidade mitocondrial e nuclear validadas, preferência por montagens cromossômicas de referência). Inclui 15 espécies de Psittaculidae (incluindo periquito-australiano *Melopsittacus undulatus*, lóris *Lorius lory*, *L. garrulus*, *L. chlorocercus*, *Trichoglossus*, agapornis *Agapornis lilianae*, *A. personatus*, *A. canus*, *Loriculus galgulus*, *Cyanoramphus*, *Lathamus*, *Platycercus*, *Psephotus*, *Neopsephotus*, *Psittacula derbiana*) contra 43 outras espécies de Psittaciformes e outgroup.
+Conjunto congelado em 28 out. (`results/phase1_audit/analysis_species.tsv`): 58 espécies, 15 delas Psittaculidae. Painel de 101 genes (M1–M8, plano §10), 87 com alinhamento testável no RELAX. Duas árvores: Burgio 2019 (principal) e Smith 2024 (sensibilidade). Números tirados de `h8_relax_by_gene.tsv`, `h8_modules.tsv` e `h8_null_modules.tsv`.
 
-Foram avaliados os 101 genes pré-congelados dos módulos M1–M8 (plano §10) nas duas topologias mestras: **Burgio et al. 2019** (supertree) e **Smith et al. 2024** (árvore filogenômica de sensibilidade).
+> Revisado em 8 nov.: a primeira versão deste arquivo tinha valores de q errados e conclusões fortes demais. Esta versão substitui aquela.
 
----
+## 1. RELAX por gene (TEST = tronco + ramos internos de Psittaculidae; BH no painel, q < 0,10)
 
-## 1. RELAX: Tronco e Ramos Internos de Psittaculidae vs. Referência (FDR q < 0,10)
+| Gene | Módulo | k (Burgio / Smith) | q (Burgio / Smith) | Espécies no alinhamento (Psittaculidae) | Observação |
+| --- | --- | --- | --- | --- | --- |
+| TERT | M7 | 5,5 / 3,1 | 0,0008 / 0,011 | 15 (8) | intensificado; alinhamento com poucas espécies |
+| MRE11 | M4 | 2,6 / 2,6 | 0,002 / 0,005 | 49 (10) | intensificado |
+| SOD1 | M6 | 32 / 50 | 0,031 / 0,034 | 54 (14) | intensificado; k no limite superior na Smith |
+| DKC1 | M7 | 0,49 / 0,49 | 0,031 / 0,060 | 49 (11) | relaxado |
+| NQO1 | M5 | 0,34 / 0,33 | 0,024 / 0,023 | 41 (9) | relaxado |
+| TSC2 | M2 | ≈0 / ≈0 | 0,024 / 0,022 | 56 (15) | relaxado; k no limite inferior |
+| BBC3 | M3 | ≈0 / ≈0 | 3 × 10⁻¹³ / 2 × 10⁻¹³ | 36 (9) | relaxado; k no limite, gene curto (193 códons) e rico em GC |
+| RTEL1 | M7 | 0 / 0 | 0,026 / 0,023 | 23 (**4**) | relaxado; só 4 Psittaculidae, frágil |
+| CCNE1 | M2 | ≈0 / **2,0** | 0,031 / 0,046 | 49 (12) | **direção oposta nas duas árvores**: não é robusto |
 
-Resultados consistentes nas duas árvores filogenéticas:
+**Atenção com k ≈ 0:** valores de k no limite (7 de 87 genes do painel e 17 de 298 do nulo) costumam indicar pouca informação nos ramos de teste, e não necessariamente relaxamento real. TSC2, BBC3, RTEL1 e CCNE1 estão nesse caso.
 
-| Direção da Seleção | Genes no Painel (FDR q < 0,10) | Módulos e Valores Representativos |
-|---|---|---|
-| **Relaxados** (\(k < 1\)) | **TSC2** (\(k \approx 0\), \(q = 0,018\)), **DKC1** (\(k = 0,49\), \(q = 0,004\)), **RTEL1** (\(k \to 0\), \(q = 0,005\)), **NQO1** (\(k = 0,33\), \(q = 0,049\)), **BBC3** (PUMA; \(k \approx 0\), \(q = 0,018\)) | M2 (supressores), M7 (telômeros), M5 (estresse), M3 (apoptose) |
-| **Intensificados** (\(k > 1\)) | **TERT** (\(k = 3,1\) a \(5,5\), \(q = 0,005\)), **MRE11** (\(k = 2,6\), \(q = 0,022\)), **SOD1** (\(k = 31,6\) a \(50,0\), \(q = 0,008\)) | M7 (telômeros), M4 (reparo HR), M6 (antioxidante) |
+## 2. Módulos contra o nulo genômico (298 genes, árvore de Burgio; `37_h8_null.py`)
 
-*(Nota: CCNE1 foi intensificado na árvore de Smith e relaxado na de Burgio; apenas os genes acima foram concordantes em magnitude e significância em ambas).*
+Estatísticas pré-registradas: proporção de genes relaxados e média de log2 k, com pseudo-painéis pareados por tamanho de alinhamento e taxa de fundo.
 
----
+| Módulo | n | Prop. relaxada (nulo) | p | Média log2 k (nulo) | p |
+| --- | --- | --- | --- | --- | --- |
+| M1 | 9 | 0 (0,07) | 1 | −0,10 (−0,71) | 0,59 |
+| M2 | 6 | 0,33 (0,06) | 0,09 | −3,69 (−0,49) | **0,024** |
+| M3 | 10 | 0,10 (0,04) | 0,66 | −1,37 (0,00) | 0,094 |
+| M4 | 11 | 0 (0,09) | 0,81 | −0,05 (−0,79) | 0,38 |
+| M5 | 8 | 0,12 (0,06) | 0,80 | +0,35 (−0,68) | 0,19 |
+| M6 | 13 | 0 (0,03) | 1 | −0,49 (−0,30) | 0,71 |
+| M7 | 8 | 0,25 (0,08) | 0,33 | −1,13 (−0,74) | 0,64 |
+| M8 | 22 | 0 (0,03) | 1 | −0,27 (+0,04) | 0,59 |
 
-## 2. Comparação com o Nulo Genômico (298 Genes do Universo)
+- O único p < 0,05 é a média de log2 k do M2. **Não sobrevive à correção** para 16 testes (8 módulos × 2 estatísticas; Bonferroni 0,003).
+- Ele vem de dois genes com k no limite: TSC2 e CCNE1, e o CCNE1 inverte de direção na árvore de Smith.
+- Sensibilidade exploratória, feita depois de ver os resultados (`scratch/null_check.py`): com a **mediana** de log2 k no lugar da média, o M2 cai para p = 0,07 e o M3 fica em p = 0,10. Nenhum módulo chega a p < 0,05.
+- Heterogeneidade entre módulos (permutação dos rótulos, proporção relaxada): p = 0,023 na Burgio, mas p = 0,13 na Smith.
+- No painel, 23 % dos genes têm RELAX p < 0,05; no nulo, 16 %. A diferença é pequena.
 
-O modelo nulo avaliou o RELAX em 298 genes controle do universo genômico sob a mesma parametrização (`scripts/37_h8_null.py`):
+**Leitura:** não há evidência robusta de relaxamento concentrado num módulo. O M2 é no máximo uma tendência, e depende de dois genes com estimativas no limite.
 
-| Módulo | Genes no Painel | Proporção Relaxada | Média Nulo Relax. | p (Proporção) | \(\text{mean}(\log_2 k)\) Painel | \(\text{mean}(\log_2 k)\) Nulo | p (\(\log_2 k\)) |
-|---|---|---|---|---|---|---|---|
-| **M1** (Checkpoints DNA) | 9 | 0,00 | 0,07 | 1,000 | -0,10 | -0,71 | 0,593 |
-| **M2** (Crescimento/Supressores) | 6 | 0,33 | 0,06 | 0,092 | **-3,69** | **-0,49** | **0,024\*** |
-| **M3** (Apoptose) | 10 | 0,10 | 0,04 | 0,663 | -1,37 | -0,00 | 0,094 |
-| **M4** (Reparo DNA) | 11 | 0,00 | 0,09 | 0,805 | -0,05 | -0,79 | 0,378 |
-| **M5** (Imunidade/Estresse) | 8 | 0,12 | 0,06 | 0,803 | +0,35 | -0,68 | 0,188 |
-| **M6** (Metabolismo/Antiox.) | 13 | 0,00 | 0,03 | 1,000 | -0,49 | -0,30 | 0,713 |
-| **M7** (Telômeros) | 8 | 0,25 | 0,08 | 0,328 | -1,13 | -0,74 | 0,641 |
-| **M8** (Autofagia/Proteostase) | 22 | 0,00 | 0,03 | 1,000 | -0,27 | +0,04 | 0,585 |
+## 3. aBSREL (seleção episódica, BH entre genes, q < 0,10)
 
-- **M2 (Crescimento / Supressores de Tumor)** apresenta relaxamento significativamente mais intenso que a taxa de fundo do genoma (\(p = 0,024\)), puxado especialmente pela via mTOR/supressão (*TSC2*).
-- **M3 (Apoptose)** exibe tendência marginal ao relaxamento médio (\(p = 0,094\)), puxado por *BBC3* (PUMA).
-- Não há colapso generalizado nem perda indiscriminada em todos os módulos: M1, M4, M6 e M8 mantêm seleção purificadora idêntica ou superior ao nulo genômico.
+- **Ramo do periquito (*Melopsittacus*), nas duas árvores:** RTEL1 (q = 1,5 × 10⁻⁸), MYC (7 × 10⁻⁷), TERF2 (5 × 10⁻⁵), TERT e ACD (0,004–0,005), TERF1 (0,006).
+- **Tronco de Psittaculidae:** nenhum gene (menor q = 0,23, RTEL1).
+- É o sinal que mais se repete: estava no piloto de 8 espécies, no de 17 e agora no de 58. As mudanças de aminoácido do periquito em RTEL1 e POT1 se confirmaram num segundo indivíduo (`39_validate_budgie.py`).
+- **Limite:** o ramo do periquito é longo (espécie de geração curta) e domesticado. Seleção episódica num único ramo terminal não diz se o efeito está ligado à longevidade ou ao câncer.
 
----
+## 4. Integridade (genes interrompidos)
 
-## 3. aBSREL: Seleção Episódica (q < 0,10)
+- 329 chamadas "disrupted" no painel. A maioria é artefato: só aparece com uma das referências (OGG1, MUTYH, MYC, HMOX1, PRDX3 com a proteína do periquito; NQO1 com a do kakapo) ou cai em contigs curtos com a proteína truncada (`disrupted_triage*.tsv`, `disrupted_second_reference.tsv`).
+- Seis chamadas sobreviveram aos filtros. Verificação (`readcheck/readcheck_Lgalgulus.md`):
+  - **PSMD6, *L. galgulus*:** stop heterozigoto num segundo indivíduo (21 reads C × 20 T). Não é perda fixada.
+  - **PSMD6, *A. personatus*:** 1 read de outro indivíduo sem o stop 1; stop 2 sem cobertura. Inconclusivo, tendendo a erro de montagem.
+  - **ACD (*Loriculus*, *P. erithacus*, *P. timneh*, *Myiopsitta*):** o stop cai sempre no mesmo códon do 1º éxon, numa região com 75–77 % de GC. Em *P. erithacus*, reads Illumina independentes não cobrem essa região (0×), enquanto o resto do gene tem ~31×. Em *P. timneh* e *Myiopsitta* **não houve checagem com reads**: a conclusão vem só da posição idêntica e do conteúdo GC. Leitura mais provável: artefato de alinhamento do 1º éxon.
+- **Conclusão:** nenhum caso de perda gênica confirmada no painel. Isso não prova ausência de perda: TP53 e RB1 não puderam ser avaliados, porque as montagens são fragmentadas nesses genes.
 
-- **Ramo Terminal do Periquito (*Melopsittacus undulatus*):**
-  - **RTEL1** (\(q = 1,5 \times 10^{-8}\))
-  - **MYC** (\(q = 7,3 \times 10^{-7}\))
-  - **TERF2** (\(q = 5,2 \times 10^{-5}\))
-  - **TERF1** (\(q = 5,8 \times 10^{-3}\))
-  - **TERT** (\(q = 4,6 \times 10^{-3}\))
-  - **ACD** (\(q = 4,6 \times 10^{-3}\))
-- **Tronco de Psittaculidae:**
-  - Nenhum gene isolado atingiu significância estrita com \(q < 0,10\) no tronco isolado das 58 espécies; os sinais concentram-se no clado como um todo (RELAX) ou na aceleração específica do ramo terminal de vida curta (*Melopsittacus*).
+## 5. O que dá para dizer
 
----
-
-## 4. Auditoria de Integridade e Checagem com Reads (*Read-Check*)
-
-A triagem inicial identificou 31 chamadas de genes interrompidos (*disrupted*) concordantes entre referências (periquito e kakapo), concentradas em 6 candidatos a pseudogenização com cobertura proteica \(\ge 90\%\) e \(\le 2\) stops. Todas foram inspecionadas com reads brutos Illumina independentes (SRA) e análise de sequência genômica:
-
-1. **PSMD6 (*Loriculus galgulus* e *Agapornis personatus*):**
-   - O stop no aa 192 em *L. galgulus* é **polimórfico / heterozigoto** (21 reads com alelo funcional `CGA`/Arg e 20 reads com `TGA`/stop). O indivíduo preserva alelo íntegro.
-   - O stop no aa 293 em *A. personatus* é corrigido por read independente (`SRR13483920`, AMNH) apresentando base `G` (`CGA`/Arg).
-2. **ACD (*Loriculus*, *Psittacus erithacus*, *Psittacus timneh*, *Myiopsitta*):**
-   - Em todas as espécies, o suposto stop prematuro cai exatamente na mesma coordenada do 1º éxon (aa 34–35).
-   - O local situa-se em uma ilha CpG hiper-GC (**> 75 % de GC**), sofrendo drop-out severo de Illumina (cobertura 0× a 1×) e alinhamento imperfeito do miniprot. O restante do gene (éxons 2 a 15) possui ~30× de cobertura normal e integridade perfeita.
-3. **Conclusão de Integridade:** **Nenhum dos genes do painel apresenta pseudogenização fixada em Psittaculidae**. A hipótese de perda gênica total é rejeitada pelos dados empíricos de sequenciamento.
-
----
-
-## 5. Leitura Biológica Consolidada
-
-1. **Rejeição da Perda Gênica Estrutural:** Não há deleção ou pseudogenização de freios tumorais/reparo em Psittaculidae.
-2. **Divergência Seletiva na Maquinaria de Telômeros (M7):**
-   - O sinal mais robusto e replicado em toda a árvore é o complexo de manutenção telomérica.
-   - *TERT* opera sob seleção intensificada em Psittaculidae (\(k > 3\)), enquanto fatores associados (*DKC1* e *RTEL1*) mostram relaxamento seletivo.
-   - No ramo terminal de *Melopsittacus*, praticamente todo o maquinário de *shelterin* e telomerase (*TERT*, *TERF1*, *TERF2*, *ACD*, *RTEL1*) sofreu surtos episódicos intensos de diversificação (\(q < 0,01\)), conversando diretamente com a alta taxa de neoplasias relatada em necropsias (20,8–23,2 %) em comparação com psitacídeos longevos.
-3. **Modulação de Supressores Tumorais e Resposta ao Dano:**
-   - Relaxamento pontual em *TSC2* (via mTOR) e no pró-apoptótico *BBC3* (PUMA), acompanhado de intensificação em antioxidantes centrais (*SOD1*) e resposta a quebras de fita dupla (*MRE11*).
+1. **Perda de travas por módulo (H8, nível 1): sem suporte.** Não há perda gênica confirmada nem relaxamento modular robusto contra o nulo.
+2. **Telômeros (M7) são o sinal mais consistente:** TERT intensificado em Psittaculidae nas duas árvores (mas com 15 espécies) e seleção episódica em vários genes de telômero no ramo do periquito, que replica os pilotos. É um candidato a seguir, não uma explicação para o câncer do periquito.
+3. **Genes isolados com sinal nas duas árvores e sem k no limite:** MRE11, DKC1, NQO1 e SOD1. São achados de um gene só, dentro de um painel de 87.
+4. **Ainda faltam:** RERconverge (H6 e H8 dentro dos clados) e os testes de concordância com a longevidade máxima. A instalação do RERconverge no `.renv45` falhou por dependências (ggtree, impute, castor e outras); ver `docs/HANDOFF_GENES.md`.
