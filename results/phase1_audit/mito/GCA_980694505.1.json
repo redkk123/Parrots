@@ -1,0 +1,84 @@
+{
+ "accession": "GCA_980694505.1",
+ "claimed": "Amazona vittata",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB"
+ ],
+ "contigs": {
+  "OZ413511.1": {
+   "len": 13313398,
+   "gc": 55.3,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Amazona_vittata",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Amazona_vittata",
+     "top_pid": 99.563,
+     "claimed_pid": 99.563
+    },
+    "ND2": {
+     "class": "close_other_no_own_ref",
+     "top_species": "Amazona_ventralis",
+     "top_pid": 98.942,
+     "claimed_pid": null
+    }
+   }
+  },
+  "OZ413495.1": {
+   "len": 91298000,
+   "gc": 41.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 90.602,
+     "claimed_pid": 87.731
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 85.463,
+     "claimed_pid": null
+    }
+   }
+  },
+  "OZ413492.1": {
+   "len": 131176939,
+   "gc": 41.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pionus_chalcopterus",
+     "top_pid": 94.004,
+     "claimed_pid": 90.731
+    }
+   }
+  },
+  "OZ413498.1": {
+   "len": 71920646,
+   "gc": 42.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_finschi",
+     "top_pid": 89.818,
+     "claimed_pid": 86.607
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}
