@@ -1,0 +1,58 @@
+{
+ "accession": "GCA_017639355.1",
+ "claimed": "Amazona aestiva",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "CM029891.1": {
+   "len": 89048441,
+   "gc": 38.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Micropsitta_finschii",
+     "top_pid": 89.398,
+     "claimed_pid": 86.463
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 86.284,
+     "claimed_pid": 82.115
+    }
+   }
+  },
+  "CM029889.1": {
+   "len": 126756607,
+   "gc": 36.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pionus_chalcopterus",
+     "top_pid": 93.64,
+     "claimed_pid": 91.931
+    }
+   }
+  },
+  "CM029894.1": {
+   "len": 70115537,
+   "gc": 38.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_finschi",
+     "top_pid": 89.815,
+     "claimed_pid": 89.226
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": null,
+ "overall": "no_reliable_mito"
+}
