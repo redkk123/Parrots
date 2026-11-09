@@ -1,0 +1,162 @@
+{
+ "accession": "GCA_055772115.1",
+ "claimed": "Psittrichas fulgidus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBVOKY010030151.1": {
+   "len": 930708,
+   "gc": 37.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Neopsittacus_musschenbroekii",
+     "top_pid": 88.246,
+     "claimed_pid": 86.995
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_eques",
+     "top_pid": 88.105,
+     "claimed_pid": 86.667
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 87.512,
+     "claimed_pid": 87.512
+    }
+   }
+  },
+  "JBVOKY010029460.1": {
+   "len": 89889,
+   "gc": 42.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Cyclopsitta_diophthalma",
+     "top_pid": 87.906,
+     "claimed_pid": 85.921
+    }
+   }
+  },
+  "JBVOKY010026924.1": {
+   "len": 949,
+   "gc": 46.2,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 94.046,
+     "claimed_pid": 94.046
+    }
+   }
+  },
+  "JBVOKY010010593.1": {
+   "len": 4427,
+   "gc": 43.2,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Calyptorhynchus_banksii",
+     "top_pid": 85.763,
+     "claimed_pid": 84.049
+    }
+   }
+  },
+  "JBVOKY010000111.1": {
+   "len": 1672945,
+   "gc": 39.6,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 98.278,
+     "claimed_pid": 98.278
+    }
+   }
+  },
+  "JBVOKY010028911.1": {
+   "len": 2584,
+   "gc": 46.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 94.917,
+     "claimed_pid": 94.917
+    }
+   }
+  },
+  "JBVOKY010014405.1": {
+   "len": 805,
+   "gc": 44.8,
+   "genes": {
+    "ND2": {
+     "class": "ambiguous",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 96.732,
+     "claimed_pid": 96.732
+    }
+   }
+  },
+  "JBVOKY010000123.1": {
+   "len": 6678188,
+   "gc": 39.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 93.321,
+     "claimed_pid": 93.321
+    }
+   }
+  },
+  "JBVOKY010014220.1": {
+   "len": 617,
+   "gc": 46.7,
+   "genes": {
+    "COX1": {
+     "class": "ambiguous",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 95.631,
+     "claimed_pid": 95.631
+    }
+   }
+  },
+  "JBVOKY010013577.1": {
+   "len": 1146,
+   "gc": 49.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 81.1,
+     "claimed_pid": 81.1
+    }
+   }
+  },
+  "JBVOKY010018782.1": {
+   "len": 450,
+   "gc": 49.1,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 77.644,
+     "claimed_pid": 77.644
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 98.278,
+ "overall": "confirmed"
+}
