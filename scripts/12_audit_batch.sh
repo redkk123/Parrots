@@ -21,6 +21,6 @@ fi
 while IFS=$'\t' read -r acc sp; do
   if [ "$(grep -c "	$acc	.*	FAIL	" "$LOG")" -ge 3 ]; then continue; fi   # gave up after 3 failures
   start=$(date +%s)
-  if nice -n 19 bash scripts/10_audit_assembly.sh "$acc" "$sp" 8 < /dev/null >> "$LOG.detail" 2>&1; then st=ok; else st=FAIL; rm -rf "data/external/assemblies/$acc"; fi
+  if nice -n 19 bash scripts/10_audit_assembly.sh "$acc" "$sp" 4 < /dev/null >> "$LOG.detail" 2>&1; then st=ok; else st=FAIL; rm -rf "data/external/assemblies/$acc"; fi
   echo -e "$(date -Is)\t$acc\t$sp\t$st\t$(( $(date +%s) - start ))s" | tee -a "$LOG"
 done < "$Q"
