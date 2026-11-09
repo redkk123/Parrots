@@ -1,0 +1,98 @@
+{
+ "accession": "GCA_017639245.1",
+ "claimed": "Myiopsitta monachus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "CM029925.1": {
+   "len": 69647745,
+   "gc": 42.0,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Myiopsitta_monachus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Myiopsitta_monachus",
+     "top_pid": 98.534,
+     "claimed_pid": 98.534
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Myiopsitta_monachus",
+     "top_pid": 99.775,
+     "claimed_pid": 99.775
+    }
+   }
+  },
+  "CM029920.1": {
+   "len": 90244086,
+   "gc": 41.4,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Alipiopsitta_xanthops",
+     "top_pid": 88.315,
+     "claimed_pid": 84.3
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Barnardius_zonarius",
+     "top_pid": 83.682,
+     "claimed_pid": 79.327
+    }
+   }
+  },
+  "CM029922.1": {
+   "len": 74194987,
+   "gc": 40.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Myiopsitta_monachus",
+     "top_pid": 92.765,
+     "claimed_pid": 92.765
+    }
+   }
+  },
+  "CM029941.1": {
+   "len": 108106819,
+   "gc": 41.1,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Myiopsitta_monachus",
+     "top_pid": 91.544,
+     "claimed_pid": 91.544
+    }
+   }
+  },
+  "CM029924.1": {
+   "len": 69699566,
+   "gc": 41.7,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Myiopsitta_monachus",
+     "top_pid": 89.435,
+     "claimed_pid": 89.435
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}
