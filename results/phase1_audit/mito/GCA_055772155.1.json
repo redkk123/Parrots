@@ -1,0 +1,176 @@
+{
+ "accession": "GCA_055772155.1",
+ "claimed": "Cyanoliseus patagonus",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "JBVOLA010014400.1": {
+   "len": 34011,
+   "gc": 41.7,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Alipiopsitta_xanthops",
+     "top_pid": 86.453,
+     "claimed_pid": 83.408
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_cyanocephala",
+     "top_pid": 81.429,
+     "claimed_pid": 78.389
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Melopsittacus_undulatus",
+     "top_pid": 79.191,
+     "claimed_pid": 73.609
+    }
+   }
+  },
+  "JBVOLA010022733.1": {
+   "len": 15619,
+   "gc": 45.8,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 99.804,
+     "claimed_pid": 99.804
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 99.712,
+     "claimed_pid": 99.712
+    }
+   }
+  },
+  "JBVOLA010022169.1": {
+   "len": 21142,
+   "gc": 44.4,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 99.804,
+     "claimed_pid": 99.804
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Cyanoliseus_patagonus",
+     "top_pid": 99.712,
+     "claimed_pid": 99.712
+    }
+   }
+  },
+  "JBVOLA010019360.1": {
+   "len": 16617,
+   "gc": 47.0,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Chalcopsitta_atra",
+     "top_pid": 87.193,
+     "claimed_pid": 84.856
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 84.328,
+     "claimed_pid": 78.389
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Vini_peruviana",
+     "top_pid": 77.326,
+     "claimed_pid": 73.609
+    }
+   }
+  },
+  "JBVOLA010014496.1": {
+   "len": 22734133,
+   "gc": 39.8,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Alisterus_amboinensis",
+     "top_pid": 88.647,
+     "claimed_pid": 84.337
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 86.035,
+     "claimed_pid": 81.32
+    },
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 95.213,
+     "claimed_pid": 90.602
+    }
+   }
+  },
+  "JBVOLA010026020.1": {
+   "len": 37460232,
+   "gc": 38.7,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 88.972,
+     "claimed_pid": 86.158
+    }
+   }
+  },
+  "JBVOLA010020340.1": {
+   "len": 11184,
+   "gc": 38.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_sordidus",
+     "top_pid": 89.578,
+     "claimed_pid": 86.456
+    }
+   }
+  },
+  "JBVOLA010000077.1": {
+   "len": 1561182,
+   "gc": 38.0,
+   "genes": {
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 94.103,
+     "claimed_pid": 81.572
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}
