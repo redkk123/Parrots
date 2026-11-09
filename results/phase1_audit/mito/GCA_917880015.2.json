@@ -1,0 +1,100 @@
+{
+ "accession": "GCA_917880015.2",
+ "claimed": "Ara rubrogenys",
+ "own_reference_genes": [
+  "CYTB"
+ ],
+ "contigs": {
+  "CAKMNV020000138.1": {
+   "len": 17565,
+   "gc": 47.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Ara_ararauna",
+     "top_pid": 94.978,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "own",
+     "top_species": "Ara_rubrogenys",
+     "top_pid": 99.117,
+     "claimed_pid": 99.117
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Ara_ararauna",
+     "top_pid": 91.058,
+     "claimed_pid": null
+    }
+   }
+  },
+  "CAKMNV020000002.1": {
+   "len": 91383521,
+   "gc": 41.1,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Amazona_ventralis",
+     "top_pid": 88.591,
+     "claimed_pid": null
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pezoporus_occidentalis",
+     "top_pid": 86.035,
+     "claimed_pid": null
+    },
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 95.213,
+     "claimed_pid": null
+    }
+   }
+  },
+  "CAKMNV020000001.1": {
+   "len": 93100459,
+   "gc": 40.6,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 89.121,
+     "claimed_pid": null
+    }
+   }
+  },
+  "CAKMNV020000003.1": {
+   "len": 78072017,
+   "gc": 41.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_sordidus",
+     "top_pid": 89.356,
+     "claimed_pid": null
+    }
+   }
+  },
+  "CAKMNV020000010.1": {
+   "len": 39249090,
+   "gc": 41.7,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 97.561,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "CYTB"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 99.117,
+ "overall": "confirmed"
+}
