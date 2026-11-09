@@ -1,0 +1,65 @@
+{
+ "accession": "GCA_982290535.1",
+ "claimed": "Poicephalus gulielmi",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "CEVIUK010000101.1": {
+   "len": 6587589,
+   "gc": 37.4,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Poicephalus_robustus",
+     "top_pid": 98.752,
+     "claimed_pid": 93.785
+    },
+    "COX1": {
+     "class": "own",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.643,
+     "claimed_pid": 99.643
+    }
+   }
+  },
+  "CEVIUK010019734.1": {
+   "len": 1747,
+   "gc": 48.0,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.124,
+     "claimed_pid": 99.124
+    }
+   }
+  },
+  "CEVIUK010021507.1": {
+   "len": 1630,
+   "gc": 48.7,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 99.078,
+     "claimed_pid": 99.078
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "ND2"
+ ],
+ "foreign_species": [
+  "Poicephalus_robustus"
+ ],
+ "foreign_contigs": [
+  "CEVIUK010000101.1"
+ ],
+ "best_own_pid": 99.643,
+ "overall": "confirmed_with_foreign_mito"
+}
