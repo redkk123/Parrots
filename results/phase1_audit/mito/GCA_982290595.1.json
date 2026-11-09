@@ -1,0 +1,112 @@
+{
+ "accession": "GCA_982290595.1",
+ "claimed": "Psittacara erythrogenys",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "CEVIUT010002557.1": {
+   "len": 17168,
+   "gc": 43.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Charmosyna_meeki",
+     "top_pid": 86.316,
+     "claimed_pid": 81.424
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacula_derbiana",
+     "top_pid": 83.831,
+     "claimed_pid": 79.688
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Amazona_kawalli",
+     "top_pid": 77.209,
+     "claimed_pid": 72.47
+    }
+   }
+  },
+  "CEVIUT010029541.1": {
+   "len": 21429679,
+   "gc": 40.6,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Pyrrhura_picta",
+     "top_pid": 88.221,
+     "claimed_pid": 84.909
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 85.211,
+     "claimed_pid": 81.176
+    },
+    "CYTB": {
+     "class": "numt",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 94.681,
+     "claimed_pid": 89.983
+    }
+   }
+  },
+  "CEVIUT010025778.1": {
+   "len": 3696382,
+   "gc": 37.2,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Anodorhynchus_hyacinthinus",
+     "top_pid": 92.506,
+     "claimed_pid": 90.202
+    }
+   }
+  },
+  "CEVIUT010029560.1": {
+   "len": 79551426,
+   "gc": 39.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 88.525,
+     "claimed_pid": 84.994
+    }
+   }
+  },
+  "CEVIUT010029553.1": {
+   "len": 53846709,
+   "gc": 39.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_maximiliani",
+     "top_pid": 89.391,
+     "claimed_pid": 86.456
+    }
+   }
+  },
+  "CEVIUT010010214.1": {
+   "len": 22557622,
+   "gc": 39.3,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Primolius_auricollis",
+     "top_pid": 96.098,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": null,
+ "overall": "ambiguous"
+}

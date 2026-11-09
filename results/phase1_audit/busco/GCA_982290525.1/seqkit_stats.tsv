@@ -1,0 +1,2 @@
+file	format	type	num_seqs	sum_len	min_len	avg_len	max_len	Q1	Q2	Q3	sum_gap	N50	N50_num	Q20(%)	Q30(%)	AvgQual	GC(%)	sum_n
+data/external/assemblies/GCA_982290525.1/genome.fna	FASTA	DNA	46136	1236014727	200	26790.7	36528797	439	921	3066	0	5973113	49	0	0	0.00	38.55	95631051
