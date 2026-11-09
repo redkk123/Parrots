@@ -1,0 +1,146 @@
+{
+ "accession": "GCA_982290525.1",
+ "claimed": "Psittacara finschi",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "contigs": {
+  "CEVIUJ010041566.1": {
+   "len": 15265,
+   "gc": 46.2,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Psittacara_finschi",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Psittacara_finschi",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "CEVIUJ010038438.1": {
+   "len": 14592,
+   "gc": 46.6,
+   "genes": {
+    "COX1": {
+     "class": "own",
+     "top_species": "Psittacara_finschi",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    },
+    "ND2": {
+     "class": "own",
+     "top_species": "Psittacara_finschi",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  },
+  "CEVIUJ010000042.1": {
+   "len": 10251450,
+   "gc": 37.9,
+   "genes": {
+    "COX1": {
+     "class": "numt",
+     "top_species": "Eclectus_roratus",
+     "top_pid": 88.43,
+     "claimed_pid": 85.194
+    },
+    "ND2": {
+     "class": "numt",
+     "top_species": "Psittrichas_fulgidus",
+     "top_pid": 85.406,
+     "claimed_pid": 81.471
+    }
+   }
+  },
+  "CEVIUJ010014587.1": {
+   "len": 6682,
+   "gc": 40.4,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Anodorhynchus_hyacinthinus",
+     "top_pid": 92.506,
+     "claimed_pid": 90.682
+    }
+   }
+  },
+  "CEVIUJ010000107.1": {
+   "len": 7388688,
+   "gc": 37.9,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Deroptyus_accipitrinus",
+     "top_pid": 88.525,
+     "claimed_pid": 85.382
+    }
+   }
+  },
+  "CEVIUJ010030470.1": {
+   "len": 1209,
+   "gc": 46.0,
+   "genes": {
+    "CYTB": {
+     "class": "own",
+     "top_species": "Psittacara_holochlorus",
+     "top_pid": 99.231,
+     "claimed_pid": 99.143
+    }
+   }
+  },
+  "CEVIUJ010000093.1": {
+   "len": 12696310,
+   "gc": 38.3,
+   "genes": {
+    "CYTB": {
+     "class": "ambiguous",
+     "top_species": "Psittacara_leucophthalmus",
+     "top_pid": 95.035,
+     "claimed_pid": 90.849
+    }
+   }
+  },
+  "CEVIUJ010000074.1": {
+   "len": 16620878,
+   "gc": 37.1,
+   "genes": {
+    "ND2": {
+     "class": "numt",
+     "top_species": "Pionus_maximiliani",
+     "top_pid": 89.616,
+     "claimed_pid": 87.81
+    }
+   }
+  },
+  "CEVIUJ010040861.1": {
+   "len": 6138,
+   "gc": 46.9,
+   "genes": {
+    "ND2": {
+     "class": "own",
+     "top_species": "Psittacara_finschi",
+     "top_pid": 100.0,
+     "claimed_pid": 100.0
+    }
+   }
+  }
+ },
+ "own_genes": [
+  "COX1",
+  "CYTB",
+  "ND2"
+ ],
+ "foreign_species": [],
+ "foreign_contigs": [],
+ "best_own_pid": 100.0,
+ "overall": "confirmed"
+}
