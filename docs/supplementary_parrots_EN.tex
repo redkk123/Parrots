@@ -1,0 +1,245 @@
+\documentclass[9pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1.4cm,top=1.6cm,bottom=1.6cm]{geometry}
+\usepackage{graphicx,booktabs,longtable,array,amsmath,amssymb,xcolor,hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue!50!black,urlcolor=blue!50!black}
+\setlength{\parskip}{3pt}
+\title{\textbf{\Large Supplementary Materials: Tables S1--S6}\\[4pt]\large Comparative Genomics of Longevity, Encephalization, and Cancer Resistance in Psittaciformes (with 71-Species Extension and Full Red-Team Statistical Audit)}
+\author{Angelo --- UNICEPLAC, Bras\'ilia, DF, Brazil \\ Repository: \texttt{github.com/redkk123/Parrots} (\texttt{claude/new-session-lwh7xh})}
+\date{November 10, 2026}
+\begin{document}
+\maketitle
+\tableofcontents
+\clearpage
+\section*{Table S1. Validated 71-Species Genomic Cohort from 126 Audited Assemblies}
+\addcontentsline{toc}{section}{Table S1: Validated 71-Species Cohort}
+Complete list of all 71 included Psittaciformes species passing the pre-registered Phase 1 audit ($\text{BUSCO}_{\text{complete}} \ge 70\%$ on \texttt{compleasm aves\_odb10}, nuclear Mash identity confirmed, deduplicated to one best assembly per species). Cohort indicates the frozen 58-species discovery panel vs.\ the 13 newly finalized assemblies (\texttt{holdout\_13}).
+\begin{longtable}{llllrrrr}
+\toprule
+\textbf{Species} & \textbf{Cohort} & \textbf{Clade} & \textbf{Accession} & \textbf{Source} & \textbf{Contig N50 (kb)} & \textbf{BUSCO C (\%)} & \textbf{Orig.\ Strict} \\
+\midrule\endhead
+\textit{Agapornis canus} & Discovery (58) & Psittaculidae & \texttt{GCA\_036873685.1} & Iridian & 13.7 & 76.38 & No \\
+\textit{Agapornis lilianae} & Discovery (58) & Psittaculidae & \texttt{GCA\_035222285.1} & Iridian & 15.9 & 78.80 & No \\
+\textit{Agapornis personatus} & Discovery (58) & Psittaculidae & \texttt{GCA\_034783155.1} & Iridian & 15.9 & 73.85 & No \\
+\textit{Cyanoramphus novaezelandiae} & Discovery (58) & Psittaculidae & \texttt{GCA\_025629965.1} & Iridian & 17.9 & 82.38 & No \\
+\textit{Lathamus discolor} & Discovery (58) & Psittaculidae & \texttt{GCA\_037157625.1} & Vertebrate Genomes Pro & 25140.0 & 92.86 & Yes \\
+\textit{Loriculus galgulus} & Discovery (58) & Psittaculidae & \texttt{GCA\_046563285.1} & Harvrad University & 27690.0 & 99.39 & Yes \\
+\textit{Lorius chlorocercus} & Discovery (58) & Psittaculidae & \texttt{GCA\_025629885.1} & Iridian & 16.2 & 75.55 & No \\
+\textit{Lorius garrulus} & Discovery (58) & Psittaculidae & \texttt{GCA\_010014925.2} & Iridian & 12.4 & 73.61 & No \\
+\textit{Lorius lory} & Discovery (58) & Psittaculidae & \texttt{GCA\_025629905.1} & Iridian & 13.3 & 72.96 & No \\
+\textit{Melopsittacus undulatus} & Discovery (58) & Psittaculidae & \texttt{GCA\_012275295.1} & G10K & 16640.0 & 99.34 & Yes \\
+\textit{Neopsephotus bourkii} & Discovery (58) & Psittaculidae & \texttt{GCA\_033783945.1} & CSIRO Applied Genomics & 4340.0 & 99.35 & Yes \\
+\textit{Platycercus adscitus} & Discovery (58) & Psittaculidae & \texttt{GCA\_025629925.1} & Iridian & 15.9 & 80.84 & No \\
+\textit{Psephotus haematonotus} & Discovery (58) & Psittaculidae & \texttt{GCA\_026283765.1} & Iridian & 17.4 & 77.17 & No \\
+\textit{Psittacula derbiana} & Discovery (58) & Psittaculidae & \texttt{GCA\_029814625.1} & Iridian & 25.7 & 83.89 & No \\
+\textit{Trichoglossus euteles} & Discovery (58) & Psittaculidae & \texttt{GCA\_025447915.1} & Iridian & 21.8 & 83.14 & No \\
+\textit{Amazona aestiva} & Discovery (58) & Other & \texttt{GCA\_017639355.1} & University of Vienna & 26.2 & 98.03 & Yes \\
+\textit{Amazona finschi} & Discovery (58) & Other & \texttt{GCA\_031763935.1} & Iridian & 18.6 & 80.13 & No \\
+\textit{Amazona vinacea} & Discovery (58) & Other & \texttt{GCA\_026283615.1} & Iridian & 17.6 & 79.34 & No \\
+\textit{Ara ambiguus} & Discovery (58) & Other & \texttt{GCA\_026284625.1} & Iridian & 19.9 & 79.47 & No \\
+\textit{Ara ararauna} & Discovery (58) & Other & \texttt{GCA\_028858755.1} & Vertebrate Genomes Pro & 38810.0 & 99.46 & Yes \\
+\textit{Ara rubrogenys} & Discovery (58) & Other & \texttt{GCA\_917880015.2} & IBE (Institut de Biolo & 46380.0 & 99.66 & Yes \\
+\textit{Aratinga auricapillus} & Discovery (58) & Other & \texttt{GCA\_026284685.1} & Iridian & 19.3 & 79.86 & No \\
+\textit{Aratinga solstitialis} & Discovery (58) & Other & \texttt{GCA\_902168055.1} & INSTITUT DE BIOLOGIA E & 236.2 & 99.48 & Yes \\
+\textit{Bolborhynchus lineola} & Discovery (58) & Other & \texttt{GCA\_025448015.1} & Iridian & 13.8 & 76.60 & No \\
+\textit{Brotogeris tirica} & Discovery (58) & Other & \texttt{GCA\_034782575.1} & Iridian & 27.1 & 83.86 & No \\
+\textit{Cacatua alba} & Discovery (58) & Other & \texttt{GCA\_024361745.1} & Iridian & 16.2 & 79.98 & No \\
+\textit{Cacatua ducorpsii} & Discovery (58) & Other & \texttt{GCA\_025448155.1} & Iridian & 36.4 & 87.47 & Yes \\
+\textit{Cacatua galerita} & Discovery (58) & Other & \texttt{GCA\_035583095.1} & Iridian & 23.0 & 81.16 & No \\
+\textit{Cacatua moluccensis} & Discovery (58) & Other & \texttt{GCA\_025448035.1} & Iridian & 32.4 & 86.54 & Yes \\
+\textit{Cacatua sanguinea} & Discovery (58) & Other & \texttt{GCA\_030265285.1} & Iridian & 33.5 & 99.04 & Yes \\
+\textit{Cacatua sulphurea} & Discovery (58) & Other & \texttt{GCA\_031762475.1} & Iridian & 27.6 & 85.35 & Yes \\
+\textit{Cyanoliseus patagonus} & Discovery (58) & Other & \texttt{GCA\_055772155.1} & Bird 10,000 Genomes (B & 133.2 & 98.53 & Yes \\
+\textit{Deroptyus accipitrinus} & Discovery (58) & Other & \texttt{GCA\_026284505.1} & Iridian & 20.2 & 81.74 & No \\
+\textit{Diopsittaca nobilis} & Discovery (58) & Other & \texttt{GCA\_024337085.1} & Iridian & 21.0 & 81.06 & No \\
+\textit{Eolophus roseicapilla} & Discovery (58) & Other & \texttt{GCA\_013397615.1} & B10K Consortium & 21.7 & 93.83 & Yes \\
+\textit{Eupsittula nana} & Discovery (58) & Other & \texttt{GCA\_026284785.1} & Iridian & 23.3 & 81.83 & No \\
+\textit{Eupsittula pertinax} & Discovery (58) & Other & \texttt{GCA\_011317185.2} & Iridian & 15.8 & 75.20 & No \\
+\textit{Guaruba guarouba} & Discovery (58) & Other & \texttt{GCA\_045345405.1} & Genomics of Brazilian  & 33340.0 & 99.70 & Yes \\
+\textit{Myiopsitta monachus} & Discovery (58) & Other & \texttt{GCA\_017639245.1} & University of Vienna & 22650.0 & 99.69 & Yes \\
+\textit{Nestor notabilis} & Discovery (58) & Other & \texttt{GCA\_000696875.1} & BGI & 26.6 & 93.90 & Yes \\
+\textit{Nymphicus hollandicus} & Discovery (58) & Other & \texttt{GCA\_009823435.2} & Iridian & 15.9 & 77.18 & No \\
+\textit{Pionites melanocephalus} & Discovery (58) & Other & \texttt{GCA\_029814565.1} & Iridian & 24.5 & 82.45 & No \\
+\textit{Poicephalus gulielmi} & Discovery (58) & Other & \texttt{GCA\_982290535.1} & B10K project & 152.9 & 98.52 & Yes \\
+\textit{Poicephalus rueppellii} & Discovery (58) & Other & \texttt{GCA\_031762375.1} & Iridian & 18.1 & 79.81 & No \\
+\textit{Poicephalus senegalus} & Discovery (58) & Other & \texttt{GCA\_025448095.1} & Iridian & 13.5 & 78.12 & No \\
+\textit{Primolius auricollis} & Discovery (58) & Other & \texttt{GCA\_026284745.2} & Iridian & 16.9 & 80.09 & No \\
+\textit{Primolius couloni} & Discovery (58) & Other & \texttt{GCA\_024331605.1} & Iridian & 21.8 & 81.06 & No \\
+\textit{Psilopsiagon aurifrons} & Discovery (58) & Other & \texttt{GCA\_025447955.1} & Iridian & 23.5 & 83.85 & No \\
+\textit{Psilopsiagon aymara} & Discovery (58) & Other & \texttt{GCA\_024733675.1} & Iridian & 24.8 & 83.84 & No \\
+\textit{Psittacara acuticaudatus} & Discovery (58) & Other & \texttt{GCA\_026284765.1} & Iridian & 17.9 & 79.78 & No \\
+\textit{Psittacara holochlorus} & Discovery (58) & Other & \texttt{GCA\_024320895.1} & Iridian & 16.6 & 76.08 & No \\
+\textit{Psittacara leucophthalmus} & Discovery (58) & Other & \texttt{GCA\_024331625.1} & Iridian & 19.1 & 76.09 & No \\
+\textit{Psittacara wagleri} & Discovery (58) & Other & \texttt{GCA\_024361765.2} & Iridian & 19.1 & 80.97 & No \\
+\textit{Psittacus erithacus} & Discovery (58) & Other & \texttt{GCA\_009867235.2} & Iridian & 36.8 & 87.50 & Yes \\
+\textit{Psittacus timneh} & Discovery (58) & Other & \texttt{GCA\_009867315.2} & Iridian & 38.5 & 87.67 & Yes \\
+\textit{Pyrrhura griseipectus} & Discovery (58) & Other & \texttt{GCA\_010014965.2} & Iridian & 18.7 & 80.91 & No \\
+\textit{Pyrrhura leucotis} & Discovery (58) & Other & \texttt{GCA\_038406155.1} & Iridian & 13.9 & 74.70 & No \\
+\textit{Rhynchopsitta pachyrhyncha} & Discovery (58) & Other & \texttt{GCA\_026284805.1} & Iridian & 17.1 & 78.04 & No \\
+\textit{Agapornis fischeri} & Holdout (13) & Psittaculidae & \texttt{GCA\_051622115.1} & Southwest University & 64950.0 & 99.50 & Yes \\
+\textit{Agapornis nigrigenis} & Holdout (13) & Psittaculidae & \texttt{GCA\_988293565.1} & WELLCOME SANGER INSTIT & 66350.0 & 99.53 & Yes \\
+\textit{Agapornis roseicollis} & Holdout (13) & Psittaculidae & \texttt{GCA\_051622155.1} & Southwest University & 59940.0 & 99.62 & Yes \\
+\textit{Neophema chrysogaster} & Holdout (13) & Psittaculidae & \texttt{GCA\_047054915.1} & The University of Sydn & 7608.0 & 99.58 & Yes \\
+\textit{Psittacula krameri} & Holdout (13) & Psittaculidae & \texttt{GCA\_988280915.1} & WELLCOME SANGER INSTIT & 22670.0 & 93.06 & Yes \\
+\textit{Amazona guildingii} & Holdout (13) & Other & \texttt{GCA\_013399615.1} & B10K Consortium & 61.0 & 97.53 & Yes \\
+\textit{Amazona ochrocephala} & Holdout (13) & Other & \texttt{GCA\_039720435.1} & Vertebrate Genomes Pro & 14880.0 & 99.61 & Yes \\
+\textit{Amazona vittata} & Holdout (13) & Other & \texttt{GCA\_980694505.1} & institute for systems  & 6825.0 & 99.68 & Yes \\
+\textit{Forpus passerinus} & Holdout (13) & Other & \texttt{GCA\_981469625.1} & B10K project & 237.7 & 98.81 & Yes \\
+\textit{Probosciger aterrimus} & Holdout (13) & Other & \texttt{GCA\_013397665.1} & B10K Consortium & 32.3 & 92.98 & Yes \\
+\textit{Psittacara erythrogenys} & Holdout (13) & Other & \texttt{GCA\_982290595.1} & B10K project & 169.1 & 98.92 & Yes \\
+\textit{Psittacara finschi} & Holdout (13) & Other & \texttt{GCA\_982290525.1} & B10K project & 83.4 & 96.63 & Yes \\
+\textit{Psittrichas fulgidus} & Holdout (13) & Other & \texttt{GCA\_055772115.1} & Bird 10,000 Genomes (B & 145.2 & 98.30 & Yes \\
+\bottomrule\end{longtable}\clearpage
+\section*{Table S2. Phase 2 H8 Confirmatory Selection Tests (58 vs.\ 71 Species) and Telomere Sensitivity Audit}
+\addcontentsline{toc}{section}{Table S2: H8 58 vs. 71 Species \& Telomere Sensitivity}
+Comparison of key H8 candidate genes across the frozen 58-species cohort and the extended 71-species cohort (\texttt{burgio2019} topology), alongside Red-Team alignment sensitivity (MAFFT vs.\ L-INS-i vs.\ stringent window/gap cleaning vs.\ \texttt{aBSREL --multiple-hits Double+Triple}) and \textit{Strigops habroptila} (kakapo) dual-reference orthology concordance.
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llcccccccccc}
+\toprule
+\textbf{Gene} & \textbf{Mod.} & \textbf{$N_{\text{58/71}}$} & \textbf{$k_{\text{58}}$} & \textbf{RELAX $p_{\text{58}}$} & \textbf{$k_{\text{71}}$} & \textbf{RELAX $p_{\text{71}}$} & \textbf{aBSREL $p_{\text{58}}$} & \textbf{aBSREL $p_{\text{71}}$} & \textbf{Cleaned $p$} & \textbf{MultiHit $p$} & \textbf{Kakapo Orth.} \\
+\midrule
+\texttt{ACD} & M7 & 6/11 & 0.70 & 0.3066 & 0.44 & 0.0623 & $2.46\times 10^{-4}$ & $5.41\times 10^{-4}$ & 0.1248 & 0.0502 & 8/11 \\
+\texttt{POT1} & M7 & 8/26 & 1.94 & 0.0748 & 8.17 & $2.27\times 10^{-5}$ & 1.0000 & 1.0000 & 1.0000 & 1.0000 & 27/27 \\
+\texttt{RTEL1} & M7 & 23/35 & 0.00 & 0.0018 & 0.52 & 0.0159 & $1.73\times 10^{-10}$ & $9.43\times 10^{-11}$ & 1.0000 & 0.9670 & 40/40 \\
+\texttt{TERF1} & M7 & 9/25 & 0.46 & 0.8225 & 0.70 & 0.0375 & $3.98\times 10^{-4}$ & 0.0442 & 0.0037 & 1.0000 & 27/27 \\
+\texttt{TERF2} & M7 & 18/29 & 0.34 & 0.0271 & 0.59 & 0.0161 & $1.79\times 10^{-6}$ & $5.95\times 10^{-5}$ & 0.0677 & 1.0000 & 30/30 \\
+\texttt{TERT} & M7 & 15/34 & 5.48 & $1.89\times 10^{-5}$ & 2.24 & $1.32\times 10^{-7}$ & $2.63\times 10^{-4}$ & $1.04\times 10^{-4}$ & 0.0052 & 1.0000 & 35/35 \\
+\texttt{DKC1} & M7 & 49/60 & 0.49 & 0.0025 & 0.55 & $7.15\times 10^{-6}$ & 0.1451 & 0.1480 & -- & -- & 16/20 Psl \\
+\texttt{MRE11} & M4 & 49/63 & 2.61 & $5.60\times 10^{-5}$ & -- & -- & -- & -- & -- & -- & 15/20 Psl \\
+\texttt{SOD1} & M6 & 54/67 & 31.65 & 0.0032 & 0.00 & 0.0018 & 1.0000 & 1.0000 & -- & -- & 19/20 Psl \\
+\texttt{NQO1} & M5 & 41/56 & 0.34 & 0.0014 & 0.71 & 0.0091 & 1.0000 & 1.0000 & -- & -- & 14/20 Psl \\
+\texttt{BBC3} & M3 & 36/52 & 0.00 & $2.89\times 10^{-15}$ & 0.00 & $0.00\times 10^{0}$ & 1.0000 & 1.0000 & -- & -- & 14/20 Psl \\
+\texttt{CCNE1} & M2 & 49/62 & 0.00 & 0.0032 & 1.76 & 0.2295 & 1.0000 & 1.0000 & -- & -- & 16/20 Psl \\
+\texttt{MYC} & M2 & 5/6 & 0.37 & 0.0280 & 0.13 & 0.0416 & $1.69\times 10^{-8}$ & $2.58\times 10^{-8}$ & -- & -- & 4/20 Psl \\
+\texttt{APEX1} & M4 & 3/8 & -- & -- & 1.78 & 0.0169 & -- & 0.0424 & -- & -- & 6/20 Psl \\
+\texttt{APAF1} & M3 & 17/33 & 0.48 & 0.0883 & 1.06 & 0.6613 & 1.0000 & -- & -- & -- & 9/20 Psl \\
+\bottomrule\end{tabular}}\clearpage
+\section*{Table S3. Phase 2 Modular Null Benchmark (298 Control Genes) and Empirical \texttt{aBSREL} Base Rate}
+\addcontentsline{toc}{section}{Table S3: Modular Null \& aBSREL Base Rate}
+\textbf{Top panel:} H8 modules (M1--M8) compared against 1,000 length- and rate-matched null pseudo-panels sampled from 298 control genes (\texttt{h8\_null\_modules.tsv}). \textbf{Bottom panel:} Empirical \texttt{aBSREL} positive-selection rate on the \textit{M.\ undulatus} terminal branch vs.\ Psittaculidae stem across the panel and control genes (\texttt{6\_absrel\_base\_rate.tsv}).
+\begin{tabular}{lccccccc}
+\toprule
+\textbf{Module} & \textbf{$n_{\text{genes}}$} & \textbf{Prop.\ Relaxed} & \textbf{Null Mean} & \textbf{$p$ (Prop.)} & \textbf{Mean $\log_2 k$} & \textbf{Null Mean} & \textbf{$p$ ($\log_2 k$)} \\
+\midrule
+M1 & 9 & 0.000 & 0.072 & 1.000 & -0.100 & -0.713 & 0.593 \\
+M2 & 6 & 0.333 & 0.057 & 0.092 & -3.688 & -0.489 & 0.024 \\
+M3 & 10 & 0.100 & 0.041 & 0.663 & -1.374 & -0.005 & 0.094 \\
+M4 & 11 & 0.000 & 0.088 & 0.805 & -0.046 & -0.792 & 0.378 \\
+M5 & 8 & 0.125 & 0.065 & 0.803 & 0.348 & -0.679 & 0.188 \\
+M6 & 13 & 0.000 & 0.035 & 1.000 & -0.491 & -0.298 & 0.713 \\
+M7 & 8 & 0.250 & 0.084 & 0.328 & -1.135 & -0.742 & 0.641 \\
+M8 & 22 & 0.000 & 0.027 & 1.000 & -0.272 & 0.038 & 0.585 \\
+\bottomrule\end{tabular}\\[10pt]
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccccc}
+\toprule
+\textbf{Gene Set} & \textbf{Tested} & \textbf{Melo $p<0.05$} & \textbf{Melo $q<0.10$} & \textbf{Stem $p<0.05$} & \textbf{Stem $q<0.10$} & \textbf{Fisher $p$ vs.\ Ctrl ($p<0.05$)} & \textbf{Fisher $p$ ($q<0.10$)} \\
+\midrule
+H8 Full Panel (burgio2019, 87 genes) & 86 & 6/86 (7.0\%) & 6/86 (7.0\%) & 1/86 (1.2\%) & 0/86 (0.0\%) & 1.0000 & 0.5888 \\
+H8 Module M7 Telomere/Shelterin (8 genes) & 8 & 5/8 (62.5\%) & 5/8 (62.5\%) & 1/8 (12.5\%) & 0/8 (0.0\%) & 0.0037 & $6.94\times 10^{-4}$ \\
+H8 Non-M7 Modules M1-M6, M8 (79 genes) & 78 & 1/78 (1.3\%) & 1/78 (1.3\%) & 0/78 (0.0\%) & 0/78 (0.0\%) & -- & -- \\
+Genome-wide Control Pool (19 genes tested with aBSREL) & 19 & 1/19 (5.3\%) & 0/19 (0.0\%) & 0/19 (0.0\%) & 0/19 (0.0\%) & 1.0000 & 1.0000 \\
+\bottomrule\end{tabular}}\clearpage
+\section*{Table S4. Red-Team Sensitivity Audit of Phase 3 Genome-Wide Coupling ($r = 0.666$)}
+\addcontentsline{toc}{section}{Table S4: Red-Team Sensitivity of Phase 3 Coupling}
+Summary of all stress tests applied to the 7,756-gene \texttt{RERconverge} correlation coupling between relative longevity ($\text{Rho}_{\text{LE}}$) and relative brain mass ($\text{Rho}_{\text{Brain}}$): seed reproducibility, Brownian motion null permulations, technical confounders, zero-branch invariance stratification, leave-one-clade-out perturbations, and true partial orthogonalization.
+\begin{longtable}{p{6.5cm}cccc}
+\toprule
+\textbf{Red-Team Audit Condition / Perturbation} & \textbf{$r_{\text{tip}}$} & \textbf{$r_{\text{branch path}}$} & \textbf{$r(\text{Rho}_1,\text{Rho}_2)$} & \textbf{Key Note} \\
+\midrule\endhead
+\multicolumn{5}{l}{\textbf{A. Negative Controls \& Brownian Permulation Nulls (\texttt{2\_coupling\_null\_and\_controls.tsv})}} \\
+Observed: rel\_log\_life\_expectancy vs rel\_log\_brain (saved  & 0.4783 & 0.4154 & 0.6663 & \scriptsize r\_Rho = 0.6663; branch\_path\_cor = 0.4154 \\
+Observed (50sp matched RER): rel\_log\_life\_expectancy vs re & 0.4783 & 0.4253 & 0.7478 & \scriptsize r\_Rho = 0.7478; branch\_path\_cor = 0.4253 \\
+Control 1: rel\_log\_life\_expectancy vs log\_body\_mass (n=58) & 0.4102 & 0.2885 & 0.6792 & \scriptsize r\_Rho = 0.6792; branch\_path\_cor = 0.2885 \\
+Control 2: rel\_log\_life\_expectancy vs clutch\_size raw (n=5 & -0.4345 & -0.3482 & -0.6280 & \scriptsize r\_Rho = -0.6280; branch\_path\_cor = -0.3482 \\
+Control 3: rel\_log\_life\_expectancy vs rel\_clutch\_size (res & -0.1725 & -0.2145 & -0.1024 & \scriptsize r\_Rho = -0.1024; branch\_path\_cor = -0.2145 \\
+Control 4: rel\_log\_life\_expectancy vs rel\_incubation\_days  & 0.2060 & 0.0513 & 0.3417 & \scriptsize r\_Rho = 0.3417; branch\_path\_cor = 0.0513 \\
+Null 2A: Independent permulated traits (200 pairs) & 0.0000 & -0.0021 & -0.0090 & \scriptsize mean=-0.0090, SD=0.2885, mean|r|=0.2391, 95\%=[-0.535 \\
+Null 2B: Jointly simulated coupled BM traits (200 pairs, e & -0.2786 & -0.2762 & -0.2603 & \scriptsize mean=-0.2603, SD=0.3388, 95\%=[-0.7910, 0.4532], max= \\
+Null 2C: Observed LE fixed vs 200 permulated Brain traits & 0.0000 & 0.0326 & 0.0187 & \scriptsize mean=0.0187, SD=0.3504, mean|r|=0.3002, 95\%=[-0.5939 \\
+\midrule\multicolumn{5}{l}{\textbf{B. Technical Confounder Adjustment \& Zero-Branch Strata (\texttt{3\_coupling\_after\_confounder\_removal.tsv})}} \\
+Raw unadjusted Rho (all 7,756 genes) ($n=7756$) & -- & -- & 0.6663 & Spearman=0.6323; $r(|\text{Rho}|)$=0.5430 \\
+OLS residuals after removing 7 linear+log technical covariates ($n=7756$) & -- & -- & 0.6539 & Spearman=0.6219; $r(|\text{Rho}|)$=0.5168 \\
+OLS residuals after removing 14 quadratic+log technical covariates ($n=7756$) & -- & -- & 0.6532 & Spearman=0.6222; $r(|\text{Rho}|)$=0.5349 \\
+Stratified by aln\_codons: Q1 (lowest) ($n=1940$) & -- & -- & 0.6856 & Spearman=0.6430; $r(|\text{Rho}|)$=0.6069 \\
+Ultra-conserved stratum ($>80\%$ zero branches, $n=1,450$) & -- & -- & 0.6761 & \textbf{117/131 (89.3\%)} of shared hits! \\
+Informative stratum ($\ge 20$ nonzero branches, $n=6,182$) & -- & -- & 0.6626 & Only \textbf{14/131} shared hits \\
+Most informative ($\ge 70\%$ nonzero branches, $n=1,263$) & -- & -- & 0.6982 & Only \textbf{2} shared hits \\
+\midrule\multicolumn{5}{l}{\textbf{C. Leave-One-Clade-Out Sensitivity (\texttt{4\_leave\_one\_clade\_out.tsv})}} \\
+All\_50\_species\_with\_brain ($n=51$) & 0.4783 & 0.4253 & 0.7478 & PTEN=-0.395; MAD2L2=0.426 \\
+Drop\_Strigopidae (Strigops + Nestor, -2 sp) ($n=50$) & 0.5095 & 0.4197 & 0.7646 & PTEN=-0.379; MAD2L2=0.490 \\
+Drop\_Cacatuidae (Cacatua, Calyptorhynchus, Eolophus, Probo ($n=44$) & 0.4631 & 0.4492 & 0.7626 & PTEN=-0.396; MAD2L2=0.425 \\
+Drop\_Loriini (Chalcopsitta, Eos, Trichoglossus, -5 sp) ($n=49$) & 0.4773 & 0.4245 & 0.7483 & PTEN=-0.385; MAD2L2=0.419 \\
+Drop\_Melopsittacus\_undulatus (-1 sp) ($n=50$) & 0.4458 & 0.4048 & 0.7285 & PTEN=-0.378; MAD2L2=0.401 \\
+Drop\_All\_Psittaculidae (-13 sp, leave 37 non-Psittaculidae ($n=38$) & 0.1955 & 0.2095 & 0.5225 & PTEN=-0.356; MAD2L2=0.344 \\
+Drop\_Arini\_Macaws\_Conures (Ara, Anodorhynchus, Pyrrhura, e ($n=33$) & 0.3798 & 0.2407 & 0.6489 & PTEN=-0.355; MAD2L2=0.335 \\
+Drop\_Androglossini (Amazona, Pionus, Pyrilia, Triclaria, - ($n=48$) & 0.5419 & 0.5053 & 0.7975 & PTEN=-0.421; MAD2L2=0.425 \\
+\midrule\multicolumn{5}{l}{\textbf{D. Orthogonalization of Brain Beyond Longevity (\texttt{5\_residual\_brain\_summary.tsv})}} \\
+1. Unadjusted rel\_log\_brain (50 sp) & 0.4783 & 0.4253 & 0.6663 & 50sp=0.7478; cor(Br)=1.000 \\
+2. PGLS residual rel\_brain\_given\_le (scripts/35\_prepare\_re & 0.4269 & 0.3704 & 0.6385 & 50sp=0.7163; cor(Br)=0.999 \\
+3. Tip-OLS orthogonalized rel\_brain\_given\_le\_OLS (beta\_OLS & -0.0000 & -0.0631 & 0.3322 & 50sp=0.3691; cor(Br)=0.875 \\
+4. Branch-path orthogonalized paths\_brain\_orth\_le (branch\_ & -- & -0.0000 & 0.3888 & 50sp=0.4332; cor(Br)=0.909 \\
+5. Per-gene analytical partial correlation r(RER\_g, P\_Brai & -- & 0.0000 & 0.4135 & 50sp=0.4612; cor(Br)=0.934 \\
+\bottomrule\end{longtable}\clearpage
+\section*{Table S5. Dual-Tier Phase 3 Candidate Gene Catalog: Ultra-Conserved (Tier A) vs.\ Informative (Tier B)}
+\addcontentsline{toc}{section}{Table S5: Tier A vs. Tier B Candidate Genes}
+\textbf{Tier A} lists the 13 flagship shared candidate genes from the original Phase 3 synthesis together with their fraction of zero-length branches ($\le 10^{-6}$), branch-orthogonalized $\text{Rho}_{\text{Brain}\perp\text{LE}}$, OLS tip-orthogonalized permulation $p$, and 30-split cross-validation sign concordance. \textbf{Tier B} lists all 14 shared genes passing $P < 0.05$ and $\text{permP} < 0.05$ for both traits that have $\ge 20$ nonzero branches.
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccc}
+\toprule
+\textbf{Gene} & \textbf{\% Zero Branches ($n_{\text{nz}}$)} & \textbf{$\text{Rho}_{\text{LE}}$} & \textbf{$\text{permP}_{\text{LE}}$} & \textbf{$\text{Rho}_{\text{Brain}}$} & \textbf{$\text{Rho}_{\text{Br}\perp\text{LE}}$ (Orth.)} & \textbf{OLS $\text{permP}_{\text{Br}}$} & \textbf{CV Sign Conc.\ (30 splits)} & \textbf{Tier} \\
+\midrule
+\texttt{PTEN} & 99.1\% (1) & -0.374 & 0.0080 & -0.424 & -0.342 & 0.109 & 100\% / 97\% & Tier A (Ultra-cons.) \\
+\texttt{CTNNB1} & 99.1\% (1) & -0.439 & 0.0040 & -0.459 & -0.355 & 0.228 & 100\% / 100\% & Tier A (Ultra-cons.) \\
+\texttt{CTNNBIP1} & 99.0\% (1) & -0.361 & 0.0200 & -0.443 & -0.374 & 0.149 & 97\% / 97\% & Tier A (Ultra-cons.) \\
+\texttt{PSMA4} & 99.1\% (1) & -0.426 & 0.0040 & -0.464 & -0.361 & 0.188 & 100\% / 97\% & Tier A (Ultra-cons.) \\
+\texttt{SSU72} & 98.9\% (1) & -0.465 & 0.0060 & -0.470 & -0.374 & 0.168 & 100\% / 100\% & Tier A (Ultra-cons.) \\
+\texttt{TOMM20} & 96.9\% (2) & -0.435 & 0.0359 & -0.498 & -0.377 & 0.267 & 97\% / 100\% & Tier A (Ultra-cons.) \\
+\texttt{ANAPC11} & 96.2\% (3) & -0.406 & 0.0060 & -0.434 & -0.370 & 0.040 & 97\% / 97\% & Tier A (Ultra-cons.) \\
+\texttt{MAD2L2} & 99.0\% (1) & +0.418 & 0.0120 & +0.534 & +0.477 & 0.030 & 100\% / 97\% & Tier A (Ultra-cons.) \\
+\texttt{HSPA8} & 98.2\% (2) & +0.404 & 0.0080 & +0.354 & +0.277 & 0.198 & 100\% / 97\% & Tier A (Ultra-cons.) \\
+\texttt{RTN1} & 97.3\% (3) & +0.516 & 0.0080 & +0.440 & +0.309 & 0.188 & 100\% / 97\% & Tier A (Ultra-cons.) \\
+\texttt{SOX14} & 98.1\% (2) & +0.476 & 0.0040 & +0.500 & +0.384 & 0.119 & 100\% / 100\% & Tier A (Ultra-cons.) \\
+\texttt{NCALD} & 98.2\% (2) & +0.417 & 0.0080 & +0.493 & +0.401 & 0.099 & 100\% / 97\% & Tier A (Ultra-cons.) \\
+\texttt{CBLN4} & 96.7\% (3) & +0.456 & 0.0040 & +0.401 & +0.275 & 0.366 & 100\% / 97\% & Tier A (Ultra-cons.) \\
+\midrule
+\texttt{TKT} & 60.9\% (27) & +0.408 & 0.0040 & +0.347 & -- & -- & -- & Tier B (Informative) \\
+\texttt{PHOSPHO1} & 52.3\% (53) & -0.261 & 0.0120 & -0.267 & -- & -- & -- & Tier B (Informative) \\
+\texttt{TADA2A} & 72.6\% (20) & +0.316 & 0.0220 & +0.334 & -- & -- & -- & Tier B (Informative) \\
+\texttt{LOC101877632} & 50.8\% (32) & -0.331 & 0.0040 & -0.321 & -- & -- & -- & Tier B (Informative) \\
+\texttt{LOC101872892} & 44.1\% (62) & +0.239 & 0.0319 & +0.384 & -- & -- & -- & Tier B (Informative) \\
+\texttt{SLC4A7} & 44.8\% (37) & +0.296 & 0.0319 & +0.304 & -- & -- & -- & Tier B (Informative) \\
+\texttt{DEPDC4} & 21.5\% (73) & -0.250 & 0.0100 & -0.214 & -- & -- & -- & Tier B (Informative) \\
+\texttt{HUS1} & 54.1\% (51) & -0.222 & 0.0120 & -0.253 & -- & -- & -- & Tier B (Informative) \\
+\texttt{LOC101868077} & 66.3\% (34) & +0.231 & 0.0479 & +0.276 & -- & -- & -- & Tier B (Informative) \\
+\texttt{MCEE} & 60.2\% (41) & +0.219 & 0.0359 & +0.279 & -- & -- & -- & Tier B (Informative) \\
+\texttt{C11H17orf75} & 45.2\% (51) & -0.226 & 0.0479 & -0.279 & -- & -- & -- & Tier B (Informative) \\
+\texttt{MAP3K8} & 79.8\% (22) & +0.200 & 0.0439 & +0.254 & -- & -- & -- & Tier B (Informative) \\
+\texttt{DIPK1C} & 41.4\% (58) & +0.204 & 0.0240 & +0.252 & -- & -- & -- & Tier B (Informative) \\
+\texttt{LOC101870278} & 21.1\% (45) & -0.263 & 0.0240 & -0.274 & -- & -- & -- & Tier B (Informative) \\
+\bottomrule\end{tabular}}\clearpage
+\section*{Table S6. Exhaustive Statistical Inventory (78,802 Tests), Null Findings, and AlphaFold 3D Summary}
+\addcontentsline{toc}{section}{Table S6: Statistical Inventory \& 3D Structural Summary}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{3.4cm}rp{3.5cm}p{5.5cm}p{6.5cm}}
+\toprule
+\textbf{Phase / Scope} & \textbf{Tests Run} & \textbf{Correction} & \textbf{Positive / Nominally Significant} & \textbf{Null / Negative Findings Reported} \\
+\midrule
+Phase 0 \& 0b (Allometry, Captive/Wild, Brain \& Life-History PGLS) & 48 & Model AICc + PGLS t-tests (Supertree + Smith2024) & Body mass -> longevity (p=4.2e-18); Relative brain -> longevity (p=0.0012); Captive vs wild longevity r=0.91 & Diet guild effect on longevity after mass+phylogeny (NULL, p>0.25); Latitude/insularity effect on residual longevity (NULL); OU single-optimum vs multi-regime outside Psittaculidae/Cacatuidae/Strigopidae (NULL) \\
+Phase 1 (Assembly Quality, Mito Identity, Mash Distance, Cancer Necropsy, Measurement Error) & 34 & PGLS + spearman/pearson + ME sensitivity & Assembly quality (N50, BUSCO) is uncorrelated with longevity (validating no quality bias); M. undulatus high cancer prevalence in veterinary necropsy series & Assembly scaffold N50 vs residual longevity (NULL, r=0.04, p=0.76); Mitochondrial substitution rate vs longevity (NULL, p>0.30); Genome-wide Mash k-mer divergence vs longevity (NULL after tree height correction) \\
+Phase 2 Pilot \& Pilot-Plus (12-species and 17-species exploratory runs) & 348 & BH-FDR across 87 panel genes (12sp and 17sp pilots) & Early signal of higher k in M4 telomere in 17-species pilot & Module-level proportion of relaxed genes (k<1, q<0.10) across modules in 12sp and 17sp pilots (NULL); No pseudogenization/loss of TP53, RB1, PTEN, or POT1 across long-lived parrots (NULL) \\
+Phase 2 Main (58 species, 101-gene panel: Integrity, RELAX, aBSREL, 298-gene Null Pool) & 812 & BH-FDR across 87 panel genes per tree (burgio2019 \& smith2024) + 10,000 module label permutations + 1,000 stratified null pseudo-panels from 298 control genes & Module heterogeneity in prop\_relaxed on burgio2019 (p=0.0229, NOT replicated on smith2024 p=0.1271); M7 Telomere 5/8 genes with aBSREL q<0.10 on M. undulatus branch in original MAFFT (collapses on window cleaning / multi-hit); TERT intensified k (q=0.0008/0.011, 15 sp) & H8a Gene loss / pseudogenization in Psittaculidae vs rest (NULL: 100\% of candidate disruptions were assembly fragmentation/coverage artifacts or heterozygous); H8b Module heterogeneity in mean log2(k) (NULL: p=0.1643 burgio2019, p=0.9551 smith2024); M2 mean log2(k) p=0.024 vs null (NULL after 16-test correction and median sensitivity p=0.07); Modules M1, M3-M8 vs 298-gene null (ALL NULL: p=0.09 to 1.00); H8c aBSREL positive selection on the Psittaculidae stem branch (NULL: 0/87 panel genes had q<0.10 on stem) \\
+Phase 3 Genome-Wide RERconverge (7,756 genes x 2 trees x 3 H6 traits + 2 H8 within-clade runs + GO enrichment) & 77,560 & BH-FDR on parametric P and BH-FDR on 1,000 Brownian motion permulation P-values (permQ) across 7,756 genes; Wilcoxon GMT enrichment across GO\_BP terms & Top individual gene rankings (PTEN P=9.76e-5, permP=0.001; MAD2L2, HSPA8); 131-151 genes with nominal P<0.05 \& permP<0.05 in both longevity and brain & Genome-wide BH-FDR across all 7,756 genes for single genes (NULL at permQ < 0.10: minimum permP is bounded by 1/1001 = 0.000999 with 1,000 permulations, so single-gene permQ cannot reach <0.10 without >=100,000 permulations); H8 within-Psittaculidae RERconverge on 86 panel genes after BH correction (NULL: 0/86 genes had panelQ < 0.10); H8 within-rest RERconverge on 86 panel genes after BH correction (NULL: 0/86 genes had panelQ < 0.10; PTEN was nominal P=1.18e-4, panel\_padj\_analytic=0.010, but permulation panelQ=0.145) \\
+\bottomrule\end{tabular}}\\[12pt]
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llcccp{8.5cm}}
+\toprule
+\textbf{Protein} & \textbf{UniProt ID} & \textbf{AA Len.} & \textbf{Global pLDDT} & \textbf{Spp.} & \textbf{Structural Mapping Finding (\texttt{structural\_3d\_summary.tsv})} \\
+\midrule
+\texttt{POT1} & A0A8C6K5H8 (M. undulatus) / Q9NUX5 (Human) & 780 & 79.21 & 8 & 58 M. undulatus-specific substitutions distributed across ssDNA-binding OB1/OB2 (34 sites) and TPP1-interacting OB3/HJRL C-terminus (16 sites); mean pLDDT at mutated sites = 72.6 \\
+\texttt{RTEL1} & Q9NZ71 (Canonical) / A0A8V5GYQ7 (M. undulatus) & 1219 & 71.67 & 23 & 158 M. undulatus-specific substitutions (aBSREL q=1.5e-8): 43 in the Rad3/FeS/Arch helicase core and 115 in the C-terminal Harmonin-N / PCNA-interacting region \\
+\texttt{PTEN} & A0A8C6JLV9 (M. undulatus) / P60484 (Human) & 403 & 82.47 & 57 & 100\% invariant catalytic P-loop (H123-C124-K125-A126-G127-K128-G129-R130, mean pLDDT=93.0) and near-zero divergence across the rigid Phosphatase+C2 superdomain (residues 14-350); polymorphisms restricted to the disordered C-terminal tail (residues 351-403, pLDDT=35.1) \\
+\texttt{MAD2L2} & Q9UI95 (REV7) & 211 & 90.39 & 54 & High-confidence globular HORMA fold (global pLDDT=90.4); evolutionary rate acceleration (Rho\_brain=+0.53/+0.57, \#1 genome-wide) maps to surface-exposed and safety-belt hinge residues while preserving the hydrophobic core \\
+\bottomrule\end{tabular}}
+\end{document}
