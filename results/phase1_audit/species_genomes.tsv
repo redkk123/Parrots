@@ -88,7 +88,7 @@ Psilopsiagon aurifrons	Psilopsiagon	other_Psittaciformes	False	included	1	GCA_02
 Bolborhynchus lineola	Bolborhynchus	other_Psittaciformes	False	included	1	GCA_025448015.1	Iridian	Scaffold	1.378e+04	76.6	pass	False	True	GCA_025448015.1 (Iridian, BUSCO 76.6, id pass)
 Poicephalus gulielmi	Poicephalus	other_Psittaciformes	False	included	2	GCA_982290535.1	B10K project	Scaffold	1.529e+05	98.52	pass	True	True	GCA_026283885.1 (Iridian, BUSCO 85.46, id pass); GCA_982290535.1 (B10K project, BUSCO 98.52, id pass)
 Poicephalus senegalus	Poicephalus	other_Psittaciformes	False	included	1	GCA_025448095.1	Iridian	Scaffold	1.354e+04	78.12	pass	False	True	GCA_025448095.1 (Iridian, BUSCO 78.12, id pass)
-Poicephalus rueppellii	Poicephalus	other_Psittaciformes	False	included	2	GCA_031762375.1	Iridian	Scaffold	1.813e+04	79.81	pass	False	True	GCA_031762375.1 (Iridian, BUSCO 79.81, id pass); GCA_982290605.1 (B10K project, BUSCO nan, id check)
+Poicephalus rueppellii	Poicephalus	other_Psittaciformes	False	included	2	GCA_031762375.1	Iridian	Scaffold	1.813e+04	79.81	pass	False	True	GCA_031762375.1 (Iridian, BUSCO 79.81, id pass); GCA_982290605.1 (B10K project, BUSCO 99.3, id check)
 Poicephalus cryptoxanthus	Poicephalus	other_Psittaciformes	False	excluded	1									GCA_026413525.1 (Iridian, BUSCO 42.78, id pass)
 Psittacus erithacus	Psittacus	other_Psittaciformes	False	included	1	GCA_009867235.2	Iridian	Scaffold	3.68e+04	87.5	pass	True	True	GCA_009867235.2 (Iridian, BUSCO 87.5, id pass)
 Psittacus timneh	Psittacus	other_Psittaciformes	False	included	1	GCA_009867315.2	Iridian	Scaffold	3.855e+04	87.67	pass_nuclear_placement	True	False	GCA_009867315.2 (Iridian, BUSCO 87.67, id pass_nuclear_placement)

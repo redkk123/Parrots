@@ -1,8 +1,8 @@
-# Auditoria das montagens (Fase 1) — relatório parcial
+# Auditoria das montagens (Fase 1) — relatório final
 
-Iniciado em 14 out. 2026, atualizado em 28 out. 2026. **Nenhuma análise de genes foi feita.** Item 1.1 do `TODO.md`.
+Iniciado em 14 out. 2026, concluído em 10 nov. 2026. Item 1.1 do `TODO.md`.
 
-Estado: inventário NCBI ✅ · identidade mitocondrial 96/96 ✅ · identidade nuclear (Mash) 96/96 ✅ · BUSCO Iridian 93/96 ⏳ · BUSCO de 30 montagens de outras fontes ⏳ (na fila, §7). Cerca de 1 h por genoma; salvamento automático no GitHub de hora em hora (`scripts/autosave_audit.sh`).
+Estado: inventário NCBI ✅ · identidade mitocondrial 96/96 ✅ · identidade nuclear (Mash) 96/96 ✅ · BUSCO Iridian 96/96 ✅ · BUSCO de 30 montagens de outras fontes 30/30 ✅ (total: 126/126 montagens auditadas).
 
 ## 1. O que é o "lote Hains"
 
@@ -51,7 +51,7 @@ Com 20 kb, Psittaculidae cai de 34 para 12 espécies e os lóris ficam reduzidos
 
 Só 1 de 10 passa no critério de 85 %. Montagens com N50 de 14–19 kb ficam em 74–76 %, com muitos genes **fragmentados** (16–17 %), não ausentes. O corte de BUSCO pré-registrado tende a ser **mais restritivo** que o de N50. Como a ordem do lote é aleatória, estes 10 são uma amostra sem viés do restante.
 
-**Atualização (93 de 96, 28 out.):** mediana de 76 % de BUSCO completo. 55 passam no critério revisto (≥ 70 %); 11 chegariam a 85 % e 10 passam no critério original (85 % e N50 ≥ 20 kb). Nenhuma montagem com N50 de contig < 5 kb passa (máximo 61,5 %); com N50 ≥ 5 kb, a mediana é 80 %. Tabela completa: [`audit_table.tsv`](audit_table.tsv).
+**Resultado final (96 de 96 Iridian, 10 nov.):** mediana de 76,1 % de BUSCO completo. 57 passam no critério revisto (≥ 70 %); 12 chegam a 85 % e 10 passam no critério original (85 % e N50 ≥ 20 kb). Nenhuma montagem com N50 de contig < 5 kb passa (máximo 61,5 %); com N50 ≥ 5 kb, a mediana é 79,9 %. Tabela completa: [`audit_table.tsv`](audit_table.tsv).
 
 ## 4. Identidade do espécime e contaminação (mitogenoma)
 
@@ -94,7 +94,7 @@ A mitocôndria estranha em 61 montagens e esses quatro casos indicam **controle 
 
 ## 5. Qualidade × longevidade (TODO 1.1, item 4)
 
-PGLS (λ de Pagel) da longevidade relativa sobre cada métrica (`quality_vs_longevity.tsv`). Com as métricas do NCBI, **nenhuma associação**: N50 p = 0,25 (expectativa de vida, n = 96) e 0,20 (longevidade máxima, n = 69). O desvio de tamanho fica no limite só para longevidade máxima (p = 0,08). Repetir com BUSCO e com o conjunto final.
+PGLS (λ de Pagel) da longevidade relativa sobre cada métrica (`quality_vs_longevity.tsv`, 96/96 com BUSCO concluído). **Nenhuma associação significativa**: N50 p = 0,25 (expectativa de vida, n = 96) e 0,20 (longevidade máxima, n = 69); BUSCO completo (`busco_C`) p = 0,11 (expectativa de vida, n = 96) e 0,35 (longevidade máxima, n = 69). O desvio de tamanho fica no limite só para longevidade máxima (p = 0,084), e GC em p = 0,097.
 
 ## 6. Desvios e decisões registrados
 
@@ -102,22 +102,19 @@ PGLS (λ de Pagel) da longevidade relativa sobre cada métrica (`quality_vs_long
 - Critérios do §4 revistos em 16 e 28 out. 2026, antes de olhar genes (Histórico de `results/phase0/analysis_plan.md`).
 - Os genomas não ficam em disco: cada montagem é baixada, analisada e apagada. Ficam versionados os resumos (`busco/*/summary.txt`, `mito/*.json`, tabelas).
 
-## 7. Um genoma por espécie (provisório, 28 out.)
+## 7. Um genoma por espécie (concluído, 10 nov.)
 
-Regras do plano (Histórico, 16 e 28 out.): BUSCO ≥ 70 %, identidade não reprovada e, entre as montagens aprovadas, preferência pelas de escala cromossômica de outras fontes. Quando o mitogenoma não decide, a identidade é aceita no nível de clado pelo Mash (resíduo em relação à árvore ≤ 0,006, N50 ≥ 5 kb). Isso vale para 12 montagens Iridian, 10 delas aprovadas no BUSCO. Script: `scripts/26_select_genomes.py`; tabela: [`species_genomes.tsv`](species_genomes.tsv).
+Regras do plano (Histórico, 16 e 28 out.): BUSCO ≥ 70 %, identidade não reprovada e, entre as montagens aprovadas, preferência pelas de escala cromossômica de outras fontes. Quando o mitogenoma não decide, a identidade é aceita no nível de clado pelo Mash (resíduo em relação à árvore ≤ 0,006, N50 ≥ 5 kb). Script: `scripts/26_select_genomes.py`; tabela: [`species_genomes.tsv`](species_genomes.tsv).
 
 | Situação (105 espécies) | Loriini | *Melopsittacus* | Outros Psittaculidae | Resto da ordem | Total |
 | --- | --- | --- | --- | --- | --- |
-| Incluídas | 4 | 0 | 7 | 40 | **51** |
-| Aguardando BUSCO (Iridian ou outra fonte) | 0 | 1 | 9 | 13 | 23 |
-| Excluídas | 5 | 0 | 7 | 18 | 30 |
+| Incluídas | 4 | 1 | 15 | 51 | **71** |
+| Excluídas | 5 | 0 | 8 | 20 | 33 |
 | Sem montagem (*Pseudeos fuscata*) | 1 | 0 | 0 | 0 | 1 |
 
-- Das 51 incluídas, 41 têm identidade confirmada (entram na sensibilidade de identidade) e 8 passam no critério original.
-- Quatro das incluídas (*Amazona aestiva*, *Ara ararauna*, *Guaruba guarouba*, *Myiopsitta monachus*) podem trocar de genoma: há montagem cromossômica de outra fonte na fila.
-- **Fila de outras fontes** ([`audit_queue_other.tsv`](audit_queue_other.tsv), 30 montagens, Psittaculidae primeiro). Entra uma montagem quando acrescenta a espécie, é cromossômica ou tem N50 mais de 2× o da Iridian. Começa sozinha quando o lote Iridian termina (serviço `parrots-busco-other`).
-- **Se todas passarem:** até 74 espécies, 21 delas Psittaculidae, incluindo o periquito (VGP), *Lathamus*, *Neophema*, *Neopsephotus*, *Cyclopsitta*, *Psittacula krameri*, *Loriculus galgulus* e três *Agapornis* cromossômicos. Com isso volta a condição de escala da Fase 0 (~60 espécies).
-- **Pares irmãos** (árvore de Smith, só espécies incluídas): 17 pares, 10 também irmãos na *supertree* ([`../phase1_trees/sister_pairs_audited.tsv`](../phase1_trees/sister_pairs_audited.tsv)). São provisórios: periquito × Loriini ainda não aparece, porque os genomas dele estão na fila.
+- Das 71 espécies incluídas (44 montagens Iridian e 27 de outras fontes como VGP, B10K e Sanger), **54** têm identidade confirmada no nível de espécie (`identity_sensitivity_keep`) e **33** passam no critério original estrito (BUSCO ≥ 85 % e N50 ≥ 20 kb).
+- **Fila de outras fontes concluída** (30/30 montagens auditadas; fila restante = 0). Isso eleva Psittaculidae para **20 espécies incluídas** (4 Loriini, *Melopsittacus undulatus* VGP e 15 outros Psittaculidae) e consolida o conjunto completo de 71 espécies (nota: as extrações da Fase 2 foram congeladas no corte intermediário de 58 espécies em 28 out. 2026).
+- **Pares irmãos** (árvore de Smith, só espécies incluídas): **24 pares**, 16 deles também irmãos na *supertree* ([`../phase1_trees/sister_pairs_audited.tsv`](../phase1_trees/sister_pairs_audited.tsv)).
 
 ## 8. Como reproduzir / retomar
 
