@@ -1,0 +1,7 @@
+gene	n_species	n_codons	melo_aa_subs_total	melo_aa_subs_clean_isolated	melo_aa_subs_clustered_or_gappy	melo_codons_masked_by_cleaner	absrel_p_original_mafft	absrel_p_linsi_realigned	absrel_p_window_cleaned	absrel_p_MultiHit_DoubleTriple	absrel_p_cleaned_plus_MultiHit	melo_GCA_vs_RefSeq_identity	melo_miniprot_n_loci	mean_identity_across_parrots	min_identity_across_parrots	dual_ref_kakapo_concordance
+RTEL1	23	1307	279	58	221	587	1.72867e-10	1.28295e-09	1	0.967007	1	1	2	0.783645	0.7593	40/40
+TERF2	18	646	89	32	57	299	1.79077e-06	2.43641e-06	0.0677006	1	1	1	1	0.7728	0.6966	30/30
+TERT	15	1325	196	95	101	516	0.00026277	0.000111858	0.00516271	1	1	0.9902	1	0.815877	0.7791	35/35
+ACD	6	658	102	42	60	178	0.000246233	0.000123117	0.124794	0.0502148	0.132017	1	2	0.816855	0.7516	8/11
+TERF1	9	333	23	15	8	19	0.000398231	0.000199143	0.00366381	1	0.315085	1	1	0.888585	0.8369	27/27
+POT1	8	780	84	52	32	144	1	1	1	1	1	1	1	0.869156	0.8423	27/27

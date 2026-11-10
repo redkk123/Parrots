@@ -1,0 +1,10 @@
+comparison	tip_cor_pearson	branch_path_cor	genome_Rho_cor	notes
+Observed: rel_log_life_expectancy vs rel_log_brain (saved files)	0.478335090645419	0.415350837867956	0.666303820424148	r_Rho = 0.6663; branch_path_cor = 0.4154
+Observed (50sp matched RER): rel_log_life_expectancy vs rel_log_brain	0.478335090645419	0.425303144892365	0.747795988499895	r_Rho = 0.7478; branch_path_cor = 0.4253
+Control 1: rel_log_life_expectancy vs log_body_mass (n=58)	0.410205258296708	0.288543474862171	0.67920897619847	r_Rho = 0.6792; branch_path_cor = 0.2885
+Control 2: rel_log_life_expectancy vs clutch_size raw (n=51)	-0.434490442495736	-0.348175228191778	-0.628031881774974	r_Rho = -0.6280; branch_path_cor = -0.3482
+Control 3: rel_log_life_expectancy vs rel_clutch_size (residual on mass, n=51)	-0.17254847743508	-0.214492202079383	-0.102392103555356	r_Rho = -0.1024; branch_path_cor = -0.2145
+Control 4: rel_log_life_expectancy vs rel_incubation_days (residual on mass, n=50)	0.206010369997993	0.0513478642773889	0.341709902247209	r_Rho = 0.3417; branch_path_cor = 0.0513
+Null 2A: Independent permulated traits (200 pairs)	0	-0.00205971518572351	-0.00899636881846811	mean=-0.0090, SD=0.2885, mean|r|=0.2391, 95%=[-0.5353, 0.5287], max=0.6703, p(r>=0.666)=0.00995; cor(r_Rho, path_cor)=0.8831
+Null 2B: Jointly simulated coupled BM traits (200 pairs, empirical 2x2 ratematrix)	-0.278596794797894	-0.276151809780721	-0.260282023240303	mean=-0.2603, SD=0.3388, 95%=[-0.7910, 0.4532], max=0.6601, p(r>=0.666)=0.004975; cor(r_Rho, path_cor)=0.9133
+Null 2C: Observed LE fixed vs 200 permulated Brain traits	0	0.0326423645102315	0.0186986299778157	mean=0.0187, SD=0.3504, mean|r|=0.3002, 95%=[-0.5939, 0.6509], max=0.7155, p(r>=0.666)=0.02488

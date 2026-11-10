@@ -1,0 +1,20 @@
+gene	n_species	absrel_melopsittacus_p_holm2	absrel_melopsittacus_p_uncorr	melopsittacus_rate_classes	absrel_stem_p_holm2	absrel_stem_p_uncorr	stem_rate_classes	absrel_melopsittacus_q_pool	absrel_stem_q_pool
+AMBP	58	1	1	1	1	1	1	1	1
+ANAPC16	95	1	1	1	1	1	1	1	1
+ATP5MK	25	0.416528	0.208264	1	1	1	1	1	1
+CCDC167	25	0.198227	0.198227	1			1	1	
+COX6B1	25	1	1	1			1	1	
+COX6C	25	0.648047	0.324024	1	1	1	1	1	1
+CSTA	25	0.240721	0.240721	1			1	1	
+GNG7	25	1	1	1	1	1	1	1	1
+LLPH	25	1	1	1			1	1	
+LOC101868841	25	1	1	1			1	1	
+LOC101872959	25	1	1	1	1	1	1	1	1
+MLLT11	25	1	1	1	1	1	1	1	1
+NDUFC1	25	0.0385101	0.0385101	1			1	0.626484	
+PHF5A	25	1	1	1			1	1	
+PKIA	25	1	1	1	1	1	1	1	1
+PTRHD1	25	0.0659457	0.0659457	1			1	0.626484	
+SUMO3	25	1	1	1	0.627217	0.313608	1	1	1
+TMEM244	25	1	1	1	1	1	1	1	1
+TMEM273	25	1	1	1	1	1	1	1	1

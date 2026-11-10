@@ -1,0 +1,14 @@
+species	tree_tip	rel_log_life_expectancy	rel_log_brain	rel_brain_given_le	species_tip	clade	cohort
+Agapornis nigrigenis	Agapornis_nigrigenis	-0.15901	0.038414	-0.0053941	Agapornis_nigrigenis	Psittaculidae	holdout_13
+Agapornis fischeri	Agapornis_fischeri	0.049952	-0.034502	-0.086576	Agapornis_fischeri	Psittaculidae	holdout_13
+Agapornis roseicollis	Agapornis_roseicollis	0.19407	-0.13275	-0.19052	Agapornis_roseicollis	Psittaculidae	holdout_13
+Neophema chrysogaster	Neophema_chrysogaster	-0.2247			Neophema_chrysogaster	Psittaculidae	holdout_13
+Psittacula krameri	Psittacula_krameri	0.27427	-0.00038078	-0.061328	Psittacula_krameri	Psittaculidae	holdout_13
+Psittrichas fulgidus	Psittrichas_fulgidus	-0.44751	-0.42461	-0.457	Psittrichas_fulgidus	rest	holdout_13
+Amazona guildingii	Amazona_guildingii	0.33527	-0.31905	-0.38241	Amazona_guildingii	rest	holdout_13
+Amazona vittata	Amazona_vittata	0.62106	-0.083031	-0.1577	Amazona_vittata	rest	holdout_13
+Amazona ochrocephala	Amazona_ochrocephala	0.52015	0.0037761	-0.066898	Amazona_ochrocephala	rest	holdout_13
+Psittacara finschi	Psittacara_finschi	0.71265	0.19057	0.11228	Psittacara_finschi	rest	holdout_13
+Psittacara erythrogenys	Psittacara_erythrogenys	0.40258			Psittacara_erythrogenys	rest	holdout_13
+Forpus passerinus	Forpus_passerinus	-0.20402	-0.094463	-0.13649	Forpus_passerinus	rest	holdout_13
+Probosciger aterrimus	Probosciger_aterrimus	0.02225	0.56308	0.5121	Probosciger_aterrimus	rest	holdout_13

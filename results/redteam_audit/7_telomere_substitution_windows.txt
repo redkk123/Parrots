@@ -1,0 +1,163 @@
+========================================================================================
+GENE: RTEL1 | n_species=23 | n_codons=1307 | Total M. undulatus AA substitutions vs parrot consensus: 279 (Clean isolated: 58, Clustered/Gappy/Noisy window: 221)
+----------------------------------------------------------------------------------------
+  [Window codons 1..15 around cluster at codon 3]:
+    Melopsittacus_undulatus      AA: MPKVQLNGITVDFPF | Codons(1..10): ATG CCC AAG GTA CAG CTG AAC GGC ATC ACC
+    Loriculus_galgulus           AA: MPKIELNGITVDFPF | Codons(1..10): ATG CCT AAG ATA GAG CTG AAC GGC ATC ACG
+    Amazona_aestiva              AA: MPTIKLNGIAVNFPF | Codons(1..10): ATG CCC ACT ATA AAG CTG AAC GGC ATC GCG
+    Amazona_finschi              AA: MPTIKLNGIAVNFPF | Codons(1..10): ATG CCC ACG ATA AAG CTG AAC GGC ATC GCG
+    Ara_ararauna                 AA: MPRITLNGITVDFPF | Codons(1..10): ATG CCC AGG ATT ACG CTG AAC GGC ATC ACG
+    Ara_rubrogenys               AA: MPRITLNGITVDFPF | Codons(1..10): ATG CCC AGG ATT ACG CTG AAC GGC ATC ACG
+    Ara_ambiguus                 AA: MPRITLNGITVDFPF | Codons(1..10): ATG CCC AGG ATT ACG CTG AAC GGC ATC ACG
+  [Window codons 72..91 around cluster at codon 79]:
+    Melopsittacus_undulatus      AA: IAQRLNGEELFPGPSWGNVA | Codons(72..81): ATT GCC CAA CGA CTG AAT GGG GAG GAG CTC
+    Loriculus_galgulus           AA: IAQRLSGVELFPESSWGNVA | Codons(72..81): ATT GCG CAG CGA CTG AGT GGG GTG GAA CTC
+    Amazona_aestiva              AA: IAQRLNGVELFPESSWGNVA | Codons(72..81): ATT GCT CAG CGA CTG AAT GGG GTG GAA CTC
+    Amazona_finschi              AA: IAQRLNGVELFPESSWGNVA | Codons(72..81): ATT GCT CAG CGA CTG AAT GGG GTG GAA CTC
+    Ara_ararauna                 AA: IAQRLNGVDLFPESSWRNVA | Codons(72..81): ATT GCG CAG CGA CTG AAT GGG GTG GAC CTC
+    Ara_rubrogenys               AA: IAQRLNGVDLFPESSWRNVA | Codons(72..81): ATT GCG CAG CGA CTG AAT GGG GTG GAC CTC
+    Ara_ambiguus                 AA: IAQRLNGVDLFPESSWRNVA | Codons(72..81): ATT GCG CAG CGA CTG AAT GGG GTG GAC CTC
+  [Window codons 86..105 around cluster at codon 93]:
+    Melopsittacus_undulatus      AA: SWGNVAPNDDIPTYYTDVPK | Codons(86..95): TCC TGG GGC AAT GTT GCC CCT AAT GAT GAT
+    Loriculus_galgulus           AA: SWGNVAPNEEIPTSYTDIPK | Codons(86..95): TCC TGG GGC AAT GTT GCC CCC AAT GAG GAA
+    Amazona_aestiva              AA: SWGNVAPDDDIPLYYTDIPK | Codons(86..95): TCC TGG GGC AAT GTT GCC CCT GAT GAT GAT
+    Amazona_finschi              AA: SWGNVAPDDDIPLYYTDIPK | Codons(86..95): TCC TGG GGC AAT GTT GCC CCT GAT GAT GAT
+    Ara_ararauna                 AA: SWRNVAPDDDIPIYYTDIPK | Codons(86..95): TCC TGG CGC AAT GTT GCC CCT GAT GAT GAT
+    Ara_rubrogenys               AA: SWRNVAPDDDIPIYYTDIPK | Codons(86..95): TCC TGG CGC AAT GTT GCC CCT GAT GAT GAT
+    Ara_ambiguus                 AA: SWRNVAPDDDIPIYYTDIPK | Codons(86..95): TCC TGG CGC AAT GTT GCC CCT GAT GAT GAT
+  [Window codons 188..207 around cluster at codon 195]:
+    Melopsittacus_undulatus      AA: IMDIEDLVKKGNELRACPYY | Codons(188..197): ATC ATG GAT ATC GAA GAC CTG GTT AAA AAG
+    Loriculus_galgulus           AA: IMDIEDLVKKGNKLRACPYY | Codons(188..197): ATC ATG GAT ATC GAA GAC TTG GTT AAG AAG
+    Amazona_aestiva              AA: IMDIEDLVKCGNKLRACPYY | Codons(188..197): ATC ATG GAT ATC GAA GAC TTG GTT AAA TGT
+    Amazona_finschi              AA: IMDIEDLVKCGNKLRACPYY | Codons(188..197): ATC ATG GAT ATC GAA GAC TTG GTT AAA TGT
+    Ara_ararauna                 AA: IMDIEDLIKSGNKLRACPYY | Codons(188..197): ATC ATG GAT ATT GAA GAC TTG ATT AAA AGT
+    Ara_rubrogenys               AA: IMDIEDLIKSGNKLRACPYY | Codons(188..197): ATC ATG GAT ATT GAA GAC TTG ATT AAA AGT
+    Ara_ambiguus                 AA: IMDIEDLIKSGNKLRACPYY | Codons(188..197): ATC ATG GAT ATT GAA GAC TTG ATT AAA AGT
+
+========================================================================================
+GENE: TERF2 | n_species=18 | n_codons=646 | Total M. undulatus AA substitutions vs parrot consensus: 89 (Clean isolated: 32, Clustered/Gappy/Noisy window: 57)
+----------------------------------------------------------------------------------------
+  [Window codons 9..28 around cluster at codon 16]:
+    Melopsittacus_undulatus      AA: -----SLSGAMGPKRRRTPR | Codons(9..18): --- --- --- --- --- TCT CTG TCC GGA GCC
+    Agapornis_canus              AA: ---------GAAGPFREQVR | Codons(9..18): --- --- --- --- --- --- --- --- --- GGA
+    Loriculus_galgulus           AA: GRSRTSLPGAMVGKRRRPPP | Codons(9..18): GGT AGG AGT CGC ACG TCA CTG CCC GGA GCC
+    Amazona_finschi              AA: -----ALPWARAGKQRRATR | Codons(9..18): --- --- --- --- --- GCG CTG CCC TGG GCG
+    Amazona_vinacea              AA: -----ALPCAMAGKQRRAAR | Codons(9..18): --- --- --- --- --- GCG CTG CCC TGC GCG
+    Cacatua_ducorpsii            AA: GRRCTSLPSAMVGKRRRAPR | Codons(9..18): GGC AGG CGC TGC ACG TCA TTG CCC AGC GCA
+    Cacatua_sanguinea            AA: GRRCTSLPSAMVGKRRRAPR | Codons(9..18): GGC AGG CGC TGC ACG TCA TTG CCC AGC GCA
+  [Window codons 22..41 around cluster at codon 29]:
+    Melopsittacus_undulatus      AA: KRRRTPRPDAG----GPKRR | Codons(22..31): AAG CGG CGG CGG ACG CCG CGG CCG GAC GCG
+    Agapornis_canus              AA: PFREQVR--------ARRRG | Codons(22..31): CCG TTC CGG GAG CAA GTC CGG --- --- ---
+    Loriculus_galgulus           AA: KRRRPPP--A-----MQGRR | Codons(22..31): AAA CGG CGG CGG CCG CCG CCA --- --- GCG
+    Amazona_finschi              AA: KQRRATRSGS-----VEARG | Codons(22..31): AAG CAG CGG CGG GCA ACG CGG TCG GGC TCG
+    Amazona_vinacea              AA: KQRRAARSGS-----VEARG | Codons(22..31): AAG CAG CGG CGG GCA GCG CGG TCG GGC TCG
+    Cacatua_ducorpsii            AA: KRRRAPRLDA-----IGARA | Codons(22..31): AAA CGG AGG CGG GCG CCG CGC CTG GAC GCG
+    Cacatua_sanguinea            AA: KRRRAPRLDA-----IGARA | Codons(22..31): AAA CGG AGG CGG GCG CCG CGC CTG GAC GCG
+  [Window codons 35..54 around cluster at codon 42]:
+    Melopsittacus_undulatus      AA: --GPKRRRLLEEAVVNGHVL | Codons(35..44): --- --- GGA CCG AAG CGG AGA AGG CTC CTC
+    Agapornis_canus              AA: --ARRRGGLPEEAAVNGHVL | Codons(35..44): --- --- GCG AGG AGG CGG GGC GGG CTC CCC
+    Loriculus_galgulus           AA: --MQGRRGLPEEAVVNGYVL | Codons(35..44): --- --- ATG CAG GGG CGG AGA GGG CTC CCC
+    Amazona_finschi              AA: --VEARGGTPEEAVVNGHVL | Codons(35..44): --- --- GTG GAG GCG CGG GGA GGG ACC CCC
+    Amazona_vinacea              AA: --VEARGGTPEEAVVNGHVL | Codons(35..44): --- --- GTG GAG GCG CGG GGA GGG ACC CCC
+    Cacatua_ducorpsii            AA: --IGARAGLPEEAVVNGHVL | Codons(35..44): --- --- ATA GGG GCG CGG GCC GGG CTC CCC
+    Cacatua_sanguinea            AA: --IGARAGLPEEAVVNGHVL | Codons(35..44): --- --- ATA GGG GCG CGG GCC GGG CTC CCC
+  [Window codons 136..155 around cluster at codon 143]:
+    Melopsittacus_undulatus      AA: IQTEFAVSEEAMETLEEMVK | Codons(136..145): ATT CAA ACA GAG TTC GCT GTG AGT GAG GAG
+    Agapornis_canus              AA: IHTEFAVTQETMETLLEMVK | Codons(136..145): ATT CAT ACA GAA TTT GCT GTG ACT CAG GAG
+    Loriculus_galgulus           AA: IHREFDVTQEAMETLQEMVK | Codons(136..145): ATT CAT AGA GAA TTC GAT GTG ACT CAG GAG
+    Amazona_finschi              AA: IHTEFGVTQETMETLQEMVK | Codons(136..145): ATT CAT ACA GAA TTC GGT GTG ACT CAG GAG
+    Amazona_vinacea              AA: IHTEFGVTQETMETLQEMVK | Codons(136..145): ATT CAT ACA GAA TTT GGT GTG ACT CAG GAG
+    Cacatua_ducorpsii            AA: IHTEFSVTEKTMETLQEMVK | Codons(136..145): ATT CAT ACA GAA TTC TCT GTA ACT GAG AAG
+    Cacatua_sanguinea            AA: IHTEFSVTEKTMETLQEMVK | Codons(136..145): ATT CAT ACA GAA TTC TCT GTG ACT GAG AAG
+
+========================================================================================
+GENE: TERT | n_species=15 | n_codons=1325 | Total M. undulatus AA substitutions vs parrot consensus: 196 (Clean isolated: 95, Clustered/Gappy/Noisy window: 101)
+----------------------------------------------------------------------------------------
+  [Window codons 1..16 around cluster at codon 4]:
+    Melopsittacus_undulatus      AA: MAGREPFAGVLTALRR | Codons(1..10): ATG GCG GGC AGG GAG CCC TTC GCG GGG GTA
+    Loriculus_galgulus           AA: MAGTEPFAAVLTGLRC | Codons(1..10): ATG GCG GGC ACG GAG CCA TTC GCG GCG GTG
+    Cacatua_ducorpsii            AA: MAGTESFAAVLTALRG | Codons(1..10): ATG GCG GGC ACG GAG TCC TTC GCG GCG GTG
+    Cacatua_sanguinea            AA: MAGTESFAAVLTALRG | Codons(1..10): ATG GCG GGC ACG GAG TCC TTC GCG GCG GTG
+    Cacatua_moluccensis          AA: MAGTESFAAVLTALRG | Codons(1..10): ATG GCG GGC ACG GAG TCC TTC GCG GCG GTG
+    Cacatua_alba                 AA: MAGTESFAAVLTALRG | Codons(1..10): ATG GCG GGC ACG GAG TCC TTC GCG GCG GTG
+    Cacatua_sulphurea            AA: MAGTESFAAVLTALRG | Codons(1..10): ATG GCG GGC ACG GAG TCC TTC GCG GCG GTG
+  [Window codons 13..32 around cluster at codon 20]:
+    Melopsittacus_undulatus      AA: ALRRCYAKVVPLETFVRGLQ | Codons(13..22): GCA CTG CGC CGC TGC TAC GCC AAG GTC GTC
+    Loriculus_galgulus           AA: GLRCCYAKVASLETFIRELQ | Codons(13..22): GGG CTG CGC TGC TGC TAC GCC AAG GTG GCC
+    Cacatua_ducorpsii            AA: ALRGCYAEVAPLETFIRQLQ | Codons(13..22): GCG TTG CGC GGC TGC TAC GCC GAG GTC GCC
+    Cacatua_sanguinea            AA: ALRGCYAEVAPLETFIRQLQ | Codons(13..22): GCG TTG CGC GGC TGC TAC GCC GAG GTC GCC
+    Cacatua_moluccensis          AA: ALRGCYAEVAPLETFIRQLQ | Codons(13..22): GCG TTG CGC GGC TGC TAC GCC GAG GTC GCC
+    Cacatua_alba                 AA: ALRGCYAEVAPLETFIRQLQ | Codons(13..22): GCG TTG CGC GGC TGC TAC GCC GAG GTC GCC
+    Cacatua_sulphurea            AA: ALRGCYAEVAPLETFIRQLQ | Codons(13..22): GCG TTG CGC GGC TGC TAC GCC GAG GTC GCC
+  [Window codons 107..126 around cluster at codon 114]:
+    Melopsittacus_undulatus      AA: LDENSSHLPVLPCSRIYSYL | Codons(107..116): CTG GAT GAA AAC AGT TCT CAT CTC CCA GTC
+    Loriculus_galgulus           AA: LDENSSHLPVMPCSRICSYL | Codons(107..116): CTG GAT GAA AAC AGT TCT CAT CTC CCA GTC
+    Cacatua_ducorpsii            AA: LDENSSHFQVMPSSRIYSYL | Codons(107..116): CTG GAT GAA AAC AGT TCT CAT TTC CAA GTC
+    Cacatua_sanguinea            AA: LDENSSHFQVMPSSRIYSYL | Codons(107..116): CTG GAT GAA AAC AGT TCT CAT TTC CAA GTC
+    Cacatua_moluccensis          AA: LDENSSHFQVMPSSRIYSYL | Codons(107..116): CTG GAT GAA AAC AGT TCT CAT TTC CAA GTC
+    Cacatua_alba                 AA: LDENSSHFQVMPSSRIYSYL | Codons(107..116): CTG GAT GAA AAC AGT TCT CAT TTC CAA GTC
+    Cacatua_sulphurea            AA: LDENSSHFQVMPSSRIYSYL | Codons(107..116): CTG GAT GAA AAC AGT TCT CAT TTC CAA GTC
+  [Window codons 123..142 around cluster at codon 130]:
+    Melopsittacus_undulatus      AA: YSYLPNTVTESTCTNGVWET | Codons(123..132): TAC AGT TAC CTA CCC AAT ACT GTA ACG GAA
+    Loriculus_galgulus           AA: CSYLSNTGTESTCTNGVWET | Codons(123..132): TGC AGC TAC CTG TCC AAT ACT GGA ACA GAA
+    Cacatua_ducorpsii            AA: YSYLSNTGTETICTNGLWET | Codons(123..132): TAC AGC TAC CTA TCT AAT ACT GGA ACG GAA
+    Cacatua_sanguinea            AA: YSYLSNTGTETICTNGLWET | Codons(123..132): TAC AGC TAC CTA TCT AAT ACT GGA ACG GAA
+    Cacatua_moluccensis          AA: YSYLSNTGTETICTNGLWET | Codons(123..132): TAC AGC TAC CTG TCT AAT ACT GGA ACG GAA
+    Cacatua_alba                 AA: YSYLSNTGTETICTNGLWET | Codons(123..132): TAC AGC TAC CTG TCT AAT ACT GGA ACG GAA
+    Cacatua_sulphurea            AA: YSYLSNTGTETICTNGLWET | Codons(123..132): TAC AGC TAC CTG TCT AAT ACT GGA ACG GAA
+
+========================================================================================
+GENE: ACD | n_species=6 | n_codons=658 | Total M. undulatus AA substitutions vs parrot consensus: 102 (Clean isolated: 42, Clustered/Gappy/Noisy window: 60)
+----------------------------------------------------------------------------------------
+  [Window codons 1..13 around cluster at codon 1]:
+    Melopsittacus_undulatus      AA: MPAPFPVPGPRPG | Codons(1..10): ATG CCG GCA CCT TTT CCT GTC CCC GGA CCG
+    Trichoglossus_euteles        AA: ------------- | Codons(1..10): --- --- --- --- --- --- --- --- --- ---
+    Amazona_finschi              AA: SASPSSLPATRRR | Codons(1..10): TCC gcc tcc ccc tct tcc ctc ccc gCG ACA
+    Cacatua_galerita             AA: HP----------- | Codons(1..10): CAT CCC --- --- --- --- --- --- --- ---
+  [Window codons 7..26 around cluster at codon 14]:
+    Melopsittacus_undulatus      AA: VPGPRPGLDLAQRAVAPAVL | Codons(7..16): GTC CCC GGA CCG CGG CCC GGG TTG GAT TTG
+    Trichoglossus_euteles        AA: -------------------- | Codons(7..16): --- --- --- --- --- --- --- --- --- ---
+    Amazona_finschi              AA: LPATRRRSPISRAELRRAAV | Codons(7..16): ctc ccc gCG ACA CGA CGG CGC AGC CCC ATA
+    Cacatua_galerita             AA: -------------------- | Codons(7..16): --- --- --- --- --- --- --- --- --- ---
+  [Window codons 20..39 around cluster at codon 27]:
+    Melopsittacus_undulatus      AA: AVAPAVLGEPGGAPQPCPC- | Codons(20..29): GCA GTG GCA CCG GCG GTG CTG GGG GAG CCG
+    Trichoglossus_euteles        AA: ---------PGGSSAPVPCP | Codons(20..29): --- --- --- --- --- --- --- --- --- CCG
+    Amazona_finschi              AA: ELRRAAVAEPGAEPLPLP-- | Codons(20..29): GAG CTG AGG AGG GCG GCG GTC GCC GAG CCT
+    Cacatua_galerita             AA: -------------------- | Codons(20..29): --- --- --- --- --- --- --- --- --- ---
+  [Window codons 44..63 around cluster at codon 51]:
+    Melopsittacus_undulatus      AA: -----PPAAQHVHCPSR--- | Codons(44..53): --- --- --- --- --- cct cct gca gca cag
+    Trichoglossus_euteles        AA: AALRGPPPAQRVPCPRS--- | Codons(44..53): GCC GCT CTG CGT ggt cct cct cca gca cag
+    Amazona_finschi              AA: ----------HVLVPLHFSL | Codons(44..53): --- --- --- --- --- --- --- --- --- ---
+    Cacatua_galerita             AA: -----------------LSL | Codons(44..53): --- --- --- --- --- --- --- --- --- ---
+
+========================================================================================
+GENE: TERF1 | n_species=9 | n_codons=333 | Total M. undulatus AA substitutions vs parrot consensus: 23 (Clean isolated: 15, Clustered/Gappy/Noisy window: 8)
+----------------------------------------------------------------------------------------
+  [Window codons 1..13 around cluster at codon 1]:
+    Melopsittacus_undulatus      AA: MAAA---TGKNSA | Codons(1..10): ATG GCG GCG GCG --- --- --- ACC GGT AAG
+    Loriculus_galgulus           AA: -MAV---AEESSV | Codons(1..10): --- ATG GCG GTG --- --- --- GCG GAG GAG
+    Cacatua_sanguinea            AA: -MAA---AGGRWA | Codons(1..10): --- ATG GCT GCG --- --- --- GCG GGC GGG
+  [Window codons 240..259 around cluster at codon 247]:
+    Melopsittacus_undulatus      AA: LETKQRPHSGGKLREATVLQ | Codons(240..249): ttg gaa aca aaa caa agG CCT CAT TCA GGA
+    Loriculus_galgulus           AA: LETKQRPCSGRELRERTVLQ | Codons(240..249): ttg gaa aca aaa cag agG CCT TGT TCA GGA
+    Cacatua_sanguinea            AA: LETKQRPRLGGELGERAVLQ | Codons(240..249): ttg gaa aca aaa caa agG CCT CGT TTA GGA
+
+========================================================================================
+GENE: POT1 | n_species=8 | n_codons=780 | Total M. undulatus AA substitutions vs parrot consensus: 84 (Clean isolated: 52, Clustered/Gappy/Noisy window: 32)
+----------------------------------------------------------------------------------------
+  [Window codons 58..77 around cluster at codon 65]:
+    Melopsittacus_undulatus      AA: DFFKIVLKDMDSSCSWINSI | Codons(58..67): GAC TTT TTC AAG ATC GTT CTT AAA Gat ATG
+    Loriculus_galgulus           AA: DFFKVVLQDMDNSCSRINSI | Codons(58..67): GAC TTT TTC AAG GTT GTT CTT CAA Gat ATG
+    Cacatua_sanguinea            AA: DFFKVVLQDMDNSCSRINSI | Codons(58..67): GAC TTT TTC AAG GTT GTT CTT CAA Gat ATG
+  [Window codons 130..149 around cluster at codon 137]:
+    Melopsittacus_undulatus      AA: SAIYIYSQQTRTAPSKPALV | Codons(130..139): TCG GCC ATT TAT aTT TAC AGT CAA CAA ACA
+    Loriculus_galgulus           AA: SVIYICSKQ-TTAASKTALV | Codons(130..139): TCA GTC ATT TAT att TGC AGT AAA CAA ---
+    Cacatua_sanguinea            AA: SAIYIYSKQRTTAASKTALV | Codons(130..139): TCA GCC ATT TAT atT TAT AGT AAA CAA AGA
+  [Window codons 202..221 around cluster at codon 209]:
+    Melopsittacus_undulatus      AA: KLTCSLFNRNLDCLPKIYKV | Codons(202..211): AAG TTA ACA TGC TCT CTT TTC AAT AGA AAT
+    Loriculus_galgulus           AA: KLTCSLFSGNLASLPKIYKV | Codons(202..211): AAG TTA ACA TGC TCT CTT TTC AGC GGA AAT
+    Cacatua_sanguinea            AA: KLTCSLFSGNLDSLPKIYKV | Codons(202..211): AAG TTA ACG TGC TCT CTT TTC AGT GGA AAT
+  [Window codons 265..284 around cluster at codon 272]:
+    Melopsittacus_undulatus      AA: SSKAYSFVDEERKTIEDLRV | Codons(265..274): TCT AGC AAA GCG TAC AGT TTC GTG GAT GAA
+    Loriculus_galgulus           AA: SSKGYSFVDEELKTVEDLRV | Codons(265..274): TCT AGC AAA GGA TAC AGT TTC GTG GAT GAA
+    Cacatua_sanguinea            AA: SSKGYSFMDEERKTVEDLRV | Codons(265..274): TCT AGC AAA GGG TAC AGT TTC ATG GAT GAA

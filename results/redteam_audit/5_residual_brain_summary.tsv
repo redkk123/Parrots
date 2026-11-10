@@ -1,0 +1,6 @@
+method	tip_cor_with_LE	branch_path_cor_with_LE	genome_Rho_cor_with_LE_58sp	genome_Rho_cor_with_LE_50sp	genome_Rho_cor_with_Brain_raw
+1. Unadjusted rel_log_brain (50 sp)	0.478335090645419	0.425303144892365	0.666303820424148	0.747795988499895	1
+2. PGLS residual rel_brain_given_le (scripts/35_prepare_rer_inputs.py, beta_GLS=0.040, lambda=0.90)	0.426865231619492	0.370435220715308	0.638546464038235	0.71627582375809	0.998724547996477
+3. Tip-OLS orthogonalized rel_brain_given_le_OLS (beta_OLS=0.258 on 50 tips, tip_cor=0.000)	-3.48437942988442e-17	-0.0630704152765468	0.332226720512121	0.369124177245354	0.875254465530407
+4. Branch-path orthogonalized paths_brain_orth_le (branch_path_cor=0.000)	NA	-3.83608813541875e-17	0.388843564442566	0.433204186390371	0.909461609459188
+5. Per-gene analytical partial correlation r(RER_g, P_Brain | P_LE)	NA	0	0.413527589559294	0.461236488645248	0.93367082326911

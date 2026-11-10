@@ -1,0 +1,13 @@
+metric	value
+r(Rho_LE, Rho_Brain) [seed=20261028, saved files]	0.666303820424148
+r(Rho_LE, Rho_Brain) [seed=999999, rerun]	0.666303820424147
+r(Rho_LE_50sp, Rho_Brain_50sp) [both on identical 50-species RER matrix]	0.747795988499895
+max_abs_diff_Rho_LE (saved vs seed 999999 rerun)	4.9960036108132e-16
+max_abs_diff_Rho_Brain (saved vs seed 999999 rerun)	4.9960036108132e-16
+cor(permP_LE_seed20261028, permP_LE_seed999999)	0.990672957856105
+cor(permP_Brain_seed20261028, permP_Brain_seed999999)	0.993244471064239
+median_abs_diff_permP_LE	0.0259481037924147
+median_abs_diff_permP_Brain	0.0199600798403197
+n_shared_sig_genes_seed20261028 (P<0.05 & permP<0.05 both traits, same sign)	131
+n_shared_sig_genes_seed999999 (P<0.05 & permP<0.05 both traits, same sign)	135
+n_shared_sig_genes_overlap_both_seeds	124

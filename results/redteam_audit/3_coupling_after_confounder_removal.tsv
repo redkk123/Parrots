@@ -1,0 +1,20 @@
+model	n_genes	r_pearson	r_spearman	r_abs_Rho_pearson
+Raw unadjusted Rho (all 7,756 genes)	7756	0.666304	0.632309	0.543046
+OLS residuals after removing 7 linear+log technical covariates	7756	0.653891	0.62186	0.516844
+OLS residuals after removing 14 quadratic+log technical covariates	7756	0.653197	0.622204	0.534888
+Stratified by aln_codons: Q1 (lowest)	1940	0.685595	0.642973	0.606916
+Stratified by aln_codons: Q2	1938	0.657788	0.629995	0.549687
+Stratified by aln_codons: Q3	1939	0.660797	0.624155	0.473903
+Stratified by aln_codons: Q4 (highest)	1939	0.660006	0.635464	0.431574
+Stratified by total_tree_length: Q1 (lowest)	1939	0.657641	0.593039	0.613036
+Stratified by total_tree_length: Q2	1939	0.629698	0.601461	0.404334
+Stratified by total_tree_length: Q3	1939	0.659504	0.643467	0.440439
+Stratified by total_tree_length: Q4 (highest)	1939	0.692031	0.666754	0.498285
+Stratified by gc3: Q1 (lowest)	1939	0.664218	0.602062	0.576667
+Stratified by gc3: Q2	1939	0.666075	0.636577	0.503042
+Stratified by gc3: Q3	1939	0.663554	0.634502	0.562341
+Stratified by gc3: Q4 (highest)	1939	0.668503	0.648207	0.530434
+Stratified by missing_fraction: Q1 (lowest)	1997	0.662415	0.659066	0.579924
+Stratified by missing_fraction: Q2	2044	0.65041	0.634921	0.519309
+Stratified by missing_fraction: Q3	1839	0.649034	0.592104	0.523836
+Stratified by missing_fraction: Q4 (highest)	1876	0.696461	0.647805	0.530006
