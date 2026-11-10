@@ -1,0 +1,33 @@
+tree	clade	module	n_genes	mean_Rho	median_Rho	n_P_lt_0.05	n_permP_lt_0.05	n_panelQ_lt_0.10	sig_genes_nominal
+burgio2019	Psittaculidae	M1	6	-0.062811	-0.083615	0	1	0	
+burgio2019	Psittaculidae	M2	5	0.18215	0.14597	0	0	0	
+burgio2019	Psittaculidae	M3	6	0.15643	0.082051	1	0	0	BBC3(+0.53,p=0.044,permP=0.102)
+burgio2019	Psittaculidae	M4	7	0.0013227	-0.091826	1	0	0	RAD51(+0.40,p=0.046,permP=0.204)
+burgio2019	Psittaculidae	M5	7	0.047426	-0.042726	0	0	0	
+burgio2019	Psittaculidae	M6	12	-0.082983	-0.067813	1	0	0	CAT(-0.65,p=0.009,permP=0.058)
+burgio2019	Psittaculidae	M7	1	0.10548	0.10548	0	0	0	
+burgio2019	Psittaculidae	M8	10	0.080562	0.1403	0	0	0	
+burgio2019	rest	M1	6	-0.025496	-0.04937	1	1	0	MDM4(+0.23,p=0.043,permP=0.064)
+burgio2019	rest	M2	5	-0.044028	-0.04582	1	1	0	PTEN(-0.29,p=0.009,permP=0.034)
+burgio2019	rest	M3	7	-0.026061	0.0079555	2	1	0	MCL1(-0.32,p=0.031,permP=0.012),PMAIP1(+0.25,p=0.027,permP=0.098)
+burgio2019	rest	M4	7	0.027978	0.035997	0	0	0	
+burgio2019	rest	M5	7	-0.076193	-0.12126	0	0	0	
+burgio2019	rest	M6	12	-0.01918	-0.0094244	0	0	0	
+burgio2019	rest	M7	2	-0.095823	-0.095823	0	0	0	
+burgio2019	rest	M8	12	0.042233	0.058165	3	3	2	PSMA2(+0.26,p=0.016,permP=0.068),PSMA3(-0.37,p=0.001,permP=0.002),PSMA4(+0.45,p=0.000,permP=0.002)
+smith2024	Psittaculidae	M1	6	-0.071629	-0.093897	0	1	0	
+smith2024	Psittaculidae	M2	5	0.17856	0.1344	0	1	0	
+smith2024	Psittaculidae	M3	6	0.14978	0.055658	1	0	0	BBC3(+0.52,p=0.048,permP=0.136)
+smith2024	Psittaculidae	M4	7	-0.0015603	-0.098357	0	0	0	
+smith2024	Psittaculidae	M5	7	0.050619	-0.047075	0	0	0	
+smith2024	Psittaculidae	M6	12	-0.089936	-0.080548	1	0	0	CAT(-0.64,p=0.010,permP=0.062)
+smith2024	Psittaculidae	M7	1	0.088511	0.088511	0	0	0	
+smith2024	Psittaculidae	M8	10	0.085195	0.13712	0	0	0	
+smith2024	rest	M1	6	-0.0075271	-0.036419	1	1	0	MDM4(+0.26,p=0.018,permP=0.018)
+smith2024	rest	M2	5	-0.062451	-0.0020417	1	0	0	PTEN(-0.32,p=0.003,permP=0.130)
+smith2024	rest	M3	7	-0.045772	0.0032374	1	1	0	MCL1(-0.38,p=0.010,permP=0.008)
+smith2024	rest	M4	7	0.036277	0.019303	0	0	0	
+smith2024	rest	M5	7	-0.087389	-0.12039	1	0	0	GCLM(-0.24,p=0.045,permP=0.084)
+smith2024	rest	M6	12	-0.0099673	0.0035832	0	0	0	
+smith2024	rest	M7	2	-0.1252	-0.1252	0	0	0	
+smith2024	rest	M8	12	0.040368	0.05539	3	2	0	PSMA2(+0.28,p=0.010,permP=0.144),PSMA3(-0.38,p=0.000,permP=0.016),PSMA4(+0.47,p=0.000,permP=0.006)

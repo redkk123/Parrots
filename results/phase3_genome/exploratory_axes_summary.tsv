@@ -1,0 +1,37 @@
+tree	axis	trait	n_requested	n_present_in_7756	mean_Rho	median_Rho	mw_p_vs_genome	n_nominal_sig	notable_genes
+burgio2019	Neuroprotection_Proteostasis	rel_log_life_expectancy	32	22	0.06267	0.039126	0.045566	3	HSPA8(Rho=+0.40,P=0.000,permP=0.008); HSP90AB1(Rho=+0.25,P=0.021,permP=0.066); SOD1(Rho=+0.22,P=0.027,permP=0.152)
+burgio2019	Neuroprotection_Proteostasis	rel_log_brain	32	22	0.074711	0.067991	0.026788	3	HSPA8(Rho=+0.35,P=0.000,permP=0.030); ULK1(Rho=+0.27,P=0.023,permP=0.096); SOD1(Rho=+0.22,P=0.036,permP=0.142)
+burgio2019	Neuroprotection_Proteostasis	rel_brain_given_le	32	22	0.073075	0.071847	0.030401	3	HSPA8(Rho=+0.35,P=0.001,permP=0.036); ULK1(Rho=+0.27,P=0.021,permP=0.086); SOD1(Rho=+0.21,P=0.042,permP=0.168)
+burgio2019	VocalLearning_Language_Plasticity	rel_log_life_expectancy	25	13	-0.016474	0.0090528	0.61108	1	GAP43(Rho=-0.24,P=0.033,permP=0.128)
+burgio2019	VocalLearning_Language_Plasticity	rel_log_brain	25	13	-0.024209	-0.032477	0.19307	0	
+burgio2019	VocalLearning_Language_Plasticity	rel_brain_given_le	25	13	-0.025005	-0.036518	0.19091	0	
+burgio2019	Antioxidation_Redox	rel_log_life_expectancy	25	22	0.005037	-0.00017635	0.86466	1	SOD1(Rho=+0.22,P=0.027,permP=0.152)
+burgio2019	Antioxidation_Redox	rel_log_brain	25	22	0.0098641	0.0012385	0.80852	2	TXNRD2(Rho=+0.23,P=0.033,permP=0.026); SOD1(Rho=+0.22,P=0.036,permP=0.142)
+burgio2019	Antioxidation_Redox	rel_brain_given_le	25	22	0.011025	0.0024978	0.87645	2	TXNRD2(Rho=+0.23,P=0.029,permP=0.022); SOD1(Rho=+0.21,P=0.042,permP=0.168)
+burgio2019	ExtremeLongevity_NutrientSensing	rel_log_life_expectancy	24	9	0.019034	0.038721	0.69403	0	
+burgio2019	ExtremeLongevity_NutrientSensing	rel_log_brain	24	9	-0.015157	-0.039633	0.38468	0	
+burgio2019	ExtremeLongevity_NutrientSensing	rel_brain_given_le	24	9	-0.01692	-0.041437	0.35916	0	
+burgio2019	Cognition_Synapse_Pallium	rel_log_life_expectancy	24	2	-0.119	-0.119		0	
+burgio2019	Cognition_Synapse_Pallium	rel_log_brain	24	2	-0.016265	-0.016265		0	
+burgio2019	Cognition_Synapse_Pallium	rel_brain_given_le	24	2	-0.0075218	-0.0075218		0	
+burgio2019	AntiCancer_DNARepair_Telomere	rel_log_life_expectancy	25	24	-0.026694	-0.019591	0.29433	1	PTEN(Rho=-0.37,P=0.000,permP=0.008)
+burgio2019	AntiCancer_DNARepair_Telomere	rel_log_brain	25	24	-0.0019225	-0.0081532	0.8003	3	PTEN(Rho=-0.42,P=0.000,permP=0.010); RAD50(Rho=-0.20,P=0.056,permP=0.050); NUDT1(Rho=+0.26,P=0.058,permP=0.050)
+burgio2019	AntiCancer_DNARepair_Telomere	rel_brain_given_le	25	24	0.00050624	-0.0052873	0.84691	3	PTEN(Rho=-0.42,P=0.000,permP=0.010); NUDT1(Rho=+0.27,P=0.046,permP=0.038); RAD50(Rho=-0.20,P=0.053,permP=0.050)
+smith2024	Neuroprotection_Proteostasis	rel_log_life_expectancy	32	22	0.056718	0.043607	0.030555	3	HSPA8(Rho=+0.40,P=0.000,permP=0.012); SOD1(Rho=+0.22,P=0.022,permP=0.142); HSP90AB1(Rho=+0.23,P=0.035,permP=0.092)
+smith2024	Neuroprotection_Proteostasis	rel_log_brain	32	22	0.077661	0.080262	0.014089	3	HSPA8(Rho=+0.36,P=0.000,permP=0.044); ULK1(Rho=+0.26,P=0.025,permP=0.100); SOD1(Rho=+0.23,P=0.031,permP=0.128)
+smith2024	Neuroprotection_Proteostasis	rel_brain_given_le	32	22	0.075963	0.079836	0.016921	3	HSPA8(Rho=+0.35,P=0.000,permP=0.054); ULK1(Rho=+0.26,P=0.024,permP=0.100); SOD1(Rho=+0.22,P=0.036,permP=0.142)
+smith2024	VocalLearning_Language_Plasticity	rel_log_life_expectancy	25	13	-0.020736	0.0014616	0.56179	0	
+smith2024	VocalLearning_Language_Plasticity	rel_log_brain	25	13	-0.015487	-0.017676	0.35114	0	
+smith2024	VocalLearning_Language_Plasticity	rel_brain_given_le	25	13	-0.016146	-0.013463	0.34757	0	
+smith2024	Antioxidation_Redox	rel_log_life_expectancy	25	22	0.0021319	0.0021906	0.94105	1	SOD1(Rho=+0.22,P=0.022,permP=0.142)
+smith2024	Antioxidation_Redox	rel_log_brain	25	22	0.0078597	-0.001898	0.7797	2	TXNRD2(Rho=+0.23,P=0.027,permP=0.044); SOD1(Rho=+0.23,P=0.031,permP=0.128)
+smith2024	Antioxidation_Redox	rel_brain_given_le	25	22	0.0090947	0.00092549	0.84118	2	TXNRD2(Rho=+0.24,P=0.023,permP=0.036); SOD1(Rho=+0.22,P=0.036,permP=0.142)
+smith2024	ExtremeLongevity_NutrientSensing	rel_log_life_expectancy	24	9	0.012904	0.0097746	0.72173	0	
+smith2024	ExtremeLongevity_NutrientSensing	rel_log_brain	24	9	-0.016643	-0.048522	0.37723	0	
+smith2024	ExtremeLongevity_NutrientSensing	rel_brain_given_le	24	9	-0.017815	-0.045682	0.35473	0	
+smith2024	Cognition_Synapse_Pallium	rel_log_life_expectancy	24	2	-0.12896	-0.12896		0	
+smith2024	Cognition_Synapse_Pallium	rel_log_brain	24	2	-0.044114	-0.044114		0	
+smith2024	Cognition_Synapse_Pallium	rel_brain_given_le	24	2	-0.036147	-0.036147		0	
+smith2024	AntiCancer_DNARepair_Telomere	rel_log_life_expectancy	25	24	-0.032899	-0.0076722	0.34124	2	PTEN(Rho=-0.39,P=0.000,permP=0.018); TERF2IP(Rho=-0.27,P=0.040,permP=0.040)
+smith2024	AntiCancer_DNARepair_Telomere	rel_log_brain	25	24	-0.0037894	-0.0011443	0.97301	3	PTEN(Rho=-0.47,P=0.000,permP=0.004); RAD50(Rho=-0.22,P=0.033,permP=0.030); DKC1(Rho=-0.22,P=0.049,permP=0.158)
+smith2024	AntiCancer_DNARepair_Telomere	rel_brain_given_le	25	24	-0.0010962	-0.00087928	0.98343	3	PTEN(Rho=-0.47,P=0.000,permP=0.004); RAD50(Rho=-0.23,P=0.029,permP=0.026); NUDT1(Rho=+0.25,P=0.065,permP=0.042)

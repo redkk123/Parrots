@@ -82,5 +82,19 @@ Terminou às 00:14 (`results/phase2_genes/DONE`), com o nulo da H8 (298 genes). 
 - Nulo: só a média de log2 k do M2 dá p < 0,05 (0,024). Não sobrevive à correção para 16 testes, depende de TSC2 e CCNE1 com k no limite, e com a mediana vira p = 0,07.
 - Sinal mais consistente: seleção episódica em genes de telômero no ramo do periquito; TERT intensificado em Psittaculidae (alinhamento com 15 espécies).
 - Integridade: nenhuma perda confirmada. Checagem com reads só em *L. galgulus* (PSMD6, ACD), *A. personatus* (PSMD6) e *P. erithacus* (ACD); *P. timneh* e *Myiopsitta* foram inferidos pelo contexto GC.
-- RERconverge: a instalação no `.renv45` falhou por dependências (gplots, geiger, knitr, weights, ggplot2, dplyr, FSA, castor, TreeTools, impute [Bioconductor], ggtree [Bioconductor]). Instalar essas primeiro (BiocManager para impute e ggtree) e depois o RERconverge.
+
+## Projeto concluído de ponta a ponta (10 nov. 2026)
+
+Todas as três fases (Fase 1: auditoria das 126 montagens; Fase 2: painel de 101 genes + nulo de 298 genes + checagem com segunda referência e reads; Fase 3: `RERconverge` em 7.756 genes nas duas árvores com 1.000 permulações, GO BP e 6 eixos exploratórios) estão **100 % concluídas**:
+
+1. **Fase 1 — Auditoria completa (126/126 montagens, `compleasm` `aves_odb10`):**
+   - `results/phase1_audit/audit_summary.tsv` (126 montagens: 96 Iridian + 30 não-Iridian) e `results/phase1_audit/species_genomes.tsv` (**71 espécies incluídas**, 20 Psittaculidae e 51 outros Psittaciformes; 54 aprovadas na sensibilidade de identidade; 33 no critério original estrito; 24 pares-irmãos auditados na árvore de Smith 2024).
+   - Sem associação PGLS entre qualidade de montagem (`busco_C`, `contig_n50`, `gc`, desvio de tamanho) e longevidade relativa (`results/phase1_audit/quality_vs_longevity.tsv`, $p \ge 0{,}11$).
+   - Relatório final: `results/phase1_audit/audit_report.md`. Figura suplementar: `results/phase1_audit/figS1_audit_126_assemblies.png`.
+2. **Fase 2 — Painel de 101 genes (M1–M8), nulo genômico de 298 genes e integridade (58 espécies congeladas):**
+   - Relatório: `results/phase2_genes/phase2_report.md`. Figura principal: `results/phase2_genes/fig5_phase2_selection_h8.png`.
+3. **Fase 3 — `RERconverge` no genoma todo (7.756 genes, árvores Burgio 2019 e Smith 2024, 1.000 permulações filogenéticas):**
+   - `RERconverge` v0.3.0 compilado em `.renv45` (`CXX17`) e acelerado com `Rcpp` exato (`fastCorPerms`, validado contra `getAllCor` com erro máximo de $3{,}05 \times 10^{-16}$).
+   - Tabelas completas de H6 (`rer_{burgio2019,smith2024}_{rel_log_life_expectancy,rel_log_brain,rel_brain_given_le}.tsv`), enriquecimento GO BP (`rer_*_enrichment_*.tsv`, 1.780 termos avaliados a partir de `data/external/go/go_bp.gmt`), H8 intra-clado (`rer_{burgio2019,smith2024}_h8_{Psittaculidae,rest}.tsv` e `*_panel.tsv`) e sínteses (`h6_genome_summary.tsv`, `h6_top_genes.tsv`, `h6_shared_longevity_brain.tsv`, `h8_within_clade_summary.tsv`, `exploratory_axes_genes.tsv`, `exploratory_axes_summary.tsv`).
+   - Relatório completo e síntese para manuscrito: **`results/phase3_genome/phase3_report.md`**. Figura principal: **`results/phase3_genome/fig6_phase3_genome_rer.png`**.
 

@@ -1,0 +1,11 @@
+tree	trait	n_genes	median_N_branches	n_padj_lt_0.10	n_permQ_lt_0.10	n_P_lt_0.01	n_permP_lt_0.01	n_both_P01_permP05	top_pos_gene	top_pos_Rho	top_neg_gene	top_neg_Rho
+burgio2019	rel_log_life_expectancy	7756	97	252	0	322	201	287	YWHAQ	0.56681	LOC101871916	-0.52469
+burgio2019	rel_log_brain	7756	85	190	0	286	86	207	MAD2L2	0.53446	TOMM20	-0.49778
+burgio2019	rel_brain_given_le	7756	85	182	0	278	84	194	MAD2L2	0.53416	TOMM20	-0.48637
+burgio2019	h8_Psittaculidae	7045	23	0	0	80	66	62	USP37	0.76614	UQCRFS1	-0.71735
+burgio2019	h8_rest	7756	73	293	0	365	259	324	SKIC8	0.63597	HNRNPD	-0.46105
+smith2024	rel_log_life_expectancy	7756	97	277	0	324	116	241	UBL3	0.55955	NR2F2	-0.52571
+smith2024	rel_log_brain	7756	85	213	0	295	101	215	MAD2L2	0.56562	SSU72	-0.52373
+smith2024	rel_brain_given_le	7756	85	205	0	289	98	203	MAD2L2	0.56464	SSU72	-0.51831
+smith2024	h8_Psittaculidae	7045	23	0	0	80	64	60	USP37	0.78228	DECR2	-0.75316
+smith2024	h8_rest	7756	73	319	0	389	200	293	SKIC8	0.68962	HNRNPD	-0.49347
