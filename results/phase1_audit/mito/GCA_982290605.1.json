@@ -1,0 +1,38 @@
+{
+ "accession": "GCA_982290605.1",
+ "claimed": "Poicephalus rueppellii",
+ "own_reference_genes": [
+  "COX1",
+  "CYTB"
+ ],
+ "contigs": {
+  "CEVIUW010021616.1": {
+   "len": 32601521,
+   "gc": 39.8,
+   "genes": {
+    "CYTB": {
+     "class": "foreign",
+     "top_species": "Poicephalus_robustus",
+     "top_pid": 98.474,
+     "claimed_pid": 92.21
+    },
+    "COX1": {
+     "class": "foreign",
+     "top_species": "Poicephalus_gulielmi",
+     "top_pid": 98.574,
+     "claimed_pid": null
+    }
+   }
+  }
+ },
+ "own_genes": [],
+ "foreign_species": [
+  "Poicephalus_gulielmi",
+  "Poicephalus_robustus"
+ ],
+ "foreign_contigs": [
+  "CEVIUW010021616.1"
+ ],
+ "best_own_pid": null,
+ "overall": "conflict"
+}
